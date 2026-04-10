@@ -1,111 +1,15 @@
 {
   "date": "2026-04-10",
-  "last_updated": "2026-04-10T17:14:37.858800Z",
+  "last_updated": "2026-04-10T17:58:36.708311Z",
   "games": [
-    {
-      "game_id": 824695,
-      "start_time": "2026-04-10T18:20:00Z",
-      "away": "Pittsburgh Pirates",
-      "home": "Chicago Cubs",
-      "venue": "Wrigley Field"
-    },
-    {
-      "game_id": 823482,
-      "start_time": "2026-04-10T22:40:00Z",
-      "away": "Arizona Diamondbacks",
-      "home": "Philadelphia Phillies",
-      "venue": "Citizens Bank Park"
-    },
-    {
-      "game_id": 824297,
-      "start_time": "2026-04-10T22:40:00Z",
-      "away": "Miami Marlins",
-      "home": "Detroit Tigers",
-      "venue": "Comerica Park"
-    },
-    {
-      "game_id": 824534,
-      "start_time": "2026-04-10T22:45:00Z",
-      "away": "Los Angeles Angels",
-      "home": "Cincinnati Reds",
-      "venue": "Great American Ball Park"
-    },
-    {
-      "game_id": 822829,
-      "start_time": "2026-04-10T23:07:00Z",
-      "away": "Minnesota Twins",
-      "home": "Toronto Blue Jays",
-      "venue": "Rogers Centre"
-    },
-    {
-      "game_id": 823643,
-      "start_time": "2026-04-10T23:10:00Z",
-      "away": "Athletics",
-      "home": "New York Mets",
-      "venue": "Citi Field"
-    },
-    {
-      "game_id": 822997,
-      "start_time": "2026-04-10T23:10:00Z",
-      "away": "New York Yankees",
-      "home": "Tampa Bay Rays",
-      "venue": "Tropicana Field"
-    },
-    {
-      "game_id": 824858,
-      "start_time": "2026-04-10T23:15:00Z",
-      "away": "San Francisco Giants",
-      "home": "Baltimore Orioles",
-      "venue": "Oriole Park at Camden Yards"
-    },
-    {
-      "game_id": 824941,
-      "start_time": "2026-04-10T23:15:00Z",
-      "away": "Cleveland Guardians",
-      "home": "Atlanta Braves",
-      "venue": "Truist Park"
-    },
-    {
-      "game_id": 824128,
-      "start_time": "2026-04-10T23:40:00Z",
-      "away": "Chicago White Sox",
-      "home": "Kansas City Royals",
-      "venue": "Kauffman Stadium"
-    },
-    {
-      "game_id": 823808,
-      "start_time": "2026-04-10T23:40:00Z",
-      "away": "Washington Nationals",
-      "home": "Milwaukee Brewers",
-      "venue": "American Family Field"
-    },
-    {
-      "game_id": 823076,
-      "start_time": "2026-04-11T00:15:00Z",
-      "away": "Boston Red Sox",
-      "home": "St. Louis Cardinals",
-      "venue": "Busch Stadium"
-    },
-    {
-      "game_id": 823318,
-      "start_time": "2026-04-11T01:40:00Z",
-      "away": "Colorado Rockies",
-      "home": "San Diego Padres",
-      "venue": "Petco Park"
-    },
-    {
-      "game_id": 823156,
-      "start_time": "2026-04-11T01:40:00Z",
-      "away": "Houston Astros",
-      "home": "Seattle Mariners",
-      "venue": "T-Mobile Park"
-    },
     {
       "game_id": 823968,
       "start_time": "2026-04-11T02:10:00Z",
       "away": "Texas Rangers",
       "home": "Los Angeles Dodgers",
-      "venue": "UNIQLO Field at Dodger Stadium"
+      "venue": "UNIQLO Field at Dodger Stadium",
+      "away_starter": "Kumar Rocker",
+      "home_starter": "Tyler Glasnow"
     }
   ],
   "disclaimer": "This dashboard is provided for informational and educational purposes only. The information displayed may be inaccurate or change without notice. This does not constitute gambling, betting, or financial advice. Use at your own risk."
