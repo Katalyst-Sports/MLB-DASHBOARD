@@ -1,6 +1,6 @@
 {
   "date": "2026-04-10",
-  "last_updated": "2026-04-10T18:59:50.634946Z",
+  "last_updated": "2026-04-10T19:15:53.419140Z",
   "game_count": 15,
   "games": [
     {
@@ -11,12 +11,28 @@
       "venue": "Wrigley Field",
       "away_starter": "Carmen Mlodzinski",
       "home_starter": "Shota Imanaga",
-      "away_starter_status": "confirmed",
-      "home_starter_status": "confirmed",
-      "away_pitch_hand": "N/A",
-      "home_pitch_hand": "N/A",
+      "away_status": "confirmed",
+      "home_status": "confirmed",
+      "away_pitcher_context": {
+        "hand": "N/A",
+        "workload": "5\u20136 innings",
+        "workload_frequency": "Longer outings less frequent",
+        "strikeouts": "4\u20136",
+        "strikeout_frequency": "Upper\u2011end games occasional"
+      },
+      "home_pitcher_context": {
+        "hand": "N/A",
+        "workload": "5\u20136 innings",
+        "workload_frequency": "Longer outings less frequent",
+        "strikeouts": "4\u20136",
+        "strikeout_frequency": "Upper\u2011end games occasional"
+      },
+      "hitter_bases_outlook": {
+        "expected_range": "1\u20132 total bases",
+        "upper_range": "Higher outputs less frequent"
+      },
       "park_factor": "Neutral",
-      "weather": "Open Air (Weather Variable)"
+      "weather": "Open Air (variable conditions)"
     },
     {
       "game_id": 823482,
@@ -26,12 +42,28 @@
       "venue": "Citizens Bank Park",
       "away_starter": "Michael Soroka",
       "home_starter": "Jes\u00fas Luzardo",
-      "away_starter_status": "confirmed",
-      "home_starter_status": "confirmed",
-      "away_pitch_hand": "N/A",
-      "home_pitch_hand": "N/A",
+      "away_status": "confirmed",
+      "home_status": "confirmed",
+      "away_pitcher_context": {
+        "hand": "N/A",
+        "workload": "5\u20136 innings",
+        "workload_frequency": "Longer outings less frequent",
+        "strikeouts": "4\u20136",
+        "strikeout_frequency": "Upper\u2011end games occasional"
+      },
+      "home_pitcher_context": {
+        "hand": "N/A",
+        "workload": "5\u20136 innings",
+        "workload_frequency": "Longer outings less frequent",
+        "strikeouts": "4\u20136",
+        "strikeout_frequency": "Upper\u2011end games occasional"
+      },
+      "hitter_bases_outlook": {
+        "expected_range": "1\u20132 total bases",
+        "upper_range": "Higher outputs less frequent"
+      },
       "park_factor": "Hitter Friendly",
-      "weather": "Open Air (Weather Variable)"
+      "weather": "Open Air (variable conditions)"
     },
     {
       "game_id": 824297,
@@ -41,12 +73,28 @@
       "venue": "Comerica Park",
       "away_starter": "Chris Paddack",
       "home_starter": "Keider Montero",
-      "away_starter_status": "confirmed",
-      "home_starter_status": "confirmed",
-      "away_pitch_hand": "N/A",
-      "home_pitch_hand": "N/A",
+      "away_status": "confirmed",
+      "home_status": "confirmed",
+      "away_pitcher_context": {
+        "hand": "N/A",
+        "workload": "5\u20136 innings",
+        "workload_frequency": "Longer outings less frequent",
+        "strikeouts": "4\u20136",
+        "strikeout_frequency": "Upper\u2011end games occasional"
+      },
+      "home_pitcher_context": {
+        "hand": "N/A",
+        "workload": "5\u20136 innings",
+        "workload_frequency": "Longer outings less frequent",
+        "strikeouts": "4\u20136",
+        "strikeout_frequency": "Upper\u2011end games occasional"
+      },
+      "hitter_bases_outlook": {
+        "expected_range": "1\u20132 total bases",
+        "upper_range": "Higher outputs less frequent"
+      },
       "park_factor": "Neutral",
-      "weather": "Open Air (Weather Variable)"
+      "weather": "Open Air (variable conditions)"
     },
     {
       "game_id": 824534,
@@ -56,12 +104,28 @@
       "venue": "Great American Ball Park",
       "away_starter": "Jack Kochanowicz",
       "home_starter": "Chase Burns",
-      "away_starter_status": "confirmed",
-      "home_starter_status": "confirmed",
-      "away_pitch_hand": "N/A",
-      "home_pitch_hand": "N/A",
+      "away_status": "confirmed",
+      "home_status": "confirmed",
+      "away_pitcher_context": {
+        "hand": "N/A",
+        "workload": "5\u20136 innings",
+        "workload_frequency": "Longer outings less frequent",
+        "strikeouts": "4\u20136",
+        "strikeout_frequency": "Upper\u2011end games occasional"
+      },
+      "home_pitcher_context": {
+        "hand": "N/A",
+        "workload": "5\u20136 innings",
+        "workload_frequency": "Longer outings less frequent",
+        "strikeouts": "4\u20136",
+        "strikeout_frequency": "Upper\u2011end games occasional"
+      },
+      "hitter_bases_outlook": {
+        "expected_range": "1\u20132 total bases",
+        "upper_range": "Higher outputs less frequent"
+      },
       "park_factor": "Hitter Friendly",
-      "weather": "Open Air (Weather Variable)"
+      "weather": "Open Air (variable conditions)"
     },
     {
       "game_id": 822829,
@@ -71,12 +135,28 @@
       "venue": "Rogers Centre",
       "away_starter": "Simeon Woods Richardson",
       "home_starter": "Patrick Corbin",
-      "away_starter_status": "confirmed",
-      "home_starter_status": "confirmed",
-      "away_pitch_hand": "N/A",
-      "home_pitch_hand": "N/A",
+      "away_status": "confirmed",
+      "home_status": "confirmed",
+      "away_pitcher_context": {
+        "hand": "N/A",
+        "workload": "5\u20136 innings",
+        "workload_frequency": "Longer outings less frequent",
+        "strikeouts": "4\u20136",
+        "strikeout_frequency": "Upper\u2011end games occasional"
+      },
+      "home_pitcher_context": {
+        "hand": "N/A",
+        "workload": "5\u20136 innings",
+        "workload_frequency": "Longer outings less frequent",
+        "strikeouts": "4\u20136",
+        "strikeout_frequency": "Upper\u2011end games occasional"
+      },
+      "hitter_bases_outlook": {
+        "expected_range": "1\u20132 total bases",
+        "upper_range": "Higher outputs less frequent"
+      },
       "park_factor": "Neutral",
-      "weather": "Roof Closed"
+      "weather": "Roof Controlled"
     },
     {
       "game_id": 823643,
@@ -86,12 +166,28 @@
       "venue": "Citi Field",
       "away_starter": "J.T. Ginn",
       "home_starter": "Clay Holmes",
-      "away_starter_status": "confirmed",
-      "home_starter_status": "confirmed",
-      "away_pitch_hand": "N/A",
-      "home_pitch_hand": "N/A",
+      "away_status": "confirmed",
+      "home_status": "confirmed",
+      "away_pitcher_context": {
+        "hand": "N/A",
+        "workload": "5\u20136 innings",
+        "workload_frequency": "Longer outings less frequent",
+        "strikeouts": "4\u20136",
+        "strikeout_frequency": "Upper\u2011end games occasional"
+      },
+      "home_pitcher_context": {
+        "hand": "N/A",
+        "workload": "5\u20136 innings",
+        "workload_frequency": "Longer outings less frequent",
+        "strikeouts": "4\u20136",
+        "strikeout_frequency": "Upper\u2011end games occasional"
+      },
+      "hitter_bases_outlook": {
+        "expected_range": "1\u20132 total bases",
+        "upper_range": "Higher outputs less frequent"
+      },
       "park_factor": "Neutral",
-      "weather": "Open Air (Weather Variable)"
+      "weather": "Open Air (variable conditions)"
     },
     {
       "game_id": 822997,
@@ -101,12 +197,28 @@
       "venue": "Tropicana Field",
       "away_starter": "Luis Gil",
       "home_starter": "Steven Matz",
-      "away_starter_status": "confirmed",
-      "home_starter_status": "confirmed",
-      "away_pitch_hand": "N/A",
-      "home_pitch_hand": "N/A",
+      "away_status": "confirmed",
+      "home_status": "confirmed",
+      "away_pitcher_context": {
+        "hand": "N/A",
+        "workload": "5\u20136 innings",
+        "workload_frequency": "Longer outings less frequent",
+        "strikeouts": "4\u20136",
+        "strikeout_frequency": "Upper\u2011end games occasional"
+      },
+      "home_pitcher_context": {
+        "hand": "N/A",
+        "workload": "5\u20136 innings",
+        "workload_frequency": "Longer outings less frequent",
+        "strikeouts": "4\u20136",
+        "strikeout_frequency": "Upper\u2011end games occasional"
+      },
+      "hitter_bases_outlook": {
+        "expected_range": "1\u20132 total bases",
+        "upper_range": "Higher outputs less frequent"
+      },
       "park_factor": "Pitcher Friendly",
-      "weather": "Roof Closed"
+      "weather": "Roof Controlled"
     },
     {
       "game_id": 824858,
@@ -116,12 +228,28 @@
       "venue": "Oriole Park at Camden Yards",
       "away_starter": "Landen Roupp",
       "home_starter": "Shane Baz",
-      "away_starter_status": "confirmed",
-      "home_starter_status": "confirmed",
-      "away_pitch_hand": "N/A",
-      "home_pitch_hand": "N/A",
+      "away_status": "confirmed",
+      "home_status": "confirmed",
+      "away_pitcher_context": {
+        "hand": "N/A",
+        "workload": "5\u20136 innings",
+        "workload_frequency": "Longer outings less frequent",
+        "strikeouts": "4\u20136",
+        "strikeout_frequency": "Upper\u2011end games occasional"
+      },
+      "home_pitcher_context": {
+        "hand": "N/A",
+        "workload": "5\u20136 innings",
+        "workload_frequency": "Longer outings less frequent",
+        "strikeouts": "4\u20136",
+        "strikeout_frequency": "Upper\u2011end games occasional"
+      },
+      "hitter_bases_outlook": {
+        "expected_range": "1\u20132 total bases",
+        "upper_range": "Higher outputs less frequent"
+      },
       "park_factor": "Neutral",
-      "weather": "Open Air (Weather Variable)"
+      "weather": "Open Air (variable conditions)"
     },
     {
       "game_id": 824941,
@@ -131,12 +259,28 @@
       "venue": "Truist Park",
       "away_starter": "Slade Cecconi",
       "home_starter": "Bryce Elder",
-      "away_starter_status": "confirmed",
-      "home_starter_status": "confirmed",
-      "away_pitch_hand": "N/A",
-      "home_pitch_hand": "N/A",
+      "away_status": "confirmed",
+      "home_status": "confirmed",
+      "away_pitcher_context": {
+        "hand": "N/A",
+        "workload": "5\u20136 innings",
+        "workload_frequency": "Longer outings less frequent",
+        "strikeouts": "4\u20136",
+        "strikeout_frequency": "Upper\u2011end games occasional"
+      },
+      "home_pitcher_context": {
+        "hand": "N/A",
+        "workload": "5\u20136 innings",
+        "workload_frequency": "Longer outings less frequent",
+        "strikeouts": "4\u20136",
+        "strikeout_frequency": "Upper\u2011end games occasional"
+      },
+      "hitter_bases_outlook": {
+        "expected_range": "1\u20132 total bases",
+        "upper_range": "Higher outputs less frequent"
+      },
       "park_factor": "Neutral",
-      "weather": "Open Air (Weather Variable)"
+      "weather": "Open Air (variable conditions)"
     },
     {
       "game_id": 824128,
@@ -146,12 +290,28 @@
       "venue": "Kauffman Stadium",
       "away_starter": "Davis Martin",
       "home_starter": "Kris Bubic",
-      "away_starter_status": "confirmed",
-      "home_starter_status": "confirmed",
-      "away_pitch_hand": "N/A",
-      "home_pitch_hand": "N/A",
+      "away_status": "confirmed",
+      "home_status": "confirmed",
+      "away_pitcher_context": {
+        "hand": "N/A",
+        "workload": "5\u20136 innings",
+        "workload_frequency": "Longer outings less frequent",
+        "strikeouts": "4\u20136",
+        "strikeout_frequency": "Upper\u2011end games occasional"
+      },
+      "home_pitcher_context": {
+        "hand": "N/A",
+        "workload": "5\u20136 innings",
+        "workload_frequency": "Longer outings less frequent",
+        "strikeouts": "4\u20136",
+        "strikeout_frequency": "Upper\u2011end games occasional"
+      },
+      "hitter_bases_outlook": {
+        "expected_range": "1\u20132 total bases",
+        "upper_range": "Higher outputs less frequent"
+      },
       "park_factor": "Neutral",
-      "weather": "Open Air (Weather Variable)"
+      "weather": "Open Air (variable conditions)"
     },
     {
       "game_id": 823808,
@@ -161,12 +321,28 @@
       "venue": "American Family Field",
       "away_starter": "Jake Irvin",
       "home_starter": "Aaron Ashby",
-      "away_starter_status": "confirmed",
-      "home_starter_status": "confirmed",
-      "away_pitch_hand": "N/A",
-      "home_pitch_hand": "N/A",
+      "away_status": "confirmed",
+      "home_status": "confirmed",
+      "away_pitcher_context": {
+        "hand": "N/A",
+        "workload": "5\u20136 innings",
+        "workload_frequency": "Longer outings less frequent",
+        "strikeouts": "4\u20136",
+        "strikeout_frequency": "Upper\u2011end games occasional"
+      },
+      "home_pitcher_context": {
+        "hand": "N/A",
+        "workload": "5\u20136 innings",
+        "workload_frequency": "Longer outings less frequent",
+        "strikeouts": "4\u20136",
+        "strikeout_frequency": "Upper\u2011end games occasional"
+      },
+      "hitter_bases_outlook": {
+        "expected_range": "1\u20132 total bases",
+        "upper_range": "Higher outputs less frequent"
+      },
       "park_factor": "Neutral",
-      "weather": "Open Air (Weather Variable)"
+      "weather": "Open Air (variable conditions)"
     },
     {
       "game_id": 823076,
@@ -176,12 +352,28 @@
       "venue": "Busch Stadium",
       "away_starter": "Connelly Early",
       "home_starter": "Dustin May",
-      "away_starter_status": "confirmed",
-      "home_starter_status": "confirmed",
-      "away_pitch_hand": "N/A",
-      "home_pitch_hand": "N/A",
+      "away_status": "confirmed",
+      "home_status": "confirmed",
+      "away_pitcher_context": {
+        "hand": "N/A",
+        "workload": "5\u20136 innings",
+        "workload_frequency": "Longer outings less frequent",
+        "strikeouts": "4\u20136",
+        "strikeout_frequency": "Upper\u2011end games occasional"
+      },
+      "home_pitcher_context": {
+        "hand": "N/A",
+        "workload": "5\u20136 innings",
+        "workload_frequency": "Longer outings less frequent",
+        "strikeouts": "4\u20136",
+        "strikeout_frequency": "Upper\u2011end games occasional"
+      },
+      "hitter_bases_outlook": {
+        "expected_range": "1\u20132 total bases",
+        "upper_range": "Higher outputs less frequent"
+      },
       "park_factor": "Neutral",
-      "weather": "Open Air (Weather Variable)"
+      "weather": "Open Air (variable conditions)"
     },
     {
       "game_id": 823318,
@@ -191,12 +383,28 @@
       "venue": "Petco Park",
       "away_starter": "Tomoyuki Sugano",
       "home_starter": "Walker Buehler",
-      "away_starter_status": "confirmed",
-      "home_starter_status": "confirmed",
-      "away_pitch_hand": "N/A",
-      "home_pitch_hand": "N/A",
+      "away_status": "confirmed",
+      "home_status": "confirmed",
+      "away_pitcher_context": {
+        "hand": "N/A",
+        "workload": "5\u20136 innings",
+        "workload_frequency": "Longer outings less frequent",
+        "strikeouts": "4\u20136",
+        "strikeout_frequency": "Upper\u2011end games occasional"
+      },
+      "home_pitcher_context": {
+        "hand": "N/A",
+        "workload": "5\u20136 innings",
+        "workload_frequency": "Longer outings less frequent",
+        "strikeouts": "4\u20136",
+        "strikeout_frequency": "Upper\u2011end games occasional"
+      },
+      "hitter_bases_outlook": {
+        "expected_range": "1\u20132 total bases",
+        "upper_range": "Higher outputs less frequent"
+      },
       "park_factor": "Pitcher Friendly",
-      "weather": "Open Air (Weather Variable)"
+      "weather": "Open Air (variable conditions)"
     },
     {
       "game_id": 823156,
@@ -206,12 +414,28 @@
       "venue": "T-Mobile Park",
       "away_starter": "Tatsuya Imai",
       "home_starter": "Emerson Hancock",
-      "away_starter_status": "confirmed",
-      "home_starter_status": "confirmed",
-      "away_pitch_hand": "N/A",
-      "home_pitch_hand": "N/A",
+      "away_status": "confirmed",
+      "home_status": "confirmed",
+      "away_pitcher_context": {
+        "hand": "N/A",
+        "workload": "5\u20136 innings",
+        "workload_frequency": "Longer outings less frequent",
+        "strikeouts": "4\u20136",
+        "strikeout_frequency": "Upper\u2011end games occasional"
+      },
+      "home_pitcher_context": {
+        "hand": "N/A",
+        "workload": "5\u20136 innings",
+        "workload_frequency": "Longer outings less frequent",
+        "strikeouts": "4\u20136",
+        "strikeout_frequency": "Upper\u2011end games occasional"
+      },
+      "hitter_bases_outlook": {
+        "expected_range": "1\u20132 total bases",
+        "upper_range": "Higher outputs less frequent"
+      },
       "park_factor": "Pitcher Friendly",
-      "weather": "Open Air (Weather Variable)"
+      "weather": "Open Air (variable conditions)"
     },
     {
       "game_id": 823968,
@@ -221,13 +445,29 @@
       "venue": "UNIQLO Field at Dodger Stadium",
       "away_starter": "Kumar Rocker",
       "home_starter": "Tyler Glasnow",
-      "away_starter_status": "confirmed",
-      "home_starter_status": "confirmed",
-      "away_pitch_hand": "N/A",
-      "home_pitch_hand": "N/A",
+      "away_status": "confirmed",
+      "home_status": "confirmed",
+      "away_pitcher_context": {
+        "hand": "N/A",
+        "workload": "5\u20136 innings",
+        "workload_frequency": "Longer outings less frequent",
+        "strikeouts": "4\u20136",
+        "strikeout_frequency": "Upper\u2011end games occasional"
+      },
+      "home_pitcher_context": {
+        "hand": "N/A",
+        "workload": "5\u20136 innings",
+        "workload_frequency": "Longer outings less frequent",
+        "strikeouts": "4\u20136",
+        "strikeout_frequency": "Upper\u2011end games occasional"
+      },
+      "hitter_bases_outlook": {
+        "expected_range": "1\u20132 total bases",
+        "upper_range": "Higher outputs less frequent"
+      },
       "park_factor": "Neutral",
-      "weather": "Open Air (Weather Variable)"
+      "weather": "Open Air (variable conditions)"
     }
   ],
-  "disclaimer": "This dashboard is for informational and educational purposes only. All data reflects publicly available MLB information and may change without notice. This does not constitute gambling, betting, or financial advice."
+  "disclaimer": "This dashboard provides descriptive performance context only. Ranges and frequency labels reflect historical and situational patterns, not guarantees or recommendations."
 }
