@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-10T15:43:21.178327-04:00",
+  "generated_at": "2026-04-10T15:47:08.245946-04:00",
   "games": [
     {
       "start_time": "2026-04-10T18:20:00Z",
@@ -55,6 +55,26 @@
       },
       "home_pitcher": {
         "name": "Keider Montero",
+        "hand": "R",
+        "status": "confirmed",
+        "lineup_type": "projected",
+        "hitters": []
+      }
+    },
+    {
+      "start_time": "2026-04-10T22:45:00Z",
+      "venue": "Great American Ball Park",
+      "away_team": "Los Angeles Angels",
+      "home_team": "Cincinnati Reds",
+      "away_pitcher": {
+        "name": "Jack Kochanowicz",
+        "hand": "R",
+        "status": "confirmed",
+        "lineup_type": "projected",
+        "hitters": []
+      },
+      "home_pitcher": {
+        "name": "Chase Burns",
         "hand": "R",
         "status": "confirmed",
         "lineup_type": "projected",
