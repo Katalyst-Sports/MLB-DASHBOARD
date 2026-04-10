@@ -6,44 +6,25 @@
 
   <style>
     body {
-      font-family: system-ui, -apple-system, sans-serif;
+      font-family: system-ui, sans-serif;
       background: #f6f7f9;
       padding: 24px;
-      max-width: 1100px;
+      max-width: 1200px;
       margin: auto;
     }
 
-    h1 {
-      margin-bottom: 20px;
-    }
-
-    h2 {
-      margin-top: 32px;
-      cursor: pointer;
-    }
+    h1 { margin-bottom: 20px; }
+    h2 { margin-top: 32px; cursor: pointer; }
 
     .card {
-      background: #ffffff;
-      padding: 16px 18px;
+      background: white;
+      padding: 16px;
       border-radius: 12px;
       margin-bottom: 14px;
       box-shadow: 0 2px 6px rgba(0,0,0,0.08);
     }
 
-    .game-title {
-      font-weight: 600;
-      font-size: 16px;
-      margin-bottom: 6px;
-    }
-
-    .game-meta {
-      font-size: 14px;
-      color: #444;
-      line-height: 1.5;
-    }
-
     .badge {
-      display: inline-block;
       padding: 2px 8px;
       border-radius: 999px;
       font-size: 12px;
@@ -51,15 +32,10 @@
       margin-left: 6px;
     }
 
-    .badge-confirmed {
-      background: #16a34a;
-      color: white;
-    }
+    .confirmed { background: #16a34a; color: white; }
+    .monitor { background: #fbbf24; color: black; }
 
-    .badge-tbd {
-      background: #e5e7eb;
-      color: #374151;
-    }
+    .meta { font-size: 14px; color: #444; line-height: 1.5; }
 
     footer {
       font-size: 12px;
@@ -67,7 +43,6 @@
       margin-top: 48px;
       padding-top: 16px;
       border-top: 1px solid #ccc;
-      line-height: 1.4;
     }
   </style>
 </head>
@@ -80,96 +55,68 @@
 
 <footer>
   <strong>Disclaimer:</strong><br>
-  This dashboard is provided for informational and educational purposes only.
-  The information displayed may be inaccurate, incomplete, or change at any time.
-  MLB schedules, starting pitchers, and lineups are subject to change without notice.
-  This dashboard does not constitute gambling, betting, or financial advice.
-  Users are solely responsible for verifying information independently and for
-  any decisions they make based on this content.
-  <br><br>
-  <em>This dashboard is a personal analytical tool and is not intended for commercial use or distribution.</em>
+  This dashboard is for informational purposes only. Data may be incomplete or change at any time.
+  No betting, gambling, or financial advice is provided.
 </footer>
 
 <script>
-  function timeBucket(dateString) {
-    const hour = new Date(dateString).getHours();
-    if (hour < 13) return "Early Games";
-    if (hour < 18) return "Afternoon Games";
-    return "Evening Games";
-  }
+function timeBucket(dateStr) {
+  const h = new Date(dateStr).getHours();
+  if (h < 13) return "Early Games";
+  if (h < 18) return "Afternoon Games";
+  return "Evening Games";
+}
 
-  fetch("/MLB-DASHBOARD/daily.json?nocache=" + Date.now())
-    .then(res => {
-      if (!res.ok) throw new Error("Failed to load daily.json");
-      return res.json();
-    })
-    .then(data => {
-      const container = document.getElementById("content");
-      container.innerHTML = "";
+fetch("/MLB-DASHBOARD/daily.json?nocache=" + Date.now())
+  .then(r => r.json())
+  .then(data => {
+    const container = document.getElementById("content");
+    container.innerHTML = "";
 
-      if (!data.games || data.games.length === 0) {
-        container.innerText = "No MLB games scheduled today.";
-        return;
-      }
+    const grouped = {};
 
-      const grouped = {};
-
-      data.games.forEach(game => {
-        const bucket = timeBucket(game.start_time);
-        if (!grouped[bucket]) grouped[bucket] = [];
-        grouped[bucket].push(game);
-      });
-
-      Object.entries(grouped).forEach(([bucket, games]) => {
-        const section = document.createElement("div");
-
-        const header = document.createElement("h2");
-        header.textContent = bucket;
-
-        const content = document.createElement("div");
-
-        header.onclick = () => {
-          content.style.display =
-            content.style.display === "none" ? "block" : "none";
-        };
-
-        games.forEach(game => {
-          const card = document.createElement("div");
-          card.className = "card";
-
-          const awayBadge = game.away_starter_status === "confirmed"
-            ? '<span class="badge badge-confirmed">Confirmed</span>'
-            : '<span class="badge badge-tbd">TBD</span>';
-
-          const homeBadge = game.home_starter_status === "confirmed"
-            ? '<span class="badge badge-confirmed">Confirmed</span>'
-            : '<span class="badge badge-tbd">TBD</span>';
-
-          card.innerHTML = `
-            <div class="game-title">
-              ${game.away} @ ${game.home}
-            </div>
-            <div class="game-meta">
-              <strong>Away Starter:</strong> ${game.away_starter} ${awayBadge}<br>
-              <strong>Home Starter:</strong> ${game.home_starter} ${homeBadge}<br>
-              Venue: ${game.venue}<br>
-              Start Time: ${new Date(game.start_time).toLocaleString()}
-            </div>
-          `;
-
-          content.appendChild(card);
-        });
-
-        section.appendChild(header);
-        section.appendChild(content);
-        container.appendChild(section);
-      });
-    })
-    .catch(err => {
-      document.getElementById("content").innerText =
-        "Unable to load today’s MLB games. Please refresh.";
-      console.error(err);
+    data.games.forEach(g => {
+      const k = timeBucket(g.start_time);
+      if (!grouped[k]) grouped[k] = [];
+      grouped[k].push(g);
     });
+
+    Object.entries(grouped).forEach(([section, games]) => {
+      const h2 = document.createElement("h2");
+      h2.textContent = section;
+
+      const block = document.createElement("div");
+
+      games.forEach(g => {
+        const card = document.createElement("div");
+        card.className = "card";
+
+        const ab = g.away_starter_status === "confirmed" ? "confirmed" : "monitor";
+        const hb = g.home_starter_status === "confirmed" ? "confirmed" : "monitor";
+
+        card.innerHTML = `
+          <strong>${g.away} @ ${g.home}</strong><br>
+          <div class="meta">
+            Away SP: ${g.away_starter} (${g.away_pitch_hand})
+            <span class="badge ${ab}">${ab.toUpperCase()}</span><br>
+            Home SP: ${g.home_starter} (${g.home_pitch_hand})
+            <span class="badge ${hb}">${hb.toUpperCase()}</span><br>
+            Park: ${g.park_factor}<br>
+            Weather: ${g.weather}<br>
+            Start: ${new Date(g.start_time).toLocaleString()}
+          </div>
+        `;
+        block.appendChild(card);
+      });
+
+      h2.onclick = () => {
+        block.style.display = block.style.display === "none" ? "block" : "none";
+      };
+
+      container.appendChild(h2);
+      container.appendChild(block);
+    });
+  });
 </script>
 
 </body>
