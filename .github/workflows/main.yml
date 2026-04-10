@@ -4,9 +4,12 @@ permissions:
   contents: write
 
 on:
-  schedule:
-    - cron: "0 7 * * *"
   workflow_dispatch:
+  schedule:
+    - cron: "0 6 * * *"   # 7am ET
+    - cron: "0 10 * * *"  # 11am ET
+    - cron: "0 14 * * *"  # 3pm ET
+    - cron: "0 18 * * *"  # 7pm ET
 
 jobs:
   run-engine:
@@ -19,7 +22,7 @@ jobs:
         with:
           python-version: "3.11"
 
-      - name: Run engine
+      - name: Run MLB engine
         run: python run_engine.py
 
       - name: Commit updated data
@@ -27,5 +30,5 @@ jobs:
           git config user.name "github-actions"
           git config user.email "actions@github.com"
           git add daily.json
-          git commit -m "Daily update" || echo "No changes to commit"
+          git commit -m "Daily MLB update" || echo "No changes to commit"
           git push
