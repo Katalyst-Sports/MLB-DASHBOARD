@@ -1,211 +1,82 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
 <meta charset="UTF-8">
-<title>MLB Performance Context Dashboard</title>
-
+<title>MLB Performance Context</title>
 <style>
-body {
-  font-family: system-ui, -apple-system, sans-serif;
-  background: #f6f7f9;
-  padding: 24px;
-  max-width: 1200px;
-  margin: auto;
-}
-
-h1 {
-  margin-bottom: 6px;
-}
-
-.subtitle {
-  color: #555;
-  font-size: 14px;
-  margin-bottom: 24px;
-}
-
-.card {
-  background: #ffffff;
-  padding: 16px;
-  border-radius: 12px;
-  margin-bottom: 16px;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
-}
-
-.meta {
-  font-size: 14px;
-  color: #444;
-  line-height: 1.5;
-}
-
-.section-title {
-  font-weight: 600;
-  margin-top: 12px;
-}
-
-.hitters {
-  margin-top: 8px;
-  font-size: 13px;
-}
-
-.live-card {
-  border-left: 6px solid #dc2626;
-}
-
-.hot {
-  color: #dc2626;
-  font-weight: 700;
-}
-
-.pitcher {
-  color: #2563eb;
-  font-weight: 700;
-}
-
-.badge {
-  display: inline-block;
-  padding: 2px 8px;
-  border-radius: 8px;
-  font-size: 12px;
-  font-weight: 600;
-  background: #e5e7eb;
-  margin-left: 6px;
-}
-
-footer {
-  margin-top: 48px;
-  padding-top: 16px;
-  border-top: 1px solid #ccc;
-  font-size: 12px;
-  color: #555;
-  line-height: 1.5;
-}
+body{font-family:system-ui;background:#f6f7f9;padding:24px;max-width:1200px;margin:auto}
+.card{background:white;padding:16px;border-radius:12px;margin-bottom:16px}
+.meta{font-size:14px;color:#444}
+.section{font-weight:600;margin-top:10px}
+.hot{color:#dc2626;font-weight:700}
+.top{color:#059669;font-weight:700}
+.mid{color:#2563eb;font-weight:700}
+.bot{color:#6b7280;font-weight:700}
 </style>
 </head>
-
 <body>
 
 <h1>MLB Performance Context</h1>
-<div class="subtitle">
-Updated hourly. Pre‑game matchup context and live in‑game performance tracking.
-</div>
+<p style="color:#555;font-size:14px;">Contact‑first hitters, batting‑order tiers, pitcher quality, and situational hitting.</p>
 
-<!-- ========================= -->
-<!-- LIVE GAMES SECTION -->
-<!-- ========================= -->
-
-<div id="live-section"></div>
-
-<!-- ========================= -->
-<!-- DAILY MATCHUPS SECTION -->
-<!-- ========================= -->
-
-<div id="daily-section">Loading games…</div>
+<div id="daily"></div>
 
 <script>
-/* =========================
-   LIVE GAMES (live.json)
-   ========================= */
-fetch("/MLB-DASHBOARD/live.json?nocache=" + Date.now())
-  .then(r => r.json())
-  .then(d => {
-    if (!d.games || d.games.length === 0) return;
+fetch("/MLB-DASHBOARD/daily.json?"+Date.now())
+.then(r=>r.json())
+.then(d=>{
+  const c=document.getElementById("daily");
+  d.games.forEach(g=>{
+    const card=document.createElement("div");
+    card.className="card";
 
-    const live = document.getElementById("live-section");
-    d.games.forEach(g => {
-      const c = document.createElement("div");
-      c.className = "card live-card";
+    function tier(t){
+      if(t==="Top‑Order") return "<span class='top'>Top‑Order</span>";
+      if(t==="Middle‑Order") return "<span class='mid'>Middle‑Order</span>";
+      return "<span class='bot'>Bottom‑Order</span>";
+    }
 
-      c.innerHTML = `
-        <strong>LIVE GAME</strong><br>
-        Inning: ${g.inning} | Score: ${g.score}<br><br>
+    card.innerHTML=`
+<strong>${g.away_team} @ ${g.home_team}</strong><br>
+<div class="meta">
+Venue: ${g.venue}<br>
+Start: ${new Date(g.start).toLocaleString()}<br>
 
-        <span class="section-title">Hot Hitters (Live)</span><br>
-        ${
-          g.hot_hitters.length
-          ? g.hot_hitters.map(h =>
-              `<div class="hot">${h.name} — ${h.hits} H</div>`
-            ).join("")
-          : "None"
-        }
-      `;
+<div class="section">Starting Pitchers</div>
+${g.away_pitcher.name} (${g.away_pitcher.hand}) — ERA ${g.away_pitcher.era}
+${g.away_pitcher.elite?" 🔵 Elite":g.away_pitcher.quality?" ✅ Quality":""}<br>
+${g.home_pitcher.name} (${g.home_pitcher.hand}) — ERA ${g.home_pitcher.era}
+${g.home_pitcher.elite?" 🔵 Elite":g.home_pitcher.quality?" ✅ Quality":""}<br>
 
-      live.appendChild(c);
-    });
-  })
-  .catch(() => {});
+<div class="section">${g.away_team} Hitters</div>
+${g.away_hitters.map(h=>`
+<div>
+${h.name} ${tier(h.tier)}
+${h.streak>=3?` <span class='hot'>🔥 ${h.streak}‑game streak</span>`:""}<br>
+AVG ${h.stats.avg} | K% ${h.stats.k_rate} | BB% ${h.stats.bb_rate} | BIP/PA ${h.stats.bip_pa}<br>
+RISP AVG ${h.risp.avg}
+</div>
+`).join("")}
 
-/* =========================
-   DAILY MATCHUPS (daily.json)
-   ========================= */
-fetch("/MLB-DASHBOARD/daily.json?nocache=" + Date.now())
-  .then(r => r.json())
-  .then(d => {
-    const container = document.getElementById("daily-section");
-    container.innerHTML = "";
-
-    d.games.forEach(g => {
-      const card = document.createElement("div");
-      card.className = "card";
-
-      function pitcherBlock(p) {
-        return `
-          ${p.name} (${p.hand}HP)<br>
-          ERA: ${p.era}<br>
-          Last 5 Starts → IP Avg: ${p.last5?.avg_ip ?? "N/A"},
-          K Avg: ${p.last5?.avg_k ?? "N/A"},
-          BB Avg: ${p.last5?.avg_bb ?? "N/A"}
-        `;
-      }
-
-      function hitterBlock(list) {
-        return list.map(h => `
-          <div>
-            ${h.name} —
-            vs RHP: AVG ${h.vsRHP.avg}, H ${h.vsRHP.hits} |
-            vs LHP: AVG ${h.vsLHP.avg}, H ${h.vsLHP.hits}
-          </div>
-        `).join("");
-      }
-
-      card.innerHTML = `
-        <strong>${g.away_team} @ ${g.home_team}</strong><br>
-        <div class="meta">
-          Venue: ${g.venue}<br>
-          Start: ${new Date(g.start_time).toLocaleString()}<br><br>
-
-          <span class="section-title">Away Starting Pitcher</span><br>
-          ${pitcherBlock(g.away_pitcher)}<br><br>
-
-          <span class="section-title">Home Starting Pitcher</span><br>
-          ${pitcherBlock(g.home_pitcher)}<br><br>
-
-          <span class="section-title">${g.away_team} Hitters (Recent Splits)</span>
-          <div class="hitters">${hitterBlock(g.away_hitters)}</div><br>
-
-          <span class="section-title">${g.home_team} Hitters (Recent Splits)</span>
-          <div class="hitters">${hitterBlock(g.home_hitters)}</div>
-        </div>
-      `;
-
-      container.appendChild(card);
-    });
+<div class="section">${g.home_team} Hitters</div>
+${g.home_hitters.map(h=>`
+<div>
+${h.name} ${tier(h.tier)}
+${h.streak>=3?` <span class='hot'>🔥 ${h.streak}‑game streak</span>`:""}<br>
+AVG ${h.stats.avg} | K% ${h.stats.k_rate} | BB% ${h.stats.bb_rate} | BIP/PA ${h.stats.bip_pa}<br>
+RISP AVG ${h.risp.avg}
+</div>
+`).join("")}
+</div>
+`;
+    c.appendChild(card);
   });
+});
 </script>
 
-<footer>
-  <strong>Disclaimer</strong><br>
-  This dashboard is provided for informational and educational purposes only.
-  All statistics, matchup context, and live updates are descriptive of historical
-  or in‑game events as reported by Major League Baseball’s public data feeds.
-  Information shown may be incomplete, delayed, revised, or change without notice.<br><br>
-
-  This dashboard does <strong>not</strong> constitute gambling advice, betting
-  recommendations, financial advice, or predictions of outcomes. No guarantees
-  of accuracy, completeness, or future performance are made. Users are solely
-  responsible for how they interpret and use this information.<br><br>
-
-  <em>This is a personal analytics and visualization tool and is not intended
-  for commercial use or distribution.</em>
+<footer style="margin-top:32px;font-size:12px;color:#555;">
+<strong>Disclaimer</strong><br>
+Informational only. No predictions, betting advice, or guarantees.
 </footer>
 
 </body>
