@@ -1,117 +1,93 @@
 <body>
 
 <h1>MLB Performance Context</h1>
-<p style="color:#555;font-size:14px;">
-Click a game to expand matchup details.
-</p>
+<p style="color:#555;">Click a game to expand details.</p>
 
 <div id="live"></div>
 <div id="games"></div>
 
 <script>
-// =======================
-// LIVE GAMES
-// =======================
-fetch("live.json?nocache=" + Date.now())
-.then(r => r.json())
-.then(d => {
-  const liveDiv = document.getElementById("live");
-  if (!d.games || d.games.length === 0) {
-    liveDiv.innerHTML = "<div class='card'>No games live right now.</div>";
+fetch("./live.json?"+Date.now())
+.then(r=>r.json())
+.then(d=>{
+  const l=document.getElementById("live");
+  if(!d.games.length){
+    l.innerHTML="<div class='card'>No games live right now.</div>";
     return;
   }
-
-  d.games.forEach(g => {
-    const c = document.createElement("div");
-    c.className = "card live";
-    c.innerHTML = `
-      <strong>LIVE</strong> — ${g.score}, ${g.inning}<br>
-      <strong>Hot Hitters:</strong> ${g.hot_hitters.join(", ") || "None"}<br>
-      <strong>Dominant Pitchers:</strong> ${g.top_pitchers.join(", ") || "None"}
+  d.games.forEach(g=>{
+    l.innerHTML+=`
+      <div class="card live">
+        <strong>LIVE</strong> ${g.score} – ${g.inning}<br>
+        Hot Hitters: ${g.hot_hitters.join(", ")||"None"}<br>
+        Dominant Pitchers: ${g.top_pitchers.join(", ")||"None"}
+      </div>
     `;
-    liveDiv.appendChild(c);
   });
 });
 </script>
 
 <script>
-// =======================
-// DAILY MATCHUPS (ACCORDION)
-// =======================
-fetch("daily.json?nocache=" + Date.now())
-.then(r => r.json())
-.then(d => {
-  const gamesDiv = document.getElementById("games");
+fetch("./daily.json?"+Date.now())
+.then(r=>r.json())
+.then(d=>{
+  const gdiv=document.getElementById("games");
 
-  d.games.forEach((g, idx) => {
-    const card = document.createElement("div");
-    card.className = "card";
+  d.games.forEach((g,i)=>{
+    const id="g"+i;
+    gdiv.innerHTML+=`
+      <div class="card">
+        <div onclick="toggle('${id}')" style="cursor:pointer">
+          ▶ <strong>${g.away_team} @ ${g.home_team}</strong>
+          ${new Date(g.start).toLocaleTimeString()}<br>
+          Away: ${g.away_pitcher.name} |
+          Home: ${g.home_pitcher.name}
+        </div>
 
-    const contentId = `content-${idx}`;
+        <div id="${id}" style="display:none;margin-top:10px">
+          <strong>Pitching</strong><br>
+          Away: ${g.away_pitcher.name} —
+          IP ${g.away_pitcher.avg_ip}, K ${g.away_pitcher.avg_k},
+          BB ${g.away_pitcher.avg_bb}, WHIP ${g.away_pitcher.whip}<br>
+          Command: ${g.away_pitcher.command} (K/BB ${g.away_pitcher.k_bb})<br><br>
 
-    const pitcherBadge = p =>
-      p.elite ? "🔵 Elite" : p.quality ? "✅ Quality" : "";
+          Home: ${g.home_pitcher.name} —
+          IP ${g.home_pitcher.avg_ip}, K ${g.home_pitcher.avg_k},
+          BB ${g.home_pitcher.avg_bb}, WHIP ${g.home_pitcher.whip}<br>
+          Command: ${g.home_pitcher.command} (K/BB ${g.home_pitcher.k_bb})<br><br>
 
-    const tierLabel = t =>
-      t === "Top‑Order" ? "<span style='color:#059669;font-weight:700'>Top‑Order</span>" :
-      t === "Middle‑Order" ? "<span style='color:#2563eb;font-weight:700'>Middle‑Order</span>" :
-      "<span style='color:#6b7280'>Bottom‑Order</span>";
+          <strong>${g.away_team} Hitters</strong><br>
+          ${g.away_hitters.map(h=>`
+            ${h.name} (${h.tier})
+            🔥${h.streak>=3?h.streak+" streak":""}<br>
+            Last 10 vs RHP: ${h.vsRHP.avg} (${h.vsRHP.hits}/${h.vsRHP.ab}) |
+            vs LHP: ${h.vsLHP.avg} (${h.vsLHP.hits}/${h.vsLHP.ab})<br>
+            RISP AVG ${h.risp.avg}<br><br>
+          `).join("")}
 
-    const hittersBlock = hitters => hitters.map(h => `
-      <div style="margin-bottom:8px;">
-        <strong>${h.name}</strong> ${tierLabel(h.tier)}
-        ${h.streak >= 3 ? ` <span style="color:#dc2626;font-weight:700">🔥 ${h.streak}-game streak</span>` : ""}<br>
-        AVG ${h.stats.avg} | BIP/PA ${h.stats.bip_pa}<br>
-        vs RHP ${h.vsRHP.avg} (${h.vsRHP.hits} H) |
-        vs LHP ${h.vsLHP.avg} (${h.vsLHP.hits} H)<br>
-        RISP AVG ${h.risp.avg}
-      </div>
-    `).join("");
-
-    card.innerHTML = `
-      <div onclick="toggle('${contentId}')" style="cursor:pointer;">
-        ▶ <strong>${g.away_team} @ ${g.home_team}</strong> — 
-        ${new Date(g.start).toLocaleTimeString()}<br>
-        Away SP: ${g.away_pitcher.name} ${pitcherBadge(g.away_pitcher)} |
-        Home SP: ${g.home_pitcher.name} ${pitcherBadge(g.home_pitcher)}<br>
-        ${g.away_summary && g.home_summary ? `
-Contact Index — ${g.away_team}: ${g.away_summary.contact_index},
-${g.home_team}: ${g.home_summary.contact_index}
-` : ""}
-      </div>
-
-      <div id="${contentId}" style="display:none;margin-top:12px;">
-        <hr>
-        <strong>Pitching</strong><br>
-        Away: ${g.away_pitcher.name} — IP ${g.away_pitcher.avg_ip}, 
-        K ${g.away_pitcher.avg_k}, BB ${g.away_pitcher.avg_bb}, WHIP ${g.away_pitcher.whip}<br>
-        Home: ${g.home_pitcher.name} — IP ${g.home_pitcher.avg_ip}, 
-        K ${g.home_pitcher.avg_k}, BB ${g.home_pitcher.avg_bb}, WHIP ${g.home_pitcher.whip}<br>
-
-        <hr>
-        <strong>${g.away_team} Hitters</strong>
-        ${hittersBlock(g.away_hitters)}
-
-        <strong>${g.home_team} Hitters</strong>
-        ${hittersBlock(g.home_hitters)}
+          <strong>${g.home_team} Hitters</strong><br>
+          ${g.home_hitters.map(h=>`
+            ${h.name} (${h.tier})
+            🔥${h.streak>=3?h.streak+" streak":""}<br>
+            Last 10 vs RHP: ${h.vsRHP.avg} (${h.vsRHP.hits}/${h.vsRHP.ab}) |
+            vs LHP: ${h.vsLHP.avg} (${h.vsLHP.hits}/${h.vsLHP.ab})<br>
+            RISP AVG ${h.risp.avg}<br><br>
+          `).join("")}
+        </div>
       </div>
     `;
-
-    gamesDiv.appendChild(card);
   });
 });
 
-function toggle(id) {
-  const el = document.getElementById(id);
-  el.style.display = el.style.display === "none" ? "block" : "none";
+function toggle(id){
+  const e=document.getElementById(id);
+  e.style.display=e.style.display==="none"?"block":"none";
 }
 </script>
 
-<footer style="margin-top:48px;font-size:12px;color:#555;">
+<footer style="margin-top:40px;font-size:12px;color:#555;">
 <strong>Disclaimer</strong><br>
-
 </footer>
-
 This dashboard is provided for informational and educational purposes only.
   All statistics, matchup context, performance indicators, and live updates
   are descriptive of historical or in‑game events as reported by publicly
@@ -127,6 +103,4 @@ This dashboard is provided for informational and educational purposes only.
   summaries are analytical classifications intended to provide context, not
   projections or directives. This is a personal analytics and visualization
   tool and is not intended for commercial use or distribution.
-
 </body>
-
