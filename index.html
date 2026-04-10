@@ -86,15 +86,20 @@
 
           const startTime = new Date(game.start_time).toLocaleString();
 
-          card.innerHTML = `
-            <div class="game-title">
-              ${game.away} @ ${game.home}
-            </div>
-            <div class="game-meta">
-              Venue: ${game.venue}<br>
-              Start Time: ${startTime}
-            </div>
-          `;
+         const awayStarter = game.away_starter || "TBD";
+const homeStarter = game.home_starter || "TBD";
+
+card.innerHTML = `
+  <div class="game-title">
+    ${game.away} @ ${game.home}
+  </div>
+  <div class="game-meta">
+    <strong>Away Starter:</strong> ${awayStarter}<br>
+    <strong>Home Starter:</strong> ${homeStarter}<br>
+    Venue: ${game.venue}<br>
+    Start Time: ${startTime}
+  </div>
+`;
 
           container.appendChild(card);
         });
