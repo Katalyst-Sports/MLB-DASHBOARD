@@ -1,102 +1,48 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
 <meta charset="UTF-8">
-<title>MLB Performance Context Dashboard</title>
-
+<title>MLB Lineup Context</title>
 <style>
-body {
-  font-family: system-ui;
-  background:#f6f7f9;
-  padding:24px;
-  max-width:1200px;
-  margin:auto;
-}
-
-.card {
-  background:white;
-  padding:16px;
-  border-radius:12px;
-  margin-bottom:14px;
-  box-shadow:0 2px 6px rgba(0,0,0,.08);
-}
-
-h1,h2 { cursor:pointer; }
-
-.badge {
-  padding:2px 6px;
-  border-radius:999px;
-  font-size:12px;
-  font-weight:600;
-  margin-left:6px;
-}
-
-.confirmed {background:#16a34a;color:white;}
-.monitor {background:#fbbf24;color:#111;}
-
-.meta {font-size:14px;color:#444;line-height:1.5;}
-footer {margin-top:40px;font-size:12px;color:#555;}
+.card{background:#fff;padding:16px;margin-bottom:12px;border-radius:12px}
+.meta{font-size:14px;color:#444}
+.badge{padding:2px 6px;border-radius:6px;font-size:12px}
+.official{background:#16a34a;color:#fff}
+.projected{background:#fbbf24}
 </style>
 </head>
-
 <body>
 
-<h1>MLB Performance Context — Daily Overview</h1>
-<div id="content">Loading games…</div>
-
-<footer>
-This dashboard presents descriptive performance context only.
-No wagering, financial, or outcome guarantees are provided.
-</footer>
+<h1>MLB Game Context — Lineups (≤3h to Start)</h1>
+<div id="content"></div>
 
 <script>
-function bucket(t){const h=new Date(t).getHours();return h<13?"Early Games":h<18?"Afternoon Games":"Evening Games";}
-
-fetch("/MLB-DASHBOARD/daily.json?nocache="+Date.now())
+fetch("/MLB-DASHBOARD/daily.json?"+Date.now())
 .then(r=>r.json())
-.then(data=>{
-  const c=document.getElementById("content");c.innerHTML="";
-  const g={};
+.then(d=>{
+  const c=document.getElementById("content");
+  d.games.forEach(g=>{
+    const card=document.createElement("div");
+    card.className="card";
+    card.innerHTML=`
+      <strong>${g.away} @ ${g.home}</strong><br>
+      <div class="meta">
+        Away SP: ${g.away_pitcher}<br>
+        Lineup (${g.away_lineup.type}):
+        <span class="badge ${g.away_lineup.type}">
+          ${g.away_lineup.type}
+        </span><br>
+        ${g.away_lineup.hitters.join(", ")}<br><br>
 
-  data.games.forEach(x=>{
-    const b=bucket(x.start_time);
-    if(!g[b])g[b]=[];
-    g[b].push(x);
-  });
-
-  Object.entries(g).forEach(([k,v])=>{
-    const h=document.createElement("h2");h.textContent=k;
-    const d=document.createElement("div");
-
-    v.forEach(x=>{
-      const ac=x.away_status==="confirmed"?"confirmed":"monitor";
-      const hc=x.home_status==="confirmed"?"confirmed":"monitor";
-
-      d.innerHTML+=`
-      <div class="card">
-        <strong>${x.away} @ ${x.home}</strong><br>
-        <div class="meta">
-        Away SP: ${x.away_starter}<span class="badge ${ac}">${ac}</span><br>
-        Handedness: ${x.away_pitcher_context.hand||"N/A"}<br>
-        Workload Outlook: ${x.away_pitcher_context.workload}<br>
-        Strikeout Range: ${x.away_pitcher_context.strikeouts}<br><br>
-
-        Home SP: ${x.home_starter}<span class="badge ${hc}">${hc}</span><br>
-        Handedness: ${x.home_pitcher_context.hand||"N/A"}<br>
-        Workload Outlook: ${x.home_pitcher_context.workload}<br>
-        Strikeout Range: ${x.home_pitcher_context.strikeouts}<br><br>
-
-        Hitter Output: ${x.hitter_bases_outlook.expected_range}<br>
-        Upper-End Results: ${x.hitter_bases_outlook.upper_range}<br>
-        Park: ${x.park_factor}<br>
-        Weather: ${x.weather}<br>
-        Start: ${new Date(x.start_time).toLocaleString()}
-        </div>
-      </div>`;
-    });
-
-    h.onclick=()=>{d.style.display=d.style.display==="none"?"block":"none";}
-    c.appendChild(h);c.appendChild(d);
+        Home SP: ${g.home_pitcher}<br>
+        Lineup (${g.home_lineup.type}):
+        <span class="badge ${g.home_lineup.type}">
+          ${g.home_lineup.type}
+        </span><br>
+        ${g.home_lineup.hitters.join(", ")}
+      </div>
+    `;
+    c.appendChild(card);
   });
 });
 </script>
