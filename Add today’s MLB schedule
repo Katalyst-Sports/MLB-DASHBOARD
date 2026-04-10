@@ -1,19 +1,13 @@
 import json
-import requests
 from datetime import datetime, date
+from urllib.request import urlopen
 
 TODAY = str(date.today())
 
-# MLB schedule API (official)
-SCHEDULE_URL = "https://statsapi.mlb.com/api/v1/schedule"
+url = f"https://statsapi.mlb.com/api/v1/schedule?sportId=1&date={TODAY}"
 
-params = {
-    "sportId": 1,
-    "date": TODAY
-}
-
-response = requests.get(SCHEDULE_URL, params=params)
-data = response.json()
+with urlopen(url) as response:
+    data = json.loads(response.read().decode("utf-8"))
 
 games = []
 
