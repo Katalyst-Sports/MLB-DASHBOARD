@@ -16,9 +16,11 @@ jobs:
         with:
           python-version: "3.11"
 
-      - run: python MLB-DASHBOARD/run_engine.py
+      - name: Run engine
+        run: python run_engine.py
 
-      - run: |
+      - name: Commit updated data
+        run: |
           git config user.name "github-actions"
           git config user.email "actions@github.com"
           git add daily.json
