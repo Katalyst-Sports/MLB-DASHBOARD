@@ -8,16 +8,23 @@ on:
 jobs:
   run-engine:
     runs-on: ubuntu-latest
+
     steps:
-      - uses: actions/checkout@v3
-      - uses: actions/setup-python@v4
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
         with:
           python-version: "3.11"
-      - run: python run_engine.py
-      - run: |
+
+      - name: Run engine
+        run: python run_engine.py
+
+      - name: Commit updated data
+        run: |
           git config user.name "github-actions"
           git config user.email "actions@github.com"
           git add daily.json
-          git commit -m "Daily update"
+          git commit -m "Daily update" || echo "No changes to commit"
           git push
-``
