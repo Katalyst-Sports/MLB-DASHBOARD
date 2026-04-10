@@ -2,14 +2,14 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>MLB Daily Dashboard</title>
+  <title>MLB Prop Engine — Daily Dashboard</title>
 
   <style>
     body {
       font-family: system-ui, -apple-system, sans-serif;
       background: #f6f7f9;
       padding: 24px;
-      max-width: 1000px;
+      max-width: 1100px;
       margin: auto;
     }
 
@@ -19,22 +19,26 @@
 
     .card {
       background: #ffffff;
-      padding: 16px;
+      padding: 16px 18px;
       border-radius: 12px;
       margin-bottom: 16px;
       box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
     }
 
     .game-title {
-      font-size: 16px;
       font-weight: 600;
+      font-size: 16px;
       margin-bottom: 6px;
     }
 
-    .meta {
+    .game-meta {
       font-size: 14px;
       color: #444;
-      line-height: 1.4;
+      line-height: 1.5;
+    }
+
+    .starter-label {
+      font-weight: 600;
     }
 
     footer {
@@ -52,16 +56,75 @@
 
   <h1>MLB Prop Engine — Daily Dashboard</h1>
 
-  <div id="content">Loading today’s MLB games…</div>
+  <div id="content">
+    Loading today’s MLB games…
+  </div>
 
   <footer>
     <strong>Disclaimer:</strong><br>
     This dashboard is provided for informational and educational purposes only.
     The information displayed may be inaccurate, incomplete, or change at any time.
-    MLB schedules, starting pitchers, lineups, and other game details are subject
-    to change without notice.
+    MLB schedules, starting pitchers, lineups, and game details are subject to change without notice.
+    This dashboard does not constitute gambling advice, betting advice, financial advice,
+    or recommendations of any kind. No guarantees of accuracy or outcomes are made.
+    Users are solely responsible for verifying information independently and for any decisions
+    made based on this content.
     <br><br>
-    This dashboard does not constitute gambling advice, betting advice,
-    financial advice, or recommendations of any kind. No guarantees of accuracy,
-    performance, or outcomes are made or implied. Users are solely responsible
-    for verifying information independently and for any decisions made based
+    <em>This dashboard is a personal analytical tool and is not intended for commercial use or distribution.</em>
+  </footer>
+
+  <script>
+    /*
+      IMPORTANT:
+      GitHub Pages requires an ABSOLUTE path when fetching JSON.
+      Cache‑busting ensures the latest daily.json is always loaded.
+    */
+
+    fetch("/MLB-DASHBOARD/daily.json?nocache=" + Date.now())
+      .then(response => {
+        if (!response.ok) {
+          throw new Error("Failed to load daily.json");
+        }
+        return response.json();
+      })
+      .then(data => {
+        const container = document.getElementById("content");
+        container.innerHTML = "";
+
+        if (!data.games || data.games.length === 0) {
+          container.innerText = "No MLB games scheduled today.";
+          return;
+        }
+
+        data.games.forEach(game => {
+          const card = document.createElement("div");
+          card.className = "card";
+
+          const startTime = new Date(game.start_time).toLocaleString();
+          const awayStarter = game.away_starter || "TBD";
+          const homeStarter = game.home_starter || "TBD";
+
+          card.innerHTML = `
+            <div class="game-title">
+              ${game.away} @ ${game.home}
+            </div>
+            <div class="game-meta">
+              <span class="starter-label">Away Starter:</span> ${awayStarter}<br>
+              <span class="starter-label">Home Starter:</span> ${homeStarter}<br>
+              Venue: ${game.venue}<br>
+              Start Time: ${startTime}
+            </div>
+          `;
+
+          container.appendChild(card);
+        });
+      })
+      .catch(error => {
+        document.getElementById("content").innerText =
+          "Unable to load today’s MLB games. Please refresh the page.";
+        console.error(error);
+      });
+  </script>
+
+</body>
+</html>
