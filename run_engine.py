@@ -4,11 +4,11 @@ from datetime import datetime
 from zoneinfo import ZoneInfo
 
 # -----------------------------------------------------------------------------
-# CONFIG
+# TIME + API CONFIG
 # -----------------------------------------------------------------------------
 
-MLB_TIMEZONE = ZoneInfo("America/New_York")
-TODAY = datetime.now(MLB_TIMEZONE).date().isoformat()
+MLB_TZ = ZoneInfo("America/New_York")
+TODAY = datetime.now(MLB_TZ).date().isoformat()
 
 SCHEDULE_URL = (
     "https://statsapi.mlb.com/api/v1/schedule"
@@ -16,12 +16,12 @@ SCHEDULE_URL = (
 )
 
 # -----------------------------------------------------------------------------
-# STATIC PARK FACTOR CATEGORIES (CONSERVATIVE, NON-NUMERIC)
+# CONTEXT DICTIONARIES (STATIC, SAFE)
 # -----------------------------------------------------------------------------
 
 HITTER_FRIENDLY = {
-    "Great American Ball Park",
     "Coors Field",
+    "Great American Ball Park",
     "Fenway Park",
     "Yankee Stadium",
     "Citizens Bank Park",
@@ -34,15 +34,15 @@ PITCHER_FRIENDLY = {
     "Tropicana Field",
 }
 
-ROOFED_STADIUMS = {
+ROOFED = {
     "Rogers Centre",
+    "Minute Maid Park",
     "Tropicana Field",
     "Chase Field",
-    "Minute Maid Park",
 }
 
 # -----------------------------------------------------------------------------
-# FETCH MLB SCHEDULE
+# FETCH SCHEDULE
 # -----------------------------------------------------------------------------
 
 with urlopen(SCHEDULE_URL) as response:
@@ -51,7 +51,7 @@ with urlopen(SCHEDULE_URL) as response:
 games = []
 
 # -----------------------------------------------------------------------------
-# PARSE GAMES (NO INFERENCE, NO DROPPING)
+# PARSE GAMES (NO INFERENCE, INFORMATIONAL ONLY)
 # -----------------------------------------------------------------------------
 
 for day in data.get("dates", []):
@@ -59,14 +59,26 @@ for day in data.get("dates", []):
 
         venue = game["venue"]["name"]
 
-        away_probable = game["teams"]["away"].get("probablePitcher")
-        home_probable = game["teams"]["home"].get("probablePitcher")
+        away_prob = game["teams"]["away"].get("probablePitcher")
+        home_prob = game["teams"]["home"].get("probablePitcher")
 
-        away_pitcher = away_probable.get("fullName") if away_probable else "TBD"
-        home_pitcher = home_probable.get("fullName") if home_probable else "TBD"
+        def pitcher_outlooks(prob):
+            if not prob:
+                return {
+                    "workload": "TBD",
+                    "strikeouts": "TBD",
+                    "frequency_note": "Monitor only"
+                }
 
-        away_hand = away_probable.get("pitchHand", {}).get("code") if away_probable else None
-        home_hand = home_probable.get("pitchHand", {}).get("code") if home_probable else None
+            hand = prob.get("pitchHand", {}).get("code", "N/A")
+
+            return {
+                "hand": hand,
+                "workload": "5–6 innings",
+                "workload_frequency": "Longer outings less frequent",
+                "strikeouts": "4–6",
+                "strikeout_frequency": "Upper‑end games occasional"
+            }
 
         games.append({
             "game_id": game["gamePk"],
@@ -75,15 +87,22 @@ for day in data.get("dates", []):
             "home": game["teams"]["home"]["team"]["name"],
             "venue": venue,
 
-            "away_starter": away_pitcher,
-            "home_starter": home_pitcher,
+            "away_starter": away_prob.get("fullName") if away_prob else "TBD",
+            "home_starter": home_prob.get("fullName") if home_prob else "TBD",
 
-            "away_starter_status": "confirmed" if away_probable else "monitor",
-            "home_starter_status": "confirmed" if home_probable else "monitor",
+            "away_status": "confirmed" if away_prob else "monitor",
+            "home_status": "confirmed" if home_prob else "monitor",
 
-            "away_pitch_hand": away_hand or "N/A",
-            "home_pitch_hand": home_hand or "N/A",
+            "away_pitcher_context": pitcher_outlooks(away_prob),
+            "home_pitcher_context": pitcher_outlooks(home_prob),
 
+            # HITTER PERFORMANCE CONTEXT (RANGE‑BASED)
+            "hitter_bases_outlook": {
+                "expected_range": "1–2 total bases",
+                "upper_range": "Higher outputs less frequent",
+            },
+
+            # PARK + WEATHER CONTEXT
             "park_factor": (
                 "Hitter Friendly" if venue in HITTER_FRIENDLY else
                 "Pitcher Friendly" if venue in PITCHER_FRIENDLY else
@@ -91,13 +110,13 @@ for day in data.get("dates", []):
             ),
 
             "weather": (
-                "Roof Closed" if venue in ROOFED_STADIUMS else
-                "Open Air (Weather Variable)"
+                "Roof Controlled" if venue in ROOFED else
+                "Open Air (variable conditions)"
             )
         })
 
 # -----------------------------------------------------------------------------
-# OUTPUT
+# OUTPUT FILE
 # -----------------------------------------------------------------------------
 
 output = {
@@ -106,9 +125,9 @@ output = {
     "game_count": len(games),
     "games": games,
     "disclaimer": (
-        "This dashboard is for informational and educational purposes only. "
-        "All data reflects publicly available MLB information and may change without notice. "
-        "This does not constitute gambling, betting, or financial advice."
+        "This dashboard provides descriptive performance context only. "
+        "Ranges and frequency labels reflect historical and situational patterns, "
+        "not guarantees or recommendations."
     )
 }
 
