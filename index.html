@@ -46,10 +46,28 @@
 
 <script>
 fetch("daily.json")
-  .then(response => response.json())
+  .then(res => res.json())
   .then(data => {
-    document.getElementById("content").innerHTML =
-      "<pre>" + JSON.stringify(data, null, 2) + "</pre>";
+    const container = document.getElementById("content");
+    container.innerHTML = "";
+
+    if (!data.games || data.games.length === 0) {
+      container.innerText = "No MLB games scheduled today.";
+      return;
+    }
+
+    data.games.forEach(game => {
+      const card = document.createElement("div");
+      card.className = "card";
+
+      card.innerHTML = `
+        <strong>${game.away} @ ${game.home}</strong><br>
+        Venue: ${game.venue}<br>
+        Start Time: ${new Date(game.start_time).toLocaleString()}
+      `;
+
+      container.appendChild(card);
+    });
   })
   .catch(() => {
     document.getElementById("content").innerText =
