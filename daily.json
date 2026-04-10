@@ -1,6 +1,6 @@
 {
   "date": "2026-04-10",
-  "last_updated": "2026-04-10T18:57:06.593528Z",
+  "last_updated": "2026-04-10T18:59:50.634946Z",
   "game_count": 15,
   "games": [
     {
@@ -10,7 +10,13 @@
       "home": "Chicago Cubs",
       "venue": "Wrigley Field",
       "away_starter": "Carmen Mlodzinski",
-      "home_starter": "Shota Imanaga"
+      "home_starter": "Shota Imanaga",
+      "away_starter_status": "confirmed",
+      "home_starter_status": "confirmed",
+      "away_pitch_hand": "N/A",
+      "home_pitch_hand": "N/A",
+      "park_factor": "Neutral",
+      "weather": "Open Air (Weather Variable)"
     },
     {
       "game_id": 823482,
@@ -19,7 +25,13 @@
       "home": "Philadelphia Phillies",
       "venue": "Citizens Bank Park",
       "away_starter": "Michael Soroka",
-      "home_starter": "Jes\u00fas Luzardo"
+      "home_starter": "Jes\u00fas Luzardo",
+      "away_starter_status": "confirmed",
+      "home_starter_status": "confirmed",
+      "away_pitch_hand": "N/A",
+      "home_pitch_hand": "N/A",
+      "park_factor": "Hitter Friendly",
+      "weather": "Open Air (Weather Variable)"
     },
     {
       "game_id": 824297,
@@ -28,7 +40,13 @@
       "home": "Detroit Tigers",
       "venue": "Comerica Park",
       "away_starter": "Chris Paddack",
-      "home_starter": "Keider Montero"
+      "home_starter": "Keider Montero",
+      "away_starter_status": "confirmed",
+      "home_starter_status": "confirmed",
+      "away_pitch_hand": "N/A",
+      "home_pitch_hand": "N/A",
+      "park_factor": "Neutral",
+      "weather": "Open Air (Weather Variable)"
     },
     {
       "game_id": 824534,
@@ -37,7 +55,13 @@
       "home": "Cincinnati Reds",
       "venue": "Great American Ball Park",
       "away_starter": "Jack Kochanowicz",
-      "home_starter": "Chase Burns"
+      "home_starter": "Chase Burns",
+      "away_starter_status": "confirmed",
+      "home_starter_status": "confirmed",
+      "away_pitch_hand": "N/A",
+      "home_pitch_hand": "N/A",
+      "park_factor": "Hitter Friendly",
+      "weather": "Open Air (Weather Variable)"
     },
     {
       "game_id": 822829,
@@ -46,7 +70,13 @@
       "home": "Toronto Blue Jays",
       "venue": "Rogers Centre",
       "away_starter": "Simeon Woods Richardson",
-      "home_starter": "Patrick Corbin"
+      "home_starter": "Patrick Corbin",
+      "away_starter_status": "confirmed",
+      "home_starter_status": "confirmed",
+      "away_pitch_hand": "N/A",
+      "home_pitch_hand": "N/A",
+      "park_factor": "Neutral",
+      "weather": "Roof Closed"
     },
     {
       "game_id": 823643,
@@ -55,7 +85,13 @@
       "home": "New York Mets",
       "venue": "Citi Field",
       "away_starter": "J.T. Ginn",
-      "home_starter": "Clay Holmes"
+      "home_starter": "Clay Holmes",
+      "away_starter_status": "confirmed",
+      "home_starter_status": "confirmed",
+      "away_pitch_hand": "N/A",
+      "home_pitch_hand": "N/A",
+      "park_factor": "Neutral",
+      "weather": "Open Air (Weather Variable)"
     },
     {
       "game_id": 822997,
@@ -64,7 +100,13 @@
       "home": "Tampa Bay Rays",
       "venue": "Tropicana Field",
       "away_starter": "Luis Gil",
-      "home_starter": "Steven Matz"
+      "home_starter": "Steven Matz",
+      "away_starter_status": "confirmed",
+      "home_starter_status": "confirmed",
+      "away_pitch_hand": "N/A",
+      "home_pitch_hand": "N/A",
+      "park_factor": "Pitcher Friendly",
+      "weather": "Roof Closed"
     },
     {
       "game_id": 824858,
@@ -73,7 +115,13 @@
       "home": "Baltimore Orioles",
       "venue": "Oriole Park at Camden Yards",
       "away_starter": "Landen Roupp",
-      "home_starter": "Shane Baz"
+      "home_starter": "Shane Baz",
+      "away_starter_status": "confirmed",
+      "home_starter_status": "confirmed",
+      "away_pitch_hand": "N/A",
+      "home_pitch_hand": "N/A",
+      "park_factor": "Neutral",
+      "weather": "Open Air (Weather Variable)"
     },
     {
       "game_id": 824941,
@@ -82,7 +130,13 @@
       "home": "Atlanta Braves",
       "venue": "Truist Park",
       "away_starter": "Slade Cecconi",
-      "home_starter": "Bryce Elder"
+      "home_starter": "Bryce Elder",
+      "away_starter_status": "confirmed",
+      "home_starter_status": "confirmed",
+      "away_pitch_hand": "N/A",
+      "home_pitch_hand": "N/A",
+      "park_factor": "Neutral",
+      "weather": "Open Air (Weather Variable)"
     },
     {
       "game_id": 824128,
@@ -91,7 +145,13 @@
       "home": "Kansas City Royals",
       "venue": "Kauffman Stadium",
       "away_starter": "Davis Martin",
-      "home_starter": "Kris Bubic"
+      "home_starter": "Kris Bubic",
+      "away_starter_status": "confirmed",
+      "home_starter_status": "confirmed",
+      "away_pitch_hand": "N/A",
+      "home_pitch_hand": "N/A",
+      "park_factor": "Neutral",
+      "weather": "Open Air (Weather Variable)"
     },
     {
       "game_id": 823808,
@@ -100,7 +160,13 @@
       "home": "Milwaukee Brewers",
       "venue": "American Family Field",
       "away_starter": "Jake Irvin",
-      "home_starter": "Aaron Ashby"
+      "home_starter": "Aaron Ashby",
+      "away_starter_status": "confirmed",
+      "home_starter_status": "confirmed",
+      "away_pitch_hand": "N/A",
+      "home_pitch_hand": "N/A",
+      "park_factor": "Neutral",
+      "weather": "Open Air (Weather Variable)"
     },
     {
       "game_id": 823076,
@@ -109,7 +175,13 @@
       "home": "St. Louis Cardinals",
       "venue": "Busch Stadium",
       "away_starter": "Connelly Early",
-      "home_starter": "Dustin May"
+      "home_starter": "Dustin May",
+      "away_starter_status": "confirmed",
+      "home_starter_status": "confirmed",
+      "away_pitch_hand": "N/A",
+      "home_pitch_hand": "N/A",
+      "park_factor": "Neutral",
+      "weather": "Open Air (Weather Variable)"
     },
     {
       "game_id": 823318,
@@ -118,7 +190,13 @@
       "home": "San Diego Padres",
       "venue": "Petco Park",
       "away_starter": "Tomoyuki Sugano",
-      "home_starter": "Walker Buehler"
+      "home_starter": "Walker Buehler",
+      "away_starter_status": "confirmed",
+      "home_starter_status": "confirmed",
+      "away_pitch_hand": "N/A",
+      "home_pitch_hand": "N/A",
+      "park_factor": "Pitcher Friendly",
+      "weather": "Open Air (Weather Variable)"
     },
     {
       "game_id": 823156,
@@ -127,7 +205,13 @@
       "home": "Seattle Mariners",
       "venue": "T-Mobile Park",
       "away_starter": "Tatsuya Imai",
-      "home_starter": "Emerson Hancock"
+      "home_starter": "Emerson Hancock",
+      "away_starter_status": "confirmed",
+      "home_starter_status": "confirmed",
+      "away_pitch_hand": "N/A",
+      "home_pitch_hand": "N/A",
+      "park_factor": "Pitcher Friendly",
+      "weather": "Open Air (Weather Variable)"
     },
     {
       "game_id": 823968,
@@ -136,8 +220,14 @@
       "home": "Los Angeles Dodgers",
       "venue": "UNIQLO Field at Dodger Stadium",
       "away_starter": "Kumar Rocker",
-      "home_starter": "Tyler Glasnow"
+      "home_starter": "Tyler Glasnow",
+      "away_starter_status": "confirmed",
+      "home_starter_status": "confirmed",
+      "away_pitch_hand": "N/A",
+      "home_pitch_hand": "N/A",
+      "park_factor": "Neutral",
+      "weather": "Open Air (Weather Variable)"
     }
   ],
-  "disclaimer": "This dashboard is provided for informational and educational purposes only. The information displayed may be inaccurate or change at any time. MLB schedules and starting pitchers are subject to change without notice. This does not constitute gambling, betting, or financial advice. Use at your own risk."
+  "disclaimer": "This dashboard is for informational and educational purposes only. All data reflects publicly available MLB information and may change without notice. This does not constitute gambling, betting, or financial advice."
 }
