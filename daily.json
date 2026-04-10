@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-10T15:47:08.245946-04:00",
+  "generated_at": "2026-04-10T15:55:27.256982-04:00",
   "games": [
     {
       "start_time": "2026-04-10T18:20:00Z",
@@ -80,7 +80,227 @@
         "lineup_type": "projected",
         "hitters": []
       }
+    },
+    {
+      "start_time": "2026-04-10T23:07:00Z",
+      "venue": "Rogers Centre",
+      "away_team": "Minnesota Twins",
+      "home_team": "Toronto Blue Jays",
+      "away_pitcher": {
+        "name": "Simeon Woods Richardson",
+        "hand": "R",
+        "status": "confirmed",
+        "lineup_type": "projected",
+        "hitters": []
+      },
+      "home_pitcher": {
+        "name": "Patrick Corbin",
+        "hand": "L",
+        "status": "confirmed",
+        "lineup_type": "projected",
+        "hitters": []
+      }
+    },
+    {
+      "start_time": "2026-04-10T23:10:00Z",
+      "venue": "Citi Field",
+      "away_team": "Athletics",
+      "home_team": "New York Mets",
+      "away_pitcher": {
+        "name": "J.T. Ginn",
+        "hand": "R",
+        "status": "confirmed",
+        "lineup_type": "projected",
+        "hitters": []
+      },
+      "home_pitcher": {
+        "name": "Clay Holmes",
+        "hand": "R",
+        "status": "confirmed",
+        "lineup_type": "projected",
+        "hitters": []
+      }
+    },
+    {
+      "start_time": "2026-04-10T23:10:00Z",
+      "venue": "Tropicana Field",
+      "away_team": "New York Yankees",
+      "home_team": "Tampa Bay Rays",
+      "away_pitcher": {
+        "name": "Luis Gil",
+        "hand": "R",
+        "status": "confirmed",
+        "lineup_type": "projected",
+        "hitters": []
+      },
+      "home_pitcher": {
+        "name": "Steven Matz",
+        "hand": "L",
+        "status": "confirmed",
+        "lineup_type": "projected",
+        "hitters": []
+      }
+    },
+    {
+      "start_time": "2026-04-10T23:15:00Z",
+      "venue": "Oriole Park at Camden Yards",
+      "away_team": "San Francisco Giants",
+      "home_team": "Baltimore Orioles",
+      "away_pitcher": {
+        "name": "Landen Roupp",
+        "hand": "R",
+        "status": "confirmed",
+        "lineup_type": "projected",
+        "hitters": []
+      },
+      "home_pitcher": {
+        "name": "Shane Baz",
+        "hand": "R",
+        "status": "confirmed",
+        "lineup_type": "projected",
+        "hitters": []
+      }
+    },
+    {
+      "start_time": "2026-04-10T23:15:00Z",
+      "venue": "Truist Park",
+      "away_team": "Cleveland Guardians",
+      "home_team": "Atlanta Braves",
+      "away_pitcher": {
+        "name": "Slade Cecconi",
+        "hand": "R",
+        "status": "confirmed",
+        "lineup_type": "projected",
+        "hitters": []
+      },
+      "home_pitcher": {
+        "name": "Bryce Elder",
+        "hand": "R",
+        "status": "confirmed",
+        "lineup_type": "projected",
+        "hitters": []
+      }
+    },
+    {
+      "start_time": "2026-04-10T23:40:00Z",
+      "venue": "Kauffman Stadium",
+      "away_team": "Chicago White Sox",
+      "home_team": "Kansas City Royals",
+      "away_pitcher": {
+        "name": "Davis Martin",
+        "hand": "R",
+        "status": "confirmed",
+        "lineup_type": "projected",
+        "hitters": []
+      },
+      "home_pitcher": {
+        "name": "Kris Bubic",
+        "hand": "L",
+        "status": "confirmed",
+        "lineup_type": "projected",
+        "hitters": []
+      }
+    },
+    {
+      "start_time": "2026-04-10T23:40:00Z",
+      "venue": "American Family Field",
+      "away_team": "Washington Nationals",
+      "home_team": "Milwaukee Brewers",
+      "away_pitcher": {
+        "name": "Jake Irvin",
+        "hand": "R",
+        "status": "confirmed",
+        "lineup_type": "projected",
+        "hitters": []
+      },
+      "home_pitcher": {
+        "name": "Aaron Ashby",
+        "hand": "L",
+        "status": "confirmed",
+        "lineup_type": "projected",
+        "hitters": []
+      }
+    },
+    {
+      "start_time": "2026-04-11T00:15:00Z",
+      "venue": "Busch Stadium",
+      "away_team": "Boston Red Sox",
+      "home_team": "St. Louis Cardinals",
+      "away_pitcher": {
+        "name": "Connelly Early",
+        "hand": "L",
+        "status": "confirmed",
+        "lineup_type": "projected",
+        "hitters": []
+      },
+      "home_pitcher": {
+        "name": "Dustin May",
+        "hand": "R",
+        "status": "confirmed",
+        "lineup_type": "projected",
+        "hitters": []
+      }
+    },
+    {
+      "start_time": "2026-04-11T01:40:00Z",
+      "venue": "Petco Park",
+      "away_team": "Colorado Rockies",
+      "home_team": "San Diego Padres",
+      "away_pitcher": {
+        "name": "Tomoyuki Sugano",
+        "hand": "R",
+        "status": "confirmed",
+        "lineup_type": "projected",
+        "hitters": []
+      },
+      "home_pitcher": {
+        "name": "Walker Buehler",
+        "hand": "R",
+        "status": "confirmed",
+        "lineup_type": "projected",
+        "hitters": []
+      }
+    },
+    {
+      "start_time": "2026-04-11T01:40:00Z",
+      "venue": "T-Mobile Park",
+      "away_team": "Houston Astros",
+      "home_team": "Seattle Mariners",
+      "away_pitcher": {
+        "name": "Tatsuya Imai",
+        "hand": "R",
+        "status": "confirmed",
+        "lineup_type": "projected",
+        "hitters": []
+      },
+      "home_pitcher": {
+        "name": "Emerson Hancock",
+        "hand": "R",
+        "status": "confirmed",
+        "lineup_type": "projected",
+        "hitters": []
+      }
+    },
+    {
+      "start_time": "2026-04-11T02:10:00Z",
+      "venue": "UNIQLO Field at Dodger Stadium",
+      "away_team": "Texas Rangers",
+      "home_team": "Los Angeles Dodgers",
+      "away_pitcher": {
+        "name": "Kumar Rocker",
+        "hand": "R",
+        "status": "confirmed",
+        "lineup_type": "projected",
+        "hitters": []
+      },
+      "home_pitcher": {
+        "name": "Tyler Glasnow",
+        "hand": "R",
+        "status": "confirmed",
+        "lineup_type": "projected",
+        "hitters": []
+      }
     }
   ],
-  "disclaimer": "Lineups may be official or projected using MLB depth charts. Projected lineups reflect everyday starters and are replaced automatically once official MLB boxscore lineups are available."
+  "disclaimer": "Projected lineups are based on MLB depth charts and everyday starters. They are automatically replaced with official batting orders when MLB publishes game boxscores."
 }
