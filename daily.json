@@ -1,6 +1,7 @@
 {
   "date": "2026-04-10",
-  "last_updated": "2026-04-10T18:25:42.245745Z",
+  "last_updated": "2026-04-10T18:46:44.473236Z",
+  "game_count": 15,
   "games": [
     {
       "game_id": 824695,
@@ -8,8 +9,8 @@
       "away": "Pittsburgh Pirates",
       "home": "Chicago Cubs",
       "venue": "Wrigley Field",
-      "away_starter": "TBD",
-      "home_starter": "TBD"
+      "away_starter": "Carmen Mlodzinski",
+      "home_starter": "Shota Imanaga"
     },
     {
       "game_id": 823482,
@@ -17,8 +18,8 @@
       "away": "Arizona Diamondbacks",
       "home": "Philadelphia Phillies",
       "venue": "Citizens Bank Park",
-      "away_starter": "TBD",
-      "home_starter": "TBD"
+      "away_starter": "Michael Soroka",
+      "home_starter": "Jes\u00fas Luzardo"
     },
     {
       "game_id": 824297,
@@ -26,8 +27,8 @@
       "away": "Miami Marlins",
       "home": "Detroit Tigers",
       "venue": "Comerica Park",
-      "away_starter": "TBD",
-      "home_starter": "TBD"
+      "away_starter": "Chris Paddack",
+      "home_starter": "Keider Montero"
     },
     {
       "game_id": 824534,
@@ -35,8 +36,8 @@
       "away": "Los Angeles Angels",
       "home": "Cincinnati Reds",
       "venue": "Great American Ball Park",
-      "away_starter": "TBD",
-      "home_starter": "TBD"
+      "away_starter": "Jack Kochanowicz",
+      "home_starter": "Chase Burns"
     },
     {
       "game_id": 822829,
@@ -44,8 +45,8 @@
       "away": "Minnesota Twins",
       "home": "Toronto Blue Jays",
       "venue": "Rogers Centre",
-      "away_starter": "TBD",
-      "home_starter": "TBD"
+      "away_starter": "Simeon Woods Richardson",
+      "home_starter": "Patrick Corbin"
     },
     {
       "game_id": 823643,
@@ -53,8 +54,8 @@
       "away": "Athletics",
       "home": "New York Mets",
       "venue": "Citi Field",
-      "away_starter": "TBD",
-      "home_starter": "TBD"
+      "away_starter": "J.T. Ginn",
+      "home_starter": "Clay Holmes"
     },
     {
       "game_id": 822997,
@@ -62,8 +63,8 @@
       "away": "New York Yankees",
       "home": "Tampa Bay Rays",
       "venue": "Tropicana Field",
-      "away_starter": "TBD",
-      "home_starter": "TBD"
+      "away_starter": "Luis Gil",
+      "home_starter": "Steven Matz"
     },
     {
       "game_id": 824858,
@@ -71,8 +72,8 @@
       "away": "San Francisco Giants",
       "home": "Baltimore Orioles",
       "venue": "Oriole Park at Camden Yards",
-      "away_starter": "TBD",
-      "home_starter": "TBD"
+      "away_starter": "Landen Roupp",
+      "home_starter": "Shane Baz"
     },
     {
       "game_id": 824941,
@@ -80,8 +81,8 @@
       "away": "Cleveland Guardians",
       "home": "Atlanta Braves",
       "venue": "Truist Park",
-      "away_starter": "TBD",
-      "home_starter": "TBD"
+      "away_starter": "Slade Cecconi",
+      "home_starter": "Bryce Elder"
     },
     {
       "game_id": 824128,
@@ -89,8 +90,8 @@
       "away": "Chicago White Sox",
       "home": "Kansas City Royals",
       "venue": "Kauffman Stadium",
-      "away_starter": "TBD",
-      "home_starter": "TBD"
+      "away_starter": "Davis Martin",
+      "home_starter": "Kris Bubic"
     },
     {
       "game_id": 823808,
@@ -98,8 +99,8 @@
       "away": "Washington Nationals",
       "home": "Milwaukee Brewers",
       "venue": "American Family Field",
-      "away_starter": "TBD",
-      "home_starter": "TBD"
+      "away_starter": "Jake Irvin",
+      "home_starter": "Aaron Ashby"
     },
     {
       "game_id": 823076,
@@ -107,8 +108,8 @@
       "away": "Boston Red Sox",
       "home": "St. Louis Cardinals",
       "venue": "Busch Stadium",
-      "away_starter": "TBD",
-      "home_starter": "TBD"
+      "away_starter": "Connelly Early",
+      "home_starter": "Dustin May"
     },
     {
       "game_id": 823318,
@@ -116,8 +117,8 @@
       "away": "Colorado Rockies",
       "home": "San Diego Padres",
       "venue": "Petco Park",
-      "away_starter": "TBD",
-      "home_starter": "TBD"
+      "away_starter": "Tomoyuki Sugano",
+      "home_starter": "Walker Buehler"
     },
     {
       "game_id": 823156,
@@ -125,8 +126,8 @@
       "away": "Houston Astros",
       "home": "Seattle Mariners",
       "venue": "T-Mobile Park",
-      "away_starter": "TBD",
-      "home_starter": "TBD"
+      "away_starter": "Tatsuya Imai",
+      "home_starter": "Emerson Hancock"
     },
     {
       "game_id": 823968,
@@ -134,9 +135,9 @@
       "away": "Texas Rangers",
       "home": "Los Angeles Dodgers",
       "venue": "UNIQLO Field at Dodger Stadium",
-      "away_starter": "TBD",
-      "home_starter": "TBD"
+      "away_starter": "Kumar Rocker",
+      "home_starter": "Tyler Glasnow"
     }
   ],
-  "disclaimer": "This dashboard is provided for informational and educational purposes only. The information displayed may be inaccurate or change without notice. This does not constitute gambling, betting, or financial advice. Use at your own risk."
+  "disclaimer": "This dashboard is provided for informational and educational purposes only. The information displayed may be inaccurate or change at any time. MLB schedules and starting pitchers are subject to change without notice. This does not constitute gambling, betting, or financial advice. Use at your own risk."
 }
