@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-10T19:26:06.506512-04:00",
+  "updated_at": "2026-04-10T19:39:55.451469-04:00",
   "games": [
     {
       "away_team": "Pittsburgh Pirates",
@@ -14,6 +14,8 @@
         "avg_k": 5.0,
         "avg_bb": 2.0,
         "whip": 1.6,
+        "k_bb": 2.5,
+        "command": "Average Command",
         "quality": false,
         "elite": false
       },
@@ -25,6 +27,8 @@
         "avg_k": 6.67,
         "avg_bb": 1.33,
         "whip": 0.81,
+        "k_bb": 5.0,
+        "command": "Elite Command",
         "quality": false,
         "elite": false
       },
@@ -39,12 +43,14 @@
             "bip_pa": 0.33
           },
           "vsRHP": {
-            "avg": ".000",
-            "hits": 0
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".000",
-            "hits": 0
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 0,
           "risp": {
@@ -62,12 +68,14 @@
             "bip_pa": 0.58
           },
           "vsRHP": {
-            "avg": ".320",
-            "hits": 8
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".063",
-            "hits": 1
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 4,
           "risp": {
@@ -85,12 +93,14 @@
             "bip_pa": 0.53
           },
           "vsRHP": {
-            "avg": ".233",
-            "hits": 7
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".263",
-            "hits": 5
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 2,
           "risp": {
@@ -108,12 +118,14 @@
             "bip_pa": 0.77
           },
           "vsRHP": {
-            "avg": ".200",
-            "hits": 4
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".286",
-            "hits": 2
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 1,
           "risp": {
@@ -131,12 +143,14 @@
             "bip_pa": 0.73
           },
           "vsRHP": {
-            "avg": ".200",
-            "hits": 3
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".308",
-            "hits": 4
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 1,
           "risp": {
@@ -154,12 +168,14 @@
             "bip_pa": 0.47
           },
           "vsRHP": {
-            "avg": ".000",
-            "hits": 0
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".286",
-            "hits": 2
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 1,
           "risp": {
@@ -177,12 +193,14 @@
             "bip_pa": 0.65
           },
           "vsRHP": {
-            "avg": ".133",
-            "hits": 2
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".167",
-            "hits": 1
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 1,
           "risp": {
@@ -200,12 +218,14 @@
             "bip_pa": 0.64
           },
           "vsRHP": {
-            "avg": ".045",
-            "hits": 1
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".077",
-            "hits": 1
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 0,
           "risp": {
@@ -223,12 +243,14 @@
             "bip_pa": 0.74
           },
           "vsRHP": {
-            "avg": ".321",
-            "hits": 9
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".188",
-            "hits": 3
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 2,
           "risp": {
@@ -248,12 +270,14 @@
             "bip_pa": 0.72
           },
           "vsRHP": {
-            "avg": ".194",
-            "hits": 7
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".188",
-            "hits": 3
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 1,
           "risp": {
@@ -271,12 +295,14 @@
             "bip_pa": 0.65
           },
           "vsRHP": {
-            "avg": ".333",
-            "hits": 7
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".250",
-            "hits": 3
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 1,
           "risp": {
@@ -294,12 +320,14 @@
             "bip_pa": 0.49
           },
           "vsRHP": {
-            "avg": ".156",
-            "hits": 5
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".091",
-            "hits": 1
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 0,
           "risp": {
@@ -317,12 +345,14 @@
             "bip_pa": 0.43
           },
           "vsRHP": {
-            "avg": ".231",
-            "hits": 6
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".235",
-            "hits": 4
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 4,
           "risp": {
@@ -340,12 +370,14 @@
             "bip_pa": 0.72
           },
           "vsRHP": {
-            "avg": ".227",
-            "hits": 5
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".267",
-            "hits": 4
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 0,
           "risp": {
@@ -363,12 +395,14 @@
             "bip_pa": 0.69
           },
           "vsRHP": {
-            "avg": ".105",
-            "hits": 4
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".200",
-            "hits": 2
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 2,
           "risp": {
@@ -386,12 +420,14 @@
             "bip_pa": 0.45
           },
           "vsRHP": {
-            "avg": ".250",
-            "hits": 4
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": "N/A",
-            "hits": "N/A"
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 0,
           "risp": {
@@ -409,12 +445,14 @@
             "bip_pa": 0.65
           },
           "vsRHP": {
-            "avg": ".333",
-            "hits": 4
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".200",
-            "hits": 1
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 2,
           "risp": {
@@ -432,12 +470,14 @@
             "bip_pa": 0.62
           },
           "vsRHP": {
-            "avg": ".222",
-            "hits": 6
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".000",
-            "hits": 0
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 0,
           "risp": {
@@ -455,22 +495,26 @@
       "away_pitcher": {
         "name": "Michael Soroka",
         "hand": "R",
-        "era": "3.75",
-        "avg_ip": 4.11,
-        "avg_k": 5.67,
+        "era": "3.46",
+        "avg_ip": 4.33,
+        "avg_k": 6.0,
         "avg_bb": 1.67,
-        "whip": 1.3,
+        "whip": 1.31,
+        "k_bb": 3.6,
+        "command": "Strong Command",
         "quality": false,
         "elite": false
       },
       "home_pitcher": {
         "name": "Jes\u00fas Luzardo",
         "hand": "L",
-        "era": "4.02",
-        "avg_ip": 5.22,
-        "avg_k": 7.33,
-        "avg_bb": 0.67,
-        "whip": 0.83,
+        "era": "3.78",
+        "avg_ip": 5.56,
+        "avg_k": 7.67,
+        "avg_bb": 1.0,
+        "whip": 0.84,
+        "k_bb": 7.67,
+        "command": "Elite Command",
         "quality": false,
         "elite": false
       },
@@ -485,12 +529,14 @@
             "bip_pa": 0.5
           },
           "vsRHP": {
-            "avg": ".167",
-            "hits": 2
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": "N/A",
-            "hits": "N/A"
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 0,
           "risp": {
@@ -508,12 +554,14 @@
             "bip_pa": 0.71
           },
           "vsRHP": {
-            "avg": ".037",
-            "hits": 1
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".375",
-            "hits": 3
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 0,
           "risp": {
@@ -531,12 +579,14 @@
             "bip_pa": 0.62
           },
           "vsRHP": {
-            "avg": ".240",
-            "hits": 6
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".471",
-            "hits": 8
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 1,
           "risp": {
@@ -554,12 +604,14 @@
             "bip_pa": 0.74
           },
           "vsRHP": {
-            "avg": ".357",
-            "hits": 10
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".091",
-            "hits": 1
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 0,
           "risp": {
@@ -572,17 +624,19 @@
           "tier": "Middle\u2011Order",
           "stats": {
             "avg": ".167",
-            "k_rate": 6.0,
-            "bb_rate": 16.0,
-            "bip_pa": 0.76
+            "k_rate": 5.9,
+            "bb_rate": 17.6,
+            "bip_pa": 0.75
           },
           "vsRHP": {
-            "avg": ".207",
-            "hits": 6
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".083",
-            "hits": 1
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 3,
           "risp": {
@@ -594,22 +648,24 @@
           "name": "Ildemaro Vargas",
           "tier": "Top\u2011Order",
           "stats": {
-            "avg": ".440",
-            "k_rate": 11.1,
-            "bb_rate": 7.4,
-            "bip_pa": 0.78
+            "avg": ".423",
+            "k_rate": 14.3,
+            "bb_rate": 7.1,
+            "bip_pa": 0.75
           },
           "vsRHP": {
-            "avg": ".417",
-            "hits": 5
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".500",
-            "hits": 6
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 7,
           "risp": {
-            "avg": ".440",
+            "avg": ".423",
             "hits": 11
           }
         },
@@ -617,22 +673,24 @@
           "name": "James McCann",
           "tier": "Bottom\u2011Order",
           "stats": {
-            "avg": ".071",
-            "k_rate": 40.0,
-            "bb_rate": 6.7,
-            "bip_pa": 0.53
+            "avg": ".067",
+            "k_rate": 37.5,
+            "bb_rate": 6.2,
+            "bip_pa": 0.56
           },
           "vsRHP": {
-            "avg": ".111",
-            "hits": 1
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".000",
-            "hits": 0
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 0,
           "risp": {
-            "avg": ".071",
+            "avg": ".067",
             "hits": 1
           }
         },
@@ -646,12 +704,14 @@
             "bip_pa": 0.64
           },
           "vsRHP": {
-            "avg": ".200",
-            "hits": 3
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".250",
-            "hits": 2
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 2,
           "risp": {
@@ -669,12 +729,14 @@
             "bip_pa": 0.72
           },
           "vsRHP": {
-            "avg": ".400",
-            "hits": 6
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".222",
-            "hits": 2
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 1,
           "risp": {
@@ -694,12 +756,14 @@
             "bip_pa": 0.65
           },
           "vsRHP": {
-            "avg": ".265",
-            "hits": 9
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".200",
-            "hits": 2
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 0,
           "risp": {
@@ -717,12 +781,14 @@
             "bip_pa": 0.77
           },
           "vsRHP": {
-            "avg": ".200",
-            "hits": 6
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".154",
-            "hits": 2
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 2,
           "risp": {
@@ -734,22 +800,24 @@
           "name": "Brandon Marsh",
           "tier": "Middle\u2011Order",
           "stats": {
-            "avg": ".293",
-            "k_rate": 23.3,
-            "bb_rate": 4.7,
-            "bip_pa": 0.67
+            "avg": ".286",
+            "k_rate": 25.0,
+            "bb_rate": 4.5,
+            "bip_pa": 0.66
           },
           "vsRHP": {
-            "avg": ".294",
-            "hits": 10
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".167",
-            "hits": 1
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 2,
           "risp": {
-            "avg": ".293",
+            "avg": ".286",
             "hits": 12
           }
         },
@@ -763,12 +831,14 @@
             "bip_pa": 0.7
           },
           "vsRHP": {
-            "avg": ".200",
-            "hits": 5
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".250",
-            "hits": 5
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 0,
           "risp": {
@@ -780,22 +850,24 @@
           "name": "Bryson Stott",
           "tier": "Middle\u2011Order",
           "stats": {
-            "avg": ".162",
-            "k_rate": 20.5,
-            "bb_rate": 5.1,
-            "bip_pa": 0.74
+            "avg": ".158",
+            "k_rate": 20.0,
+            "bb_rate": 5.0,
+            "bip_pa": 0.75
           },
           "vsRHP": {
-            "avg": ".156",
-            "hits": 5
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".250",
-            "hits": 1
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 1,
           "risp": {
-            "avg": ".162",
+            "avg": ".158",
             "hits": 6
           }
         },
@@ -809,12 +881,14 @@
             "bip_pa": 0.29
           },
           "vsRHP": {
-            "avg": ".000",
-            "hits": 0
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".000",
-            "hits": 0
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 0,
           "risp": {
@@ -832,12 +906,14 @@
             "bip_pa": 0.71
           },
           "vsRHP": {
-            "avg": ".200",
-            "hits": 1
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".143",
-            "hits": 1
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 0,
           "risp": {
@@ -855,12 +931,14 @@
             "bip_pa": 0.61
           },
           "vsRHP": {
-            "avg": ".273",
-            "hits": 6
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".000",
-            "hits": 0
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 0,
           "risp": {
@@ -878,12 +956,14 @@
             "bip_pa": 0.74
           },
           "vsRHP": {
-            "avg": ".345",
-            "hits": 10
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".143",
-            "hits": 1
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 1,
           "risp": {
@@ -901,22 +981,26 @@
       "away_pitcher": {
         "name": "Chris Paddack",
         "hand": "R",
-        "era": "7.59",
-        "avg_ip": 3.56,
+        "era": "6.94",
+        "avg_ip": 3.89,
         "avg_k": 3.67,
         "avg_bb": 1.67,
-        "whip": 1.87,
+        "whip": 1.8,
+        "k_bb": 2.2,
+        "command": "Average Command",
         "quality": false,
         "elite": false
       },
       "home_pitcher": {
         "name": "Keider Montero",
         "hand": "R",
-        "era": "2.84",
-        "avg_ip": 3.33,
-        "avg_k": 2.5,
+        "era": "2.25",
+        "avg_ip": 4.17,
+        "avg_k": 3.0,
         "avg_bb": 1.0,
-        "whip": 0.9,
+        "whip": 0.72,
+        "k_bb": 3.0,
+        "command": "Strong Command",
         "quality": false,
         "elite": false
       },
@@ -925,22 +1009,24 @@
           "name": "Agust\u00edn Ram\u00edrez",
           "tier": "Middle\u2011Order",
           "stats": {
-            "avg": ".244",
-            "k_rate": 23.1,
-            "bb_rate": 13.5,
-            "bip_pa": 0.63
+            "avg": ".239",
+            "k_rate": 22.6,
+            "bb_rate": 13.2,
+            "bip_pa": 0.64
           },
           "vsRHP": {
-            "avg": ".286",
-            "hits": 8
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".188",
-            "hits": 3
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 0,
           "risp": {
-            "avg": ".244",
+            "avg": ".239",
             "hits": 11
           }
         },
@@ -954,12 +1040,14 @@
             "bip_pa": 0.53
           },
           "vsRHP": {
-            "avg": "N/A",
-            "hits": "N/A"
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".111",
-            "hits": 2
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 0,
           "risp": {
@@ -977,12 +1065,14 @@
             "bip_pa": 0.65
           },
           "vsRHP": {
-            "avg": ".238",
-            "hits": 5
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".154",
-            "hits": 2
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 1,
           "risp": {
@@ -992,7 +1082,7 @@
         },
         {
           "name": "Deyvison De Los Santos",
-          "tier": "Bottom\u2011Order",
+          "tier": "Top\u2011Order",
           "stats": {
             "avg": ".500",
             "k_rate": 0.0,
@@ -1000,12 +1090,14 @@
             "bip_pa": 1.0
           },
           "vsRHP": {
-            "avg": "N/A",
-            "hits": "N/A"
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".500",
-            "hits": 1
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 1,
           "risp": {
@@ -1023,12 +1115,14 @@
             "bip_pa": 0.65
           },
           "vsRHP": {
-            "avg": ".227",
-            "hits": 5
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".000",
-            "hits": 0
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 0,
           "risp": {
@@ -1046,12 +1140,14 @@
             "bip_pa": 0.7
           },
           "vsRHP": {
-            "avg": ".125",
-            "hits": 2
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".125",
-            "hits": 2
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 0,
           "risp": {
@@ -1069,12 +1165,14 @@
             "bip_pa": 0.64
           },
           "vsRHP": {
-            "avg": ".133",
-            "hits": 4
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".200",
-            "hits": 4
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 1,
           "risp": {
@@ -1092,12 +1190,14 @@
             "bip_pa": 0.85
           },
           "vsRHP": {
-            "avg": ".471",
-            "hits": 8
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".333",
-            "hits": 5
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 2,
           "risp": {
@@ -1115,12 +1215,14 @@
             "bip_pa": 0.92
           },
           "vsRHP": {
-            "avg": ".667",
-            "hits": 2
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".125",
-            "hits": 1
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 0,
           "risp": {
@@ -1134,45 +1236,49 @@
           "name": "Colt Keith",
           "tier": "Middle\u2011Order",
           "stats": {
-            "avg": ".341",
-            "k_rate": 22.7,
-            "bb_rate": 6.8,
-            "bip_pa": 0.7
+            "avg": ".357",
+            "k_rate": 22.2,
+            "bb_rate": 6.7,
+            "bip_pa": 0.71
           },
           "vsRHP": {
-            "avg": ".359",
-            "hits": 14
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".000",
-            "hits": 0
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 1,
           "risp": {
-            "avg": ".341",
-            "hits": 14
+            "avg": ".357",
+            "hits": 15
           }
         },
         {
           "name": "Dillon Dingler",
           "tier": "Bottom\u2011Order",
           "stats": {
-            "avg": ".286",
-            "k_rate": 26.3,
-            "bb_rate": 7.9,
-            "bip_pa": 0.61
+            "avg": ".278",
+            "k_rate": 25.6,
+            "bb_rate": 7.7,
+            "bip_pa": 0.62
           },
           "vsRHP": {
-            "avg": ".286",
-            "hits": 8
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".167",
-            "hits": 1
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 2,
           "risp": {
-            "avg": ".286",
+            "avg": ".278",
             "hits": 10
           }
         },
@@ -1186,12 +1292,14 @@
             "bip_pa": 0.59
           },
           "vsRHP": {
-            "avg": ".238",
-            "hits": 10
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".200",
-            "hits": 1
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 2,
           "risp": {
@@ -1209,12 +1317,14 @@
             "bip_pa": 0.6
           },
           "vsRHP": {
-            "avg": ".000",
-            "hits": 0
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".000",
-            "hits": 0
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 0,
           "risp": {
@@ -1232,12 +1342,14 @@
             "bip_pa": 0.58
           },
           "vsRHP": {
-            "avg": ".091",
-            "hits": 1
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".000",
-            "hits": 0
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 0,
           "risp": {
@@ -1255,12 +1367,14 @@
             "bip_pa": 0.73
           },
           "vsRHP": {
-            "avg": ".300",
-            "hits": 9
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": "1.000",
-            "hits": 1
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 1,
           "risp": {
@@ -1278,12 +1392,14 @@
             "bip_pa": 0.42
           },
           "vsRHP": {
-            "avg": ".167",
-            "hits": 6
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".500",
-            "hits": 1
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 0,
           "risp": {
@@ -1301,12 +1417,14 @@
             "bip_pa": 0.75
           },
           "vsRHP": {
-            "avg": ".238",
-            "hits": 10
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".571",
-            "hits": 4
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 2,
           "risp": {
@@ -1324,12 +1442,14 @@
             "bip_pa": 0.72
           },
           "vsRHP": {
-            "avg": ".154",
-            "hits": 2
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".200",
-            "hits": 1
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 0,
           "risp": {
@@ -1347,22 +1467,26 @@
       "away_pitcher": {
         "name": "Jack Kochanowicz",
         "hand": "R",
-        "era": "3.86",
-        "avg_ip": 3.89,
-        "avg_k": 3.67,
+        "era": "3.55",
+        "avg_ip": 4.22,
+        "avg_k": 4.0,
         "avg_bb": 2.67,
-        "whip": 1.46,
+        "whip": 1.34,
+        "k_bb": 1.5,
+        "command": "Below Average Command",
         "quality": false,
         "elite": false
       },
       "home_pitcher": {
         "name": "Chase Burns",
         "hand": "R",
-        "era": "1.35",
-        "avg_ip": 4.56,
+        "era": "1.84",
+        "avg_ip": 4.89,
         "avg_k": 6.0,
-        "avg_bb": 2.0,
-        "whip": 1.1,
+        "avg_bb": 2.33,
+        "whip": 1.16,
+        "k_bb": 2.57,
+        "command": "Average Command",
         "quality": false,
         "elite": false
       },
@@ -1372,17 +1496,19 @@
           "tier": "Bottom\u2011Order",
           "stats": {
             "avg": ".273",
-            "k_rate": 28.6,
-            "bb_rate": 21.4,
-            "bip_pa": 0.5
+            "k_rate": 26.7,
+            "bb_rate": 26.7,
+            "bip_pa": 0.47
           },
           "vsRHP": {
-            "avg": ".333",
-            "hits": 2
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".200",
-            "hits": 1
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 0,
           "risp": {
@@ -1400,12 +1526,14 @@
             "bip_pa": 0.57
           },
           "vsRHP": {
-            "avg": ".000",
-            "hits": 0
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".167",
-            "hits": 1
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 0,
           "risp": {
@@ -1423,12 +1551,14 @@
             "bip_pa": 0.53
           },
           "vsRHP": {
-            "avg": ".077",
-            "hits": 1
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".200",
-            "hits": 1
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 0,
           "risp": {
@@ -1440,22 +1570,24 @@
           "name": "Jo Adell",
           "tier": "Middle\u2011Order",
           "stats": {
-            "avg": ".314",
-            "k_rate": 19.2,
+            "avg": ".308",
+            "k_rate": 18.9,
             "bb_rate": 1.9,
             "bip_pa": 0.77
           },
           "vsRHP": {
-            "avg": ".300",
-            "hits": 12
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".400",
-            "hits": 4
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 2,
           "risp": {
-            "avg": ".314",
+            "avg": ".308",
             "hits": 16
           }
         },
@@ -1469,12 +1601,14 @@
             "bip_pa": 0.43
           },
           "vsRHP": {
-            "avg": ".237",
-            "hits": 9
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".143",
-            "hits": 1
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 1,
           "risp": {
@@ -1486,22 +1620,24 @@
           "name": "Josh Lowe",
           "tier": "Bottom\u2011Order",
           "stats": {
-            "avg": ".118",
-            "k_rate": 39.5,
-            "bb_rate": 10.5,
-            "bip_pa": 0.47
+            "avg": ".114",
+            "k_rate": 38.5,
+            "bb_rate": 10.3,
+            "bip_pa": 0.49
           },
           "vsRHP": {
-            "avg": ".103",
-            "hits": 3
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".000",
-            "hits": 0
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 0,
           "risp": {
-            "avg": ".118",
+            "avg": ".114",
             "hits": 4
           }
         },
@@ -1509,22 +1645,24 @@
           "name": "Logan O'Hoppe",
           "tier": "Middle\u2011Order",
           "stats": {
-            "avg": ".242",
-            "k_rate": 24.3,
-            "bb_rate": 10.8,
-            "bip_pa": 0.65
+            "avg": ".235",
+            "k_rate": 23.7,
+            "bb_rate": 10.5,
+            "bip_pa": 0.66
           },
           "vsRHP": {
-            "avg": ".185",
-            "hits": 5
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".400",
-            "hits": 2
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 2,
           "risp": {
-            "avg": ".242",
+            "avg": ".235",
             "hits": 8
           }
         },
@@ -1538,12 +1676,14 @@
             "bip_pa": 0.49
           },
           "vsRHP": {
-            "avg": ".211",
-            "hits": 8
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".000",
-            "hits": 0
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 4,
           "risp": {
@@ -1561,12 +1701,14 @@
             "bip_pa": 0.71
           },
           "vsRHP": {
-            "avg": ".200",
-            "hits": 8
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".400",
-            "hits": 2
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 5,
           "risp": {
@@ -1586,12 +1728,14 @@
             "bip_pa": 0.8
           },
           "vsRHP": {
-            "avg": ".444",
-            "hits": 4
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".100",
-            "hits": 1
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 0,
           "risp": {
@@ -1609,12 +1753,14 @@
             "bip_pa": 0.53
           },
           "vsRHP": {
-            "avg": ".242",
-            "hits": 8
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".211",
-            "hits": 4
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 2,
           "risp": {
@@ -1632,12 +1778,14 @@
             "bip_pa": 0.58
           },
           "vsRHP": {
-            "avg": ".176",
-            "hits": 6
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".286",
-            "hits": 4
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 0,
           "risp": {
@@ -1649,45 +1797,49 @@
           "name": "Ke'Bryan Hayes",
           "tier": "Middle\u2011Order",
           "stats": {
-            "avg": ".097",
-            "k_rate": 9.1,
-            "bb_rate": 6.1,
+            "avg": ".094",
+            "k_rate": 8.8,
+            "bb_rate": 5.9,
             "bip_pa": 0.85
           },
           "vsRHP": {
-            "avg": ".083",
-            "hits": 2
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".143",
-            "hits": 1
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 0,
           "risp": {
-            "avg": ".097",
+            "avg": ".094",
             "hits": 3
           }
         },
         {
           "name": "Matt McLain",
-          "tier": "Bottom\u2011Order",
+          "tier": "Middle\u2011Order",
           "stats": {
-            "avg": ".231",
-            "k_rate": 25.4,
-            "bb_rate": 11.9,
+            "avg": ".226",
+            "k_rate": 25.0,
+            "bb_rate": 11.7,
             "bip_pa": 0.63
           },
           "vsRHP": {
-            "avg": ".205",
-            "hits": 8
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".333",
-            "hits": 4
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 0,
           "risp": {
-            "avg": ".231",
+            "avg": ".226",
             "hits": 12
           }
         },
@@ -1701,12 +1853,14 @@
             "bip_pa": 0.8
           },
           "vsRHP": {
-            "avg": ".231",
-            "hits": 3
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".000",
-            "hits": 0
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 0,
           "risp": {
@@ -1724,12 +1878,14 @@
             "bip_pa": 0.55
           },
           "vsRHP": {
-            "avg": ".273",
-            "hits": 3
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".000",
-            "hits": 0
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 0,
           "risp": {
@@ -1747,12 +1903,14 @@
             "bip_pa": 0.67
           },
           "vsRHP": {
-            "avg": ".000",
-            "hits": 0
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": "N/A",
-            "hits": "N/A"
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 0,
           "risp": {
@@ -1770,12 +1928,14 @@
             "bip_pa": 0.6
           },
           "vsRHP": {
-            "avg": ".333",
-            "hits": 11
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".455",
-            "hits": 5
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 5,
           "risp": {
@@ -1793,22 +1953,26 @@
       "away_pitcher": {
         "name": "Simeon Woods Richardson",
         "hand": "R",
-        "era": "2.25",
-        "avg_ip": 3.89,
-        "avg_k": 2.0,
+        "era": "2.13",
+        "avg_ip": 4.22,
+        "avg_k": 2.33,
         "avg_bb": 1.0,
         "whip": 1.11,
+        "k_bb": 2.33,
+        "command": "Average Command",
         "quality": false,
         "elite": false
       },
       "home_pitcher": {
         "name": "Patrick Corbin",
         "hand": "L",
-        "era": "27.00",
-        "avg_ip": 1.0,
+        "era": "13.50",
+        "avg_ip": 2.0,
         "avg_k": 1.0,
         "avg_bb": 1.0,
-        "whip": 4.0,
+        "whip": 2.0,
+        "k_bb": 1.0,
+        "command": "Below Average Command",
         "quality": false,
         "elite": false
       },
@@ -1817,22 +1981,24 @@
           "name": "Austin Martin",
           "tier": "Middle\u2011Order",
           "stats": {
-            "avg": ".280",
-            "k_rate": 12.5,
-            "bb_rate": 21.9,
-            "bip_pa": 0.66
+            "avg": ".269",
+            "k_rate": 12.1,
+            "bb_rate": 21.2,
+            "bip_pa": 0.67
           },
           "vsRHP": {
-            "avg": ".200",
-            "hits": 1
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".263",
-            "hits": 5
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 1,
           "risp": {
-            "avg": ".280",
+            "avg": ".269",
             "hits": 7
           }
         },
@@ -1846,12 +2012,14 @@
             "bip_pa": 0.73
           },
           "vsRHP": {
-            "avg": ".214",
-            "hits": 3
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".176",
-            "hits": 3
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 0,
           "risp": {
@@ -1861,24 +2029,26 @@
         },
         {
           "name": "Byron Buxton",
-          "tier": "Bottom\u2011Order",
+          "tier": "Middle\u2011Order",
           "stats": {
-            "avg": ".196",
-            "k_rate": 25.5,
-            "bb_rate": 9.8,
+            "avg": ".191",
+            "k_rate": 25.0,
+            "bb_rate": 9.6,
             "bip_pa": 0.65
           },
           "vsRHP": {
-            "avg": ".200",
-            "hits": 5
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".200",
-            "hits": 4
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 3,
           "risp": {
-            "avg": ".196",
+            "avg": ".191",
             "hits": 9
           }
         },
@@ -1892,12 +2062,14 @@
             "bip_pa": 0.4
           },
           "vsRHP": {
-            "avg": ".000",
-            "hits": 0
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".000",
-            "hits": 0
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 0,
           "risp": {
@@ -1915,12 +2087,14 @@
             "bip_pa": 0.5
           },
           "vsRHP": {
-            "avg": ".381",
-            "hits": 8
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".250",
-            "hits": 5
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 0,
           "risp": {
@@ -1938,12 +2112,14 @@
             "bip_pa": 0.43
           },
           "vsRHP": {
-            "avg": ".056",
-            "hits": 1
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".400",
-            "hits": 2
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 0,
           "risp": {
@@ -1961,12 +2137,14 @@
             "bip_pa": 0.76
           },
           "vsRHP": {
-            "avg": ".148",
-            "hits": 4
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".261",
-            "hits": 6
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 1,
           "risp": {
@@ -1984,12 +2162,14 @@
             "bip_pa": 0.4
           },
           "vsRHP": {
-            "avg": ".250",
-            "hits": 7
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".208",
-            "hits": 5
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 0,
           "risp": {
@@ -2007,12 +2187,14 @@
             "bip_pa": 0.5
           },
           "vsRHP": {
-            "avg": ".278",
-            "hits": 5
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".167",
-            "hits": 3
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 0,
           "risp": {
@@ -2032,12 +2214,14 @@
             "bip_pa": 0.77
           },
           "vsRHP": {
-            "avg": ".345",
-            "hits": 10
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".125",
-            "hits": 2
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 2,
           "risp": {
@@ -2055,12 +2239,14 @@
             "bip_pa": 0.5
           },
           "vsRHP": {
-            "avg": ".167",
-            "hits": 1
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".000",
-            "hits": 0
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 1,
           "risp": {
@@ -2072,23 +2258,25 @@
           "name": "Daulton Varsho",
           "tier": "Middle\u2011Order",
           "stats": {
-            "avg": ".184",
-            "k_rate": 13.6,
-            "bb_rate": 13.6,
+            "avg": ".205",
+            "k_rate": 13.3,
+            "bb_rate": 13.3,
             "bip_pa": 0.73
           },
           "vsRHP": {
-            "avg": ".111",
-            "hits": 3
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".364",
-            "hits": 4
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 0,
           "risp": {
-            "avg": ".184",
-            "hits": 7
+            "avg": ".205",
+            "hits": 8
           }
         },
         {
@@ -2101,12 +2289,14 @@
             "bip_pa": 0.42
           },
           "vsRHP": {
-            "avg": ".200",
-            "hits": 1
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".222",
-            "hits": 2
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 0,
           "risp": {
@@ -2124,12 +2314,14 @@
             "bip_pa": 0.94
           },
           "vsRHP": {
-            "avg": ".294",
-            "hits": 10
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".214",
-            "hits": 3
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 2,
           "risp": {
@@ -2147,12 +2339,14 @@
             "bip_pa": 0.61
           },
           "vsRHP": {
-            "avg": ".194",
-            "hits": 7
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".154",
-            "hits": 2
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 0,
           "risp": {
@@ -2162,24 +2356,26 @@
         },
         {
           "name": "Jes\u00fas S\u00e1nchez",
-          "tier": "Middle\u2011Order",
+          "tier": "Bottom\u2011Order",
           "stats": {
-            "avg": ".281",
-            "k_rate": 23.5,
-            "bb_rate": 5.9,
-            "bip_pa": 0.68
+            "avg": ".273",
+            "k_rate": 25.7,
+            "bb_rate": 5.7,
+            "bip_pa": 0.66
           },
           "vsRHP": {
-            "avg": ".276",
-            "hits": 8
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".333",
-            "hits": 1
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 4,
           "risp": {
-            "avg": ".281",
+            "avg": ".273",
             "hits": 9
           }
         },
@@ -2193,12 +2389,14 @@
             "bip_pa": 0.47
           },
           "vsRHP": {
-            "avg": ".189",
-            "hits": 7
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".444",
-            "hits": 4
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 6,
           "risp": {
@@ -2216,12 +2414,14 @@
             "bip_pa": 0.85
           },
           "vsRHP": {
-            "avg": ".500",
-            "hits": 1
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".400",
-            "hits": 4
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 0,
           "risp": {
@@ -2239,22 +2439,26 @@
       "away_pitcher": {
         "name": "J.T. Ginn",
         "hand": "R",
-        "era": "4.50",
-        "avg_ip": 2.0,
-        "avg_k": 1.5,
+        "era": "4.00",
+        "avg_ip": 2.25,
+        "avg_k": 1.75,
         "avg_bb": 0.5,
-        "whip": 1.0,
+        "whip": 0.89,
+        "k_bb": 3.5,
+        "command": "Strong Command",
         "quality": false,
         "elite": false
       },
       "home_pitcher": {
         "name": "Clay Holmes",
         "hand": "R",
-        "era": "1.32",
-        "avg_ip": 4.56,
-        "avg_k": 3.0,
+        "era": "1.23",
+        "avg_ip": 4.89,
+        "avg_k": 3.33,
         "avg_bb": 2.0,
-        "whip": 0.95,
+        "whip": 1.02,
+        "k_bb": 1.67,
+        "command": "Below Average Command",
         "quality": false,
         "elite": false
       },
@@ -2269,12 +2473,14 @@
             "bip_pa": 0.77
           },
           "vsRHP": {
-            "avg": ".000",
-            "hits": 0
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".182",
-            "hits": 2
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 0,
           "risp": {
@@ -2292,12 +2498,14 @@
             "bip_pa": 0.89
           },
           "vsRHP": {
-            "avg": ".000",
-            "hits": 0
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".143",
-            "hits": 1
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 0,
           "risp": {
@@ -2309,23 +2517,25 @@
           "name": "Carlos Cortes",
           "tier": "Top\u2011Order",
           "stats": {
-            "avg": ".400",
-            "k_rate": 7.7,
-            "bb_rate": 23.1,
-            "bip_pa": 0.69
+            "avg": ".455",
+            "k_rate": 7.1,
+            "bb_rate": 21.4,
+            "bip_pa": 0.71
           },
           "vsRHP": {
-            "avg": ".400",
-            "hits": 4
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": "N/A",
-            "hits": "N/A"
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 0,
           "risp": {
-            "avg": ".400",
-            "hits": 4
+            "avg": ".455",
+            "hits": 5
           }
         },
         {
@@ -2338,12 +2548,14 @@
             "bip_pa": 0.83
           },
           "vsRHP": {
-            "avg": ".500",
-            "hits": 1
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".200",
-            "hits": 2
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 0,
           "risp": {
@@ -2361,12 +2573,14 @@
             "bip_pa": 0.52
           },
           "vsRHP": {
-            "avg": ".077",
-            "hits": 1
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".214",
-            "hits": 3
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 0,
           "risp": {
@@ -2384,12 +2598,14 @@
             "bip_pa": 0.85
           },
           "vsRHP": {
-            "avg": ".162",
-            "hits": 6
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".286",
-            "hits": 4
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 0,
           "risp": {
@@ -2407,12 +2623,14 @@
             "bip_pa": 0.64
           },
           "vsRHP": {
-            "avg": ".222",
-            "hits": 6
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".500",
-            "hits": 2
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 0,
           "risp": {
@@ -2430,12 +2648,14 @@
             "bip_pa": 0.61
           },
           "vsRHP": {
-            "avg": ".261",
-            "hits": 6
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".100",
-            "hits": 1
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 0,
           "risp": {
@@ -2447,22 +2667,24 @@
           "name": "Max Muncy",
           "tier": "Bottom\u2011Order",
           "stats": {
-            "avg": ".319",
-            "k_rate": 33.3,
-            "bb_rate": 2.1,
-            "bip_pa": 0.6
+            "avg": ".313",
+            "k_rate": 34.7,
+            "bb_rate": 2.0,
+            "bip_pa": 0.59
           },
           "vsRHP": {
-            "avg": ".345",
-            "hits": 10
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".278",
-            "hits": 5
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 0,
           "risp": {
-            "avg": ".319",
+            "avg": ".313",
             "hits": 15
           }
         }
@@ -2478,12 +2700,14 @@
             "bip_pa": 0.7
           },
           "vsRHP": {
-            "avg": ".225",
-            "hits": 9
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".235",
-            "hits": 4
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 0,
           "risp": {
@@ -2495,22 +2719,24 @@
           "name": "Brett Baty",
           "tier": "Bottom\u2011Order",
           "stats": {
-            "avg": ".273",
-            "k_rate": 27.3,
+            "avg": ".267",
+            "k_rate": 28.9,
             "bb_rate": 0.0,
-            "bip_pa": 0.73
+            "bip_pa": 0.71
           },
           "vsRHP": {
-            "avg": ".263",
-            "hits": 10
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".333",
-            "hits": 2
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 4,
           "risp": {
-            "avg": ".273",
+            "avg": ".267",
             "hits": 12
           }
         },
@@ -2524,12 +2750,14 @@
             "bip_pa": 0.57
           },
           "vsRHP": {
-            "avg": ".133",
-            "hits": 4
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".000",
-            "hits": 0
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 1,
           "risp": {
@@ -2547,12 +2775,14 @@
             "bip_pa": 0.61
           },
           "vsRHP": {
-            "avg": ".333",
-            "hits": 8
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".100",
-            "hits": 1
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 1,
           "risp": {
@@ -2570,12 +2800,14 @@
             "bip_pa": 0.66
           },
           "vsRHP": {
-            "avg": ".162",
-            "hits": 6
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".143",
-            "hits": 2
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 0,
           "risp": {
@@ -2593,12 +2825,14 @@
             "bip_pa": 0.76
           },
           "vsRHP": {
-            "avg": ".357",
-            "hits": 5
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": "N/A",
-            "hits": "N/A"
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 0,
           "risp": {
@@ -2616,12 +2850,14 @@
             "bip_pa": 0.76
           },
           "vsRHP": {
-            "avg": ".258",
-            "hits": 8
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".000",
-            "hits": 0
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 1,
           "risp": {
@@ -2633,22 +2869,24 @@
           "name": "Luis Robert Jr.",
           "tier": "Middle\u2011Order",
           "stats": {
-            "avg": ".333",
-            "k_rate": 22.0,
-            "bb_rate": 22.0,
-            "bip_pa": 0.52
+            "avg": ".325",
+            "k_rate": 21.6,
+            "bb_rate": 21.6,
+            "bip_pa": 0.53
           },
           "vsRHP": {
-            "avg": ".323",
-            "hits": 10
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".375",
-            "hits": 3
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 3,
           "risp": {
-            "avg": ".333",
+            "avg": ".325",
             "hits": 13
           }
         },
@@ -2662,12 +2900,14 @@
             "bip_pa": 0.88
           },
           "vsRHP": {
-            "avg": ".100",
-            "hits": 1
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".500",
-            "hits": 3
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 2,
           "risp": {
@@ -2685,22 +2925,26 @@
       "away_pitcher": {
         "name": "Luis Gil",
         "hand": "R",
-        "era": "N/A",
-        "avg_ip": 0.67,
+        "era": "18.00",
+        "avg_ip": 1.0,
         "avg_k": 1.0,
-        "avg_bb": 0.0,
-        "whip": "N/A",
+        "avg_bb": 2.0,
+        "whip": 3.0,
+        "k_bb": 0.5,
+        "command": "Below Average Command",
         "quality": false,
         "elite": false
       },
       "home_pitcher": {
         "name": "Steven Matz",
         "hand": "L",
-        "era": "5.25",
-        "avg_ip": 4.0,
-        "avg_k": 3.67,
+        "era": "4.85",
+        "avg_ip": 4.33,
+        "avg_k": 4.0,
         "avg_bb": 1.33,
-        "whip": 1.17,
+        "whip": 1.08,
+        "k_bb": 3.0,
+        "command": "Strong Command",
         "quality": false,
         "elite": false
       },
@@ -2715,12 +2959,14 @@
             "bip_pa": 0.55
           },
           "vsRHP": {
-            "avg": ".194",
-            "hits": 7
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".333",
-            "hits": 3
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 0,
           "risp": {
@@ -2738,12 +2984,14 @@
             "bip_pa": 0.58
           },
           "vsRHP": {
-            "avg": ".364",
-            "hits": 4
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".000",
-            "hits": 0
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 0,
           "risp": {
@@ -2755,22 +3003,24 @@
           "name": "Austin Wells",
           "tier": "Bottom\u2011Order",
           "stats": {
-            "avg": ".167",
-            "k_rate": 31.4,
-            "bb_rate": 14.3,
-            "bip_pa": 0.54
+            "avg": ".161",
+            "k_rate": 30.6,
+            "bb_rate": 13.9,
+            "bip_pa": 0.56
           },
           "vsRHP": {
-            "avg": ".238",
-            "hits": 5
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".000",
-            "hits": 0
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 1,
           "risp": {
-            "avg": ".167",
+            "avg": ".161",
             "hits": 5
           }
         },
@@ -2784,12 +3034,14 @@
             "bip_pa": 0.42
           },
           "vsRHP": {
-            "avg": ".357",
-            "hits": 10
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".222",
-            "hits": 2
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 6,
           "risp": {
@@ -2807,12 +3059,14 @@
             "bip_pa": 0.69
           },
           "vsRHP": {
-            "avg": ".281",
-            "hits": 9
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".100",
-            "hits": 1
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 3,
           "risp": {
@@ -2830,12 +3084,14 @@
             "bip_pa": 0.66
           },
           "vsRHP": {
-            "avg": ".378",
-            "hits": 14
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".000",
-            "hits": 0
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 5,
           "risp": {
@@ -2853,12 +3109,14 @@
             "bip_pa": 0.6
           },
           "vsRHP": {
-            "avg": ".000",
-            "hits": 0
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": "N/A",
-            "hits": "N/A"
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 0,
           "risp": {
@@ -2876,12 +3134,14 @@
             "bip_pa": 0.62
           },
           "vsRHP": {
-            "avg": ".200",
-            "hits": 7
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".125",
-            "hits": 1
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 2,
           "risp": {
@@ -2893,22 +3153,24 @@
           "name": "Jos\u00e9 Caballero",
           "tier": "Bottom\u2011Order",
           "stats": {
-            "avg": ".135",
-            "k_rate": 28.2,
-            "bb_rate": 5.1,
-            "bip_pa": 0.67
+            "avg": ".132",
+            "k_rate": 30.0,
+            "bb_rate": 5.0,
+            "bip_pa": 0.65
           },
           "vsRHP": {
-            "avg": ".138",
-            "hits": 4
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".125",
-            "hits": 1
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 2,
           "risp": {
-            "avg": ".135",
+            "avg": ".132",
             "hits": 5
           }
         }
@@ -2924,12 +3186,14 @@
             "bip_pa": 0.75
           },
           "vsRHP": {
-            "avg": ".231",
-            "hits": 6
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".250",
-            "hits": 3
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 1,
           "risp": {
@@ -2942,17 +3206,19 @@
           "tier": "Bottom\u2011Order",
           "stats": {
             "avg": ".122",
-            "k_rate": 28.6,
-            "bb_rate": 2.4,
-            "bip_pa": 0.67
+            "k_rate": 27.9,
+            "bb_rate": 4.7,
+            "bip_pa": 0.65
           },
           "vsRHP": {
-            "avg": ".091",
-            "hits": 3
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".250",
-            "hits": 2
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 0,
           "risp": {
@@ -2970,12 +3236,14 @@
             "bip_pa": 0.88
           },
           "vsRHP": {
-            "avg": ".394",
-            "hits": 13
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".385",
-            "hits": 5
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 6,
           "risp": {
@@ -2993,12 +3261,14 @@
             "bip_pa": 0.4
           },
           "vsRHP": {
-            "avg": ".182",
-            "hits": 2
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": "1.000",
-            "hits": 1
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 0,
           "risp": {
@@ -3016,12 +3286,14 @@
             "bip_pa": 0.72
           },
           "vsRHP": {
-            "avg": ".200",
-            "hits": 5
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".333",
-            "hits": 1
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 1,
           "risp": {
@@ -3039,12 +3311,14 @@
             "bip_pa": 0.64
           },
           "vsRHP": {
-            "avg": ".243",
-            "hits": 9
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".364",
-            "hits": 4
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 3,
           "risp": {
@@ -3054,24 +3328,26 @@
         },
         {
           "name": "Jonny DeLuca",
-          "tier": "Top\u2011Order",
+          "tier": "Middle\u2011Order",
           "stats": {
-            "avg": ".286",
-            "k_rate": 13.6,
-            "bb_rate": 4.5,
-            "bip_pa": 0.77
+            "avg": ".273",
+            "k_rate": 13.0,
+            "bb_rate": 4.3,
+            "bip_pa": 0.78
           },
           "vsRHP": {
-            "avg": ".364",
-            "hits": 4
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".200",
-            "hits": 2
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 1,
           "risp": {
-            "avg": ".286",
+            "avg": ".273",
             "hits": 6
           }
         },
@@ -3085,12 +3361,14 @@
             "bip_pa": 0.62
           },
           "vsRHP": {
-            "avg": ".194",
-            "hits": 7
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".300",
-            "hits": 3
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 2,
           "risp": {
@@ -3108,12 +3386,14 @@
             "bip_pa": 0.82
           },
           "vsRHP": {
-            "avg": ".429",
-            "hits": 9
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".083",
-            "hits": 1
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 2,
           "risp": {
@@ -3131,22 +3411,26 @@
       "away_pitcher": {
         "name": "Landen Roupp",
         "hand": "R",
-        "era": "4.22",
-        "avg_ip": 5.33,
-        "avg_k": 7.0,
-        "avg_bb": 1.5,
-        "whip": 1.12,
+        "era": "3.86",
+        "avg_ip": 3.89,
+        "avg_k": 5.0,
+        "avg_bb": 1.0,
+        "whip": 1.11,
+        "k_bb": 5.0,
+        "command": "Elite Command",
         "quality": false,
         "elite": false
       },
       "home_pitcher": {
         "name": "Shane Baz",
         "hand": "R",
-        "era": "3.75",
-        "avg_ip": 4.0,
-        "avg_k": 3.0,
+        "era": "3.55",
+        "avg_ip": 4.33,
+        "avg_k": 3.67,
         "avg_bb": 1.33,
-        "whip": 1.25,
+        "whip": 1.23,
+        "k_bb": 2.75,
+        "command": "Average Command",
         "quality": false,
         "elite": false
       },
@@ -3155,22 +3439,24 @@
           "name": "Casey Schmitt",
           "tier": "Bottom\u2011Order",
           "stats": {
-            "avg": ".280",
-            "k_rate": 29.6,
-            "bb_rate": 7.4,
-            "bip_pa": 0.63
+            "avg": ".269",
+            "k_rate": 32.1,
+            "bb_rate": 7.1,
+            "bip_pa": 0.61
           },
           "vsRHP": {
-            "avg": ".188",
-            "hits": 3
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".444",
-            "hits": 4
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 0,
           "risp": {
-            "avg": ".280",
+            "avg": ".269",
             "hits": 7
           }
         },
@@ -3184,12 +3470,14 @@
             "bip_pa": 1.0
           },
           "vsRHP": {
-            "avg": ".000",
-            "hits": 0
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": "N/A",
-            "hits": "N/A"
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 0,
           "risp": {
@@ -3199,7 +3487,7 @@
         },
         {
           "name": "Daniel Susac",
-          "tier": "Bottom\u2011Order",
+          "tier": "Top\u2011Order",
           "stats": {
             "avg": ".857",
             "k_rate": 0.0,
@@ -3207,12 +3495,14 @@
             "bip_pa": 0.88
           },
           "vsRHP": {
-            "avg": ".500",
-            "hits": 1
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": "1.000",
-            "hits": 5
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 0,
           "risp": {
@@ -3230,12 +3520,14 @@
             "bip_pa": 0.63
           },
           "vsRHP": {
-            "avg": ".083",
-            "hits": 3
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".250",
-            "hits": 2
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 0,
           "risp": {
@@ -3247,28 +3539,30 @@
           "name": "Heliot Ramos",
           "tier": "Bottom\u2011Order",
           "stats": {
-            "avg": ".191",
-            "k_rate": 40.8,
-            "bb_rate": 4.1,
-            "bip_pa": 0.55
+            "avg": ".188",
+            "k_rate": 42.0,
+            "bb_rate": 4.0,
+            "bip_pa": 0.54
           },
           "vsRHP": {
-            "avg": ".206",
-            "hits": 7
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".154",
-            "hits": 2
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 3,
           "risp": {
-            "avg": ".191",
+            "avg": ".188",
             "hits": 9
           }
         },
         {
           "name": "Jared Oliva",
-          "tier": "Bottom\u2011Order",
+          "tier": "Top\u2011Order",
           "stats": {
             "avg": ".333",
             "k_rate": 0.0,
@@ -3276,12 +3570,14 @@
             "bip_pa": 1.0
           },
           "vsRHP": {
-            "avg": "1.000",
-            "hits": 1
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".000",
-            "hits": 0
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 0,
           "risp": {
@@ -3299,12 +3595,14 @@
             "bip_pa": 0.84
           },
           "vsRHP": {
-            "avg": ".200",
-            "hits": 3
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".500",
-            "hits": 2
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 0,
           "risp": {
@@ -3316,23 +3614,25 @@
           "name": "Jung Hoo Lee",
           "tier": "Middle\u2011Order",
           "stats": {
-            "avg": ".143",
-            "k_rate": 19.1,
-            "bb_rate": 10.6,
-            "bip_pa": 0.7
+            "avg": ".163",
+            "k_rate": 18.8,
+            "bb_rate": 10.4,
+            "bip_pa": 0.71
           },
           "vsRHP": {
-            "avg": ".161",
-            "hits": 5
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".091",
-            "hits": 1
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 0,
           "risp": {
-            "avg": ".143",
-            "hits": 6
+            "avg": ".163",
+            "hits": 7
           }
         },
         {
@@ -3345,12 +3645,14 @@
             "bip_pa": 0.87
           },
           "vsRHP": {
-            "avg": ".300",
-            "hits": 9
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".350",
-            "hits": 7
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 1,
           "risp": {
@@ -3364,23 +3666,25 @@
           "name": "Adley Rutschman",
           "tier": "Middle\u2011Order",
           "stats": {
-            "avg": ".241",
-            "k_rate": 17.6,
-            "bb_rate": 14.7,
-            "bip_pa": 0.68
+            "avg": ".267",
+            "k_rate": 17.1,
+            "bb_rate": 14.3,
+            "bip_pa": 0.69
           },
           "vsRHP": {
-            "avg": ".300",
-            "hits": 6
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".111",
-            "hits": 1
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 1,
           "risp": {
-            "avg": ".241",
-            "hits": 7
+            "avg": ".267",
+            "hits": 8
           }
         },
         {
@@ -3393,12 +3697,14 @@
             "bip_pa": 0.7
           },
           "vsRHP": {
-            "avg": ".333",
-            "hits": 8
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".000",
-            "hits": 0
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 5,
           "risp": {
@@ -3416,12 +3722,14 @@
             "bip_pa": 0.53
           },
           "vsRHP": {
-            "avg": ".174",
-            "hits": 4
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".000",
-            "hits": 0
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 0,
           "risp": {
@@ -3439,12 +3747,14 @@
             "bip_pa": 0.6
           },
           "vsRHP": {
-            "avg": ".182",
-            "hits": 4
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".000",
-            "hits": 0
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 0,
           "risp": {
@@ -3462,12 +3772,14 @@
             "bip_pa": 0.68
           },
           "vsRHP": {
-            "avg": ".240",
-            "hits": 6
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".500",
-            "hits": 2
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 0,
           "risp": {
@@ -3485,12 +3797,14 @@
             "bip_pa": 0.52
           },
           "vsRHP": {
-            "avg": ".200",
-            "hits": 8
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".444",
-            "hits": 4
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 0,
           "risp": {
@@ -3508,12 +3822,14 @@
             "bip_pa": 0.71
           },
           "vsRHP": {
-            "avg": ".130",
-            "hits": 3
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".600",
-            "hits": 3
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 2,
           "risp": {
@@ -3531,12 +3847,14 @@
             "bip_pa": 0.36
           },
           "vsRHP": {
-            "avg": ".444",
-            "hits": 4
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".000",
-            "hits": 0
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 0,
           "risp": {
@@ -3548,22 +3866,24 @@
           "name": "Pete Alonso",
           "tier": "Bottom\u2011Order",
           "stats": {
-            "avg": ".188",
-            "k_rate": 28.3,
-            "bb_rate": 9.4,
-            "bip_pa": 0.6
+            "avg": ".184",
+            "k_rate": 29.6,
+            "bb_rate": 9.3,
+            "bip_pa": 0.59
           },
           "vsRHP": {
-            "avg": ".211",
-            "hits": 8
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".100",
-            "hits": 1
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 0,
           "risp": {
-            "avg": ".188",
+            "avg": ".184",
             "hits": 9
           }
         }
@@ -3577,11 +3897,13 @@
       "away_pitcher": {
         "name": "Slade Cecconi",
         "hand": "R",
-        "era": "5.23",
-        "avg_ip": 3.44,
-        "avg_k": 3.67,
+        "era": "4.50",
+        "avg_ip": 4.11,
+        "avg_k": 4.0,
         "avg_bb": 1.33,
-        "whip": 1.06,
+        "whip": 0.89,
+        "k_bb": 3.0,
+        "command": "Strong Command",
         "quality": false,
         "elite": false
       },
@@ -3589,10 +3911,12 @@
         "name": "Bryce Elder",
         "hand": "R",
         "era": "0.00",
-        "avg_ip": 4.67,
-        "avg_k": 4.67,
+        "avg_ip": 5.0,
+        "avg_k": 5.0,
         "avg_bb": 1.0,
-        "whip": 0.86,
+        "whip": 0.8,
+        "k_bb": 5.0,
+        "command": "Elite Command",
         "quality": false,
         "elite": false
       },
@@ -3607,12 +3931,14 @@
             "bip_pa": 0.69
           },
           "vsRHP": {
-            "avg": ".333",
-            "hits": 6
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".273",
-            "hits": 3
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 0,
           "risp": {
@@ -3630,12 +3956,14 @@
             "bip_pa": 0.8
           },
           "vsRHP": {
-            "avg": ".375",
-            "hits": 3
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".429",
-            "hits": 3
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 4,
           "risp": {
@@ -3647,22 +3975,24 @@
           "name": "Bo Naylor",
           "tier": "Middle\u2011Order",
           "stats": {
-            "avg": ".138",
-            "k_rate": 24.2,
-            "bb_rate": 12.1,
-            "bip_pa": 0.64
+            "avg": ".133",
+            "k_rate": 23.5,
+            "bb_rate": 11.8,
+            "bip_pa": 0.65
           },
           "vsRHP": {
-            "avg": ".120",
-            "hits": 3
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".250",
-            "hits": 1
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 0,
           "risp": {
-            "avg": ".138",
+            "avg": ".133",
             "hits": 4
           }
         },
@@ -3676,12 +4006,14 @@
             "bip_pa": 0.74
           },
           "vsRHP": {
-            "avg": ".222",
-            "hits": 6
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".200",
-            "hits": 2
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 1,
           "risp": {
@@ -3699,12 +4031,14 @@
             "bip_pa": 0.54
           },
           "vsRHP": {
-            "avg": ".211",
-            "hits": 4
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".000",
-            "hits": 0
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 0,
           "risp": {
@@ -3722,12 +4056,14 @@
             "bip_pa": 0.58
           },
           "vsRHP": {
-            "avg": ".276",
-            "hits": 8
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".273",
-            "hits": 3
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 4,
           "risp": {
@@ -3745,12 +4081,14 @@
             "bip_pa": 0.71
           },
           "vsRHP": {
-            "avg": ".160",
-            "hits": 4
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".333",
-            "hits": 1
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 1,
           "risp": {
@@ -3768,12 +4106,14 @@
             "bip_pa": 0.47
           },
           "vsRHP": {
-            "avg": ".250",
-            "hits": 2
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".167",
-            "hits": 1
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 1,
           "risp": {
@@ -3791,12 +4131,14 @@
             "bip_pa": 0.73
           },
           "vsRHP": {
-            "avg": ".143",
-            "hits": 5
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".214",
-            "hits": 3
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 1,
           "risp": {
@@ -3810,22 +4152,24 @@
           "name": "Austin Riley",
           "tier": "Middle\u2011Order",
           "stats": {
-            "avg": ".200",
-            "k_rate": 23.1,
-            "bb_rate": 13.5,
-            "bip_pa": 0.63
+            "avg": ".196",
+            "k_rate": 22.6,
+            "bb_rate": 13.2,
+            "bip_pa": 0.64
           },
           "vsRHP": {
-            "avg": ".097",
-            "hits": 3
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".429",
-            "hits": 6
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 2,
           "risp": {
-            "avg": ".200",
+            "avg": ".196",
             "hits": 9
           }
         },
@@ -3839,12 +4183,14 @@
             "bip_pa": 0.69
           },
           "vsRHP": {
-            "avg": ".304",
-            "hits": 7
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".000",
-            "hits": 0
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 5,
           "risp": {
@@ -3856,22 +4202,24 @@
           "name": "Drake Baldwin",
           "tier": "Top\u2011Order",
           "stats": {
-            "avg": ".321",
-            "k_rate": 15.8,
-            "bb_rate": 7.0,
-            "bip_pa": 0.68
+            "avg": ".315",
+            "k_rate": 17.2,
+            "bb_rate": 6.9,
+            "bip_pa": 0.67
           },
           "vsRHP": {
-            "avg": ".324",
-            "hits": 12
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".313",
-            "hits": 5
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 1,
           "risp": {
-            "avg": ".321",
+            "avg": ".315",
             "hits": 17
           }
         },
@@ -3885,12 +4233,14 @@
             "bip_pa": 0.79
           },
           "vsRHP": {
-            "avg": ".000",
-            "hits": 0
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".222",
-            "hits": 2
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 1,
           "risp": {
@@ -3908,12 +4258,14 @@
             "bip_pa": 0.67
           },
           "vsRHP": {
-            "avg": ".000",
-            "hits": 0
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".222",
-            "hits": 2
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 0,
           "risp": {
@@ -3931,12 +4283,14 @@
             "bip_pa": 0.5
           },
           "vsRHP": {
-            "avg": ".429",
-            "hits": 3
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".000",
-            "hits": 0
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 0,
           "risp": {
@@ -3946,7 +4300,7 @@
         },
         {
           "name": "Kyle Farmer",
-          "tier": "Bottom\u2011Order",
+          "tier": "Top\u2011Order",
           "stats": {
             "avg": ".500",
             "k_rate": 0.0,
@@ -3954,12 +4308,14 @@
             "bip_pa": 1.0
           },
           "vsRHP": {
-            "avg": "1.000",
-            "hits": 1
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".000",
-            "hits": 0
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 0,
           "risp": {
@@ -3971,22 +4327,24 @@
           "name": "Matt Olson",
           "tier": "Bottom\u2011Order",
           "stats": {
-            "avg": ".280",
-            "k_rate": 33.3,
-            "bb_rate": 12.3,
-            "bip_pa": 0.49
+            "avg": ".275",
+            "k_rate": 32.8,
+            "bb_rate": 12.1,
+            "bip_pa": 0.5
           },
           "vsRHP": {
-            "avg": ".273",
-            "hits": 9
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".294",
-            "hits": 5
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 2,
           "risp": {
-            "avg": ".280",
+            "avg": ".275",
             "hits": 14
           }
         },
@@ -4000,12 +4358,14 @@
             "bip_pa": 0.74
           },
           "vsRHP": {
-            "avg": ".367",
-            "hits": 11
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".267",
-            "hits": 4
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 1,
           "risp": {
@@ -4028,6 +4388,8 @@
         "avg_k": 6.0,
         "avg_bb": 2.0,
         "whip": 1.18,
+        "k_bb": 3.0,
+        "command": "Strong Command",
         "quality": false,
         "elite": false
       },
@@ -4039,6 +4401,8 @@
         "avg_k": 6.0,
         "avg_bb": 3.0,
         "whip": 1.09,
+        "k_bb": 2.0,
+        "command": "Average Command",
         "quality": false,
         "elite": false
       },
@@ -4053,12 +4417,14 @@
             "bip_pa": 0.5
           },
           "vsRHP": {
-            "avg": ".200",
-            "hits": 6
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".000",
-            "hits": 0
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 0,
           "risp": {
@@ -4076,12 +4442,14 @@
             "bip_pa": 0.67
           },
           "vsRHP": {
-            "avg": ".222",
-            "hits": 8
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".333",
-            "hits": 3
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 2,
           "risp": {
@@ -4099,12 +4467,14 @@
             "bip_pa": 0.52
           },
           "vsRHP": {
-            "avg": ".171",
-            "hits": 6
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".300",
-            "hits": 3
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 0,
           "risp": {
@@ -4122,12 +4492,14 @@
             "bip_pa": 0.33
           },
           "vsRHP": {
-            "avg": ".143",
-            "hits": 1
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".250",
-            "hits": 1
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 0,
           "risp": {
@@ -4145,12 +4517,14 @@
             "bip_pa": 0.56
           },
           "vsRHP": {
-            "avg": ".333",
-            "hits": 2
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": "N/A",
-            "hits": "N/A"
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 0,
           "risp": {
@@ -4168,12 +4542,14 @@
             "bip_pa": 0.68
           },
           "vsRHP": {
-            "avg": ".231",
-            "hits": 6
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".000",
-            "hits": 0
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 0,
           "risp": {
@@ -4191,12 +4567,14 @@
             "bip_pa": 0.77
           },
           "vsRHP": {
-            "avg": ".077",
-            "hits": 1
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".222",
-            "hits": 2
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 0,
           "risp": {
@@ -4214,12 +4592,14 @@
             "bip_pa": 0.85
           },
           "vsRHP": {
-            "avg": ".194",
-            "hits": 6
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".375",
-            "hits": 3
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 1,
           "risp": {
@@ -4237,12 +4617,14 @@
             "bip_pa": 0.59
           },
           "vsRHP": {
-            "avg": ".152",
-            "hits": 5
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".400",
-            "hits": 4
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 0,
           "risp": {
@@ -4262,12 +4644,14 @@
             "bip_pa": 0.68
           },
           "vsRHP": {
-            "avg": ".257",
-            "hits": 9
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".357",
-            "hits": 5
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 3,
           "risp": {
@@ -4285,12 +4669,14 @@
             "bip_pa": 0.46
           },
           "vsRHP": {
-            "avg": ".208",
-            "hits": 5
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".250",
-            "hits": 2
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 0,
           "risp": {
@@ -4308,12 +4694,14 @@
             "bip_pa": 0.49
           },
           "vsRHP": {
-            "avg": ".238",
-            "hits": 5
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".071",
-            "hits": 1
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 0,
           "risp": {
@@ -4331,12 +4719,14 @@
             "bip_pa": 0.57
           },
           "vsRHP": {
-            "avg": ".280",
-            "hits": 7
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".154",
-            "hits": 2
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 0,
           "risp": {
@@ -4354,12 +4744,14 @@
             "bip_pa": 0.56
           },
           "vsRHP": {
-            "avg": ".231",
-            "hits": 6
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".091",
-            "hits": 1
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 0,
           "risp": {
@@ -4377,12 +4769,14 @@
             "bip_pa": 0.65
           },
           "vsRHP": {
-            "avg": ".417",
-            "hits": 10
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".250",
-            "hits": 2
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 8,
           "risp": {
@@ -4400,12 +4794,14 @@
             "bip_pa": 0.56
           },
           "vsRHP": {
-            "avg": ".100",
-            "hits": 1
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".167",
-            "hits": 2
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 1,
           "risp": {
@@ -4423,12 +4819,14 @@
             "bip_pa": 0.68
           },
           "vsRHP": {
-            "avg": ".257",
-            "hits": 9
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".467",
-            "hits": 7
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 1,
           "risp": {
@@ -4446,12 +4844,14 @@
             "bip_pa": 0.5
           },
           "vsRHP": {
-            "avg": "N/A",
-            "hits": "N/A"
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".000",
-            "hits": 0
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 0,
           "risp": {
@@ -4474,6 +4874,8 @@
         "avg_k": 5.5,
         "avg_bb": 1.5,
         "whip": 1.56,
+        "k_bb": 3.67,
+        "command": "Strong Command",
         "quality": false,
         "elite": false
       },
@@ -4485,6 +4887,8 @@
         "avg_k": 2.4,
         "avg_bb": 0.8,
         "whip": 1.36,
+        "k_bb": 3.0,
+        "command": "Strong Command",
         "quality": false,
         "elite": false
       },
@@ -4499,12 +4903,14 @@
             "bip_pa": 0.6
           },
           "vsRHP": {
-            "avg": ".233",
-            "hits": 7
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".429",
-            "hits": 6
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 1,
           "risp": {
@@ -4522,12 +4928,14 @@
             "bip_pa": 0.6
           },
           "vsRHP": {
-            "avg": ".308",
-            "hits": 8
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".250",
-            "hits": 4
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 1,
           "risp": {
@@ -4545,12 +4953,14 @@
             "bip_pa": 0.65
           },
           "vsRHP": {
-            "avg": ".500",
-            "hits": 3
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".222",
-            "hits": 2
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 0,
           "risp": {
@@ -4568,12 +4978,14 @@
             "bip_pa": 0.77
           },
           "vsRHP": {
-            "avg": ".216",
-            "hits": 8
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".400",
-            "hits": 6
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 7,
           "risp": {
@@ -4591,12 +5003,14 @@
             "bip_pa": 0.58
           },
           "vsRHP": {
-            "avg": ".188",
-            "hits": 3
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".000",
-            "hits": 0
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 0,
           "risp": {
@@ -4614,12 +5028,14 @@
             "bip_pa": 0.76
           },
           "vsRHP": {
-            "avg": ".250",
-            "hits": 5
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".182",
-            "hits": 2
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 1,
           "risp": {
@@ -4637,12 +5053,14 @@
             "bip_pa": 0.49
           },
           "vsRHP": {
-            "avg": ".235",
-            "hits": 8
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".176",
-            "hits": 3
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 0,
           "risp": {
@@ -4660,12 +5078,14 @@
             "bip_pa": 0.5
           },
           "vsRHP": {
-            "avg": ".333",
-            "hits": 4
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".538",
-            "hits": 7
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 3,
           "risp": {
@@ -4683,12 +5103,14 @@
             "bip_pa": 0.71
           },
           "vsRHP": {
-            "avg": ".267",
-            "hits": 4
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": "1.000",
-            "hits": 3
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 0,
           "risp": {
@@ -4708,12 +5130,14 @@
             "bip_pa": 0.59
           },
           "vsRHP": {
-            "avg": ".000",
-            "hits": 0
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".444",
-            "hits": 4
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 0,
           "risp": {
@@ -4731,12 +5155,14 @@
             "bip_pa": 0.7
           },
           "vsRHP": {
-            "avg": ".333",
-            "hits": 7
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".222",
-            "hits": 2
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 0,
           "risp": {
@@ -4754,12 +5180,14 @@
             "bip_pa": 0.57
           },
           "vsRHP": {
-            "avg": ".333",
-            "hits": 8
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".154",
-            "hits": 2
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 6,
           "risp": {
@@ -4777,12 +5205,14 @@
             "bip_pa": 0.65
           },
           "vsRHP": {
-            "avg": ".393",
-            "hits": 11
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".333",
-            "hits": 5
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 3,
           "risp": {
@@ -4800,12 +5230,14 @@
             "bip_pa": 0.59
           },
           "vsRHP": {
-            "avg": ".278",
-            "hits": 5
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".200",
-            "hits": 1
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 1,
           "risp": {
@@ -4823,12 +5255,14 @@
             "bip_pa": 0.4
           },
           "vsRHP": {
-            "avg": ".318",
-            "hits": 7
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".286",
-            "hits": 2
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 0,
           "risp": {
@@ -4846,12 +5280,14 @@
             "bip_pa": 0.33
           },
           "vsRHP": {
-            "avg": ".182",
-            "hits": 2
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".375",
-            "hits": 3
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 1,
           "risp": {
@@ -4869,12 +5305,14 @@
             "bip_pa": 0.62
           },
           "vsRHP": {
-            "avg": ".222",
-            "hits": 6
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".100",
-            "hits": 1
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 2,
           "risp": {
@@ -4892,12 +5330,14 @@
             "bip_pa": 0.69
           },
           "vsRHP": {
-            "avg": ".182",
-            "hits": 4
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".364",
-            "hits": 4
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 3,
           "risp": {
@@ -4920,6 +5360,8 @@
         "avg_k": 5.0,
         "avg_bb": 3.0,
         "whip": 1.5,
+        "k_bb": 1.67,
+        "command": "Below Average Command",
         "quality": false,
         "elite": false
       },
@@ -4931,6 +5373,8 @@
         "avg_k": 3.5,
         "avg_bb": 1.5,
         "whip": 2.73,
+        "k_bb": 2.33,
+        "command": "Average Command",
         "quality": false,
         "elite": false
       },
@@ -4945,12 +5389,14 @@
             "bip_pa": 0.62
           },
           "vsRHP": {
-            "avg": ".125",
-            "hits": 1
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".000",
-            "hits": 0
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 1,
           "risp": {
@@ -4968,12 +5414,14 @@
             "bip_pa": 0.74
           },
           "vsRHP": {
-            "avg": ".154",
-            "hits": 4
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".000",
-            "hits": 0
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 0,
           "risp": {
@@ -4991,12 +5439,14 @@
             "bip_pa": 0.74
           },
           "vsRHP": {
-            "avg": ".190",
-            "hits": 4
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".400",
-            "hits": 2
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 4,
           "risp": {
@@ -5014,12 +5464,14 @@
             "bip_pa": 0.72
           },
           "vsRHP": {
-            "avg": ".286",
-            "hits": 8
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".500",
-            "hits": 3
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 2,
           "risp": {
@@ -5037,12 +5489,14 @@
             "bip_pa": 0.67
           },
           "vsRHP": {
-            "avg": ".455",
-            "hits": 5
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".000",
-            "hits": 0
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 0,
           "risp": {
@@ -5060,12 +5514,14 @@
             "bip_pa": 0.67
           },
           "vsRHP": {
-            "avg": ".000",
-            "hits": 0
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".250",
-            "hits": 1
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 0,
           "risp": {
@@ -5083,12 +5539,14 @@
             "bip_pa": 0.55
           },
           "vsRHP": {
-            "avg": ".174",
-            "hits": 4
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".200",
-            "hits": 2
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 1,
           "risp": {
@@ -5106,12 +5564,14 @@
             "bip_pa": 0.55
           },
           "vsRHP": {
-            "avg": ".148",
-            "hits": 4
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".500",
-            "hits": 1
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 2,
           "risp": {
@@ -5129,12 +5589,14 @@
             "bip_pa": 0.54
           },
           "vsRHP": {
-            "avg": ".182",
-            "hits": 2
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".400",
-            "hits": 2
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 0,
           "risp": {
@@ -5154,12 +5616,14 @@
             "bip_pa": 0.72
           },
           "vsRHP": {
-            "avg": ".310",
-            "hits": 9
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".200",
-            "hits": 3
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 2,
           "risp": {
@@ -5177,12 +5641,14 @@
             "bip_pa": 0.66
           },
           "vsRHP": {
-            "avg": ".200",
-            "hits": 6
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".182",
-            "hits": 2
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 0,
           "risp": {
@@ -5200,12 +5666,14 @@
             "bip_pa": 0.62
           },
           "vsRHP": {
-            "avg": ".235",
-            "hits": 8
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".273",
-            "hits": 3
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 3,
           "risp": {
@@ -5223,12 +5691,14 @@
             "bip_pa": 0.51
           },
           "vsRHP": {
-            "avg": ".226",
-            "hits": 7
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".462",
-            "hits": 6
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 1,
           "risp": {
@@ -5246,12 +5716,14 @@
             "bip_pa": 1.0
           },
           "vsRHP": {
-            "avg": "N/A",
-            "hits": "N/A"
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".000",
-            "hits": 0
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 0,
           "risp": {
@@ -5269,12 +5741,14 @@
             "bip_pa": 0.7
           },
           "vsRHP": {
-            "avg": ".111",
-            "hits": 3
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".250",
-            "hits": 3
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 1,
           "risp": {
@@ -5292,12 +5766,14 @@
             "bip_pa": 0.61
           },
           "vsRHP": {
-            "avg": ".138",
-            "hits": 4
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".333",
-            "hits": 1
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 1,
           "risp": {
@@ -5315,12 +5791,14 @@
             "bip_pa": 0.55
           },
           "vsRHP": {
-            "avg": ".250",
-            "hits": 8
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".167",
-            "hits": 1
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 4,
           "risp": {
@@ -5338,12 +5816,14 @@
             "bip_pa": 0.61
           },
           "vsRHP": {
-            "avg": ".125",
-            "hits": 2
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".333",
-            "hits": 2
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 1,
           "risp": {
@@ -5366,6 +5846,8 @@
         "avg_k": 4.5,
         "avg_bb": 1.5,
         "whip": 0.84,
+        "k_bb": 3.0,
+        "command": "Strong Command",
         "quality": false,
         "elite": false
       },
@@ -5377,6 +5859,8 @@
         "avg_k": 3.5,
         "avg_bb": 2.5,
         "whip": 1.95,
+        "k_bb": 1.4,
+        "command": "Below Average Command",
         "quality": false,
         "elite": false
       },
@@ -5391,12 +5875,14 @@
             "bip_pa": 0.55
           },
           "vsRHP": {
-            "avg": ".182",
-            "hits": 6
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".143",
-            "hits": 1
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 0,
           "risp": {
@@ -5414,12 +5900,14 @@
             "bip_pa": 0.75
           },
           "vsRHP": {
-            "avg": ".364",
-            "hits": 4
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".250",
-            "hits": 1
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 0,
           "risp": {
@@ -5437,12 +5925,14 @@
             "bip_pa": 0.64
           },
           "vsRHP": {
-            "avg": ".308",
-            "hits": 8
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": "N/A",
-            "hits": "N/A"
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 0,
           "risp": {
@@ -5460,12 +5950,14 @@
             "bip_pa": 0.67
           },
           "vsRHP": {
-            "avg": ".273",
-            "hits": 12
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".286",
-            "hits": 2
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 8,
           "risp": {
@@ -5483,12 +5975,14 @@
             "bip_pa": 0.52
           },
           "vsRHP": {
-            "avg": ".268",
-            "hits": 11
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".000",
-            "hits": 0
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 5,
           "risp": {
@@ -5506,12 +6000,14 @@
             "bip_pa": 0.7
           },
           "vsRHP": {
-            "avg": ".148",
-            "hits": 4
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".000",
-            "hits": 0
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 1,
           "risp": {
@@ -5529,12 +6025,14 @@
             "bip_pa": 0.7
           },
           "vsRHP": {
-            "avg": ".111",
-            "hits": 2
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".000",
-            "hits": 0
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 2,
           "risp": {
@@ -5552,12 +6050,14 @@
             "bip_pa": 0.57
           },
           "vsRHP": {
-            "avg": ".179",
-            "hits": 5
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".375",
-            "hits": 3
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 1,
           "risp": {
@@ -5575,12 +6075,14 @@
             "bip_pa": 0.64
           },
           "vsRHP": {
-            "avg": ".273",
-            "hits": 6
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".000",
-            "hits": 0
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 1,
           "risp": {
@@ -5600,12 +6102,14 @@
             "bip_pa": 0.33
           },
           "vsRHP": {
-            "avg": ".200",
-            "hits": 1
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".000",
-            "hits": 0
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 0,
           "risp": {
@@ -5623,12 +6127,14 @@
             "bip_pa": 0.59
           },
           "vsRHP": {
-            "avg": ".222",
-            "hits": 8
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".154",
-            "hits": 2
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 1,
           "risp": {
@@ -5646,12 +6152,14 @@
             "bip_pa": 0.66
           },
           "vsRHP": {
-            "avg": ".167",
-            "hits": 4
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".333",
-            "hits": 1
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 0,
           "risp": {
@@ -5669,12 +6177,14 @@
             "bip_pa": 0.75
           },
           "vsRHP": {
-            "avg": ".235",
-            "hits": 8
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".200",
-            "hits": 1
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 0,
           "risp": {
@@ -5692,12 +6202,14 @@
             "bip_pa": 0.7
           },
           "vsRHP": {
-            "avg": ".162",
-            "hits": 6
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".250",
-            "hits": 3
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 0,
           "risp": {
@@ -5715,12 +6227,14 @@
             "bip_pa": 0.67
           },
           "vsRHP": {
-            "avg": ".188",
-            "hits": 6
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".143",
-            "hits": 2
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 0,
           "risp": {
@@ -5738,12 +6252,14 @@
             "bip_pa": 0.6
           },
           "vsRHP": {
-            "avg": ".222",
-            "hits": 2
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".333",
-            "hits": 2
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 0,
           "risp": {
@@ -5761,12 +6277,14 @@
             "bip_pa": 0.5
           },
           "vsRHP": {
-            "avg": ".172",
-            "hits": 5
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".333",
-            "hits": 3
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 2,
           "risp": {
@@ -5784,12 +6302,14 @@
             "bip_pa": 0.72
           },
           "vsRHP": {
-            "avg": ".368",
-            "hits": 7
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".182",
-            "hits": 2
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 0,
           "risp": {
@@ -5812,6 +6332,8 @@
         "avg_k": 6.5,
         "avg_bb": 3.5,
         "whip": 1.56,
+        "k_bb": 1.86,
+        "command": "Below Average Command",
         "quality": false,
         "elite": false
       },
@@ -5823,6 +6345,8 @@
         "avg_k": 7.0,
         "avg_bb": 0.5,
         "whip": 0.55,
+        "k_bb": 14.0,
+        "command": "Elite Command",
         "quality": true,
         "elite": false
       },
@@ -5837,12 +6361,14 @@
             "bip_pa": 0.36
           },
           "vsRHP": {
-            "avg": ".125",
-            "hits": 1
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".143",
-            "hits": 2
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 1,
           "risp": {
@@ -5860,12 +6386,14 @@
             "bip_pa": 0.53
           },
           "vsRHP": {
-            "avg": ".321",
-            "hits": 9
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".188",
-            "hits": 3
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 0,
           "risp": {
@@ -5883,12 +6411,14 @@
             "bip_pa": 0.73
           },
           "vsRHP": {
-            "avg": ".280",
-            "hits": 7
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".235",
-            "hits": 4
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 0,
           "risp": {
@@ -5906,12 +6436,14 @@
             "bip_pa": 0.76
           },
           "vsRHP": {
-            "avg": ".286",
-            "hits": 4
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".333",
-            "hits": 2
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 1,
           "risp": {
@@ -5929,12 +6461,14 @@
             "bip_pa": 0.73
           },
           "vsRHP": {
-            "avg": ".394",
-            "hits": 13
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".235",
-            "hits": 4
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 1,
           "risp": {
@@ -5952,12 +6486,14 @@
             "bip_pa": 0.66
           },
           "vsRHP": {
-            "avg": ".083",
-            "hits": 1
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".294",
-            "hits": 5
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 0,
           "risp": {
@@ -5975,12 +6511,14 @@
             "bip_pa": 0.79
           },
           "vsRHP": {
-            "avg": ".240",
-            "hits": 6
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".300",
-            "hits": 3
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 1,
           "risp": {
@@ -5998,12 +6536,14 @@
             "bip_pa": 0.62
           },
           "vsRHP": {
-            "avg": ".296",
-            "hits": 8
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".167",
-            "hits": 1
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 1,
           "risp": {
@@ -6021,12 +6561,14 @@
             "bip_pa": 0.58
           },
           "vsRHP": {
-            "avg": ".296",
-            "hits": 8
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".389",
-            "hits": 7
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 0,
           "risp": {
@@ -6046,12 +6588,14 @@
             "bip_pa": 0.6
           },
           "vsRHP": {
-            "avg": ".400",
-            "hits": 8
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".222",
-            "hits": 4
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 1,
           "risp": {
@@ -6069,12 +6613,14 @@
             "bip_pa": 0.49
           },
           "vsRHP": {
-            "avg": ".182",
-            "hits": 6
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".063",
-            "hits": 1
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 0,
           "risp": {
@@ -6092,12 +6638,14 @@
             "bip_pa": 0.62
           },
           "vsRHP": {
-            "avg": ".200",
-            "hits": 6
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".375",
-            "hits": 6
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 0,
           "risp": {
@@ -6115,12 +6663,14 @@
             "bip_pa": 0.67
           },
           "vsRHP": {
-            "avg": ".000",
-            "hits": 0
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".000",
-            "hits": 0
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 0,
           "risp": {
@@ -6138,12 +6688,14 @@
             "bip_pa": 0.73
           },
           "vsRHP": {
-            "avg": ".208",
-            "hits": 5
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".000",
-            "hits": 0
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 1,
           "risp": {
@@ -6161,12 +6713,14 @@
             "bip_pa": 0.48
           },
           "vsRHP": {
-            "avg": ".154",
-            "hits": 2
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".000",
-            "hits": 0
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 0,
           "risp": {
@@ -6184,12 +6738,14 @@
             "bip_pa": 0.77
           },
           "vsRHP": {
-            "avg": ".065",
-            "hits": 2
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".176",
-            "hits": 3
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 0,
           "risp": {
@@ -6207,12 +6763,14 @@
             "bip_pa": 0.6
           },
           "vsRHP": {
-            "avg": ".152",
-            "hits": 5
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".125",
-            "hits": 2
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 0,
           "risp": {
@@ -6230,12 +6788,14 @@
             "bip_pa": 0.51
           },
           "vsRHP": {
-            "avg": ".174",
-            "hits": 4
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".091",
-            "hits": 1
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 0,
           "risp": {
@@ -6258,6 +6818,8 @@
         "avg_k": 3.0,
         "avg_bb": 1.0,
         "whip": 1.4,
+        "k_bb": 3.0,
+        "command": "Strong Command",
         "quality": false,
         "elite": false
       },
@@ -6269,6 +6831,8 @@
         "avg_k": 7.5,
         "avg_bb": 1.5,
         "whip": 0.92,
+        "k_bb": 5.0,
+        "command": "Elite Command",
         "quality": true,
         "elite": false
       },
@@ -6283,12 +6847,14 @@
             "bip_pa": 0.63
           },
           "vsRHP": {
-            "avg": ".333",
-            "hits": 2
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".333",
-            "hits": 4
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 5,
           "risp": {
@@ -6306,12 +6872,14 @@
             "bip_pa": 0.69
           },
           "vsRHP": {
-            "avg": ".313",
-            "hits": 10
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".400",
-            "hits": 6
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 0,
           "risp": {
@@ -6329,12 +6897,14 @@
             "bip_pa": 0.53
           },
           "vsRHP": {
-            "avg": ".233",
-            "hits": 7
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".250",
-            "hits": 3
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 2,
           "risp": {
@@ -6352,12 +6922,14 @@
             "bip_pa": 0.67
           },
           "vsRHP": {
-            "avg": ".286",
-            "hits": 6
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".125",
-            "hits": 1
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 1,
           "risp": {
@@ -6375,12 +6947,14 @@
             "bip_pa": 0.62
           },
           "vsRHP": {
-            "avg": ".276",
-            "hits": 8
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".000",
-            "hits": 0
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 0,
           "risp": {
@@ -6398,12 +6972,14 @@
             "bip_pa": 0.68
           },
           "vsRHP": {
-            "avg": ".308",
-            "hits": 4
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".167",
-            "hits": 1
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 0,
           "risp": {
@@ -6421,12 +6997,14 @@
             "bip_pa": 0.61
           },
           "vsRHP": {
-            "avg": ".257",
-            "hits": 9
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".308",
-            "hits": 4
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 5,
           "risp": {
@@ -6444,12 +7022,14 @@
             "bip_pa": 0.68
           },
           "vsRHP": {
-            "avg": ".125",
-            "hits": 3
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".000",
-            "hits": 0
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 0,
           "risp": {
@@ -6467,12 +7047,14 @@
             "bip_pa": 0.7
           },
           "vsRHP": {
-            "avg": ".238",
-            "hits": 5
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".091",
-            "hits": 1
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 0,
           "risp": {
@@ -6484,7 +7066,7 @@
       "home_hitters": [
         {
           "name": "Alex Call",
-          "tier": "Bottom\u2011Order",
+          "tier": "Top\u2011Order",
           "stats": {
             "avg": ".444",
             "k_rate": 0.0,
@@ -6492,12 +7074,14 @@
             "bip_pa": 0.75
           },
           "vsRHP": {
-            "avg": ".286",
-            "hits": 2
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": "1.000",
-            "hits": 2
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 0,
           "risp": {
@@ -6515,12 +7099,14 @@
             "bip_pa": 0.57
           },
           "vsRHP": {
-            "avg": ".280",
-            "hits": 7
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".143",
-            "hits": 1
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 1,
           "risp": {
@@ -6538,12 +7124,14 @@
             "bip_pa": 0.62
           },
           "vsRHP": {
-            "avg": ".457",
-            "hits": 16
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".273",
-            "hits": 3
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 1,
           "risp": {
@@ -6561,12 +7149,14 @@
             "bip_pa": 0.56
           },
           "vsRHP": {
-            "avg": "1.000",
-            "hits": 3
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".500",
-            "hits": 3
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 3,
           "risp": {
@@ -6584,12 +7174,14 @@
             "bip_pa": 0.83
           },
           "vsRHP": {
-            "avg": ".250",
-            "hits": 10
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".364",
-            "hits": 4
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 0,
           "risp": {
@@ -6607,12 +7199,14 @@
             "bip_pa": 0.56
           },
           "vsRHP": {
-            "avg": ".600",
-            "hits": 3
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".000",
-            "hits": 0
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 0,
           "risp": {
@@ -6630,12 +7224,14 @@
             "bip_pa": 0.6
           },
           "vsRHP": {
-            "avg": ".333",
-            "hits": 11
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".091",
-            "hits": 1
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 2,
           "risp": {
@@ -6653,12 +7249,14 @@
             "bip_pa": 0.51
           },
           "vsRHP": {
-            "avg": ".143",
-            "hits": 4
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".444",
-            "hits": 4
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 1,
           "risp": {
@@ -6676,12 +7274,14 @@
             "bip_pa": 0.74
           },
           "vsRHP": {
-            "avg": ".083",
-            "hits": 1
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "vsLHP": {
-            "avg": ".400",
-            "hits": 4
+            "ab": 0,
+            "hits": 0,
+            "avg": "N/A"
           },
           "streak": 3,
           "risp": {
