@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-10T19:03:22.582368-04:00",
+  "updated_at": "2026-04-10T19:05:56.705436-04:00",
   "games": [
     {
       "away_team": "Pittsburgh Pirates",
@@ -455,7 +455,7 @@
       "away_pitcher": {
         "name": "Michael Soroka",
         "hand": "R",
-        "era": "4.22",
+        "era": "4.09",
         "avg_ip": 3.67,
         "avg_k": 5.0,
         "avg_bb": 1.67,
@@ -466,7 +466,7 @@
       "home_pitcher": {
         "name": "Jes\u00fas Luzardo",
         "hand": "L",
-        "era": "4.61",
+        "era": "4.50",
         "avg_ip": 4.56,
         "avg_k": 6.67,
         "avg_bb": 0.67,
@@ -678,7 +678,7 @@
           },
           "streak": 1,
           "risp": {
-            "avg": ".333",
+            "avg": ".320",
             "hits": 8
           }
         }
@@ -971,10 +971,10 @@
           "name": "Connor Norby",
           "tier": "Middle\u2011Order",
           "stats": {
-            "avg": ".200",
-            "k_rate": 20.0,
-            "bb_rate": 12.5,
-            "bip_pa": 0.65
+            "avg": ".206",
+            "k_rate": 17.9,
+            "bb_rate": 12.8,
+            "bip_pa": 0.67
           },
           "vsRHP": {
             "avg": ".238",
@@ -1358,7 +1358,7 @@
       "home_pitcher": {
         "name": "Chase Burns",
         "hand": "R",
-        "era": "0.75",
+        "era": "0.73",
         "avg_ip": 4.11,
         "avg_k": 6.0,
         "avg_bb": 1.33,
@@ -1501,8 +1501,8 @@
           },
           "streak": 0,
           "risp": {
-            "avg": ".091",
-            "hits": 3
+            "avg": ".118",
+            "hits": 4
           }
         },
         {
@@ -1524,8 +1524,8 @@
           },
           "streak": 2,
           "risp": {
-            "avg": ".219",
-            "hits": 7
+            "avg": ".242",
+            "hits": 8
           }
         },
         {
