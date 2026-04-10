@@ -1,8 +1,9 @@
 import json
-from datetime import datetime, date
 from urllib.request import urlopen
+from zoneinfo import ZoneInfo
+from datetime import datetime
 
-TODAY = str(date.today())
+TODAY = datetime.now(ZoneInfo("America/New_York")).date().isoformat()
 
 url = (
     "https://statsapi.mlb.com/api/v1/schedule"
