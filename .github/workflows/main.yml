@@ -1,0 +1,23 @@
+name: Run MLB Engine Daily
+
+on:
+  schedule:
+    - cron: "0 7 * * *"
+  workflow_dispatch:
+
+jobs:
+  run-engine:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-python@v4
+        with:
+          python-version: "3.11"
+      - run: python run_engine.py
+      - run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add daily.json
+          git commit -m "Daily update"
+          git push
+``
