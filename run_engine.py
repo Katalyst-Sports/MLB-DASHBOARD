@@ -1,85 +1,68 @@
 import json
-from datetime import datetime, timedelta
+from datetime import datetime
 from urllib.request import urlopen
 from zoneinfo import ZoneInfo
 
+# ============================================
+# CONFIG
+# ============================================
+
 MLB_TZ = ZoneInfo("America/New_York")
 NOW = datetime.now(MLB_TZ)
-SEASON = NOW.year
+TODAY = NOW.date().isoformat()
 
-# ---------------------------
-# Helpers
-# ---------------------------
+BASE = "https://statsapi.mlb.com/api/v1"
+
+# ============================================
+# HELPERS
+# ============================================
 
 def fetch(url):
     with urlopen(url) as r:
         return json.loads(r.read().decode("utf-8"))
 
 def get_pitcher_hand(person_id):
-    """
-    Fetch pitcher handedness from the PEOPLE endpoint
-    (schedule endpoint is unreliable for this)
-    """
     try:
-        data = fetch(f"https://statsapi.mlb.com/api/v1/people/{person_id}")
-        return data["people"][0].get("pitchHand", {}).get("code", "N/A")
-    except Exception:
+        p = fetch(f"{BASE}/people/{person_id}")
+        return p["people"][0].get("pitchHand", {}).get("code", "N/A")
+    except:
         return "N/A"
 
-def hours_until(start_time):
-    game_time = datetime.fromisoformat(start_time.replace("Z", "")).astimezone(MLB_TZ)
-    return (game_time - NOW).total_seconds() / 3600
-
 def get_depth_chart_hitters(team_id, pitcher_hand):
-    """
-    Uses MLB depth charts to approximate everyday starters vs handedness.
-    This is only used BEFORE official lineups are available.
-    """
     try:
-        data = fetch(f"https://statsapi.mlb.com/api/v1/teams/{team_id}/depthCharts")
+        charts = fetch(f"{BASE}/teams/{team_id}/depthCharts")
         side = "vsRHP" if pitcher_hand == "R" else "vsLHP"
         hitters = []
-        positions = data.get(side, {}).get("positions", {})
+        positions = charts.get(side, {}).get("positions", {})
         for pos in positions.values():
             for player in pos:
                 hitters.append(player["person"]["fullName"])
         return hitters[:6]
-    except Exception:
+    except:
         return []
 
 def get_official_lineup(game_pk, side):
-    """
-    Returns official batting order when MLB lineups are published
-    """
     try:
-        data = fetch(f"https://statsapi.mlb.com/api/v1/game/{game_pk}/boxscore")
+        box = fetch(f"{BASE}/game/{game_pk}/boxscore")
         return [
-            data["teams"][side]["players"][pid]["person"]["fullName"]
-            for pid in data["teams"][side]["battingOrder"]
+            box["teams"][side]["players"][pid]["person"]["fullName"]
+            for pid in box["teams"][side]["battingOrder"]
         ]
-    except Exception:
+    except:
         return None
 
-# ---------------------------
-# Load schedule
-# ---------------------------
+# ============================================
+# LOAD SCHEDULE — NO TIME FILTER
+# ============================================
 
 schedule = fetch(
-    f"https://statsapi.mlb.com/api/v1/schedule"
-    f"?sportId=1&date={NOW.date()}&hydrate=probablePitcher"
+    f"{BASE}/schedule?sportId=1&date={TODAY}&hydrate=probablePitcher"
 )
 
 games = []
 
-# ---------------------------
-# Process games (≤3 hours to start)
-# ---------------------------
-
 for day in schedule.get("dates", []):
     for g in day.get("games", []):
-
-        if hours_until(g["gameDate"]) > 3:
-            continue
 
         away = g["teams"]["away"]
         home = g["teams"]["home"]
@@ -115,8 +98,7 @@ for day in schedule.get("dates", []):
                 "status": "confirmed",
                 "lineup_type": "projected",
                 "hitters": get_depth_chart_hitters(
-                    opponent["team"]["id"],
-                    hand
+                    opponent["team"]["id"], hand
                 )
             }
 
@@ -130,17 +112,17 @@ for day in schedule.get("dates", []):
             "home_pitcher": pitcher_block(home_prob, away, "home")
         })
 
-# ---------------------------
-# Output
-# ---------------------------
+# ============================================
+# WRITE OUTPUT
+# ============================================
 
 with open("daily.json", "w") as f:
     json.dump({
         "generated_at": NOW.isoformat(),
         "games": games,
         "disclaimer": (
-            "Lineups may be official or projected using MLB depth charts. "
-            "Projected lineups reflect everyday starters and are replaced automatically "
-            "once official MLB boxscore lineups are available."
+            "Projected lineups are based on MLB depth charts and everyday starters. "
+            "They are automatically replaced with official batting orders when MLB "
+            "publishes game boxscores."
         )
     }, f, indent=2)
