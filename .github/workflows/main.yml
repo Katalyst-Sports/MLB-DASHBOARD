@@ -16,7 +16,7 @@ jobs:
         with:
           python-version: "3.11"
 
-      - run: python run_engine.py
+      - run: python MLB-DASHBOARD/run_engine.py
 
       - run: |
           git config user.name "github-actions"
