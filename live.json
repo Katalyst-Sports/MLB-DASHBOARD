@@ -1,32 +1,16 @@
 {
-  "updated_at": "2026-04-10T16:32:27.756283-04:00",
+  "updated_at": "2026-04-10T16:39:31.821025-04:00",
   "games": [
     {
       "gamePk": 824695,
-      "status": "In Progress",
+      "score": "2 \u2013 0",
       "inning": "8th",
-      "score": "2 - 0",
       "hot_hitters": [
         {
-          "name": "Bryan Reynolds",
-          "hits": 1,
-          "tb": 4
-        },
-        {
           "name": "Ian Happ",
-          "hits": 2,
-          "tb": 2
+          "hits": 2
         }
-      ],
-      "top_pitchers": [
-        {
-          "name": "Shota Imanaga",
-          "k": 9,
-          "er": 0
-        }
-      ],
-      "bullpen_active": true
+      ]
     }
-  ],
-  "disclaimer": "Live stats are descriptive only and reflect in\u2011game results as reported by MLB."
+  ]
 }
