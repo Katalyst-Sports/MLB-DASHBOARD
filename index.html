@@ -13,14 +13,12 @@ body {
   margin: auto;
 }
 
-h1 {
-  margin-bottom: 6px;
-}
+h1 { margin-bottom: 6px; }
 
 .subtitle {
   color: #555;
   font-size: 14px;
-  margin-bottom: 8px;
+  margin-bottom: 6px;
 }
 
 .timestamp {
@@ -47,20 +45,8 @@ h1 {
   margin-top: 12px;
 }
 
-.meta {
-  font-size: 14px;
-  color: #444;
-}
-
-.hot {
-  color: #dc2626;
-  font-weight: 700;
-}
-
-.toggle {
-  cursor: pointer;
-  font-weight: 600;
-}
+.hot { color: #dc2626; font-weight: 700; }
+.toggle { cursor: pointer; font-weight: 600; }
 
 footer {
   margin-top: 48px;
@@ -80,125 +66,103 @@ footer {
 Click a game to expand matchup details. Live games appear at the top.
 </div>
 
-<!-- ✅ ADDED: live update timestamp (ADD-ONLY) -->
 <div class="timestamp">
 Live data last updated: <span id="updated">loading…</span>
 </div>
 
 <!-- ================= LIVE GAMES ================= -->
 <div id="live"></div>
-<!-- ================= POSTGAME RECAPS ================= -->
+
+<!-- ================= FINAL RECAPS ================= -->
 <div id="postgame"></div>
+
 <!-- ================= DAILY GAMES ================= -->
 <div id="games"></div>
 
+<!-- ================= LIVE SCRIPT ================= -->
 <script>
-/* =========================
-   LIVE GAMES (DEFENSIVE)
-   ========================= */
 fetch("./live.json?nocache=" + Date.now())
   .then(r => r.json())
   .then(d => {
-
-    // ✅ ADDITIVE: show last updated time (safe)
-    if (d.updated_at && document.getElementById("updated")) {
+    if (d.updated_at) {
       document.getElementById("updated").textContent =
         new Date(d.updated_at).toLocaleString();
     }
 
     const liveDiv = document.getElementById("live");
-
-    // Clear previous content so stale games disappear
     liveDiv.innerHTML = "";
 
     if (!d.games || d.games.length === 0) {
-      liveDiv.innerHTML =
-        "<div class='card'>No games live right now.</div>";
+      liveDiv.innerHTML = "<div class='card'>No games live right now.</div>";
       return;
     }
 
     d.games.forEach(g => {
-      const card = document.createElement("div");
-      card.className = "card live";
-      card.innerHTML = `
-        <strong>${g.game}</strong><br>
-        Score: ${g.score} | Inning: ${g.inning}<br><br>
-        <strong>Hot Hitters:</strong>
-        ${g.hot_hitters.length ? g.hot_hitters.join(", ") : "None"}<br>
-        <strong>Dominant Pitchers:</strong>
-        ${g.top_pitchers.length ? g.top_pitchers.join(", ") : "None"}
+      liveDiv.innerHTML += `
+        <div class="card live">
+          <strong>${g.game}</strong><br>
+          Score: ${g.score} | Inning: ${g.inning}<br><br>
+          <strong>Hot Hitters:</strong> ${g.hot_hitters.join(", ") || "None"}<br>
+          <strong>Dominant Pitchers:</strong> ${g.top_pitchers.join(", ") || "None"}
+        </div>
       `;
-      liveDiv.appendChild(card);
     });
-  })
-  .catch(() => {});
+  });
 </script>
 
+<!-- ================= POSTGAME SCRIPT ================= -->
 <script>
-/* =========================
-   DAILY MATCHUPS (ACCORDION)
-   ========================= */
+fetch("./postgame.json?nocache=" + Date.now())
+  .then(r => r.json())
+  .then(d => {
+    const pg = document.getElementById("postgame");
+    pg.innerHTML = "<h2>Final Recaps</h2>";
+
+    if (!d.games || d.games.length === 0) {
+      pg.innerHTML += `
+        <div class="card">
+          No games have gone final yet today.
+          Written recaps will appear here once games are complete.
+        </div>`;
+      return;
+    }
+
+    d.games.forEach(g => {
+      pg.innerHTML += `
+        <div class="card">
+          <strong>${g.game}</strong><br>
+          Final Score: ${g.final_score}<br><br>
+          <strong>Standout Hitters:</strong><br>
+          ${g.hitters.join(", ") || "Multiple contributors"}<br><br>
+          <strong>Key Pitching Performances:</strong><br>
+          ${g.pitchers.join(", ") || "Staff effort"}
+        </div>`;
+    });
+  });
+</script>
+
+<!-- ================= DAILY SCRIPT ================= -->
+<script>
 fetch("./daily.json?nocache=" + Date.now())
   .then(r => r.json())
   .then(d => {
     const gamesDiv = document.getElementById("games");
 
-    d.games.forEach((g, idx) => {
-      const card = document.createElement("div");
-      card.className = "card";
-      const contentId = "game-" + idx;
-
-      function pitcherBlock(p) {
-        if (!p || !p.name) return "TBD";
-        return `
-          ${p.name} (${p.hand}) — ERA ${p.era}<br>
-          Last 5: IP ${p.avg_ip}, K ${p.avg_k}, BB ${p.avg_bb}, WHIP ${p.whip}<br>
-          Command: ${p.command} (K/BB ${p.k_bb})
-          ${p.elite ? " 🔵 Elite" : p.quality ? " ✅ Quality" : ""}
-        `;
-      }
-
-      function hittersBlock(list) {
-        return list.map(h => `
-          <div style="margin-bottom:10px;">
-            <strong>${h.name}</strong>
-            ${h.streak >= 3 ? `<span class="hot">🔥 ${h.streak}-game streak</span>` : ""}<br>
-            Season AVG ${h.stats.avg} | BIP/PA ${h.stats.bip_pa}<br>
-            vs RHP ${h.vsRHP.avg} (${h.vsRHP.hits} H) |
-            vs LHP ${h.vsLHP.avg} (${h.vsLHP.hits} H)<br>
-            Last 10 AB ${h.last10.avg} (${h.last10.hits}/${h.last10.ab})<br>
-            RISP AVG ${h.risp.avg}
+    d.games.forEach((g, i) => {
+      const id = "game-" + i;
+      gamesDiv.innerHTML += `
+        <div class="card">
+          <div class="toggle" onclick="toggle('${id}')">
+            ▶ ${g.away_team} @ ${g.home_team}
           </div>
-        `).join("");
-      }
 
-      card.innerHTML = `
-        <div class="toggle" onclick="toggle('${contentId}')">
-          ▶ ${g.away_team} @ ${g.home_team} —
-          ${new Date(g.start).toLocaleTimeString()}
-        </div>
-
-        <div id="${contentId}" style="display:none;margin-top:12px;">
-          <hr>
-          <div class="section">Pitching</div>
-          Away: ${pitcherBlock(g.away_pitcher)}<br><br>
-          Home: ${pitcherBlock(g.home_pitcher)}<br>
-
-          <hr>
-          <div class="section">${g.away_team} Hitters</div>
-          ${hittersBlock(g.away_hitters)}
-
-          <div class="section">${g.home_team} Hitters</div>
-          ${hittersBlock(g.home_hitters)}
-        </div>
-      `;
-
-      gamesDiv.appendChild(card);
+          <div id="${id}" style="display:none;margin-top:12px;">
+            <div class="section">Pitching</div>
+            Away: ${g.away_pitcher.name} — ERA ${g.away_pitcher.era}<br>
+            Home: ${g.home_pitcher.name} — ERA ${g.home_pitcher.era}
+          </div>
+        </div>`;
     });
-  })
-  .catch(() => {
-    document.getElementById("games").innerHTML =
-      "<div class='card'>Unable to load daily data.</div>";
   });
 
 function toggle(id) {
@@ -206,59 +170,12 @@ function toggle(id) {
   el.style.display = el.style.display === "none" ? "block" : "none";
 }
 </script>
-  
-<script>
-/* =========================
-   POSTGAME RECAPS
-   ========================= */
-fetch("./postgame.json?nocache=" + Date.now())
-  .then(r => r.json())
-  .then(d => {
-    const pg = document.getElementById("postgame");
 
-    if (!d.games || d.games.length === 0) {
-      return; // no postgames yet
-    }
-
-    pg.innerHTML = "<h2>Final Recaps</h2>";
-
-    d.games.forEach(g => {
-      const card = document.createElement("div");
-      card.className = "card";
-
-      card.innerHTML = `
-        <strong>${g.game}</strong><br>
-        Final Score: ${g.final_score}<br><br>
-
-        <strong>Contact Grades</strong><br>
-        ${g.contact_grades.map(p =>
-          `${p.player}: ${p.contact_grade}`
-        ).join("<br>")}
-      `;
-
-      pg.appendChild(card);
-    });
-  })
-  .catch(() => {});
-</script>
-  
 <footer>
-  <strong>Disclaimer</strong><br>
-  This dashboard is provided for informational and educational purposes only.
-  All statistics, matchup context, performance indicators, and live updates
-  are descriptive of historical or in‑game events as reported by publicly
-  available Major League Baseball data sources. Information displayed may be
-  incomplete, delayed, revised, or change at any time without notice.<br><br>
-
-  This dashboard does <strong>not</strong> constitute gambling advice, betting
-  recommendations, financial advice, or predictions of outcomes. No guarantees
-  of accuracy, completeness, or future performance are made. Users are solely
-  responsible for how they interpret and use any information presented.<br><br>
-
-  All batting‑order tiers, contact profiles, pitcher evaluations, and matchup
-  summaries are analytical classifications intended to provide context, not
-  projections or directives. This is a personal analytics and visualization
-  tool and is not intended for commercial use or distribution.
+<strong>Disclaimer</strong><br>
+This dashboard is provided for informational and educational purposes only.
+All statistics and live updates are descriptive and may be delayed or revised.
+This is not gambling, financial, or predictive advice.
 </footer>
 
 </body>
