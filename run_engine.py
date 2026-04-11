@@ -336,11 +336,28 @@ for d in schedule.get("dates", []):
             })
 
 # =====================================================
-# DAILY RECAP FILE (GUARANTEED)
+# LOAD PREVIOUS FINALS (MERGE)
 # =====================================================
 
-if postgame:
-    if client:
+if os.path.exists("postgame.json"):
+    try:
+        with open("postgame.json", "r") as f:
+            prev = json.load(f).get("games", [])
+        seen = {g["game"] for g in postgame}
+        for g in prev:
+            if g["game"] not in seen:
+                postgame.append(g)
+    except Exception:
+        pass
+
+# =====================================================
+# DAILY RECAP (RETRY UNTIL AI SUCCEEDS)
+# =====================================================
+
+recap = None
+
+if postgame and client:
+    try:
         games_text = "\n".join([
             f"Game: {g['game']}\nWinner: {g['winner']}\nLoser: {g['loser']}\nScore: {g['final_score']}"
             for g in postgame
@@ -353,35 +370,38 @@ Write a daily MLB recap article.
 - Start with a strong headline
 - One paragraph per game
 - Clearly state who won and why
+- Mention key players and pitching
 - End with a 'What It Means' section
 
 Games:
 {games_text}
 """
 
-        try:
-            response = client.chat.completions.create(
-                model="gpt-4o-mini",
-                messages=[{"role": "user", "content": prompt}],
-                temperature=0.6
-            )
-            recap = {
-                "date": TODAY,
-                "headline": f"MLB Daily Recap — {NOW.strftime('%B %d, %Y')}",
-                "article": response.choices[0].message.content.strip()
-            }
-        except Exception:
-            recap = None
-    else:
-        recap = None
+        response = client.chat.completions.create(
+            model="gpt-4o-mini",
+            messages=[{"role": "user", "content": prompt}],
+            temperature=0.6
+        )
 
-    if not recap:
         recap = {
             "date": TODAY,
             "headline": f"MLB Daily Recap — {NOW.strftime('%B %d, %Y')}",
-            "article": "One or more MLB games have gone final today. Detailed recaps were unavailable for this run."
+            "article": response.choices[0].message.content.strip()
         }
+    except Exception:
+        recap = None
 
+if not recap and postgame:
+    recap = {
+        "date": TODAY,
+        "headline": f"MLB Daily Recap — {NOW.strftime('%B %d, %Y')}",
+        "article": (
+            "One or more MLB games have gone final today. "
+            "Detailed recaps will be generated automatically."
+        )
+    }
+
+if recap:
     with open("daily_recap.json", "w") as f:
         json.dump(recap, f, indent=2)
 
@@ -389,6 +409,6 @@ Games:
 # WRITE FILES
 # =====================================================
 
-json.dump({"updated_at": NOW.isoformat(), "games": daily}, open("daily.json","w"), indent=2)
-json.dump({"updated_at": NOW.isoformat(), "games": live}, open("live.json","w"), indent=2)
-json.dump({"updated_at": NOW.isoformat(), "games": postgame}, open("postgame.json","w"), indent=2)
+json.dump({"updated_at": NOW.isoformat(), "games": daily}, open("daily.json", "w"), indent=2)
+json.dump({"updated_at": NOW.isoformat(), "games": live}, open("live.json", "w"), indent=2)
+json.dump({"updated_at": NOW.isoformat(), "games": postgame}, open("postgame.json", "w"), indent=2)
