@@ -10,7 +10,6 @@
   --bg: #08111f;
   --panel: rgba(9, 18, 33, 0.78);
   --panel-strong: rgba(8, 16, 28, 0.88);
-  --panel-soft: rgba(17, 28, 46, 0.72);
   --border: rgba(148, 163, 184, 0.18);
   --text: #ecf3ff;
   --muted: #a8b7cc;
@@ -58,7 +57,7 @@ body {
 
 .page-header {
   background:
-    linear-gradient(135deg, rgba(8, 18, 34, 0.92), rgba(18, 34, 58, 0.76));
+    linear-gradient(135deg, rgba(8, 18, 34, 0.94), rgba(18, 34, 58, 0.80));
   border: 1px solid rgba(255, 255, 255, 0.10);
   border-radius: 20px;
   padding: 22px 24px;
@@ -201,7 +200,7 @@ body {
 .summary {
   margin-top: 10px;
   color: #e6eefb;
-  line-height: 1.55;
+  line-height: 1.58;
   font-size: 14px;
 }
 
@@ -412,10 +411,10 @@ footer {
 
   <div class="section-block">
     <div class="section-header">
-      <div class="section-label">Stat Leaders</div>
+      <div class="section-label">Season Leaders</div>
       <div class="section-line"></div>
     </div>
-    <div id="stat-leaders" class="grid-4"></div>
+    <div id="season-leaders" class="grid-4"></div>
   </div>
 
   <div class="section-block">
@@ -602,12 +601,12 @@ async function loadDashboardRecap() {
 
     renderFeaturedGames(recap.featured_games || []);
     renderAllGames(recap.all_games || []);
-    renderStatLeaders(recap.stat_leaders || {});
+    renderSeasonLeaders(recap.season_leaders || {});
     renderContextLayer(recap.context_layer || {});
   } catch (error) {
     renderFeaturedGames([]);
     renderAllGames([]);
-    renderStatLeaders({});
+    renderSeasonLeaders({});
     renderContextLayer({});
     console.error(error);
   }
@@ -626,7 +625,7 @@ function renderFeaturedGames(games) {
       <div class="scoreline">${formatValue(game.final_score, "N/A")}</div>
       <div class="meta">Winner: ${formatValue(game.winner)} | Loser: ${formatValue(game.loser)}</div>
       <div class="summary">${formatValue(game.summary, "No summary available.")}</div>
-      <div class="section-title-sm">Key Stats</div>
+      <div class="section-title-sm">Impact Players</div>
       ${renderList(game.key_stats, "No key stats available.")}
     </div>
   `).join("");
@@ -643,20 +642,21 @@ function renderAllGames(games) {
     <div class="card allgame-card">
       <div class="matchup">${formatValue(game.game, "Game")}</div>
       <div class="scoreline">${formatValue(game.final_score, "N/A")}</div>
-      <div class="stat-row">Winning Pitching: ${formatValue(game.top_pitching_line, "N/A")}</div>
+      <div class="stat-row">Top Pitching: ${formatValue(game.top_pitching_line, "N/A")}</div>
       <div class="stat-row">Top Batting: ${formatValue(game.top_batting_line, "N/A")}</div>
-      <div class="keyline">${formatValue(game.key_insight, "No key insight available.")}</div>
+      <div class="summary">${formatValue(game.summary, "No recap available.")}</div>
+      <div class="keyline">Impact Player: ${formatValue(game.impact_player, "N/A")}</div>
     </div>
   `).join("");
 }
 
-function renderStatLeaders(leaders) {
-  const el = document.getElementById("stat-leaders");
+function renderSeasonLeaders(leaders) {
+  const el = document.getElementById("season-leaders");
   const sections = [
-    { title: "Top Hitters", items: leaders.top_hitters || [] },
-    { title: "Top Pitchers", items: leaders.top_pitchers || [] },
-    { title: "Home Run Leaders", items: leaders.home_run_leaders || [] },
-    { title: "Strikeout Leaders", items: leaders.strikeout_leaders || [] }
+    { title: "AVG / OPS Leaders", items: leaders.avg_ops || [] },
+    { title: "HR / RBI Leaders", items: leaders.power || [] },
+    { title: "K / Wins Leaders", items: leaders.pitching || [] },
+    { title: "ERA / WHIP Leaders", items: leaders.run_prevention || [] }
   ];
 
   el.innerHTML = sections.map(section => `
