@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-11T15:36:17.069469-04:00",
+  "updated_at": "2026-04-11T15:47:23.244651-04:00",
   "games": [
     {
       "gamePk": 823480,
@@ -7,7 +7,7 @@
       "home_team": "Philadelphia Phillies",
       "venue": "Citizens Bank Park",
       "start": "2026-04-11T17:05:00Z",
-      "status": "Live",
+      "status": "Final",
       "away_pitcher": {
         "id": 694297,
         "name": "Brandon Pfaadt",
@@ -78,15 +78,15 @@
             "pa": 44
           },
           "vsRHP": {
-            "avg": ".184",
-            "hits": 7
+            "avg": ".190",
+            "hits": 8
           },
           "vsLHP": {
             "avg": ".211",
             "hits": 4
           },
           "risp": {
-            "avg": ".176"
+            "avg": ".167"
           }
         },
         {
@@ -110,11 +110,11 @@
             "pa": 39
           },
           "vsRHP": {
-            "avg": ".233",
+            "avg": ".219",
             "hits": 7
           },
           "vsLHP": {
-            "avg": ".071",
+            "avg": ".067",
             "hits": 1
           },
           "risp": {
@@ -142,11 +142,11 @@
             "pa": 41
           },
           "vsRHP": {
-            "avg": ".240",
+            "avg": ".222",
             "hits": 6
           },
           "vsLHP": {
-            "avg": ".471",
+            "avg": ".444",
             "hits": 8
           },
           "risp": {
@@ -174,7 +174,7 @@
             "pa": 38
           },
           "vsRHP": {
-            "avg": ".179",
+            "avg": ".156",
             "hits": 5
           },
           "vsLHP": {
@@ -182,7 +182,39 @@
             "hits": 3
           },
           "risp": {
-            "avg": ".222"
+            "avg": ".200"
+          }
+        },
+        {
+          "name": "Alek Thomas",
+          "hand": "L",
+          "streak": 2,
+          "hot": false,
+          "cold": true,
+          "stats": {
+            "avg": ".143",
+            "obp": ".200",
+            "slg": ".238",
+            "ops": ".438",
+            "pa": 45
+          },
+          "last10": {
+            "label": "Last 10 games",
+            "avg": ".111",
+            "hits": 4,
+            "ab": 36,
+            "pa": 38
+          },
+          "vsRHP": {
+            "avg": ".065",
+            "hits": 2
+          },
+          "vsLHP": {
+            "avg": ".364",
+            "hits": 4
+          },
+          "risp": {
+            "avg": ".267"
           }
         },
         {
@@ -216,38 +248,6 @@
           "risp": {
             "avg": ".222"
           }
-        },
-        {
-          "name": "Alek Thomas",
-          "hand": "L",
-          "streak": 2,
-          "hot": false,
-          "cold": true,
-          "stats": {
-            "avg": ".146",
-            "obp": ".205",
-            "slg": ".244",
-            "ops": ".449",
-            "pa": 44
-          },
-          "last10": {
-            "label": "Last 10 games",
-            "avg": ".114",
-            "hits": 4,
-            "ab": 35,
-            "pa": 37
-          },
-          "vsRHP": {
-            "avg": ".036",
-            "hits": 1
-          },
-          "vsLHP": {
-            "avg": ".364",
-            "hits": 4
-          },
-          "risp": {
-            "avg": ".267"
-          }
         }
       ],
       "home_hitters": [
@@ -272,7 +272,7 @@
             "pa": 44
           },
           "vsRHP": {
-            "avg": ".342",
+            "avg": ".310",
             "hits": 13
           },
           "vsLHP": {
@@ -280,7 +280,7 @@
             "hits": 1
           },
           "risp": {
-            "avg": ".154"
+            "avg": ".133"
           }
         },
         {
@@ -304,15 +304,15 @@
             "pa": 44
           },
           "vsRHP": {
-            "avg": ".208",
-            "hits": 5
+            "avg": ".214",
+            "hits": 6
           },
           "vsLHP": {
             "avg": ".150",
             "hits": 3
           },
           "risp": {
-            "avg": ".222"
+            "avg": ".300"
           }
         },
         {
@@ -336,8 +336,8 @@
             "pa": 42
           },
           "vsRHP": {
-            "avg": ".241",
-            "hits": 7
+            "avg": ".250",
+            "hits": 8
           },
           "vsLHP": {
             "avg": ".250",
@@ -368,7 +368,7 @@
             "pa": 41
           },
           "vsRHP": {
-            "avg": ".237",
+            "avg": ".225",
             "hits": 9
           },
           "vsLHP": {
@@ -400,7 +400,7 @@
             "pa": 43
           },
           "vsRHP": {
-            "avg": ".176",
+            "avg": ".158",
             "hits": 6
           },
           "vsLHP": {
@@ -432,7 +432,7 @@
             "pa": 41
           },
           "vsRHP": {
-            "avg": ".289",
+            "avg": ".262",
             "hits": 11
           },
           "vsLHP": {
@@ -451,7 +451,7 @@
       "home_team": "Detroit Tigers",
       "venue": "Comerica Park",
       "start": "2026-04-11T17:10:00Z",
-      "status": "Live",
+      "status": "Final",
       "away_pitcher": {
         "id": 676083,
         "name": "Janson Junk",
@@ -508,21 +508,21 @@
           "hot": false,
           "cold": true,
           "stats": {
-            "avg": ".140",
-            "obp": ".254",
-            "slg": ".193",
-            "ops": ".447",
-            "pa": 67
+            "avg": ".138",
+            "obp": ".250",
+            "slg": ".190",
+            "ops": ".440",
+            "pa": 68
           },
           "last10": {
             "label": "Last 10 games",
-            "avg": ".132",
+            "avg": ".128",
             "hits": 5,
-            "ab": 38,
-            "pa": 46
+            "ab": 39,
+            "pa": 47
           },
           "vsRHP": {
-            "avg": ".108",
+            "avg": ".105",
             "hits": 4
           },
           "vsLHP": {
@@ -530,7 +530,7 @@
             "hits": 4
           },
           "risp": {
-            "avg": ".300"
+            "avg": ".273"
           }
         },
         {
@@ -716,15 +716,15 @@
             "pa": 42
           },
           "vsRHP": {
-            "avg": ".188",
-            "hits": 9
+            "avg": ".220",
+            "hits": 11
           },
           "vsLHP": {
-            "avg": ".333",
+            "avg": ".286",
             "hits": 2
           },
           "risp": {
-            "avg": ".333"
+            "avg": ".412"
           }
         },
         {
@@ -780,8 +780,8 @@
             "pa": 42
           },
           "vsRHP": {
-            "avg": ".244",
-            "hits": 11
+            "avg": ".250",
+            "hits": 12
           },
           "vsLHP": {
             "avg": ".571",
@@ -812,15 +812,15 @@
             "pa": 37
           },
           "vsRHP": {
-            "avg": ".189",
-            "hits": 7
+            "avg": ".205",
+            "hits": 8
           },
           "vsLHP": {
             "avg": ".250",
             "hits": 1
           },
           "risp": {
-            "avg": ".333"
+            "avg": ".357"
           }
         },
         {
@@ -844,8 +844,8 @@
             "pa": 35
           },
           "vsRHP": {
-            "avg": ".175",
-            "hits": 7
+            "avg": ".186",
+            "hits": 8
           },
           "vsLHP": {
             "avg": ".500",
@@ -876,15 +876,15 @@
             "pa": 35
           },
           "vsRHP": {
-            "avg": ".372",
-            "hits": 16
+            "avg": ".362",
+            "hits": 17
           },
           "vsLHP": {
             "avg": ".000",
             "hits": 0
           },
           "risp": {
-            "avg": ".300"
+            "avg": ".364"
           }
         }
       ]
@@ -900,22 +900,22 @@
         "id": 677952,
         "name": "Braxton Ashcraft",
         "hand": "R",
-        "era": "1.69",
+        "era": "1.65",
         "last3": {
           "starts_used": 3,
-          "avg_ip": "5.3",
-          "avg_k": "6.0",
-          "avg_bb": "1.3",
-          "avg_era": "1.69",
-          "whip": "0.94",
+          "avg_ip": "5.4",
+          "avg_k": "6.3",
+          "avg_bb": "1.7",
+          "avg_era": "1.65",
+          "whip": "1.04",
           "quality_starts": 2,
           "wins": 0,
           "last_start": {
-            "ip": "4.0",
-            "k": 7,
-            "bb": 0,
+            "ip": "4.1",
+            "k": 8,
+            "bb": 1,
             "er": 0,
-            "hits": 3,
+            "hits": 4,
             "decision": "N/A"
           }
         }
@@ -924,22 +924,22 @@
         "id": 665795,
         "name": "Edward Cabrera",
         "hand": "R",
-        "era": "1.72",
+        "era": "1.62",
         "last3": {
           "starts_used": 3,
-          "avg_ip": "5.4",
+          "avg_ip": "5.6",
           "avg_k": "4.3",
           "avg_bb": "3.0",
-          "avg_era": "1.65",
-          "whip": "1.10",
+          "avg_era": "1.62",
+          "whip": "1.14",
           "quality_starts": 1,
           "wins": 0,
           "last_start": {
-            "ip": "4.2",
+            "ip": "5.0",
             "k": 4,
             "bb": 3,
             "er": 3,
-            "hits": 7,
+            "hits": 8,
             "decision": "N/A"
           }
         }
@@ -966,15 +966,15 @@
             "pa": 42
           },
           "vsRHP": {
-            "avg": ".233",
-            "hits": 7
+            "avg": ".242",
+            "hits": 8
           },
           "vsLHP": {
             "avg": ".263",
             "hits": 5
           },
           "risp": {
-            "avg": ".182"
+            "avg": ".214"
           }
         },
         {
@@ -998,8 +998,8 @@
             "pa": 42
           },
           "vsRHP": {
-            "avg": ".200",
-            "hits": 7
+            "avg": ".263",
+            "hits": 10
           },
           "vsLHP": {
             "avg": ".533",
@@ -1030,7 +1030,7 @@
             "pa": 41
           },
           "vsRHP": {
-            "avg": ".370",
+            "avg": ".345",
             "hits": 10
           },
           "vsLHP": {
@@ -1038,7 +1038,7 @@
             "hits": 5
           },
           "risp": {
-            "avg": ".333"
+            "avg": ".308"
           }
         },
         {
@@ -1062,7 +1062,7 @@
             "pa": 42
           },
           "vsRHP": {
-            "avg": ".320",
+            "avg": ".308",
             "hits": 8
           },
           "vsLHP": {
@@ -1126,7 +1126,7 @@
             "pa": 42
           },
           "vsRHP": {
-            "avg": ".045",
+            "avg": ".042",
             "hits": 1
           },
           "vsLHP": {
@@ -1270,22 +1270,22 @@
         {
           "name": "Dansby Swanson",
           "hand": "R",
-          "streak": 0,
+          "streak": 1,
           "hot": false,
           "cold": true,
           "stats": {
-            "avg": ".136",
-            "obp": ".264",
-            "slg": ".227",
-            "ops": ".491",
-            "pa": 53
+            "avg": ".156",
+            "obp": ".278",
+            "slg": ".244",
+            "ops": ".522",
+            "pa": 54
           },
           "last10": {
             "label": "Last 10 games",
-            "avg": ".091",
-            "hits": 3,
-            "ab": 33,
-            "pa": 38
+            "avg": ".118",
+            "hits": 4,
+            "ab": 34,
+            "pa": 39
           },
           "vsRHP": {
             "avg": ".156",
@@ -1344,19 +1344,19 @@
         "id": 657746,
         "name": "Joe Ryan",
         "hand": "R",
-        "era": "5.06",
+        "era": "4.96",
         "last3": {
           "starts_used": 3,
-          "avg_ip": "3.6",
-          "avg_k": "3.7",
+          "avg_ip": "3.7",
+          "avg_k": "4.0",
           "avg_bb": "1.3",
-          "avg_era": "7.59",
-          "whip": "1.59",
+          "avg_era": "7.36",
+          "whip": "1.55",
           "quality_starts": 0,
           "wins": 0,
           "last_start": {
-            "ip": "1.2",
-            "k": 1,
+            "ip": "2.0",
+            "k": 2,
             "bb": 1,
             "er": 2,
             "hits": 1,
@@ -1368,22 +1368,22 @@
         "id": 641778,
         "name": "Eric Lauer",
         "hand": "L",
-        "era": "3.86",
+        "era": "4.66",
         "last3": {
           "starts_used": 3,
-          "avg_ip": "3.1",
+          "avg_ip": "3.2",
           "avg_k": "3.3",
-          "avg_bb": "1.7",
-          "avg_era": "3.86",
-          "whip": "1.18",
+          "avg_bb": "2.0",
+          "avg_era": "4.66",
+          "whip": "1.55",
           "quality_starts": 0,
           "wins": 0,
           "last_start": {
-            "ip": "2.0",
+            "ip": "2.1",
             "k": 1,
-            "bb": 1,
-            "er": 0,
-            "hits": 0,
+            "bb": 2,
+            "er": 1,
+            "hits": 3,
             "decision": "N/A"
           }
         }
@@ -1397,17 +1397,17 @@
           "cold": false,
           "stats": {
             "avg": ".200",
-            "obp": ".250",
+            "obp": ".262",
             "slg": ".273",
-            "ops": ".523",
-            "pa": 60
+            "ops": ".535",
+            "pa": 61
           },
           "last10": {
             "label": "Last 10 games",
             "avg": ".222",
             "hits": 8,
             "ab": 36,
-            "pa": 38
+            "pa": 39
           },
           "vsRHP": {
             "avg": ".143",
@@ -1456,22 +1456,22 @@
         {
           "name": "Byron Buxton",
           "hand": "R",
-          "streak": 0,
+          "streak": 1,
           "hot": false,
           "cold": true,
           "stats": {
-            "avg": ".176",
-            "obp": ".259",
-            "slg": ".275",
-            "ops": ".534",
-            "pa": 58
+            "avg": ".192",
+            "obp": ".271",
+            "slg": ".288",
+            "ops": ".559",
+            "pa": 59
           },
           "last10": {
             "label": "Last 10 games",
-            "avg": ".143",
-            "hits": 5,
-            "ab": 35,
-            "pa": 41
+            "avg": ".167",
+            "hits": 6,
+            "ab": 36,
+            "pa": 42
           },
           "vsRHP": {
             "avg": ".185",
@@ -2227,7 +2227,7 @@
       "home_team": "New York Mets",
       "venue": "Citi Field",
       "start": "2026-04-11T20:10:00Z",
-      "status": "Preview",
+      "status": "Live",
       "away_pitcher": {
         "id": 682052,
         "name": "Jacob Lopez",
