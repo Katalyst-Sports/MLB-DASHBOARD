@@ -251,9 +251,9 @@ for d in schedule.get("dates", []):
             game["home_pitcher"] = {
                 "name": hp["fullName"],
                 "hand": pitcher_hand(hp["id"]),
-                "era": pitcher_era(hp["id"]),
-                "era_splits": pitcher_era_splits(hp["id"]),
-                **pitcher_last5(hp["id"])
+                "era": pitcher_era(ap["id"]),
+                "era_splits": pitcher_era_splits(ap["id"]),
+                **pitcher_last5(ap["id"])
             }
 
         for side, team in [("away_hitters", away), ("home_hitters", home)]:
@@ -306,6 +306,12 @@ for d in schedule.get("dates", []):
             lines = feed["liveData"]["linescore"]
             box = feed["liveData"]["boxscore"]
 
+            away_runs = lines["teams"]["away"]["runs"]
+            home_runs = lines["teams"]["home"]["runs"]
+
+            winner = away["name"] if away_runs > home_runs else home["name"]
+            loser = home["name"] if away_runs > home_runs else away["name"]
+
             hitters = []
             pitchers = []
 
@@ -324,30 +330,21 @@ for d in schedule.get("dates", []):
                             box["teams"][side]["players"][f"ID{pid}"]["person"]["fullName"]
                         )
 
-            away_runs = lines["teams"]["away"]["runs"]
-home_runs = lines["teams"]["home"]["runs"]
-
-winner = away["name"] if away_runs > home_runs else home["name"]
-loser = home["name"] if away_runs > home_runs else away["name"]
-
-postgame.append({
-    "game": f"{away['name']} @ {home['name']}",
-    "winner": winner,
-    "loser": loser,
-    "final_score": f"{away_runs}–{home_runs}",
-    "hitters": hitters,
-    "pitchers": pitchers
-})
+            postgame.append({
+                "game": f"{away['name']} @ {home['name']}",
+                "winner": winner,
+                "loser": loser,
+                "final_score": f"{away_runs}–{home_runs}",
+                "hitters": hitters,
+                "pitchers": pitchers
+            })
 
 # =====================================================
-# REAL AI DAILY RECAP (SAFE)
+# AI DAILY RECAP (PERSISTENT)
 # =====================================================
 
 def ai_daily_recap(postgame_games):
-    if not client:
-        return None
-
-    if len(postgame_games) == 0:
+    if not client or not postgame_games:
         return None
 
     games_text = "\n".join([
@@ -365,39 +362,29 @@ Key Pitchers: {', '.join(g['pitchers']) if g['pitchers'] else 'None'}
     prompt = f"""
 You are a professional MLB beat writer for ESPN and The Athletic.
 
-Write a DAILY MLB RECAP ARTICLE with the following rules:
+Write a DAILY MLB RECAP ARTICLE.
 
-STRUCTURE:
-- Start with a strong headline that highlights the biggest storyline
-- Write ONE clear paragraph per game
-- Clearly state who WON and who LOST each game
-- Explain WHY the game was decided (pitching dominance, clutch hitting, late runs, etc.)
+Rules:
+- Start with a strong headline
+- One paragraph per game
+- Clearly state who WON and who LOST
+- Explain WHY the game was decided
 - Mention standout hitters and pitchers with context
-- Avoid generic phrases — be specific and descriptive
-- End with a short "What It Means" section about momentum, standings, or trends
+- End with a "What It Means" section
+- Avoid generic language
 
-STYLE:
-- Confident, informative, sports‑journalism tone
-- Easy to understand who won each game
-- No predictions
-- No gambling language
-
-GAMES TO RECAP:
+GAMES:
 {games_text}
 """
 
     response = client.chat.completions.create(
         model="gpt-4o-mini",
         messages=[{"role": "user", "content": prompt}],
-        temperature=0.65
+        temperature=0.6
     )
 
     return {
-        "headline": f"MLB Daily Recap — {NOW.strftime('%B %d, %Y')}",
-        "article": response.choices[0].message.content.strip()
-    }
-
-    return {
+        "date": TODAY,
         "headline": f"MLB Daily Recap — {NOW.strftime('%B %d, %Y')}",
         "article": response.choices[0].message.content.strip()
     }
@@ -415,6 +402,5 @@ json.dump({"updated_at": NOW.isoformat(), "games": postgame}, open("postgame.jso
 if ai_recap:
     json.dump(ai_recap, open("daily_recap.json","w"), indent=2)
 else:
-    # ✅ Preserve existing recap if no new one generated
     if not os.path.exists("daily_recap.json"):
         pass
