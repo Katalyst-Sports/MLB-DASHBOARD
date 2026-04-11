@@ -11,6 +11,10 @@ except Exception:
 
 # =====================================================
 # CONFIG
+
+with open("api_key_debug.txt", "w") as f:
+    f.write(f"OPENAI_API_KEY present: {bool(os.getenv('OPENAI_API_KEY'))}")
+
 # =====================================================
 
 BASE = "https://statsapi.mlb.com/api"
