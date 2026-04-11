@@ -6,14 +6,12 @@ permissions:
 on:
   workflow_dispatch:
   schedule:
-    # ✅ Run every minute for live updates
     - cron: "* * * * *"
 
 jobs:
   run-engine:
     runs-on: ubuntu-latest
 
-    # ✅ Prevent overlapping runs (critical for live accuracy)
     concurrency:
       group: live-mlb-dashboard
       cancel-in-progress: true
@@ -27,7 +25,6 @@ jobs:
         with:
           python-version: "3.11"
 
-      # ✅ THIS IS THE FIX FOR YOUR ERROR
       - name: Install dependencies
         run: |
           pip install --upgrade pip
@@ -36,10 +33,14 @@ jobs:
       - name: Run MLB engine
         run: python run_engine.py
 
-      - name: Commit updated data
+      - name: Commit updated data (safe)
         run: |
           git config user.name "github-actions"
           git config user.email "actions@github.com"
-          git add daily.json live.json postgame.json daily_recap.json
+
+          # ✅ Add ONLY files that actually exist
+          git add daily.json live.json postgame.json || true
+          git add daily_recap.json || true
+
           git commit -m "Update MLB dashboard data" || echo "No changes"
           git push
