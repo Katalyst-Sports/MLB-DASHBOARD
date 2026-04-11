@@ -1,15 +1,16 @@
 {
-  "updated_at": "2026-04-11T17:04:10.572400-04:00",
+  "updated_at": "2026-04-11T17:21:57.007498-04:00",
   "games": [
     {
       "gamePk": 824697,
       "game": "Pittsburgh Pirates @ Chicago Cubs",
-      "score": "3-2",
-      "inning": "9th",
+      "score": "3-3",
+      "inning": "10th",
       "hot_hitters": [
         "Oneil Cruz",
         "Bryan Reynolds",
         "Nick Yorke",
+        "Alex Bregman",
         "Mois\u00e9s Ballesteros"
       ],
       "top_pitchers": []
@@ -18,7 +19,7 @@
       "gamePk": 822830,
       "game": "Minnesota Twins @ Toronto Blue Jays",
       "score": "7-2",
-      "inning": "8th",
+      "inning": "9th",
       "hot_hitters": [
         "Trevor Larnach",
         "Brooks Lee",
@@ -29,7 +30,7 @@
     {
       "gamePk": 824535,
       "game": "Los Angeles Angels @ Cincinnati Reds",
-      "score": "0-5",
+      "score": "1-5",
       "inning": "3rd",
       "hot_hitters": [
         "Spencer Steer"
@@ -39,12 +40,13 @@
     {
       "gamePk": 823644,
       "game": "Athletics @ New York Mets",
-      "score": "4-1",
+      "score": "7-1",
       "inning": "3rd",
       "hot_hitters": [
         "Tyler Soderstrom",
         "Jacob Wilson",
-        "Jeff McNeil"
+        "Jeff McNeil",
+        "Carlos Cortes"
       ],
       "top_pitchers": []
     },
@@ -52,7 +54,7 @@
       "gamePk": 824129,
       "game": "Chicago White Sox @ Kansas City Royals",
       "score": "0-1",
-      "inning": "2nd",
+      "inning": "4th",
       "hot_hitters": [
         "Maikel Garcia"
       ],
