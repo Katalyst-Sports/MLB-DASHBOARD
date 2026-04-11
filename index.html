@@ -164,7 +164,7 @@ body {
   border-top: 4px solid var(--blue);
 }
 
-.allgame-card {
+.recap-card {
   border-top: 4px solid #64748b;
 }
 
@@ -403,10 +403,11 @@ footer {
 
   <div class="section-block">
     <div class="section-header">
-      <div class="section-label">All Games</div>
+      <div class="section-label">Previous Day Recap</div>
       <div class="section-line"></div>
     </div>
     <div id="all-games" class="grid"></div>
+    <div id="recap-context" class="grid" style="margin-top:14px;"></div>
   </div>
 
   <div class="section-block">
@@ -415,14 +416,6 @@ footer {
       <div class="section-line"></div>
     </div>
     <div id="season-leaders" class="grid-4"></div>
-  </div>
-
-  <div class="section-block">
-    <div class="section-header">
-      <div class="section-label">Context Layer</div>
-      <div class="section-line"></div>
-    </div>
-    <div id="context-layer" class="grid"></div>
   </div>
 
   <footer>
@@ -532,6 +525,9 @@ async function loadLive() {
       <div class="card live-card card-strong">
         <div class="matchup">${formatValue(game.game, "Live Game")}</div>
         <div class="scoreline">${formatValue(game.score, "0-0")} | ${formatValue(game.inning, "TBD")}</div>
+        <div class="stat-row">Batter: ${formatValue(game.current_batter)}</div>
+        <div class="stat-row">Pitcher: ${formatValue(game.current_pitcher)} | Pitches: ${formatValue(game.pitcher_pitch_count)}</div>
+        <div class="stat-row">Count: ${formatValue(game.count)} | Outs: ${formatValue(game.outs, 0)} | On Base: ${safeArray(game.bases).length ? game.bases.join(", ") : "Empty"}</div>
         <div class="section-title-sm">Hot Hitters</div>
         ${renderList(game.hot_hitters, "No hitters flagged yet.")}
         <div class="section-title-sm">Dominant Pitchers</div>
@@ -604,12 +600,12 @@ async function loadDashboardRecap() {
     renderFeaturedGames(recap.featured_games || []);
     renderAllGames(recap.all_games || []);
     renderSeasonLeaders(recap.season_leaders || {});
-    renderContextLayer(recap.context_layer || {});
+    renderMergedRecapContext(recap.context_layer || {});
   } catch (error) {
     renderFeaturedGames([]);
     renderAllGames([]);
     renderSeasonLeaders({});
-    renderContextLayer({});
+    renderMergedRecapContext({});
     console.error(error);
   }
 }
@@ -636,12 +632,12 @@ function renderFeaturedGames(games) {
 function renderAllGames(games) {
   const el = document.getElementById("all-games");
   if (!safeArray(games).length) {
-    el.innerHTML = `<div class="card allgame-card">No completed game summaries available yet.</div>`;
+    el.innerHTML = `<div class="card recap-card">No completed game summaries available yet.</div>`;
     return;
   }
 
   el.innerHTML = games.map(game => `
-    <div class="card allgame-card">
+    <div class="card recap-card">
       <div class="matchup">${formatValue(game.game, "Game")}</div>
       <div class="scoreline">${formatValue(game.final_score, "N/A")}</div>
       <div class="stat-row">Top Pitching: ${formatValue(game.top_pitching_line, "N/A")}</div>
@@ -669,8 +665,8 @@ function renderSeasonLeaders(leaders) {
   `).join("");
 }
 
-function renderContextLayer(context) {
-  const el = document.getElementById("context-layer");
+function renderMergedRecapContext(context) {
+  const el = document.getElementById("recap-context");
   const blocks = [
     { title: "Momentum Shifts", items: context.momentum_shifts || [] },
     { title: "Standout Performances", items: context.standout_performances || [] },
