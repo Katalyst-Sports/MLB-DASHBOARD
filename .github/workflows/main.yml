@@ -6,31 +6,45 @@ permissions:
 on:
   workflow_dispatch:
   schedule:
+    # Runs every minute
     - cron: "* * * * *"
 
 jobs:
   run-engine:
     runs-on: ubuntu-latest
 
+    # ✅ Explicitly inject the OpenAI API key into the runtime
     env:
       OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
 
-    steps:
-      - uses: actions/checkout@v4
+    # ✅ Prevent overlapping runs
+    concurrency:
+      group: live-mlb-dashboard
+      cancel-in-progress: true
 
-      - uses: actions/setup-python@v5
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
         with:
           python-version: "3.11"
 
       - name: Install dependencies
-        run: pip install openai
+        run: |
+          pip install --upgrade pip
+          pip install openai
 
       - name: Run MLB engine
         run: python run_engine.py
+
+      - name: Commit updated data
+        run: |
           git config user.name "github-actions"
           git config user.email "actions@github.com"
 
-          # ✅ Add ONLY files that actually exist
+          # Add files only if they exist
           git add daily.json live.json postgame.json || true
           git add daily_recap.json || true
 
