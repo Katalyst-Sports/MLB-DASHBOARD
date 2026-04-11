@@ -1,5 +1,24 @@
 {
-  "updated_at": "2026-04-11T12:25:55.625573-04:00",
-  "games": [],
+  "updated_at": "2026-04-11T13:18:51.927462-04:00",
+  "games": [
+    {
+      "gamePk": 823480,
+      "game": "Arizona Diamondbacks @ Philadelphia Phillies",
+      "score": "2-0",
+      "inning": "1st",
+      "hot_hitters": [
+        "Ketel Marte"
+      ],
+      "top_pitchers": []
+    },
+    {
+      "gamePk": 824294,
+      "game": "Miami Marlins @ Detroit Tigers",
+      "score": "0-0",
+      "inning": "1st",
+      "hot_hitters": [],
+      "top_pitchers": []
+    }
+  ],
   "errors": []
 }
