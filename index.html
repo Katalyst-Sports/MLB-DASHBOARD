@@ -98,13 +98,17 @@ Live data last updated: <span id="updated">loading…</span>
 fetch("./live.json?nocache=" + Date.now())
   .then(r => r.json())
   .then(d => {
-    // ✅ ADD-ONLY: populate timestamp
-    if (d.updated_at) {
+
+    // ✅ ADDITIVE: show last updated time (safe)
+    if (d.updated_at && document.getElementById("updated")) {
       document.getElementById("updated").textContent =
         new Date(d.updated_at).toLocaleString();
     }
 
     const liveDiv = document.getElementById("live");
+
+    // Clear previous content so stale games disappear
+    liveDiv.innerHTML = "";
 
     if (!d.games || d.games.length === 0) {
       liveDiv.innerHTML =
@@ -118,8 +122,10 @@ fetch("./live.json?nocache=" + Date.now())
       card.innerHTML = `
         <strong>${g.game}</strong><br>
         Score: ${g.score} | Inning: ${g.inning}<br><br>
-        <strong>Hot Hitters:</strong> ${g.hot_hitters.length ? g.hot_hitters.join(", ") : "None"}<br>
-        <strong>Dominant Pitchers:</strong> ${g.top_pitchers.length ? g.top_pitchers.join(", ") : "None"}
+        <strong>Hot Hitters:</strong>
+        ${g.hot_hitters.length ? g.hot_hitters.join(", ") : "None"}<br>
+        <strong>Dominant Pitchers:</strong>
+        ${g.top_pitchers.length ? g.top_pitchers.join(", ") : "None"}
       `;
       liveDiv.appendChild(card);
     });
