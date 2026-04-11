@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>MLB Performance Context</title>
+<title>MLB StatStream</title>
 
 <style>
 body {
@@ -17,6 +17,20 @@ body {
 
 h1 { margin-bottom: 6px; }
 h2 { margin: 0 0 10px; }
+
+.hero {
+  margin-bottom: 18px;
+  border-radius: 14px;
+  overflow: hidden;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.12);
+}
+
+.hero img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  display: block;
+}
 
 .grid {
   display: grid;
@@ -140,6 +154,10 @@ li {
     padding: 14px;
   }
 
+  .hero img {
+    height: 160px;
+  }
+
   .grid {
     grid-template-columns: 1fr;
   }
@@ -158,7 +176,11 @@ footer {
 
 <body>
 
-<h1>MLB Performance Context</h1>
+<div class="hero">
+  <img src="./images/banner.jpg" alt="MLB StatStream banner">
+</div>
+
+<h1>MLB StatStream</h1>
 <div class="subtitle">
 Live games are shown first, upcoming matchups second, and final recaps at the bottom.
 </div>
