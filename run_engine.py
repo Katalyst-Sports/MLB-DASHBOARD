@@ -481,8 +481,8 @@ def build_dashboard_recap(yesterday_postgame):
                 ]
             )
 
-            prompt = f"""
-You are building a modern MLB analytics dashboard, not a newspaper article.
+                       prompt = f"""
+You are writing concise MLB game recaps for a professional baseball data dashboard.
 
 Return valid JSON only with this exact schema:
 {{
@@ -511,15 +511,28 @@ Return valid JSON only with this exact schema:
   }}
 }}
 
-Rules:
+Writing style rules:
+- Write like an MLB recap desk, not like a columnist.
+- Use realistic baseball language.
+- Prefer concrete phrasing such as:
+  "worked six scoreless innings",
+  "struck out 11",
+  "allowed one run",
+  "homered",
+  "drove in three runs",
+  "collected three hits".
+- Avoid generic phrases like:
+  "set the tone",
+  "came up big",
+  "made the difference",
+  "provided a spark",
+  unless absolutely necessary.
+- If a pitcher line is strong, say exactly what he did using the provided innings, strikeouts, and earned runs.
+- If a hitter line includes a home run or RBI total, mention that directly.
+- Mention player names clearly.
+- Keep each all_games summary to 2-3 sentences.
 - Use only the exact stats provided.
-- Do not invent numbers or events.
-- Every all_games summary must be 2-3 sentences.
-- Mention the names of players who impacted the game.
-- If there was a strong pitching performance, emphasize it clearly.
-- If there was a home run or big RBI game, mention it clearly.
-- Avoid vague phrases when a specific player line is available.
-- Keep summaries analytical, concise, and readable.
+- Do not invent innings, strikeouts, earned runs, hits, home runs, or RBI.
 - "featured_games" should contain 3 or 4 games.
 - "all_games" should include every game.
 - "standout_performances" should include both hitters and pitchers.
@@ -527,7 +540,7 @@ Rules:
 
 Games:
 {raw_games}
-"""
+""" 
 
             response = client.chat.completions.create(
                 model="llama-3.1-8b-instant",
