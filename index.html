@@ -124,12 +124,8 @@ li {
   margin-bottom: 2px;
 }
 
-.stack {
-  display: grid;
-  gap: 16px;
-}
-
 .full-width {
+  margin-top: 16px;
   margin-bottom: 16px;
 }
 
@@ -164,17 +160,24 @@ footer {
 
 <h1>MLB Performance Context</h1>
 <div class="subtitle">
-Click a game to expand matchup details. Live games appear at the top.
+Live games are shown first, upcoming matchups second, and final recaps at the bottom.
 </div>
 
 <div class="timestamp">
 Live data last updated: <span id="updated">loading...</span>
 </div>
 
-<div id="ai-recap" class="full-width"></div>
+<div class="section">Live Games</div>
 <div id="live" class="grid"></div>
-<div id="postgame" class="grid"></div>
+
+<div class="section">Upcoming Games</div>
 <div id="games" class="grid"></div>
+
+<div class="section">Final Games</div>
+<div id="postgame" class="grid"></div>
+
+<div class="section">AI Recap</div>
+<div id="ai-recap" class="full-width"></div>
 
 <script>
 function safeArray(value) {
@@ -189,20 +192,47 @@ function listMarkup(items, emptyText) {
   return `<ul>${values.map(item => `<li>${item}</li>`).join("")}</ul>`;
 }
 
+function formatValue(value, fallback = "N/A") {
+  return value === undefined || value === null || value === "" ? fallback : value;
+}
+
 function pitcherMarkup(p) {
   if (!p || !p.name) {
     return '<div class="muted">No probable pitcher listed yet.</div>';
   }
 
+  const last3 = p.last3 || {};
+  const lastStart = last3.last_start || {};
+
   return `
     <div><strong>${p.name}</strong></div>
     <div>Throws: ${p.hand || "N/A"}</div>
-    <div>ERA: ${p.era || "N/A"}</div>
-  `;
-}
+    <div>Season ERA: ${p.era || "N/A"}</div>
 
-function formatValue(value, fallback = "N/A") {
-  return value === undefined || value === null || value === "" ? fallback : value;
+    <div class="stat-line">
+      Last ${last3.starts_used || 0} starts:
+      ERA ${last3.avg_era || "N/A"} |
+      IP ${last3.avg_ip || "N/A"} |
+      K ${last3.avg_k || "N/A"} |
+      BB ${last3.avg_bb || "N/A"}
+    </div>
+
+    <div class="stat-line">
+      WHIP ${last3.whip || "N/A"} |
+      QS ${last3.quality_starts || 0} |
+      Wins ${last3.wins || 0}
+    </div>
+
+    <div class="stat-line">
+      Last start:
+      ${lastStart.ip || "N/A"} IP |
+      ${lastStart.k || "N/A"} K |
+      ${lastStart.bb || "N/A"} BB |
+      ${lastStart.er || "N/A"} ER |
+      ${lastStart.hits || "N/A"} H |
+      ${lastStart.decision || "N/A"}
+    </div>
+  `;
 }
 
 function streakBadge(player) {
@@ -230,10 +260,11 @@ function hitterStatLine(player) {
     parts.push(`Season AVG ${formatValue(player.stats.avg)}`);
     if (player.stats.obp) parts.push(`OBP ${player.stats.obp}`);
     if (player.stats.slg) parts.push(`SLG ${player.stats.slg}`);
+    if (player.stats.ops) parts.push(`OPS ${player.stats.ops}`);
   }
 
   if (player.last10) {
-    parts.push(`Last 10: ${formatValue(player.last10.avg)} (${formatValue(player.last10.hits, 0)}/${formatValue(player.last10.ab, 0)})`);
+    parts.push(`${formatValue(player.last10.label, "Last 10")}: ${formatValue(player.last10.avg)} (${formatValue(player.last10.hits, 0)}/${formatValue(player.last10.ab, 0)})`);
   }
 
   return parts.length ? parts.join(" | ") : "Additional hitter stats are not available yet.";
@@ -319,77 +350,6 @@ async function loadLive() {
   }
 }
 
-async function loadRecap() {
-  const recapDiv = document.getElementById("ai-recap");
-
-  try {
-    const response = await fetch("./yesterday_recap.json?nocache=" + Date.now());
-    if (!response.ok) {
-      throw new Error("Recap file missing");
-    }
-
-    const data = await response.json();
-    const article = data.article || "No recap available yet.";
-    recapDiv.innerHTML = `
-      <div class="card">
-        <h2>${data.headline || "Yesterday Recap"}</h2>
-        <p style="line-height:1.6; white-space:pre-wrap; margin:0;">${article}</p>
-      </div>
-    `;
-  } catch (error) {
-    recapDiv.innerHTML = `
-      <div class="card">
-        <strong>Final Recap</strong><br>
-        <span class="muted">No AI recap available yet. Written recaps appear after games go final.</span>
-      </div>
-    `;
-    console.error(error);
-  }
-}
-
-async function loadPostgame() {
-  const postgameDiv = document.getElementById("postgame");
-
-  try {
-    const response = await fetch("./postgame.json?nocache=" + Date.now());
-    const data = await response.json();
-    const games = safeArray(data.games);
-
-    if (!games.length) {
-      postgameDiv.innerHTML = `
-        <div class="card">
-          <strong>Today's Finals</strong><br>
-          <span class="muted">No final games yet today.</span>
-        </div>
-      `;
-      return;
-    }
-
-    postgameDiv.innerHTML = games.map(game => `
-      <div class="card">
-        <strong>${game.game || "Final"}</strong><br>
-        Final Score: ${game.final_score || "N/A"}<br>
-        Winner: ${game.winner || "N/A"}<br>
-        Loser: ${game.loser || "N/A"}
-
-        <div class="section">Top Hitters</div>
-        ${listMarkup(game.hitters, "No hitter highlights captured.")}
-
-        <div class="section">Top Pitchers</div>
-        ${listMarkup(game.pitchers, "No pitcher highlights captured.")}
-      </div>
-    `).join("");
-  } catch (error) {
-    postgameDiv.innerHTML = `
-      <div class="card">
-        <strong>Today's Finals</strong><br>
-        <span class="muted">Could not load postgame.json.</span>
-      </div>
-    `;
-    console.error(error);
-  }
-}
-
 async function loadDaily() {
   const gamesDiv = document.getElementById("games");
 
@@ -455,6 +415,84 @@ async function loadDaily() {
   }
 }
 
+async function loadPostgame() {
+  const postgameDiv = document.getElementById("postgame");
+
+  try {
+    const response = await fetch("./postgame.json?nocache=" + Date.now());
+    const data = await response.json();
+    const games = safeArray(data.games);
+
+    if (!games.length) {
+      postgameDiv.innerHTML = `
+        <div class="card">
+          <strong>Today's Finals</strong><br>
+          <span class="muted">No final games yet today.</span>
+        </div>
+      `;
+      return;
+    }
+
+    postgameDiv.innerHTML = games.map(game => `
+      <div class="card">
+        <strong>${game.game || "Final"}</strong><br>
+        Final Score: ${game.final_score || "N/A"}<br>
+        Winner: ${game.winner || "N/A"}<br>
+        Loser: ${game.loser || "N/A"}
+
+        <div class="section">Top Hitters</div>
+        ${listMarkup(game.hitters, "No hitter highlights captured.")}
+
+        <div class="section">Top Pitchers</div>
+        ${listMarkup(game.pitchers, "No pitcher highlights captured.")}
+
+        <div class="section">Exact Hitter Lines</div>
+        ${listMarkup(game.hitter_lines, "No exact hitter lines captured.")}
+
+        <div class="section">Exact Pitcher Lines</div>
+        ${listMarkup(game.pitcher_lines, "No exact pitcher lines captured.")}
+      </div>
+    `).join("");
+  } catch (error) {
+    postgameDiv.innerHTML = `
+      <div class="card">
+        <strong>Today's Finals</strong><br>
+        <span class="muted">Could not load postgame.json.</span>
+      </div>
+    `;
+    console.error(error);
+  }
+}
+
+async function loadRecap() {
+  const recapDiv = document.getElementById("ai-recap");
+
+  try {
+    const response = await fetch("./yesterday_recap.json?nocache=" + Date.now());
+    if (!response.ok) {
+      throw new Error("Recap file missing");
+    }
+
+    const data = await response.json();
+    const article = data.article || "No recap available yet.";
+
+    recapDiv.innerHTML = `
+      <div class="card">
+        <h2>${data.headline || "Yesterday Recap"}</h2>
+        <p style="line-height:1.6; white-space:pre-wrap; margin:0;">${article}</p>
+      </div>
+    `;
+  } catch (error) {
+    recapDiv.innerHTML = `
+      <div class="card">
+        <strong>Final Recap</strong><br>
+        <span class="muted">No AI recap available yet. Written recaps appear after games go final.</span>
+      </div>
+    `;
+    console.error(error);
+  }
+}
+
 function toggle(id) {
   const el = document.getElementById(id);
   if (!el) return;
@@ -462,9 +500,9 @@ function toggle(id) {
 }
 
 loadLive();
-loadRecap();
-loadPostgame();
 loadDaily();
+loadPostgame();
+loadRecap();
 </script>
 
 <footer>
