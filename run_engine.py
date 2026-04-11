@@ -458,9 +458,7 @@ def build_dashboard_recap(yesterday_postgame):
         "all_games": [],
         "season_leaders": season_leaders(),
         "context_layer": {
-            "momentum_shifts": [],
             "standout_performances": [],
-            "team_trends": [],
         },
     }
 
@@ -504,15 +502,12 @@ Return valid JSON only with this exact schema:
       "final_score": "...",
       "top_pitching_line": "...",
       "top_batting_line": "...",
-      "summary": "2-3 sentence recap that names the most important pitcher and offensive impact",
-      "impact_player": "...",
-      "key_insight": "One concise line"
+      "summary": "2-3 sentence recap naming the key pitcher and offensive performers",
+      "impact_player": "..."
     }}
   ],
   "context_layer": {{
-    "momentum_shifts": ["...", "...", "..."],
-    "standout_performances": ["...", "...", "..."],
-    "team_trends": ["...", "...", "..."]
+    "standout_performances": ["...", "...", "...", "...", "...", "..."]
   }}
 }}
 
@@ -520,11 +515,14 @@ Rules:
 - Use only the exact stats provided.
 - Do not invent numbers or events.
 - Every all_games summary must be 2-3 sentences.
-- Name the offensive impact when available, especially a home run or multi-RBI game.
-- If a home run is listed, prefer mentioning it over vague wording like "timely hit."
-- Keep summaries tight, analytical, and readable.
+- Mention the names of players who impacted the game.
+- If there was a strong pitching performance, emphasize it clearly.
+- If there was a home run or big RBI game, mention it clearly.
+- Avoid vague phrases when a specific player line is available.
+- Keep summaries analytical, concise, and readable.
 - "featured_games" should contain 3 or 4 games.
 - "all_games" should include every game.
+- "standout_performances" should include both hitters and pitchers.
 - Output JSON only.
 
 Games:
@@ -557,13 +555,15 @@ Games:
     ]
 
     dashboard["all_games"] = []
+    standout = []
+
     for game in yesterday_postgame:
         top_pitch = game["pitcher_lines"][0] if game["pitcher_lines"] else "No top pitching line available"
         top_hit = game["hitter_lines"][0] if game["hitter_lines"] else "No top batting line available"
         summary = (
             f"{game['winner']} beat {game['loser']} {game['final_score']}. "
-            f"{top_pitch}. "
-            f"{top_hit} played a major role in shaping the result."
+            f"{top_pitch} set the tone on the mound, while {top_hit} provided the biggest offensive push. "
+            f"Those performances were the biggest reasons the game tilted in {game['winner']}'s favor."
         )
         impact = top_hit if ("HR" in top_hit or "RBI" in top_hit) else top_pitch
 
@@ -574,29 +574,17 @@ Games:
             "top_batting_line": top_hit,
             "summary": summary,
             "impact_player": impact,
-            "key_insight": top_pitch,
         })
 
-    top_hitter_lines = []
-    top_pitcher_lines = []
-    for game in yesterday_postgame:
-        top_hitter_lines.extend(game["hitter_lines"])
-        top_pitcher_lines.extend(game["pitcher_lines"])
+        if top_hit != "No top batting line available":
+            standout.append(top_hit)
+        if top_pitch != "No top pitching line available":
+            standout.append(top_pitch)
 
-    dashboard["context_layer"]["momentum_shifts"] = [
-        f"{game['winner']} controlled the pace in {game['game']} after getting the key edge from its impact performers."
-        for game in yesterday_postgame[:3]
-    ]
-    dashboard["context_layer"]["standout_performances"] = top_hitter_lines[:3]
-    dashboard["context_layer"]["team_trends"] = [
-        f"{game['winner']} added a win in {game['game']} behind strong pitching and timely offense."
-        for game in yesterday_postgame[:3]
-    ]
+    dashboard["context_layer"]["standout_performances"] = standout[:8]
 
     return dashboard
 
-
-schedule_today = fetch(
     f"{BASE}/v1/schedule?sportId=1&date={TODAY}&hydrate=probablePitcher"
 )
 
