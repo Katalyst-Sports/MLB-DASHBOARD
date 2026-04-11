@@ -23,9 +23,7 @@
   --base-on: #43c07a;
 }
 
-* {
-  box-sizing: border-box;
-}
+* { box-sizing: border-box; }
 
 body {
   margin: 0;
@@ -147,6 +145,13 @@ body {
   margin-top: 14px;
 }
 
+.watchlist-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+  margin-top: 14px;
+}
+
 .card {
   background: var(--panel);
   border: 1px solid var(--border);
@@ -157,16 +162,14 @@ body {
   -webkit-backdrop-filter: blur(10px);
 }
 
-.card-strong {
-  background: var(--panel-strong);
-}
-
+.card-strong { background: var(--panel-strong); }
 .live-card { border-top: 4px solid var(--red); }
 .upcoming-card { border-top: 4px solid var(--blue); }
 .finished-card { border-top: 4px solid var(--gold); }
 .recap-card { border-top: 4px solid #64748b; }
 .leader-card { border-top: 4px solid var(--green); }
 .player-card { border-top: 4px solid var(--cyan); }
+.watchlist-card { border-top: 4px solid #22c55e; }
 
 .matchup {
   font-size: 15px;
@@ -238,13 +241,8 @@ body {
   line-height: 1.5;
 }
 
-.muted {
-  color: var(--muted);
-}
-
-.toggle {
-  cursor: pointer;
-}
+.muted { color: var(--muted); }
+.toggle { cursor: pointer; }
 
 .badge {
   display: inline-block;
@@ -277,9 +275,7 @@ body {
   border-bottom: 1px solid rgba(148, 163, 184, 0.14);
 }
 
-.player-row:last-child {
-  border-bottom: 0;
-}
+.player-row:last-child { border-bottom: 0; }
 
 .live-top {
   display: flex;
@@ -288,9 +284,7 @@ body {
   align-items: flex-start;
 }
 
-.live-top-right {
-  text-align: right;
-}
+.live-top-right { text-align: right; }
 
 .live-strip {
   display: grid;
@@ -313,13 +307,8 @@ body {
   border: 1px solid rgba(148, 163, 184, 0.12);
 }
 
-.live-chip-player {
-  min-height: 78px;
-}
-
-.live-chip-compact {
-  min-height: 35px;
-}
+.live-chip-player { min-height: 78px; }
+.live-chip-compact { min-height: 35px; }
 
 .live-chip-label {
   font-size: 10px;
@@ -422,7 +411,9 @@ body {
 }
 
 .player-search-input,
-.player-search-button {
+.player-search-button,
+.watchlist-action,
+.watchlist-close {
   border-radius: 12px;
   border: 1px solid rgba(148, 163, 184, 0.18);
   background: rgba(255,255,255,0.05);
@@ -431,19 +422,21 @@ body {
   font-size: 14px;
 }
 
-.player-search-button {
+.player-search-button,
+.watchlist-action,
+.watchlist-close {
   cursor: pointer;
   font-weight: 800;
+}
+
+.player-search-button {
   background: linear-gradient(135deg, #0f4c81, #2563eb);
 }
 
 .player-search-suggestions {
   position: relative;
-  top: auto;
-  left: auto;
-  right: auto;
-  z-index: auto;
   margin-top: 10px;
+  margin-bottom: 12px;
   background: rgba(8, 16, 28, 0.98);
   border: 1px solid rgba(148, 163, 184, 0.18);
   border-radius: 14px;
@@ -461,13 +454,8 @@ body {
   border-bottom: 1px solid rgba(148, 163, 184, 0.12);
 }
 
-.player-suggestion:last-child {
-  border-bottom: 0;
-}
-
-.player-suggestion:hover {
-  background: rgba(255,255,255,0.05);
-}
+.player-suggestion:last-child { border-bottom: 0; }
+.player-suggestion:hover { background: rgba(255,255,255,0.05); }
 
 .player-headshot {
   width: 44px;
@@ -478,7 +466,8 @@ body {
   background: rgba(255,255,255,0.06);
 }
 
-.player-hero {
+.player-hero,
+.watchlist-player-hero {
   display: grid;
   grid-template-columns: 110px 1fr;
   gap: 14px;
@@ -494,13 +483,84 @@ body {
   background: rgba(255,255,255,0.06);
 }
 
+.watchlist-headshot {
+  width: 56px;
+  height: 56px;
+  border-radius: 14px;
+  object-fit: cover;
+  border: 1px solid rgba(148, 163, 184, 0.18);
+  background: rgba(255,255,255,0.06);
+}
+
 .live-event {
   padding: 8px 0;
   border-bottom: 1px solid rgba(148, 163, 184, 0.12);
 }
 
-.live-event:last-child {
-  border-bottom: 0;
+.live-event:last-child { border-bottom: 0; }
+
+.watchlist-fab {
+  position: fixed;
+  right: 24px;
+  bottom: 24px;
+  z-index: 1000;
+  padding: 14px 18px;
+  border-radius: 999px;
+  border: 1px solid rgba(148, 163, 184, 0.18);
+  background: linear-gradient(135deg, #15803d, #16a34a);
+  color: white;
+  box-shadow: var(--shadow);
+  font-size: 14px;
+  font-weight: 900;
+  cursor: pointer;
+}
+
+.watchlist-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(3, 8, 16, 0.68);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  display: none;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+  z-index: 1100;
+}
+
+.watchlist-overlay.open {
+  display: flex;
+}
+
+.watchlist-modal {
+  width: min(1200px, 100%);
+  max-height: 88vh;
+  overflow: auto;
+  background: rgba(8, 16, 28, 0.96);
+  border: 1px solid rgba(148, 163, 184, 0.18);
+  border-radius: 24px;
+  box-shadow: var(--shadow);
+  padding: 22px;
+}
+
+.watchlist-modal-header {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  align-items: center;
+}
+
+.watchlist-actions {
+  display: flex;
+  gap: 10px;
+}
+
+.watchlist-action {
+  background: linear-gradient(135deg, #0f4c81, #2563eb);
+}
+
+.watchlist-close {
+  background: rgba(255,255,255,0.08);
 }
 
 footer {
@@ -515,7 +575,8 @@ footer {
 @media (max-width: 1100px) {
   .grid,
   .grid-4,
-  .player-grid {
+  .player-grid,
+  .watchlist-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
@@ -541,13 +602,16 @@ footer {
   .grid-4,
   .mini-grid,
   .player-grid,
+  .watchlist-grid,
   .player-search-row,
-  .player-hero {
+  .player-hero,
+  .watchlist-player-hero {
     grid-template-columns: 1fr;
   }
 
   .live-top,
-  .live-middle {
+  .live-middle,
+  .watchlist-modal-header {
     grid-template-columns: 1fr;
     display: grid;
   }
@@ -556,10 +620,11 @@ footer {
     grid-template-columns: 1fr 1fr;
   }
 
-  .player-search-suggestions {
-    left: 18px;
-    right: 18px;
-    top: 164px;
+  .watchlist-fab {
+    right: 14px;
+    left: 14px;
+    bottom: 14px;
+    border-radius: 14px;
   }
 
   .page-title {
@@ -593,7 +658,7 @@ footer {
     </div>
     <div class="card player-card player-search-card">
       <div class="matchup">Player Spotlight</div>
-      <div class="meta">Search any MLB player to view season stats, recent form, headshot, and live-game context.</div>
+      <div class="meta">Search any MLB player to view season stats, recent form, headshot, live-game context, and add up to 8 players to your watchlist.</div>
       <div class="player-search-row">
         <input id="player-search-input" class="player-search-input" type="text" placeholder="Search player name, e.g. Aaron Judge">
         <button id="player-search-button" class="player-search-button">Search</button>
@@ -650,21 +715,37 @@ footer {
     are descriptive of historical or in-game events as reported by publicly
     available Major League Baseball data sources. Information displayed may be
     incomplete, delayed, revised, or change at any time without notice.<br><br>
-
     This dashboard does <strong>not</strong> constitute gambling advice, betting
-    recommendations, financial advice, or predictions of outcomes. No guarantees
-    of accuracy, completeness, or future performance are made. Users are solely
-    responsible for how they interpret and use any information presented.<br><br>
-
+    recommendations, financial advice, or predictions of outcomes.<br><br>
     This is a personal analytics and visualization tool and is not intended for
     commercial use or distribution.
   </footer>
+</div>
+
+<button id="watchlist-fab" class="watchlist-fab">Watchlist (0/8)</button>
+
+<div id="watchlist-overlay" class="watchlist-overlay">
+  <div class="watchlist-modal">
+    <div class="watchlist-modal-header">
+      <div>
+        <div class="matchup">My Watchlist</div>
+        <div class="meta">Track up to 8 saved players with live and season context.</div>
+      </div>
+      <div class="watchlist-actions">
+        <button id="watchlist-refresh" class="watchlist-action">Refresh</button>
+        <button id="watchlist-close" class="watchlist-close">Close</button>
+      </div>
+    </div>
+    <div id="watchlist-content" style="margin-top:16px;"></div>
+  </div>
 </div>
 
 <script>
 const LIVE_API_URL = "https://misty-heart-42ca.k8piler.workers.dev/live";
 const PLAYER_SEARCH_API_URL = "https://misty-heart-42ca.k8piler.workers.dev/player-search";
 const PLAYER_API_URL = "https://misty-heart-42ca.k8piler.workers.dev/player";
+const WATCHLIST_KEY = "mlb_statstream_watchlist_v1";
+const WATCHLIST_LIMIT = 8;
 
 const TEAM_STYLES = {
   "Arizona Diamondbacks": { abbr: "ARI", color: "#A71930", short: "D-backs" },
@@ -701,6 +782,7 @@ const TEAM_STYLES = {
 
 let suggestionTimer = null;
 let activePlayerId = null;
+let activePlayerData = null;
 
 function safeArray(value) {
   return Array.isArray(value) ? value : [];
@@ -713,14 +795,6 @@ function formatValue(value, fallback = "N/A") {
 function setUpdatedTimestamp(value) {
   document.getElementById("updated").textContent =
     value ? new Date(value).toLocaleString() : "Unavailable";
-}
-
-function streakBadge(player) {
-  if (!player) return "";
-  if (player.hot) return `<span class="badge badge-hot">HOT</span>`;
-  if (player.cold) return `<span class="badge badge-cold">COLD</span>`;
-  if ((player.streak || 0) >= 3) return `<span class="badge badge-hot">${player.streak}-GAME</span>`;
-  return "";
 }
 
 function teamInfo(teamName) {
@@ -758,7 +832,6 @@ function formatPlayerChip(name) {
   const value = formatValue(name);
   if (value === "N/A") return { text: value, className: "" };
   if (value.length <= 14) return { text: value, className: "" };
-
   const parts = value.trim().split(/\s+/);
   if (parts.length < 2) return { text: value, className: "long-name" };
   return { text: `${parts[0][0]}. ${parts.slice(1).join(" ")}`, className: "long-name" };
@@ -770,13 +843,9 @@ function renderPlayerChip(name) {
 }
 
 function renderPitcher(p) {
-  if (!p || !p.name) {
-    return `<div class="muted">No probable pitcher listed yet.</div>`;
-  }
-
+  if (!p || !p.name) return `<div class="muted">No probable pitcher listed yet.</div>`;
   const last3 = p.last3 || {};
   const lastStart = last3.last_start || {};
-
   return `
     <div class="stat-row"><strong>${p.name}</strong></div>
     <div class="stat-line">Throws: ${formatValue(p.hand)} | Season ERA: ${formatValue(p.era)}</div>
@@ -789,13 +858,10 @@ function renderPitcher(p) {
 function renderHitters(list, emptyText) {
   const hitters = safeArray(list);
   if (!hitters.length) return `<div class="muted">${emptyText}</div>`;
-
   return hitters.map(player => `
     <div class="player-row">
-      <div><strong>${formatValue(player.name, "Unknown Hitter")}</strong>${streakBadge(player)}</div>
+      <div><strong>${formatValue(player.name, "Unknown Hitter")}</strong></div>
       <div class="stat-line">AVG ${formatValue(player.stats?.avg)} | OBP ${formatValue(player.stats?.obp)} | SLG ${formatValue(player.stats?.slg)} | OPS ${formatValue(player.stats?.ops)}</div>
-      <div class="stat-line">${formatValue(player.last10?.label, "Last 10")}: ${formatValue(player.last10?.avg)} (${formatValue(player.last10?.hits, 0)}/${formatValue(player.last10?.ab, 0)})</div>
-      <div class="stat-line">vs RHP ${formatValue(player.vsRHP?.avg)} | vs LHP ${formatValue(player.vsLHP?.avg)} | RISP ${formatValue(player.risp?.avg)}</div>
     </div>
   `).join("");
 }
@@ -810,7 +876,6 @@ function renderDiamond(bases = {}) {
   const firstFill = bases.first ? "var(--base-on)" : "var(--base-off)";
   const secondFill = bases.second ? "var(--base-on)" : "var(--base-off)";
   const thirdFill = bases.third ? "var(--base-on)" : "var(--base-off)";
-
   return `
     <div class="diamond-wrap">
       <svg width="92" height="92" viewBox="0 0 92 92" aria-label="Baseball diamond">
@@ -818,12 +883,10 @@ function renderDiamond(bases = {}) {
         <line x1="78" y1="46" x2="46" y2="78" stroke="rgba(255,255,255,0.16)" stroke-width="2"/>
         <line x1="46" y1="78" x2="14" y2="46" stroke="rgba(255,255,255,0.16)" stroke-width="2"/>
         <line x1="14" y1="46" x2="46" y2="14" stroke="rgba(255,255,255,0.16)" stroke-width="2"/>
-
         <rect x="40" y="8" width="12" height="12" transform="rotate(45 46 14)" fill="${secondFill}" stroke="rgba(255,255,255,0.28)" />
         <rect x="72" y="40" width="12" height="12" transform="rotate(45 78 46)" fill="${firstFill}" stroke="rgba(255,255,255,0.28)" />
         <rect x="40" y="72" width="12" height="12" transform="rotate(45 46 78)" fill="rgba(210,180,140,0.92)" stroke="rgba(255,255,255,0.28)" />
         <rect x="8" y="40" width="12" height="12" transform="rotate(45 14 46)" fill="${thirdFill}" stroke="rgba(255,255,255,0.28)" />
-
         <circle cx="46" cy="46" r="5" fill="rgba(255,255,255,0.12)" />
       </svg>
     </div>
@@ -833,7 +896,6 @@ function renderDiamond(bases = {}) {
 function formatOffensiveImpact(items) {
   const values = safeArray(items);
   if (!values.length) return "No major offensive production yet.";
-
   return values.map(item => {
     const parts = [];
     if ((item.hits || 0) > 0) parts.push(`${item.hits} H`);
@@ -849,8 +911,49 @@ function toggle(id) {
   el.style.display = el.style.display === "none" ? "block" : "none";
 }
 
+function getWatchlist() {
+  try {
+    return JSON.parse(localStorage.getItem(WATCHLIST_KEY) || "[]");
+  } catch {
+    return [];
+  }
+}
+
+function setWatchlist(ids) {
+  localStorage.setItem(WATCHLIST_KEY, JSON.stringify(ids));
+  updateWatchlistFab();
+}
+
+function isInWatchlist(id) {
+  return getWatchlist().includes(Number(id));
+}
+
+function addToWatchlist(id) {
+  const ids = getWatchlist();
+  const numericId = Number(id);
+  if (ids.includes(numericId)) return true;
+  if (ids.length >= WATCHLIST_LIMIT) return false;
+  ids.push(numericId);
+  setWatchlist(ids);
+  renderActivePlayerActions();
+  return true;
+}
+
+function removeFromWatchlist(id) {
+  const numericId = Number(id);
+  const ids = getWatchlist().filter(item => item !== numericId);
+  setWatchlist(ids);
+  renderActivePlayerActions();
+}
+
+function updateWatchlistFab() {
+  const ids = getWatchlist();
+  document.getElementById("watchlist-fab").textContent = `Watchlist (${ids.length}/${WATCHLIST_LIMIT})`;
+}
+
 function clearPlayerSearchState() {
   activePlayerId = null;
+  activePlayerData = null;
   document.getElementById("player-search-result").innerHTML = "";
   document.getElementById("player-search-suggestions").style.display = "none";
   document.getElementById("player-search-suggestions").innerHTML = "";
@@ -879,15 +982,34 @@ function renderSuggestions(players) {
   el.querySelectorAll(".player-suggestion").forEach((node) => {
     node.addEventListener("click", () => {
       const playerId = node.getAttribute("data-player-id");
-      const input = document.getElementById("player-search-input");
-      input.value = node.querySelector("strong").textContent;
+      document.getElementById("player-search-input").value = node.querySelector("strong").textContent;
       el.style.display = "none";
       loadPlayer(playerId);
     });
   });
 }
 
+function renderActivePlayerActions() {
+  const actionEl = document.getElementById("player-watchlist-action");
+  if (!actionEl || !activePlayerData?.player?.id) return;
+
+  const playerId = Number(activePlayerData.player.id);
+  if (isInWatchlist(playerId)) {
+    actionEl.innerHTML = `<button class="watchlist-action" onclick="removeFromWatchlist(${playerId})">Remove From Watchlist</button>`;
+  } else {
+    actionEl.innerHTML = `<button class="watchlist-action" onclick="handleAddToWatchlist(${playerId})">Add To Watchlist</button>`;
+  }
+}
+
+function handleAddToWatchlist(id) {
+  const ok = addToWatchlist(id);
+  if (!ok) {
+    alert("Your watchlist is full. Remove a player before adding another.");
+  }
+}
+
 function renderPlayerSearch(data) {
+  activePlayerData = data;
   const el = document.getElementById("player-search-result");
 
   if (!data.found) {
@@ -904,6 +1026,8 @@ function renderPlayerSearch(data) {
   const splits = data.splits || {};
 
   el.innerHTML = `
+    <div id="player-watchlist-action" style="margin-bottom:12px;"></div>
+
     <div class="player-grid">
       <div class="card player-card">
         <div class="player-hero">
@@ -920,12 +1044,8 @@ function renderPlayerSearch(data) {
         ${live.is_live
           ? `<div class="stat-row">Live Now: ${formatValue(live.game)} | ${formatValue(live.score)} | ${formatValue(live.inning)}</div>
              <div class="stat-line">Current Batter: ${formatValue(live.current_batter)} | Current Pitcher: ${formatValue(live.current_pitcher)}</div>
-             ${live.batting_line
-               ? `<div class="stat-line">Live Batting: ${formatValue(live.batting_line.hits, 0)} H | ${formatValue(live.batting_line.atBats, 0)} AB | ${formatValue(live.batting_line.homeRuns, 0)} HR | ${formatValue(live.batting_line.rbi, 0)} RBI</div>`
-               : ""}
-             ${live.pitching_line
-               ? `<div class="stat-line">Live Pitching: ${formatValue(live.pitching_line.inningsPitched)} IP | ${formatValue(live.pitching_line.strikeOuts, 0)} K | ${formatValue(live.pitching_line.earnedRuns, 0)} ER | ${formatValue(live.pitching_line.numberOfPitches, 0)} P</div>`
-               : ""}`
+             ${live.batting_line ? `<div class="stat-line">Live Batting: ${formatValue(live.batting_line.hits, 0)} H | ${formatValue(live.batting_line.atBats, 0)} AB | ${formatValue(live.batting_line.homeRuns, 0)} HR | ${formatValue(live.batting_line.rbi, 0)} RBI</div>` : ""}
+             ${live.pitching_line ? `<div class="stat-line">Live Pitching: ${formatValue(live.pitching_line.inningsPitched)} IP | ${formatValue(live.pitching_line.strikeOuts, 0)} K | ${formatValue(live.pitching_line.earnedRuns, 0)} ER | ${formatValue(live.pitching_line.numberOfPitches, 0)} P</div>` : ""}`
           : `<div class="muted">Not currently in a live game.</div>`}
       </div>
 
@@ -961,12 +1081,12 @@ function renderPlayerSearch(data) {
       </div>
     </div>
   `;
+
+  renderActivePlayerActions();
 }
 
 async function searchSuggestions() {
-  const input = document.getElementById("player-search-input");
-  const q = input.value.trim();
-
+  const q = document.getElementById("player-search-input").value.trim();
   if (q.length < 2) {
     renderSuggestions([]);
     return;
@@ -983,31 +1103,27 @@ async function searchSuggestions() {
 }
 
 async function loadPlayer(playerId) {
-  activePlayerId = playerId;
-  const result = document.getElementById("player-search-result");
-  result.innerHTML = `<div class="muted">Loading player...</div>`;
+  activePlayerId = Number(playerId);
+  document.getElementById("player-search-result").innerHTML = `<div class="muted">Loading player...</div>`;
 
   try {
     const response = await fetch(`${PLAYER_API_URL}?id=${encodeURIComponent(playerId)}&nocache=${Date.now()}`);
     const data = await response.json();
     renderPlayerSearch(data);
   } catch (error) {
-    result.innerHTML = `<div class="muted">Could not load player details.</div>`;
+    document.getElementById("player-search-result").innerHTML = `<div class="muted">Could not load player details.</div>`;
     console.error(error);
   }
 }
 
 async function runSearchFromInput() {
-  const input = document.getElementById("player-search-input");
-  const q = input.value.trim();
-  const suggestions = document.getElementById("player-search-suggestions");
-
+  const q = document.getElementById("player-search-input").value.trim();
   if (!q) {
     clearPlayerSearchState();
     return;
   }
 
-  suggestions.style.display = "none";
+  document.getElementById("player-search-suggestions").style.display = "none";
 
   try {
     const response = await fetch(`${PLAYER_SEARCH_API_URL}?q=${encodeURIComponent(q)}&nocache=${Date.now()}`);
@@ -1023,6 +1139,78 @@ async function runSearchFromInput() {
     document.getElementById("player-search-result").innerHTML = `<div class="muted">Search failed.</div>`;
     console.error(error);
   }
+}
+
+async function renderWatchlist() {
+  const content = document.getElementById("watchlist-content");
+  const ids = getWatchlist();
+
+  if (!ids.length) {
+    content.innerHTML = `<div class="muted">No watched players yet. Search for a player and add them to your watchlist.</div>`;
+    return;
+  }
+
+  content.innerHTML = `<div class="muted">Loading watchlist...</div>`;
+
+  const players = await Promise.all(
+    ids.map(async (id) => {
+      try {
+        const res = await fetch(`${PLAYER_API_URL}?id=${id}&nocache=${Date.now()}`);
+        return res.json();
+      } catch {
+        return null;
+      }
+    })
+  );
+
+  const validPlayers = players.filter(item => item && item.found);
+
+  content.innerHTML = `
+    <div class="watchlist-grid">
+      ${validPlayers.map(item => {
+        const p = item.player || {};
+        const live = item.live || {};
+        const hitting = item.season_stats?.hitting;
+        const pitching = item.season_stats?.pitching;
+
+        return `
+          <div class="card watchlist-card">
+            <div class="watchlist-player-hero">
+              <img class="watchlist-headshot" src="${p.headshot}" alt="${formatValue(p.full_name)}">
+              <div>
+                <div class="matchup">${formatValue(p.full_name)}</div>
+                <div class="meta">${formatValue(p.team)} | ${formatValue(p.position)}</div>
+                <div class="stat-line">Bats ${formatValue(p.bat_side)} | Throws ${formatValue(p.pitch_hand)}</div>
+              </div>
+            </div>
+
+            ${live.is_live
+              ? `<div class="section-title-sm">Live</div>
+                 <div class="stat-row">${formatValue(live.game)} | ${formatValue(live.score)} | ${formatValue(live.inning)}</div>
+                 ${live.batting_line ? `<div class="stat-line">Batting: ${formatValue(live.batting_line.hits, 0)} H | ${formatValue(live.batting_line.atBats, 0)} AB | ${formatValue(live.batting_line.homeRuns, 0)} HR | ${formatValue(live.batting_line.rbi, 0)} RBI</div>` : ""}
+                 ${live.pitching_line ? `<div class="stat-line">Pitching: ${formatValue(live.pitching_line.inningsPitched)} IP | ${formatValue(live.pitching_line.strikeOuts, 0)} K | ${formatValue(live.pitching_line.earnedRuns, 0)} ER | ${formatValue(live.pitching_line.numberOfPitches, 0)} P</div>` : ""}`
+              : `<div class="section-title-sm">Season</div>
+                 ${hitting ? `<div class="stat-line">AVG ${formatValue(hitting.avg)} | OPS ${formatValue(hitting.ops)} | HR ${formatValue(hitting.home_runs, 0)} | RBI ${formatValue(hitting.rbi, 0)}</div>` : ""}
+                 ${pitching ? `<div class="stat-line">ERA ${formatValue(pitching.era)} | WHIP ${formatValue(pitching.whip)} | K ${formatValue(pitching.strikeouts, 0)}</div>` : ""}
+                 ${!hitting && !pitching ? `<div class="muted">No season snapshot available.</div>` : ""}`}
+
+            <div style="margin-top:12px;">
+              <button class="watchlist-close" onclick="removeFromWatchlist(${p.id}); renderWatchlist();">Remove</button>
+            </div>
+          </div>
+        `;
+      }).join("")}
+    </div>
+  `;
+}
+
+function openWatchlist() {
+  document.getElementById("watchlist-overlay").classList.add("open");
+  renderWatchlist();
+}
+
+function closeWatchlist() {
+  document.getElementById("watchlist-overlay").classList.remove("open");
 }
 
 async function loadLive() {
@@ -1200,7 +1388,6 @@ async function loadPreviousDayRecap() {
     if (!response.ok) throw new Error("Recap file missing");
     const data = await response.json();
     const recap = data.dashboard_recap || {};
-
     renderPreviousDayRecap(recap.all_games || []);
     renderSeasonLeaders(recap.season_leaders || {});
   } catch (error) {
@@ -1252,14 +1439,15 @@ async function refreshLiveOnly() {
   if (activePlayerId) {
     loadPlayer(activePlayerId);
   }
+  if (document.getElementById("watchlist-overlay").classList.contains("open")) {
+    renderWatchlist();
+  }
 }
 
 document.getElementById("player-search-button").addEventListener("click", runSearchFromInput);
 
 document.getElementById("player-search-input").addEventListener("input", () => {
-  const input = document.getElementById("player-search-input");
-  const value = input.value.trim();
-
+  const value = document.getElementById("player-search-input").value.trim();
   clearTimeout(suggestionTimer);
 
   if (!value) {
@@ -1271,10 +1459,7 @@ document.getElementById("player-search-input").addEventListener("input", () => {
 });
 
 document.getElementById("player-search-input").addEventListener("keydown", (event) => {
-  if (event.key === "Enter") {
-    runSearchFromInput();
-  }
-
+  if (event.key === "Enter") runSearchFromInput();
   if (event.key === "Escape") {
     document.getElementById("player-search-input").value = "";
     clearPlayerSearchState();
@@ -1289,6 +1474,14 @@ document.addEventListener("click", (event) => {
   }
 });
 
+document.getElementById("watchlist-fab").addEventListener("click", openWatchlist);
+document.getElementById("watchlist-close").addEventListener("click", closeWatchlist);
+document.getElementById("watchlist-refresh").addEventListener("click", renderWatchlist);
+document.getElementById("watchlist-overlay").addEventListener("click", (event) => {
+  if (event.target.id === "watchlist-overlay") closeWatchlist();
+});
+
+updateWatchlistFab();
 loadLive();
 loadDaily();
 loadFinishedGames();
@@ -1297,4 +1490,3 @@ setInterval(refreshLiveOnly, 30000);
 </script>
 </body>
 </html>
-
