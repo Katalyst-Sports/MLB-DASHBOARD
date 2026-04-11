@@ -7,16 +7,18 @@
 
 <style>
 :root {
-  --bg-tint: rgba(244, 247, 250, 0.42);
-  --card-bg: rgba(255, 255, 255, 0.72);
-  --card-border: rgba(255, 255, 255, 0.42);
-  --card-shadow: 0 10px 30px rgba(15, 23, 42, 0.10);
-  --text: #0f172a;
-  --muted: #5b6472;
-  --navy: #10233f;
-  --blue: #1d4ed8;
-  --red: #c62828;
-  --gold: #b8871b;
+  --bg: #08111f;
+  --panel: rgba(9, 18, 33, 0.78);
+  --panel-strong: rgba(8, 16, 28, 0.88);
+  --panel-soft: rgba(17, 28, 46, 0.72);
+  --border: rgba(148, 163, 184, 0.18);
+  --text: #ecf3ff;
+  --muted: #a8b7cc;
+  --blue: #4da3ff;
+  --red: #ff6b6b;
+  --gold: #f0b84b;
+  --green: #43c07a;
+  --shadow: 0 14px 40px rgba(0, 0, 0, 0.28);
 }
 
 * {
@@ -24,78 +26,79 @@
 }
 
 body {
+  margin: 0;
   font-family: "Segoe UI", system-ui, -apple-system, sans-serif;
-  background:
-    linear-gradient(var(--bg-tint), var(--bg-tint)),
-    url("./images/background.jpg") center center / cover no-repeat fixed;
-  padding: 24px;
-  max-width: 1440px;
-  margin: auto;
   color: var(--text);
+  background:
+    linear-gradient(rgba(6, 13, 24, 0.58), rgba(6, 13, 24, 0.70)),
+    url("./images/background.jpg") center center / cover no-repeat fixed,
+    var(--bg);
 }
 
-h1, h2, h3, p {
-  margin-top: 0;
+.page-shell {
+  max-width: 1450px;
+  margin: 0 auto;
+  padding: 20px;
 }
 
 .hero {
-  margin-bottom: 22px;
-  border-radius: 18px;
+  margin-bottom: 18px;
+  border-radius: 20px;
   overflow: hidden;
-  box-shadow: 0 16px 40px rgba(15, 23, 42, 0.18);
-  border: 1px solid rgba(255, 255, 255, 0.25);
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  box-shadow: var(--shadow);
 }
 
 .hero img {
   width: 100%;
-  height: 250px;
+  height: 240px;
   object-fit: cover;
   display: block;
 }
 
 .page-header {
+  background:
+    linear-gradient(135deg, rgba(8, 18, 34, 0.92), rgba(18, 34, 58, 0.76));
+  border: 1px solid rgba(255, 255, 255, 0.10);
+  border-radius: 20px;
+  padding: 22px 24px;
+  box-shadow: var(--shadow);
   margin-bottom: 20px;
-  padding: 18px 20px;
-  border-radius: 18px;
-  background: rgba(7, 18, 35, 0.52);
-  border: 1px solid rgba(255, 255, 255, 0.18);
-  backdrop-filter: blur(8px);
-  -webkit-backdrop-filter: blur(8px);
 }
 
 .kicker {
   display: inline-block;
+  padding: 7px 12px;
+  border-radius: 999px;
+  background: rgba(77, 163, 255, 0.16);
+  color: #dcebff;
   font-size: 11px;
   font-weight: 800;
-  letter-spacing: 0.18em;
+  letter-spacing: 0.16em;
   text-transform: uppercase;
-  color: #ffffff;
-  background: rgba(255, 255, 255, 0.14);
-  padding: 6px 10px;
-  border-radius: 999px;
   margin-bottom: 10px;
+  border: 1px solid rgba(77, 163, 255, 0.22);
 }
 
 .page-title {
-  font-size: 40px;
+  font-size: 42px;
   font-weight: 900;
+  margin: 0 0 8px;
   letter-spacing: -0.03em;
-  margin-bottom: 8px;
   color: #ffffff;
-  text-shadow: 0 2px 14px rgba(0, 0, 0, 0.35);
 }
 
 .subtitle {
-  color: rgba(255, 255, 255, 0.88);
+  color: #d2def0;
   font-size: 15px;
-  max-width: 760px;
-  line-height: 1.5;
+  max-width: 820px;
+  line-height: 1.6;
   margin-bottom: 10px;
 }
 
 .timestamp {
   font-size: 12px;
-  color: rgba(255, 255, 255, 0.72);
+  color: #99adc8;
 }
 
 .section-block {
@@ -111,94 +114,134 @@ h1, h2, h3, p {
 
 .section-label {
   font-size: 12px;
-  letter-spacing: 0.16em;
+  letter-spacing: 0.18em;
   text-transform: uppercase;
   font-weight: 800;
-  color: var(--navy);
+  color: #dce8fb;
   white-space: nowrap;
 }
 
 .section-line {
   height: 1px;
   flex: 1;
-  background: linear-gradient(to right, rgba(16, 35, 63, 0.65), rgba(16, 35, 63, 0.08));
+  background: linear-gradient(to right, rgba(255,255,255,0.25), rgba(255,255,255,0.04));
 }
 
 .grid {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 14px;
-  align-items: start;
+}
+
+.grid-4 {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 14px;
 }
 
 .card {
-  background: var(--card-bg);
-  border: 1px solid var(--card-border);
-  backdrop-filter: blur(8px);
-  -webkit-backdrop-filter: blur(8px);
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: 18px;
   padding: 14px;
-  border-radius: 16px;
-  box-shadow: var(--card-shadow);
-  font-size: 14px;
+  box-shadow: var(--shadow);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+
+.card-strong {
+  background: var(--panel-strong);
 }
 
 .live-card {
   border-top: 4px solid var(--red);
 }
 
-.upcoming-card {
-  border-top: 4px solid var(--navy);
-}
-
-.final-card {
+.feature-card {
   border-top: 4px solid var(--gold);
 }
 
-.recap-card {
-  background: rgba(255, 255, 255, 0.78);
-  border: 1px solid rgba(255, 255, 255, 0.45);
-  border-radius: 18px;
-  padding: 22px;
-  box-shadow: 0 14px 36px rgba(15, 23, 42, 0.12);
+.upcoming-card {
+  border-top: 4px solid var(--blue);
 }
 
-.recap-headline {
-  font-size: 28px;
-  font-weight: 900;
-  letter-spacing: -0.02em;
-  margin-bottom: 14px;
-  color: #081426;
+.allgame-card {
+  border-top: 4px solid #64748b;
 }
 
-.recap-body {
-  line-height: 1.8;
-  font-size: 16px;
-  color: #233044;
-  white-space: pre-wrap;
+.leader-card {
+  border-top: 4px solid var(--green);
 }
 
-.matchup-title {
+.context-card {
+  background: rgba(10, 20, 35, 0.84);
+}
+
+.matchup {
   font-size: 18px;
   font-weight: 800;
-  color: #081426;
+  color: #ffffff;
   margin-bottom: 6px;
+  line-height: 1.25;
+}
+
+.scoreline {
+  font-size: 20px;
+  font-weight: 900;
+  color: #f8fbff;
+  margin-bottom: 6px;
+}
+
+.meta {
+  font-size: 12px;
+  color: var(--muted);
+  line-height: 1.45;
+}
+
+.summary {
+  margin-top: 10px;
+  color: #e6eefb;
+  line-height: 1.55;
+  font-size: 14px;
+}
+
+.keyline {
+  margin-top: 10px;
+  color: #cfe0ff;
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+.section-title-sm {
+  font-size: 11px;
+  color: #9fb5d4;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  font-weight: 800;
+  margin-top: 12px;
+  margin-bottom: 6px;
+}
+
+.stat-row {
+  font-size: 13px;
+  color: #dce7f7;
+  line-height: 1.55;
+  margin-bottom: 4px;
+}
+
+.list {
+  margin: 6px 0 0 18px;
+  padding: 0;
+}
+
+.list li {
+  margin-bottom: 6px;
+  color: #dfe9f8;
+  line-height: 1.5;
 }
 
 .muted {
   color: var(--muted);
-}
-
-.meta-line {
-  margin-top: 6px;
-  font-size: 12px;
-  color: #516072;
-}
-
-.section {
-  font-weight: 700;
-  margin-top: 12px;
-  margin-bottom: 6px;
-  color: #11243e;
 }
 
 .toggle {
@@ -207,23 +250,22 @@ h1, h2, h3, p {
 
 .badge {
   display: inline-block;
+  margin-left: 8px;
   padding: 3px 8px;
   border-radius: 999px;
   font-size: 10px;
   font-weight: 800;
-  margin-left: 6px;
-  vertical-align: middle;
   letter-spacing: 0.04em;
 }
 
 .badge-hot {
-  background: rgba(220, 38, 38, 0.12);
-  color: #b91c1c;
+  background: rgba(255, 107, 107, 0.16);
+  color: #ffb1b1;
 }
 
 .badge-cold {
-  background: rgba(29, 78, 216, 0.12);
-  color: #1d4ed8;
+  background: rgba(77, 163, 255, 0.16);
+  color: #add3ff;
 }
 
 .mini-grid {
@@ -233,70 +275,71 @@ h1, h2, h3, p {
 }
 
 .subcard {
-  background: rgba(249, 250, 251, 0.62);
-  border: 1px solid rgba(148, 163, 184, 0.18);
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(148, 163, 184, 0.16);
   border-radius: 12px;
   padding: 10px;
 }
 
 .player-row {
   padding: 8px 0;
-  border-bottom: 1px solid rgba(148, 163, 184, 0.22);
+  border-bottom: 1px solid rgba(148, 163, 184, 0.14);
 }
 
 .player-row:last-child {
   border-bottom: 0;
-  padding-bottom: 0;
 }
 
 .stat-line {
   font-size: 12px;
-  color: #4b5563;
-  margin-top: 3px;
+  color: #b9c8dc;
   line-height: 1.5;
+  margin-top: 3px;
 }
 
-.score-line {
-  font-size: 15px;
-  font-weight: 700;
-  margin-top: 4px;
-  color: #12243d;
+.feature-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px;
 }
 
-.story-list {
-  margin: 6px 0 0 18px;
-  padding: 0;
+.recap-bullets {
+  display: grid;
+  gap: 10px;
 }
 
-.story-list li {
-  margin-bottom: 4px;
-}
-
-.full-width {
-  margin-top: 14px;
+.recap-bullet {
+  background: rgba(255,255,255,0.03);
+  border: 1px solid rgba(148, 163, 184, 0.12);
+  border-radius: 14px;
+  padding: 12px;
+  color: #dfebfb;
+  line-height: 1.55;
 }
 
 footer {
-  margin-top: 44px;
+  margin-top: 42px;
   padding-top: 18px;
-  border-top: 1px solid rgba(255, 255, 255, 0.45);
+  border-top: 1px solid rgba(255,255,255,0.12);
   font-size: 12px;
-  color: #354152;
+  color: #a9b8cb;
   line-height: 1.7;
 }
 
-@media (max-width: 1000px) {
-  .grid {
+@media (max-width: 1100px) {
+  .grid,
+  .grid-4,
+  .feature-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
   .page-title {
-    font-size: 32px;
+    font-size: 34px;
   }
 }
 
-@media (max-width: 680px) {
-  body {
+@media (max-width: 720px) {
+  .page-shell {
     padding: 14px;
   }
 
@@ -305,6 +348,8 @@ footer {
   }
 
   .grid,
+  .grid-4,
+  .feature-grid,
   .mini-grid {
     grid-template-columns: 1fr;
   }
@@ -312,65 +357,91 @@ footer {
   .page-title {
     font-size: 28px;
   }
-
-  .recap-headline {
-    font-size: 22px;
-  }
-
-  .recap-body {
-    font-size: 15px;
-  }
 }
 </style>
 </head>
 
 <body>
-
-<div class="hero">
-  <img src="./images/banner.jpg" alt="MLB StatStream banner">
-</div>
-
-<div class="page-header">
-  <div class="kicker">Daily MLB Intelligence</div>
-  <h1 class="page-title">MLB StatStream</h1>
-  <div class="subtitle">
-    Live games first, upcoming matchups next, and polished final-game recaps at the bottom.
+<div class="page-shell">
+  <div class="hero">
+    <img src="./images/banner.jpg" alt="MLB StatStream banner">
   </div>
-  <div class="timestamp">
-    Live data last updated: <span id="updated">loading...</span>
-  </div>
-</div>
 
-<div class="section-block">
-  <div class="section-header">
-    <div class="section-label">Live Games</div>
-    <div class="section-line"></div>
+  <div class="page-header">
+    <div class="kicker">Daily MLB Intelligence</div>
+    <h1 class="page-title">MLB StatStream</h1>
+    <div class="subtitle">
+      A live baseball intelligence dashboard focused on game impact, pitching context, hitting form, and daily league movement.
+    </div>
+    <div class="timestamp">
+      Last updated: <span id="updated">loading...</span>
+    </div>
   </div>
-  <div id="live" class="grid"></div>
-</div>
 
-<div class="section-block">
-  <div class="section-header">
-    <div class="section-label">Upcoming Matchups</div>
-    <div class="section-line"></div>
+  <div class="section-block">
+    <div class="section-header">
+      <div class="section-label">Live Games</div>
+      <div class="section-line"></div>
+    </div>
+    <div id="live" class="grid"></div>
   </div>
-  <div id="games" class="grid"></div>
-</div>
 
-<div class="section-block">
-  <div class="section-header">
-    <div class="section-label">Final Games</div>
-    <div class="section-line"></div>
+  <div class="section-block">
+    <div class="section-header">
+      <div class="section-label">Featured Games</div>
+      <div class="section-line"></div>
+    </div>
+    <div id="featured-games" class="feature-grid"></div>
   </div>
-  <div id="postgame" class="grid"></div>
-</div>
 
-<div class="section-block">
-  <div class="section-header">
-    <div class="section-label">AI Recap</div>
-    <div class="section-line"></div>
+  <div class="section-block">
+    <div class="section-header">
+      <div class="section-label">Upcoming Games</div>
+      <div class="section-line"></div>
+    </div>
+    <div id="games" class="grid"></div>
   </div>
-  <div id="ai-recap" class="full-width"></div>
+
+  <div class="section-block">
+    <div class="section-header">
+      <div class="section-label">All Games</div>
+      <div class="section-line"></div>
+    </div>
+    <div id="all-games" class="grid"></div>
+  </div>
+
+  <div class="section-block">
+    <div class="section-header">
+      <div class="section-label">Stat Leaders</div>
+      <div class="section-line"></div>
+    </div>
+    <div id="stat-leaders" class="grid-4"></div>
+  </div>
+
+  <div class="section-block">
+    <div class="section-header">
+      <div class="section-label">Context Layer</div>
+      <div class="section-line"></div>
+    </div>
+    <div id="context-layer" class="grid"></div>
+  </div>
+
+  <footer>
+    <strong>Disclaimer</strong><br>
+    This dashboard is provided for informational and educational purposes only.
+    All statistics, matchup context, performance indicators, and live updates
+    are descriptive of historical or in-game events as reported by publicly
+    available Major League Baseball data sources. Information displayed may be
+    incomplete, delayed, revised, or change at any time without notice.<br><br>
+
+    This dashboard does <strong>not</strong> constitute gambling advice, betting
+    recommendations, financial advice, or predictions of outcomes. No guarantees
+    of accuracy, completeness, or future performance are made. Users are solely
+    responsible for how they interpret and use any information presented.<br><br>
+
+    This is a personal analytics and visualization tool and is not intended for
+    commercial use or distribution.
+  </footer>
 </div>
 
 <script>
@@ -378,126 +449,8 @@ function safeArray(value) {
   return Array.isArray(value) ? value : [];
 }
 
-function listMarkup(items, emptyText) {
-  const values = safeArray(items).filter(Boolean);
-  if (!values.length) {
-    return `<div class="muted">${emptyText}</div>`;
-  }
-  return `<ul class="story-list">${values.map(item => `<li>${item}</li>`).join("")}</ul>`;
-}
-
 function formatValue(value, fallback = "N/A") {
   return value === undefined || value === null || value === "" ? fallback : value;
-}
-
-function pitcherMarkup(p) {
-  if (!p || !p.name) {
-    return '<div class="muted">No probable pitcher listed yet.</div>';
-  }
-
-  const last3 = p.last3 || {};
-  const lastStart = last3.last_start || {};
-
-  return `
-    <div><strong>${p.name}</strong></div>
-    <div class="stat-line">Throws: ${p.hand || "N/A"} | Season ERA: ${p.era || "N/A"}</div>
-
-    <div class="stat-line">
-      Last ${last3.starts_used || 0} starts:
-      ERA ${last3.avg_era || "N/A"} |
-      IP ${last3.avg_ip || "N/A"} |
-      K ${last3.avg_k || "N/A"} |
-      BB ${last3.avg_bb || "N/A"}
-    </div>
-
-    <div class="stat-line">
-      WHIP ${last3.whip || "N/A"} |
-      QS ${last3.quality_starts || 0} |
-      Wins ${last3.wins || 0}
-    </div>
-
-    <div class="stat-line">
-      Last start:
-      ${lastStart.ip || "N/A"} IP |
-      ${lastStart.k || "N/A"} K |
-      ${lastStart.bb || "N/A"} BB |
-      ${lastStart.er || "N/A"} ER |
-      ${lastStart.hits || "N/A"} H |
-      ${lastStart.decision || "N/A"}
-    </div>
-  `;
-}
-
-function streakBadge(player) {
-  if (!player) return "";
-
-  if (player.hot) {
-    return `<span class="badge badge-hot">HOT</span>`;
-  }
-
-  if (player.cold) {
-    return `<span class="badge badge-cold">COLD</span>`;
-  }
-
-  if ((player.streak || 0) >= 3) {
-    return `<span class="badge badge-hot">${player.streak}-GAME</span>`;
-  }
-
-  return "";
-}
-
-function hitterStatLine(player) {
-  const parts = [];
-
-  if (player.stats) {
-    parts.push(`Season AVG ${formatValue(player.stats.avg)}`);
-    if (player.stats.obp) parts.push(`OBP ${player.stats.obp}`);
-    if (player.stats.slg) parts.push(`SLG ${player.stats.slg}`);
-    if (player.stats.ops) parts.push(`OPS ${player.stats.ops}`);
-  }
-
-  if (player.last10) {
-    parts.push(`${formatValue(player.last10.label, "Last 10")}: ${formatValue(player.last10.avg)} (${formatValue(player.last10.hits, 0)}/${formatValue(player.last10.ab, 0)})`);
-  }
-
-  return parts.length ? parts.join(" | ") : "Additional hitter stats are not available yet.";
-}
-
-function hitterSplitLine(player) {
-  const parts = [];
-
-  if (player.vsRHP) {
-    parts.push(`vs RHP ${formatValue(player.vsRHP.avg)} (${formatValue(player.vsRHP.hits, 0)} H)`);
-  }
-
-  if (player.vsLHP) {
-    parts.push(`vs LHP ${formatValue(player.vsLHP.avg)} (${formatValue(player.vsLHP.hits, 0)} H)`);
-  }
-
-  if (player.risp) {
-    parts.push(`RISP ${formatValue(player.risp.avg)}`);
-  }
-
-  return parts.length ? parts.join(" | ") : "Split data is not available yet.";
-}
-
-function renderHitters(list, emptyText) {
-  const hitters = safeArray(list);
-
-  if (!hitters.length) {
-    return `<div class="muted">${emptyText}</div>`;
-  }
-
-  return hitters.map(player => `
-    <div class="player-row">
-      <div>
-        <strong>${formatValue(player.name, "Unknown Hitter")}</strong>
-        ${streakBadge(player)}
-      </div>
-      <div class="stat-line">${hitterStatLine(player)}</div>
-      <div class="stat-line">${hitterSplitLine(player)}</div>
-    </div>
-  `).join("");
 }
 
 function setUpdatedTimestamp(value) {
@@ -505,188 +458,55 @@ function setUpdatedTimestamp(value) {
     value ? new Date(value).toLocaleString() : "Unavailable";
 }
 
-async function loadLive() {
-  const liveDiv = document.getElementById("live");
-
-  try {
-    const response = await fetch("./live.json?nocache=" + Date.now());
-    const data = await response.json();
-
-    setUpdatedTimestamp(data.updated_at);
-    liveDiv.innerHTML = "";
-
-    if (!safeArray(data.games).length) {
-      liveDiv.innerHTML = "<div class='card live-card'>No games live right now.</div>";
-      return;
-    }
-
-    data.games.forEach(game => {
-      liveDiv.innerHTML += `
-        <div class="card live-card">
-          <div class="matchup-title">${game.game || "Live Game"}</div>
-          <div class="score-line">Score: ${game.score || "0-0"} | Inning: ${game.inning || "TBD"}</div>
-
-          <div class="section">Hot Hitters</div>
-          ${listMarkup(game.hot_hitters, "No hitters flagged yet.")}
-
-          <div class="section">Dominant Pitchers</div>
-          ${listMarkup(game.top_pitchers, "No pitchers flagged yet.")}
-        </div>
-      `;
-    });
-  } catch (error) {
-    liveDiv.innerHTML = `
-      <div class="card live-card">
-        <strong>Live Games</strong><br>
-        <span class="muted">Could not load live.json.</span>
-      </div>
-    `;
-    console.error(error);
-  }
+function streakBadge(player) {
+  if (!player) return "";
+  if (player.hot) return `<span class="badge badge-hot">HOT</span>`;
+  if (player.cold) return `<span class="badge badge-cold">COLD</span>`;
+  if ((player.streak || 0) >= 3) return `<span class="badge badge-hot">${player.streak}-GAME</span>`;
+  return "";
 }
 
-async function loadDaily() {
-  const gamesDiv = document.getElementById("games");
-
-  try {
-    const response = await fetch("./daily.json?nocache=" + Date.now());
-    const data = await response.json();
-    const games = safeArray(data.games);
-
-    if (!games.length) {
-      gamesDiv.innerHTML = `
-        <div class="card upcoming-card">
-          <strong>Today's Matchups</strong><br>
-          <span class="muted">No scheduled games found.</span>
-        </div>
-      `;
-      return;
-    }
-
-    gamesDiv.innerHTML = games.map((game, index) => {
-      const id = `game-${index}`;
-      const startText = game.start ? new Date(game.start).toLocaleString() : "TBD";
-
-      return `
-        <div class="card upcoming-card">
-          <div class="toggle matchup-title" onclick="toggle('${id}')">
-            ${game.away_team || "Away"} @ ${game.home_team || "Home"}
-          </div>
-
-          <div class="meta-line">
-            ${startText} | ${game.venue || "Venue TBD"} | ${game.status || "Scheduled"}
-          </div>
-
-          <div id="${id}" style="display:none; margin-top:12px;">
-            <div class="mini-grid">
-              <div class="subcard">
-                <div class="section" style="margin-top:0;">Away Probable Pitcher</div>
-                ${pitcherMarkup(game.away_pitcher)}
-              </div>
-
-              <div class="subcard">
-                <div class="section" style="margin-top:0;">Home Probable Pitcher</div>
-                ${pitcherMarkup(game.home_pitcher)}
-              </div>
-            </div>
-
-            <div class="section">${game.away_team || "Away"} Hitters</div>
-            ${renderHitters(game.away_hitters, "Away hitter data has not been added yet.")}
-
-            <div class="section">${game.home_team || "Home"} Hitters</div>
-            ${renderHitters(game.home_hitters, "Home hitter data has not been added yet.")}
-          </div>
-        </div>
-      `;
-    }).join("");
-  } catch (error) {
-    gamesDiv.innerHTML = `
-      <div class="card upcoming-card">
-        <strong>Today's Matchups</strong><br>
-        <span class="muted">Could not load daily.json.</span>
-      </div>
-    `;
-    console.error(error);
+function renderPitcher(p) {
+  if (!p || !p.name) {
+    return `<div class="muted">No probable pitcher listed yet.</div>`;
   }
+
+  const last3 = p.last3 || {};
+  const lastStart = last3.last_start || {};
+
+  return `
+    <div class="stat-row"><strong>${p.name}</strong></div>
+    <div class="stat-line">Throws: ${formatValue(p.hand)} | Season ERA: ${formatValue(p.era)}</div>
+    <div class="stat-line">Last ${last3.starts_used || 0}: ERA ${formatValue(last3.avg_era)} | IP ${formatValue(last3.avg_ip)} | K ${formatValue(last3.avg_k)} | BB ${formatValue(last3.avg_bb)}</div>
+    <div class="stat-line">WHIP ${formatValue(last3.whip)} | QS ${formatValue(last3.quality_starts, 0)} | Wins ${formatValue(last3.wins, 0)}</div>
+    <div class="stat-line">Last start: ${formatValue(lastStart.ip)} IP | ${formatValue(lastStart.k)} K | ${formatValue(lastStart.bb)} BB | ${formatValue(lastStart.er)} ER | ${formatValue(lastStart.hits)} H | ${formatValue(lastStart.decision)}</div>
+  `;
 }
 
-async function loadPostgame() {
-  const postgameDiv = document.getElementById("postgame");
+function renderHitters(list, emptyText) {
+  const hitters = safeArray(list);
+  if (!hitters.length) return `<div class="muted">${emptyText}</div>`;
 
-  try {
-    const response = await fetch("./postgame.json?nocache=" + Date.now());
-    const data = await response.json();
-    const games = safeArray(data.games);
-
-    if (!games.length) {
-      postgameDiv.innerHTML = `
-        <div class="card final-card">
-          <strong>Today's Finals</strong><br>
-          <span class="muted">No final games yet today.</span>
-        </div>
-      `;
-      return;
-    }
-
-    postgameDiv.innerHTML = games.map(game => `
-      <div class="card final-card">
-        <div class="matchup-title">${game.game || "Final"}</div>
-        <div class="score-line">Final Score: ${game.final_score || "N/A"}</div>
-        <div class="stat-line">Winner: ${game.winner || "N/A"} | Loser: ${game.loser || "N/A"}</div>
-
-        <div class="section">Top Hitters</div>
-        ${listMarkup(game.hitters, "No hitter highlights captured.")}
-
-        <div class="section">Top Pitchers</div>
-        ${listMarkup(game.pitchers, "No pitcher highlights captured.")}
-
-        <div class="section">Exact Hitter Lines</div>
-        ${listMarkup(game.hitter_lines, "No exact hitter lines captured.")}
-
-        <div class="section">Exact Pitcher Lines</div>
-        ${listMarkup(game.pitcher_lines, "No exact pitcher lines captured.")}
+  return hitters.map(player => `
+    <div class="player-row">
+      <div><strong>${formatValue(player.name, "Unknown Hitter")}</strong>${streakBadge(player)}</div>
+      <div class="stat-line">
+        AVG ${formatValue(player.stats?.avg)} | OBP ${formatValue(player.stats?.obp)} | SLG ${formatValue(player.stats?.slg)} | OPS ${formatValue(player.stats?.ops)}
       </div>
-    `).join("");
-  } catch (error) {
-    postgameDiv.innerHTML = `
-      <div class="card final-card">
-        <strong>Today's Finals</strong><br>
-        <span class="muted">Could not load postgame.json.</span>
+      <div class="stat-line">
+        ${formatValue(player.last10?.label, "Last 10")}: ${formatValue(player.last10?.avg)} (${formatValue(player.last10?.hits, 0)}/${formatValue(player.last10?.ab, 0)})
       </div>
-    `;
-    console.error(error);
-  }
+      <div class="stat-line">
+        vs RHP ${formatValue(player.vsRHP?.avg)} | vs LHP ${formatValue(player.vsLHP?.avg)} | RISP ${formatValue(player.risp?.avg)}
+      </div>
+    </div>
+  `).join("");
 }
 
-async function loadRecap() {
-  const recapDiv = document.getElementById("ai-recap");
-
-  try {
-    const response = await fetch("./yesterday_recap.json?nocache=" + Date.now());
-    if (!response.ok) {
-      throw new Error("Recap file missing");
-    }
-
-    const data = await response.json();
-    const article = data.article || "No recap available yet.";
-
-    recapDiv.innerHTML = `
-      <div class="recap-card">
-        <div class="kicker">Featured Editorial Recap</div>
-        <h2 class="recap-headline">${data.headline || "Yesterday Recap"}</h2>
-        <div class="recap-body">${article}</div>
-      </div>
-    `;
-  } catch (error) {
-    recapDiv.innerHTML = `
-      <div class="recap-card">
-        <div class="kicker">Featured Editorial Recap</div>
-        <h2 class="recap-headline">Yesterday Recap</h2>
-        <div class="recap-body">No AI recap available yet. Written recaps appear after games go final.</div>
-      </div>
-    `;
-    console.error(error);
-  }
+function renderList(items, emptyText) {
+  const values = safeArray(items).filter(Boolean);
+  if (!values.length) return `<div class="muted">${emptyText}</div>`;
+  return `<ul class="list">${values.map(item => `<li>${item}</li>`).join("")}</ul>`;
 }
 
 function toggle(id) {
@@ -695,28 +515,181 @@ function toggle(id) {
   el.style.display = el.style.display === "none" ? "block" : "none";
 }
 
+async function loadLive() {
+  const el = document.getElementById("live");
+  try {
+    const response = await fetch("./live.json?nocache=" + Date.now());
+    const data = await response.json();
+    setUpdatedTimestamp(data.updated_at);
+
+    if (!safeArray(data.games).length) {
+      el.innerHTML = `<div class="card live-card">No games live right now.</div>`;
+      return;
+    }
+
+    el.innerHTML = data.games.map(game => `
+      <div class="card live-card card-strong">
+        <div class="matchup">${formatValue(game.game, "Live Game")}</div>
+        <div class="scoreline">${formatValue(game.score, "0-0")} | ${formatValue(game.inning, "TBD")}</div>
+        <div class="section-title-sm">Hot Hitters</div>
+        ${renderList(game.hot_hitters, "No hitters flagged yet.")}
+        <div class="section-title-sm">Dominant Pitchers</div>
+        ${renderList(game.top_pitchers, "No pitchers flagged yet.")}
+      </div>
+    `).join("");
+  } catch (error) {
+    el.innerHTML = `<div class="card live-card">Could not load live.json.</div>`;
+    console.error(error);
+  }
+}
+
+async function loadDaily() {
+  const el = document.getElementById("games");
+  try {
+    const response = await fetch("./daily.json?nocache=" + Date.now());
+    const data = await response.json();
+    const games = safeArray(data.games);
+
+    if (!games.length) {
+      el.innerHTML = `<div class="card upcoming-card">No scheduled games found.</div>`;
+      return;
+    }
+
+    el.innerHTML = games.map((game, index) => {
+      const id = `game-${index}`;
+      const startText = game.start ? new Date(game.start).toLocaleString() : "TBD";
+
+      return `
+        <div class="card upcoming-card">
+          <div class="matchup toggle" onclick="toggle('${id}')">
+            ${formatValue(game.away_team, "Away")} @ ${formatValue(game.home_team, "Home")}
+          </div>
+          <div class="meta">${startText} | ${formatValue(game.venue, "Venue TBD")} | ${formatValue(game.status, "Scheduled")}</div>
+
+          <div id="${id}" style="display:none; margin-top:12px;">
+            <div class="mini-grid">
+              <div class="subcard">
+                <div class="section-title-sm">Away Probable Pitcher</div>
+                ${renderPitcher(game.away_pitcher)}
+              </div>
+              <div class="subcard">
+                <div class="section-title-sm">Home Probable Pitcher</div>
+                ${renderPitcher(game.home_pitcher)}
+              </div>
+            </div>
+
+            <div class="section-title-sm">${formatValue(game.away_team, "Away")} Hitters</div>
+            ${renderHitters(game.away_hitters, "Away hitter data not available.")}
+
+            <div class="section-title-sm">${formatValue(game.home_team, "Home")} Hitters</div>
+            ${renderHitters(game.home_hitters, "Home hitter data not available.")}
+          </div>
+        </div>
+      `;
+    }).join("");
+  } catch (error) {
+    el.innerHTML = `<div class="card upcoming-card">Could not load daily.json.</div>`;
+    console.error(error);
+  }
+}
+
+async function loadDashboardRecap() {
+  try {
+    const response = await fetch("./yesterday_recap.json?nocache=" + Date.now());
+    if (!response.ok) throw new Error("Recap file missing");
+    const data = await response.json();
+    const recap = data.dashboard_recap || {};
+
+    renderFeaturedGames(recap.featured_games || []);
+    renderAllGames(recap.all_games || []);
+    renderStatLeaders(recap.stat_leaders || {});
+    renderContextLayer(recap.context_layer || {});
+  } catch (error) {
+    renderFeaturedGames([]);
+    renderAllGames([]);
+    renderStatLeaders({});
+    renderContextLayer({});
+    console.error(error);
+  }
+}
+
+function renderFeaturedGames(games) {
+  const el = document.getElementById("featured-games");
+  if (!safeArray(games).length) {
+    el.innerHTML = `<div class="card feature-card">No featured games available yet.</div>`;
+    return;
+  }
+
+  el.innerHTML = games.map(game => `
+    <div class="card feature-card card-strong">
+      <div class="matchup">${formatValue(game.game, "Featured Game")}</div>
+      <div class="scoreline">${formatValue(game.final_score, "N/A")}</div>
+      <div class="meta">Winner: ${formatValue(game.winner)} | Loser: ${formatValue(game.loser)}</div>
+      <div class="summary">${formatValue(game.summary, "No summary available.")}</div>
+      <div class="section-title-sm">Key Stats</div>
+      ${renderList(game.key_stats, "No key stats available.")}
+    </div>
+  `).join("");
+}
+
+function renderAllGames(games) {
+  const el = document.getElementById("all-games");
+  if (!safeArray(games).length) {
+    el.innerHTML = `<div class="card allgame-card">No completed game summaries available yet.</div>`;
+    return;
+  }
+
+  el.innerHTML = games.map(game => `
+    <div class="card allgame-card">
+      <div class="matchup">${formatValue(game.game, "Game")}</div>
+      <div class="scoreline">${formatValue(game.final_score, "N/A")}</div>
+      <div class="stat-row">Winning Pitching: ${formatValue(game.top_pitching_line, "N/A")}</div>
+      <div class="stat-row">Top Batting: ${formatValue(game.top_batting_line, "N/A")}</div>
+      <div class="keyline">${formatValue(game.key_insight, "No key insight available.")}</div>
+    </div>
+  `).join("");
+}
+
+function renderStatLeaders(leaders) {
+  const el = document.getElementById("stat-leaders");
+  const sections = [
+    { title: "Top Hitters", items: leaders.top_hitters || [] },
+    { title: "Top Pitchers", items: leaders.top_pitchers || [] },
+    { title: "Home Run Leaders", items: leaders.home_run_leaders || [] },
+    { title: "Strikeout Leaders", items: leaders.strikeout_leaders || [] }
+  ];
+
+  el.innerHTML = sections.map(section => `
+    <div class="card leader-card">
+      <div class="matchup" style="font-size:16px;">${section.title}</div>
+      ${renderList(section.items, "No data available.")}
+    </div>
+  `).join("");
+}
+
+function renderContextLayer(context) {
+  const el = document.getElementById("context-layer");
+  const blocks = [
+    { title: "Momentum Shifts", items: context.momentum_shifts || [] },
+    { title: "Standout Performances", items: context.standout_performances || [] },
+    { title: "Team Trends", items: context.team_trends || [] }
+  ];
+
+  el.innerHTML = blocks.map(block => `
+    <div class="card context-card">
+      <div class="matchup" style="font-size:16px;">${block.title}</div>
+      <div class="recap-bullets">
+        ${safeArray(block.items).length
+          ? safeArray(block.items).map(item => `<div class="recap-bullet">${item}</div>`).join("")
+          : `<div class="muted">No insights available.</div>`}
+      </div>
+    </div>
+  `).join("");
+}
+
 loadLive();
 loadDaily();
-loadPostgame();
-loadRecap();
+loadDashboardRecap();
 </script>
-
-<footer>
-<strong>Disclaimer</strong><br>
-This dashboard is provided for informational and educational purposes only.
-All statistics, matchup context, performance indicators, and live updates
-are descriptive of historical or in-game events as reported by publicly
-available Major League Baseball data sources. Information displayed may be
-incomplete, delayed, revised, or change at any time without notice.<br><br>
-
-This dashboard does <strong>not</strong> constitute gambling advice, betting
-recommendations, financial advice, or predictions of outcomes. No guarantees
-of accuracy, completeness, or future performance are made. Users are solely
-responsible for how they interpret and use any information presented.<br><br>
-
-This is a personal analytics and visualization tool and is not intended for
-commercial use or distribution.
-</footer>
-
 </body>
 </html>
