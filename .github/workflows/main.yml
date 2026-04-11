@@ -6,29 +6,27 @@ permissions:
 on:
   workflow_dispatch:
   schedule:
-    # ✅ Live updates — every 1 minute
     - cron: "* * * * *"
 
 jobs:
   run-engine:
     runs-on: ubuntu-latest
+    concurrency:
+      group: live-mlb
+      cancel-in-progress: true
 
     steps:
-      - name: Checkout repo
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
 
-      - name: Set up Python
-        uses: actions/setup-python@v5
+      - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
 
-      - name: Run MLB engine
-        run: python run_engine.py
+      - run: python run_engine.py
 
-      - name: Commit updated data
-        run: |
+      - run: |
           git config user.name "github-actions"
           git config user.email "actions@github.com"
           git add daily.json live.json
-          git commit -m "Live MLB data update" || echo "No changes"
+          git commit -m "Update MLB dashboard data" || echo "No changes"
           git push
