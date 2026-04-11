@@ -20,7 +20,13 @@ h1 {
 .subtitle {
   color: #555;
   font-size: 14px;
-  margin-bottom: 20px;
+  margin-bottom: 8px;
+}
+
+.timestamp {
+  font-size: 12px;
+  color: #666;
+  margin-bottom: 16px;
 }
 
 .card {
@@ -74,6 +80,11 @@ footer {
 Click a game to expand matchup details. Live games appear at the top.
 </div>
 
+<!-- ✅ ADDED: live update timestamp (ADD-ONLY) -->
+<div class="timestamp">
+Live data last updated: <span id="updated">loading…</span>
+</div>
+
 <!-- ================= LIVE GAMES ================= -->
 <div id="live"></div>
 
@@ -87,6 +98,12 @@ Click a game to expand matchup details. Live games appear at the top.
 fetch("./live.json?nocache=" + Date.now())
   .then(r => r.json())
   .then(d => {
+    // ✅ ADD-ONLY: populate timestamp
+    if (d.updated_at) {
+      document.getElementById("updated").textContent =
+        new Date(d.updated_at).toLocaleString();
+    }
+
     const liveDiv = document.getElementById("live");
 
     if (!d.games || d.games.length === 0) {
