@@ -444,6 +444,8 @@ footer {
 </div>
 
 <script>
+const LIVE_API_URL = "https://misty-heart-42ca.k8piler.workers.dev/live";
+
 function safeArray(value) {
   return Array.isArray(value) ? value : [];
 }
@@ -517,7 +519,7 @@ function toggle(id) {
 async function loadLive() {
   const el = document.getElementById("live");
   try {
-    const response = await fetch("./live.json?nocache=" + Date.now());
+    const response = await fetch(LIVE_API_URL + "?nocache=" + Date.now());
     const data = await response.json();
     setUpdatedTimestamp(data.updated_at);
 
@@ -537,7 +539,7 @@ async function loadLive() {
       </div>
     `).join("");
   } catch (error) {
-    el.innerHTML = `<div class="card live-card">Could not load live.json.</div>`;
+    el.innerHTML = `<div class="card live-card">Could not load live data.</div>`;
     console.error(error);
   }
 }
@@ -687,9 +689,15 @@ function renderContextLayer(context) {
   `).join("");
 }
 
+async function refreshLiveOnly() {
+  await loadLive();
+}
+
 loadLive();
 loadDaily();
 loadDashboardRecap();
+
+setInterval(refreshLiveOnly, 30000);
 </script>
 </body>
 </html>
