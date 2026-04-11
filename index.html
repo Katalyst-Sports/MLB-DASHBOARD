@@ -182,10 +182,10 @@ body {
 }
 
 .scoreline {
-  font-size: 20px;
+  font-size: 22px;
   font-weight: 900;
   color: #f8fbff;
-  margin-bottom: 6px;
+  margin-bottom: 8px;
 }
 
 .meta {
@@ -293,12 +293,53 @@ body {
   margin-top: 3px;
 }
 
-.live-layout {
+.live-top {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  align-items: flex-start;
+}
+
+.live-top-right {
+  text-align: right;
+}
+
+.live-strip {
   display: grid;
-  grid-template-columns: 110px 1fr;
-  gap: 14px;
-  align-items: start;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 8px;
   margin-top: 10px;
+}
+
+.live-chip {
+  padding: 8px 10px;
+  border-radius: 12px;
+  background: rgba(255,255,255,0.04);
+  border: 1px solid rgba(148, 163, 184, 0.12);
+}
+
+.live-chip-label {
+  font-size: 10px;
+  letter-spacing: 0.10em;
+  text-transform: uppercase;
+  color: #95abc9;
+  margin-bottom: 3px;
+  font-weight: 800;
+}
+
+.live-chip-value {
+  font-size: 13px;
+  color: #eef4ff;
+  font-weight: 700;
+  line-height: 1.35;
+}
+
+.live-middle {
+  display: grid;
+  grid-template-columns: 92px 1fr;
+  gap: 12px;
+  align-items: center;
+  margin-top: 12px;
 }
 
 .diamond-wrap {
@@ -307,12 +348,19 @@ body {
   justify-content: center;
 }
 
-.previous-play {
-  margin-top: 10px;
+.pitcher-line {
   padding: 10px 12px;
   border-radius: 12px;
   background: rgba(255,255,255,0.04);
   border: 1px solid rgba(148, 163, 184, 0.12);
+}
+
+.previous-play {
+  margin-top: 10px;
+  padding: 10px 12px;
+  border-radius: 12px;
+  background: rgba(255,255,255,0.05);
+  border: 1px solid rgba(148, 163, 184, 0.14);
   color: #dfe9f8;
   font-size: 13px;
   line-height: 1.5;
@@ -336,6 +384,10 @@ footer {
   .page-title {
     font-size: 34px;
   }
+
+  .live-strip {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
 }
 
 @media (max-width: 720px) {
@@ -353,8 +405,14 @@ footer {
     grid-template-columns: 1fr;
   }
 
-  .live-layout {
+  .live-top,
+  .live-middle {
     grid-template-columns: 1fr;
+    display: grid;
+  }
+
+  .live-strip {
+    grid-template-columns: 1fr 1fr;
   }
 
   .page-title {
@@ -524,6 +582,19 @@ function renderDiamond(bases = {}) {
   `;
 }
 
+function formatOffensiveImpact(items) {
+  const values = safeArray(items);
+  if (!values.length) return "No major offensive production yet.";
+
+  return values.map(item => {
+    const parts = [];
+    if ((item.hits || 0) > 0) parts.push(`${item.hits} H`);
+    if ((item.homeRuns || 0) > 0) parts.push(`${item.homeRuns} HR`);
+    if ((item.rbi || 0) > 0) parts.push(`${item.rbi} RBI`);
+    return `${item.name}: ${parts.join(", ")}`;
+  }).join(" | ");
+}
+
 function toggle(id) {
   const el = document.getElementById(id);
   if (!el) return;
@@ -544,16 +615,36 @@ async function loadLive() {
 
     el.innerHTML = data.games.map(game => `
       <div class="card live-card card-strong">
-        <div class="matchup">${formatValue(game.game, "Live Game")}</div>
-        <div class="scoreline">${formatValue(game.score, "0-0")} | ${formatValue(game.inning, "TBD")}</div>
-
-        <div class="live-layout">
-          ${renderDiamond(game.bases)}
+        <div class="live-top">
           <div>
-            <div class="stat-row">Batter: ${formatValue(game.current_batter)}</div>
-            <div class="stat-row">Pitcher: ${formatValue(game.current_pitcher)} | Pitches: ${formatValue(game.pitcher_pitch_count)}</div>
-            <div class="stat-row">Count: ${formatValue(game.count)} | Outs: ${formatValue(game.outs, 0)}</div>
-            <div class="stat-row">Bases: ${game.bases?.first || game.bases?.second || game.bases?.third ? [
+            <div class="matchup">${formatValue(game.game, "Live Game")}</div>
+          </div>
+          <div class="live-top-right">
+            <div class="scoreline">${formatValue(game.score, "0-0")}</div>
+            <div class="meta">${formatValue(game.inning, "TBD")}</div>
+          </div>
+        </div>
+
+        <div class="live-strip">
+          <div class="live-chip">
+            <div class="live-chip-label">Batter</div>
+            <div class="live-chip-value">${formatValue(game.current_batter)}</div>
+          </div>
+          <div class="live-chip">
+            <div class="live-chip-label">Pitcher</div>
+            <div class="live-chip-value">${formatValue(game.current_pitcher)}</div>
+          </div>
+          <div class="live-chip">
+            <div class="live-chip-label">Count</div>
+            <div class="live-chip-value">${formatValue(game.count)}</div>
+          </div>
+          <div class="live-chip">
+            <div class="live-chip-label">Outs</div>
+            <div class="live-chip-value">${formatValue(game.outs, 0)}</div>
+          </div>
+          <div class="live-chip">
+            <div class="live-chip-label">Runners On</div>
+            <div class="live-chip-value">${game.bases?.first || game.bases?.second || game.bases?.third ? [
               game.bases?.first ? "1B" : null,
               game.bases?.second ? "2B" : null,
               game.bases?.third ? "3B" : null
@@ -561,13 +652,31 @@ async function loadLive() {
           </div>
         </div>
 
+        <div class="live-middle">
+          ${renderDiamond(game.bases)}
+          <div class="pitcher-line">
+            <div class="section-title-sm" style="margin-top:0;">Current Pitcher Line</div>
+            <div class="stat-row">
+              ${game.current_pitcher_line
+                ? `${formatValue(game.current_pitcher_line.innings)} IP | ${formatValue(game.current_pitcher_line.hits, 0)} H | ${formatValue(game.current_pitcher_line.earned_runs, 0)} ER | ${formatValue(game.current_pitcher_line.strikeouts, 0)} K | ${formatValue(game.current_pitcher_line.walks, 0)} BB | ${formatValue(game.current_pitcher_line.pitches, 0)} P`
+                : "No current pitcher line available."}
+            </div>
+            <div class="stat-line">
+              ${game.runners?.first || game.runners?.second || game.runners?.third
+                ? `Runners: ${[
+                    game.runners?.first ? `1B ${game.runners.first}` : null,
+                    game.runners?.second ? `2B ${game.runners.second}` : null,
+                    game.runners?.third ? `3B ${game.runners.third}` : null
+                  ].filter(Boolean).join(" | ")}`
+                : "Bases empty."}
+            </div>
+          </div>
+        </div>
+
         <div class="previous-play"><strong>Previous Play:</strong> ${formatValue(game.previous_play, "No previous play yet.")}</div>
 
-        <div class="section-title-sm">Hot Hitters</div>
-        ${renderList(game.hot_hitters, "No hitters flagged yet.")}
-
-        <div class="section-title-sm">Dominant Pitchers</div>
-        ${renderList(game.top_pitchers, "No pitchers flagged yet.")}
+        <div class="section-title-sm">Offensive Impact</div>
+        <div class="stat-row">${formatOffensiveImpact(game.offensive_impact)}</div>
       </div>
     `).join("");
   } catch (error) {
@@ -718,5 +827,3 @@ setInterval(refreshLiveOnly, 30000);
 </script>
 </body>
 </html>
-
-
