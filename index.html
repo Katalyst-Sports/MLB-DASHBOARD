@@ -110,34 +110,34 @@ fetch("./live.json?nocache=" + Date.now())
   });
 </script>
 
-<!-- ================= POSTGAME SCRIPT ================= -->
+<!-- ================= AI DAILY RECAP ================= -->
+<div id="ai-recap"></div>
+
 <script>
-fetch("./postgame.json?nocache=" + Date.now())
-  .then(r => r.json())
+fetch("./daily_recap.json?nocache=" + Date.now())
+  .then(r => {
+    if (!r.ok) throw new Error("No AI recap yet");
+    return r.json();
+  })
   .then(d => {
-    const pg = document.getElementById("postgame");
-    pg.innerHTML = "<h2>Final Recaps</h2>";
+    const el = document.getElementById("ai-recap");
 
-    if (!d.games || d.games.length === 0) {
-      pg.innerHTML += `
-        <div class="card">
-          No games have gone final yet today.
-          Written recaps will appear here once games are complete.
-        </div>`;
-      return;
-    }
-
-    d.games.forEach(g => {
-      pg.innerHTML += `
-        <div class="card">
-          <strong>${g.game}</strong><br>
-          Final Score: ${g.final_score}<br><br>
-          <strong>Standout Hitters:</strong><br>
-          ${g.hitters.join(", ") || "Multiple contributors"}<br><br>
-          <strong>Key Pitching Performances:</strong><br>
-          ${g.pitchers.join(", ") || "Staff effort"}
-        </div>`;
-    });
+    el.innerHTML = `
+      <div class="card">
+        <h2>${d.headline}</h2>
+        <p style="line-height:1.6;">
+          ${d.article.replace(/\n\n/g, "<br><br>")}
+        </p>
+      </div>
+    `;
+  })
+  .catch(() => {
+    document.getElementById("ai-recap").innerHTML = `
+      <div class="card">
+        <strong>Final Recap</strong><br>
+        No AI recap available yet. Written recaps appear after games go final.
+      </div>
+    `;
   });
 </script>
 
