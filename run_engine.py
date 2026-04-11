@@ -34,16 +34,7 @@ def fetch(url):
 
 
 def safe_number(value, default=0):
-   def is_finished_game(status_block):
-    abstract = str(status_block.get("abstractGameState", "")).strip().lower()
-    detailed = str(status_block.get("detailedState", "")).strip().lower()
-    coded = str(status_block.get("codedGameState", "")).strip().upper()
-
-    return (
-        abstract == "final"
-        or detailed in {"final", "game over", "completed early"}
-        or coded == "F"
-    )
+    return value if value is not None else default
 
 
 def safe_float(value, default=0.0):
@@ -62,6 +53,18 @@ def parse_ip(ip_value):
     outs_lookup = {"0": 0, "1": 1, "2": 2}
     outs = outs_lookup.get(frac, 0)
     return safe_float(whole, 0.0) + (outs / 3.0)
+
+
+def is_finished_game(status_block):
+    abstract = str(status_block.get("abstractGameState", "")).strip().lower()
+    detailed = str(status_block.get("detailedState", "")).strip().lower()
+    coded = str(status_block.get("codedGameState", "")).strip().upper()
+
+    return (
+        abstract == "final"
+        or detailed in {"final", "game over", "completed early"}
+        or coded == "F"
+    )
 
 
 def format_baseball_avg(value):
@@ -373,7 +376,7 @@ def build_recap_stat_lines(boxscore):
             hits = safe_number(batting.get("hits"))
             home_runs = safe_number(batting.get("homeRuns"))
             rbi = safe_number(batting.get("rbi"))
-            if hits >= 2 or home_runs >= 1:
+            if hits >= 2 or home_runs >= 1 or rbi >= 2:
                 hitter_lines.append(
                     f"{get_player_name(team, batter_id)}: {hits} H, {home_runs} HR, {rbi} RBI"
                 )
@@ -411,28 +414,10 @@ def season_leaders():
                 elif group_name == "pitching":
                     pitching.append({"name": player_name, "stat": stat})
 
-        avg_ops = sorted(
-            hitting,
-            key=lambda x: safe_float(x["stat"].get("avg", 0)),
-            reverse=True
-        )[:5]
-
-        power = sorted(
-            hitting,
-            key=lambda x: safe_number(x["stat"].get("homeRuns", 0)),
-            reverse=True
-        )[:5]
-
-        strikeouts = sorted(
-            pitching,
-            key=lambda x: safe_number(x["stat"].get("strikeOuts", 0)),
-            reverse=True
-        )[:5]
-
-        prevention = sorted(
-            pitching,
-            key=lambda x: safe_float(x["stat"].get("era", 999)),
-        )[:5]
+        avg_ops = sorted(hitting, key=lambda x: safe_float(x["stat"].get("avg", 0)), reverse=True)[:5]
+        power = sorted(hitting, key=lambda x: safe_number(x["stat"].get("homeRuns", 0)), reverse=True)[:5]
+        strikeouts = sorted(pitching, key=lambda x: safe_number(x["stat"].get("strikeOuts", 0)), reverse=True)[:5]
+        prevention = sorted(pitching, key=lambda x: safe_float(x["stat"].get("era", 999)),)[:5]
 
         return {
             "avg_ops": [
@@ -537,7 +522,7 @@ Rules:
 - If pitching was the biggest factor, make that clear.
 - If offense was decisive, make that clear.
 - If a home run or major RBI performance is listed, use it directly when relevant.
-- Keep each game summary to 3-4 sentences and use the names of the players who made impact plays.
+- Keep each game summary to 2-3 sentences.
 - Avoid robotic or repetitive phrasing.
 - Output JSON only.
 
@@ -562,13 +547,9 @@ Games:
         top_pitch = game["pitcher_lines"][0] if game["pitcher_lines"] else "No top pitching line available"
         top_hit = game["hitter_lines"][0] if game["hitter_lines"] else "No top batting line available"
 
-        summary_parts = [
-            f"{game['winner']} beat {game['loser']} {game['final_score']}."
-        ]
-
+        summary_parts = [f"{game['winner']} beat {game['loser']} {game['final_score']}."]
         if top_pitch != "No top pitching line available":
             summary_parts.append(f"{top_pitch} was the leading pitching performance in the game.")
-
         if top_hit != "No top batting line available":
             summary_parts.append(f"{top_hit} was the key offensive contribution.")
 
