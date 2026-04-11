@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-11T09:45:29.316927-04:00",
+  "updated_at": "2026-04-11T09:59:42.075679-04:00",
   "games": [
     {
       "away_team": "Arizona Diamondbacks",
@@ -7,14 +7,14 @@
       "venue": "Citizens Bank Park",
       "start": "2026-04-11T17:05:00Z",
       "away_pitcher": {
+        "name": "Brandon Pfaadt",
         "hand": "R",
-        "era": "6.75",
-        "last5": "N/A"
+        "era": "6.75"
       },
       "home_pitcher": {
+        "name": "Taijuan Walker",
         "hand": "R",
-        "era": "9.31",
-        "last5": "N/A"
+        "era": "9.31"
       }
     },
     {
@@ -23,14 +23,14 @@
       "venue": "Comerica Park",
       "start": "2026-04-11T17:10:00Z",
       "away_pitcher": {
+        "name": "Janson Junk",
         "hand": "R",
-        "era": "3.09",
-        "last5": "N/A"
+        "era": "3.09"
       },
       "home_pitcher": {
+        "name": "Casey Mize",
         "hand": "R",
-        "era": "5.23",
-        "last5": "N/A"
+        "era": "5.23"
       }
     },
     {
@@ -39,14 +39,14 @@
       "venue": "Wrigley Field",
       "start": "2026-04-11T18:20:00Z",
       "away_pitcher": {
+        "name": "Braxton Ashcraft",
         "hand": "R",
-        "era": "2.25",
-        "last5": "N/A"
+        "era": "2.25"
       },
       "home_pitcher": {
+        "name": "Edward Cabrera",
         "hand": "R",
-        "era": "0.00",
-        "last5": "N/A"
+        "era": "0.00"
       }
     },
     {
@@ -55,14 +55,14 @@
       "venue": "Rogers Centre",
       "start": "2026-04-11T19:07:00Z",
       "away_pitcher": {
+        "name": "Joe Ryan",
         "hand": "R",
-        "era": "4.40",
-        "last5": "N/A"
+        "era": "4.40"
       },
       "home_pitcher": {
+        "name": "Eric Lauer",
         "hand": "L",
-        "era": "4.91",
-        "last5": "N/A"
+        "era": "4.91"
       }
     },
     {
@@ -71,14 +71,14 @@
       "venue": "Great American Ball Park",
       "start": "2026-04-11T20:10:00Z",
       "away_pitcher": {
+        "name": "George Klassen",
         "hand": "R",
-        "era": "6.75",
-        "last5": "N/A"
+        "era": "6.75"
       },
       "home_pitcher": {
+        "name": "Brandon Williamson",
         "hand": "L",
-        "era": "4.76",
-        "last5": "N/A"
+        "era": "4.76"
       }
     },
     {
@@ -87,14 +87,14 @@
       "venue": "Citi Field",
       "start": "2026-04-11T20:10:00Z",
       "away_pitcher": {
+        "name": "Jacob Lopez",
         "hand": "L",
-        "era": "6.48",
-        "last5": "N/A"
+        "era": "6.48"
       },
       "home_pitcher": {
+        "name": "Kodai Senga",
         "hand": "R",
-        "era": "3.09",
-        "last5": "N/A"
+        "era": "3.09"
       }
     },
     {
@@ -103,14 +103,14 @@
       "venue": "Kauffman Stadium",
       "start": "2026-04-11T20:10:00Z",
       "away_pitcher": {
+        "name": "Erick Fedde",
         "hand": "R",
-        "era": "4.09",
-        "last5": "N/A"
+        "era": "4.09"
       },
       "home_pitcher": {
+        "name": "Michael Wacha",
         "hand": "R",
-        "era": "0.69",
-        "last5": "N/A"
+        "era": "0.69"
       }
     },
     {
@@ -119,14 +119,14 @@
       "venue": "Tropicana Field",
       "start": "2026-04-11T22:10:00Z",
       "away_pitcher": {
+        "name": "Max Fried",
         "hand": "L",
-        "era": "1.35",
-        "last5": "N/A"
+        "era": "1.35"
       },
       "home_pitcher": {
+        "name": "Nick Martinez",
         "hand": "R",
-        "era": "2.25",
-        "last5": "N/A"
+        "era": "2.25"
       }
     },
     {
@@ -135,14 +135,14 @@
       "venue": "American Family Field",
       "start": "2026-04-11T23:10:00Z",
       "away_pitcher": {
+        "name": "Foster Griffin",
         "hand": "L",
-        "era": "2.70",
-        "last5": "N/A"
+        "era": "2.70"
       },
       "home_pitcher": {
+        "name": "Kyle Harrison",
         "hand": "L",
-        "era": "2.61",
-        "last5": "N/A"
+        "era": "2.61"
       }
     },
     {
@@ -151,14 +151,14 @@
       "venue": "Oriole Park at Camden Yards",
       "start": "2026-04-11T23:15:00Z",
       "away_pitcher": {
+        "name": "Logan Webb",
         "hand": "R",
-        "era": "5.00",
-        "last5": "N/A"
+        "era": "5.00"
       },
       "home_pitcher": {
+        "name": "Chris Bassitt",
         "hand": "R",
-        "era": "14.21",
-        "last5": "N/A"
+        "era": "14.21"
       }
     },
     {
@@ -167,14 +167,14 @@
       "venue": "Busch Stadium",
       "start": "2026-04-11T23:15:00Z",
       "away_pitcher": {
+        "name": "Ranger Suarez",
         "hand": "L",
-        "era": "8.64",
-        "last5": "N/A"
+        "era": "8.64"
       },
       "home_pitcher": {
+        "name": "Kyle Leahy",
         "hand": "R",
-        "era": "5.40",
-        "last5": "N/A"
+        "era": "5.40"
       }
     },
     {
@@ -183,14 +183,14 @@
       "venue": "Truist Park",
       "start": "2026-04-11T23:15:00Z",
       "away_pitcher": {
+        "name": "Parker Messick",
         "hand": "L",
-        "era": "0.82",
-        "last5": "N/A"
+        "era": "0.82"
       },
       "home_pitcher": {
+        "name": "Mart\u00edn P\u00e9rez",
         "hand": "L",
-        "era": "3.86",
-        "last5": "N/A"
+        "era": "3.86"
       }
     },
     {
@@ -199,14 +199,14 @@
       "venue": "Petco Park",
       "start": "2026-04-12T00:40:00Z",
       "away_pitcher": {
+        "name": "Ryan Feltner",
         "hand": "R",
-        "era": "4.32",
-        "last5": "N/A"
+        "era": "4.32"
       },
       "home_pitcher": {
+        "name": "Germ\u00e1n M\u00e1rquez",
         "hand": "R",
-        "era": "4.50",
-        "last5": "N/A"
+        "era": "4.50"
       }
     },
     {
@@ -215,14 +215,14 @@
       "venue": "UNIQLO Field at Dodger Stadium",
       "start": "2026-04-12T01:10:00Z",
       "away_pitcher": {
+        "name": "Jack Leiter",
         "hand": "R",
-        "era": "2.45",
-        "last5": "N/A"
+        "era": "2.45"
       },
       "home_pitcher": {
+        "name": "Emmet Sheehan",
         "hand": "R",
-        "era": "8.00",
-        "last5": "N/A"
+        "era": "8.00"
       }
     },
     {
@@ -231,14 +231,14 @@
       "venue": "T-Mobile Park",
       "start": "2026-04-12T01:40:00Z",
       "away_pitcher": {
+        "name": "Lance McCullers Jr.",
         "hand": "R",
-        "era": "3.27",
-        "last5": "N/A"
+        "era": "3.27"
       },
       "home_pitcher": {
+        "name": "Luis Castillo",
         "hand": "R",
-        "era": "2.79",
-        "last5": "N/A"
+        "era": "2.79"
       }
     }
   ]
