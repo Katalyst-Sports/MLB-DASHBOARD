@@ -638,7 +638,7 @@ for date_block in schedule_today.get("dates", []):
                     "top_pitchers": top_pitchers,
                 })
 
-           if is_finished_game(game.get("status", {})):if status == "Final":
+            if is_finished_game(game.get("status", {})):
                 feed = fetch(f"{BASE}/v1.1/game/{game['gamePk']}/feed/live")
                 lines = feed.get("liveData", {}).get("linescore", {})
                 box = feed.get("liveData", {}).get("boxscore", {})
