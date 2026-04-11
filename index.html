@@ -18,6 +18,8 @@
   --gold: #f0b84b;
   --green: #43c07a;
   --shadow: 0 14px 40px rgba(0, 0, 0, 0.28);
+  --base-off: rgba(255,255,255,0.14);
+  --base-on: #43c07a;
 }
 
 * {
@@ -56,8 +58,7 @@ body {
 }
 
 .page-header {
-  background:
-    linear-gradient(135deg, rgba(8, 18, 34, 0.94), rgba(18, 34, 58, 0.80));
+  background: linear-gradient(135deg, rgba(8, 18, 34, 0.94), rgba(18, 34, 58, 0.80));
   border: 1px solid rgba(255, 255, 255, 0.10);
   border-radius: 20px;
   padding: 22px 24px;
@@ -135,6 +136,12 @@ body {
 .grid-4 {
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.feature-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 14px;
 }
 
@@ -296,12 +303,6 @@ body {
   margin-top: 3px;
 }
 
-.feature-grid {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 14px;
-}
-
 .recap-bullets {
   display: grid;
   gap: 10px;
@@ -314,6 +315,31 @@ body {
   padding: 12px;
   color: #dfebfb;
   line-height: 1.55;
+}
+
+.live-layout {
+  display: grid;
+  grid-template-columns: 110px 1fr;
+  gap: 14px;
+  align-items: start;
+  margin-top: 10px;
+}
+
+.diamond-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.previous-play {
+  margin-top: 10px;
+  padding: 10px 12px;
+  border-radius: 12px;
+  background: rgba(255,255,255,0.04);
+  border: 1px solid rgba(148, 163, 184, 0.12);
+  color: #dfe9f8;
+  font-size: 13px;
+  line-height: 1.5;
 }
 
 footer {
@@ -350,6 +376,10 @@ footer {
   .grid-4,
   .feature-grid,
   .mini-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .live-layout {
     grid-template-columns: 1fr;
   }
 
@@ -484,15 +514,9 @@ function renderHitters(list, emptyText) {
   return hitters.map(player => `
     <div class="player-row">
       <div><strong>${formatValue(player.name, "Unknown Hitter")}</strong>${streakBadge(player)}</div>
-      <div class="stat-line">
-        AVG ${formatValue(player.stats?.avg)} | OBP ${formatValue(player.stats?.obp)} | SLG ${formatValue(player.stats?.slg)} | OPS ${formatValue(player.stats?.ops)}
-      </div>
-      <div class="stat-line">
-        ${formatValue(player.last10?.label, "Last 10")}: ${formatValue(player.last10?.avg)} (${formatValue(player.last10?.hits, 0)}/${formatValue(player.last10?.ab, 0)})
-      </div>
-      <div class="stat-line">
-        vs RHP ${formatValue(player.vsRHP?.avg)} | vs LHP ${formatValue(player.vsLHP?.avg)} | RISP ${formatValue(player.risp?.avg)}
-      </div>
+      <div class="stat-line">AVG ${formatValue(player.stats?.avg)} | OBP ${formatValue(player.stats?.obp)} | SLG ${formatValue(player.stats?.slg)} | OPS ${formatValue(player.stats?.ops)}</div>
+      <div class="stat-line">${formatValue(player.last10?.label, "Last 10")}: ${formatValue(player.last10?.avg)} (${formatValue(player.last10?.hits, 0)}/${formatValue(player.last10?.ab, 0)})</div>
+      <div class="stat-line">vs RHP ${formatValue(player.vsRHP?.avg)} | vs LHP ${formatValue(player.vsLHP?.avg)} | RISP ${formatValue(player.risp?.avg)}</div>
     </div>
   `).join("");
 }
@@ -501,6 +525,30 @@ function renderList(items, emptyText) {
   const values = safeArray(items).filter(Boolean);
   if (!values.length) return `<div class="muted">${emptyText}</div>`;
   return `<ul class="list">${values.map(item => `<li>${item}</li>`).join("")}</ul>`;
+}
+
+function renderDiamond(bases = {}) {
+  const firstFill = bases.first ? "var(--base-on)" : "var(--base-off)";
+  const secondFill = bases.second ? "var(--base-on)" : "var(--base-off)";
+  const thirdFill = bases.third ? "var(--base-on)" : "var(--base-off)";
+
+  return `
+    <div class="diamond-wrap">
+      <svg width="92" height="92" viewBox="0 0 92 92" aria-label="Baseball diamond">
+        <line x1="46" y1="14" x2="78" y2="46" stroke="rgba(255,255,255,0.16)" stroke-width="2"/>
+        <line x1="78" y1="46" x2="46" y2="78" stroke="rgba(255,255,255,0.16)" stroke-width="2"/>
+        <line x1="46" y1="78" x2="14" y2="46" stroke="rgba(255,255,255,0.16)" stroke-width="2"/>
+        <line x1="14" y1="46" x2="46" y2="14" stroke="rgba(255,255,255,0.16)" stroke-width="2"/>
+
+        <rect x="40" y="8" width="12" height="12" transform="rotate(45 46 14)" fill="${secondFill}" stroke="rgba(255,255,255,0.28)" />
+        <rect x="72" y="40" width="12" height="12" transform="rotate(45 78 46)" fill="${firstFill}" stroke="rgba(255,255,255,0.28)" />
+        <rect x="40" y="72" width="12" height="12" transform="rotate(45 46 78)" fill="rgba(210,180,140,0.92)" stroke="rgba(255,255,255,0.28)" />
+        <rect x="8" y="40" width="12" height="12" transform="rotate(45 14 46)" fill="${thirdFill}" stroke="rgba(255,255,255,0.28)" />
+
+        <circle cx="46" cy="46" r="5" fill="rgba(255,255,255,0.12)" />
+      </svg>
+    </div>
+  `;
 }
 
 function toggle(id) {
@@ -525,11 +573,26 @@ async function loadLive() {
       <div class="card live-card card-strong">
         <div class="matchup">${formatValue(game.game, "Live Game")}</div>
         <div class="scoreline">${formatValue(game.score, "0-0")} | ${formatValue(game.inning, "TBD")}</div>
-        <div class="stat-row">Batter: ${formatValue(game.current_batter)}</div>
-        <div class="stat-row">Pitcher: ${formatValue(game.current_pitcher)} | Pitches: ${formatValue(game.pitcher_pitch_count)}</div>
-        <div class="stat-row">Count: ${formatValue(game.count)} | Outs: ${formatValue(game.outs, 0)} | On Base: ${safeArray(game.bases).length ? game.bases.join(", ") : "Empty"}</div>
+
+        <div class="live-layout">
+          ${renderDiamond(game.bases)}
+          <div>
+            <div class="stat-row">Batter: ${formatValue(game.current_batter)}</div>
+            <div class="stat-row">Pitcher: ${formatValue(game.current_pitcher)} | Pitches: ${formatValue(game.pitcher_pitch_count)}</div>
+            <div class="stat-row">Count: ${formatValue(game.count)} | Outs: ${formatValue(game.outs, 0)}</div>
+            <div class="stat-row">Bases: ${game.bases?.first || game.bases?.second || game.bases?.third ? [
+              game.bases?.first ? "1B" : null,
+              game.bases?.second ? "2B" : null,
+              game.bases?.third ? "3B" : null
+            ].filter(Boolean).join(", ") : "Empty"}</div>
+          </div>
+        </div>
+
+        <div class="previous-play"><strong>Previous Play:</strong> ${formatValue(game.previous_play, "No previous play yet.")}</div>
+
         <div class="section-title-sm">Hot Hitters</div>
         ${renderList(game.hot_hitters, "No hitters flagged yet.")}
+
         <div class="section-title-sm">Dominant Pitchers</div>
         ${renderList(game.top_pitchers, "No pitchers flagged yet.")}
       </div>
@@ -688,8 +751,8 @@ async function refreshLiveOnly() {
 loadLive();
 loadDaily();
 loadDashboardRecap();
-
 setInterval(refreshLiveOnly, 30000);
 </script>
 </body>
 </html>
+
