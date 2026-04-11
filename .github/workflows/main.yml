@@ -24,6 +24,12 @@ jobs:
         with:
           fetch-depth: 0
 
+      - name: Sync with remote
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git pull --rebase origin main
+
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
@@ -39,11 +45,6 @@ jobs:
 
       - name: Commit updated data
         run: |
-          git config user.name "github-actions"
-          git config user.email "actions@github.com"
-
-          git pull --rebase origin main
-
           git add daily.json || true
           git add live.json || true
           git add postgame.json || true
@@ -52,5 +53,3 @@ jobs:
 
           git commit -m "Update MLB dashboard data" || echo "No changes"
           git push origin main
-
-
