@@ -6,21 +6,17 @@ permissions:
 on:
   workflow_dispatch:
   schedule:
-    # Runs every minute
     - cron: "* * * * *"
+
+concurrency:
+  group: live-mlb-dashboard
+  cancel-in-progress: true
 
 jobs:
   run-engine:
     runs-on: ubuntu-latest
-
-    # ✅ Explicitly inject the Groq API key into the runtime
     env:
       GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
-
-    # ✅ Prevent overlapping runs
-    concurrency:
-      group: live-mlb-dashboard
-      cancel-in-progress: true
 
     steps:
       - name: Checkout repository
@@ -37,16 +33,18 @@ jobs:
           pip install groq
 
       - name: Run MLB engine
-        run: python run_engine.py
+        run: python run_engine_fixed.py
 
       - name: Commit updated data
         run: |
           git config user.name "github-actions"
           git config user.email "actions@github.com"
 
-          # Add files only if they exist
-          git add daily.json live.json postgame.json || true
-          git add daily_recap.json || true
+          git add daily.json || true
+          git add live.json || true
+          git add postgame.json || true
+          git add yesterday_postgame.json || true
+          git add yesterday_recap.json || true
 
           git commit -m "Update MLB dashboard data" || echo "No changes"
           git push
