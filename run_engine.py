@@ -4,7 +4,7 @@ from datetime import datetime
 from urllib.request import urlopen
 from zoneinfo import ZoneInfo
 
-import openai
+from openai import OpenAI
 
 # =====================================================
 # CONFIG
@@ -16,7 +16,7 @@ NOW = datetime.now(MLB_TZ)
 TODAY = NOW.date().isoformat()
 SEASON = NOW.year
 
-openai.api_key = os.getenv("OPENAI_API_KEY")
+client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 
 # =====================================================
 # UTILITIES
@@ -333,7 +333,7 @@ for d in schedule.get("dates", []):
             })
 
 # =====================================================
-# REAL AI DAILY RECAP
+# REAL AI DAILY RECAP (OPENAI 1.x)
 # =====================================================
 
 def ai_daily_recap(postgame_games):
@@ -361,7 +361,7 @@ Games:
 {games_text}
 """
 
-    response = openai.ChatCompletion.create(
+    response = client.chat.completions.create(
         model="gpt-4o-mini",
         messages=[{"role": "user", "content": prompt}],
         temperature=0.7
