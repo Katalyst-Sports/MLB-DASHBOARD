@@ -324,12 +324,20 @@ for d in schedule.get("dates", []):
                             box["teams"][side]["players"][f"ID{pid}"]["person"]["fullName"]
                         )
 
-            postgame.append({
-                "game": f"{away['name']} @ {home['name']}",
-                "final_score": f"{lines['teams']['away']['runs']}–{lines['teams']['home']['runs']}",
-                "hitters": hitters,
-                "pitchers": pitchers
-            })
+            away_runs = lines["teams"]["away"]["runs"]
+home_runs = lines["teams"]["home"]["runs"]
+
+winner = away["name"] if away_runs > home_runs else home["name"]
+loser = home["name"] if away_runs > home_runs else away["name"]
+
+postgame.append({
+    "game": f"{away['name']} @ {home['name']}",
+    "winner": winner,
+    "loser": loser,
+    "final_score": f"{away_runs}–{home_runs}",
+    "hitters": hitters,
+    "pitchers": pitchers
+})
 
 # =====================================================
 # REAL AI DAILY RECAP (SAFE)
