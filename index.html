@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>MLB Performance Context</title>
 
 <style>
@@ -11,9 +12,11 @@ body {
   padding: 24px;
   max-width: 1200px;
   margin: auto;
+  color: #111827;
 }
 
 h1 { margin-bottom: 6px; }
+h2 { margin: 0 0 10px; }
 
 .subtitle {
   color: #555;
@@ -32,7 +35,7 @@ h1 { margin-bottom: 6px; }
   padding: 16px;
   border-radius: 12px;
   margin-bottom: 16px;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
 }
 
 .live {
@@ -43,10 +46,26 @@ h1 { margin-bottom: 6px; }
 .section {
   font-weight: 600;
   margin-top: 12px;
+  margin-bottom: 6px;
 }
 
-.hot { color: #dc2626; font-weight: 700; }
-.toggle { cursor: pointer; font-weight: 600; }
+.toggle {
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.muted {
+  color: #6b7280;
+}
+
+ul {
+  margin: 6px 0 0 18px;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 4px;
+}
 
 footer {
   margin-top: 48px;
@@ -67,146 +86,222 @@ Click a game to expand matchup details. Live games appear at the top.
 </div>
 
 <div class="timestamp">
-Live data last updated: <span id="updated">loading…</span>
+Live data last updated: <span id="updated">loading...</span>
 </div>
 
-<!-- ================= LIVE ================= -->
 <div id="live"></div>
-
-<!-- ================= FINAL RECAPS ================= -->
+<div id="ai-recap"></div>
 <div id="postgame"></div>
-
-<!-- ================= DAILY ================= -->
 <div id="games"></div>
 
-<!-- ================= LIVE SCRIPT ================= -->
 <script>
-fetch("./live.json?nocache=" + Date.now())
-  .then(r => r.json())
-  .then(d => {
-    if (d.updated_at) {
-      document.getElementById("updated").textContent =
-        new Date(d.updated_at).toLocaleString();
-    }
+function safeArray(value) {
+  return Array.isArray(value) ? value : [];
+}
 
-    const liveDiv = document.getElementById("live");
+function listMarkup(items, emptyText) {
+  const values = safeArray(items).filter(Boolean);
+  if (!values.length) {
+    return `<div class="muted">${emptyText}</div>`;
+  }
+  return `<ul>${values.map(item => `<li>${item}</li>`).join("")}</ul>`;
+}
+
+function pitcherMarkup(p) {
+  if (!p || !p.name) {
+    return '<div class="muted">No probable pitcher listed yet.</div>';
+  }
+
+  return `
+    <div><strong>${p.name}</strong></div>
+    <div>Throws: ${p.hand || "N/A"}</div>
+    <div>ERA: ${p.era || "N/A"}</div>
+  `;
+}
+
+function setUpdatedTimestamp(value) {
+  document.getElementById("updated").textContent =
+    value ? new Date(value).toLocaleString() : "Unavailable";
+}
+
+async function loadLive() {
+  const liveDiv = document.getElementById("live");
+
+  try {
+    const response = await fetch("./live.json?nocache=" + Date.now());
+    const data = await response.json();
+
+    setUpdatedTimestamp(data.updated_at);
     liveDiv.innerHTML = "";
 
-    if (!d.games || d.games.length === 0) {
+    if (!safeArray(data.games).length) {
       liveDiv.innerHTML = "<div class='card'>No games live right now.</div>";
       return;
     }
 
-    d.games.forEach(g => {
+    data.games.forEach(game => {
       liveDiv.innerHTML += `
         <div class="card live">
-          <strong>${g.game}</strong><br>
-          Score: ${g.score} | Inning: ${g.inning}<br><br>
-          <strong>Hot Hitters:</strong> ${g.hot_hitters.join(", ") || "None"}<br>
-          <strong>Dominant Pitchers:</strong> ${g.top_pitchers.join(", ") || "None"}
+          <strong>${game.game || "Live Game"}</strong><br>
+          Score: ${game.score || "0-0"} | Inning: ${game.inning || "TBD"}<br><br>
+          <strong>Hot Hitters</strong>
+          ${listMarkup(game.hot_hitters, "No hitters flagged yet.")}
+          <div class="section">Dominant Pitchers</div>
+          ${listMarkup(game.top_pitchers, "No pitchers flagged yet.")}
         </div>
       `;
     });
-  });
-</script>
-
-<!-- ================= AI DAILY RECAP ================= -->
-<div id="ai-recap"></div>
-
-<script>
-fetch("./daily_recap.json?nocache=" + Date.now())
-  .then(r => {
-    if (!r.ok) throw new Error("No AI recap yet");
-    return r.json();
-  })
-  .then(d => {
-    const el = document.getElementById("ai-recap");
-
-    el.innerHTML = `
+  } catch (error) {
+    liveDiv.innerHTML = `
       <div class="card">
-        <h2>${d.headline}</h2>
-        <p style="line-height:1.6;">
-          ${d.article.replace(/\n\n/g, "<br><br>")}
-        </p>
+        <strong>Live Games</strong><br>
+        <span class="muted">Could not load live.json.</span>
       </div>
     `;
-  })
-  .catch(() => {
-    document.getElementById("ai-recap").innerHTML = `
+    console.error(error);
+  }
+}
+
+async function loadRecap() {
+  const recapDiv = document.getElementById("ai-recap");
+
+  try {
+    const response = await fetch("./yesterday_recap.json?nocache=" + Date.now());
+    if (!response.ok) {
+      throw new Error("Recap file missing");
+    }
+
+    const data = await response.json();
+    recapDiv.innerHTML = `
+      <div class="card">
+        <h2>${data.headline || "Yesterday Recap"}</h2>
+        <p style="line-height:1.6; white-space:pre-wrap;">${data.article || "No recap available yet."}</p>
+      </div>
+    `;
+  } catch (error) {
+    recapDiv.innerHTML = `
       <div class="card">
         <strong>Final Recap</strong><br>
-        No AI recap available yet. Written recaps appear after games go final.
+        <span class="muted">No AI recap available yet. Written recaps appear after games go final.</span>
       </div>
     `;
-  });
-</script>
+    console.error(error);
+  }
+}
 
-<!-- ================= DAILY SCRIPT (RESTORED) ================= -->
-<script>
-fetch("./daily.json?nocache=" + Date.now())
-  .then(r => r.json())
-  .then(d => {
-    const gamesDiv = document.getElementById("games");
+async function loadPostgame() {
+  const postgameDiv = document.getElementById("postgame");
 
-    d.games.forEach((g, i) => {
-      const id = "game-" + i;
+  try {
+    const response = await fetch("./postgame.json?nocache=" + Date.now());
+    const data = await response.json();
+    const games = safeArray(data.games);
 
-      function pitcher(p) {
-        return `
-          ${p.name} (${p.hand}) — ERA ${p.era}<br>
-          Last 5: IP ${p.avg_ip}, K ${p.avg_k}, BB ${p.avg_bb}, WHIP ${p.whip}<br>
-          Command: ${p.command} (K/BB ${p.k_bb})
-          ${p.elite ? " 🔵 Elite" : p.quality ? " ✅ Quality" : ""}
-        `;
-      }
+    if (!games.length) {
+      postgameDiv.innerHTML = `
+        <div class="card">
+          <strong>Today's Finals</strong><br>
+          <span class="muted">No final games yet today.</span>
+        </div>
+      `;
+      return;
+    }
 
-      function hitters(list) {
-        return list.map(h => `
-          <div style="margin-bottom:10px;">
-            <strong>${h.name}</strong>
-            ${h.streak >= 3 ? `<span class="hot">🔥 ${h.streak}-game streak</span>` : ""}<br>
-            Season AVG ${h.stats.avg} | BIP/PA ${h.stats.bip_pa}<br>
-            vs RHP ${h.vsRHP.avg} (${h.vsRHP.hits} H) |
-            vs LHP ${h.vsLHP.avg} (${h.vsLHP.hits} H)<br>
-            Last 10 AB ${h.last10.avg} (${h.last10.hits}/${h.last10.ab})<br>
-            RISP AVG ${h.risp.avg}
-          </div>
-        `).join("");
-      }
+    postgameDiv.innerHTML = games.map(game => `
+      <div class="card">
+        <strong>${game.game || "Final"}</strong><br>
+        Final Score: ${game.final_score || "N/A"}<br>
+        Winner: ${game.winner || "N/A"}<br>
+        Loser: ${game.loser || "N/A"}
 
-      gamesDiv.innerHTML += `
+        <div class="section">Top Hitters</div>
+        ${listMarkup(game.hitters, "No hitter highlights captured.")}
+
+        <div class="section">Top Pitchers</div>
+        ${listMarkup(game.pitchers, "No pitcher highlights captured.")}
+      </div>
+    `).join("");
+  } catch (error) {
+    postgameDiv.innerHTML = `
+      <div class="card">
+        <strong>Today's Finals</strong><br>
+        <span class="muted">Could not load postgame.json.</span>
+      </div>
+    `;
+    console.error(error);
+  }
+}
+
+async function loadDaily() {
+  const gamesDiv = document.getElementById("games");
+
+  try {
+    const response = await fetch("./daily.json?nocache=" + Date.now());
+    const data = await response.json();
+    const games = safeArray(data.games);
+
+    if (!games.length) {
+      gamesDiv.innerHTML = `
+        <div class="card">
+          <strong>Today's Matchups</strong><br>
+          <span class="muted">No scheduled games found.</span>
+        </div>
+      `;
+      return;
+    }
+
+    gamesDiv.innerHTML = games.map((game, index) => {
+      const id = `game-${index}`;
+      const startText = game.start ? new Date(game.start).toLocaleString() : "TBD";
+
+      return `
         <div class="card">
           <div class="toggle" onclick="toggle('${id}')">
-            ▶ ${g.away_team} @ ${g.home_team}
+            ▶ ${game.away_team || "Away"} @ ${game.home_team || "Home"}
           </div>
 
-          <div id="${id}" style="display:none;margin-top:12px;">
-            <div class="section">Pitching</div>
-            Away: ${pitcher(g.away_pitcher)}<br><br>
-            Home: ${pitcher(g.home_pitcher)}<br>
+          <div class="muted" style="margin-top:6px;">
+            ${startText} | ${game.venue || "Venue TBD"} | ${game.status || "Scheduled"}
+          </div>
 
-            <div class="section">${g.away_team} Hitters</div>
-            ${hitters(g.away_hitters)}
+          <div id="${id}" style="display:none; margin-top:12px;">
+            <div class="section">Away Probable Pitcher</div>
+            ${pitcherMarkup(game.away_pitcher)}
 
-            <div class="section">${g.home_team} Hitters</div>
-            ${hitters(g.home_hitters)}
+            <div class="section">Home Probable Pitcher</div>
+            ${pitcherMarkup(game.home_pitcher)}
           </div>
         </div>
       `;
-    });
-  });
+    }).join("");
+  } catch (error) {
+    gamesDiv.innerHTML = `
+      <div class="card">
+        <strong>Today's Matchups</strong><br>
+        <span class="muted">Could not load daily.json.</span>
+      </div>
+    `;
+    console.error(error);
+  }
+}
 
 function toggle(id) {
   const el = document.getElementById(id);
+  if (!el) return;
   el.style.display = el.style.display === "none" ? "block" : "none";
 }
+
+loadLive();
+loadRecap();
+loadPostgame();
+loadDaily();
 </script>
 
 <footer>
 <strong>Disclaimer</strong><br>
 This dashboard is provided for informational and educational purposes only.
 All statistics, matchup context, performance indicators, and live updates
-are descriptive of historical or in‑game events as reported by publicly
+are descriptive of historical or in-game events as reported by publicly
 available Major League Baseball data sources. Information displayed may be
 incomplete, delayed, revised, or change at any time without notice.<br><br>
 
