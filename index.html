@@ -70,13 +70,13 @@ Click a game to expand matchup details. Live games appear at the top.
 Live data last updated: <span id="updated">loading…</span>
 </div>
 
-<!-- ================= LIVE GAMES ================= -->
+<!-- ================= LIVE ================= -->
 <div id="live"></div>
 
 <!-- ================= FINAL RECAPS ================= -->
 <div id="postgame"></div>
 
-<!-- ================= DAILY GAMES ================= -->
+<!-- ================= DAILY ================= -->
 <div id="games"></div>
 
 <!-- ================= LIVE SCRIPT ================= -->
@@ -141,7 +141,7 @@ fetch("./postgame.json?nocache=" + Date.now())
   });
 </script>
 
-<!-- ================= DAILY SCRIPT ================= -->
+<!-- ================= DAILY SCRIPT (RESTORED) ================= -->
 <script>
 fetch("./daily.json?nocache=" + Date.now())
   .then(r => r.json())
@@ -150,6 +150,30 @@ fetch("./daily.json?nocache=" + Date.now())
 
     d.games.forEach((g, i) => {
       const id = "game-" + i;
+
+      function pitcher(p) {
+        return `
+          ${p.name} (${p.hand}) — ERA ${p.era}<br>
+          Last 5: IP ${p.avg_ip}, K ${p.avg_k}, BB ${p.avg_bb}, WHIP ${p.whip}<br>
+          Command: ${p.command} (K/BB ${p.k_bb})
+          ${p.elite ? " 🔵 Elite" : p.quality ? " ✅ Quality" : ""}
+        `;
+      }
+
+      function hitters(list) {
+        return list.map(h => `
+          <div style="margin-bottom:10px;">
+            <strong>${h.name}</strong>
+            ${h.streak >= 3 ? `<span class="hot">🔥 ${h.streak}-game streak</span>` : ""}<br>
+            Season AVG ${h.stats.avg} | BIP/PA ${h.stats.bip_pa}<br>
+            vs RHP ${h.vsRHP.avg} (${h.vsRHP.hits} H) |
+            vs LHP ${h.vsLHP.avg} (${h.vsLHP.hits} H)<br>
+            Last 10 AB ${h.last10.avg} (${h.last10.hits}/${h.last10.ab})<br>
+            RISP AVG ${h.risp.avg}
+          </div>
+        `).join("");
+      }
+
       gamesDiv.innerHTML += `
         <div class="card">
           <div class="toggle" onclick="toggle('${id}')">
@@ -158,10 +182,17 @@ fetch("./daily.json?nocache=" + Date.now())
 
           <div id="${id}" style="display:none;margin-top:12px;">
             <div class="section">Pitching</div>
-            Away: ${g.away_pitcher.name} — ERA ${g.away_pitcher.era}<br>
-            Home: ${g.home_pitcher.name} — ERA ${g.home_pitcher.era}
+            Away: ${pitcher(g.away_pitcher)}<br><br>
+            Home: ${pitcher(g.home_pitcher)}<br>
+
+            <div class="section">${g.away_team} Hitters</div>
+            ${hitters(g.away_hitters)}
+
+            <div class="section">${g.home_team} Hitters</div>
+            ${hitters(g.home_hitters)}
           </div>
-        </div>`;
+        </div>
+      `;
     });
   });
 
@@ -174,8 +205,18 @@ function toggle(id) {
 <footer>
 <strong>Disclaimer</strong><br>
 This dashboard is provided for informational and educational purposes only.
-All statistics and live updates are descriptive and may be delayed or revised.
-This is not gambling, financial, or predictive advice.
+All statistics, matchup context, performance indicators, and live updates
+are descriptive of historical or in‑game events as reported by publicly
+available Major League Baseball data sources. Information displayed may be
+incomplete, delayed, revised, or change at any time without notice.<br><br>
+
+This dashboard does <strong>not</strong> constitute gambling advice, betting
+recommendations, financial advice, or predictions of outcomes. No guarantees
+of accuracy, completeness, or future performance are made. Users are solely
+responsible for how they interpret and use any information presented.<br><br>
+
+This is a personal analytics and visualization tool and is not intended for
+commercial use or distribution.
 </footer>
 
 </body>
