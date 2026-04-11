@@ -306,9 +306,16 @@ body {
 
 .live-strip {
   display: grid;
-  grid-template-columns: 1.45fr 1.45fr 0.7fr 0.7fr 0.95fr;
+  grid-template-columns: 1.45fr 1.45fr 0.8fr 1fr;
   gap: 8px;
   margin-top: 10px;
+  align-items: stretch;
+}
+
+.live-state-stack {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  gap: 8px;
 }
 
 .live-chip {
@@ -316,6 +323,14 @@ body {
   border-radius: 12px;
   background: rgba(255,255,255,0.04);
   border: 1px solid rgba(148, 163, 184, 0.12);
+}
+
+.live-chip-player {
+  min-height: 78px;
+}
+
+.live-chip-compact {
+  min-height: 35px;
 }
 
 .live-chip-label {
@@ -328,11 +343,18 @@ body {
 }
 
 .live-chip-value {
-  font-size: 13px;
+  font-size: 12px;
   color: #eef4ff;
   font-weight: 700;
-  line-height: 1.35;
-  word-break: break-word;
+  line-height: 1.3;
+  white-space: normal;
+  word-break: normal;
+  overflow-wrap: break-word;
+}
+
+.live-chip-value.long-name {
+  font-size: 11px;
+  line-height: 1.2;
 }
 
 .live-middle {
@@ -420,7 +442,7 @@ footer {
   }
 
   .live-strip {
-    grid-template-columns: 1.25fr 1.25fr 0.7fr 0.7fr 0.9fr;
+    grid-template-columns: 1.25fr 1.25fr 0.8fr 0.95fr;
   }
 }
 
@@ -619,6 +641,30 @@ function matchupBadgesOnly(awayTeam, homeTeam) {
   `;
 }
 
+function formatPlayerChip(name) {
+  const value = formatValue(name);
+  if (value === "N/A") {
+    return { text: value, className: "" };
+  }
+
+  if (value.length <= 14) {
+    return { text: value, className: "" };
+  }
+
+  const parts = value.trim().split(/\s+/);
+  if (parts.length < 2) {
+    return { text: value, className: "long-name" };
+  }
+
+  const shortened = `${parts[0][0]}. ${parts.slice(1).join(" ")}`;
+  return { text: shortened, className: "long-name" };
+}
+
+function renderPlayerChip(name) {
+  const formatted = formatPlayerChip(name);
+  return `<div class="live-chip-value ${formatted.className}">${formatted.text}</div>`;
+}
+
 function renderPitcher(p) {
   if (!p || !p.name) {
     return `<div class="muted">No probable pitcher listed yet.</div>`;
@@ -724,23 +770,28 @@ async function loadLive() {
         </div>
 
         <div class="live-strip">
-          <div class="live-chip">
+          <div class="live-chip live-chip-player">
             <div class="live-chip-label">Batter</div>
-            <div class="live-chip-value">${formatValue(game.current_batter)}</div>
+            ${renderPlayerChip(game.current_batter)}
           </div>
-          <div class="live-chip">
+
+          <div class="live-chip live-chip-player">
             <div class="live-chip-label">Pitcher</div>
-            <div class="live-chip-value">${formatValue(game.current_pitcher)}</div>
+            ${renderPlayerChip(game.current_pitcher)}
           </div>
-          <div class="live-chip">
-            <div class="live-chip-label">Count</div>
-            <div class="live-chip-value">${formatValue(game.count)}</div>
+
+          <div class="live-state-stack">
+            <div class="live-chip live-chip-compact">
+              <div class="live-chip-label">Count</div>
+              <div class="live-chip-value">${formatValue(game.count)}</div>
+            </div>
+            <div class="live-chip live-chip-compact">
+              <div class="live-chip-label">Outs</div>
+              <div class="live-chip-value">${formatValue(game.outs, 0)}</div>
+            </div>
           </div>
-          <div class="live-chip">
-            <div class="live-chip-label">Outs</div>
-            <div class="live-chip-value">${formatValue(game.outs, 0)}</div>
-          </div>
-          <div class="live-chip">
+
+          <div class="live-chip live-chip-player">
             <div class="live-chip-label">Runners On</div>
             <div class="live-chip-value">${game.bases?.first || game.bases?.second || game.bases?.third ? [
               game.bases?.first ? "1B" : null,
