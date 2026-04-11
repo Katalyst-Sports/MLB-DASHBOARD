@@ -849,6 +849,13 @@ function toggle(id) {
   el.style.display = el.style.display === "none" ? "block" : "none";
 }
 
+function clearPlayerSearchState() {
+  activePlayerId = null;
+  document.getElementById("player-search-result").innerHTML = "";
+  document.getElementById("player-search-suggestions").style.display = "none";
+  document.getElementById("player-search-suggestions").innerHTML = "";
+}
+
 function renderSuggestions(players) {
   const el = document.getElementById("player-search-suggestions");
   if (!players.length) {
@@ -996,7 +1003,7 @@ async function runSearchFromInput() {
   const suggestions = document.getElementById("player-search-suggestions");
 
   if (!q) {
-    document.getElementById("player-search-result").innerHTML = `<div class="muted">Enter a player name to search.</div>`;
+    clearPlayerSearchState();
     return;
   }
 
@@ -1250,13 +1257,27 @@ async function refreshLiveOnly() {
 document.getElementById("player-search-button").addEventListener("click", runSearchFromInput);
 
 document.getElementById("player-search-input").addEventListener("input", () => {
+  const input = document.getElementById("player-search-input");
+  const value = input.value.trim();
+
   clearTimeout(suggestionTimer);
+
+  if (!value) {
+    clearPlayerSearchState();
+    return;
+  }
+
   suggestionTimer = setTimeout(searchSuggestions, 220);
 });
 
 document.getElementById("player-search-input").addEventListener("keydown", (event) => {
   if (event.key === "Enter") {
     runSearchFromInput();
+  }
+
+  if (event.key === "Escape") {
+    document.getElementById("player-search-input").value = "";
+    clearPlayerSearchState();
   }
 });
 
@@ -1276,3 +1297,4 @@ setInterval(refreshLiveOnly, 30000);
 </script>
 </body>
 </html>
+
