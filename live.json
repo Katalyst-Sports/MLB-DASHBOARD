@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-11T14:53:32.295030-04:00",
+  "updated_at": "2026-04-11T15:08:57.499525-04:00",
   "games": [
     {
       "gamePk": 823480,
@@ -13,15 +13,13 @@
         "Bryce Harper",
         "Justin Crawford"
       ],
-      "top_pitchers": [
-        "Brandon Pfaadt"
-      ]
+      "top_pitchers": []
     },
     {
       "gamePk": 824294,
       "game": "Miami Marlins @ Detroit Tigers",
       "score": "1-5",
-      "inning": "6th",
+      "inning": "7th",
       "hot_hitters": [
         "Otto Lopez",
         "Riley Greene"
@@ -31,9 +29,12 @@
     {
       "gamePk": 824697,
       "game": "Pittsburgh Pirates @ Chicago Cubs",
-      "score": "1-0",
-      "inning": "2nd",
-      "hot_hitters": [],
+      "score": "3-0",
+      "inning": "3rd",
+      "hot_hitters": [
+        "Oneil Cruz",
+        "Nick Yorke"
+      ],
       "top_pitchers": []
     },
     {

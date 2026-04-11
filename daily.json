@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-11T14:53:32.295030-04:00",
+  "updated_at": "2026-04-11T15:08:57.499525-04:00",
   "games": [
     {
       "gamePk": 823480,
@@ -15,15 +15,15 @@
         "era": "5.94",
         "last3": {
           "starts_used": 3,
-          "avg_ip": "5.4",
+          "avg_ip": "5.6",
           "avg_k": "3.7",
           "avg_bb": "2.0",
-          "avg_era": "6.06",
-          "whip": "1.41",
-          "quality_starts": 0,
+          "avg_era": "5.94",
+          "whip": "1.38",
+          "quality_starts": 1,
           "wins": 0,
           "last_start": {
-            "ip": "5.2",
+            "ip": "6.0",
             "k": 6,
             "bb": 3,
             "er": 3,
@@ -160,18 +160,18 @@
           "hot": false,
           "cold": false,
           "stats": {
-            "avg": ".174",
-            "obp": ".191",
-            "slg": ".196",
-            "ops": ".387",
-            "pa": 47
+            "avg": ".170",
+            "obp": ".188",
+            "slg": ".191",
+            "ops": ".379",
+            "pa": 48
           },
           "last10": {
             "label": "Last 10 games",
-            "avg": ".200",
+            "avg": ".194",
             "hits": 7,
-            "ab": 35,
-            "pa": 36
+            "ab": 36,
+            "pa": 37
           },
           "vsRHP": {
             "avg": ".179",
@@ -225,17 +225,17 @@
           "cold": true,
           "stats": {
             "avg": ".146",
-            "obp": ".186",
+            "obp": ".205",
             "slg": ".244",
-            "ops": ".430",
-            "pa": 43
+            "ops": ".449",
+            "pa": 44
           },
           "last10": {
             "label": "Last 10 games",
             "avg": ".114",
             "hits": 4,
             "ab": 35,
-            "pa": 36
+            "pa": 37
           },
           "vsRHP": {
             "avg": ".036",
@@ -290,18 +290,18 @@
           "hot": false,
           "cold": false,
           "stats": {
-            "avg": ".191",
-            "obp": ".377",
-            "slg": ".489",
-            "ops": ".866",
-            "pa": 61
+            "avg": ".188",
+            "obp": ".371",
+            "slg": ".479",
+            "ops": ".850",
+            "pa": 62
           },
           "last10": {
             "label": "Last 10 games",
-            "avg": ".226",
+            "avg": ".219",
             "hits": 7,
-            "ab": 31,
-            "pa": 43
+            "ab": 32,
+            "pa": 44
           },
           "vsRHP": {
             "avg": ".208",
@@ -509,17 +509,17 @@
           "cold": true,
           "stats": {
             "avg": ".140",
-            "obp": ".242",
+            "obp": ".254",
             "slg": ".193",
-            "ops": ".435",
-            "pa": 66
+            "ops": ".447",
+            "pa": 67
           },
           "last10": {
             "label": "Last 10 games",
             "avg": ".132",
             "hits": 5,
             "ab": 38,
-            "pa": 45
+            "pa": 46
           },
           "vsRHP": {
             "avg": ".118",
@@ -540,18 +540,18 @@
           "hot": false,
           "cold": false,
           "stats": {
-            "avg": ".364",
-            "obp": ".417",
-            "slg": ".545",
-            "ops": ".962",
-            "pa": 61
+            "avg": ".357",
+            "obp": ".410",
+            "slg": ".536",
+            "ops": ".946",
+            "pa": 62
           },
           "last10": {
             "label": "Last 10 games",
-            "avg": ".333",
+            "avg": ".324",
             "hits": 12,
-            "ab": 36,
-            "pa": 40
+            "ab": 37,
+            "pa": 41
           },
           "vsRHP": {
             "avg": ".429",
@@ -572,18 +572,18 @@
           "hot": false,
           "cold": false,
           "stats": {
-            "avg": ".235",
-            "obp": ".339",
-            "slg": ".333",
-            "ops": ".672",
-            "pa": 59
+            "avg": ".231",
+            "obp": ".333",
+            "slg": ".327",
+            "ops": ".660",
+            "pa": 60
           },
           "last10": {
             "label": "Last 10 games",
-            "avg": ".256",
+            "avg": ".250",
             "hits": 10,
-            "ab": 39,
-            "pa": 43
+            "ab": 40,
+            "pa": 44
           },
           "vsRHP": {
             "avg": ".250",
@@ -799,17 +799,17 @@
           "cold": false,
           "stats": {
             "avg": ".190",
-            "obp": ".358",
+            "obp": ".370",
             "slg": ".238",
-            "ops": ".596",
-            "pa": 53
+            "ops": ".608",
+            "pa": 54
           },
           "last10": {
             "label": "Last 10 games",
             "avg": ".192",
             "hits": 5,
             "ab": 26,
-            "pa": 35
+            "pa": 36
           },
           "vsRHP": {
             "avg": ".189",
@@ -903,16 +903,16 @@
         "era": "1.93",
         "last3": {
           "starts_used": 3,
-          "avg_ip": "4.6",
-          "avg_k": "5.0",
+          "avg_ip": "4.7",
+          "avg_k": "5.3",
           "avg_bb": "1.3",
-          "avg_era": "1.98",
-          "whip": "0.95",
+          "avg_era": "1.93",
+          "whip": "0.93",
           "quality_starts": 2,
           "wins": 0,
           "last_start": {
-            "ip": "1.2",
-            "k": 4,
+            "ip": "2.0",
+            "k": 5,
             "bb": 0,
             "er": 0,
             "hits": 1,
@@ -924,22 +924,22 @@
         "id": 665795,
         "name": "Edward Cabrera",
         "hand": "R",
-        "era": "0.66",
+        "era": "1.88",
         "last3": {
           "starts_used": 3,
-          "avg_ip": "4.6",
-          "avg_k": "3.7",
-          "avg_bb": "2.3",
-          "avg_era": "0.66",
-          "whip": "0.88",
+          "avg_ip": "4.9",
+          "avg_k": "4.0",
+          "avg_bb": "2.7",
+          "avg_era": "1.84",
+          "whip": "1.09",
           "quality_starts": 1,
           "wins": 0,
           "last_start": {
-            "ip": "2.0",
-            "k": 2,
-            "bb": 1,
-            "er": 1,
-            "hits": 3,
+            "ip": "3.0",
+            "k": 3,
+            "bb": 2,
+            "er": 3,
+            "hits": 6,
             "decision": "N/A"
           }
         }
@@ -948,22 +948,22 @@
         {
           "name": "Bryan Reynolds",
           "hand": "S",
-          "streak": 0,
+          "streak": 2,
           "hot": false,
           "cold": false,
           "stats": {
-            "avg": ".240",
-            "obp": ".339",
-            "slg": ".440",
-            "ops": ".779",
-            "pa": 59
+            "avg": ".255",
+            "obp": ".350",
+            "slg": ".451",
+            "ops": ".801",
+            "pa": 60
           },
           "last10": {
             "label": "Last 10 games",
-            "avg": ".281",
-            "hits": 9,
-            "ab": 32,
-            "pa": 40
+            "avg": ".303",
+            "hits": 10,
+            "ab": 33,
+            "pa": 41
           },
           "vsRHP": {
             "avg": ".233",
@@ -984,18 +984,18 @@
           "hot": true,
           "cold": false,
           "stats": {
-            "avg": ".314",
-            "obp": ".364",
-            "slg": ".588",
-            "ops": ".952",
-            "pa": 55
+            "avg": ".327",
+            "obp": ".375",
+            "slg": ".596",
+            "ops": ".971",
+            "pa": 56
           },
           "last10": {
             "label": "Last 10 games",
-            "avg": ".378",
-            "hits": 14,
-            "ab": 37,
-            "pa": 40
+            "avg": ".395",
+            "hits": 15,
+            "ab": 38,
+            "pa": 41
           },
           "vsRHP": {
             "avg": ".200",
@@ -1017,17 +1017,17 @@
           "cold": false,
           "stats": {
             "avg": ".333",
-            "obp": ".426",
+            "obp": ".418",
             "slg": ".578",
-            "ops": "1.004",
-            "pa": 54
+            "ops": ".996",
+            "pa": 55
           },
           "last10": {
             "label": "Last 10 games",
             "avg": ".290",
             "hits": 9,
             "ab": 31,
-            "pa": 39
+            "pa": 40
           },
           "vsRHP": {
             "avg": ".370",
@@ -1049,17 +1049,17 @@
           "cold": false,
           "stats": {
             "avg": ".214",
-            "obp": ".327",
+            "obp": ".340",
             "slg": ".476",
-            "ops": ".803",
-            "pa": 49
+            "ops": ".816",
+            "pa": 50
           },
           "last10": {
             "label": "Last 10 games",
             "avg": ".182",
             "hits": 6,
             "ab": 33,
-            "pa": 40
+            "pa": 41
           },
           "vsRHP": {
             "avg": ".320",
@@ -1112,18 +1112,18 @@
           "hot": false,
           "cold": true,
           "stats": {
-            "avg": ".057",
-            "obp": ".175",
-            "slg": ".057",
-            "ops": ".232",
-            "pa": 40
+            "avg": ".056",
+            "obp": ".171",
+            "slg": ".056",
+            "ops": ".227",
+            "pa": 41
           },
           "last10": {
             "label": "Last 10 games",
-            "avg": ".057",
+            "avg": ".056",
             "hits": 2,
-            "ab": 35,
-            "pa": 40
+            "ab": 36,
+            "pa": 41
           },
           "vsRHP": {
             "avg": ".045",
@@ -1370,20 +1370,20 @@
         "hand": "L",
         "era": "4.91",
         "last3": {
-          "starts_used": 2,
-          "avg_ip": "3.7",
-          "avg_k": "4.5",
-          "avg_bb": "2.0",
-          "avg_era": "4.91",
-          "whip": "1.36",
+          "starts_used": 3,
+          "avg_ip": "2.6",
+          "avg_k": "3.0",
+          "avg_bb": "1.3",
+          "avg_era": "4.70",
+          "whip": "1.30",
           "quality_starts": 0,
           "wins": 0,
           "last_start": {
-            "ip": "2.0",
+            "ip": "0.1",
             "k": 0,
-            "bb": 3,
-            "er": 2,
-            "hits": 3,
+            "bb": 0,
+            "er": 0,
+            "hits": 0,
             "decision": "N/A"
           }
         }
@@ -1460,18 +1460,18 @@
           "hot": false,
           "cold": true,
           "stats": {
-            "avg": ".180",
-            "obp": ".263",
-            "slg": ".280",
-            "ops": ".543",
-            "pa": 57
+            "avg": ".176",
+            "obp": ".259",
+            "slg": ".275",
+            "ops": ".534",
+            "pa": 58
           },
           "last10": {
             "label": "Last 10 games",
-            "avg": ".132",
+            "avg": ".143",
             "hits": 5,
-            "ab": 38,
-            "pa": 44
+            "ab": 35,
+            "pa": 41
           },
           "vsRHP": {
             "avg": ".185",
@@ -1618,7 +1618,7 @@
         {
           "name": "Vladimir Guerrero Jr.",
           "hand": "R",
-          "streak": 2,
+          "streak": 0,
           "hot": false,
           "cold": false,
           "stats": {
@@ -1630,10 +1630,10 @@
           },
           "last10": {
             "label": "Last 10 games",
-            "avg": ".278",
+            "avg": ".303",
             "hits": 10,
-            "ab": 36,
-            "pa": 42
+            "ab": 33,
+            "pa": 39
           },
           "vsRHP": {
             "avg": ".333",
