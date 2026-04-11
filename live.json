@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-04-10T23:23:33.192552-04:00",
+  "updated_at": "2026-04-10T23:33:56.731812-04:00",
   "games": [
     {
       "game": "Colorado Rockies @ San Diego Padres",
-      "score": "0\u20132",
+      "score": "1\u20132",
       "inning": "8th",
       "hot_hitters": [
         "Luis Campusano"
@@ -12,14 +12,16 @@
     },
     {
       "game": "Houston Astros @ Seattle Mariners",
-      "score": "3\u20133",
+      "score": "3\u20135",
       "inning": "5th",
-      "hot_hitters": [],
+      "hot_hitters": [
+        "Randy Arozarena"
+      ],
       "top_pitchers": []
     },
     {
       "game": "Texas Rangers @ Los Angeles Dodgers",
-      "score": "4\u20132",
+      "score": "4\u20133",
       "inning": "5th",
       "hot_hitters": [
         "Max Muncy"

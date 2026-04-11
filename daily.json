@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-10T23:23:33.192552-04:00",
+  "updated_at": "2026-04-10T23:33:56.731812-04:00",
   "games": [
     {
       "away_team": "Pittsburgh Pirates",
@@ -5756,8 +5756,8 @@
         {
           "name": "Brenton Doyle",
           "stats": {
-            "avg": ".167",
-            "bip_pa": 0.54
+            "avg": ".186",
+            "bip_pa": 0.55
           },
           "vsRHP": {
             "avg": ".182",
@@ -5774,14 +5774,14 @@
           },
           "streak": 0,
           "risp": {
-            "avg": ".167"
+            "avg": ".186"
           }
         },
         {
           "name": "Brett Sullivan",
           "stats": {
-            "avg": ".294",
-            "bip_pa": 0.78
+            "avg": ".278",
+            "bip_pa": 0.79
           },
           "vsRHP": {
             "avg": ".364",
@@ -5798,7 +5798,7 @@
           },
           "streak": 0,
           "risp": {
-            "avg": ".294"
+            "avg": ".278"
           }
         },
         {
@@ -5870,7 +5870,7 @@
           },
           "streak": 5,
           "risp": {
-            "avg": ".239"
+            "avg": ".255"
           }
         },
         {
@@ -5924,8 +5924,8 @@
         {
           "name": "Kyle Karros",
           "stats": {
-            "avg": ".211",
-            "bip_pa": 0.59
+            "avg": ".205",
+            "bip_pa": 0.6
           },
           "vsRHP": {
             "avg": ".179",
@@ -5942,7 +5942,7 @@
           },
           "streak": 1,
           "risp": {
-            "avg": ".211"
+            "avg": ".205"
           }
         },
         {
@@ -6499,7 +6499,7 @@
           "name": "Cole Young",
           "stats": {
             "avg": ".255",
-            "bip_pa": 0.6
+            "bip_pa": 0.59
           },
           "vsRHP": {
             "avg": ".200",
@@ -6678,11 +6678,11 @@
           "vsRHB": "N/A",
           "vsLHB": "N/A"
         },
-        "avg_ip": 4.5,
+        "avg_ip": 4.67,
         "avg_k": 4.0,
-        "avg_bb": 0.5,
-        "whip": 1.11,
-        "k_bb": 8.0,
+        "avg_bb": 1.0,
+        "whip": 1.39,
+        "k_bb": 4.0,
         "command": "Elite Command",
         "quality": false,
         "elite": false
@@ -6950,8 +6950,8 @@
         {
           "name": "Alex Freeland",
           "stats": {
-            "avg": ".242",
-            "bip_pa": 0.58
+            "avg": ".265",
+            "bip_pa": 0.59
           },
           "vsRHP": {
             "avg": ".280",
@@ -6968,14 +6968,14 @@
           },
           "streak": 1,
           "risp": {
-            "avg": ".242"
+            "avg": ".265"
           }
         },
         {
           "name": "Andy Pages",
           "stats": {
             "avg": ".426",
-            "bip_pa": 0.63
+            "bip_pa": 0.62
           },
           "vsRHP": {
             "avg": ".457",
