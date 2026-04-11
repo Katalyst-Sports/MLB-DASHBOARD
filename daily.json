@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-11T00:04:27.450131-04:00",
+  "updated_at": "2026-04-11T00:12:26.953516-04:00",
   "games": [
     {
       "away_team": "Arizona Diamondbacks",
@@ -6070,8 +6070,8 @@
         {
           "name": "Jackson Merrill",
           "stats": {
-            "avg": ".173",
-            "bip_pa": 0.7
+            "avg": ".189",
+            "bip_pa": 0.71
           },
           "vsRHP": {
             "avg": ".162",
@@ -6088,7 +6088,7 @@
           },
           "streak": 0,
           "risp": {
-            "avg": ".173"
+            "avg": ".189"
           }
         },
         {
@@ -6143,7 +6143,7 @@
           "name": "Manny Machado",
           "stats": {
             "avg": ".195",
-            "bip_pa": 0.53
+            "bip_pa": 0.52
           },
           "vsRHP": {
             "avg": ".172",
@@ -6256,8 +6256,8 @@
         {
           "name": "Brandon Nimmo",
           "stats": {
-            "avg": ".340",
-            "bip_pa": 0.69
+            "avg": ".333",
+            "bip_pa": 0.68
           },
           "vsRHP": {
             "avg": ".324",
@@ -6274,7 +6274,7 @@
           },
           "streak": 0,
           "risp": {
-            "avg": ".340"
+            "avg": ".333"
           }
         },
         {
@@ -6425,7 +6425,7 @@
           "name": "Josh Jung",
           "stats": {
             "avg": ".176",
-            "bip_pa": 0.71
+            "bip_pa": 0.69
           },
           "vsRHP": {
             "avg": ".227",
@@ -6594,8 +6594,8 @@
         {
           "name": "Kyle Tucker",
           "stats": {
-            "avg": ".261",
-            "bip_pa": 0.58
+            "avg": ".277",
+            "bip_pa": 0.59
           },
           "vsRHP": {
             "avg": ".333",
@@ -6612,7 +6612,7 @@
           },
           "streak": 2,
           "risp": {
-            "avg": ".261"
+            "avg": ".277"
           }
         },
         {
@@ -6736,7 +6736,7 @@
             "bip_pa": 0.56
           },
           "vsRHP": {
-            "avg": ".310",
+            "avg": ".300",
             "hits": 9
           },
           "vsLHP": {
@@ -6760,7 +6760,7 @@
             "bip_pa": 0.75
           },
           "vsRHP": {
-            "avg": ".308",
+            "avg": ".296",
             "hits": 8
           },
           "vsLHP": {
@@ -6808,11 +6808,11 @@
             "bip_pa": 0.71
           },
           "vsRHP": {
-            "avg": ".394",
+            "avg": ".382",
             "hits": 13
           },
           "vsLHP": {
-            "avg": ".235",
+            "avg": ".222",
             "hits": 4
           },
           "last10": {
@@ -6880,8 +6880,8 @@
             "bip_pa": 0.62
           },
           "vsRHP": {
-            "avg": ".286",
-            "hits": 8
+            "avg": ".310",
+            "hits": 9
           },
           "vsLHP": {
             "avg": ".167",
@@ -6908,7 +6908,7 @@
             "hits": 8
           },
           "vsLHP": {
-            "avg": ".389",
+            "avg": ".368",
             "hits": 7
           },
           "last10": {
@@ -6974,8 +6974,8 @@
         {
           "name": "Cole Young",
           "stats": {
-            "avg": ".255",
-            "bip_pa": 0.59
+            "avg": ".271",
+            "bip_pa": 0.6
           },
           "vsRHP": {
             "avg": ".200",
@@ -6992,7 +6992,7 @@
           },
           "streak": 0,
           "risp": {
-            "avg": ".255"
+            "avg": ".271"
           }
         },
         {
@@ -7022,8 +7022,8 @@
         {
           "name": "Dominic Canzone",
           "stats": {
-            "avg": ".185",
-            "bip_pa": 0.66
+            "avg": ".214",
+            "bip_pa": 0.67
           },
           "vsRHP": {
             "avg": ".208",
@@ -7040,14 +7040,14 @@
           },
           "streak": 1,
           "risp": {
-            "avg": ".185"
+            "avg": ".214"
           }
         },
         {
           "name": "J.P. Crawford",
           "stats": {
-            "avg": ".105",
-            "bip_pa": 0.44
+            "avg": ".150",
+            "bip_pa": 0.46
           },
           "vsRHP": {
             "avg": ".154",
@@ -7064,7 +7064,7 @@
           },
           "streak": 0,
           "risp": {
-            "avg": ".105"
+            "avg": ".150"
           }
         },
         {
@@ -7119,7 +7119,7 @@
           "name": "Leo Rivas",
           "stats": {
             "avg": ".167",
-            "bip_pa": 0.52
+            "bip_pa": 0.51
           },
           "vsRHP": {
             "avg": ".174",
