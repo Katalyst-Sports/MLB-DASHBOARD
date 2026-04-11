@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-04-10T20:06:50.017109-04:00",
+  "updated_at": "2026-04-10T20:19:09.124148-04:00",
   "games": [
     {
       "game": "Arizona Diamondbacks @ Philadelphia Phillies",
       "score": "5\u20134",
-      "inning": "5th",
+      "inning": "6th",
       "hot_hitters": [
         "Bryce Harper"
       ],
@@ -15,7 +15,7 @@
     {
       "game": "Miami Marlins @ Detroit Tigers",
       "score": "0\u20132",
-      "inning": "5th",
+      "inning": "7th",
       "hot_hitters": [
         "Colt Keith"
       ],
@@ -23,16 +23,19 @@
     },
     {
       "game": "Los Angeles Angels @ Cincinnati Reds",
-      "score": "4\u20130",
-      "inning": "5th",
-      "hot_hitters": [],
+      "score": "5\u20131",
+      "inning": "6th",
+      "hot_hitters": [
+        "Josh Lowe"
+      ],
       "top_pitchers": []
     },
     {
       "game": "Minnesota Twins @ Toronto Blue Jays",
-      "score": "4\u20130",
+      "score": "4\u20132",
       "inning": "4th",
       "hot_hitters": [
+        "Austin Martin",
         "Ryan Jeffers"
       ],
       "top_pitchers": []
@@ -49,28 +52,34 @@
       "score": "2\u20133",
       "inning": "4th",
       "hot_hitters": [],
-      "top_pitchers": []
+      "top_pitchers": [
+        "Steven Matz"
+      ]
     },
     {
       "game": "San Francisco Giants @ Baltimore Orioles",
-      "score": "1\u20130",
-      "inning": "3rd",
-      "hot_hitters": [],
+      "score": "2\u20130",
+      "inning": "4th",
+      "hot_hitters": [
+        "Adley Rutschman"
+      ],
       "top_pitchers": []
     },
     {
       "game": "Cleveland Guardians @ Atlanta Braves",
       "score": "1\u20131",
-      "inning": "4th",
+      "inning": "5th",
       "hot_hitters": [],
       "top_pitchers": []
     },
     {
       "game": "Chicago White Sox @ Kansas City Royals",
       "score": "0\u20130",
-      "inning": "2nd",
+      "inning": "3rd",
       "hot_hitters": [],
-      "top_pitchers": []
+      "top_pitchers": [
+        "Kris Bubic"
+      ]
     },
     {
       "game": "Washington Nationals @ Milwaukee Brewers",
