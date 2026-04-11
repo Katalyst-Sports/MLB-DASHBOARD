@@ -451,6 +451,7 @@ def season_leaders():
             "run_prevention": [],
         }
 
+
 def build_dashboard_recap(yesterday_postgame):
     dashboard = {
         "featured_games": [],
@@ -589,108 +590,6 @@ Games:
     dashboard["context_layer"]["standout_performances"] = top_hitter_lines[:3]
     dashboard["context_layer"]["team_trends"] = [
         f"{game['winner']} added a win in {game['game']} behind strong pitching and timely offense."
-        for game in yesterday_postgame[:3]
-    ]
-
-    return dashboard
-
-  "featured_games": [
-    {{
-      "game": "...",
-      "final_score": "...",
-      "winner": "...",
-      "loser": "...",
-      "summary": "1-2 sentence concise recap",
-      "key_stats": ["...", "...", "..."]
-    }}
-  ],
-  "all_games": [
-    {{
-      "game": "...",
-      "final_score": "...",
-      "top_pitching_line": "...",
-      "top_batting_line": "...",
-      "summary": "2-3 sentence game recap",
-      "impact_player": "...",
-      "key_insight": "One concise insight line"
-    }}
-  ],
-  "context_layer": {{
-    "momentum_shifts": ["...", "...", "..."],
-    "standout_performances": ["...", "...", "..."],
-    "team_trends": ["...", "...", "..."]
-  }}
-}}
-
-Rules:
-- Use only the exact stats provided.
-- Do not invent numbers or events.
-- Include the key offensive play when provided, especially home runs or multi-RBI performances.
-- Avoid vague phrases like "timely hit" if an exact home run or RBI line is available.
-- Keep summaries tight, analytical, and readable.
-- "featured_games" should contain 3 or 4 games.
-- "all_games" should include every game.
-- Output JSON only.
-
-Games:
-{raw_games}
-"""
-
-            response = client.chat.completions.create(
-                model="llama-3.1-8b-instant",
-                messages=[{"role": "user", "content": prompt}],
-                temperature=0.2,
-            )
-
-            content = response.choices[0].message.content.strip()
-            parsed = json.loads(content)
-            parsed["season_leaders"] = dashboard["season_leaders"]
-            return parsed
-        except Exception:
-            pass
-
-    dashboard["featured_games"] = [
-        {
-            "game": game["game"],
-            "final_score": game["final_score"],
-            "winner": game["winner"],
-            "loser": game["loser"],
-            "summary": game["pitcher_lines"][0] if game["pitcher_lines"] else "No summary available.",
-            "key_stats": (game["hitter_lines"][:2] + game["pitcher_lines"][:1])[:3],
-        }
-        for game in yesterday_postgame[:4]
-    ]
-
-    dashboard["all_games"] = []
-    for game in yesterday_postgame:
-        top_pitch = game["pitcher_lines"][0] if game["pitcher_lines"] else "No top pitching line available"
-        top_hit = game["hitter_lines"][0] if game["hitter_lines"] else "No top batting line available"
-        summary = f"{game['winner']} beat {game['loser']} {game['final_score']}. {top_pitch}. {top_hit}."
-        impact = top_hit if "HR" in top_hit or "RBI" in top_hit else top_pitch
-
-        dashboard["all_games"].append({
-            "game": game["game"],
-            "final_score": game["final_score"],
-            "top_pitching_line": top_pitch,
-            "top_batting_line": top_hit,
-            "summary": summary,
-            "impact_player": impact,
-            "key_insight": top_pitch,
-        })
-
-    top_hitter_lines = []
-    top_pitcher_lines = []
-    for game in yesterday_postgame:
-        top_hitter_lines.extend(game["hitter_lines"])
-        top_pitcher_lines.extend(game["pitcher_lines"])
-
-    dashboard["context_layer"]["momentum_shifts"] = [
-        f"{game['winner']} controlled the result in {game['game']} after getting the key edge from its top performers."
-        for game in yesterday_postgame[:3]
-    ]
-    dashboard["context_layer"]["standout_performances"] = top_hitter_lines[:3]
-    dashboard["context_layer"]["team_trends"] = [
-        f"{game['winner']} added a win in {game['game']} behind impact performances that shaped the final score."
         for game in yesterday_postgame[:3]
     ]
 
