@@ -1,26 +1,27 @@
 {
-  "updated_at": "2026-04-11T14:33:36.992480-04:00",
+  "updated_at": "2026-04-11T14:53:32.295030-04:00",
   "games": [
     {
       "gamePk": 823480,
       "game": "Arizona Diamondbacks @ Philadelphia Phillies",
       "score": "2-4",
-      "inning": "5th",
+      "inning": "7th",
       "hot_hitters": [
         "Ketel Marte",
+        "Adrian Del Castillo",
         "Kyle Schwarber",
-        "Bryce Harper"
+        "Bryce Harper",
+        "Justin Crawford"
       ],
       "top_pitchers": [
-        "Brandon Pfaadt",
-        "Taijuan Walker"
+        "Brandon Pfaadt"
       ]
     },
     {
       "gamePk": 824294,
       "game": "Miami Marlins @ Detroit Tigers",
       "score": "1-5",
-      "inning": "5th",
+      "inning": "6th",
       "hot_hitters": [
         "Otto Lopez",
         "Riley Greene"
@@ -30,6 +31,14 @@
     {
       "gamePk": 824697,
       "game": "Pittsburgh Pirates @ Chicago Cubs",
+      "score": "1-0",
+      "inning": "2nd",
+      "hot_hitters": [],
+      "top_pitchers": []
+    },
+    {
+      "gamePk": 822830,
+      "game": "Minnesota Twins @ Toronto Blue Jays",
       "score": "0-0",
       "inning": "1st",
       "hot_hitters": [],
