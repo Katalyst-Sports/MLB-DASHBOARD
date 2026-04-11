@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-10T23:13:20.645329-04:00",
+  "updated_at": "2026-04-10T23:23:33.192552-04:00",
   "games": [
     {
       "away_team": "Pittsburgh Pirates",
@@ -6046,8 +6046,8 @@
         {
           "name": "Gavin Sheets",
           "stats": {
-            "avg": ".244",
-            "bip_pa": 0.71
+            "avg": ".238",
+            "bip_pa": 0.7
           },
           "vsRHP": {
             "avg": ".235",
@@ -6064,7 +6064,7 @@
           },
           "streak": 0,
           "risp": {
-            "avg": ".244"
+            "avg": ".238"
           }
         },
         {
@@ -6166,8 +6166,8 @@
         {
           "name": "Miguel Andujar",
           "stats": {
-            "avg": ".281",
-            "bip_pa": 0.74
+            "avg": ".273",
+            "bip_pa": 0.71
           },
           "vsRHP": {
             "avg": ".368",
@@ -6184,7 +6184,7 @@
           },
           "streak": 0,
           "risp": {
-            "avg": ".281"
+            "avg": ".273"
           }
         }
       ]
@@ -6214,16 +6214,16 @@
       "home_pitcher": {
         "name": "Emerson Hancock",
         "hand": "R",
-        "era": "2.16",
+        "era": "2.04",
         "era_splits": {
           "vsRHB": "N/A",
           "vsLHB": "N/A"
         },
-        "avg_ip": 5.56,
-        "avg_k": 5.67,
+        "avg_ip": 5.89,
+        "avg_k": 6.33,
         "avg_bb": 1.0,
-        "whip": 0.78,
-        "k_bb": 5.67,
+        "whip": 0.74,
+        "k_bb": 6.33,
         "command": "Elite Command",
         "quality": false,
         "elite": false
@@ -6304,8 +6304,8 @@
         {
           "name": "Christian V\u00e1zquez",
           "stats": {
-            "avg": ".333",
-            "bip_pa": 0.77
+            "avg": ".318",
+            "bip_pa": 0.74
           },
           "vsRHP": {
             "avg": ".286",
@@ -6322,7 +6322,7 @@
           },
           "streak": 1,
           "risp": {
-            "avg": ".333"
+            "avg": ".318"
           }
         },
         {
@@ -6376,8 +6376,8 @@
         {
           "name": "Jeremy Pe\u00f1a",
           "stats": {
-            "avg": ".243",
-            "bip_pa": 0.8
+            "avg": ".237",
+            "bip_pa": 0.78
           },
           "vsRHP": {
             "avg": ".240",
@@ -6394,7 +6394,7 @@
           },
           "streak": 1,
           "risp": {
-            "avg": ".243"
+            "avg": ".237"
           }
         },
         {
@@ -6594,7 +6594,7 @@
         {
           "name": "Josh Naylor",
           "stats": {
-            "avg": ".102",
+            "avg": ".120",
             "bip_pa": 0.76
           },
           "vsRHP": {
@@ -6612,7 +6612,7 @@
           },
           "streak": 0,
           "risp": {
-            "avg": ".102"
+            "avg": ".120"
           }
         },
         {
@@ -6673,15 +6673,15 @@
       "away_pitcher": {
         "name": "Kumar Rocker",
         "hand": "R",
-        "era": "3.38",
+        "era": "4.00",
         "era_splits": {
           "vsRHB": "N/A",
           "vsLHB": "N/A"
         },
-        "avg_ip": 4.33,
+        "avg_ip": 4.5,
         "avg_k": 4.0,
         "avg_bb": 0.5,
-        "whip": 1.15,
+        "whip": 1.11,
         "k_bb": 8.0,
         "command": "Elite Command",
         "quality": false,
@@ -6690,16 +6690,16 @@
       "home_pitcher": {
         "name": "Tyler Glasnow",
         "hand": "R",
-        "era": "3.94",
+        "era": "4.24",
         "era_splits": {
           "vsRHB": "N/A",
           "vsLHB": "N/A"
         },
-        "avg_ip": 5.33,
-        "avg_k": 6.67,
+        "avg_ip": 5.67,
+        "avg_k": 7.0,
         "avg_bb": 1.33,
         "whip": 1.0,
-        "k_bb": 5.0,
+        "k_bb": 5.25,
         "command": "Elite Command",
         "quality": false,
         "elite": false
@@ -6732,7 +6732,7 @@
         {
           "name": "Brandon Nimmo",
           "stats": {
-            "avg": ".347",
+            "avg": ".340",
             "bip_pa": 0.69
           },
           "vsRHP": {
@@ -6750,14 +6750,14 @@
           },
           "streak": 0,
           "risp": {
-            "avg": ".347"
+            "avg": ".340"
           }
         },
         {
           "name": "Corey Seager",
           "stats": {
-            "avg": ".250",
-            "bip_pa": 0.53
+            "avg": ".244",
+            "bip_pa": 0.52
           },
           "vsRHP": {
             "avg": ".250",
@@ -6774,7 +6774,7 @@
           },
           "streak": 2,
           "risp": {
-            "avg": ".250"
+            "avg": ".244"
           }
         },
         {
@@ -6900,7 +6900,7 @@
         {
           "name": "Josh Jung",
           "stats": {
-            "avg": ".182",
+            "avg": ".176",
             "bip_pa": 0.71
           },
           "vsRHP": {
@@ -6918,7 +6918,7 @@
           },
           "streak": 0,
           "risp": {
-            "avg": ".182"
+            "avg": ".176"
           }
         }
       ],
