@@ -174,7 +174,7 @@ body {
 }
 
 .matchup {
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 800;
   color: #ffffff;
   margin-bottom: 6px;
@@ -306,7 +306,7 @@ body {
 
 .live-strip {
   display: grid;
-  grid-template-columns: 1.35fr 1.35fr 0.75fr 0.75fr 1fr;
+  grid-template-columns: 1.45fr 1.45fr 0.7fr 0.7fr 0.95fr;
   gap: 8px;
   margin-top: 10px;
 }
@@ -420,7 +420,7 @@ footer {
   }
 
   .live-strip {
-    grid-template-columns: 1.2fr 1.2fr 0.7fr 0.7fr 0.9fr;
+    grid-template-columns: 1.25fr 1.25fr 0.7fr 0.7fr 0.9fr;
   }
 }
 
@@ -535,36 +535,36 @@ footer {
 const LIVE_API_URL = "https://misty-heart-42ca.k8piler.workers.dev/live";
 
 const TEAM_STYLES = {
-  "Arizona Diamondbacks": { abbr: "ARI", color: "#A71930" },
-  "Athletics": { abbr: "ATH", color: "#003831" },
-  "Atlanta Braves": { abbr: "ATL", color: "#CE1141" },
-  "Baltimore Orioles": { abbr: "BAL", color: "#DF4601" },
-  "Boston Red Sox": { abbr: "BOS", color: "#BD3039" },
-  "Chicago Cubs": { abbr: "CHC", color: "#0E3386" },
-  "Chicago White Sox": { abbr: "CHW", color: "#27251F" },
-  "Cincinnati Reds": { abbr: "CIN", color: "#C6011F" },
-  "Cleveland Guardians": { abbr: "CLE", color: "#E31937" },
-  "Colorado Rockies": { abbr: "COL", color: "#33006F" },
-  "Detroit Tigers": { abbr: "DET", color: "#0C2340" },
-  "Houston Astros": { abbr: "HOU", color: "#EB6E1F" },
-  "Kansas City Royals": { abbr: "KC", color: "#004687" },
-  "Los Angeles Angels": { abbr: "LAA", color: "#BA0021" },
-  "Los Angeles Dodgers": { abbr: "LAD", color: "#005A9C" },
-  "Miami Marlins": { abbr: "MIA", color: "#00A3E0" },
-  "Milwaukee Brewers": { abbr: "MIL", color: "#12284B" },
-  "Minnesota Twins": { abbr: "MIN", color: "#002B5C" },
-  "New York Mets": { abbr: "NYM", color: "#002D72" },
-  "New York Yankees": { abbr: "NYY", color: "#0C2340" },
-  "Philadelphia Phillies": { abbr: "PHI", color: "#E81828" },
-  "Pittsburgh Pirates": { abbr: "PIT", color: "#FDB827" },
-  "San Diego Padres": { abbr: "SD", color: "#2F241D" },
-  "San Francisco Giants": { abbr: "SF", color: "#FD5A1E" },
-  "Seattle Mariners": { abbr: "SEA", color: "#005C5C" },
-  "St. Louis Cardinals": { abbr: "STL", color: "#C41E3A" },
-  "Tampa Bay Rays": { abbr: "TB", color: "#092C5C" },
-  "Texas Rangers": { abbr: "TEX", color: "#003278" },
-  "Toronto Blue Jays": { abbr: "TOR", color: "#134A8E" },
-  "Washington Nationals": { abbr: "WSH", color: "#AB0003" }
+  "Arizona Diamondbacks": { abbr: "ARI", color: "#A71930", short: "D-backs" },
+  "Athletics": { abbr: "ATH", color: "#003831", short: "Athletics" },
+  "Atlanta Braves": { abbr: "ATL", color: "#CE1141", short: "Braves" },
+  "Baltimore Orioles": { abbr: "BAL", color: "#DF4601", short: "Orioles" },
+  "Boston Red Sox": { abbr: "BOS", color: "#BD3039", short: "Red Sox" },
+  "Chicago Cubs": { abbr: "CHC", color: "#0E3386", short: "Cubs" },
+  "Chicago White Sox": { abbr: "CHW", color: "#27251F", short: "White Sox" },
+  "Cincinnati Reds": { abbr: "CIN", color: "#C6011F", short: "Reds" },
+  "Cleveland Guardians": { abbr: "CLE", color: "#E31937", short: "Guardians" },
+  "Colorado Rockies": { abbr: "COL", color: "#33006F", short: "Rockies" },
+  "Detroit Tigers": { abbr: "DET", color: "#0C2340", short: "Tigers" },
+  "Houston Astros": { abbr: "HOU", color: "#EB6E1F", short: "Astros" },
+  "Kansas City Royals": { abbr: "KC", color: "#004687", short: "Royals" },
+  "Los Angeles Angels": { abbr: "LAA", color: "#BA0021", short: "Angels" },
+  "Los Angeles Dodgers": { abbr: "LAD", color: "#005A9C", short: "Dodgers" },
+  "Miami Marlins": { abbr: "MIA", color: "#00A3E0", short: "Marlins" },
+  "Milwaukee Brewers": { abbr: "MIL", color: "#12284B", short: "Brewers" },
+  "Minnesota Twins": { abbr: "MIN", color: "#002B5C", short: "Twins" },
+  "New York Mets": { abbr: "NYM", color: "#002D72", short: "Mets" },
+  "New York Yankees": { abbr: "NYY", color: "#0C2340", short: "Yankees" },
+  "Philadelphia Phillies": { abbr: "PHI", color: "#E81828", short: "Phillies" },
+  "Pittsburgh Pirates": { abbr: "PIT", color: "#FDB827", short: "Pirates" },
+  "San Diego Padres": { abbr: "SD", color: "#2F241D", short: "Padres" },
+  "San Francisco Giants": { abbr: "SF", color: "#FD5A1E", short: "Giants" },
+  "Seattle Mariners": { abbr: "SEA", color: "#005C5C", short: "Mariners" },
+  "St. Louis Cardinals": { abbr: "STL", color: "#C41E3A", short: "Cardinals" },
+  "Tampa Bay Rays": { abbr: "TB", color: "#092C5C", short: "Rays" },
+  "Texas Rangers": { abbr: "TEX", color: "#003278", short: "Rangers" },
+  "Toronto Blue Jays": { abbr: "TOR", color: "#134A8E", short: "Blue Jays" },
+  "Washington Nationals": { abbr: "WSH", color: "#AB0003", short: "Nationals" }
 };
 
 function safeArray(value) {
@@ -591,8 +591,17 @@ function streakBadge(player) {
 function teamInfo(teamName) {
   return TEAM_STYLES[teamName] || {
     abbr: teamName?.slice(0, 3).toUpperCase() || "MLB",
-    color: "#334155"
+    color: "#334155",
+    short: teamName || "Team"
   };
+}
+
+function shortTeamName(teamName) {
+  return teamInfo(teamName).short;
+}
+
+function matchupText(awayTeam, homeTeam) {
+  return `${shortTeamName(awayTeam)} @ ${shortTeamName(homeTeam)}`;
 }
 
 function teamBadge(teamName) {
@@ -707,7 +716,7 @@ async function loadLive() {
         ${matchupBadgesOnly(game.away_team, game.home_team)}
 
         <div class="live-top">
-          <div class="matchup">${formatValue(game.game, "Live Game")}</div>
+          <div class="matchup">${matchupText(game.away_team, game.home_team)}</div>
           <div class="live-top-right">
             <div class="scoreline">${formatValue(game.score, "0-0")}</div>
             <div class="meta">${formatValue(game.inning, "TBD")}</div>
@@ -794,7 +803,7 @@ async function loadDaily() {
         <div class="card upcoming-card">
           ${matchupBadgesOnly(game.away_team, game.home_team)}
           <div class="matchup toggle" onclick="toggle('${id}')">
-            ${formatValue(game.away_team, "Away")} @ ${formatValue(game.home_team, "Home")}
+            ${matchupText(game.away_team, game.home_team)}
           </div>
           <div class="meta">${startText} | ${formatValue(game.venue, "Venue TBD")} | ${formatValue(game.status, "Scheduled")}</div>
 
@@ -810,10 +819,10 @@ async function loadDaily() {
               </div>
             </div>
 
-            <div class="section-title-sm">${formatValue(game.away_team, "Away")} Hitters</div>
+            <div class="section-title-sm">${shortTeamName(game.away_team)} Hitters</div>
             ${renderHitters(game.away_hitters, "Away hitter data not available.")}
 
-            <div class="section-title-sm">${formatValue(game.home_team, "Home")} Hitters</div>
+            <div class="section-title-sm">${shortTeamName(game.home_team)} Hitters</div>
             ${renderHitters(game.home_hitters, "Home hitter data not available.")}
           </div>
         </div>
@@ -840,9 +849,9 @@ async function loadFinishedGames() {
     el.innerHTML = games.map(game => `
       <div class="card finished-card">
         ${matchupBadgesOnly(game.game.split(" @ ")[0], game.game.split(" @ ")[1])}
-        <div class="matchup">${formatValue(game.game, "Finished Game")}</div>
+        <div class="matchup">${matchupText(game.game.split(" @ ")[0], game.game.split(" @ ")[1])}</div>
         <div class="scoreline">${formatValue(game.final_score, "N/A")}</div>
-        <div class="stat-row">Winner: ${formatValue(game.winner)} | Loser: ${formatValue(game.loser)}</div>
+        <div class="stat-row">Winner: ${shortTeamName(game.winner)} | Loser: ${shortTeamName(game.loser)}</div>
         <div class="stat-row">Top Pitching: ${formatValue(game.top_pitching_line, "N/A")}</div>
         <div class="stat-row">Top Batting: ${formatValue(game.top_batting_line, "N/A")}</div>
         <div class="summary">${formatValue(game.stat_summary, "No stat summary available.")}</div>
@@ -880,7 +889,7 @@ function renderPreviousDayRecap(games) {
   el.innerHTML = games.map(game => `
     <div class="card recap-card">
       ${matchupBadgesOnly(game.game.split(" @ ")[0], game.game.split(" @ ")[1])}
-      <div class="matchup">${formatValue(game.game, "Game")}</div>
+      <div class="matchup">${matchupText(game.game.split(" @ ")[0], game.game.split(" @ ")[1])}</div>
       <div class="scoreline">${formatValue(game.final_score, "N/A")}</div>
       <div class="stat-row">Top Pitching: ${formatValue(game.top_pitching_line, "N/A")}</div>
       <div class="stat-row">Top Batting: ${formatValue(game.top_batting_line, "N/A")}</div>
