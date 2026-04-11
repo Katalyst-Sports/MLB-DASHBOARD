@@ -2,175 +2,126 @@
   "date": "2026-04-10",
   "headline": "MLB Daily Recap - April 10, 2026",
   "dashboard_recap": {
-    "featured_games": [
-      {
-        "game": "Pittsburgh Pirates @ Chicago Cubs",
-        "final_score": "2-0",
-        "winner": "Pittsburgh Pirates",
-        "loser": "Chicago Cubs",
-        "summary": "Shota Imanaga: 6.0 IP, 9 K, 0 ER",
-        "key_stats": [
-          "Bryan Reynolds: 1 H, 1 HR, 2 RBI",
-          "Ian Happ: 2 H, 0 HR, 0 RBI",
-          "Shota Imanaga: 6.0 IP, 9 K, 0 ER"
-        ]
-      },
-      {
-        "game": "Arizona Diamondbacks @ Philadelphia Phillies",
-        "final_score": "5-4",
-        "winner": "Arizona Diamondbacks",
-        "loser": "Philadelphia Phillies",
-        "summary": "Michael Soroka: 5.2 IP, 10 K, 4 ER",
-        "key_stats": [
-          "Bryce Harper: 2 H, 0 HR, 1 RBI",
-          "Brandon Marsh: 1 H, 1 HR, 3 RBI",
-          "Michael Soroka: 5.2 IP, 10 K, 4 ER"
-        ]
-      },
-      {
-        "game": "Miami Marlins @ Detroit Tigers",
-        "final_score": "0-2",
-        "winner": "Detroit Tigers",
-        "loser": "Miami Marlins",
-        "summary": "Keider Montero: 6.0 IP, 7 K, 0 ER",
-        "key_stats": [
-          "Colt Keith: 2 H, 0 HR, 0 RBI",
-          "Javier B\u00e1ez: 1 H, 1 HR, 1 RBI",
-          "Keider Montero: 6.0 IP, 7 K, 0 ER"
-        ]
-      },
-      {
-        "game": "Los Angeles Angels @ Cincinnati Reds",
-        "final_score": "10-2",
-        "winner": "Los Angeles Angels",
-        "loser": "Cincinnati Reds",
-        "summary": "No summary available.",
-        "key_stats": [
-          "Zach Neto: 2 H, 1 HR, 2 RBI",
-          "Jorge Soler: 2 H, 1 HR, 4 RBI"
-        ]
-      }
-    ],
     "all_games": [
       {
         "game": "Pittsburgh Pirates @ Chicago Cubs",
         "final_score": "2-0",
         "top_pitching_line": "Shota Imanaga: 6.0 IP, 9 K, 0 ER",
         "top_batting_line": "Bryan Reynolds: 1 H, 1 HR, 2 RBI",
-        "summary": "Pittsburgh Pirates beat Chicago Cubs 2-0. Shota Imanaga: 6.0 IP, 9 K, 0 ER set the tone on the mound, while Bryan Reynolds: 1 H, 1 HR, 2 RBI provided the biggest offensive push. Those performances were the biggest reasons the game tilted in Pittsburgh Pirates's favor.",
-        "impact_player": "Bryan Reynolds: 1 H, 1 HR, 2 RBI"
+        "summary": "Bryan Reynolds' solo homer and Shota Imanaga's dominant start led the Pirates to a shutout victory over the Cubs.",
+        "impact_player": "Bryan Reynolds"
       },
       {
         "game": "Arizona Diamondbacks @ Philadelphia Phillies",
         "final_score": "5-4",
         "top_pitching_line": "Michael Soroka: 5.2 IP, 10 K, 4 ER",
-        "top_batting_line": "Bryce Harper: 2 H, 0 HR, 1 RBI",
-        "summary": "Arizona Diamondbacks beat Philadelphia Phillies 5-4. Michael Soroka: 5.2 IP, 10 K, 4 ER set the tone on the mound, while Bryce Harper: 2 H, 0 HR, 1 RBI provided the biggest offensive push. Those performances were the biggest reasons the game tilted in Arizona Diamondbacks's favor.",
-        "impact_player": "Bryce Harper: 2 H, 0 HR, 1 RBI"
+        "top_batting_line": "Brandon Marsh: 1 H, 1 HR, 3 RBI",
+        "summary": "Brandon Marsh's three-run homer gave the Diamondbacks a late lead, and they held off the Phillies for a thrilling win.",
+        "impact_player": "Brandon Marsh"
       },
       {
         "game": "Miami Marlins @ Detroit Tigers",
         "final_score": "0-2",
         "top_pitching_line": "Keider Montero: 6.0 IP, 7 K, 0 ER",
-        "top_batting_line": "Colt Keith: 2 H, 0 HR, 0 RBI",
-        "summary": "Detroit Tigers beat Miami Marlins 0-2. Keider Montero: 6.0 IP, 7 K, 0 ER set the tone on the mound, while Colt Keith: 2 H, 0 HR, 0 RBI provided the biggest offensive push. Those performances were the biggest reasons the game tilted in Detroit Tigers's favor.",
-        "impact_player": "Colt Keith: 2 H, 0 HR, 0 RBI"
+        "top_batting_line": "Javier B\u00e1ez: 1 H, 1 HR, 1 RBI",
+        "summary": "Keider Montero's strong start and Javier B\u00e1ez's solo homer were not enough to overcome the Tigers' offense, which scored two early runs.",
+        "impact_player": "Keider Montero"
       },
       {
         "game": "Los Angeles Angels @ Cincinnati Reds",
         "final_score": "10-2",
-        "top_pitching_line": "No top pitching line available",
-        "top_batting_line": "Zach Neto: 2 H, 1 HR, 2 RBI",
-        "summary": "Los Angeles Angels beat Cincinnati Reds 10-2. No top pitching line available set the tone on the mound, while Zach Neto: 2 H, 1 HR, 2 RBI provided the biggest offensive push. Those performances were the biggest reasons the game tilted in Los Angeles Angels's favor.",
-        "impact_player": "Zach Neto: 2 H, 1 HR, 2 RBI"
+        "top_pitching_line": "No standout pitcher line provided",
+        "top_batting_line": "Jorge Soler: 2 H, 1 HR, 4 RBI",
+        "summary": "The Angels' offense exploded for 10 runs, led by Jorge Soler's four RBIs, in a blowout win over the Reds.",
+        "impact_player": "Jorge Soler"
       },
       {
         "game": "Minnesota Twins @ Toronto Blue Jays",
         "final_score": "4-10",
-        "top_pitching_line": "No top pitching line available",
-        "top_batting_line": "Austin Martin: 2 H, 0 HR, 0 RBI",
-        "summary": "Toronto Blue Jays beat Minnesota Twins 4-10. No top pitching line available set the tone on the mound, while Austin Martin: 2 H, 0 HR, 0 RBI provided the biggest offensive push. Those performances were the biggest reasons the game tilted in Toronto Blue Jays's favor.",
-        "impact_player": "Austin Martin: 2 H, 0 HR, 0 RBI"
+        "top_pitching_line": "No standout pitcher line provided",
+        "top_batting_line": "Ryan Jeffers: 3 H, 1 HR, 3 RBI",
+        "summary": "The Blue Jays' offense was too much for the Twins, with Ryan Jeffers' three RBIs leading the way in a lopsided win.",
+        "impact_player": "Ryan Jeffers"
       },
       {
         "game": "Athletics @ New York Mets",
         "final_score": "4-0",
-        "top_pitching_line": "No top pitching line available",
+        "top_pitching_line": "No standout pitcher line provided",
         "top_batting_line": "Jacob Wilson: 3 H, 0 HR, 0 RBI",
-        "summary": "Athletics beat New York Mets 4-0. No top pitching line available set the tone on the mound, while Jacob Wilson: 3 H, 0 HR, 0 RBI provided the biggest offensive push. Those performances were the biggest reasons the game tilted in Athletics's favor.",
-        "impact_player": "Jacob Wilson: 3 H, 0 HR, 0 RBI"
+        "summary": "The Athletics' pitching staff shut down the Mets' offense, leading to a 4-0 win.",
+        "impact_player": "Athletics' pitching staff"
       },
       {
         "game": "New York Yankees @ Tampa Bay Rays",
         "final_score": "3-5",
         "top_pitching_line": "Steven Matz: 5.0 IP, 7 K, 2 ER",
-        "top_batting_line": "Ben Rice: 1 H, 1 HR, 1 RBI",
-        "summary": "Tampa Bay Rays beat New York Yankees 3-5. Steven Matz: 5.0 IP, 7 K, 2 ER set the tone on the mound, while Ben Rice: 1 H, 1 HR, 1 RBI provided the biggest offensive push. Those performances were the biggest reasons the game tilted in Tampa Bay Rays's favor.",
-        "impact_player": "Ben Rice: 1 H, 1 HR, 1 RBI"
+        "top_batting_line": "Yandy D\u00edaz: 2 H, 1 HR, 2 RBI",
+        "summary": "Yandy D\u00edaz's two RBIs, including a homer, helped the Rays overcome a late Yankees rally for a win.",
+        "impact_player": "Yandy D\u00edaz"
       },
       {
         "game": "San Francisco Giants @ Baltimore Orioles",
         "final_score": "6-3",
-        "top_pitching_line": "No top pitching line available",
+        "top_pitching_line": "No standout pitcher line provided",
         "top_batting_line": "Willy Adames: 2 H, 1 HR, 2 RBI",
-        "summary": "San Francisco Giants beat Baltimore Orioles 6-3. No top pitching line available set the tone on the mound, while Willy Adames: 2 H, 1 HR, 2 RBI provided the biggest offensive push. Those performances were the biggest reasons the game tilted in San Francisco Giants's favor.",
-        "impact_player": "Willy Adames: 2 H, 1 HR, 2 RBI"
+        "summary": "The Giants' offense, led by Willy Adames' two RBIs, was enough to overcome the Orioles' late rally for a win.",
+        "impact_player": "Willy Adames"
       },
       {
         "game": "Cleveland Guardians @ Atlanta Braves",
         "final_score": "5-11",
-        "top_pitching_line": "No top pitching line available",
-        "top_batting_line": "Steven Kwan: 2 H, 0 HR, 0 RBI",
-        "summary": "Atlanta Braves beat Cleveland Guardians 5-11. No top pitching line available set the tone on the mound, while Steven Kwan: 2 H, 0 HR, 0 RBI provided the biggest offensive push. Those performances were the biggest reasons the game tilted in Atlanta Braves's favor.",
-        "impact_player": "Steven Kwan: 2 H, 0 HR, 0 RBI"
+        "top_pitching_line": "No standout pitcher line provided",
+        "top_batting_line": "Ronald Acu\u00f1a Jr.: 2 H, 1 HR, 2 RBI",
+        "summary": "The Braves' offense exploded for 11 runs, led by Ronald Acu\u00f1a Jr.'s two RBIs, in a blowout win over the Guardians.",
+        "impact_player": "Ronald Acu\u00f1a Jr."
       },
       {
         "game": "Chicago White Sox @ Kansas City Royals",
         "final_score": "0-2",
         "top_pitching_line": "Kris Bubic: 7.0 IP, 11 K, 0 ER",
         "top_batting_line": "Carter Jensen: 1 H, 1 HR, 1 RBI",
-        "summary": "Kansas City Royals beat Chicago White Sox 0-2. Kris Bubic: 7.0 IP, 11 K, 0 ER set the tone on the mound, while Carter Jensen: 1 H, 1 HR, 1 RBI provided the biggest offensive push. Those performances were the biggest reasons the game tilted in Kansas City Royals's favor.",
-        "impact_player": "Carter Jensen: 1 H, 1 HR, 1 RBI"
+        "summary": "Kris Bubic's dominant start and the Royals' offense were too much for the White Sox, who were shut out.",
+        "impact_player": "Kris Bubic"
       },
       {
         "game": "Washington Nationals @ Milwaukee Brewers",
         "final_score": "7-3",
         "top_pitching_line": "Jake Irvin: 5.0 IP, 5 K, 3 ER",
-        "top_batting_line": "James Wood: 4 H, 0 HR, 1 RBI",
-        "summary": "Washington Nationals beat Milwaukee Brewers 7-3. Jake Irvin: 5.0 IP, 5 K, 3 ER set the tone on the mound, while James Wood: 4 H, 0 HR, 1 RBI provided the biggest offensive push. Those performances were the biggest reasons the game tilted in Washington Nationals's favor.",
-        "impact_player": "James Wood: 4 H, 0 HR, 1 RBI"
+        "top_batting_line": "Jake Bauers: 2 H, 1 HR, 3 RBI",
+        "summary": "Jake Bauers' three RBIs, including a homer, helped the Nationals overcome a late Brewers rally for a win.",
+        "impact_player": "Jake Bauers"
       },
       {
         "game": "Boston Red Sox @ St. Louis Cardinals",
         "final_score": "2-3",
         "top_pitching_line": "Connelly Early: 4.1 IP, 5 K, 1 ER",
         "top_batting_line": "Wilyer Abreu: 2 H, 0 HR, 0 RBI",
-        "summary": "St. Louis Cardinals beat Boston Red Sox 2-3. Connelly Early: 4.1 IP, 5 K, 1 ER set the tone on the mound, while Wilyer Abreu: 2 H, 0 HR, 0 RBI provided the biggest offensive push. Those performances were the biggest reasons the game tilted in St. Louis Cardinals's favor.",
-        "impact_player": "Wilyer Abreu: 2 H, 0 HR, 0 RBI"
+        "summary": "Connelly Early's strong start was not enough to overcome the Cardinals' late rally, which scored the winning run.",
+        "impact_player": "Connelly Early"
       },
       {
         "game": "Colorado Rockies @ San Diego Padres",
         "final_score": "2-5",
-        "top_pitching_line": "No top pitching line available",
+        "top_pitching_line": "No standout pitcher line provided",
         "top_batting_line": "Gavin Sheets: 2 H, 2 HR, 4 RBI",
-        "summary": "San Diego Padres beat Colorado Rockies 2-5. No top pitching line available set the tone on the mound, while Gavin Sheets: 2 H, 2 HR, 4 RBI provided the biggest offensive push. Those performances were the biggest reasons the game tilted in San Diego Padres's favor.",
-        "impact_player": "Gavin Sheets: 2 H, 2 HR, 4 RBI"
+        "summary": "Gavin Sheets' two homers and four RBIs were not enough to overcome the Padres' offense, which scored five runs.",
+        "impact_player": "Gavin Sheets"
       },
       {
         "game": "Houston Astros @ Seattle Mariners",
         "final_score": "6-9",
         "top_pitching_line": "Emerson Hancock: 5.0 IP, 5 K, 3 ER",
         "top_batting_line": "Yordan Alvarez: 2 H, 1 HR, 3 RBI",
-        "summary": "Seattle Mariners beat Houston Astros 6-9. Emerson Hancock: 5.0 IP, 5 K, 3 ER set the tone on the mound, while Yordan Alvarez: 2 H, 1 HR, 3 RBI provided the biggest offensive push. Those performances were the biggest reasons the game tilted in Seattle Mariners's favor.",
-        "impact_player": "Yordan Alvarez: 2 H, 1 HR, 3 RBI"
+        "summary": "The Mariners' offense exploded for nine runs, led by Yordan Alvarez's three RBIs, in a blowout win over the Astros.",
+        "impact_player": "Yordan Alvarez"
       },
       {
         "game": "Texas Rangers @ Los Angeles Dodgers",
         "final_score": "7-8",
         "top_pitching_line": "Kumar Rocker: 5.0 IP, 5 K, 3 ER",
-        "top_batting_line": "Wyatt Langford: 1 H, 1 HR, 1 RBI",
-        "summary": "Los Angeles Dodgers beat Texas Rangers 7-8. Kumar Rocker: 5.0 IP, 5 K, 3 ER set the tone on the mound, while Wyatt Langford: 1 H, 1 HR, 1 RBI provided the biggest offensive push. Those performances were the biggest reasons the game tilted in Los Angeles Dodgers's favor.",
-        "impact_player": "Wyatt Langford: 1 H, 1 HR, 1 RBI"
+        "top_batting_line": "Corey Seager: 1 H, 1 HR, 3 RBI",
+        "summary": "The Dodgers' offense, led by Corey Seager's three RBIs, scored a late run to overcome the Rangers' early lead.",
+        "impact_player": "Corey Seager"
       }
     ],
     "season_leaders": {
@@ -201,18 +152,6 @@
         "Sandy Alcantara: ERA 0.74 | WHIP 0.58",
         "Mitch Keller: ERA 1.00 | WHIP 0.94",
         "Bryce Elder: ERA 1.02 | WHIP 1.02"
-      ]
-    },
-    "context_layer": {
-      "standout_performances": [
-        "Bryan Reynolds: 1 H, 1 HR, 2 RBI",
-        "Shota Imanaga: 6.0 IP, 9 K, 0 ER",
-        "Bryce Harper: 2 H, 0 HR, 1 RBI",
-        "Michael Soroka: 5.2 IP, 10 K, 4 ER",
-        "Colt Keith: 2 H, 0 HR, 0 RBI",
-        "Keider Montero: 6.0 IP, 7 K, 0 ER",
-        "Zach Neto: 2 H, 1 HR, 2 RBI",
-        "Austin Martin: 2 H, 0 HR, 0 RBI"
       ]
     }
   }

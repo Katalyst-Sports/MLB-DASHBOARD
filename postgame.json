@@ -1,5 +1,24 @@
 {
-  "updated_at": "2026-04-11T13:18:51.927462-04:00",
-  "games": [],
+  "updated_at": "2026-04-11T16:25:33.415499-04:00",
+  "games": [
+    {
+      "game": "Arizona Diamondbacks @ Philadelphia Phillies",
+      "final_score": "3-4",
+      "winner": "Philadelphia Phillies",
+      "loser": "Arizona Diamondbacks",
+      "top_pitching_line": "Brandon Pfaadt: 6.0 IP, 6 K, 3 ER",
+      "top_batting_line": "Ketel Marte: 1 H, 1 HR, 1 RBI",
+      "stat_summary": "Philadelphia Phillies beat Arizona Diamondbacks 3-4. Top pitching: Brandon Pfaadt: 6.0 IP, 6 K, 3 ER. Top batting: Ketel Marte: 1 H, 1 HR, 1 RBI."
+    },
+    {
+      "game": "Miami Marlins @ Detroit Tigers",
+      "final_score": "1-6",
+      "winner": "Detroit Tigers",
+      "loser": "Miami Marlins",
+      "top_pitching_line": "Casey Mize: 5.2 IP, 5 K, 1 ER",
+      "top_batting_line": "Otto Lopez: 2 H, 0 HR, 0 RBI",
+      "stat_summary": "Detroit Tigers beat Miami Marlins 1-6. Top pitching: Casey Mize: 5.2 IP, 5 K, 1 ER. Top batting: Otto Lopez: 2 H, 0 HR, 0 RBI."
+    }
+  ],
   "errors": []
 }

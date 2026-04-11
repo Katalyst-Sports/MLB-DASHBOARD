@@ -1,34 +1,50 @@
 {
-  "updated_at": "2026-04-11T15:51:17.611020-04:00",
+  "updated_at": "2026-04-11T16:25:33.415499-04:00",
   "games": [
     {
       "gamePk": 824697,
       "game": "Pittsburgh Pirates @ Chicago Cubs",
-      "score": "3-1",
-      "inning": "5th",
+      "score": "3-2",
+      "inning": "7th",
       "hot_hitters": [
         "Oneil Cruz",
+        "Bryan Reynolds",
         "Nick Yorke",
         "Mois\u00e9s Ballesteros"
       ],
-      "top_pitchers": [
-        "Braxton Ashcraft"
-      ]
+      "top_pitchers": []
     },
     {
       "gamePk": 822830,
       "game": "Minnesota Twins @ Toronto Blue Jays",
-      "score": "4-2",
-      "inning": "3rd",
+      "score": "7-2",
+      "inning": "5th",
       "hot_hitters": [
+        "Trevor Larnach",
         "Brooks Lee",
         "Daulton Varsho"
       ],
       "top_pitchers": []
     },
     {
+      "gamePk": 824535,
+      "game": "Los Angeles Angels @ Cincinnati Reds",
+      "score": "0-0",
+      "inning": "1st",
+      "hot_hitters": [],
+      "top_pitchers": []
+    },
+    {
       "gamePk": 823644,
       "game": "Athletics @ New York Mets",
+      "score": "0-0",
+      "inning": "1st",
+      "hot_hitters": [],
+      "top_pitchers": []
+    },
+    {
+      "gamePk": 824129,
+      "game": "Chicago White Sox @ Kansas City Royals",
       "score": "0-0",
       "inning": "1st",
       "hot_hitters": [],
