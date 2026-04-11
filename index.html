@@ -8,7 +8,9 @@
 <style>
 body {
   font-family: system-ui, -apple-system, sans-serif;
-  background: #f6f7f9;
+  background:
+    linear-gradient(rgba(246, 247, 249, 0.90), rgba(246, 247, 249, 0.90)),
+    url("./images/background.jpg") center center / cover no-repeat fixed;
   padding: 20px;
   max-width: 1400px;
   margin: auto;
@@ -52,7 +54,8 @@ h2 { margin: 0 0 10px; }
 }
 
 .card {
-  background: #ffffff;
+  background: rgba(255, 255, 255, 0.94);
+  backdrop-filter: blur(4px);
   padding: 12px;
   border-radius: 10px;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
@@ -61,7 +64,7 @@ h2 { margin: 0 0 10px; }
 
 .live {
   border-left: 6px solid #dc2626;
-  background: #fff7f7;
+  background: rgba(255, 247, 247, 0.96);
 }
 
 .section {
@@ -106,7 +109,7 @@ h2 { margin: 0 0 10px; }
 }
 
 .subcard {
-  background: #f9fafb;
+  background: rgba(249, 250, 251, 0.95);
   border: 1px solid #e5e7eb;
   border-radius: 8px;
   padding: 10px;
