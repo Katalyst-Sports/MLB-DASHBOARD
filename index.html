@@ -667,22 +667,18 @@ function renderSeasonLeaders(leaders) {
 
 function renderMergedRecapContext(context) {
   const el = document.getElementById("recap-context");
-  const blocks = [
-    { title: "Momentum Shifts", items: context.momentum_shifts || [] },
-    { title: "Standout Performances", items: context.standout_performances || [] },
-    { title: "Team Trends", items: context.team_trends || [] }
-  ];
+  const items = context.standout_performances || [];
 
-  el.innerHTML = blocks.map(block => `
+  el.innerHTML = `
     <div class="card context-card">
-      <div class="matchup" style="font-size:16px;">${block.title}</div>
+      <div class="matchup" style="font-size:16px;">Standout Performances</div>
       <div class="recap-bullets">
-        ${safeArray(block.items).length
-          ? safeArray(block.items).map(item => `<div class="recap-bullet">${item}</div>`).join("")
-          : `<div class="muted">No insights available.</div>`}
+        ${safeArray(items).length
+          ? safeArray(items).map(item => `<div class="recap-bullet">${item}</div>`).join("")
+          : `<div class="muted">No standout performances available.</div>`}
       </div>
     </div>
-  `).join("");
+  `;
 }
 
 async function refreshLiveOnly() {
