@@ -1,80 +1,245 @@
 {
-  "updated_at": "2026-04-11T08:00:51.174845-04:00",
+  "updated_at": "2026-04-11T09:45:29.316927-04:00",
   "games": [
     {
       "away_team": "Arizona Diamondbacks",
       "home_team": "Philadelphia Phillies",
-      "start": "2026-04-11T17:05:00Z"
+      "venue": "Citizens Bank Park",
+      "start": "2026-04-11T17:05:00Z",
+      "away_pitcher": {
+        "hand": "R",
+        "era": "6.75",
+        "last5": "N/A"
+      },
+      "home_pitcher": {
+        "hand": "R",
+        "era": "9.31",
+        "last5": "N/A"
+      }
     },
     {
       "away_team": "Miami Marlins",
       "home_team": "Detroit Tigers",
-      "start": "2026-04-11T17:10:00Z"
+      "venue": "Comerica Park",
+      "start": "2026-04-11T17:10:00Z",
+      "away_pitcher": {
+        "hand": "R",
+        "era": "3.09",
+        "last5": "N/A"
+      },
+      "home_pitcher": {
+        "hand": "R",
+        "era": "5.23",
+        "last5": "N/A"
+      }
     },
     {
       "away_team": "Pittsburgh Pirates",
       "home_team": "Chicago Cubs",
-      "start": "2026-04-11T18:20:00Z"
+      "venue": "Wrigley Field",
+      "start": "2026-04-11T18:20:00Z",
+      "away_pitcher": {
+        "hand": "R",
+        "era": "2.25",
+        "last5": "N/A"
+      },
+      "home_pitcher": {
+        "hand": "R",
+        "era": "0.00",
+        "last5": "N/A"
+      }
     },
     {
       "away_team": "Minnesota Twins",
       "home_team": "Toronto Blue Jays",
-      "start": "2026-04-11T19:07:00Z"
+      "venue": "Rogers Centre",
+      "start": "2026-04-11T19:07:00Z",
+      "away_pitcher": {
+        "hand": "R",
+        "era": "4.40",
+        "last5": "N/A"
+      },
+      "home_pitcher": {
+        "hand": "L",
+        "era": "4.91",
+        "last5": "N/A"
+      }
     },
     {
       "away_team": "Los Angeles Angels",
       "home_team": "Cincinnati Reds",
-      "start": "2026-04-11T20:10:00Z"
+      "venue": "Great American Ball Park",
+      "start": "2026-04-11T20:10:00Z",
+      "away_pitcher": {
+        "hand": "R",
+        "era": "6.75",
+        "last5": "N/A"
+      },
+      "home_pitcher": {
+        "hand": "L",
+        "era": "4.76",
+        "last5": "N/A"
+      }
     },
     {
       "away_team": "Athletics",
       "home_team": "New York Mets",
-      "start": "2026-04-11T20:10:00Z"
+      "venue": "Citi Field",
+      "start": "2026-04-11T20:10:00Z",
+      "away_pitcher": {
+        "hand": "L",
+        "era": "6.48",
+        "last5": "N/A"
+      },
+      "home_pitcher": {
+        "hand": "R",
+        "era": "3.09",
+        "last5": "N/A"
+      }
     },
     {
       "away_team": "Chicago White Sox",
       "home_team": "Kansas City Royals",
-      "start": "2026-04-11T20:10:00Z"
+      "venue": "Kauffman Stadium",
+      "start": "2026-04-11T20:10:00Z",
+      "away_pitcher": {
+        "hand": "R",
+        "era": "4.09",
+        "last5": "N/A"
+      },
+      "home_pitcher": {
+        "hand": "R",
+        "era": "0.69",
+        "last5": "N/A"
+      }
     },
     {
       "away_team": "New York Yankees",
       "home_team": "Tampa Bay Rays",
-      "start": "2026-04-11T22:10:00Z"
+      "venue": "Tropicana Field",
+      "start": "2026-04-11T22:10:00Z",
+      "away_pitcher": {
+        "hand": "L",
+        "era": "1.35",
+        "last5": "N/A"
+      },
+      "home_pitcher": {
+        "hand": "R",
+        "era": "2.25",
+        "last5": "N/A"
+      }
     },
     {
       "away_team": "Washington Nationals",
       "home_team": "Milwaukee Brewers",
-      "start": "2026-04-11T23:10:00Z"
+      "venue": "American Family Field",
+      "start": "2026-04-11T23:10:00Z",
+      "away_pitcher": {
+        "hand": "L",
+        "era": "2.70",
+        "last5": "N/A"
+      },
+      "home_pitcher": {
+        "hand": "L",
+        "era": "2.61",
+        "last5": "N/A"
+      }
     },
     {
       "away_team": "San Francisco Giants",
       "home_team": "Baltimore Orioles",
-      "start": "2026-04-11T23:15:00Z"
+      "venue": "Oriole Park at Camden Yards",
+      "start": "2026-04-11T23:15:00Z",
+      "away_pitcher": {
+        "hand": "R",
+        "era": "5.00",
+        "last5": "N/A"
+      },
+      "home_pitcher": {
+        "hand": "R",
+        "era": "14.21",
+        "last5": "N/A"
+      }
     },
     {
       "away_team": "Boston Red Sox",
       "home_team": "St. Louis Cardinals",
-      "start": "2026-04-11T23:15:00Z"
+      "venue": "Busch Stadium",
+      "start": "2026-04-11T23:15:00Z",
+      "away_pitcher": {
+        "hand": "L",
+        "era": "8.64",
+        "last5": "N/A"
+      },
+      "home_pitcher": {
+        "hand": "R",
+        "era": "5.40",
+        "last5": "N/A"
+      }
     },
     {
       "away_team": "Cleveland Guardians",
       "home_team": "Atlanta Braves",
-      "start": "2026-04-11T23:15:00Z"
+      "venue": "Truist Park",
+      "start": "2026-04-11T23:15:00Z",
+      "away_pitcher": {
+        "hand": "L",
+        "era": "0.82",
+        "last5": "N/A"
+      },
+      "home_pitcher": {
+        "hand": "L",
+        "era": "3.86",
+        "last5": "N/A"
+      }
     },
     {
       "away_team": "Colorado Rockies",
       "home_team": "San Diego Padres",
-      "start": "2026-04-12T00:40:00Z"
+      "venue": "Petco Park",
+      "start": "2026-04-12T00:40:00Z",
+      "away_pitcher": {
+        "hand": "R",
+        "era": "4.32",
+        "last5": "N/A"
+      },
+      "home_pitcher": {
+        "hand": "R",
+        "era": "4.50",
+        "last5": "N/A"
+      }
     },
     {
       "away_team": "Texas Rangers",
       "home_team": "Los Angeles Dodgers",
-      "start": "2026-04-12T01:10:00Z"
+      "venue": "UNIQLO Field at Dodger Stadium",
+      "start": "2026-04-12T01:10:00Z",
+      "away_pitcher": {
+        "hand": "R",
+        "era": "2.45",
+        "last5": "N/A"
+      },
+      "home_pitcher": {
+        "hand": "R",
+        "era": "8.00",
+        "last5": "N/A"
+      }
     },
     {
       "away_team": "Houston Astros",
       "home_team": "Seattle Mariners",
-      "start": "2026-04-12T01:40:00Z"
+      "venue": "T-Mobile Park",
+      "start": "2026-04-12T01:40:00Z",
+      "away_pitcher": {
+        "hand": "R",
+        "era": "3.27",
+        "last5": "N/A"
+      },
+      "home_pitcher": {
+        "hand": "R",
+        "era": "2.79",
+        "last5": "N/A"
+      }
     }
   ]
 }
