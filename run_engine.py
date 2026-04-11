@@ -16,7 +16,8 @@ NOW = datetime.now(MLB_TZ)
 TODAY = NOW.date().isoformat()
 SEASON = NOW.year
 
-client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
+OPENAI_KEY = os.getenv("OPENAI_API_KEY")
+client = OpenAI(api_key=OPENAI_KEY) if OPENAI_KEY else None
 
 # =====================================================
 # UTILITIES
@@ -269,7 +270,6 @@ for d in schedule.get("dates", []):
 
         daily.append(game)
 
-        # ---------- LIVE ----------
         if status in ["Live", "In Progress"]:
             feed = fetch(f"{BASE}/v1.1/game/{g['gamePk']}/feed/live")
             lines = feed["liveData"]["linescore"]
@@ -301,7 +301,6 @@ for d in schedule.get("dates", []):
                 "top_pitchers": dom
             })
 
-        # ---------- FINAL ----------
         if status == "Final":
             feed = fetch(f"{BASE}/v1.1/game/{g['gamePk']}/feed/live")
             lines = feed["liveData"]["linescore"]
@@ -333,11 +332,11 @@ for d in schedule.get("dates", []):
             })
 
 # =====================================================
-# REAL AI DAILY RECAP (OPENAI 1.x)
+# REAL AI DAILY RECAP (SAFE)
 # =====================================================
 
 def ai_daily_recap(postgame_games):
-    if not postgame_games:
+    if not client or not postgame_games:
         return None
 
     games_text = "\n".join([
