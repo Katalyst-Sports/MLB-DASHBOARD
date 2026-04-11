@@ -528,7 +528,7 @@ Rules:
 - If pitching was the biggest factor, make that clear.
 - If offense was decisive, make that clear.
 - If a home run or major RBI performance is listed, use it directly when relevant.
-- Keep each game summary to 2-3 sentences.
+- Keep each game summary to 3-4 sentences and use the names of the players who made impact plays.
 - Avoid robotic or repetitive phrasing.
 - Output JSON only.
 
