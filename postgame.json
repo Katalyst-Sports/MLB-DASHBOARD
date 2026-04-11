@@ -1,10 +1,167 @@
 {
-  "updated_at": "2026-04-10T23:33:56.731812-04:00",
+  "updated_at": "2026-04-10T23:42:11.402079-04:00",
   "games": [
     {
-      "game": "Texas Rangers @ Los Angeles Dodgers",
-      "winner": "Los Angeles Dodgers",
-      "loser": "Texas Rangers",
+      "game": "Pittsburgh Pirates @ Chicago Cubs",
+      "winner": "Pittsburgh Pirates",
+      "loser": "Chicago Cubs",
+      "final_score": "2\u20130",
+      "hitters": [
+        "Bryan Reynolds",
+        "Ian Happ"
+      ],
+      "pitchers": [
+        "Shota Imanaga"
+      ]
+    },
+    {
+      "game": "Arizona Diamondbacks @ Philadelphia Phillies",
+      "winner": "Arizona Diamondbacks",
+      "loser": "Philadelphia Phillies",
+      "final_score": "5\u20134",
+      "hitters": [
+        "Bryce Harper",
+        "Brandon Marsh"
+      ],
+      "pitchers": [
+        "Michael Soroka",
+        "Jes\u00fas Luzardo"
+      ]
+    },
+    {
+      "game": "Miami Marlins @ Detroit Tigers",
+      "winner": "Detroit Tigers",
+      "loser": "Miami Marlins",
+      "final_score": "0\u20132",
+      "hitters": [
+        "Colt Keith",
+        "Javier B\u00e1ez"
+      ],
+      "pitchers": [
+        "Keider Montero"
+      ]
+    },
+    {
+      "game": "Los Angeles Angels @ Cincinnati Reds",
+      "winner": "Los Angeles Angels",
+      "loser": "Cincinnati Reds",
+      "final_score": "10\u20132",
+      "hitters": [
+        "Zach Neto",
+        "Jorge Soler",
+        "Yo\u00e1n Moncada",
+        "Josh Lowe",
+        "Elly De La Cruz",
+        "Eugenio Su\u00e1rez"
+      ],
+      "pitchers": []
+    },
+    {
+      "game": "Minnesota Twins @ Toronto Blue Jays",
+      "winner": "Toronto Blue Jays",
+      "loser": "Minnesota Twins",
+      "final_score": "4\u201310",
+      "hitters": [
+        "Austin Martin",
+        "Ryan Jeffers",
+        "Brooks Lee",
+        "Daulton Varsho",
+        "Vladimir Guerrero Jr.",
+        "Davis Schneider",
+        "Ernie Clement",
+        "Brandon Valenzuela"
+      ],
+      "pitchers": []
+    },
+    {
+      "game": "Athletics @ New York Mets",
+      "winner": "Athletics",
+      "loser": "New York Mets",
+      "final_score": "4\u20130",
+      "hitters": [
+        "Jacob Wilson",
+        "Jeff McNeil"
+      ],
+      "pitchers": []
+    },
+    {
+      "game": "New York Yankees @ Tampa Bay Rays",
+      "winner": "Tampa Bay Rays",
+      "loser": "New York Yankees",
+      "final_score": "3\u20135",
+      "hitters": [
+        "Ben Rice",
+        "Amed Rosario",
+        "Yandy D\u00edaz",
+        "Nick Fortes"
+      ],
+      "pitchers": [
+        "Steven Matz"
+      ]
+    },
+    {
+      "game": "San Francisco Giants @ Baltimore Orioles",
+      "winner": "San Francisco Giants",
+      "loser": "Baltimore Orioles",
+      "final_score": "6\u20133",
+      "hitters": [
+        "Willy Adames",
+        "Matt Chapman",
+        "Casey Schmitt",
+        "Jung Hoo Lee",
+        "Gunnar Henderson",
+        "Adley Rutschman",
+        "Leody Taveras"
+      ],
+      "pitchers": []
+    },
+    {
+      "game": "Cleveland Guardians @ Atlanta Braves",
+      "winner": "Atlanta Braves",
+      "loser": "Cleveland Guardians",
+      "final_score": "5\u201311",
+      "hitters": [
+        "Steven Kwan",
+        "Kyle Manzardo",
+        "Angel Mart\u00ednez",
+        "Ronald Acu\u00f1a Jr.",
+        "Drake Baldwin",
+        "Matt Olson",
+        "Austin Riley",
+        "Dominic Smith",
+        "Michael Harris II",
+        "Mauricio Dub\u00f3n"
+      ],
+      "pitchers": []
+    },
+    {
+      "game": "Chicago White Sox @ Kansas City Royals",
+      "winner": "Kansas City Royals",
+      "loser": "Chicago White Sox",
+      "final_score": "0\u20132",
+      "hitters": [
+        "Carter Jensen"
+      ],
+      "pitchers": [
+        "Kris Bubic"
+      ]
+    },
+    {
+      "game": "Washington Nationals @ Milwaukee Brewers",
+      "winner": "Washington Nationals",
+      "loser": "Milwaukee Brewers",
+      "final_score": "7\u20133",
+      "hitters": [
+        "James Wood",
+        "CJ Abrams",
+        "Jake Bauers"
+      ],
+      "pitchers": []
+    },
+    {
+      "game": "Boston Red Sox @ St. Louis Cardinals",
+      "winner": "St. Louis Cardinals",
+      "loser": "Boston Red Sox",
       "final_score": "2\u20133",
       "hitters": [
         "Wilyer Abreu",

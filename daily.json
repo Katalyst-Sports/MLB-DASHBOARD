@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-10T23:33:56.731812-04:00",
+  "updated_at": "2026-04-10T23:42:11.402079-04:00",
   "games": [
     {
       "away_team": "Pittsburgh Pirates",
@@ -26,17 +26,17 @@
       "home_pitcher": {
         "name": "Shota Imanaga",
         "hand": "L",
-        "era": "2.81",
+        "era": "2.51",
         "era_splits": {
           "vsRHB": "N/A",
           "vsLHB": "N/A"
         },
-        "avg_ip": 5.33,
-        "avg_k": 6.67,
-        "avg_bb": 1.33,
-        "whip": 0.81,
-        "k_bb": 5.0,
-        "command": "Elite Command",
+        "avg_ip": 4.78,
+        "avg_k": 5.0,
+        "avg_bb": 2.0,
+        "whip": 1.6,
+        "k_bb": 2.5,
+        "command": "Average Command",
         "quality": false,
         "elite": false
       },
@@ -502,17 +502,17 @@
       "home_pitcher": {
         "name": "Jes\u00fas Luzardo",
         "hand": "L",
-        "era": "6.23",
+        "era": "2.87",
         "era_splits": {
           "vsRHB": "N/A",
           "vsLHB": "N/A"
         },
-        "avg_ip": 5.78,
-        "avg_k": 8.67,
-        "avg_bb": 1.33,
-        "whip": 1.15,
-        "k_bb": 6.5,
-        "command": "Elite Command",
+        "avg_ip": 5.22,
+        "avg_k": 7.67,
+        "avg_bb": 2.0,
+        "whip": 1.21,
+        "k_bb": 3.83,
+        "command": "Strong Command",
         "quality": false,
         "elite": false
       },
@@ -978,17 +978,17 @@
       "home_pitcher": {
         "name": "Keider Montero",
         "hand": "R",
-        "era": "1.74",
+        "era": "6.14",
         "era_splits": {
           "vsRHB": "N/A",
           "vsLHB": "N/A"
         },
-        "avg_ip": 5.17,
-        "avg_k": 5.0,
-        "avg_bb": 1.0,
-        "whip": 0.68,
-        "k_bb": 5.0,
-        "command": "Elite Command",
+        "avg_ip": 4.89,
+        "avg_k": 4.67,
+        "avg_bb": 1.67,
+        "whip": 1.57,
+        "k_bb": 2.8,
+        "command": "Average Command",
         "quality": false,
         "elite": false
       },
@@ -1454,17 +1454,17 @@
       "home_pitcher": {
         "name": "Chase Burns",
         "hand": "R",
-        "era": "3.31",
+        "era": "3.24",
         "era_splits": {
           "vsRHB": "N/A",
           "vsLHB": "N/A"
         },
-        "avg_ip": 5.44,
-        "avg_k": 6.0,
-        "avg_bb": 2.67,
-        "whip": 1.29,
-        "k_bb": 2.25,
-        "command": "Average Command",
+        "avg_ip": 5.56,
+        "avg_k": 4.0,
+        "avg_bb": 3.67,
+        "whip": 1.26,
+        "k_bb": 1.09,
+        "command": "Below Average Command",
         "quality": false,
         "elite": false
       },
@@ -1930,17 +1930,17 @@
       "home_pitcher": {
         "name": "Patrick Corbin",
         "hand": "L",
-        "era": "9.00",
+        "era": "4.60",
         "era_splits": {
           "vsRHB": "N/A",
           "vsLHB": "N/A"
         },
-        "avg_ip": 4.0,
-        "avg_k": 3.0,
-        "avg_bb": 1.0,
-        "whip": 1.75,
-        "k_bb": 3.0,
-        "command": "Strong Command",
+        "avg_ip": 5.22,
+        "avg_k": 2.67,
+        "avg_bb": 1.33,
+        "whip": 1.28,
+        "k_bb": 2.0,
+        "command": "Average Command",
         "quality": false,
         "elite": false
       },
@@ -2406,18 +2406,18 @@
       "home_pitcher": {
         "name": "Clay Holmes",
         "hand": "R",
-        "era": "1.50",
+        "era": "3.27",
         "era_splits": {
           "vsRHB": "N/A",
           "vsLHB": "N/A"
         },
-        "avg_ip": 6.0,
-        "avg_k": 4.0,
-        "avg_bb": 2.67,
-        "whip": 1.11,
-        "k_bb": 1.5,
-        "command": "Below Average Command",
-        "quality": true,
+        "avg_ip": 2.75,
+        "avg_k": 2.0,
+        "avg_bb": 0.75,
+        "whip": 0.91,
+        "k_bb": 2.67,
+        "command": "Average Command",
+        "quality": false,
         "elite": false
       },
       "away_hitters": [
@@ -2882,17 +2882,17 @@
       "home_pitcher": {
         "name": "Steven Matz",
         "hand": "L",
-        "era": "3.94",
+        "era": "6.75",
         "era_splits": {
           "vsRHB": "N/A",
           "vsLHB": "N/A"
         },
-        "avg_ip": 5.33,
-        "avg_k": 5.67,
-        "avg_bb": 1.67,
-        "whip": 0.94,
-        "k_bb": 3.4,
-        "command": "Strong Command",
+        "avg_ip": 4.0,
+        "avg_k": 2.0,
+        "avg_bb": 3.0,
+        "whip": 1.5,
+        "k_bb": 0.67,
+        "command": "Below Average Command",
         "quality": false,
         "elite": false
       },
@@ -3358,17 +3358,17 @@
       "home_pitcher": {
         "name": "Shane Baz",
         "hand": "R",
-        "era": "4.50",
+        "era": "3.24",
         "era_splits": {
           "vsRHB": "N/A",
           "vsLHB": "N/A"
         },
-        "avg_ip": 5.33,
-        "avg_k": 4.33,
+        "avg_ip": 5.56,
+        "avg_k": 6.0,
         "avg_bb": 1.67,
-        "whip": 1.56,
-        "k_bb": 2.6,
-        "command": "Average Command",
+        "whip": 1.14,
+        "k_bb": 3.6,
+        "command": "Strong Command",
         "quality": false,
         "elite": false
       },
@@ -3834,17 +3834,17 @@
       "home_pitcher": {
         "name": "Bryce Elder",
         "hand": "R",
-        "era": "1.02",
+        "era": "5.74",
         "era_splits": {
           "vsRHB": "N/A",
           "vsLHB": "N/A"
         },
-        "avg_ip": 5.89,
-        "avg_k": 5.33,
+        "avg_ip": 5.22,
+        "avg_k": 4.67,
         "avg_bb": 1.67,
-        "whip": 1.02,
-        "k_bb": 3.2,
-        "command": "Strong Command",
+        "whip": 1.21,
+        "k_bb": 2.8,
+        "command": "Average Command",
         "quality": false,
         "elite": false
       },
@@ -4316,10 +4316,10 @@
           "vsLHB": "N/A"
         },
         "avg_ip": 6.0,
-        "avg_k": 7.67,
-        "avg_bb": 2.33,
-        "whip": 0.83,
-        "k_bb": 3.29,
+        "avg_k": 5.0,
+        "avg_bb": 1.33,
+        "whip": 1.11,
+        "k_bb": 3.75,
         "command": "Strong Command",
         "quality": true,
         "elite": false
@@ -4786,17 +4786,17 @@
       "home_pitcher": {
         "name": "Aaron Ashby",
         "hand": "L",
-        "era": "3.75",
+        "era": "7.07",
         "era_splits": {
           "vsRHB": "N/A",
           "vsLHB": "N/A"
         },
-        "avg_ip": 1.47,
-        "avg_k": 2.4,
-        "avg_bb": 0.8,
-        "whip": 1.36,
-        "k_bb": 3.0,
-        "command": "Strong Command",
+        "avg_ip": 4.67,
+        "avg_k": 5.33,
+        "avg_bb": 2.67,
+        "whip": 1.5,
+        "k_bb": 2.0,
+        "command": "Average Command",
         "quality": false,
         "elite": false
       },
@@ -5262,17 +5262,17 @@
       "home_pitcher": {
         "name": "Dustin May",
         "hand": "R",
-        "era": "9.45",
+        "era": "2.63",
         "era_splits": {
           "vsRHB": "N/A",
           "vsLHB": "N/A"
         },
-        "avg_ip": 4.44,
-        "avg_k": 3.67,
-        "avg_bb": 1.0,
-        "whip": 1.8,
-        "k_bb": 3.67,
-        "command": "Strong Command",
+        "avg_ip": 4.56,
+        "avg_k": 5.0,
+        "avg_bb": 2.67,
+        "whip": 1.54,
+        "k_bb": 1.88,
+        "command": "Below Average Command",
         "quality": false,
         "elite": false
       },
@@ -5738,17 +5738,17 @@
       "home_pitcher": {
         "name": "Walker Buehler",
         "hand": "R",
-        "era": "4.97",
+        "era": "2.16",
         "era_splits": {
           "vsRHB": "N/A",
           "vsLHB": "N/A"
         },
-        "avg_ip": 4.22,
-        "avg_k": 3.67,
-        "avg_bb": 1.67,
-        "whip": 1.26,
-        "k_bb": 2.2,
-        "command": "Average Command",
+        "avg_ip": 5.56,
+        "avg_k": 4.0,
+        "avg_bb": 1.0,
+        "whip": 0.78,
+        "k_bb": 4.0,
+        "command": "Elite Command",
         "quality": false,
         "elite": false
       },
@@ -5828,8 +5828,8 @@
         {
           "name": "Ezequiel Tovar",
           "stats": {
-            "avg": ".278",
-            "bip_pa": 0.67
+            "avg": ".273",
+            "bip_pa": 0.68
           },
           "vsRHP": {
             "avg": ".273",
@@ -5846,14 +5846,14 @@
           },
           "streak": 8,
           "risp": {
-            "avg": ".278"
+            "avg": ".273"
           }
         },
         {
           "name": "Hunter Goodman",
           "stats": {
-            "avg": ".239",
-            "bip_pa": 0.52
+            "avg": ".255",
+            "bip_pa": 0.53
           },
           "vsRHP": {
             "avg": ".268",
@@ -5900,8 +5900,8 @@
         {
           "name": "Jordan Beck",
           "stats": {
-            "avg": ".080",
-            "bip_pa": 0.68
+            "avg": ".115",
+            "bip_pa": 0.69
           },
           "vsRHP": {
             "avg": ".111",
@@ -5918,7 +5918,7 @@
           },
           "streak": 2,
           "risp": {
-            "avg": ".080"
+            "avg": ".115"
           }
         },
         {
@@ -6214,17 +6214,17 @@
       "home_pitcher": {
         "name": "Emerson Hancock",
         "hand": "R",
-        "era": "2.04",
+        "era": "7.27",
         "era_splits": {
           "vsRHB": "N/A",
           "vsLHB": "N/A"
         },
-        "avg_ip": 5.89,
-        "avg_k": 6.33,
-        "avg_bb": 1.0,
-        "whip": 0.74,
-        "k_bb": 6.33,
-        "command": "Elite Command",
+        "avg_ip": 2.89,
+        "avg_k": 4.33,
+        "avg_bb": 3.67,
+        "whip": 2.08,
+        "k_bb": 1.18,
+        "command": "Below Average Command",
         "quality": false,
         "elite": false
       },
@@ -6442,7 +6442,7 @@
           },
           "streak": 0,
           "risp": {
-            "avg": ".319"
+            "avg": ".313"
           }
         }
       ],
@@ -6547,7 +6547,7 @@
           "name": "Dominic Canzone",
           "stats": {
             "avg": ".185",
-            "bip_pa": 0.68
+            "bip_pa": 0.66
           },
           "vsRHP": {
             "avg": ".208",
@@ -6570,8 +6570,8 @@
         {
           "name": "J.P. Crawford",
           "stats": {
-            "avg": ".111",
-            "bip_pa": 0.42
+            "avg": ".105",
+            "bip_pa": 0.44
           },
           "vsRHP": {
             "avg": ".154",
@@ -6588,7 +6588,7 @@
           },
           "streak": 0,
           "risp": {
-            "avg": ".111"
+            "avg": ".105"
           }
         },
         {
@@ -6643,7 +6643,7 @@
           "name": "Leo Rivas",
           "stats": {
             "avg": ".167",
-            "bip_pa": 0.54
+            "bip_pa": 0.52
           },
           "vsRHP": {
             "avg": ".174",
@@ -6673,34 +6673,34 @@
       "away_pitcher": {
         "name": "Kumar Rocker",
         "hand": "R",
-        "era": "4.00",
+        "era": "4.50",
         "era_splits": {
           "vsRHB": "N/A",
           "vsLHB": "N/A"
         },
-        "avg_ip": 4.67,
+        "avg_ip": 5.0,
         "avg_k": 4.0,
-        "avg_bb": 1.0,
-        "whip": 1.39,
-        "k_bb": 4.0,
-        "command": "Elite Command",
+        "avg_bb": 1.5,
+        "whip": 1.4,
+        "k_bb": 2.67,
+        "command": "Average Command",
         "quality": false,
         "elite": false
       },
       "home_pitcher": {
         "name": "Tyler Glasnow",
         "hand": "R",
-        "era": "4.24",
+        "era": "4.50",
         "era_splits": {
           "vsRHB": "N/A",
           "vsLHB": "N/A"
         },
-        "avg_ip": 5.67,
-        "avg_k": 7.0,
-        "avg_bb": 1.33,
-        "whip": 1.0,
-        "k_bb": 5.25,
-        "command": "Elite Command",
+        "avg_ip": 5.0,
+        "avg_k": 4.0,
+        "avg_bb": 1.5,
+        "whip": 1.4,
+        "k_bb": 2.67,
+        "command": "Average Command",
         "quality": false,
         "elite": false
       },
@@ -6726,7 +6726,7 @@
           },
           "streak": 5,
           "risp": {
-            "avg": ".300"
+            "avg": ".286"
           }
         },
         {
@@ -6822,7 +6822,7 @@
           },
           "streak": 0,
           "risp": {
-            "avg": ".222"
+            "avg": ".216"
           }
         },
         {
@@ -6852,7 +6852,7 @@
         {
           "name": "Jake Burger",
           "stats": {
-            "avg": ".260",
+            "avg": ".255",
             "bip_pa": 0.63
           },
           "vsRHP": {
@@ -6870,7 +6870,7 @@
           },
           "streak": 5,
           "risp": {
-            "avg": ".260"
+            "avg": ".255"
           }
         },
         {
@@ -7071,7 +7071,7 @@
           "name": "Kyle Tucker",
           "stats": {
             "avg": ".261",
-            "bip_pa": 0.59
+            "bip_pa": 0.58
           },
           "vsRHP": {
             "avg": ".333",
