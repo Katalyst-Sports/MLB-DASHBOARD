@@ -1,5 +1,205 @@
 {
   "date": "2026-04-10",
   "headline": "MLB Daily Recap - April 10, 2026",
-  "article": "**HEADLINE:** Pirates' Shutout Win Tops the Day's Action\n\n**TOP 3 GAMES:**\n\n1. **Pittsburgh Pirates @ Chicago Cubs**: The Pirates took down the Cubs 2-0 behind Shota Imanaga's dominant performance, striking out 9 batters in 6 innings. Bryan Reynolds led the Pirates with a home run and 2 RBIs. Ian Happ was the only Cubs player with multiple hits, going 2-for-4.\n2. **Arizona Diamondbacks @ Philadelphia Phillies**: The Diamondbacks edged the Phillies 5-4 in a back-and-forth contest. Bryce Harper had 2 hits for the Phillies, while Brandon Marsh hit a home run and drove in 3 runs. Jes\u00fas Luzardo struck out 8 batters in 4.2 innings for the Diamondbacks.\n3. **Detroit Tigers @ Miami Marlins**: The Tigers shut out the Marlins 2-0 behind Keider Montero's 6 scoreless innings. Colt Keith and Javier B\u00e1ez each had 2 hits for the Marlins, but it wasn't enough to overcome the Tigers' strong pitching.\n\n**QUICK HITS:**\n\n* Los Angeles Angels defeated the Cincinnati Reds 10-2 behind a strong team effort at the plate.\n* Toronto Blue Jays routed the Minnesota Twins 10-4, led by Ryan Jeffers' 3 hits and 3 RBIs.\n* Athletics shut out the New York Mets 4-0, with Jacob Wilson going 3-for-4.\n* Tampa Bay Rays edged the New York Yankees 5-3, with Yandy D\u00edaz hitting a home run and driving in 2 runs.\n* San Francisco Giants defeated the Baltimore Orioles 6-3, with Willy Adames and Jung Hoo Lee each hitting home runs.\n* Atlanta Braves routed the Cleveland Guardians 11-5, led by Ronald Acu\u00f1a Jr.'s home run and 2 RBIs.\n* Kansas City Royals shut out the Chicago White Sox 2-0, with Kris Bubic striking out 11 batters in 7 innings.\n* Washington Nationals defeated the Milwaukee Brewers 7-3, with Jake Bauers hitting a home run and driving in 3 runs.\n* St. Louis Cardinals edged the Boston Red Sox 3-2, with Jordan Walker going 2-for-4.\n* San Diego Padres defeated the Colorado Rockies 5-2, with Gavin Sheets hitting 2 home runs and driving in 4 runs.\n* Seattle Mariners defeated the Houston Astros 9-6, with Randy Arozarena hitting a home run and driving in 3 runs.\n* Los Angeles Dodgers edged the Texas Rangers 8-7, with Max Muncy hitting 3 home runs and driving in 3 runs.\n\n**MOST IMPACTFUL PLAY:** Shota Imanaga's 6 scoreless innings with 9 strikeouts was the most impactful performance of the day, leading the Pirates to a shutout win over the Cubs.\n\n**BIGGEST STORY OF THE DAY:** The Pirates' 2-0 win over the Cubs marked a strong start to the season for Pittsburgh, while the Diamondbacks' comeback win over the Phillies highlighted the competitive nature of the National League."
+  "dashboard_recap": {
+    "featured_games": [
+      {
+        "game": "Pittsburgh Pirates @ Chicago Cubs",
+        "final_score": "2-0",
+        "winner": "Pittsburgh Pirates",
+        "loser": "Chicago Cubs",
+        "summary": "Shota Imanaga: 6.0 IP, 9 K, 0 ER",
+        "key_stats": [
+          "Bryan Reynolds: 1 H, 1 HR, 2 RBI",
+          "Ian Happ: 2 H, 0 HR, 0 RBI",
+          "Shota Imanaga: 6.0 IP, 9 K, 0 ER"
+        ]
+      },
+      {
+        "game": "Arizona Diamondbacks @ Philadelphia Phillies",
+        "final_score": "5-4",
+        "winner": "Arizona Diamondbacks",
+        "loser": "Philadelphia Phillies",
+        "summary": "Michael Soroka: 5.2 IP, 10 K, 4 ER",
+        "key_stats": [
+          "Bryce Harper: 2 H, 0 HR, 1 RBI",
+          "Brandon Marsh: 1 H, 1 HR, 3 RBI",
+          "Michael Soroka: 5.2 IP, 10 K, 4 ER"
+        ]
+      },
+      {
+        "game": "Miami Marlins @ Detroit Tigers",
+        "final_score": "0-2",
+        "winner": "Detroit Tigers",
+        "loser": "Miami Marlins",
+        "summary": "Keider Montero: 6.0 IP, 7 K, 0 ER",
+        "key_stats": [
+          "Colt Keith: 2 H, 0 HR, 0 RBI",
+          "Javier B\u00e1ez: 1 H, 1 HR, 1 RBI",
+          "Keider Montero: 6.0 IP, 7 K, 0 ER"
+        ]
+      },
+      {
+        "game": "Los Angeles Angels @ Cincinnati Reds",
+        "final_score": "10-2",
+        "winner": "Los Angeles Angels",
+        "loser": "Cincinnati Reds",
+        "summary": "No summary available.",
+        "key_stats": [
+          "Zach Neto: 2 H, 1 HR, 2 RBI",
+          "Jorge Soler: 2 H, 1 HR, 4 RBI"
+        ]
+      }
+    ],
+    "all_games": [
+      {
+        "game": "Pittsburgh Pirates @ Chicago Cubs",
+        "final_score": "2-0",
+        "top_pitching_line": "Shota Imanaga: 6.0 IP, 9 K, 0 ER",
+        "top_batting_line": "Bryan Reynolds: 1 H, 1 HR, 2 RBI",
+        "key_insight": "Shota Imanaga: 6.0 IP, 9 K, 0 ER"
+      },
+      {
+        "game": "Arizona Diamondbacks @ Philadelphia Phillies",
+        "final_score": "5-4",
+        "top_pitching_line": "Michael Soroka: 5.2 IP, 10 K, 4 ER",
+        "top_batting_line": "Bryce Harper: 2 H, 0 HR, 1 RBI",
+        "key_insight": "Michael Soroka: 5.2 IP, 10 K, 4 ER"
+      },
+      {
+        "game": "Miami Marlins @ Detroit Tigers",
+        "final_score": "0-2",
+        "top_pitching_line": "Keider Montero: 6.0 IP, 7 K, 0 ER",
+        "top_batting_line": "Colt Keith: 2 H, 0 HR, 0 RBI",
+        "key_insight": "Keider Montero: 6.0 IP, 7 K, 0 ER"
+      },
+      {
+        "game": "Los Angeles Angels @ Cincinnati Reds",
+        "final_score": "10-2",
+        "top_pitching_line": "No top pitching line available",
+        "top_batting_line": "Zach Neto: 2 H, 1 HR, 2 RBI",
+        "key_insight": "No key insight available"
+      },
+      {
+        "game": "Minnesota Twins @ Toronto Blue Jays",
+        "final_score": "4-10",
+        "top_pitching_line": "No top pitching line available",
+        "top_batting_line": "Austin Martin: 2 H, 0 HR, 0 RBI",
+        "key_insight": "No key insight available"
+      },
+      {
+        "game": "Athletics @ New York Mets",
+        "final_score": "4-0",
+        "top_pitching_line": "No top pitching line available",
+        "top_batting_line": "Jacob Wilson: 3 H, 0 HR, 0 RBI",
+        "key_insight": "No key insight available"
+      },
+      {
+        "game": "New York Yankees @ Tampa Bay Rays",
+        "final_score": "3-5",
+        "top_pitching_line": "Steven Matz: 5.0 IP, 7 K, 2 ER",
+        "top_batting_line": "Ben Rice: 1 H, 1 HR, 1 RBI",
+        "key_insight": "Steven Matz: 5.0 IP, 7 K, 2 ER"
+      },
+      {
+        "game": "San Francisco Giants @ Baltimore Orioles",
+        "final_score": "6-3",
+        "top_pitching_line": "No top pitching line available",
+        "top_batting_line": "Willy Adames: 2 H, 1 HR, 2 RBI",
+        "key_insight": "No key insight available"
+      },
+      {
+        "game": "Cleveland Guardians @ Atlanta Braves",
+        "final_score": "5-11",
+        "top_pitching_line": "No top pitching line available",
+        "top_batting_line": "Steven Kwan: 2 H, 0 HR, 0 RBI",
+        "key_insight": "No key insight available"
+      },
+      {
+        "game": "Chicago White Sox @ Kansas City Royals",
+        "final_score": "0-2",
+        "top_pitching_line": "Kris Bubic: 7.0 IP, 11 K, 0 ER",
+        "top_batting_line": "Carter Jensen: 1 H, 1 HR, 1 RBI",
+        "key_insight": "Kris Bubic: 7.0 IP, 11 K, 0 ER"
+      },
+      {
+        "game": "Washington Nationals @ Milwaukee Brewers",
+        "final_score": "7-3",
+        "top_pitching_line": "Jake Irvin: 5.0 IP, 5 K, 3 ER",
+        "top_batting_line": "James Wood: 4 H, 0 HR, 1 RBI",
+        "key_insight": "Jake Irvin: 5.0 IP, 5 K, 3 ER"
+      },
+      {
+        "game": "Boston Red Sox @ St. Louis Cardinals",
+        "final_score": "2-3",
+        "top_pitching_line": "Connelly Early: 4.1 IP, 5 K, 1 ER",
+        "top_batting_line": "Wilyer Abreu: 2 H, 0 HR, 0 RBI",
+        "key_insight": "Connelly Early: 4.1 IP, 5 K, 1 ER"
+      },
+      {
+        "game": "Colorado Rockies @ San Diego Padres",
+        "final_score": "2-5",
+        "top_pitching_line": "No top pitching line available",
+        "top_batting_line": "Gavin Sheets: 2 H, 2 HR, 4 RBI",
+        "key_insight": "No key insight available"
+      },
+      {
+        "game": "Houston Astros @ Seattle Mariners",
+        "final_score": "6-9",
+        "top_pitching_line": "Emerson Hancock: 5.0 IP, 5 K, 3 ER",
+        "top_batting_line": "Yordan Alvarez: 2 H, 1 HR, 3 RBI",
+        "key_insight": "Emerson Hancock: 5.0 IP, 5 K, 3 ER"
+      },
+      {
+        "game": "Texas Rangers @ Los Angeles Dodgers",
+        "final_score": "7-8",
+        "top_pitching_line": "Kumar Rocker: 5.0 IP, 5 K, 3 ER",
+        "top_batting_line": "Wyatt Langford: 1 H, 1 HR, 1 RBI",
+        "key_insight": "Kumar Rocker: 5.0 IP, 5 K, 3 ER"
+      }
+    ],
+    "stat_leaders": {
+      "top_hitters": [
+        "Bryan Reynolds: 1 H, 1 HR, 2 RBI",
+        "Ian Happ: 2 H, 0 HR, 0 RBI",
+        "Bryce Harper: 2 H, 0 HR, 1 RBI",
+        "Brandon Marsh: 1 H, 1 HR, 3 RBI"
+      ],
+      "top_pitchers": [
+        "Shota Imanaga: 6.0 IP, 9 K, 0 ER",
+        "Michael Soroka: 5.2 IP, 10 K, 4 ER",
+        "Jes\u00fas Luzardo: 4.2 IP, 8 K, 5 ER",
+        "Keider Montero: 6.0 IP, 7 K, 0 ER"
+      ],
+      "home_run_leaders": [
+        "Bryan Reynolds: 1 H, 1 HR, 2 RBI",
+        "Ian Happ: 2 H, 0 HR, 0 RBI",
+        "Bryce Harper: 2 H, 0 HR, 1 RBI",
+        "Brandon Marsh: 1 H, 1 HR, 3 RBI"
+      ],
+      "strikeout_leaders": [
+        "Shota Imanaga: 6.0 IP, 9 K, 0 ER",
+        "Michael Soroka: 5.2 IP, 10 K, 4 ER",
+        "Jes\u00fas Luzardo: 4.2 IP, 8 K, 5 ER",
+        "Keider Montero: 6.0 IP, 7 K, 0 ER"
+      ]
+    },
+    "context_layer": {
+      "momentum_shifts": [
+        "Pittsburgh Pirates took control in Pittsburgh Pirates @ Chicago Cubs.",
+        "Arizona Diamondbacks took control in Arizona Diamondbacks @ Philadelphia Phillies.",
+        "Detroit Tigers took control in Miami Marlins @ Detroit Tigers."
+      ],
+      "standout_performances": [
+        "Bryan Reynolds: 1 H, 1 HR, 2 RBI",
+        "Ian Happ: 2 H, 0 HR, 0 RBI",
+        "Bryce Harper: 2 H, 0 HR, 1 RBI"
+      ],
+      "team_trends": [
+        "Pittsburgh Pirates closed out a win in Pittsburgh Pirates @ Chicago Cubs.",
+        "Arizona Diamondbacks closed out a win in Arizona Diamondbacks @ Philadelphia Phillies.",
+        "Detroit Tigers closed out a win in Miami Marlins @ Detroit Tigers."
+      ]
+    }
+  }
 }
