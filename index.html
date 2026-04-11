@@ -173,6 +173,10 @@ body {
   border-top: 4px solid var(--green);
 }
 
+.player-card {
+  border-top: 4px solid #38bdf8;
+}
+
 .matchup {
   font-size: 15px;
   font-weight: 800;
@@ -422,6 +426,40 @@ body {
   color: #ffffff;
 }
 
+.player-search-card {
+  padding: 18px;
+}
+
+.player-search-row {
+  display: grid;
+  grid-template-columns: 1fr 140px;
+  gap: 10px;
+  margin-top: 12px;
+}
+
+.player-search-input,
+.player-search-button {
+  border-radius: 12px;
+  border: 1px solid rgba(148, 163, 184, 0.18);
+  background: rgba(255,255,255,0.05);
+  color: #eef4ff;
+  padding: 12px 14px;
+  font-size: 14px;
+}
+
+.player-search-button {
+  cursor: pointer;
+  font-weight: 800;
+  background: linear-gradient(135deg, #0f4c81, #2563eb);
+}
+
+.player-grid {
+  display: grid;
+  grid-template-columns: 1.1fr 1fr 1fr;
+  gap: 14px;
+  margin-top: 14px;
+}
+
 footer {
   margin-top: 42px;
   padding-top: 18px;
@@ -433,7 +471,8 @@ footer {
 
 @media (max-width: 1100px) {
   .grid,
-  .grid-4 {
+  .grid-4,
+  .player-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
@@ -457,7 +496,9 @@ footer {
 
   .grid,
   .grid-4,
-  .mini-grid {
+  .mini-grid,
+  .player-grid,
+  .player-search-row {
     grid-template-columns: 1fr;
   }
 
@@ -492,6 +533,22 @@ footer {
     </div>
     <div class="timestamp">
       Last updated: <span id="updated">loading...</span>
+    </div>
+  </div>
+
+  <div class="section-block">
+    <div class="section-header">
+      <div class="section-label">Player Search</div>
+      <div class="section-line"></div>
+    </div>
+    <div class="card player-card player-search-card">
+      <div class="matchup">Player Spotlight</div>
+      <div class="meta">Search any MLB player to view season stats, recent form, and live-game context.</div>
+      <div class="player-search-row">
+        <input id="player-search-input" class="player-search-input" type="text" placeholder="Search player name, e.g. Aaron Judge">
+        <button id="player-search-button" class="player-search-button">Search</button>
+      </div>
+      <div id="player-search-result" style="margin-top:14px;"></div>
     </div>
   </div>
 
@@ -555,6 +612,7 @@ footer {
 
 <script>
 const LIVE_API_URL = "https://misty-heart-42ca.k8piler.workers.dev/live";
+const PLAYER_API_URL = "https://misty-heart-42ca.k8piler.workers.dev/player";
 
 const TEAM_STYLES = {
   "Arizona Diamondbacks": { abbr: "ARI", color: "#A71930", short: "D-backs" },
@@ -643,21 +701,12 @@ function matchupBadgesOnly(awayTeam, homeTeam) {
 
 function formatPlayerChip(name) {
   const value = formatValue(name);
-  if (value === "N/A") {
-    return { text: value, className: "" };
-  }
-
-  if (value.length <= 14) {
-    return { text: value, className: "" };
-  }
+  if (value === "N/A") return { text: value, className: "" };
+  if (value.length <= 14) return { text: value, className: "" };
 
   const parts = value.trim().split(/\s+/);
-  if (parts.length < 2) {
-    return { text: value, className: "long-name" };
-  }
-
-  const shortened = `${parts[0][0]}. ${parts.slice(1).join(" ")}`;
-  return { text: shortened, className: "long-name" };
+  if (parts.length < 2) return { text: value, className: "long-name" };
+  return { text: `${parts[0][0]}. ${parts.slice(1).join(" ")}`, className: "long-name" };
 }
 
 function renderPlayerChip(name) {
@@ -743,6 +792,87 @@ function toggle(id) {
   const el = document.getElementById(id);
   if (!el) return;
   el.style.display = el.style.display === "none" ? "block" : "none";
+}
+
+function renderPlayerSearch(data) {
+  const el = document.getElementById("player-search-result");
+
+  if (!data.found) {
+    el.innerHTML = `<div class="muted">${formatValue(data.message, "No player found.")}</div>`;
+    return;
+  }
+
+  const p = data.player || {};
+  const hitting = data.season_stats?.hitting;
+  const pitching = data.season_stats?.pitching;
+  const live = data.live || {};
+  const recentHit = safeArray(data.recent_form?.hitting);
+  const recentPitch = safeArray(data.recent_form?.pitching);
+  const splits = data.splits || {};
+
+  el.innerHTML = `
+    <div class="player-grid">
+      <div class="card player-card">
+        <div class="matchup">${formatValue(p.full_name)}</div>
+        <div class="meta">${formatValue(p.team)} | ${formatValue(p.position)} | Bats ${formatValue(p.bat_side)} | Throws ${formatValue(p.pitch_hand)}</div>
+        <div class="stat-row">Age: ${formatValue(p.age)} | Jersey: ${formatValue(p.jersey)}</div>
+
+        <div class="section-title-sm">Live Status</div>
+        ${live.is_live
+          ? `<div class="stat-row">Live Now: ${formatValue(live.game)} | ${formatValue(live.score)} | ${formatValue(live.inning)}</div>
+             <div class="stat-line">Current Batter: ${formatValue(live.current_batter)} | Current Pitcher: ${formatValue(live.current_pitcher)}</div>`
+          : `<div class="muted">Not currently in a live game.</div>`}
+      </div>
+
+      <div class="card player-card">
+        <div class="matchup" style="font-size:16px;">Season Snapshot</div>
+        ${hitting
+          ? `<div class="stat-row">AVG ${formatValue(hitting.avg)} | OBP ${formatValue(hitting.obp)} | SLG ${formatValue(hitting.slg)} | OPS ${formatValue(hitting.ops)}</div>
+             <div class="stat-row">Hits ${formatValue(hitting.hits, 0)} | HR ${formatValue(hitting.home_runs, 0)} | RBI ${formatValue(hitting.rbi, 0)} | SB ${formatValue(hitting.stolen_bases, 0)}</div>`
+          : `<div class="muted">No current hitting season line.</div>`}
+
+        ${pitching
+          ? `<div class="section-title-sm">Pitching</div>
+             <div class="stat-row">ERA ${formatValue(pitching.era)} | WHIP ${formatValue(pitching.whip)} | IP ${formatValue(pitching.innings)}</div>
+             <div class="stat-row">K ${formatValue(pitching.strikeouts, 0)} | W ${formatValue(pitching.wins, 0)} | SV ${formatValue(pitching.saves, 0)}</div>`
+          : ``}
+
+        <div class="section-title-sm">Splits</div>
+        <div class="stat-line">vs RHP AVG ${formatValue(splits.vs_rhp?.avg)} | vs LHP AVG ${formatValue(splits.vs_lhp?.avg)} | RISP AVG ${formatValue(splits.risp?.avg)}</div>
+      </div>
+
+      <div class="card player-card">
+        <div class="matchup" style="font-size:16px;">Recent Form</div>
+        ${recentHit.length
+          ? recentHit.map(game => `<div class="player-row"><strong>${new Date(game.date).toLocaleDateString()}</strong><div class="stat-line">${formatValue(game.opponent)} | ${formatValue(game.hits, 0)} H | ${formatValue(game.at_bats, 0)} AB | ${formatValue(game.home_runs, 0)} HR | ${formatValue(game.rbi, 0)} RBI</div></div>`).join("")
+          : recentPitch.length
+            ? recentPitch.map(game => `<div class="player-row"><strong>${new Date(game.date).toLocaleDateString()}</strong><div class="stat-line">${formatValue(game.opponent)} | ${formatValue(game.innings)} IP | ${formatValue(game.strikeouts, 0)} K | ${formatValue(game.earned_runs, 0)} ER | ${formatValue(game.walks, 0)} BB</div></div>`).join("")
+            : `<div class="muted">No recent game log available.</div>`}
+      </div>
+    </div>
+  `;
+}
+
+async function searchPlayer() {
+  const input = document.getElementById("player-search-input");
+  const result = document.getElementById("player-search-result");
+  const q = input.value.trim();
+
+  if (!q) {
+    result.innerHTML = `<div class="muted">Enter a player name to search.</div>`;
+    return;
+  }
+
+  result.innerHTML = `<div class="muted">Searching player...</div>`;
+
+  try {
+    const response = await fetch(`${PLAYER_API_URL}?q=${encodeURIComponent(q)}&nocache=${Date.now()}`);
+    const data = await response.json();
+    renderPlayerSearch(data);
+  } catch (error) {
+    result.innerHTML = `<div class="muted">Could not load player search.</div>`;
+    console.error(error);
+  }
 }
 
 async function loadLive() {
@@ -970,6 +1100,13 @@ function renderSeasonLeaders(leaders) {
 async function refreshLiveOnly() {
   await loadLive();
 }
+
+document.getElementById("player-search-button").addEventListener("click", searchPlayer);
+document.getElementById("player-search-input").addEventListener("keydown", (event) => {
+  if (event.key === "Enter") {
+    searchPlayer();
+  }
+});
 
 loadLive();
 loadDaily();
