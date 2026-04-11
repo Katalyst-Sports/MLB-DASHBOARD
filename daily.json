@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-11T11:02:46.067537-04:00",
+  "updated_at": "2026-04-11T11:24:43.312806-04:00",
   "games": [
     {
       "gamePk": 823480,
@@ -13,14 +13,23 @@
         "name": "Brandon Pfaadt",
         "hand": "R",
         "era": "6.75",
-        "last5": {
+        "last3": {
           "starts_used": 2,
           "avg_ip": "5.3",
           "avg_k": "2.5",
           "avg_bb": "1.5",
           "avg_era": "6.75",
           "whip": "1.41",
-          "k_bb": "1.67"
+          "quality_starts": 0,
+          "wins": 0,
+          "last_start": {
+            "ip": "4.2",
+            "k": 2,
+            "bb": 2,
+            "er": 3,
+            "hits": 6,
+            "decision": "N/A"
+          }
         }
       },
       "home_pitcher": {
@@ -28,14 +37,23 @@
         "name": "Taijuan Walker",
         "hand": "R",
         "era": "9.31",
-        "last5": {
+        "last3": {
           "starts_used": 2,
           "avg_ip": "4.8",
           "avg_k": "3.0",
           "avg_bb": "2.5",
           "avg_era": "9.31",
           "whip": "2.28",
-          "k_bb": "1.20"
+          "quality_starts": 0,
+          "wins": 0,
+          "last_start": {
+            "ip": "5.0",
+            "k": 4,
+            "bb": 2,
+            "er": 4,
+            "hits": 7,
+            "decision": "N/A"
+          }
         }
       },
       "away_hitters": [
@@ -439,14 +457,23 @@
         "name": "Janson Junk",
         "hand": "R",
         "era": "3.09",
-        "last5": {
+        "last3": {
           "starts_used": 2,
           "avg_ip": "5.8",
           "avg_k": "4.0",
           "avg_bb": "1.0",
           "avg_era": "3.09",
           "whip": "1.20",
-          "k_bb": "4.00"
+          "quality_starts": 1,
+          "wins": 0,
+          "last_start": {
+            "ip": "7.1",
+            "k": 3,
+            "bb": 1,
+            "er": 2,
+            "hits": 7,
+            "decision": "N/A"
+          }
         }
       },
       "home_pitcher": {
@@ -454,14 +481,23 @@
         "name": "Casey Mize",
         "hand": "R",
         "era": "5.23",
-        "last5": {
+        "last3": {
           "starts_used": 2,
           "avg_ip": "5.2",
           "avg_k": "6.5",
           "avg_bb": "2.5",
           "avg_era": "5.23",
           "whip": "1.55",
-          "k_bb": "2.60"
+          "quality_starts": 1,
+          "wins": 0,
+          "last_start": {
+            "ip": "4.1",
+            "k": 4,
+            "bb": 3,
+            "er": 5,
+            "hits": 7,
+            "decision": "N/A"
+          }
         }
       },
       "away_hitters": [
@@ -865,14 +901,23 @@
         "name": "Braxton Ashcraft",
         "hand": "R",
         "era": "2.25",
-        "last5": {
+        "last3": {
           "starts_used": 2,
           "avg_ip": "6.0",
           "avg_k": "5.5",
           "avg_bb": "2.0",
           "avg_era": "2.25",
           "whip": "1.00",
-          "k_bb": "2.75"
+          "quality_starts": 2,
+          "wins": 0,
+          "last_start": {
+            "ip": "6.0",
+            "k": 8,
+            "bb": 0,
+            "er": 1,
+            "hits": 4,
+            "decision": "N/A"
+          }
         }
       },
       "home_pitcher": {
@@ -880,14 +925,23 @@
         "name": "Edward Cabrera",
         "hand": "R",
         "era": "0.00",
-        "last5": {
+        "last3": {
           "starts_used": 2,
           "avg_ip": "5.8",
           "avg_k": "4.5",
           "avg_bb": "3.0",
           "avg_era": "0.00",
           "whip": "0.69",
-          "k_bb": "1.50"
+          "quality_starts": 1,
+          "wins": 0,
+          "last_start": {
+            "ip": "5.2",
+            "k": 4,
+            "bb": 5,
+            "er": 0,
+            "hits": 1,
+            "decision": "N/A"
+          }
         }
       },
       "away_hitters": [
@@ -1291,14 +1345,23 @@
         "name": "Joe Ryan",
         "hand": "R",
         "era": "4.40",
-        "last5": {
+        "last3": {
           "starts_used": 3,
           "avg_ip": "4.8",
           "avg_k": "5.7",
           "avg_bb": "1.7",
           "avg_era": "4.40",
           "whip": "1.26",
-          "k_bb": "3.40"
+          "quality_starts": 0,
+          "wins": 0,
+          "last_start": {
+            "ip": "5.0",
+            "k": 7,
+            "bb": 3,
+            "er": 2,
+            "hits": 3,
+            "decision": "N/A"
+          }
         }
       },
       "home_pitcher": {
@@ -1306,14 +1369,23 @@
         "name": "Eric Lauer",
         "hand": "L",
         "era": "4.91",
-        "last5": {
+        "last3": {
           "starts_used": 2,
           "avg_ip": "3.7",
           "avg_k": "4.5",
           "avg_bb": "2.0",
           "avg_era": "4.91",
           "whip": "1.36",
-          "k_bb": "2.25"
+          "quality_starts": 0,
+          "wins": 0,
+          "last_start": {
+            "ip": "2.0",
+            "k": 0,
+            "bb": 3,
+            "er": 2,
+            "hits": 3,
+            "decision": "N/A"
+          }
         }
       },
       "away_hitters": [
@@ -1717,14 +1789,23 @@
         "name": "George Klassen",
         "hand": "R",
         "era": "6.75",
-        "last5": {
+        "last3": {
           "starts_used": 1,
           "avg_ip": "2.7",
           "avg_k": "4.0",
           "avg_bb": "5.0",
           "avg_era": "6.75",
           "whip": "3.00",
-          "k_bb": "0.80"
+          "quality_starts": 0,
+          "wins": 0,
+          "last_start": {
+            "ip": "2.2",
+            "k": 4,
+            "bb": 5,
+            "er": 2,
+            "hits": 3,
+            "decision": "N/A"
+          }
         }
       },
       "home_pitcher": {
@@ -1732,14 +1813,23 @@
         "name": "Brandon Williamson",
         "hand": "L",
         "era": "4.76",
-        "last5": {
+        "last3": {
           "starts_used": 2,
           "avg_ip": "5.7",
           "avg_k": "3.5",
           "avg_bb": "1.5",
           "avg_era": "4.76",
           "whip": "1.06",
-          "k_bb": "2.33"
+          "quality_starts": 1,
+          "wins": 0,
+          "last_start": {
+            "ip": "6.2",
+            "k": 4,
+            "bb": 1,
+            "er": 0,
+            "hits": 3,
+            "decision": "N/A"
+          }
         }
       },
       "away_hitters": [
@@ -2143,14 +2233,23 @@
         "name": "Jacob Lopez",
         "hand": "L",
         "era": "6.48",
-        "last5": {
+        "last3": {
           "starts_used": 2,
           "avg_ip": "4.2",
           "avg_k": "3.0",
           "avg_bb": "5.0",
           "avg_era": "6.48",
           "whip": "2.28",
-          "k_bb": "0.60"
+          "quality_starts": 0,
+          "wins": 0,
+          "last_start": {
+            "ip": "4.1",
+            "k": 6,
+            "bb": 5,
+            "er": 3,
+            "hits": 3,
+            "decision": "N/A"
+          }
         }
       },
       "home_pitcher": {
@@ -2158,14 +2257,23 @@
         "name": "Kodai Senga",
         "hand": "R",
         "era": "3.09",
-        "last5": {
+        "last3": {
           "starts_used": 2,
           "avg_ip": "5.8",
           "avg_k": "8.0",
           "avg_bb": "2.5",
           "avg_era": "3.09",
           "whip": "1.20",
-          "k_bb": "3.20"
+          "quality_starts": 1,
+          "wins": 0,
+          "last_start": {
+            "ip": "5.2",
+            "k": 7,
+            "bb": 2,
+            "er": 2,
+            "hits": 5,
+            "decision": "N/A"
+          }
         }
       },
       "away_hitters": [
@@ -2569,14 +2677,23 @@
         "name": "Erick Fedde",
         "hand": "R",
         "era": "4.09",
-        "last5": {
+        "last3": {
           "starts_used": 1,
           "avg_ip": "5.0",
           "avg_k": "4.0",
           "avg_bb": "1.0",
           "avg_era": "5.40",
           "whip": "1.40",
-          "k_bb": "4.00"
+          "quality_starts": 0,
+          "wins": 0,
+          "last_start": {
+            "ip": "5.0",
+            "k": 4,
+            "bb": 1,
+            "er": 3,
+            "hits": 6,
+            "decision": "N/A"
+          }
         }
       },
       "home_pitcher": {
@@ -2584,14 +2701,23 @@
         "name": "Michael Wacha",
         "hand": "R",
         "era": "0.69",
-        "last5": {
+        "last3": {
           "starts_used": 2,
           "avg_ip": "6.5",
           "avg_k": "5.0",
           "avg_bb": "2.0",
           "avg_era": "0.69",
           "whip": "0.77",
-          "k_bb": "2.50"
+          "quality_starts": 2,
+          "wins": 0,
+          "last_start": {
+            "ip": "7.0",
+            "k": 3,
+            "bb": 3,
+            "er": 1,
+            "hits": 3,
+            "decision": "N/A"
+          }
         }
       },
       "away_hitters": [
@@ -2995,14 +3121,23 @@
         "name": "Max Fried",
         "hand": "L",
         "era": "1.35",
-        "last5": {
+        "last3": {
           "starts_used": 3,
           "avg_ip": "6.7",
           "avg_k": "4.7",
           "avg_bb": "1.7",
           "avg_era": "1.35",
           "whip": "0.75",
-          "k_bb": "2.80"
+          "quality_starts": 3,
+          "wins": 0,
+          "last_start": {
+            "ip": "6.2",
+            "k": 4,
+            "bb": 3,
+            "er": 3,
+            "hits": 5,
+            "decision": "N/A"
+          }
         }
       },
       "home_pitcher": {
@@ -3010,14 +3145,23 @@
         "name": "Nick Martinez",
         "hand": "R",
         "era": "2.25",
-        "last5": {
+        "last3": {
           "starts_used": 2,
           "avg_ip": "6.0",
           "avg_k": "3.5",
           "avg_bb": "0.5",
           "avg_era": "2.25",
           "whip": "0.67",
-          "k_bb": "7.00"
+          "quality_starts": 2,
+          "wins": 0,
+          "last_start": {
+            "ip": "6.0",
+            "k": 4,
+            "bb": 1,
+            "er": 1,
+            "hits": 1,
+            "decision": "N/A"
+          }
         }
       },
       "away_hitters": [
@@ -3421,14 +3565,23 @@
         "name": "Foster Griffin",
         "hand": "L",
         "era": "2.70",
-        "last5": {
+        "last3": {
           "starts_used": 2,
           "avg_ip": "5.0",
           "avg_k": "5.5",
           "avg_bb": "1.5",
           "avg_era": "2.70",
           "whip": "1.30",
-          "k_bb": "3.67"
+          "quality_starts": 0,
+          "wins": 0,
+          "last_start": {
+            "ip": "5.0",
+            "k": 6,
+            "bb": 3,
+            "er": 1,
+            "hits": 5,
+            "decision": "N/A"
+          }
         }
       },
       "home_pitcher": {
@@ -3436,14 +3589,23 @@
         "name": "Kyle Harrison",
         "hand": "L",
         "era": "2.61",
-        "last5": {
+        "last3": {
           "starts_used": 2,
           "avg_ip": "5.2",
           "avg_k": "7.0",
           "avg_bb": "1.5",
           "avg_era": "2.61",
           "whip": "0.97",
-          "k_bb": "4.67"
+          "quality_starts": 0,
+          "wins": 0,
+          "last_start": {
+            "ip": "5.1",
+            "k": 6,
+            "bb": 2,
+            "er": 2,
+            "hits": 3,
+            "decision": "N/A"
+          }
         }
       },
       "away_hitters": [
@@ -3847,14 +4009,23 @@
         "name": "Logan Webb",
         "hand": "R",
         "era": "5.00",
-        "last5": {
+        "last3": {
           "starts_used": 3,
           "avg_ip": "6.0",
           "avg_k": "5.0",
           "avg_bb": "2.0",
           "avg_era": "5.00",
           "whip": "1.39",
-          "k_bb": "2.50"
+          "quality_starts": 2,
+          "wins": 0,
+          "last_start": {
+            "ip": "7.0",
+            "k": 3,
+            "bb": 1,
+            "er": 1,
+            "hits": 7,
+            "decision": "N/A"
+          }
         }
       },
       "home_pitcher": {
@@ -3862,14 +4033,23 @@
         "name": "Chris Bassitt",
         "hand": "R",
         "era": "14.21",
-        "last5": {
+        "last3": {
           "starts_used": 2,
           "avg_ip": "3.2",
           "avg_k": "1.5",
           "avg_bb": "3.0",
           "avg_era": "14.21",
           "whip": "2.84",
-          "k_bb": "0.50"
+          "quality_starts": 0,
+          "wins": 0,
+          "last_start": {
+            "ip": "2.0",
+            "k": 0,
+            "bb": 2,
+            "er": 6,
+            "hits": 6,
+            "decision": "N/A"
+          }
         }
       },
       "away_hitters": [
@@ -4273,14 +4453,23 @@
         "name": "Ranger Suarez",
         "hand": "L",
         "era": "8.64",
-        "last5": {
+        "last3": {
           "starts_used": 2,
           "avg_ip": "4.2",
           "avg_k": "2.5",
           "avg_bb": "1.5",
           "avg_era": "8.64",
           "whip": "1.92",
-          "k_bb": "1.67"
+          "quality_starts": 0,
+          "wins": 0,
+          "last_start": {
+            "ip": "4.0",
+            "k": 2,
+            "bb": 2,
+            "er": 4,
+            "hits": 6,
+            "decision": "N/A"
+          }
         }
       },
       "home_pitcher": {
@@ -4288,14 +4477,23 @@
         "name": "Kyle Leahy",
         "hand": "R",
         "era": "5.40",
-        "last5": {
+        "last3": {
           "starts_used": 2,
           "avg_ip": "5.0",
           "avg_k": "2.5",
           "avg_bb": "2.5",
           "avg_era": "5.40",
           "whip": "1.80",
-          "k_bb": "1.00"
+          "quality_starts": 0,
+          "wins": 0,
+          "last_start": {
+            "ip": "5.0",
+            "k": 4,
+            "bb": 3,
+            "er": 2,
+            "hits": 5,
+            "decision": "N/A"
+          }
         }
       },
       "away_hitters": [
@@ -4699,14 +4897,23 @@
         "name": "Parker Messick",
         "hand": "L",
         "era": "0.82",
-        "last5": {
+        "last3": {
           "starts_used": 2,
           "avg_ip": "5.5",
           "avg_k": "5.5",
           "avg_bb": "1.5",
           "avg_era": "0.82",
           "whip": "0.91",
-          "k_bb": "3.67"
+          "quality_starts": 1,
+          "wins": 0,
+          "last_start": {
+            "ip": "5.0",
+            "k": 6,
+            "bb": 3,
+            "er": 1,
+            "hits": 2,
+            "decision": "N/A"
+          }
         }
       },
       "home_pitcher": {
@@ -4714,14 +4921,23 @@
         "name": "Mart\u00edn P\u00e9rez",
         "hand": "L",
         "era": "3.86",
-        "last5": {
+        "last3": {
           "starts_used": 1,
           "avg_ip": "5.0",
           "avg_k": "1.0",
           "avg_bb": "1.0",
           "avg_era": "7.20",
           "whip": "1.20",
-          "k_bb": "1.00"
+          "quality_starts": 0,
+          "wins": 0,
+          "last_start": {
+            "ip": "5.0",
+            "k": 1,
+            "bb": 1,
+            "er": 4,
+            "hits": 5,
+            "decision": "N/A"
+          }
         }
       },
       "away_hitters": [
@@ -5125,14 +5341,23 @@
         "name": "Ryan Feltner",
         "hand": "R",
         "era": "4.32",
-        "last5": {
+        "last3": {
           "starts_used": 2,
           "avg_ip": "4.2",
           "avg_k": "2.5",
           "avg_bb": "1.5",
           "avg_era": "4.32",
           "whip": "1.32",
-          "k_bb": "1.67"
+          "quality_starts": 0,
+          "wins": 0,
+          "last_start": {
+            "ip": "5.1",
+            "k": 1,
+            "bb": 2,
+            "er": 4,
+            "hits": 7,
+            "decision": "N/A"
+          }
         }
       },
       "home_pitcher": {
@@ -5140,14 +5365,23 @@
         "name": "Germ\u00e1n M\u00e1rquez",
         "hand": "R",
         "era": "4.50",
-        "last5": {
+        "last3": {
           "starts_used": 2,
           "avg_ip": "4.0",
           "avg_k": "2.5",
           "avg_bb": "1.0",
           "avg_era": "4.50",
           "whip": "2.00",
-          "k_bb": "2.50"
+          "quality_starts": 0,
+          "wins": 0,
+          "last_start": {
+            "ip": "5.0",
+            "k": 4,
+            "bb": 1,
+            "er": 0,
+            "hits": 6,
+            "decision": "N/A"
+          }
         }
       },
       "away_hitters": [
@@ -5551,14 +5785,23 @@
         "name": "Jack Leiter",
         "hand": "R",
         "era": "2.45",
-        "last5": {
+        "last3": {
           "starts_used": 2,
           "avg_ip": "5.5",
           "avg_k": "8.5",
           "avg_bb": "1.0",
           "avg_era": "2.45",
           "whip": "1.00",
-          "k_bb": "8.50"
+          "quality_starts": 1,
+          "wins": 0,
+          "last_start": {
+            "ip": "5.0",
+            "k": 9,
+            "bb": 1,
+            "er": 1,
+            "hits": 4,
+            "decision": "N/A"
+          }
         }
       },
       "home_pitcher": {
@@ -5566,14 +5809,23 @@
         "name": "Emmet Sheehan",
         "hand": "R",
         "era": "8.00",
-        "last5": {
+        "last3": {
           "starts_used": 2,
           "avg_ip": "4.5",
           "avg_k": "4.0",
           "avg_bb": "2.5",
           "avg_era": "8.00",
           "whip": "1.89",
-          "k_bb": "1.60"
+          "quality_starts": 0,
+          "wins": 0,
+          "last_start": {
+            "ip": "5.2",
+            "k": 2,
+            "bb": 3,
+            "er": 4,
+            "hits": 7,
+            "decision": "N/A"
+          }
         }
       },
       "away_hitters": [
@@ -5977,14 +6229,23 @@
         "name": "Lance McCullers Jr.",
         "hand": "R",
         "era": "3.27",
-        "last5": {
+        "last3": {
           "starts_used": 2,
           "avg_ip": "5.5",
           "avg_k": "6.5",
           "avg_bb": "2.0",
           "avg_era": "3.27",
           "whip": "1.18",
-          "k_bb": "3.25"
+          "quality_starts": 1,
+          "wins": 0,
+          "last_start": {
+            "ip": "4.0",
+            "k": 4,
+            "bb": 3,
+            "er": 3,
+            "hits": 5,
+            "decision": "N/A"
+          }
         }
       },
       "home_pitcher": {
@@ -5992,14 +6253,23 @@
         "name": "Luis Castillo",
         "hand": "R",
         "era": "2.79",
-        "last5": {
+        "last3": {
           "starts_used": 2,
           "avg_ip": "4.8",
           "avg_k": "5.5",
           "avg_bb": "1.5",
           "avg_era": "2.79",
           "whip": "1.24",
-          "k_bb": "3.67"
+          "quality_starts": 1,
+          "wins": 0,
+          "last_start": {
+            "ip": "3.2",
+            "k": 4,
+            "bb": 1,
+            "er": 3,
+            "hits": 6,
+            "decision": "N/A"
+          }
         }
       },
       "away_hitters": [
