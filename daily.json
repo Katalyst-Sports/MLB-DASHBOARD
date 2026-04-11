@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-11T00:33:02.990919-04:00",
+  "updated_at": "2026-04-11T00:47:18.753619-04:00",
   "games": [
     {
       "away_team": "Arizona Diamondbacks",
@@ -6257,7 +6257,7 @@
           "name": "Brandon Nimmo",
           "stats": {
             "avg": ".333",
-            "bip_pa": 0.68
+            "bip_pa": 0.67
           },
           "vsRHP": {
             "avg": ".324",
@@ -6280,8 +6280,8 @@
         {
           "name": "Corey Seager",
           "stats": {
-            "avg": ".239",
-            "bip_pa": 0.51
+            "avg": ".234",
+            "bip_pa": 0.5
           },
           "vsRHP": {
             "avg": ".250",
@@ -6298,14 +6298,14 @@
           },
           "streak": 2,
           "risp": {
-            "avg": ".239"
+            "avg": ".234"
           }
         },
         {
           "name": "Danny Jansen",
           "stats": {
-            "avg": ".250",
-            "bip_pa": 0.64
+            "avg": ".242",
+            "bip_pa": 0.62
           },
           "vsRHP": {
             "avg": ".304",
@@ -6322,14 +6322,14 @@
           },
           "streak": 1,
           "risp": {
-            "avg": ".250"
+            "avg": ".242"
           }
         },
         {
           "name": "Evan Carter",
           "stats": {
-            "avg": ".216",
-            "bip_pa": 0.6
+            "avg": ".237",
+            "bip_pa": 0.59
           },
           "vsRHP": {
             "avg": ".267",
@@ -6346,14 +6346,14 @@
           },
           "streak": 0,
           "risp": {
-            "avg": ".216"
+            "avg": ".237"
           }
         },
         {
           "name": "Ezequiel Duran",
           "stats": {
-            "avg": ".250",
-            "bip_pa": 0.65
+            "avg": ".286",
+            "bip_pa": 0.67
           },
           "vsRHP": {
             "avg": ".308",
@@ -6370,7 +6370,7 @@
           },
           "streak": 0,
           "risp": {
-            "avg": ".250"
+            "avg": ".286"
           }
         },
         {
@@ -6400,8 +6400,8 @@
         {
           "name": "Joc Pederson",
           "stats": {
-            "avg": ".120",
-            "bip_pa": 0.68
+            "avg": ".154",
+            "bip_pa": 0.69
           },
           "vsRHP": {
             "avg": ".125",
@@ -6418,14 +6418,14 @@
           },
           "streak": 0,
           "risp": {
-            "avg": ".120"
+            "avg": ".154"
           }
         },
         {
           "name": "Josh Jung",
           "stats": {
-            "avg": ".176",
-            "bip_pa": 0.69
+            "avg": ".200",
+            "bip_pa": 0.7
           },
           "vsRHP": {
             "avg": ".227",
@@ -6442,7 +6442,7 @@
           },
           "streak": 0,
           "risp": {
-            "avg": ".176"
+            "avg": ".200"
           }
         }
       ],
@@ -6732,11 +6732,11 @@
         {
           "name": "Cam Smith",
           "stats": {
-            "avg": ".255",
+            "avg": ".250",
             "bip_pa": 0.56
           },
           "vsRHP": {
-            "avg": ".310",
+            "avg": ".300",
             "hits": 9
           },
           "vsLHP": {
@@ -6750,17 +6750,17 @@
           },
           "streak": 0,
           "risp": {
-            "avg": ".255"
+            "avg": ".250"
           }
         },
         {
           "name": "Carlos Correa",
           "stats": {
-            "avg": ".267",
-            "bip_pa": 0.75
+            "avg": ".261",
+            "bip_pa": 0.73
           },
           "vsRHP": {
-            "avg": ".308",
+            "avg": ".296",
             "hits": 8
           },
           "vsLHP": {
@@ -6774,7 +6774,7 @@
           },
           "streak": 0,
           "risp": {
-            "avg": ".267"
+            "avg": ".261"
           }
         },
         {
@@ -6808,11 +6808,11 @@
             "bip_pa": 0.71
           },
           "vsRHP": {
-            "avg": ".394",
+            "avg": ".382",
             "hits": 13
           },
           "vsLHP": {
-            "avg": ".235",
+            "avg": ".222",
             "hits": 4
           },
           "last10": {
@@ -6880,8 +6880,8 @@
             "bip_pa": 0.62
           },
           "vsRHP": {
-            "avg": ".286",
-            "hits": 8
+            "avg": ".310",
+            "hits": 9
           },
           "vsLHP": {
             "avg": ".167",
@@ -6908,7 +6908,7 @@
             "hits": 8
           },
           "vsLHP": {
-            "avg": ".389",
+            "avg": ".368",
             "hits": 7
           },
           "last10": {
@@ -6974,7 +6974,7 @@
         {
           "name": "Cole Young",
           "stats": {
-            "avg": ".271",
+            "avg": ".265",
             "bip_pa": 0.6
           },
           "vsRHP": {
@@ -6992,7 +6992,7 @@
           },
           "streak": 0,
           "risp": {
-            "avg": ".271"
+            "avg": ".265"
           }
         },
         {
@@ -7022,8 +7022,8 @@
         {
           "name": "Dominic Canzone",
           "stats": {
-            "avg": ".214",
-            "bip_pa": 0.67
+            "avg": ".207",
+            "bip_pa": 0.68
           },
           "vsRHP": {
             "avg": ".208",
@@ -7040,7 +7040,7 @@
           },
           "streak": 1,
           "risp": {
-            "avg": ".214"
+            "avg": ".207"
           }
         },
         {
