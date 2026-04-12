@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-12T00:50:14.611339-04:00",
+  "updated_at": "2026-04-12T01:03:44.404603-04:00",
   "games": [
     {
       "gamePk": 823480,
@@ -214,6 +214,24 @@
       "pitchers": [
         "Emmet Sheehan"
       ]
+    },
+    {
+      "gamePk": 823155,
+      "game": "Houston Astros @ Seattle Mariners",
+      "winner": "Seattle Mariners",
+      "loser": "Houston Astros",
+      "final_score": "7-8",
+      "hitters": [
+        "Yordan Alvarez",
+        "Carlos Correa",
+        "Joey Loperfido",
+        "Cam Smith",
+        "Taylor Trammell",
+        "J.P. Crawford",
+        "Cal Raleigh",
+        "Julio Rodr\u00edguez"
+      ],
+      "pitchers": []
     }
   ],
   "errors": []
