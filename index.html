@@ -534,7 +534,7 @@ body.watchlist-open {
 
 .live-middle {
   display: grid;
-  grid-template-columns: 92px 1fr;
+  grid-template-columns: 118px 1fr;
   gap: 12px;
   align-items: center;
   margin-top: 12px;
@@ -544,6 +544,55 @@ body.watchlist-open {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.diamond-board {
+  position: relative;
+  width: 108px;
+  height: 108px;
+  display: grid;
+  place-items: center;
+}
+
+.runner-token {
+  position: absolute;
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 2px solid rgba(255,255,255,0.88);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.32);
+  background: rgba(255,255,255,0.08);
+}
+
+.runner-token img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.runner-token.first {
+  left: 74px;
+  top: 40px;
+}
+
+.runner-token.second {
+  left: 41px;
+  top: 7px;
+  width: 28px;
+  height: 28px;
+}
+
+.runner-token.third {
+  left: 8px;
+  top: 40px;
+}
+
+.runner-token.scoring {
+  width: 30px;
+  height: 30px;
+  box-shadow: 0 0 0 3px rgba(240, 184, 75, 0.18), 0 10px 24px rgba(0, 0, 0, 0.36);
 }
 
 .pitcher-line {
@@ -562,6 +611,46 @@ body.watchlist-open {
   color: #dfe9f8;
   font-size: 13px;
   line-height: 1.5;
+}
+
+.live-situation-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 12px;
+}
+
+.situation-pill {
+  display: inline-flex;
+  align-items: center;
+  min-height: 30px;
+  padding: 0 10px;
+  border-radius: 999px;
+  background: rgba(255,255,255,0.06);
+  border: 1px solid rgba(148, 163, 184, 0.16);
+  color: #e6eefb;
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.situation-pill.hot {
+  background: rgba(240, 184, 75, 0.12);
+  border-color: rgba(240, 184, 75, 0.30);
+  color: #ffe4a8;
+}
+
+.situation-pill.danger {
+  background: rgba(255, 107, 107, 0.12);
+  border-color: rgba(255, 107, 107, 0.28);
+  color: #ffd4d4;
+}
+
+.situation-pill.info {
+  background: rgba(77, 163, 255, 0.14);
+  border-color: rgba(77, 163, 255, 0.28);
+  color: #dcebff;
 }
 
 .matchup-badges {
@@ -1201,8 +1290,12 @@ function shortTeamName(teamName) {
   return teamInfo(teamName).short;
 }
 
+function teamCode(teamName) {
+  return teamInfo(teamName).abbr;
+}
+
 function matchupText(awayTeam, homeTeam) {
-  return `${shortTeamName(awayTeam)} @ ${shortTeamName(homeTeam)}`;
+  return `${teamCode(awayTeam)} @ ${teamCode(homeTeam)}`;
 }
 
 function teamBadge(teamName) {
@@ -1270,23 +1363,95 @@ function renderList(items, emptyText) {
   return `<ul class="list">${values.map(item => `<li>${item}</li>`).join("")}</ul>`;
 }
 
-function renderDiamond(bases = {}) {
+function renderRunnerToken(baseKey, runner) {
+  if (!runner?.name) return "";
+  const classes = ["runner-token", baseKey];
+  if (baseKey === "second" || baseKey === "third") {
+    classes.push("scoring");
+  }
+  const alt = `${runner.name} on ${baseKey} base`;
+  return `
+    <div class="${classes.join(" ")}" title="${runner.name}">
+      ${runner.headshot
+        ? `<img src="${runner.headshot}" alt="${alt}">`
+        : `<div class="live-chip-value">${runner.name.slice(0, 1)}</div>`}
+    </div>
+  `;
+}
+
+function renderDiamond(bases = {}, runners = {}) {
   const firstFill = bases.first ? "var(--base-on)" : "var(--base-off)";
   const secondFill = bases.second ? "var(--base-on)" : "var(--base-off)";
   const thirdFill = bases.third ? "var(--base-on)" : "var(--base-off)";
   return `
     <div class="diamond-wrap">
-      <svg width="92" height="92" viewBox="0 0 92 92" aria-label="Baseball diamond">
-        <line x1="46" y1="14" x2="78" y2="46" stroke="rgba(255,255,255,0.16)" stroke-width="2"/>
-        <line x1="78" y1="46" x2="46" y2="78" stroke="rgba(255,255,255,0.16)" stroke-width="2"/>
-        <line x1="46" y1="78" x2="14" y2="46" stroke="rgba(255,255,255,0.16)" stroke-width="2"/>
-        <line x1="14" y1="46" x2="46" y2="14" stroke="rgba(255,255,255,0.16)" stroke-width="2"/>
-        <rect x="40" y="8" width="12" height="12" transform="rotate(45 46 14)" fill="${secondFill}" stroke="rgba(255,255,255,0.28)" />
-        <rect x="72" y="40" width="12" height="12" transform="rotate(45 78 46)" fill="${firstFill}" stroke="rgba(255,255,255,0.28)" />
-        <rect x="40" y="72" width="12" height="12" transform="rotate(45 46 78)" fill="rgba(210,180,140,0.92)" stroke="rgba(255,255,255,0.28)" />
-        <rect x="8" y="40" width="12" height="12" transform="rotate(45 14 46)" fill="${thirdFill}" stroke="rgba(255,255,255,0.28)" />
-        <circle cx="46" cy="46" r="5" fill="rgba(255,255,255,0.12)" />
-      </svg>
+      <div class="diamond-board">
+        <svg width="108" height="108" viewBox="0 0 92 92" aria-label="Baseball diamond">
+          <line x1="46" y1="14" x2="78" y2="46" stroke="rgba(255,255,255,0.16)" stroke-width="2"/>
+          <line x1="78" y1="46" x2="46" y2="78" stroke="rgba(255,255,255,0.16)" stroke-width="2"/>
+          <line x1="46" y1="78" x2="14" y2="46" stroke="rgba(255,255,255,0.16)" stroke-width="2"/>
+          <line x1="14" y1="46" x2="46" y2="14" stroke="rgba(255,255,255,0.16)" stroke-width="2"/>
+          <rect x="40" y="8" width="12" height="12" transform="rotate(45 46 14)" fill="${secondFill}" stroke="rgba(255,255,255,0.28)" />
+          <rect x="72" y="40" width="12" height="12" transform="rotate(45 78 46)" fill="${firstFill}" stroke="rgba(255,255,255,0.28)" />
+          <rect x="40" y="72" width="12" height="12" transform="rotate(45 46 78)" fill="rgba(210,180,140,0.92)" stroke="rgba(255,255,255,0.28)" />
+          <rect x="8" y="40" width="12" height="12" transform="rotate(45 14 46)" fill="${thirdFill}" stroke="rgba(255,255,255,0.28)" />
+          <circle cx="46" cy="46" r="5" fill="rgba(255,255,255,0.12)" />
+        </svg>
+        ${renderRunnerToken("first", runners.first)}
+        ${renderRunnerToken("second", runners.second)}
+        ${renderRunnerToken("third", runners.third)}
+      </div>
+    </div>
+  `;
+}
+
+function parseScore(score) {
+  const [away, home] = String(score || "0-0").split("-").map((value) => Number(value) || 0);
+  return { away, home, diff: Math.abs(away - home) };
+}
+
+function parseInningNumber(inningText) {
+  const match = String(inningText || "").match(/(\d+)/);
+  return match ? Number(match[1]) : null;
+}
+
+function renderSituationPills(game) {
+  const pills = [];
+  const inningNumber = parseInningNumber(game.inning);
+  const score = parseScore(game.score);
+  const occupied = [game.runners?.first, game.runners?.second, game.runners?.third].filter(Boolean).length;
+  const inScoringPosition = Boolean(game.runners?.second || game.runners?.third);
+  const countText = String(game.count || "");
+
+  if (game.runners?.first && !game.runners?.second && !game.runners?.third) {
+    pills.push({ text: "Leadoff Man On", tone: "info" });
+  }
+  if (inScoringPosition) {
+    pills.push({ text: "RISP", tone: "hot" });
+  }
+  if (occupied === 3) {
+    pills.push({ text: "Bases Loaded", tone: "danger" });
+  }
+  if ((game.outs ?? 0) === 2) {
+    pills.push({ text: "Two Outs", tone: "info" });
+  }
+  if (countText === "3-2") {
+    pills.push({ text: "Full Count", tone: "danger" });
+  }
+  if (score.diff <= 2) {
+    pills.push({ text: "One Swing Game", tone: "hot" });
+  }
+  if (inningNumber && inningNumber >= 7) {
+    pills.push({ text: "Late Innings", tone: "danger" });
+  }
+
+  if (!pills.length) {
+    pills.push({ text: "Live Spot", tone: "info" });
+  }
+
+  return `
+    <div class="live-situation-row">
+      ${pills.slice(0, 4).map((pill) => `<div class="situation-pill ${pill.tone}">${pill.text}</div>`).join("")}
     </div>
   `;
 }
@@ -1370,7 +1535,7 @@ function renderSuggestions(players) {
       <img class="player-headshot" src="${player.headshot}" alt="${player.full_name}">
       <div>
         <div class="stat-row"><strong>${player.full_name}</strong></div>
-        <div class="stat-line">${player.team} | ${player.position}</div>
+        <div class="stat-line">${teamCode(player.team)} | ${player.position}</div>
       </div>
     </div>
   `).join("");
@@ -1430,7 +1595,7 @@ function renderPlayerSearch(data) {
           <img class="player-headshot-lg" src="${p.headshot}" alt="${formatValue(p.full_name)}">
           <div>
             <div class="matchup">${formatValue(p.full_name)}</div>
-            <div class="meta">${formatValue(p.team)} | ${formatValue(p.position)}</div>
+            <div class="meta">${teamCode(p.team)} | ${formatValue(p.position)}</div>
             <div class="stat-row">Bats ${formatValue(p.bat_side)} | Throws ${formatValue(p.pitch_hand)}</div>
             <div class="stat-line">Age ${formatValue(p.age)} | Jersey ${formatValue(p.jersey)}</div>
           </div>
@@ -1644,7 +1809,7 @@ async function renderWatchlist() {
               <img class="watchlist-headshot" src="${p.headshot}" alt="${formatValue(p.full_name)}">
               <div>
                 <div class="matchup">${formatValue(p.full_name)}</div>
-                <div class="meta">${formatValue(p.team)} | ${formatValue(p.position)}</div>
+                  <div class="meta">${teamCode(p.team)} | ${formatValue(p.position)}</div>
                 <div class="stat-line">Bats ${formatValue(p.bat_side)} | Throws ${formatValue(p.pitch_hand)}</div>
               </div>
             </div>
@@ -1719,8 +1884,10 @@ async function loadLive() {
           </div>
         </div>
 
+        ${renderSituationPills(game)}
+
         <div class="live-middle">
-          ${renderDiamond(game.bases)}
+          ${renderDiamond(game.bases, game.runners)}
           <div class="pitcher-line">
             <div class="section-title-sm" style="margin-top:0;">Current Pitcher Line</div>
             <div class="stat-row">
@@ -1731,9 +1898,9 @@ async function loadLive() {
             <div class="stat-line">
               ${game.runners?.first || game.runners?.second || game.runners?.third
                 ? `Runners: ${[
-                    game.runners?.first ? `1B ${game.runners.first}` : null,
-                    game.runners?.second ? `2B ${game.runners.second}` : null,
-                    game.runners?.third ? `3B ${game.runners.third}` : null
+                    game.runners?.first ? `1B ${game.runners.first.name}` : null,
+                    game.runners?.second ? `2B ${game.runners.second.name}` : null,
+                    game.runners?.third ? `3B ${game.runners.third.name}` : null
                   ].filter(Boolean).join(" | ")}`
                 : "Bases empty."}
             </div>
@@ -1849,19 +2016,19 @@ async function loadDaily() {
           <div id="${id}" style="display:none; margin-top:12px;">
             <div class="mini-grid">
               <div class="subcard">
-                <div class="section-title-sm">Away Probable Pitcher</div>
+                <div class="section-title-sm">${teamCode(game.away_team)} Probable Pitcher</div>
                 ${renderPitcher(game.away_pitcher)}
               </div>
               <div class="subcard">
-                <div class="section-title-sm">Home Probable Pitcher</div>
+                  <div class="section-title-sm">${teamCode(game.home_team)} Probable Pitcher</div>
                 ${renderPitcher(game.home_pitcher)}
               </div>
             </div>
 
-            <div class="section-title-sm">${shortTeamName(game.away_team)} Hitters</div>
+            <div class="section-title-sm">${teamCode(game.away_team)} Hitters</div>
             ${renderHitters(game.away_hitters, "Away hitter data not available.")}
 
-            <div class="section-title-sm">${shortTeamName(game.home_team)} Hitters</div>
+            <div class="section-title-sm">${teamCode(game.home_team)} Hitters</div>
             ${renderHitters(game.home_hitters, "Home hitter data not available.")}
           </div>
         </div>
@@ -1890,7 +2057,7 @@ async function loadFinishedGames() {
         ${matchupBadgesOnly(game.game.split(" @ ")[0], game.game.split(" @ ")[1])}
         <div class="matchup">${matchupText(game.game.split(" @ ")[0], game.game.split(" @ ")[1])}</div>
         <div class="scoreline">${formatValue(game.final_score, "N/A")}</div>
-        <div class="stat-row">Winner: ${shortTeamName(game.winner)} | Loser: ${shortTeamName(game.loser)}</div>
+        <div class="stat-row">Winner: ${teamCode(game.winner)} | Loser: ${teamCode(game.loser)}</div>
         <div class="stat-row">Top Pitching: ${formatValue(game.top_pitching_line, "N/A")}</div>
         <div class="stat-row">Top Batting: ${formatValue(game.top_batting_line, "N/A")}</div>
         <div class="summary">${formatValue(game.stat_summary, "No stat summary available.")}</div>
