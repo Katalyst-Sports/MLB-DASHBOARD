@@ -351,18 +351,24 @@ def build_news_roundup(top_news, injury_updates, trade_updates):
             trade_lines = "\n".join([f"- {item['team']}: {item['player']} ({item['update']})" for item in trade_updates[:8]]) or "- No recent MLB trade updates available."
 
             prompt = f"""
-You are an MLB news editor.
+You are an MLB recap writer for a dashboard.
 
-Write a sharp daily MLB roundup for a StatStream dashboard.
+Write a concise previous-day MLB recap.
 
 Requirements:
-- Start with a headline on the first line
-- Then write 3 short paragraphs
-- Paragraph 1: top MLB news
-- Paragraph 2: injuries and availability impact
-- Paragraph 3: trades or roster movement
-- Keep it factual, concise, and mobile-friendly
-- No hype, no speculation, no markdown bullets inside the article body
+- Start with a strong headline on the first line
+- Then write 3 to 4 sentences total with creative sports journalism and make each story different
+- Focus on the biggest offensive impact players and pitching impact players across the completed games
+- Mention standout hitters, home run power, RBI impact, dominant pitchers, strikeout performances, and run prevention
+- Keep it sharp, factual, and easy to read on mobile
+- No bullet points
+- No section headers
+- No speculation
+- If there were only a few games, still keep it to 3 to 4 sentences and center the most important performances
+
+Games:
+{games_text}
+"""
 
 Top news:
 {news_lines}
