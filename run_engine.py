@@ -1098,10 +1098,17 @@ for date_block in schedule_yesterday.get("dates", []):
 
 
 def build_game_card_summary(game):
-    hitters = ", ".join(game.get("hitters", [])[:3]) if game.get("hitters") else "timely offense"
-    pitchers = ", ".join(game.get("pitchers", [])[:2]) if game.get("pitchers") else "key pitching"
+    top_batting_line = game.get("top_batting_line", "No standout batting line available.")
+    top_pitching_line = game.get("top_pitching_line", "No standout pitching line available.")
+    key_game_detail = normalize_whitespace(game.get("game_summary", ""))
 
-    fallback = f"{game['winner']} beat {game['loser']} {game['final_score']} behind {hitters} and {pitchers}."
+    fallback_parts = [
+        f"{game['winner']} beat {game['loser']} {game['final_score']}.",
+        top_batting_line if top_batting_line != "No standout batting line available." else "",
+        top_pitching_line if top_pitching_line != "No standout pitching line available." else "",
+        key_game_detail,
+    ]
+    fallback = " ".join(part for part in fallback_parts if part)
 
     if not client:
         return fallback
@@ -1113,26 +1120,41 @@ Write a sharp 1-sentence MLB game card recap.
 Requirements:
 - 18 to 28 words
 - energetic but factual
-- mention the winner, score, and key offensive or pitching impact
+- mention the winner, score, and a key offensive or pitching impact
 - no hype
 - no quotation marks
+- use only the grounded stat lines and key game detail below
+- do not invent RBI totals, home runs, or pitching lines
+- if a fact is not explicitly present below, leave it out
 
 Game: {game['game']}
 Final: {game['final_score']}
 Winner: {game['winner']}
 Loser: {game['loser']}
-Impact Hitters: {hitters}
-Impact Pitchers: {pitchers}
+Top Batting Line: {top_batting_line}
+Top Pitching Line: {top_pitching_line}
+Key Game Detail: {key_game_detail or 'No key game detail available.'}
 """
         response = client.chat.completions.create(
             model="llama-3.1-8b-instant",
             messages=[{"role": "user", "content": prompt}],
-            temperature=0.7,
+            temperature=0.2,
         )
         text = response.choices[0].message.content.strip()
         return text if text else fallback
     except Exception:
         return fallback
+
+
+def extract_impact_player(game):
+    for line in [
+        game.get("top_batting_line", ""),
+        game.get("top_pitching_line", ""),
+    ]:
+        if ":" in str(line):
+            return normalize_whitespace(str(line).split(":", 1)[0])
+
+    return (game.get("hitters") or game.get("pitchers") or ["N/A"])[0]
 
 
 # =====================================================
@@ -1192,6 +1214,9 @@ Requirements:
 - No section headers
 - No speculation
 - If there were only a few games, still keep it to 3 to 4 sentences and center the most important performances
+- Use only the grounded game details below
+- Do not invent scoring plays or stat totals
+- Do not claim a player had a two-run hit, home run, RBI total, or pitching line unless that fact appears explicitly below
 
 Games:
 {games_text}
@@ -1218,7 +1243,7 @@ yesterday_recap["dashboard_recap"]["all_games"] = [
         "top_pitching_line": game.get("top_pitching_line", "No standout pitching line available."),
         "top_batting_line": game.get("top_batting_line", "No standout batting line available."),
         "summary": build_game_card_summary(game),
-        "impact_player": (game.get("hitters") or game.get("pitchers") or ["N/A"])[0],
+        "impact_player": extract_impact_player(game),
     }
     for game in yesterday_postgame
 ]
