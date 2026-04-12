@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-12T13:56:54.817692-04:00",
+  "updated_at": "2026-04-12T15:55:46.638289-04:00",
   "games": [
     {
       "gamePk": 824859,
@@ -12,8 +12,8 @@
         "id": 605288,
         "name": "Adrian Houser",
         "hand": "R",
-        "era": "5.25",
-        "whip": "1.67",
+        "era": "5.06",
+        "whip": "1.56",
         "last3": {
           "starts": [
             {
@@ -39,22 +39,22 @@
             {
               "date": "2026-04-12",
               "opponent": "Baltimore Orioles",
-              "ip": "1.0",
-              "er": 2,
-              "k": 1,
-              "bb": 1,
-              "pitches": 25,
-              "strikes": 15
+              "ip": "4.2",
+              "er": 4,
+              "k": 3,
+              "bb": 2,
+              "pitches": 88,
+              "strikes": 51
             }
           ],
-          "avg_ip": "4.0",
-          "avg_k": "2.7",
-          "avg_bb": "1.3",
-          "avg_pitches": "66.7",
-          "avg_strikes": "44.3",
-          "era": "5.11",
-          "whip": "1.62",
-          "strike_pct": "66.5",
+          "avg_ip": "5.1",
+          "avg_k": "3.3",
+          "avg_bb": "1.7",
+          "avg_pitches": "87.7",
+          "avg_strikes": "56.3",
+          "era": "5.06",
+          "whip": "1.56",
+          "strike_pct": "64.3",
           "quality_starts": 0
         }
       },
@@ -62,8 +62,8 @@
         "id": 700249,
         "name": "Cade Povich",
         "hand": "L",
-        "era": "2.70",
-        "whip": "1.05",
+        "era": "2.19",
+        "whip": "0.97",
         "last3": {
           "starts": [
             {
@@ -79,53 +79,53 @@
             {
               "date": "2026-04-12",
               "opponent": "San Francisco Giants",
-              "ip": "1.0",
-              "er": 0,
-              "k": 1,
+              "ip": "6.2",
+              "er": 1,
+              "k": 5,
               "bb": 0,
-              "pitches": 10,
-              "strikes": 8
+              "pitches": 97,
+              "strikes": 65
             }
           ],
-          "avg_ip": "3.1",
-          "avg_k": "1.5",
+          "avg_ip": "6.0",
+          "avg_k": "3.5",
           "avg_bb": "1.5",
-          "avg_pitches": "48.5",
-          "avg_strikes": "30.5",
-          "era": "2.70",
-          "whip": "1.05",
-          "strike_pct": "62.9",
-          "quality_starts": 0
+          "avg_pitches": "92.0",
+          "avg_strikes": "59.0",
+          "era": "2.19",
+          "whip": "0.97",
+          "strike_pct": "64.1",
+          "quality_starts": 1
         }
       },
       "away_hitters": [
         {
           "name": "Daniel Susac",
           "stats": {
-            "avg": ".750",
-            "obp": ".778",
-            "slg": "1.000",
-            "ops": "1.778",
+            "avg": ".636",
+            "obp": ".667",
+            "slg": ".818",
+            "ops": "1.485",
             "homeRuns": 0,
-            "rbi": 2
+            "rbi": 3
           },
           "last10ab": {
-            "avg": "0.750",
-            "hits": 6,
-            "atBats": 8,
+            "avg": "0.636",
+            "hits": 7,
+            "atBats": 11,
             "homeRuns": 0,
-            "rbi": 2,
+            "rbi": 3,
             "walks": 1,
-            "games": 3
+            "games": 4
           }
         },
         {
           "name": "Casey Schmitt",
           "stats": {
-            "avg": ".324",
-            "obp": ".395",
-            "slg": ".471",
-            "ops": ".866",
+            "avg": ".351",
+            "obp": ".415",
+            "slg": ".486",
+            "ops": ".901",
             "homeRuns": 0,
             "rbi": 3
           },
@@ -142,10 +142,10 @@
         {
           "name": "Willy Adames",
           "stats": {
-            "avg": ".254",
-            "obp": ".313",
-            "slg": ".492",
-            "ops": ".805",
+            "avg": ".246",
+            "obp": ".303",
+            "slg": ".475",
+            "ops": ".778",
             "homeRuns": 2,
             "rbi": 5
           },
@@ -162,10 +162,10 @@
         {
           "name": "Matt Chapman",
           "stats": {
-            "avg": ".305",
-            "obp": ".359",
-            "slg": ".441",
-            "ops": ".800",
+            "avg": ".295",
+            "obp": ".348",
+            "slg": ".426",
+            "ops": ".774",
             "homeRuns": 1,
             "rbi": 7
           },
@@ -177,26 +177,6 @@
             "rbi": 1,
             "walks": 3,
             "games": 4
-          }
-        },
-        {
-          "name": "Christian Koss",
-          "stats": {
-            "avg": ".250",
-            "obp": ".250",
-            "slg": ".500",
-            "ops": ".750",
-            "homeRuns": 0,
-            "rbi": 0
-          },
-          "last10ab": {
-            "avg": "0.250",
-            "hits": 1,
-            "atBats": 4,
-            "homeRuns": 0,
-            "rbi": 0,
-            "walks": 0,
-            "games": 2
           }
         },
         {
@@ -240,12 +220,32 @@
           }
         },
         {
+          "name": "Rafael Devers",
+          "stats": {
+            "avg": ".226",
+            "obp": ".273",
+            "slg": ".339",
+            "ops": ".612",
+            "homeRuns": 2,
+            "rbi": 6
+          },
+          "last10ab": {
+            "avg": "0.250",
+            "hits": 3,
+            "atBats": 12,
+            "homeRuns": 0,
+            "rbi": 0,
+            "walks": 0,
+            "games": 3
+          }
+        },
+        {
           "name": "Jung Hoo Lee",
           "stats": {
-            "avg": ".200",
-            "obp": ".263",
-            "slg": ".340",
-            "ops": ".603",
+            "avg": ".189",
+            "obp": ".250",
+            "slg": ".321",
+            "ops": ".571",
             "homeRuns": 1,
             "rbi": 7
           },
@@ -260,74 +260,46 @@
           }
         },
         {
-          "name": "Rafael Devers",
+          "name": "Heliot Ramos",
           "stats": {
-            "avg": ".217",
-            "obp": ".266",
-            "slg": ".333",
-            "ops": ".599",
-            "homeRuns": 2,
+            "avg": ".241",
+            "obp": ".267",
+            "slg": ".276",
+            "ops": ".543",
+            "homeRuns": 0,
             "rbi": 6
           },
           "last10ab": {
-            "avg": "0.250",
+            "avg": "0.300",
             "hits": 3,
-            "atBats": 12,
+            "atBats": 10,
             "homeRuns": 0,
             "rbi": 0,
-            "walks": 0,
+            "walks": 1,
             "games": 3
           }
         }
       ],
       "home_hitters": [
         {
-          "name": "Gunnar Henderson",
+          "name": "Johnathan Rodr\u00edguez",
           "stats": {
-            "avg": ".241",
-            "obp": ".343",
-            "slg": ".603",
-            "ops": ".946",
-            "homeRuns": 6,
-            "rbi": 12
+            "avg": ".000",
+            "obp": "1.000",
+            "slg": ".000",
+            "ops": "1.000",
+            "homeRuns": 0,
+            "rbi": 0
           },
-          "last10ab": {
-            "avg": "0.083",
-            "hits": 1,
-            "atBats": 12,
-            "homeRuns": 0,
-            "rbi": 0,
-            "walks": 1,
-            "games": 3
-          }
-        },
-        {
-          "name": "Taylor Ward",
-          "stats": {
-            "avg": ".339",
-            "obp": ".424",
-            "slg": ".518",
-            "ops": ".942",
-            "homeRuns": 0,
-            "rbi": 8
-          },
-          "last10ab": {
-            "avg": "0.091",
-            "hits": 1,
-            "atBats": 11,
-            "homeRuns": 0,
-            "rbi": 0,
-            "walks": 3,
-            "games": 3
-          }
+          "last10ab": {}
         },
         {
           "name": "Leody Taveras",
           "stats": {
-            "avg": ".333",
-            "obp": ".455",
-            "slg": ".444",
-            "ops": ".899",
+            "avg": ".364",
+            "obp": ".462",
+            "slg": ".500",
+            "ops": ".962",
             "homeRuns": 0,
             "rbi": 4
           },
@@ -342,23 +314,43 @@
           }
         },
         {
-          "name": "Dylan Beavers",
+          "name": "Taylor Ward",
           "stats": {
-            "avg": ".273",
-            "obp": ".342",
-            "slg": ".394",
-            "ops": ".736",
-            "homeRuns": 1,
-            "rbi": 5
+            "avg": ".356",
+            "obp": ".435",
+            "slg": ".525",
+            "ops": ".960",
+            "homeRuns": 0,
+            "rbi": 8
           },
           "last10ab": {
-            "avg": "0.286",
-            "hits": 4,
-            "atBats": 14,
-            "homeRuns": 1,
-            "rbi": 3,
-            "walks": 0,
-            "games": 4
+            "avg": "0.091",
+            "hits": 1,
+            "atBats": 11,
+            "homeRuns": 0,
+            "rbi": 0,
+            "walks": 3,
+            "games": 3
+          }
+        },
+        {
+          "name": "Gunnar Henderson",
+          "stats": {
+            "avg": ".246",
+            "obp": ".343",
+            "slg": ".590",
+            "ops": ".933",
+            "homeRuns": 6,
+            "rbi": 12
+          },
+          "last10ab": {
+            "avg": "0.083",
+            "hits": 1,
+            "atBats": 12,
+            "homeRuns": 0,
+            "rbi": 0,
+            "walks": 1,
+            "games": 3
           }
         },
         {
@@ -382,12 +374,32 @@
           }
         },
         {
+          "name": "Dylan Beavers",
+          "stats": {
+            "avg": ".250",
+            "obp": ".317",
+            "slg": ".361",
+            "ops": ".678",
+            "homeRuns": 1,
+            "rbi": 5
+          },
+          "last10ab": {
+            "avg": "0.286",
+            "hits": 4,
+            "atBats": 14,
+            "homeRuns": 1,
+            "rbi": 3,
+            "walks": 0,
+            "games": 4
+          }
+        },
+        {
           "name": "Jeremiah Jackson",
           "stats": {
-            "avg": ".278",
-            "obp": ".289",
-            "slg": ".389",
-            "ops": ".678",
+            "avg": ".256",
+            "obp": ".268",
+            "slg": ".359",
+            "ops": ".627",
             "homeRuns": 1,
             "rbi": 6
           },
@@ -402,12 +414,32 @@
           }
         },
         {
+          "name": "Pete Alonso",
+          "stats": {
+            "avg": ".193",
+            "obp": ".292",
+            "slg": ".298",
+            "ops": ".590",
+            "homeRuns": 1,
+            "rbi": 5
+          },
+          "last10ab": {
+            "avg": "0.273",
+            "hits": 3,
+            "atBats": 11,
+            "homeRuns": 0,
+            "rbi": 1,
+            "walks": 2,
+            "games": 3
+          }
+        },
+        {
           "name": "Samuel Basallo",
           "stats": {
-            "avg": ".158",
-            "obp": ".256",
-            "slg": ".316",
-            "ops": ".572",
+            "avg": ".150",
+            "obp": ".261",
+            "slg": ".300",
+            "ops": ".561",
             "homeRuns": 2,
             "rbi": 3
           },
@@ -419,46 +451,6 @@
             "rbi": 0,
             "walks": 2,
             "games": 3
-          }
-        },
-        {
-          "name": "Colton Cowser",
-          "stats": {
-            "avg": ".231",
-            "obp": ".300",
-            "slg": ".269",
-            "ops": ".569",
-            "homeRuns": 0,
-            "rbi": 2
-          },
-          "last10ab": {
-            "avg": "0.300",
-            "hits": 3,
-            "atBats": 10,
-            "homeRuns": 0,
-            "rbi": 1,
-            "walks": 1,
-            "games": 4
-          }
-        },
-        {
-          "name": "Blaze Alexander",
-          "stats": {
-            "avg": ".242",
-            "obp": ".286",
-            "slg": ".273",
-            "ops": ".559",
-            "homeRuns": 0,
-            "rbi": 1
-          },
-          "last10ab": {
-            "avg": "0.364",
-            "hits": 4,
-            "atBats": 11,
-            "homeRuns": 0,
-            "rbi": 1,
-            "walks": 0,
-            "games": 4
           }
         }
       ]
@@ -474,8 +466,8 @@
         "id": 668678,
         "name": "Zac Gallen",
         "hand": "R",
-        "era": "2.81",
-        "whip": "1.31",
+        "era": "3.60",
+        "whip": "1.45",
         "last3": {
           "starts": [
             {
@@ -524,8 +516,8 @@
         "id": 647315,
         "name": "Zach Pop",
         "hand": "R",
-        "era": "2.84",
-        "whip": "1.11",
+        "era": "3.68",
+        "whip": "1.09",
         "last3": {
           "starts": [
             {
@@ -574,10 +566,10 @@
         {
           "name": "Ildemaro Vargas",
           "stats": {
-            "avg": ".414",
-            "obp": ".452",
-            "slg": ".655",
-            "ops": "1.107",
+            "avg": ".406",
+            "obp": ".441",
+            "slg": ".656",
+            "ops": "1.097",
             "homeRuns": 1,
             "rbi": 5
           },
@@ -594,10 +586,10 @@
         {
           "name": "Corbin Carroll",
           "stats": {
-            "avg": ".326",
-            "obp": ".407",
-            "slg": ".674",
-            "ops": "1.081",
+            "avg": ".333",
+            "obp": ".421",
+            "slg": ".667",
+            "ops": "1.088",
             "homeRuns": 2,
             "rbi": 11
           },
@@ -614,12 +606,12 @@
         {
           "name": "Jose Fernandez",
           "stats": {
-            "avg": ".303",
-            "obp": ".303",
-            "slg": ".515",
-            "ops": ".818",
+            "avg": ".333",
+            "obp": ".333",
+            "slg": ".528",
+            "ops": ".861",
             "homeRuns": 2,
-            "rbi": 6
+            "rbi": 7
           },
           "last10ab": {
             "avg": "0.333",
@@ -672,12 +664,32 @@
           }
         },
         {
+          "name": "James McCann",
+          "stats": {
+            "avg": ".211",
+            "obp": ".250",
+            "slg": ".368",
+            "ops": ".618",
+            "homeRuns": 0,
+            "rbi": 3
+          },
+          "last10ab": {
+            "avg": "0.083",
+            "hits": 1,
+            "atBats": 12,
+            "homeRuns": 0,
+            "rbi": 0,
+            "walks": 1,
+            "games": 5
+          }
+        },
+        {
           "name": "Jorge Barrosa",
           "stats": {
-            "avg": ".226",
-            "obp": ".250",
-            "slg": ".419",
-            "ops": ".669",
+            "avg": ".206",
+            "obp": ".229",
+            "slg": ".382",
+            "ops": ".611",
             "homeRuns": 0,
             "rbi": 3
           },
@@ -714,10 +726,10 @@
         {
           "name": "Geraldo Perdomo",
           "stats": {
-            "avg": ".167",
-            "obp": ".300",
-            "slg": ".271",
-            "ops": ".571",
+            "avg": ".157",
+            "obp": ".286",
+            "slg": ".255",
+            "ops": ".541",
             "homeRuns": 1,
             "rbi": 4
           },
@@ -730,36 +742,16 @@
             "walks": 0,
             "games": 3
           }
-        },
-        {
-          "name": "Alek Thomas",
-          "stats": {
-            "avg": ".143",
-            "obp": ".200",
-            "slg": ".238",
-            "ops": ".438",
-            "homeRuns": 0,
-            "rbi": 5
-          },
-          "last10ab": {
-            "avg": "0.200",
-            "hits": 2,
-            "atBats": 10,
-            "homeRuns": 0,
-            "rbi": 3,
-            "walks": 1,
-            "games": 3
-          }
         }
       ],
       "home_hitters": [
         {
           "name": "Justin Crawford",
           "stats": {
-            "avg": ".350",
-            "obp": ".422",
-            "slg": ".475",
-            "ops": ".897",
+            "avg": ".349",
+            "obp": ".417",
+            "slg": ".488",
+            "ops": ".905",
             "homeRuns": 0,
             "rbi": 1
           },
@@ -774,12 +766,32 @@
           }
         },
         {
+          "name": "Bryce Harper",
+          "stats": {
+            "avg": ".273",
+            "obp": ".365",
+            "slg": ".527",
+            "ops": ".892",
+            "homeRuns": 3,
+            "rbi": 10
+          },
+          "last10ab": {
+            "avg": "0.091",
+            "hits": 1,
+            "atBats": 11,
+            "homeRuns": 0,
+            "rbi": 1,
+            "walks": 2,
+            "games": 3
+          }
+        },
+        {
           "name": "Kyle Schwarber",
           "stats": {
-            "avg": ".204",
-            "obp": ".381",
-            "slg": ".490",
-            "ops": ".871",
+            "avg": ".212",
+            "obp": ".379",
+            "slg": ".500",
+            "ops": ".879",
             "homeRuns": 4,
             "rbi": 9
           },
@@ -790,26 +802,6 @@
             "homeRuns": 1,
             "rbi": 2,
             "walks": 0,
-            "games": 3
-          }
-        },
-        {
-          "name": "Bryce Harper",
-          "stats": {
-            "avg": ".245",
-            "obp": ".344",
-            "slg": ".491",
-            "ops": ".835",
-            "homeRuns": 3,
-            "rbi": 9
-          },
-          "last10ab": {
-            "avg": "0.091",
-            "hits": 1,
-            "atBats": 11,
-            "homeRuns": 0,
-            "rbi": 1,
-            "walks": 2,
             "games": 3
           }
         },
@@ -836,10 +828,10 @@
         {
           "name": "Brandon Marsh",
           "stats": {
-            "avg": ".250",
-            "obp": ".275",
-            "slg": ".438",
-            "ops": ".713",
+            "avg": ".255",
+            "obp": ".278",
+            "slg": ".431",
+            "ops": ".709",
             "homeRuns": 2,
             "rbi": 9
           },
@@ -854,12 +846,32 @@
           }
         },
         {
+          "name": "Trea Turner",
+          "stats": {
+            "avg": ".254",
+            "obp": ".299",
+            "slg": ".365",
+            "ops": ".664",
+            "homeRuns": 1,
+            "rbi": 5
+          },
+          "last10ab": {
+            "avg": "0.154",
+            "hits": 2,
+            "atBats": 13,
+            "homeRuns": 0,
+            "rbi": 0,
+            "walks": 1,
+            "games": 3
+          }
+        },
+        {
           "name": "Adolis Garc\u00eda",
           "stats": {
-            "avg": ".220",
-            "obp": ".298",
-            "slg": ".380",
-            "ops": ".678",
+            "avg": ".208",
+            "obp": ".283",
+            "slg": ".358",
+            "ops": ".641",
             "homeRuns": 2,
             "rbi": 4
           },
@@ -870,26 +882,6 @@
             "homeRuns": 0,
             "rbi": 2,
             "walks": 0,
-            "games": 3
-          }
-        },
-        {
-          "name": "Trea Turner",
-          "stats": {
-            "avg": ".233",
-            "obp": ".281",
-            "slg": ".300",
-            "ops": ".581",
-            "homeRuns": 0,
-            "rbi": 3
-          },
-          "last10ab": {
-            "avg": "0.154",
-            "hits": 2,
-            "atBats": 13,
-            "homeRuns": 0,
-            "rbi": 0,
-            "walks": 1,
             "games": 3
           }
         },
@@ -916,10 +908,10 @@
         {
           "name": "Bryson Stott",
           "stats": {
-            "avg": ".190",
-            "obp": ".261",
-            "slg": ".214",
-            "ops": ".475",
+            "avg": ".200",
+            "obp": ".265",
+            "slg": ".222",
+            "ops": ".487",
             "homeRuns": 0,
             "rbi": 2
           },
@@ -946,8 +938,8 @@
         "id": 671737,
         "name": "Taj Bradley",
         "hand": "R",
-        "era": "1.56",
-        "whip": "1.27",
+        "era": "1.25",
+        "whip": "1.25",
         "last3": {
           "starts": [
             {
@@ -996,8 +988,8 @@
         "id": 453286,
         "name": "Max Scherzer",
         "hand": "R",
-        "era": "3.00",
-        "whip": "0.89",
+        "era": "9.58",
+        "whip": "1.45",
         "last3": {
           "starts": [
             {
@@ -1023,33 +1015,53 @@
             {
               "date": "2026-04-12",
               "opponent": "Minnesota Twins",
-              "ip": "1.0",
-              "er": 0,
-              "k": 1,
-              "bb": 0,
-              "pitches": 12,
-              "strikes": 8
+              "ip": "2.1",
+              "er": 8,
+              "k": 3,
+              "bb": 2,
+              "pitches": 68,
+              "strikes": 41
             }
           ],
-          "avg_ip": "3.0",
-          "avg_k": "2.3",
-          "avg_bb": "0.7",
-          "avg_pitches": "43.7",
-          "avg_strikes": "29.3",
-          "era": "3.00",
-          "whip": "0.89",
-          "strike_pct": "67.2",
+          "avg_ip": "3.1",
+          "avg_k": "3.0",
+          "avg_bb": "1.3",
+          "avg_pitches": "62.3",
+          "avg_strikes": "40.3",
+          "era": "9.58",
+          "whip": "1.45",
+          "strike_pct": "64.7",
           "quality_starts": 1
         }
       },
       "away_hitters": [
         {
-          "name": "Josh Bell",
+          "name": "Tristan Gray",
           "stats": {
             "avg": ".286",
-            "obp": ".390",
-            "slg": ".551",
-            "ops": ".941",
+            "obp": ".360",
+            "slg": ".619",
+            "ops": ".979",
+            "homeRuns": 2,
+            "rbi": 11
+          },
+          "last10ab": {
+            "avg": "0.364",
+            "hits": 4,
+            "atBats": 11,
+            "homeRuns": 1,
+            "rbi": 8,
+            "walks": 2,
+            "games": 4
+          }
+        },
+        {
+          "name": "Josh Bell",
+          "stats": {
+            "avg": ".275",
+            "obp": ".397",
+            "slg": ".529",
+            "ops": ".926",
             "homeRuns": 3,
             "rbi": 12
           },
@@ -1066,10 +1078,10 @@
         {
           "name": "Trevor Larnach",
           "stats": {
-            "avg": ".261",
-            "obp": ".433",
-            "slg": ".478",
-            "ops": ".911",
+            "avg": ".269",
+            "obp": ".424",
+            "slg": ".462",
+            "ops": ".886",
             "homeRuns": 1,
             "rbi": 5
           },
@@ -1124,34 +1136,14 @@
           }
         },
         {
-          "name": "Tristan Gray",
-          "stats": {
-            "avg": ".263",
-            "obp": ".318",
-            "slg": ".474",
-            "ops": ".792",
-            "homeRuns": 1,
-            "rbi": 8
-          },
-          "last10ab": {
-            "avg": "0.364",
-            "hits": 4,
-            "atBats": 11,
-            "homeRuns": 1,
-            "rbi": 8,
-            "walks": 2,
-            "games": 4
-          }
-        },
-        {
           "name": "Brooks Lee",
           "stats": {
-            "avg": ".237",
-            "obp": ".293",
-            "slg": ".395",
-            "ops": ".688",
+            "avg": ".244",
+            "obp": ".295",
+            "slg": ".415",
+            "ops": ".710",
             "homeRuns": 2,
-            "rbi": 6
+            "rbi": 8
           },
           "last10ab": {
             "avg": "0.154",
@@ -1166,12 +1158,12 @@
         {
           "name": "Matt Wallner",
           "stats": {
-            "avg": ".214",
-            "obp": ".267",
-            "slg": ".411",
-            "ops": ".678",
+            "avg": ".220",
+            "obp": ".281",
+            "slg": ".407",
+            "ops": ".688",
             "homeRuns": 3,
-            "rbi": 5
+            "rbi": 6
           },
           "last10ab": {
             "avg": "0.100",
@@ -1184,39 +1176,39 @@
           }
         },
         {
+          "name": "Kody Clemens",
+          "stats": {
+            "avg": ".148",
+            "obp": ".281",
+            "slg": ".370",
+            "ops": ".651",
+            "homeRuns": 2,
+            "rbi": 3
+          },
+          "last10ab": {
+            "avg": "0.250",
+            "hits": 3,
+            "atBats": 12,
+            "homeRuns": 1,
+            "rbi": 2,
+            "walks": 2,
+            "games": 4
+          }
+        },
+        {
           "name": "Victor Caratini",
           "stats": {
-            "avg": ".256",
-            "obp": ".353",
-            "slg": ".279",
-            "ops": ".632",
+            "avg": ".244",
+            "obp": ".333",
+            "slg": ".267",
+            "ops": ".600",
             "homeRuns": 0,
-            "rbi": 4
+            "rbi": 5
           },
           "last10ab": {
             "avg": "0.273",
             "hits": 3,
             "atBats": 11,
-            "homeRuns": 0,
-            "rbi": 0,
-            "walks": 1,
-            "games": 3
-          }
-        },
-        {
-          "name": "Byron Buxton",
-          "stats": {
-            "avg": ".182",
-            "obp": ".258",
-            "slg": ".273",
-            "ops": ".531",
-            "homeRuns": 0,
-            "rbi": 1
-          },
-          "last10ab": {
-            "avg": "0.333",
-            "hits": 4,
-            "atBats": 12,
             "homeRuns": 0,
             "rbi": 0,
             "walks": 1,
@@ -1228,10 +1220,10 @@
         {
           "name": "Vladimir Guerrero Jr.",
           "stats": {
-            "avg": ".320",
-            "obp": ".443",
-            "slg": ".440",
-            "ops": ".883",
+            "avg": ".314",
+            "obp": ".444",
+            "slg": ".431",
+            "ops": ".875",
             "homeRuns": 1,
             "rbi": 5
           },
@@ -1243,26 +1235,6 @@
             "rbi": 1,
             "walks": 4,
             "games": 3
-          }
-        },
-        {
-          "name": "Jes\u00fas S\u00e1nchez",
-          "stats": {
-            "avg": ".275",
-            "obp": ".341",
-            "slg": ".500",
-            "ops": ".841",
-            "homeRuns": 2,
-            "rbi": 8
-          },
-          "last10ab": {
-            "avg": "0.462",
-            "hits": 6,
-            "atBats": 13,
-            "homeRuns": 1,
-            "rbi": 4,
-            "walks": 2,
-            "games": 4
           }
         },
         {
@@ -1283,6 +1255,46 @@
             "rbi": 3,
             "walks": 2,
             "games": 5
+          }
+        },
+        {
+          "name": "Daulton Varsho",
+          "stats": {
+            "avg": ".260",
+            "obp": ".339",
+            "slg": ".460",
+            "ops": ".799",
+            "homeRuns": 2,
+            "rbi": 6
+          },
+          "last10ab": {
+            "avg": "0.182",
+            "hits": 2,
+            "atBats": 11,
+            "homeRuns": 0,
+            "rbi": 1,
+            "walks": 2,
+            "games": 3
+          }
+        },
+        {
+          "name": "Jes\u00fas S\u00e1nchez",
+          "stats": {
+            "avg": ".256",
+            "obp": ".319",
+            "slg": ".465",
+            "ops": ".784",
+            "homeRuns": 2,
+            "rbi": 8
+          },
+          "last10ab": {
+            "avg": "0.462",
+            "hits": 6,
+            "atBats": 13,
+            "homeRuns": 1,
+            "rbi": 4,
+            "walks": 2,
+            "games": 4
           }
         },
         {
@@ -1308,10 +1320,10 @@
         {
           "name": "Andr\u00e9s Gim\u00e9nez",
           "stats": {
-            "avg": ".260",
-            "obp": ".315",
-            "slg": ".420",
-            "ops": ".735",
+            "avg": ".264",
+            "obp": ".316",
+            "slg": ".434",
+            "ops": ".750",
             "homeRuns": 2,
             "rbi": 9
           },
@@ -1322,26 +1334,6 @@
             "homeRuns": 0,
             "rbi": 4,
             "walks": 1,
-            "games": 3
-          }
-        },
-        {
-          "name": "Daulton Varsho",
-          "stats": {
-            "avg": ".229",
-            "obp": ".315",
-            "slg": ".417",
-            "ops": ".732",
-            "homeRuns": 2,
-            "rbi": 6
-          },
-          "last10ab": {
-            "avg": "0.182",
-            "hits": 2,
-            "atBats": 11,
-            "homeRuns": 0,
-            "rbi": 1,
-            "walks": 2,
             "games": 3
           }
         },
@@ -1368,10 +1360,10 @@
         {
           "name": "Ernie Clement",
           "stats": {
-            "avg": ".298",
-            "obp": ".310",
-            "slg": ".386",
-            "ops": ".696",
+            "avg": ".300",
+            "obp": ".311",
+            "slg": ".383",
+            "ops": ".694",
             "homeRuns": 0,
             "rbi": 4
           },
@@ -1386,23 +1378,23 @@
           }
         },
         {
-          "name": "Kazuma Okamoto",
+          "name": "Eloy Jim\u00e9nez",
           "stats": {
-            "avg": ".220",
-            "obp": ".291",
-            "slg": ".360",
-            "ops": ".651",
-            "homeRuns": 2,
-            "rbi": 3
+            "avg": ".333",
+            "obp": ".333",
+            "slg": ".333",
+            "ops": ".666",
+            "homeRuns": 0,
+            "rbi": 0
           },
           "last10ab": {
             "avg": "0.333",
-            "hits": 4,
-            "atBats": 12,
-            "homeRuns": 1,
-            "rbi": 1,
-            "walks": 2,
-            "games": 3
+            "hits": 1,
+            "atBats": 3,
+            "homeRuns": 0,
+            "rbi": 0,
+            "walks": 0,
+            "games": 1
           }
         }
       ]
@@ -1418,8 +1410,8 @@
         "id": 667755,
         "name": "Jos\u00e9 Soriano",
         "hand": "R",
-        "era": "0.45",
-        "whip": "0.65",
+        "era": "0.33",
+        "whip": "0.67",
         "last3": {
           "starts": [
             {
@@ -1468,8 +1460,8 @@
         "id": 671096,
         "name": "Andrew Abbott",
         "hand": "L",
-        "era": "4.50",
-        "whip": "1.61",
+        "era": "5.85",
+        "whip": "1.70",
         "last3": {
           "starts": [
             {
@@ -1518,10 +1510,10 @@
         {
           "name": "Zach Neto",
           "stats": {
-            "avg": ".258",
-            "obp": ".352",
-            "slg": ".548",
-            "ops": ".900",
+            "avg": ".254",
+            "obp": ".365",
+            "slg": ".540",
+            "ops": ".905",
             "homeRuns": 5,
             "rbi": 8
           },
@@ -1536,23 +1528,23 @@
           }
         },
         {
-          "name": "Jorge Soler",
+          "name": "Mike Trout",
           "stats": {
-            "avg": ".218",
-            "obp": ".323",
-            "slg": ".473",
-            "ops": ".796",
-            "homeRuns": 4,
-            "rbi": 15
+            "avg": ".212",
+            "obp": ".406",
+            "slg": ".385",
+            "ops": ".791",
+            "homeRuns": 2,
+            "rbi": 7
           },
           "last10ab": {
-            "avg": "0.182",
-            "hits": 2,
-            "atBats": 11,
-            "homeRuns": 1,
-            "rbi": 2,
-            "walks": 4,
-            "games": 3
+            "avg": "0.462",
+            "hits": 6,
+            "atBats": 13,
+            "homeRuns": 2,
+            "rbi": 3,
+            "walks": 7,
+            "games": 4
           }
         },
         {
@@ -1576,52 +1568,32 @@
           }
         },
         {
-          "name": "Mike Trout",
+          "name": "Jorge Soler",
           "stats": {
-            "avg": ".200",
-            "obp": ".394",
-            "slg": ".360",
-            "ops": ".754",
-            "homeRuns": 2,
-            "rbi": 6
+            "avg": ".211",
+            "obp": ".309",
+            "slg": ".456",
+            "ops": ".765",
+            "homeRuns": 4,
+            "rbi": 16
           },
           "last10ab": {
-            "avg": "0.462",
-            "hits": 6,
-            "atBats": 13,
-            "homeRuns": 2,
-            "rbi": 3,
-            "walks": 7,
-            "games": 4
-          }
-        },
-        {
-          "name": "Jo Adell",
-          "stats": {
-            "avg": ".300",
-            "obp": ".333",
-            "slg": ".350",
-            "ops": ".683",
+            "avg": "0.182",
+            "hits": 2,
+            "atBats": 11,
             "homeRuns": 1,
-            "rbi": 5
-          },
-          "last10ab": {
-            "avg": "0.250",
-            "hits": 3,
-            "atBats": 12,
-            "homeRuns": 0,
-            "rbi": 0,
-            "walks": 1,
+            "rbi": 2,
+            "walks": 4,
             "games": 3
           }
         },
         {
           "name": "Nolan Schanuel",
           "stats": {
-            "avg": ".222",
-            "obp": ".295",
-            "slg": ".370",
-            "ops": ".665",
+            "avg": ".232",
+            "obp": ".313",
+            "slg": ".375",
+            "ops": ".688",
             "homeRuns": 2,
             "rbi": 10
           },
@@ -1636,34 +1608,14 @@
           }
         },
         {
-          "name": "Vaughn Grissom",
-          "stats": {
-            "avg": ".250",
-            "obp": ".400",
-            "slg": ".250",
-            "ops": ".650",
-            "homeRuns": 0,
-            "rbi": 0
-          },
-          "last10ab": {
-            "avg": "0.250",
-            "hits": 1,
-            "atBats": 4,
-            "homeRuns": 0,
-            "rbi": 0,
-            "walks": 1,
-            "games": 2
-          }
-        },
-        {
           "name": "Oswald Peraza",
           "stats": {
-            "avg": ".216",
-            "obp": ".275",
-            "slg": ".351",
-            "ops": ".626",
-            "homeRuns": 1,
-            "rbi": 2
+            "avg": ".220",
+            "obp": ".273",
+            "slg": ".415",
+            "ops": ".688",
+            "homeRuns": 2,
+            "rbi": 4
           },
           "last10ab": {
             "avg": "0.364",
@@ -1672,6 +1624,46 @@
             "homeRuns": 1,
             "rbi": 2,
             "walks": 1,
+            "games": 3
+          }
+        },
+        {
+          "name": "Jo Adell",
+          "stats": {
+            "avg": ".302",
+            "obp": ".333",
+            "slg": ".349",
+            "ops": ".682",
+            "homeRuns": 1,
+            "rbi": 6
+          },
+          "last10ab": {
+            "avg": "0.250",
+            "hits": 3,
+            "atBats": 12,
+            "homeRuns": 0,
+            "rbi": 0,
+            "walks": 1,
+            "games": 3
+          }
+        },
+        {
+          "name": "Logan O'Hoppe",
+          "stats": {
+            "avg": ".238",
+            "obp": ".365",
+            "slg": ".262",
+            "ops": ".627",
+            "homeRuns": 0,
+            "rbi": 6
+          },
+          "last10ab": {
+            "avg": "0.273",
+            "hits": 3,
+            "atBats": 11,
+            "homeRuns": 0,
+            "rbi": 0,
+            "walks": 0,
             "games": 3
           }
         },
@@ -1700,10 +1692,10 @@
         {
           "name": "Sal Stewart",
           "stats": {
-            "avg": ".320",
-            "obp": ".453",
-            "slg": ".640",
-            "ops": "1.093",
+            "avg": ".302",
+            "obp": ".433",
+            "slg": ".604",
+            "ops": "1.037",
             "homeRuns": 4,
             "rbi": 9
           },
@@ -1720,10 +1712,10 @@
         {
           "name": "Elly De La Cruz",
           "stats": {
-            "avg": ".271",
-            "obp": ".358",
-            "slg": ".525",
-            "ops": ".883",
+            "avg": ".258",
+            "obp": ".343",
+            "slg": ".500",
+            "ops": ".843",
             "homeRuns": 4,
             "rbi": 7
           },
@@ -1740,10 +1732,10 @@
         {
           "name": "Eugenio Su\u00e1rez",
           "stats": {
-            "avg": ".232",
-            "obp": ".295",
-            "slg": ".357",
-            "ops": ".652",
+            "avg": ".224",
+            "obp": ".297",
+            "slg": ".345",
+            "ops": ".642",
             "homeRuns": 2,
             "rbi": 8
           },
@@ -1778,32 +1770,32 @@
           }
         },
         {
-          "name": "Spencer Steer",
+          "name": "Nathaniel Lowe",
           "stats": {
-            "avg": ".191",
-            "obp": ".235",
-            "slg": ".383",
-            "ops": ".618",
-            "homeRuns": 2,
-            "rbi": 4
+            "avg": ".211",
+            "obp": ".318",
+            "slg": ".316",
+            "ops": ".634",
+            "homeRuns": 0,
+            "rbi": 5
           },
           "last10ab": {
-            "avg": "0.091",
-            "hits": 1,
-            "atBats": 11,
+            "avg": "0.300",
+            "hits": 3,
+            "atBats": 10,
             "homeRuns": 0,
-            "rbi": 0,
-            "walks": 2,
-            "games": 3
+            "rbi": 2,
+            "walks": 0,
+            "games": 5
           }
         },
         {
           "name": "Matt McLain",
           "stats": {
-            "avg": ".218",
+            "avg": ".224",
             "obp": ".338",
-            "slg": ".273",
-            "ops": ".611",
+            "slg": ".276",
+            "ops": ".614",
             "homeRuns": 0,
             "rbi": 3
           },
@@ -1818,23 +1810,23 @@
           }
         },
         {
-          "name": "Nathaniel Lowe",
+          "name": "Spencer Steer",
           "stats": {
-            "avg": ".222",
-            "obp": ".263",
-            "slg": ".333",
-            "ops": ".596",
-            "homeRuns": 0,
-            "rbi": 5
+            "avg": ".180",
+            "obp": ".222",
+            "slg": ".360",
+            "ops": ".582",
+            "homeRuns": 2,
+            "rbi": 4
           },
           "last10ab": {
-            "avg": "0.300",
-            "hits": 3,
-            "atBats": 10,
+            "avg": "0.091",
+            "hits": 1,
+            "atBats": 11,
             "homeRuns": 0,
-            "rbi": 2,
-            "walks": 0,
-            "games": 5
+            "rbi": 0,
+            "walks": 2,
+            "games": 3
           }
         },
         {
@@ -1890,8 +1882,8 @@
         "id": 650644,
         "name": "Aaron Civale",
         "hand": "R",
-        "era": "2.70",
-        "whip": "1.20",
+        "era": "1.72",
+        "whip": "0.96",
         "last3": {
           "starts": [
             {
@@ -1917,22 +1909,22 @@
             {
               "date": "2026-04-12",
               "opponent": "New York Mets",
-              "ip": "0.2",
+              "ip": "5.2",
               "er": 0,
-              "k": 1,
+              "k": 3,
               "bb": 0,
-              "pitches": 13,
-              "strikes": 7
+              "pitches": 75,
+              "strikes": 46
             }
           ],
-          "avg_ip": "3.2",
-          "avg_k": "3.3",
+          "avg_ip": "5.1",
+          "avg_k": "4.0",
           "avg_bb": "1.7",
-          "avg_pitches": "62.7",
-          "avg_strikes": "38.0",
-          "era": "2.53",
-          "whip": "1.22",
-          "strike_pct": "60.6",
+          "avg_pitches": "83.3",
+          "avg_strikes": "51.0",
+          "era": "1.72",
+          "whip": "0.96",
+          "strike_pct": "61.2",
           "quality_starts": 0
         }
       },
@@ -1940,8 +1932,8 @@
         "id": 642547,
         "name": "Freddy Peralta",
         "hand": "R",
-        "era": "4.50",
-        "whip": "1.13",
+        "era": "3.86",
+        "whip": "1.14",
         "last3": {
           "starts": [
             {
@@ -1991,9 +1983,9 @@
           "name": "Carlos Cortes",
           "stats": {
             "avg": ".333",
-            "obp": ".455",
-            "slg": ".611",
-            "ops": "1.066",
+            "obp": ".440",
+            "slg": ".571",
+            "ops": "1.011",
             "homeRuns": 1,
             "rbi": 5
           },
@@ -2010,10 +2002,10 @@
         {
           "name": "Shea Langeliers",
           "stats": {
-            "avg": ".309",
-            "obp": ".345",
-            "slg": ".618",
-            "ops": ".963",
+            "avg": ".293",
+            "obp": ".328",
+            "slg": ".586",
+            "ops": ".914",
             "homeRuns": 5,
             "rbi": 10
           },
@@ -2030,10 +2022,10 @@
         {
           "name": "Max Muncy",
           "stats": {
-            "avg": ".321",
+            "avg": ".310",
             "obp": ".333",
-            "slg": ".554",
-            "ops": ".887",
+            "slg": ".534",
+            "ops": ".867",
             "homeRuns": 2,
             "rbi": 5
           },
@@ -2050,10 +2042,10 @@
         {
           "name": "Jeff McNeil",
           "stats": {
-            "avg": ".325",
-            "obp": ".386",
-            "slg": ".375",
-            "ops": ".761",
+            "avg": ".326",
+            "obp": ".383",
+            "slg": ".395",
+            "ops": ".778",
             "homeRuns": 0,
             "rbi": 3
           },
@@ -2070,10 +2062,10 @@
         {
           "name": "Tyler Soderstrom",
           "stats": {
-            "avg": ".232",
-            "obp": ".295",
-            "slg": ".429",
-            "ops": ".724",
+            "avg": ".220",
+            "obp": ".281",
+            "slg": ".407",
+            "ops": ".688",
             "homeRuns": 2,
             "rbi": 13
           },
@@ -2090,12 +2082,12 @@
         {
           "name": "Nick Kurtz",
           "stats": {
-            "avg": ".191",
-            "obp": ".367",
-            "slg": ".234",
-            "ops": ".601",
-            "homeRuns": 0,
-            "rbi": 2
+            "avg": ".204",
+            "obp": ".381",
+            "slg": ".306",
+            "ops": ".687",
+            "homeRuns": 1,
+            "rbi": 3
           },
           "last10ab": {
             "avg": "0.077",
@@ -2130,10 +2122,10 @@
         {
           "name": "Lawrence Butler",
           "stats": {
-            "avg": ".186",
-            "obp": ".271",
-            "slg": ".279",
-            "ops": ".550",
+            "avg": ".174",
+            "obp": ".255",
+            "slg": ".261",
+            "ops": ".516",
             "homeRuns": 1,
             "rbi": 5
           },
@@ -2150,10 +2142,10 @@
         {
           "name": "Darell Hernaiz",
           "stats": {
-            "avg": ".250",
-            "obp": ".250",
-            "slg": ".250",
-            "ops": ".500",
+            "avg": ".214",
+            "obp": ".267",
+            "slg": ".214",
+            "ops": ".481",
             "homeRuns": 0,
             "rbi": 0
           },
@@ -2212,10 +2204,10 @@
         {
           "name": "Jared Young",
           "stats": {
-            "avg": ".368",
-            "obp": ".409",
-            "slg": ".474",
-            "ops": ".883",
+            "avg": ".350",
+            "obp": ".391",
+            "slg": ".450",
+            "ops": ".841",
             "homeRuns": 0,
             "rbi": 2
           },
@@ -2232,10 +2224,10 @@
         {
           "name": "Mark Vientos",
           "stats": {
-            "avg": ".278",
-            "obp": ".308",
-            "slg": ".417",
-            "ops": ".725",
+            "avg": ".270",
+            "obp": ".300",
+            "slg": ".405",
+            "ops": ".705",
             "homeRuns": 1,
             "rbi": 5
           },
@@ -2252,10 +2244,10 @@
         {
           "name": "Tyrone Taylor",
           "stats": {
-            "avg": ".235",
-            "obp": ".235",
-            "slg": ".471",
-            "ops": ".706",
+            "avg": ".211",
+            "obp": ".250",
+            "slg": ".421",
+            "ops": ".671",
             "homeRuns": 1,
             "rbi": 4
           },
@@ -2272,10 +2264,10 @@
         {
           "name": "Bo Bichette",
           "stats": {
-            "avg": ".250",
-            "obp": ".300",
-            "slg": ".328",
-            "ops": ".628",
+            "avg": ".239",
+            "obp": ".288",
+            "slg": ".313",
+            "ops": ".601",
             "homeRuns": 1,
             "rbi": 9
           },
@@ -2290,12 +2282,32 @@
           }
         },
         {
+          "name": "Luis Torrens",
+          "stats": {
+            "avg": ".263",
+            "obp": ".263",
+            "slg": ".316",
+            "ops": ".579",
+            "homeRuns": 0,
+            "rbi": 4
+          },
+          "last10ab": {
+            "avg": "0.300",
+            "hits": 3,
+            "atBats": 10,
+            "homeRuns": 0,
+            "rbi": 2,
+            "walks": 0,
+            "games": 4
+          }
+        },
+        {
           "name": "Jorge Polanco",
           "stats": {
-            "avg": ".196",
-            "obp": ".275",
-            "slg": ".326",
-            "ops": ".601",
+            "avg": ".188",
+            "obp": ".264",
+            "slg": ".313",
+            "ops": ".577",
             "homeRuns": 1,
             "rbi": 2
           },
@@ -2310,32 +2322,12 @@
           }
         },
         {
-          "name": "Brett Baty",
-          "stats": {
-            "avg": ".245",
-            "obp": ".235",
-            "slg": ".347",
-            "ops": ".582",
-            "homeRuns": 0,
-            "rbi": 7
-          },
-          "last10ab": {
-            "avg": "0.308",
-            "hits": 4,
-            "atBats": 13,
-            "homeRuns": 0,
-            "rbi": 3,
-            "walks": 0,
-            "games": 3
-          }
-        },
-        {
           "name": "Francisco Lindor",
           "stats": {
-            "avg": ".180",
-            "obp": ".306",
-            "slg": ".262",
-            "ops": ".568",
+            "avg": ".188",
+            "obp": ".307",
+            "slg": ".266",
+            "ops": ".573",
             "homeRuns": 0,
             "rbi": 0
           },
@@ -2362,8 +2354,8 @@
         "id": 645261,
         "name": "Sandy Alcantara",
         "hand": "R",
-        "era": "1.78",
-        "whip": "0.67",
+        "era": "2.67",
+        "whip": "0.86",
         "last3": {
           "starts": [
             {
@@ -2412,8 +2404,8 @@
         "id": 669373,
         "name": "Tarik Skubal",
         "hand": "L",
-        "era": "2.41",
-        "whip": "1.02",
+        "era": "2.22",
+        "whip": "0.95",
         "last3": {
           "starts": [
             {
@@ -2460,32 +2452,12 @@
       },
       "away_hitters": [
         {
-          "name": "Deyvison De Los Santos",
-          "stats": {
-            "avg": ".500",
-            "obp": ".500",
-            "slg": "1.000",
-            "ops": "1.500",
-            "homeRuns": 0,
-            "rbi": 0
-          },
-          "last10ab": {
-            "avg": "0.500",
-            "hits": 1,
-            "atBats": 2,
-            "homeRuns": 0,
-            "rbi": 0,
-            "walks": 0,
-            "games": 1
-          }
-        },
-        {
           "name": "Xavier Edwards",
           "stats": {
-            "avg": ".357",
-            "obp": ".410",
-            "slg": ".536",
-            "ops": ".946",
+            "avg": ".356",
+            "obp": ".406",
+            "slg": ".525",
+            "ops": ".931",
             "homeRuns": 1,
             "rbi": 6
           },
@@ -2497,46 +2469,6 @@
             "rbi": 0,
             "walks": 0,
             "games": 3
-          }
-        },
-        {
-          "name": "Otto Lopez",
-          "stats": {
-            "avg": ".327",
-            "obp": ".386",
-            "slg": ".500",
-            "ops": ".886",
-            "homeRuns": 1,
-            "rbi": 4
-          },
-          "last10ab": {
-            "avg": "0.273",
-            "hits": 3,
-            "atBats": 11,
-            "homeRuns": 0,
-            "rbi": 1,
-            "walks": 1,
-            "games": 3
-          }
-        },
-        {
-          "name": "Liam Hicks",
-          "stats": {
-            "avg": ".286",
-            "obp": ".354",
-            "slg": ".524",
-            "ops": ".878",
-            "homeRuns": 3,
-            "rbi": 13
-          },
-          "last10ab": {
-            "avg": "0.364",
-            "hits": 4,
-            "atBats": 11,
-            "homeRuns": 2,
-            "rbi": 8,
-            "walks": 1,
-            "games": 4
           }
         },
         {
@@ -2560,12 +2492,52 @@
           }
         },
         {
+          "name": "Liam Hicks",
+          "stats": {
+            "avg": ".279",
+            "obp": ".347",
+            "slg": ".512",
+            "ops": ".859",
+            "homeRuns": 3,
+            "rbi": 13
+          },
+          "last10ab": {
+            "avg": "0.364",
+            "hits": 4,
+            "atBats": 11,
+            "homeRuns": 2,
+            "rbi": 8,
+            "walks": 1,
+            "games": 4
+          }
+        },
+        {
+          "name": "Otto Lopez",
+          "stats": {
+            "avg": ".315",
+            "obp": ".367",
+            "slg": ".481",
+            "ops": ".848",
+            "homeRuns": 1,
+            "rbi": 5
+          },
+          "last10ab": {
+            "avg": "0.273",
+            "hits": 3,
+            "atBats": 11,
+            "homeRuns": 0,
+            "rbi": 1,
+            "walks": 1,
+            "games": 3
+          }
+        },
+        {
           "name": "Javier Sanoja",
           "stats": {
-            "avg": ".371",
-            "obp": ".389",
-            "slg": ".457",
-            "ops": ".846",
+            "avg": ".342",
+            "obp": ".359",
+            "slg": ".421",
+            "ops": ".780",
             "homeRuns": 0,
             "rbi": 7
           },
@@ -2582,10 +2554,10 @@
         {
           "name": "Connor Norby",
           "stats": {
-            "avg": ".231",
-            "obp": ".367",
-            "slg": ".410",
-            "ops": ".777",
+            "avg": ".220",
+            "obp": ".365",
+            "slg": ".390",
+            "ops": ".755",
             "homeRuns": 1,
             "rbi": 3
           },
@@ -2600,12 +2572,32 @@
           }
         },
         {
+          "name": "Deyvison De Los Santos",
+          "stats": {
+            "avg": ".250",
+            "obp": ".250",
+            "slg": ".500",
+            "ops": ".750",
+            "homeRuns": 0,
+            "rbi": 0
+          },
+          "last10ab": {
+            "avg": "0.250",
+            "hits": 1,
+            "atBats": 4,
+            "homeRuns": 0,
+            "rbi": 0,
+            "walks": 0,
+            "games": 2
+          }
+        },
+        {
           "name": "Agust\u00edn Ram\u00edrez",
           "stats": {
-            "avg": ".226",
-            "obp": ".328",
-            "slg": ".321",
-            "ops": ".649",
+            "avg": ".214",
+            "obp": ".313",
+            "slg": ".304",
+            "ops": ".617",
             "homeRuns": 0,
             "rbi": 4
           },
@@ -2642,12 +2634,32 @@
       ],
       "home_hitters": [
         {
+          "name": "Kevin McGonigle",
+          "stats": {
+            "avg": ".322",
+            "obp": ".412",
+            "slg": ".508",
+            "ops": ".920",
+            "homeRuns": 1,
+            "rbi": 8
+          },
+          "last10ab": {
+            "avg": "0.417",
+            "hits": 5,
+            "atBats": 12,
+            "homeRuns": 0,
+            "rbi": 4,
+            "walks": 1,
+            "games": 3
+          }
+        },
+        {
           "name": "Colt Keith",
           "stats": {
-            "avg": ".367",
-            "obp": ".404",
-            "slg": ".510",
-            "ops": ".914",
+            "avg": ".340",
+            "obp": ".375",
+            "slg": ".472",
+            "ops": ".847",
             "homeRuns": 0,
             "rbi": 4
           },
@@ -2664,10 +2676,10 @@
         {
           "name": "Dillon Dingler",
           "stats": {
-            "avg": ".268",
-            "obp": ".375",
-            "slg": ".512",
-            "ops": ".887",
+            "avg": ".250",
+            "obp": ".353",
+            "slg": ".477",
+            "ops": ".830",
             "homeRuns": 3,
             "rbi": 11
           },
@@ -2684,12 +2696,12 @@
         {
           "name": "Javier B\u00e1ez",
           "stats": {
-            "avg": ".324",
-            "obp": ".351",
-            "slg": ".500",
-            "ops": ".851",
+            "avg": ".316",
+            "obp": ".341",
+            "slg": ".474",
+            "ops": ".815",
             "homeRuns": 1,
-            "rbi": 4
+            "rbi": 5
           },
           "last10ab": {
             "avg": "0.182",
@@ -2702,32 +2714,32 @@
           }
         },
         {
-          "name": "Kevin McGonigle",
+          "name": "Kerry Carpenter",
           "stats": {
-            "avg": ".286",
-            "obp": ".375",
-            "slg": ".429",
-            "ops": ".804",
-            "homeRuns": 0,
-            "rbi": 7
+            "avg": ".208",
+            "obp": ".316",
+            "slg": ".417",
+            "ops": ".733",
+            "homeRuns": 3,
+            "rbi": 9
           },
           "last10ab": {
-            "avg": "0.417",
-            "hits": 5,
-            "atBats": 12,
+            "avg": "0.000",
+            "hits": 0,
+            "atBats": 11,
             "homeRuns": 0,
-            "rbi": 4,
-            "walks": 1,
+            "rbi": 0,
+            "walks": 2,
             "games": 3
           }
         },
         {
           "name": "Riley Greene",
           "stats": {
-            "avg": ".241",
-            "obp": ".333",
-            "slg": ".362",
-            "ops": ".695",
+            "avg": ".250",
+            "obp": ".348",
+            "slg": ".367",
+            "ops": ".715",
             "homeRuns": 1,
             "rbi": 10
           },
@@ -2742,32 +2754,12 @@
           }
         },
         {
-          "name": "Kerry Carpenter",
-          "stats": {
-            "avg": ".200",
-            "obp": ".302",
-            "slg": ".356",
-            "ops": ".658",
-            "homeRuns": 2,
-            "rbi": 7
-          },
-          "last10ab": {
-            "avg": "0.000",
-            "hits": 0,
-            "atBats": 11,
-            "homeRuns": 0,
-            "rbi": 0,
-            "walks": 2,
-            "games": 3
-          }
-        },
-        {
           "name": "Gleyber Torres",
           "stats": {
-            "avg": ".212",
-            "obp": ".354",
-            "slg": ".288",
-            "ops": ".642",
+            "avg": ".214",
+            "obp": ".348",
+            "slg": ".286",
+            "ops": ".634",
             "homeRuns": 1,
             "rbi": 4
           },
@@ -2784,10 +2776,10 @@
         {
           "name": "Spencer Torkelson",
           "stats": {
-            "avg": ".209",
-            "obp": ".382",
-            "slg": ".256",
-            "ops": ".638",
+            "avg": ".213",
+            "obp": ".373",
+            "slg": ".255",
+            "ops": ".628",
             "homeRuns": 0,
             "rbi": 5
           },
@@ -2804,10 +2796,10 @@
         {
           "name": "Zach McKinstry",
           "stats": {
-            "avg": ".176",
-            "obp": ".243",
-            "slg": ".294",
-            "ops": ".537",
+            "avg": ".184",
+            "obp": ".244",
+            "slg": ".289",
+            "ops": ".533",
             "homeRuns": 1,
             "rbi": 5
           },
@@ -2834,8 +2826,8 @@
         "id": 693645,
         "name": "Cam Schlittler",
         "hand": "R",
-        "era": "2.04",
-        "whip": "0.57",
+        "era": "2.49",
+        "whip": "0.74",
         "last3": {
           "starts": [
             {
@@ -2884,8 +2876,8 @@
         "id": 656876,
         "name": "Drew Rasmussen",
         "hand": "R",
-        "era": "1.59",
-        "whip": "0.79",
+        "era": "1.13",
+        "whip": "0.56",
         "last3": {
           "starts": [
             {
@@ -2911,33 +2903,33 @@
             {
               "date": "2026-04-12",
               "opponent": "New York Yankees",
-              "ip": "1.1",
+              "ip": "6.0",
               "er": 0,
-              "k": 1,
+              "k": 7,
               "bb": 0,
-              "pitches": 15,
-              "strikes": 9
+              "pitches": 76,
+              "strikes": 51
             }
           ],
-          "avg_ip": "3.2",
-          "avg_k": "3.7",
+          "avg_ip": "5.1",
+          "avg_k": "5.7",
           "avg_bb": "0.3",
-          "avg_pitches": "59.0",
-          "avg_strikes": "39.3",
-          "era": "1.59",
-          "whip": "0.79",
-          "strike_pct": "66.7",
-          "quality_starts": 0
+          "avg_pitches": "79.3",
+          "avg_strikes": "53.3",
+          "era": "1.12",
+          "whip": "0.56",
+          "strike_pct": "67.2",
+          "quality_starts": 1
         }
       },
       "away_hitters": [
         {
           "name": "Ben Rice",
           "stats": {
-            "avg": ".333",
+            "avg": ".341",
             "obp": ".491",
-            "slg": ".738",
-            "ops": "1.229",
+            "slg": ".750",
+            "ops": "1.241",
             "homeRuns": 4,
             "rbi": 12
           },
@@ -2994,12 +2986,12 @@
         {
           "name": "Giancarlo Stanton",
           "stats": {
-            "avg": ".306",
-            "obp": ".370",
-            "slg": ".408",
-            "ops": ".778",
+            "avg": ".300",
+            "obp": ".364",
+            "slg": ".400",
+            "ops": ".764",
             "homeRuns": 1,
-            "rbi": 7
+            "rbi": 8
           },
           "last10ab": {
             "avg": "0.500",
@@ -3014,10 +3006,10 @@
         {
           "name": "Aaron Judge",
           "stats": {
-            "avg": ".208",
-            "obp": ".311",
-            "slg": ".396",
-            "ops": ".707",
+            "avg": ".204",
+            "obp": ".317",
+            "slg": ".389",
+            "ops": ".706",
             "homeRuns": 3,
             "rbi": 7
           },
@@ -3034,12 +3026,12 @@
         {
           "name": "Cody Bellinger",
           "stats": {
-            "avg": ".240",
+            "avg": ".245",
             "obp": ".344",
-            "slg": ".360",
-            "ops": ".704",
+            "slg": ".358",
+            "ops": ".702",
             "homeRuns": 1,
-            "rbi": 5
+            "rbi": 6
           },
           "last10ab": {
             "avg": "0.364",
@@ -3054,10 +3046,10 @@
         {
           "name": "Trent Grisham",
           "stats": {
-            "avg": ".143",
-            "obp": ".345",
-            "slg": ".214",
-            "ops": ".559",
+            "avg": ".133",
+            "obp": ".328",
+            "slg": ".200",
+            "ops": ".528",
             "homeRuns": 0,
             "rbi": 4
           },
@@ -3072,32 +3064,12 @@
           }
         },
         {
-          "name": "Austin Wells",
-          "stats": {
-            "avg": ".158",
-            "obp": ".256",
-            "slg": ".263",
-            "ops": ".519",
-            "homeRuns": 1,
-            "rbi": 1
-          },
-          "last10ab": {
-            "avg": "0.200",
-            "hits": 2,
-            "atBats": 10,
-            "homeRuns": 0,
-            "rbi": 0,
-            "walks": 1,
-            "games": 3
-          }
-        },
-        {
           "name": "Jazz Chisholm Jr.",
           "stats": {
-            "avg": ".173",
-            "obp": ".232",
-            "slg": ".250",
-            "ops": ".482",
+            "avg": ".182",
+            "obp": ".237",
+            "slg": ".273",
+            "ops": ".510",
             "homeRuns": 0,
             "rbi": 3
           },
@@ -3110,16 +3082,36 @@
             "walks": 0,
             "games": 3
           }
+        },
+        {
+          "name": "Austin Wells",
+          "stats": {
+            "avg": ".154",
+            "obp": ".250",
+            "slg": ".256",
+            "ops": ".506",
+            "homeRuns": 1,
+            "rbi": 1
+          },
+          "last10ab": {
+            "avg": "0.200",
+            "hits": 2,
+            "atBats": 10,
+            "homeRuns": 0,
+            "rbi": 0,
+            "walks": 1,
+            "games": 3
+          }
         }
       ],
       "home_hitters": [
         {
           "name": "Yandy D\u00edaz",
           "stats": {
-            "avg": ".357",
-            "obp": ".446",
-            "slg": ".571",
-            "ops": "1.017",
+            "avg": ".362",
+            "obp": ".456",
+            "slg": ".569",
+            "ops": "1.025",
             "homeRuns": 3,
             "rbi": 14
           },
@@ -3134,34 +3126,14 @@
           }
         },
         {
-          "name": "Richie Palacios",
-          "stats": {
-            "avg": ".250",
-            "obp": ".455",
-            "slg": ".438",
-            "ops": ".893",
-            "homeRuns": 1,
-            "rbi": 2
-          },
-          "last10ab": {
-            "avg": "0.100",
-            "hits": 1,
-            "atBats": 10,
-            "homeRuns": 0,
-            "rbi": 0,
-            "walks": 2,
-            "games": 6
-          }
-        },
-        {
           "name": "Chandler Simpson",
           "stats": {
-            "avg": ".396",
-            "obp": ".429",
-            "slg": ".434",
-            "ops": ".863",
+            "avg": ".411",
+            "obp": ".441",
+            "slg": ".482",
+            "ops": ".923",
             "homeRuns": 0,
-            "rbi": 3
+            "rbi": 4
           },
           "last10ab": {
             "avg": "0.455",
@@ -3176,10 +3148,10 @@
         {
           "name": "Nick Fortes",
           "stats": {
-            "avg": ".325",
-            "obp": ".357",
-            "slg": ".500",
-            "ops": ".857",
+            "avg": ".317",
+            "obp": ".349",
+            "slg": ".488",
+            "ops": ".837",
             "homeRuns": 1,
             "rbi": 6
           },
@@ -3194,34 +3166,54 @@
           }
         },
         {
-          "name": "Jonathan Aranda",
+          "name": "Richie Palacios",
           "stats": {
-            "avg": ".228",
-            "obp": ".299",
-            "slg": ".439",
-            "ops": ".738",
-            "homeRuns": 3,
-            "rbi": 14
+            "avg": ".211",
+            "obp": ".400",
+            "slg": ".368",
+            "ops": ".768",
+            "homeRuns": 1,
+            "rbi": 3
           },
           "last10ab": {
-            "avg": "0.462",
-            "hits": 6,
-            "atBats": 13,
-            "homeRuns": 1,
-            "rbi": 4,
-            "walks": 3,
+            "avg": "0.100",
+            "hits": 1,
+            "atBats": 10,
+            "homeRuns": 0,
+            "rbi": 0,
+            "walks": 2,
+            "games": 6
+          }
+        },
+        {
+          "name": "Taylor Walls",
+          "stats": {
+            "avg": ".333",
+            "obp": ".368",
+            "slg": ".389",
+            "ops": ".757",
+            "homeRuns": 0,
+            "rbi": 1
+          },
+          "last10ab": {
+            "avg": "0.100",
+            "hits": 1,
+            "atBats": 10,
+            "homeRuns": 0,
+            "rbi": 0,
+            "walks": 0,
             "games": 3
           }
         },
         {
           "name": "Junior Caminero",
           "stats": {
-            "avg": ".236",
-            "obp": ".344",
-            "slg": ".382",
-            "ops": ".726",
+            "avg": ".246",
+            "obp": ".343",
+            "slg": ".386",
+            "ops": ".729",
             "homeRuns": 2,
-            "rbi": 3
+            "rbi": 4
           },
           "last10ab": {
             "avg": "0.200",
@@ -3254,32 +3246,32 @@
           }
         },
         {
-          "name": "Taylor Walls",
+          "name": "Jonathan Aranda",
           "stats": {
-            "avg": ".267",
-            "obp": ".313",
-            "slg": ".333",
-            "ops": ".646",
-            "homeRuns": 0,
-            "rbi": 1
+            "avg": ".217",
+            "obp": ".286",
+            "slg": ".417",
+            "ops": ".703",
+            "homeRuns": 3,
+            "rbi": 14
           },
           "last10ab": {
-            "avg": "0.100",
-            "hits": 1,
-            "atBats": 10,
-            "homeRuns": 0,
-            "rbi": 0,
-            "walks": 0,
+            "avg": "0.462",
+            "hits": 6,
+            "atBats": 13,
+            "homeRuns": 1,
+            "rbi": 4,
+            "walks": 3,
             "games": 3
           }
         },
         {
           "name": "Jake Fraley",
           "stats": {
-            "avg": ".207",
-            "obp": ".303",
-            "slg": ".310",
-            "ops": ".613",
+            "avg": ".219",
+            "obp": ".306",
+            "slg": ".313",
+            "ops": ".619",
             "homeRuns": 0,
             "rbi": 1
           },
@@ -3768,8 +3760,8 @@
         "id": 641793,
         "name": "Zack Littell",
         "hand": "R",
-        "era": "3.60",
-        "whip": "1.50",
+        "era": "4.20",
+        "whip": "1.40",
         "last3": {
           "starts": [
             {
@@ -3791,16 +3783,26 @@
               "bb": 3,
               "pitches": 70,
               "strikes": 44
+            },
+            {
+              "date": "2026-04-12",
+              "opponent": "Milwaukee Brewers",
+              "ip": "5.0",
+              "er": 3,
+              "k": 3,
+              "bb": 0,
+              "pitches": 71,
+              "strikes": 50
             }
           ],
           "avg_ip": "5.0",
-          "avg_k": "3.5",
-          "avg_bb": "2.5",
-          "avg_pitches": "72.5",
-          "avg_strikes": "48.5",
-          "era": "3.60",
-          "whip": "1.50",
-          "strike_pct": "66.9",
+          "avg_k": "3.3",
+          "avg_bb": "1.7",
+          "avg_pitches": "72.0",
+          "avg_strikes": "49.0",
+          "era": "4.20",
+          "whip": "1.40",
+          "strike_pct": "68.1",
           "quality_starts": 0
         }
       },
@@ -3808,8 +3810,8 @@
         "id": 605540,
         "name": "Brandon Woodruff",
         "hand": "R",
-        "era": "5.91",
-        "whip": "1.31",
+        "era": "4.32",
+        "whip": "1.08",
         "last3": {
           "starts": [
             {
@@ -3831,17 +3833,27 @@
               "bb": 2,
               "pitches": 94,
               "strikes": 58
+            },
+            {
+              "date": "2026-04-12",
+              "opponent": "Washington Nationals",
+              "ip": "6.0",
+              "er": 1,
+              "k": 6,
+              "bb": 1,
+              "pitches": 70,
+              "strikes": 50
             }
           ],
-          "avg_ip": "5.1",
-          "avg_k": "5.0",
+          "avg_ip": "5.2",
+          "avg_k": "5.3",
           "avg_bb": "1.0",
-          "avg_pitches": "80.5",
-          "avg_strikes": "51.5",
-          "era": "5.91",
-          "whip": "1.31",
-          "strike_pct": "64.0",
-          "quality_starts": 0
+          "avg_pitches": "77.0",
+          "avg_strikes": "51.0",
+          "era": "4.32",
+          "whip": "1.08",
+          "strike_pct": "66.2",
+          "quality_starts": 1
         }
       },
       "away_hitters": [
@@ -3866,34 +3878,14 @@
           }
         },
         {
-          "name": "CJ Abrams",
-          "stats": {
-            "avg": ".306",
-            "obp": ".404",
-            "slg": ".571",
-            "ops": ".975",
-            "homeRuns": 4,
-            "rbi": 15
-          },
-          "last10ab": {
-            "avg": "0.231",
-            "hits": 3,
-            "atBats": 13,
-            "homeRuns": 0,
-            "rbi": 3,
-            "walks": 0,
-            "games": 3
-          }
-        },
-        {
           "name": "James Wood",
           "stats": {
-            "avg": ".271",
-            "obp": ".377",
-            "slg": ".576",
-            "ops": ".953",
-            "homeRuns": 4,
-            "rbi": 13
+            "avg": ".279",
+            "obp": ".389",
+            "slg": ".623",
+            "ops": "1.012",
+            "homeRuns": 5,
+            "rbi": 14
           },
           "last10ab": {
             "avg": "0.077",
@@ -3902,6 +3894,26 @@
             "homeRuns": 1,
             "rbi": 1,
             "walks": 1,
+            "games": 3
+          }
+        },
+        {
+          "name": "CJ Abrams",
+          "stats": {
+            "avg": ".294",
+            "obp": ".383",
+            "slg": ".549",
+            "ops": ".932",
+            "homeRuns": 4,
+            "rbi": 16
+          },
+          "last10ab": {
+            "avg": "0.231",
+            "hits": 3,
+            "atBats": 13,
+            "homeRuns": 0,
+            "rbi": 3,
+            "walks": 0,
             "games": 3
           }
         },
@@ -3926,12 +3938,32 @@
           }
         },
         {
+          "name": "Jacob Young",
+          "stats": {
+            "avg": ".282",
+            "obp": ".317",
+            "slg": ".462",
+            "ops": ".779",
+            "homeRuns": 1,
+            "rbi": 5
+          },
+          "last10ab": {
+            "avg": "0.182",
+            "hits": 2,
+            "atBats": 11,
+            "homeRuns": 1,
+            "rbi": 2,
+            "walks": 0,
+            "games": 3
+          }
+        },
+        {
           "name": "Jorbit Vivas",
           "stats": {
             "avg": ".333",
-            "obp": ".444",
+            "obp": ".433",
             "slg": ".333",
-            "ops": ".777",
+            "ops": ".766",
             "homeRuns": 0,
             "rbi": 2
           },
@@ -3948,10 +3980,10 @@
         {
           "name": "Luis Garc\u00eda Jr.",
           "stats": {
-            "avg": ".289",
-            "obp": ".304",
-            "slg": ".467",
-            "ops": ".771",
+            "avg": ".271",
+            "obp": ".286",
+            "slg": ".438",
+            "ops": ".724",
             "homeRuns": 1,
             "rbi": 8
           },
@@ -3966,32 +3998,12 @@
           }
         },
         {
-          "name": "Jacob Young",
-          "stats": {
-            "avg": ".278",
-            "obp": ".316",
-            "slg": ".444",
-            "ops": ".760",
-            "homeRuns": 1,
-            "rbi": 5
-          },
-          "last10ab": {
-            "avg": "0.182",
-            "hits": 2,
-            "atBats": 11,
-            "homeRuns": 1,
-            "rbi": 2,
-            "walks": 0,
-            "games": 3
-          }
-        },
-        {
           "name": "Brady House",
           "stats": {
-            "avg": ".255",
-            "obp": ".321",
-            "slg": ".431",
-            "ops": ".752",
+            "avg": ".241",
+            "obp": ".305",
+            "slg": ".407",
+            "ops": ".712",
             "homeRuns": 2,
             "rbi": 5
           },
@@ -4008,10 +4020,10 @@
         {
           "name": "Daylen Lile",
           "stats": {
-            "avg": ".262",
-            "obp": ".308",
-            "slg": ".311",
-            "ops": ".619",
+            "avg": ".266",
+            "obp": ".309",
+            "slg": ".328",
+            "ops": ".637",
             "homeRuns": 0,
             "rbi": 5
           },
@@ -4030,10 +4042,10 @@
         {
           "name": "Gary S\u00e1nchez",
           "stats": {
-            "avg": ".250",
-            "obp": ".423",
-            "slg": ".700",
-            "ops": "1.123",
+            "avg": ".238",
+            "obp": ".407",
+            "slg": ".667",
+            "ops": "1.074",
             "homeRuns": 3,
             "rbi": 5
           },
@@ -4048,32 +4060,32 @@
           }
         },
         {
-          "name": "Garrett Mitchell",
+          "name": "Brice Turang",
           "stats": {
-            "avg": ".281",
-            "obp": ".425",
-            "slg": ".469",
-            "ops": ".894",
-            "homeRuns": 1,
-            "rbi": 13
+            "avg": ".304",
+            "obp": ".439",
+            "slg": ".630",
+            "ops": "1.069",
+            "homeRuns": 3,
+            "rbi": 9
           },
           "last10ab": {
-            "avg": "0.200",
-            "hits": 2,
-            "atBats": 10,
+            "avg": "0.429",
+            "hits": 6,
+            "atBats": 14,
             "homeRuns": 0,
-            "rbi": 3,
-            "walks": 3,
-            "games": 4
+            "rbi": 1,
+            "walks": 1,
+            "games": 3
           }
         },
         {
           "name": "William Contreras",
           "stats": {
-            "avg": ".283",
-            "obp": ".389",
-            "slg": ".500",
-            "ops": ".889",
+            "avg": ".286",
+            "obp": ".386",
+            "slg": ".490",
+            "ops": ".876",
             "homeRuns": 2,
             "rbi": 9
           },
@@ -4088,32 +4100,32 @@
           }
         },
         {
-          "name": "Brice Turang",
+          "name": "Jake Bauers",
           "stats": {
-            "avg": ".256",
-            "obp": ".407",
-            "slg": ".465",
-            "ops": ".872",
-            "homeRuns": 1,
-            "rbi": 7
+            "avg": ".244",
+            "obp": ".306",
+            "slg": ".533",
+            "ops": ".839",
+            "homeRuns": 4,
+            "rbi": 10
           },
           "last10ab": {
-            "avg": "0.429",
-            "hits": 6,
-            "atBats": 14,
-            "homeRuns": 0,
-            "rbi": 1,
-            "walks": 1,
-            "games": 3
+            "avg": "0.300",
+            "hits": 3,
+            "atBats": 10,
+            "homeRuns": 1,
+            "rbi": 3,
+            "walks": 0,
+            "games": 2
           }
         },
         {
           "name": "Christian Yelich",
           "stats": {
-            "avg": ".327",
-            "obp": ".389",
-            "slg": ".469",
-            "ops": ".858",
+            "avg": ".314",
+            "obp": ".375",
+            "slg": ".451",
+            "ops": ".826",
             "homeRuns": 1,
             "rbi": 10
           },
@@ -4128,32 +4140,52 @@
           }
         },
         {
-          "name": "Jake Bauers",
+          "name": "Garrett Mitchell",
           "stats": {
-            "avg": ".214",
-            "obp": ".283",
-            "slg": ".452",
-            "ops": ".735",
-            "homeRuns": 3,
-            "rbi": 9
+            "avg": ".257",
+            "obp": ".395",
+            "slg": ".429",
+            "ops": ".824",
+            "homeRuns": 1,
+            "rbi": 13
           },
           "last10ab": {
-            "avg": "0.300",
-            "hits": 3,
+            "avg": "0.200",
+            "hits": 2,
             "atBats": 10,
-            "homeRuns": 1,
+            "homeRuns": 0,
             "rbi": 3,
-            "walks": 0,
-            "games": 2
+            "walks": 3,
+            "games": 4
+          }
+        },
+        {
+          "name": "Brandon Lockridge",
+          "stats": {
+            "avg": ".270",
+            "obp": ".341",
+            "slg": ".297",
+            "ops": ".638",
+            "homeRuns": 0,
+            "rbi": 4
+          },
+          "last10ab": {
+            "avg": "0.364",
+            "hits": 4,
+            "atBats": 11,
+            "homeRuns": 0,
+            "rbi": 2,
+            "walks": 1,
+            "games": 4
           }
         },
         {
           "name": "David Hamilton",
           "stats": {
-            "avg": ".222",
-            "obp": ".432",
-            "slg": ".222",
-            "ops": ".654",
+            "avg": ".207",
+            "obp": ".410",
+            "slg": ".207",
+            "ops": ".617",
             "homeRuns": 0,
             "rbi": 3
           },
@@ -4170,10 +4202,10 @@
         {
           "name": "Sal Frelick",
           "stats": {
-            "avg": ".205",
-            "obp": ".327",
-            "slg": ".318",
-            "ops": ".645",
+            "avg": ".191",
+            "obp": ".309",
+            "slg": ".298",
+            "ops": ".607",
             "homeRuns": 1,
             "rbi": 3
           },
@@ -4185,26 +4217,6 @@
             "rbi": 2,
             "walks": 4,
             "games": 3
-          }
-        },
-        {
-          "name": "Brandon Lockridge",
-          "stats": {
-            "avg": ".265",
-            "obp": ".342",
-            "slg": ".294",
-            "ops": ".636",
-            "homeRuns": 0,
-            "rbi": 4
-          },
-          "last10ab": {
-            "avg": "0.364",
-            "hits": 4,
-            "atBats": 11,
-            "homeRuns": 0,
-            "rbi": 2,
-            "walks": 1,
-            "games": 4
           }
         }
       ]
@@ -4220,8 +4232,8 @@
         "id": 678394,
         "name": "Brayan Bello",
         "hand": "R",
-        "era": "9.00",
-        "whip": "2.50",
+        "era": "6.23",
+        "whip": "1.85",
         "last3": {
           "starts": [
             {
@@ -4243,16 +4255,26 @@
               "bb": 4,
               "pitches": 86,
               "strikes": 50
+            },
+            {
+              "date": "2026-04-12",
+              "opponent": "St. Louis Cardinals",
+              "ip": "5.0",
+              "er": 1,
+              "k": 1,
+              "bb": 1,
+              "pitches": 64,
+              "strikes": 43
             }
           ],
-          "avg_ip": "4.0",
-          "avg_k": "3.5",
-          "avg_bb": "3.5",
-          "avg_pitches": "89.0",
-          "avg_strikes": "54.0",
-          "era": "9.00",
-          "whip": "2.50",
-          "strike_pct": "60.7",
+          "avg_ip": "4.1",
+          "avg_k": "2.7",
+          "avg_bb": "2.7",
+          "avg_pitches": "80.7",
+          "avg_strikes": "50.3",
+          "era": "6.23",
+          "whip": "1.85",
+          "strike_pct": "62.4",
           "quality_starts": 0
         }
       },
@@ -4260,8 +4282,8 @@
         "id": 669467,
         "name": "Andre Pallante",
         "hand": "R",
-        "era": "1.80",
-        "whip": "1.30",
+        "era": "5.40",
+        "whip": "1.60",
         "last3": {
           "starts": [
             {
@@ -4283,16 +4305,26 @@
               "bb": 4,
               "pitches": 88,
               "strikes": 54
+            },
+            {
+              "date": "2026-04-12",
+              "opponent": "Boston Red Sox",
+              "ip": "5.0",
+              "er": 7,
+              "k": 2,
+              "bb": 1,
+              "pitches": 95,
+              "strikes": 61
             }
           ],
           "avg_ip": "5.0",
-          "avg_k": "2.5",
-          "avg_bb": "3.5",
-          "avg_pitches": "88.0",
-          "avg_strikes": "53.0",
-          "era": "1.80",
-          "whip": "1.30",
-          "strike_pct": "60.2",
+          "avg_k": "2.3",
+          "avg_bb": "2.7",
+          "avg_pitches": "90.3",
+          "avg_strikes": "55.7",
+          "era": "5.40",
+          "whip": "1.60",
+          "strike_pct": "61.6",
           "quality_starts": 0
         }
       },
@@ -4300,10 +4332,10 @@
         {
           "name": "Connor Wong",
           "stats": {
-            "avg": ".417",
-            "obp": ".462",
-            "slg": ".667",
-            "ops": "1.129",
+            "avg": ".400",
+            "obp": ".438",
+            "slg": ".600",
+            "ops": "1.038",
             "homeRuns": 0,
             "rbi": 1
           },
@@ -4320,10 +4352,10 @@
         {
           "name": "Wilyer Abreu",
           "stats": {
-            "avg": ".364",
-            "obp": ".397",
-            "slg": ".636",
-            "ops": "1.033",
+            "avg": ".345",
+            "obp": ".377",
+            "slg": ".603",
+            "ops": ".980",
             "homeRuns": 3,
             "rbi": 9
           },
@@ -4335,6 +4367,26 @@
             "rbi": 4,
             "walks": 0,
             "games": 3
+          }
+        },
+        {
+          "name": "Willson Contreras",
+          "stats": {
+            "avg": ".294",
+            "obp": ".446",
+            "slg": ".510",
+            "ops": ".956",
+            "homeRuns": 3,
+            "rbi": 11
+          },
+          "last10ab": {
+            "avg": "0.077",
+            "hits": 1,
+            "atBats": 13,
+            "homeRuns": 0,
+            "rbi": 0,
+            "walks": 4,
+            "games": 4
           }
         },
         {
@@ -4358,32 +4410,12 @@
           }
         },
         {
-          "name": "Willson Contreras",
-          "stats": {
-            "avg": ".250",
-            "obp": ".419",
-            "slg": ".417",
-            "ops": ".836",
-            "homeRuns": 2,
-            "rbi": 8
-          },
-          "last10ab": {
-            "avg": "0.077",
-            "hits": 1,
-            "atBats": 13,
-            "homeRuns": 0,
-            "rbi": 0,
-            "walks": 4,
-            "games": 4
-          }
-        },
-        {
           "name": "Ceddanne Rafaela",
           "stats": {
-            "avg": ".325",
-            "obp": ".386",
-            "slg": ".425",
-            "ops": ".811",
+            "avg": ".333",
+            "obp": ".404",
+            "slg": ".429",
+            "ops": ".833",
             "homeRuns": 1,
             "rbi": 5
           },
@@ -4398,32 +4430,12 @@
           }
         },
         {
-          "name": "Roman Anthony",
-          "stats": {
-            "avg": ".220",
-            "obp": ".316",
-            "slg": ".340",
-            "ops": ".656",
-            "homeRuns": 1,
-            "rbi": 2
-          },
-          "last10ab": {
-            "avg": "0.308",
-            "hits": 4,
-            "atBats": 13,
-            "homeRuns": 0,
-            "rbi": 1,
-            "walks": 3,
-            "games": 3
-          }
-        },
-        {
           "name": "Marcelo Mayer",
           "stats": {
-            "avg": ".200",
-            "obp": ".275",
-            "slg": ".371",
-            "ops": ".646",
+            "avg": ".211",
+            "obp": ".279",
+            "slg": ".368",
+            "ops": ".647",
             "homeRuns": 1,
             "rbi": 3
           },
@@ -4438,14 +4450,34 @@
           }
         },
         {
+          "name": "Roman Anthony",
+          "stats": {
+            "avg": ".204",
+            "obp": ".295",
+            "slg": ".315",
+            "ops": ".610",
+            "homeRuns": 1,
+            "rbi": 3
+          },
+          "last10ab": {
+            "avg": "0.308",
+            "hits": 4,
+            "atBats": 13,
+            "homeRuns": 0,
+            "rbi": 1,
+            "walks": 3,
+            "games": 3
+          }
+        },
+        {
           "name": "Jarren Duran",
           "stats": {
-            "avg": ".190",
-            "obp": ".292",
-            "slg": ".238",
-            "ops": ".530",
+            "avg": ".200",
+            "obp": ".294",
+            "slg": ".267",
+            "ops": ".561",
             "homeRuns": 0,
-            "rbi": 5
+            "rbi": 8
           },
           "last10ab": {
             "avg": "0.200",
@@ -4482,12 +4514,12 @@
         {
           "name": "Jordan Walker",
           "stats": {
-            "avg": ".314",
-            "obp": ".386",
-            "slg": ".706",
-            "ops": "1.092",
-            "homeRuns": 6,
-            "rbi": 13
+            "avg": ".321",
+            "obp": ".390",
+            "slg": ".755",
+            "ops": "1.145",
+            "homeRuns": 7,
+            "rbi": 14
           },
           "last10ab": {
             "avg": "0.400",
@@ -4502,10 +4534,10 @@
         {
           "name": "Ram\u00f3n Ur\u00edas",
           "stats": {
-            "avg": ".259",
-            "obp": ".333",
-            "slg": ".593",
-            "ops": ".926",
+            "avg": ".250",
+            "obp": ".344",
+            "slg": ".571",
+            "ops": ".915",
             "homeRuns": 2,
             "rbi": 4
           },
@@ -4522,10 +4554,10 @@
         {
           "name": "Alec Burleson",
           "stats": {
-            "avg": ".240",
-            "obp": ".371",
-            "slg": ".340",
-            "ops": ".711",
+            "avg": ".231",
+            "obp": ".359",
+            "slg": ".327",
+            "ops": ".686",
             "homeRuns": 1,
             "rbi": 10
           },
@@ -4542,10 +4574,10 @@
         {
           "name": "Nolan Gorman",
           "stats": {
-            "avg": ".220",
-            "obp": ".327",
-            "slg": ".366",
-            "ops": ".693",
+            "avg": ".209",
+            "obp": ".314",
+            "slg": ".349",
+            "ops": ".663",
             "homeRuns": 2,
             "rbi": 8
           },
@@ -4562,10 +4594,10 @@
         {
           "name": "Thomas Saggese",
           "stats": {
-            "avg": ".273",
-            "obp": ".351",
-            "slg": ".333",
-            "ops": ".684",
+            "avg": ".257",
+            "obp": ".333",
+            "slg": ".314",
+            "ops": ".647",
             "homeRuns": 0,
             "rbi": 2
           },
@@ -4582,10 +4614,10 @@
         {
           "name": "JJ Wetherholt",
           "stats": {
-            "avg": ".231",
-            "obp": ".359",
-            "slg": ".308",
-            "ops": ".667",
+            "avg": ".222",
+            "obp": ".348",
+            "slg": ".296",
+            "ops": ".644",
             "homeRuns": 1,
             "rbi": 5
           },
@@ -4602,10 +4634,10 @@
         {
           "name": "Iv\u00e1n Herrera",
           "stats": {
-            "avg": ".184",
-            "obp": ".369",
-            "slg": ".245",
-            "ops": ".614",
+            "avg": ".196",
+            "obp": ".373",
+            "slg": ".255",
+            "ops": ".628",
             "homeRuns": 0,
             "rbi": 6
           },
@@ -4640,23 +4672,23 @@
           }
         },
         {
-          "name": "Victor Scott II",
+          "name": "Jos\u00e9 Ferm\u00edn",
           "stats": {
-            "avg": ".263",
-            "obp": ".275",
-            "slg": ".289",
-            "ops": ".564",
+            "avg": ".300",
+            "obp": ".273",
+            "slg": ".300",
+            "ops": ".573",
             "homeRuns": 0,
-            "rbi": 3
+            "rbi": 1
           },
           "last10ab": {
-            "avg": "0.500",
-            "hits": 5,
+            "avg": "0.300",
+            "hits": 3,
             "atBats": 10,
             "homeRuns": 0,
-            "rbi": 0,
+            "rbi": 1,
             "walks": 0,
-            "games": 3
+            "games": 4
           }
         }
       ]
@@ -4672,8 +4704,8 @@
         "id": 696149,
         "name": "Bubba Chandler",
         "hand": "R",
-        "era": "3.12",
-        "whip": "1.73",
+        "era": "3.95",
+        "whip": "1.61",
         "last3": {
           "starts": [
             {
@@ -4695,16 +4727,26 @@
               "bb": 4,
               "pitches": 83,
               "strikes": 48
+            },
+            {
+              "date": "2026-04-12",
+              "opponent": "Chicago Cubs",
+              "ip": "5.0",
+              "er": 3,
+              "k": 3,
+              "bb": 2,
+              "pitches": 86,
+              "strikes": 61
             }
           ],
-          "avg_ip": "4.1",
-          "avg_k": "5.0",
-          "avg_bb": "5.0",
-          "avg_pitches": "82.0",
-          "avg_strikes": "45.5",
-          "era": "3.12",
-          "whip": "1.73",
-          "strike_pct": "55.5",
+          "avg_ip": "4.2",
+          "avg_k": "4.3",
+          "avg_bb": "4.0",
+          "avg_pitches": "83.3",
+          "avg_strikes": "50.7",
+          "era": "3.95",
+          "whip": "1.61",
+          "strike_pct": "60.8",
           "quality_starts": 0
         }
       },
@@ -4712,8 +4754,8 @@
         "id": 592791,
         "name": "Jameson Taillon",
         "hand": "R",
-        "era": "2.53",
-        "whip": "1.22",
+        "era": "5.17",
+        "whip": "1.34",
         "last3": {
           "starts": [
             {
@@ -4735,16 +4777,26 @@
               "bb": 0,
               "pitches": 83,
               "strikes": 53
+            },
+            {
+              "date": "2026-04-12",
+              "opponent": "Pittsburgh Pirates",
+              "ip": "6.0",
+              "er": 6,
+              "k": 10,
+              "bb": 2,
+              "pitches": 102,
+              "strikes": 59
             }
           ],
-          "avg_ip": "5.1",
-          "avg_k": "3.5",
+          "avg_ip": "5.2",
+          "avg_k": "5.7",
           "avg_bb": "2.0",
-          "avg_pitches": "84.0",
-          "avg_strikes": "52.5",
-          "era": "2.53",
-          "whip": "1.22",
-          "strike_pct": "62.5",
+          "avg_pitches": "90.0",
+          "avg_strikes": "54.7",
+          "era": "4.86",
+          "whip": "1.26",
+          "strike_pct": "60.7",
           "quality_starts": 1
         }
       },
@@ -4753,11 +4805,11 @@
           "name": "Oneil Cruz",
           "stats": {
             "avg": ".345",
-            "obp": ".400",
-            "slg": ".618",
-            "ops": "1.018",
-            "homeRuns": 4,
-            "rbi": 12
+            "obp": ".397",
+            "slg": ".655",
+            "ops": "1.052",
+            "homeRuns": 5,
+            "rbi": 13
           },
           "last10ab": {
             "avg": "0.200",
@@ -4770,21 +4822,21 @@
           }
         },
         {
-          "name": "Nick Yorke",
+          "name": "Brandon Lowe",
           "stats": {
-            "avg": ".379",
-            "obp": ".486",
-            "slg": ".483",
-            "ops": ".969",
-            "homeRuns": 0,
-            "rbi": 2
+            "avg": ".255",
+            "obp": ".386",
+            "slg": ".617",
+            "ops": "1.003",
+            "homeRuns": 5,
+            "rbi": 9
           },
           "last10ab": {
-            "avg": "0.200",
-            "hits": 2,
-            "atBats": 10,
-            "homeRuns": 0,
-            "rbi": 1,
+            "avg": "0.417",
+            "hits": 5,
+            "atBats": 12,
+            "homeRuns": 3,
+            "rbi": 4,
             "walks": 2,
             "games": 3
           }
@@ -4792,10 +4844,10 @@
         {
           "name": "Ryan O'Hearn",
           "stats": {
-            "avg": ".319",
-            "obp": ".414",
-            "slg": ".553",
-            "ops": ".967",
+            "avg": ".320",
+            "obp": ".410",
+            "slg": ".540",
+            "ops": ".950",
             "homeRuns": 3,
             "rbi": 12
           },
@@ -4810,21 +4862,21 @@
           }
         },
         {
-          "name": "Brandon Lowe",
+          "name": "Nick Yorke",
           "stats": {
-            "avg": ".222",
-            "obp": ".352",
-            "slg": ".467",
-            "ops": ".819",
-            "homeRuns": 3,
-            "rbi": 4
+            "avg": ".344",
+            "obp": ".450",
+            "slg": ".438",
+            "ops": ".888",
+            "homeRuns": 0,
+            "rbi": 2
           },
           "last10ab": {
-            "avg": "0.417",
-            "hits": 5,
-            "atBats": 12,
-            "homeRuns": 3,
-            "rbi": 4,
+            "avg": "0.200",
+            "hits": 2,
+            "atBats": 10,
+            "homeRuns": 0,
+            "rbi": 1,
             "walks": 2,
             "games": 3
           }
@@ -4832,10 +4884,10 @@
         {
           "name": "Bryan Reynolds",
           "stats": {
-            "avg": ".259",
-            "obp": ".349",
-            "slg": ".444",
-            "ops": ".793",
+            "avg": ".263",
+            "obp": ".348",
+            "slg": ".439",
+            "ops": ".787",
             "homeRuns": 3,
             "rbi": 8
           },
@@ -4872,10 +4924,10 @@
         {
           "name": "Spencer Horwitz",
           "stats": {
-            "avg": ".235",
+            "avg": ".222",
             "obp": ".341",
-            "slg": ".265",
-            "ops": ".606",
+            "slg": ".250",
+            "ops": ".591",
             "homeRuns": 0,
             "rbi": 2
           },
@@ -4934,10 +4986,10 @@
         {
           "name": "Nico Hoerner",
           "stats": {
-            "avg": ".308",
-            "obp": ".422",
-            "slg": ".481",
-            "ops": ".903",
+            "avg": ".309",
+            "obp": ".418",
+            "slg": ".473",
+            "ops": ".891",
             "homeRuns": 1,
             "rbi": 10
           },
@@ -4952,12 +5004,52 @@
           }
         },
         {
+          "name": "Carson Kelly",
+          "stats": {
+            "avg": ".306",
+            "obp": ".432",
+            "slg": ".389",
+            "ops": ".821",
+            "homeRuns": 0,
+            "rbi": 3
+          },
+          "last10ab": {
+            "avg": "0.182",
+            "hits": 2,
+            "atBats": 11,
+            "homeRuns": 0,
+            "rbi": 2,
+            "walks": 1,
+            "games": 3
+          }
+        },
+        {
+          "name": "Mois\u00e9s Ballesteros",
+          "stats": {
+            "avg": ".294",
+            "obp": ".342",
+            "slg": ".471",
+            "ops": ".813",
+            "homeRuns": 2,
+            "rbi": 6
+          },
+          "last10ab": {
+            "avg": "0.100",
+            "hits": 1,
+            "atBats": 10,
+            "homeRuns": 0,
+            "rbi": 0,
+            "walks": 1,
+            "games": 3
+          }
+        },
+        {
           "name": "Ian Happ",
           "stats": {
-            "avg": ".208",
-            "obp": ".309",
-            "slg": ".500",
-            "ops": ".809",
+            "avg": ".200",
+            "obp": ".310",
+            "slg": ".480",
+            "ops": ".790",
             "homeRuns": 4,
             "rbi": 7
           },
@@ -4992,26 +5084,6 @@
           }
         },
         {
-          "name": "Carson Kelly",
-          "stats": {
-            "avg": ".294",
-            "obp": ".429",
-            "slg": ".353",
-            "ops": ".782",
-            "homeRuns": 0,
-            "rbi": 3
-          },
-          "last10ab": {
-            "avg": "0.182",
-            "hits": 2,
-            "atBats": 11,
-            "homeRuns": 0,
-            "rbi": 2,
-            "walks": 1,
-            "games": 3
-          }
-        },
-        {
           "name": "Michael Conforto",
           "stats": {
             "avg": ".263",
@@ -5034,10 +5106,10 @@
         {
           "name": "Matt Shaw",
           "stats": {
-            "avg": ".237",
-            "obp": ".268",
-            "slg": ".421",
-            "ops": ".689",
+            "avg": ".225",
+            "obp": ".256",
+            "slg": ".400",
+            "ops": ".656",
             "homeRuns": 2,
             "rbi": 6
           },
@@ -5052,54 +5124,14 @@
           }
         },
         {
-          "name": "Mois\u00e9s Ballesteros",
-          "stats": {
-            "avg": ".258",
-            "obp": ".314",
-            "slg": ".355",
-            "ops": ".669",
-            "homeRuns": 1,
-            "rbi": 5
-          },
-          "last10ab": {
-            "avg": "0.100",
-            "hits": 1,
-            "atBats": 10,
-            "homeRuns": 0,
-            "rbi": 0,
-            "walks": 1,
-            "games": 3
-          }
-        },
-        {
-          "name": "Seiya Suzuki",
-          "stats": {
-            "avg": ".286",
-            "obp": ".375",
-            "slg": ".286",
-            "ops": ".661",
-            "homeRuns": 0,
-            "rbi": 0
-          },
-          "last10ab": {
-            "avg": "0.286",
-            "hits": 2,
-            "atBats": 7,
-            "homeRuns": 0,
-            "rbi": 0,
-            "walks": 1,
-            "games": 2
-          }
-        },
-        {
           "name": "Alex Bregman",
           "stats": {
-            "avg": ".207",
-            "obp": ".281",
-            "slg": ".328",
-            "ops": ".609",
+            "avg": ".203",
+            "obp": ".284",
+            "slg": ".322",
+            "ops": ".606",
             "homeRuns": 2,
-            "rbi": 4
+            "rbi": 5
           },
           "last10ab": {
             "avg": "0.231",
@@ -5110,6 +5142,26 @@
             "walks": 1,
             "games": 3
           }
+        },
+        {
+          "name": "Dansby Swanson",
+          "stats": {
+            "avg": ".163",
+            "obp": ".288",
+            "slg": ".306",
+            "ops": ".594",
+            "homeRuns": 2,
+            "rbi": 7
+          },
+          "last10ab": {
+            "avg": "0.273",
+            "hits": 3,
+            "atBats": 11,
+            "homeRuns": 0,
+            "rbi": 2,
+            "walks": 4,
+            "games": 4
+          }
         }
       ]
     },
@@ -5119,7 +5171,7 @@
       "home_team": "San Diego Padres",
       "venue": "Petco Park",
       "start": "2026-04-12T20:10:00Z",
-      "status": "Preview",
+      "status": "Live",
       "away_pitcher": {
         "id": 607536,
         "name": "Kyle Freeland",
@@ -5591,7 +5643,7 @@
       "home_team": "Seattle Mariners",
       "venue": "T-Mobile Park",
       "start": "2026-04-12T20:10:00Z",
-      "status": "Preview",
+      "status": "Live",
       "away_pitcher": {
         "id": 675989,
         "name": "Cody Bolton",
@@ -6053,7 +6105,7 @@
       "home_team": "Los Angeles Dodgers",
       "venue": "UNIQLO Field at Dodger Stadium",
       "start": "2026-04-12T20:10:00Z",
-      "status": "Preview",
+      "status": "Live",
       "away_pitcher": {
         "id": 594798,
         "name": "Jacob deGrom",

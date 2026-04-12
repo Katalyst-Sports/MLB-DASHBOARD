@@ -1,85 +1,160 @@
 {
-  "updated_at": "2026-04-12T13:56:54.817692-04:00",
+  "updated_at": "2026-04-12T15:55:46.638289-04:00",
   "games": [
     {
       "gamePk": 824859,
       "game": "San Francisco Giants @ Baltimore Orioles",
-      "score": "0-2",
-      "inning": "2nd",
+      "score": "1-5",
+      "inning": "7th",
       "hot_hitters": [
-        "Samuel Basallo"
+        "Casey Schmitt",
+        "Taylor Ward",
+        "Pete Alonso",
+        "Samuel Basallo",
+        "Leody Taveras"
       ],
       "top_pitchers": []
     },
     {
       "gamePk": 823479,
       "game": "Arizona Diamondbacks @ Philadelphia Phillies",
-      "score": "0-0",
-      "inning": "2nd",
-      "hot_hitters": [],
+      "score": "3-3",
+      "inning": "8th",
+      "hot_hitters": [
+        "Corbin Carroll",
+        "Jose Fernandez",
+        "James McCann",
+        "Trea Turner",
+        "Kyle Schwarber",
+        "Bryce Harper"
+      ],
       "top_pitchers": []
     },
     {
       "gamePk": 822828,
       "game": "Minnesota Twins @ Toronto Blue Jays",
-      "score": "0-1",
-      "inning": "1st",
-      "hot_hitters": [],
+      "score": "8-1",
+      "inning": "7th",
+      "hot_hitters": [
+        "Kody Clemens",
+        "Luke Keaschall",
+        "Tristan Gray",
+        "Ernie Clement",
+        "Daulton Varsho"
+      ],
       "top_pitchers": []
     },
     {
       "gamePk": 824533,
       "game": "Los Angeles Angels @ Cincinnati Reds",
-      "score": "3-0",
-      "inning": "1st",
-      "hot_hitters": [],
-      "top_pitchers": []
+      "score": "8-0",
+      "inning": "8th",
+      "hot_hitters": [
+        "Mike Trout",
+        "Jo Adell",
+        "Nolan Schanuel",
+        "Logan O'Hoppe",
+        "Oswald Peraza"
+      ],
+      "top_pitchers": [
+        "Jos\u00e9 Soriano"
+      ]
     },
     {
       "gamePk": 823642,
       "game": "Athletics @ New York Mets",
-      "score": "0-0",
-      "inning": "1st",
-      "hot_hitters": [],
+      "score": "1-0",
+      "inning": "9th",
+      "hot_hitters": [
+        "Nick Kurtz",
+        "Francisco Lindor"
+      ],
       "top_pitchers": []
     },
     {
       "gamePk": 824293,
       "game": "Miami Marlins @ Detroit Tigers",
-      "score": "0-3",
-      "inning": "2nd",
+      "score": "1-8",
+      "inning": "9th",
       "hot_hitters": [
-        "Dillon Dingler"
+        "Austin Slater",
+        "Kevin McGonigle",
+        "Riley Greene",
+        "Dillon Dingler",
+        "Kerry Carpenter"
       ],
       "top_pitchers": []
     },
     {
       "gamePk": 822998,
       "game": "New York Yankees @ Tampa Bay Rays",
-      "score": "0-1",
-      "inning": "2nd",
-      "hot_hitters": [],
+      "score": "2-4",
+      "inning": "8th",
+      "hot_hitters": [
+        "Chandler Simpson",
+        "Junior Caminero",
+        "Taylor Walls"
+      ],
       "top_pitchers": []
     },
     {
       "gamePk": 823804,
       "game": "Washington Nationals @ Milwaukee Brewers",
-      "score": "0-0",
-      "inning": "1st",
-      "hot_hitters": [],
+      "score": "3-3",
+      "inning": "7th",
+      "hot_hitters": [
+        "James Wood",
+        "Brice Turang",
+        "Jake Bauers"
+      ],
       "top_pitchers": []
     },
     {
       "gamePk": 823075,
       "game": "Boston Red Sox @ St. Louis Cardinals",
+      "score": "7-1",
+      "inning": "6th",
+      "hot_hitters": [
+        "Willson Contreras",
+        "Trevor Story",
+        "Jordan Walker"
+      ],
+      "top_pitchers": []
+    },
+    {
+      "gamePk": 824696,
+      "game": "Pittsburgh Pirates @ Chicago Cubs",
+      "score": "6-3",
+      "inning": "6th",
+      "hot_hitters": [
+        "Oneil Cruz",
+        "Brandon Lowe",
+        "Mois\u00e9s Ballesteros",
+        "Dansby Swanson"
+      ],
+      "top_pitchers": [
+        "Jameson Taillon"
+      ]
+    },
+    {
+      "gamePk": 823317,
+      "game": "Colorado Rockies @ San Diego Padres",
       "score": "0-0",
       "inning": "1st",
       "hot_hitters": [],
       "top_pitchers": []
     },
     {
-      "gamePk": 824696,
-      "game": "Pittsburgh Pirates @ Chicago Cubs",
+      "gamePk": 823154,
+      "game": "Houston Astros @ Seattle Mariners",
+      "score": "0-0",
+      "inning": "1st",
+      "hot_hitters": [],
+      "top_pitchers": []
+    },
+    {
+      "gamePk": 823966,
+      "game": "Texas Rangers @ Los Angeles Dodgers",
       "score": "0-0",
       "inning": "1st",
       "hot_hitters": [],
