@@ -1120,11 +1120,6 @@ yesterday_recap["dashboard_recap"]["all_games"] = [
         "top_pitching_line": game.get("top_pitching_line", "No standout pitching line available."),
         "top_batting_line": game.get("top_batting_line", "No standout batting line available."),
         "summary": build_game_card_summary(game),
-            f"{game['winner']} edged {game['loser']} {game['final_score']} behind "
-            f"{', '.join(game.get('hitters', [])[:2]) if game.get('hitters') else 'timely offense'} "
-            f"and "
-            f"{', '.join(game.get('pitchers', [])[:2]) if game.get('pitchers') else 'key mound work'}."
-        ),
         "impact_player": (game.get("hitters") or game.get("pitchers") or ["N/A"])[0]
     }
     for game in yesterday_postgame
