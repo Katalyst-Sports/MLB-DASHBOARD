@@ -9,7 +9,10 @@ from urllib.request import Request, urlopen
 from xml.etree import ElementTree as ET
 from zoneinfo import ZoneInfo
 
-from groq import Groq
+try:
+    from groq import Groq
+except ImportError:
+    Groq = None
 
 # =====================================================
 # CONFIG
@@ -24,7 +27,7 @@ YESTERDAY = (NOW - timedelta(days=1)).date().isoformat()
 SEASON = NOW.year
 
 GROQ_API_KEY = os.getenv("GROQ_API_KEY")
-client = Groq(api_key=GROQ_API_KEY) if GROQ_API_KEY else None
+client = Groq(api_key=GROQ_API_KEY) if (Groq and GROQ_API_KEY) else None
 
 errors = []
 
