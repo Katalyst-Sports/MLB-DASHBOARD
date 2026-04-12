@@ -34,9 +34,7 @@
 
 * { box-sizing: border-box; }
 
-html {
-  scroll-behavior: smooth;
-}
+html { scroll-behavior: smooth; }
 
 body {
   margin: 0;
@@ -850,7 +848,8 @@ footer {
   .player-grid,
   .player-search-row,
   .player-hero,
-  .watchlist-player-hero {
+  .watchlist-player-hero,
+  .news-layout {
     grid-template-columns: 1fr;
   }
 
@@ -859,6 +858,10 @@ footer {
   .watchlist-panel-header {
     grid-template-columns: 1fr;
     display: grid;
+  }
+
+  .news-summary-card {
+    grid-column: span 1;
   }
 
   .live-strip {
@@ -895,10 +898,6 @@ footer {
 
   .watchlist-panel-body {
     overflow: visible;
-  }
-
-  .watchlist-content-spacer {
-    height: 20px;
   }
 
   .watchlist-panel.open {
@@ -1189,14 +1188,9 @@ function renderPlayerChip(name) {
 
 function renderPitcher(p) {
   if (!p || !p.name) return `<div class="muted">No probable pitcher listed yet.</div>`;
-  const last3 = p.last3 || {};
-  const lastStart = last3.last_start || {};
   return `
     <div class="stat-row"><strong>${p.name}</strong></div>
     <div class="stat-line">Throws: ${formatValue(p.hand)} | Season ERA: ${formatValue(p.era)}</div>
-    <div class="stat-line">Last ${last3.starts_used || 0}: ERA ${formatValue(last3.avg_era)} | IP ${formatValue(last3.avg_ip)} | K ${formatValue(last3.avg_k)} | BB ${formatValue(last3.avg_bb)}</div>
-    <div class="stat-line">WHIP ${formatValue(last3.whip)} | QS ${formatValue(last3.quality_starts, 0)} | Wins ${formatValue(last3.wins, 0)}</div>
-    <div class="stat-line">Last start: ${formatValue(lastStart.ip)} IP | ${formatValue(lastStart.k)} K | ${formatValue(lastStart.bb)} BB | ${formatValue(lastStart.er)} ER | ${formatValue(lastStart.hits)} H | ${formatValue(lastStart.decision)}</div>
   `;
 }
 
@@ -1385,10 +1379,7 @@ function renderPlayerSearch(data) {
 
         <div class="section-title-sm">Live Status</div>
         ${live.is_live
-          ? `<div class="stat-row">Live Now: ${formatValue(live.game)} | ${formatValue(live.score)} | ${formatValue(live.inning)}</div>
-             <div class="stat-line">Current Batter: ${formatValue(live.current_batter)} | Current Pitcher: ${formatValue(live.current_pitcher)}</div>
-             ${live.batting_line ? `<div class="stat-line">Live Batting: ${formatValue(live.batting_line.hits, 0)} H | ${formatValue(live.batting_line.atBats, 0)} AB | ${formatValue(live.batting_line.homeRuns, 0)} HR | ${formatValue(live.batting_line.rbi, 0)} RBI</div>` : ""}
-             ${live.pitching_line ? `<div class="stat-line">Live Pitching: ${formatValue(live.pitching_line.inningsPitched)} IP | ${formatValue(live.pitching_line.strikeOuts, 0)} K | ${formatValue(live.pitching_line.earnedRuns, 0)} ER | ${formatValue(live.pitching_line.numberOfPitches, 0)} P</div>` : ""}`
+          ? `<div class="stat-row">Live Now: ${formatValue(live.game)} | ${formatValue(live.score)} | ${formatValue(live.inning)}</div>`
           : `<div class="muted">Not currently in a live game.</div>`}
       </div>
 
@@ -1416,11 +1407,6 @@ function renderPlayerSearch(data) {
           : recentPitch.length
             ? recentPitch.map(game => `<div class="player-row"><strong>${new Date(game.date).toLocaleDateString()}</strong><div class="stat-line">${formatValue(game.opponent)} | ${formatValue(game.innings)} IP | ${formatValue(game.strikeouts, 0)} K | ${formatValue(game.earned_runs, 0)} ER | ${formatValue(game.walks, 0)} BB</div></div>`).join("")
             : `<div class="muted">No recent game log available.</div>`}
-
-        ${live.is_live && safeArray(live.recent_live_events).length
-          ? `<div class="section-title-sm">Recent Live Events</div>
-             ${live.recent_live_events.map(event => `<div class="live-event"><div class="stat-row">${formatValue(event.inning)}</div><div class="stat-line">${formatValue(event.description)}</div></div>`).join("")}`
-          : ``}
       </div>
     </div>
   `;
@@ -1482,37 +1468,6 @@ async function runSearchFromInput() {
     document.getElementById("player-search-result").innerHTML = `<div class="muted">Search failed.</div>`;
     console.error(error);
   }
-}
-
-function getSavedWatchlistPosition() {
-  try {
-    return JSON.parse(localStorage.getItem(WATCHLIST_POSITION_KEY) || "null");
-  } catch {
-    return null;
-  }
-}
-
-function saveWatchlistPosition(left, top) {
-  localStorage.setItem(WATCHLIST_POSITION_KEY, JSON.stringify({ left, top }));
-}
-
-function applyWatchlistPosition() {
-  const panel = document.getElementById("watchlist-panel");
-  const saved = getSavedWatchlistPosition();
-  if (!saved) return;
-  panel.style.left = `${saved.left}px`;
-  panel.style.top = `${saved.top}px`;
-  panel.style.right = "auto";
-}
-
-function clampWatchlistPosition(left, top) {
-  const panel = document.getElementById("watchlist-panel");
-  const maxLeft = Math.max(8, window.innerWidth - panel.offsetWidth - 8);
-  const maxTop = Math.max(8, window.innerHeight - 120);
-  return {
-    left: Math.min(Math.max(8, left), maxLeft),
-    top: Math.min(Math.max(8, top), maxTop)
-  };
 }
 
 function openWatchlist() {
@@ -1590,9 +1545,7 @@ async function renderWatchlist() {
 
             ${live.is_live
               ? `<div class="section-title-sm">Live</div>
-                 <div class="stat-row">${formatValue(live.game)} | ${formatValue(live.score)} | ${formatValue(live.inning)}</div>
-                 ${live.batting_line ? `<div class="stat-line">Batting: ${formatValue(live.batting_line.hits, 0)} H | ${formatValue(live.batting_line.atBats, 0)} AB | ${formatValue(live.batting_line.homeRuns, 0)} HR | ${formatValue(live.batting_line.rbi, 0)} RBI</div>` : ""}
-                 ${live.pitching_line ? `<div class="stat-line">Pitching: ${formatValue(live.pitching_line.inningsPitched)} IP | ${formatValue(live.pitching_line.strikeOuts, 0)} K | ${formatValue(live.pitching_line.earnedRuns, 0)} ER | ${formatValue(live.pitching_line.numberOfPitches, 0)} P</div>` : ""}`
+                 <div class="stat-row">${formatValue(live.game)} | ${formatValue(live.score)} | ${formatValue(live.inning)}</div>`
               : `<div class="section-title-sm">Season</div>
                  ${hitting ? `<div class="stat-line">AVG ${formatValue(hitting.avg)} | OPS ${formatValue(hitting.ops)} | HR ${formatValue(hitting.home_runs, 0)} | RBI ${formatValue(hitting.rbi, 0)}</div>` : ""}
                  ${pitching ? `<div class="stat-line">ERA ${formatValue(pitching.era)} | WHIP ${formatValue(pitching.whip)} | K ${formatValue(pitching.strikeouts, 0)}</div>` : ""}
