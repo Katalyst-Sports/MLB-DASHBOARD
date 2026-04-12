@@ -28,9 +28,15 @@
   --shadow: 0 14px 40px rgba(0, 0, 0, 0.28);
   --base-off: rgba(255,255,255,0.14);
   --base-on: #43c07a;
+  --topbar-height: 72px;
+  --bottom-nav-height: 76px;
 }
 
 * { box-sizing: border-box; }
+
+html {
+  scroll-behavior: smooth;
+}
 
 body {
   margin: 0;
@@ -42,10 +48,81 @@ body {
     var(--bg);
 }
 
+.topbar {
+  position: fixed;
+  inset: 0 0 auto 0;
+  height: var(--topbar-height);
+  z-index: 1400;
+  background: rgba(5, 12, 22, 0.84);
+  border-bottom: 1px solid rgba(255,255,255,0.08);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+}
+
+.topbar-inner {
+  max-width: 1450px;
+  height: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.topbar-brand {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.topbar-logo {
+  width: 42px;
+  height: 42px;
+  border-radius: 12px;
+  object-fit: cover;
+  border: 1px solid rgba(255,255,255,0.14);
+  box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+  background: rgba(255,255,255,0.06);
+}
+
+.topbar-kicker {
+  font-size: 10px;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  font-weight: 800;
+  color: #b8c9df;
+}
+
+.topbar-title {
+  font-size: 18px;
+  font-weight: 900;
+  color: #ffffff;
+  line-height: 1.1;
+}
+
+.topbar-updated {
+  text-align: right;
+}
+
+.topbar-updated-label {
+  font-size: 10px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  font-weight: 800;
+  color: #92a8c5;
+}
+
+.topbar-updated-value {
+  font-size: 12px;
+  color: #d7e5f8;
+  margin-top: 4px;
+}
+
 .page-shell {
   max-width: 1450px;
   margin: 0 auto;
-  padding: 20px;
+  padding: calc(var(--topbar-height) + 20px) 20px calc(var(--bottom-nav-height) + 28px);
 }
 
 .hero {
@@ -70,6 +147,20 @@ body {
   padding: 22px 24px;
   box-shadow: var(--shadow);
   margin-bottom: 20px;
+  position: relative;
+  overflow: hidden;
+}
+
+.page-header::after {
+  content: "";
+  position: absolute;
+  right: -80px;
+  top: -80px;
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(77, 163, 255, 0.18), transparent 70%);
+  pointer-events: none;
 }
 
 .kicker {
@@ -107,8 +198,34 @@ body {
   color: #99adc8;
 }
 
+.quick-jump {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-top: 16px;
+}
+
+.quick-jump-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 38px;
+  padding: 0 14px;
+  border-radius: 999px;
+  border: 1px solid rgba(148, 163, 184, 0.18);
+  background: rgba(255,255,255,0.05);
+  color: #eef4ff;
+  font-size: 13px;
+  font-weight: 800;
+}
+
+.quick-jump-link.primary {
+  background: linear-gradient(135deg, #0f4c81, #2563eb);
+}
+
 .section-block {
   margin-top: 28px;
+  scroll-margin-top: calc(var(--topbar-height) + 16px);
 }
 
 .section-header {
@@ -496,7 +613,7 @@ body {
 .watchlist-fab {
   position: fixed;
   right: 24px;
-  bottom: 24px;
+  bottom: calc(24px + var(--bottom-nav-height));
   z-index: 1000;
   padding: 14px 18px;
   border-radius: 999px;
@@ -561,6 +678,41 @@ body {
   background: rgba(255,255,255,0.08);
 }
 
+.bottom-nav {
+  position: fixed;
+  inset: auto 0 0 0;
+  z-index: 1200;
+  display: none;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 8px;
+  padding: 10px 12px max(10px, env(safe-area-inset-bottom));
+  background: rgba(5, 12, 22, 0.92);
+  border-top: 1px solid rgba(255,255,255,0.08);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+}
+
+.bottom-nav-link {
+  min-height: 54px;
+  border-radius: 14px;
+  display: grid;
+  place-items: center;
+  text-align: center;
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #dce8fb;
+  background: rgba(255,255,255,0.04);
+  border: 1px solid rgba(148, 163, 184, 0.1);
+}
+
+.bottom-nav-link:hover,
+.bottom-nav-link:focus {
+  background: rgba(37, 99, 235, 0.18);
+  border-color: rgba(56, 189, 248, 0.22);
+}
+
 footer {
   margin-top: 42px;
   padding-top: 18px;
@@ -587,8 +739,25 @@ footer {
 }
 
 @media (max-width: 720px) {
+  :root {
+    --topbar-height: 68px;
+    --bottom-nav-height: 76px;
+  }
+
+  .topbar {
+    display: block;
+  }
+
+  .topbar-inner {
+    padding: 0 14px;
+  }
+
+  .topbar-updated {
+    display: none;
+  }
+
   .page-shell {
-    padding: 14px;
+    padding: calc(var(--topbar-height) + 14px) 14px calc(var(--bottom-nav-height) + 22px);
   }
 
   .hero img {
@@ -619,7 +788,7 @@ footer {
   .watchlist-fab {
     right: 14px;
     left: 14px;
-    bottom: 14px;
+    bottom: calc(14px + var(--bottom-nav-height));
     border-radius: 14px;
   }
 
@@ -633,11 +802,45 @@ footer {
   .page-title {
     font-size: 28px;
   }
+
+  .quick-jump {
+    overflow-x: auto;
+    flex-wrap: nowrap;
+    padding-bottom: 2px;
+  }
+
+  .quick-jump::-webkit-scrollbar {
+    display: none;
+  }
+
+  .quick-jump-link {
+    flex: 0 0 auto;
+  }
+
+  .bottom-nav {
+    display: grid;
+  }
 }
 </style>
 </head>
 
 <body>
+<header class="topbar">
+  <div class="topbar-inner">
+    <div class="topbar-brand">
+      <img class="topbar-logo" src="./icons/icon-192.png" alt="MLB StatStream icon">
+      <div>
+        <div class="topbar-kicker">App Mode</div>
+        <div class="topbar-title">MLB StatStream</div>
+      </div>
+    </div>
+    <div class="topbar-updated">
+      <div class="topbar-updated-label">Last Updated</div>
+      <div class="topbar-updated-value" id="topbar-updated">Loading...</div>
+    </div>
+  </div>
+</header>
+
 <div class="page-shell">
   <div class="hero">
     <img src="./images/banner.jpg" alt="MLB StatStream banner">
@@ -652,9 +855,18 @@ footer {
     <div class="timestamp">
       Last updated: <span id="updated">loading...</span>
     </div>
+
+    <div class="quick-jump">
+      <a class="quick-jump-link primary" href="#player-search-section">Search</a>
+      <a class="quick-jump-link" href="#live-games-section">Live</a>
+      <a class="quick-jump-link" href="#upcoming-games-section">Upcoming</a>
+      <a class="quick-jump-link" href="#finished-games-section">Finals</a>
+      <a class="quick-jump-link" href="#recap-section">Recap</a>
+      <a class="quick-jump-link" href="#leaders-section">Leaders</a>
+    </div>
   </div>
 
-  <div class="section-block">
+  <div id="player-search-section" class="section-block">
     <div class="section-header">
       <div class="section-label">Player Search</div>
       <div class="section-line"></div>
@@ -671,7 +883,7 @@ footer {
     </div>
   </div>
 
-  <div class="section-block">
+  <div id="live-games-section" class="section-block">
     <div class="section-header">
       <div class="section-label">Live Games</div>
       <div class="section-line"></div>
@@ -679,7 +891,7 @@ footer {
     <div id="live" class="grid"></div>
   </div>
 
-  <div class="section-block">
+  <div id="upcoming-games-section" class="section-block">
     <div class="section-header">
       <div class="section-label">Upcoming Games</div>
       <div class="section-line"></div>
@@ -687,7 +899,7 @@ footer {
     <div id="games" class="grid"></div>
   </div>
 
-  <div class="section-block">
+  <div id="finished-games-section" class="section-block">
     <div class="section-header">
       <div class="section-label">Finished Games Today</div>
       <div class="section-line"></div>
@@ -695,7 +907,7 @@ footer {
     <div id="finished-games" class="grid"></div>
   </div>
 
-  <div class="section-block">
+  <div id="recap-section" class="section-block">
     <div class="section-header">
       <div class="section-label">Previous Day Recap</div>
       <div class="section-line"></div>
@@ -703,7 +915,7 @@ footer {
     <div id="all-games" class="grid"></div>
   </div>
 
-  <div class="section-block">
+  <div id="leaders-section" class="section-block">
     <div class="section-header">
       <div class="section-label">Season Leaders</div>
       <div class="section-line"></div>
@@ -743,6 +955,14 @@ footer {
     <div id="watchlist-content" style="margin-top:16px;"></div>
   </div>
 </div>
+
+<nav class="bottom-nav">
+  <a class="bottom-nav-link" href="#player-search-section">Search</a>
+  <a class="bottom-nav-link" href="#live-games-section">Live</a>
+  <a class="bottom-nav-link" href="#upcoming-games-section">Upcoming</a>
+  <a class="bottom-nav-link" href="#finished-games-section">Finals</a>
+  <a class="bottom-nav-link" href="#leaders-section">Leaders</a>
+</nav>
 
 <script>
 const LIVE_API_URL = "https://misty-heart-42ca.k8piler.workers.dev/live";
@@ -801,8 +1021,12 @@ function formatValue(value, fallback = "N/A") {
 }
 
 function setUpdatedTimestamp(value) {
-  document.getElementById("updated").textContent =
-    value ? new Date(value).toLocaleString() : "Unavailable";
+  const formatted = value ? new Date(value).toLocaleString() : "Unavailable";
+  document.getElementById("updated").textContent = formatted;
+  const topbarUpdated = document.getElementById("topbar-updated");
+  if (topbarUpdated) {
+    topbarUpdated.textContent = formatted;
+  }
 }
 
 function teamInfo(teamName) {
@@ -1473,118 +1697,6 @@ function renderSeasonLeaders(leaders) {
       ${renderList(section.items, "No data available.")}
     </div>
   `).join("");
-}
-
-function getSavedWatchlistPosition() {
-  try {
-    return JSON.parse(localStorage.getItem(WATCHLIST_POSITION_KEY) || "null");
-  } catch {
-    return null;
-  }
-}
-
-function saveWatchlistPosition(left, top) {
-  localStorage.setItem(WATCHLIST_POSITION_KEY, JSON.stringify({ left, top }));
-}
-
-function applyWatchlistPosition() {
-  const panel = document.getElementById("watchlist-panel");
-  const saved = getSavedWatchlistPosition();
-  if (!saved) return;
-  panel.style.left = `${saved.left}px`;
-  panel.style.top = `${saved.top}px`;
-  panel.style.right = "auto";
-}
-
-function clampWatchlistPosition(left, top) {
-  const panel = document.getElementById("watchlist-panel");
-  const maxLeft = Math.max(8, window.innerWidth - panel.offsetWidth - 8);
-  const maxTop = Math.max(8, window.innerHeight - 120);
-  return {
-    left: Math.min(Math.max(8, left), maxLeft),
-    top: Math.min(Math.max(8, top), maxTop)
-  };
-}
-
-function openWatchlist() {
-  const panel = document.getElementById("watchlist-panel");
-  panel.classList.add("open");
-  applyWatchlistPosition();
-  renderWatchlist();
-}
-
-function closeWatchlist() {
-  document.getElementById("watchlist-panel").classList.remove("open");
-}
-
-function toggleMinimizeWatchlist() {
-  const panel = document.getElementById("watchlist-panel");
-  panel.classList.toggle("minimized");
-  document.getElementById("watchlist-minimize").textContent =
-    panel.classList.contains("minimized") ? "Restore" : "Minimize";
-}
-
-async function renderWatchlist() {
-  const content = document.getElementById("watchlist-content");
-  const ids = getWatchlist();
-
-  if (!ids.length) {
-    content.innerHTML = `<div class="muted">No watched players yet. Search for a player and add them to your watchlist.</div>`;
-    return;
-  }
-
-  content.innerHTML = `<div class="muted">Loading watchlist...</div>`;
-
-  const players = await Promise.all(
-    ids.map(async (id) => {
-      try {
-        const res = await fetch(`${PLAYER_API_URL}?id=${id}&nocache=${Date.now()}`);
-        return res.json();
-      } catch {
-        return null;
-      }
-    })
-  );
-
-  const validPlayers = players.filter(item => item && item.found);
-
-  content.innerHTML = `
-    <div class="watchlist-grid">
-      ${validPlayers.map(item => {
-        const p = item.player || {};
-        const live = item.live || {};
-        const hitting = item.season_stats?.hitting;
-        const pitching = item.season_stats?.pitching;
-
-        return `
-          <div class="card watchlist-card">
-            <div class="watchlist-player-hero">
-              <img class="watchlist-headshot" src="${p.headshot}" alt="${formatValue(p.full_name)}">
-              <div>
-                <div class="matchup">${formatValue(p.full_name)}</div>
-                <div class="meta">${formatValue(p.team)} | ${formatValue(p.position)}</div>
-                <div class="stat-line">Bats ${formatValue(p.bat_side)} | Throws ${formatValue(p.pitch_hand)}</div>
-              </div>
-            </div>
-
-            ${live.is_live
-              ? `<div class="section-title-sm">Live</div>
-                 <div class="stat-row">${formatValue(live.game)} | ${formatValue(live.score)} | ${formatValue(live.inning)}</div>
-                 ${live.batting_line ? `<div class="stat-line">Batting: ${formatValue(live.batting_line.hits, 0)} H | ${formatValue(live.batting_line.atBats, 0)} AB | ${formatValue(live.batting_line.homeRuns, 0)} HR | ${formatValue(live.batting_line.rbi, 0)} RBI</div>` : ""}
-                 ${live.pitching_line ? `<div class="stat-line">Pitching: ${formatValue(live.pitching_line.inningsPitched)} IP | ${formatValue(live.pitching_line.strikeOuts, 0)} K | ${formatValue(live.pitching_line.earnedRuns, 0)} ER | ${formatValue(live.pitching_line.numberOfPitches, 0)} P</div>` : ""}`
-              : `<div class="section-title-sm">Season</div>
-                 ${hitting ? `<div class="stat-line">AVG ${formatValue(hitting.avg)} | OPS ${formatValue(hitting.ops)} | HR ${formatValue(hitting.home_runs, 0)} | RBI ${formatValue(hitting.rbi, 0)}</div>` : ""}
-                 ${pitching ? `<div class="stat-line">ERA ${formatValue(pitching.era)} | WHIP ${formatValue(pitching.whip)} | K ${formatValue(pitching.strikeouts, 0)}</div>` : ""}
-                 ${!hitting && !pitching ? `<div class="muted">No season snapshot available.</div>` : ""}`}
-
-            <div style="margin-top:12px;">
-              <button class="watchlist-close" onclick="removeFromWatchlist(${p.id}); renderWatchlist();">Remove</button>
-            </div>
-          </div>
-        `;
-      }).join("")}
-    </div>
-  `;
 }
 
 async function refreshLiveOnly() {
