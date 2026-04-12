@@ -32,61 +32,6 @@
   --bottom-nav-height: 76px;
 }
 
-.card.news-card {
-  border-top: 4px solid #60a5fa;
-}
-
-.card.injury-card {
-  border-top: 4px solid #fb7185;
-}
-
-.news-layout {
-  display: grid;
-  grid-template-columns: 1.2fr 1fr 1fr 1fr;
-  gap: 14px;
-}
-
-.news-summary-card {
-  grid-column: span 4;
-}
-
-.news-list {
-  margin-top: 10px;
-  display: grid;
-  gap: 8px;
-}
-
-.news-item {
-  border-top: 1px solid rgba(148, 163, 184, 0.12);
-  padding-top: 8px;
-}
-
-.news-item:first-child {
-  border-top: 0;
-  padding-top: 0;
-}
-
-.injury-team-name {
-  font-size: 17px;
-  font-weight: 900;
-  margin-bottom: 8px;
-}
-
-.injury-list {
-  display: grid;
-  gap: 8px;
-  margin-top: 10px;
-}
-
-.injury-player {
-  border-top: 1px solid rgba(148, 163, 184, 0.12);
-  padding-top: 8px;
-}
-
-.injury-player:first-child {
-  border-top: 0;
-  padding-top: 0;
-}
 * { box-sizing: border-box; }
 
 html {
@@ -323,6 +268,16 @@ body.watchlist-open {
   gap: 14px;
 }
 
+.news-layout {
+  display: grid;
+  grid-template-columns: 1.2fr 1fr 1fr 1fr;
+  gap: 14px;
+}
+
+.news-summary-card {
+  grid-column: span 4;
+}
+
 .player-grid {
   display: grid;
   grid-template-columns: 1.15fr 1fr 1fr;
@@ -355,6 +310,7 @@ body.watchlist-open {
 .leader-card { border-top: 4px solid var(--green); }
 .player-card { border-top: 4px solid var(--cyan); }
 .watchlist-card { border-top: 4px solid #22c55e; }
+.news-card { border-top: 4px solid #60a5fa; }
 
 .matchup {
   font-size: 15px;
@@ -413,6 +369,22 @@ body.watchlist-open {
   color: #b9c8dc;
   line-height: 1.5;
   margin-top: 3px;
+}
+
+.news-list {
+  margin-top: 10px;
+  display: grid;
+  gap: 8px;
+}
+
+.news-item {
+  border-top: 1px solid rgba(148, 163, 184, 0.12);
+  padding-top: 8px;
+}
+
+.news-item:first-child {
+  border-top: 0;
+  padding-top: 0;
 }
 
 .list {
@@ -841,7 +813,7 @@ footer {
     grid-column: span 1;
   }
 }
-  
+
 @media (max-width: 720px) {
   :root {
     --topbar-height: 68px;
@@ -927,8 +899,8 @@ footer {
 
   .watchlist-content-spacer {
     height: 20px;
- }
-  
+  }
+
   .watchlist-panel.open {
     transform: translateY(0);
   }
@@ -951,7 +923,6 @@ footer {
     cursor: default;
   }
 }
-
 </style>
 </head>
 
@@ -989,6 +960,7 @@ footer {
 
     <div class="quick-jump">
       <a class="quick-jump-link primary" href="#player-search-section">Search</a>
+      <a class="quick-jump-link" href="#news-section">News</a>
       <a class="quick-jump-link" href="#live-games-section">Live</a>
       <a class="quick-jump-link" href="#upcoming-games-section">Upcoming</a>
       <a class="quick-jump-link" href="#finished-games-section">Finals</a>
@@ -1014,26 +986,14 @@ footer {
     </div>
   </div>
 
-  <div id="player-search-section" class="section-block">
-  ...
-</div>
-
-<div id="news-section" class="section-block">
-  <div class="section-header">
-    <div class="section-label">Latest News</div>
-    <div class="section-line"></div>
+  <div id="news-section" class="section-block">
+    <div class="section-header">
+      <div class="section-label">Latest News</div>
+      <div class="section-line"></div>
+    </div>
+    <div id="mlb-news" class="news-layout"></div>
   </div>
-  <div id="mlb-news" class="grid"></div>
-</div>
 
- <div id="live-games-section" class="section-block">
-   <div class="section-header">
-    <div class="section-label">Live Games</div>
-    <div class="section-line"></div>
-   </div>
-   <div id="live" class="grid"></div>
- </div>
-  
   <div id="live-games-section" class="section-block">
     <div class="section-header">
       <div class="section-label">Live Games</div>
@@ -1732,6 +1692,58 @@ async function loadLive() {
   }
 }
 
+function renderNewsItems(items, emptyText) {
+  const rows = safeArray(items);
+  if (!rows.length) {
+    return `<div class="muted">${emptyText}</div>`;
+  }
+
+  return `<div class="news-list">${rows.map((item) => `
+    <div class="news-item">
+      <div><strong>${formatValue(item.title || item.player || item.team, "MLB Update")}</strong></div>
+      ${item.team || item.date ? `<div class="stat-line">${[formatValue(item.team, ""), formatValue(item.date, "")].filter(Boolean).join(" | ")}</div>` : ""}
+      <div class="stat-line">${formatValue(item.summary || item.update || item.link, "No details available.")}</div>
+    </div>
+  `).join("")}</div>`;
+}
+
+async function loadNews() {
+  const newsDiv = document.getElementById("mlb-news");
+
+  try {
+    const response = await fetch(`./mlb_news.json?nocache=${Date.now()}`);
+    if (!response.ok) {
+      throw new Error("mlb_news.json missing");
+    }
+
+    const data = await response.json();
+    newsDiv.innerHTML = `
+      <div class="card news-card news-summary-card">
+        <div class="matchup">${formatValue(data.headline, "MLB News Desk")}</div>
+        <div class="summary">${formatValue(data.article, "No MLB roundup available yet.")}</div>
+      </div>
+
+      <div class="card news-card">
+        <div class="matchup" style="font-size:16px;">Top News</div>
+        ${renderNewsItems(data.top_news, "No top MLB headlines are available yet.")}
+      </div>
+
+      <div class="card news-card">
+        <div class="matchup" style="font-size:16px;">Injuries</div>
+        ${renderNewsItems(data.injury_updates, "No recent injury updates are available yet.")}
+      </div>
+
+      <div class="card news-card">
+        <div class="matchup" style="font-size:16px;">Trades</div>
+        ${renderNewsItems(data.trade_updates, "No recent MLB trade updates are available yet.")}
+      </div>
+    `;
+  } catch (error) {
+    newsDiv.innerHTML = `<div class="card news-card">Could not load MLB news.</div>`;
+    console.error(error);
+  }
+}
+
 async function loadDaily() {
   const el = document.getElementById("games");
   try {
@@ -1846,111 +1858,6 @@ function renderPreviousDayRecap(games) {
 }
 
 function renderSeasonLeaders(leaders) {
-  const el = document.getElementById("season-leaders");
-  const sections = [
-    { title: "AVG / OPS Leaders", items: leaders.avg_ops || [] },
-    { title: "HR / RBI Leaders", items: leaders.power || [] },
-    { title: "K / Wins Leaders", items: leaders.pitching || [] },
-    { title: "ERA / WHIP Leaders", items: leaders.run_prevention || [] }
-  ];
-
-  el.innerHTML = sections.map(section => `
-    <div class="card leader-card">
-      <div class="matchup" style="font-size:16px;">${section.title}</div>
-      ${renderList(section.items, "No data available.")}
-    </div>
-  `).join("");
-}
-
-function renderNewsItems(items, emptyText) {
-  const rows = safeArray(items);
-  if (!rows.length) {
-    return `<div class="muted">${emptyText}</div>`;
-  }
-
-  return `<div class="news-list">${rows.map((item) => `
-    <div class="news-item">
-      <div><strong>${formatValue(item.title || item.player || item.team, "MLB Update")}</strong></div>
-      ${item.team || item.date ? `<div class="stat-line">${[formatValue(item.team, ""), formatValue(item.date, "")].filter(Boolean).join(" | ")}</div>` : ""}
-      <div class="stat-line">${formatValue(item.summary || item.update || item.link, "No details available.")}</div>
-    </div>
-  `).join("")}</div>`;
-}
-
-async function loadNews() {
-  const newsDiv = document.getElementById("mlb-news");
-
-  try {
-    const response = await fetch(`./mlb_news.json?nocache=${Date.now()}`);
-    if (!response.ok) {
-      throw new Error("mlb_news.json missing");
-    }
-
-    const data = await response.json();
-    newsDiv.innerHTML = `
-      <div class="card news-card news-summary-card">
-        <div class="matchup">${formatValue(data.headline, "MLB News Desk")}</div>
-        <div class="summary">${formatValue(data.article, "No MLB roundup available yet.")}</div>
-      </div>
-
-      <div class="card news-card">
-        <div class="matchup" style="font-size:16px;">Top News</div>
-        ${renderNewsItems(data.top_news, "No top MLB headlines are available yet.")}
-      </div>
-
-      <div class="card news-card">
-        <div class="matchup" style="font-size:16px;">Injuries</div>
-        ${renderNewsItems(data.injury_updates, "No recent injury updates are available yet.")}
-      </div>
-
-      <div class="card news-card">
-        <div class="matchup" style="font-size:16px;">Trades</div>
-        ${renderNewsItems(data.trade_updates, "No recent MLB trade updates are available yet.")}
-      </div>
-    `;
-  } catch (error) {
-    newsDiv.innerHTML = `<div class="card news-card">Could not load MLB news.</div>`;
-    console.error(error);
-  }
-}
-
-async function loadNews() {
-  const newsDiv = document.getElementById("mlb-news");
-
-  try {
-    const response = await fetch(`./mlb_news.json?nocache=${Date.now()}`);
-    if (!response.ok) {
-      throw new Error("mlb_news.json missing");
-    }
-
-    const data = await response.json();
-    newsDiv.innerHTML = `
-      <div class="card news-card">
-        <div class="matchup">${formatValue(data.headline, "MLB News Desk")}</div>
-        <div class="summary">${formatValue(data.article, "No MLB roundup available yet.")}</div>
-      </div>
-
-      <div class="card news-card">
-        <div class="matchup" style="font-size:16px;">Top News</div>
-        ${renderNewsItems(data.top_news, "No top MLB headlines are available yet.")}
-      </div>
-
-      <div class="card news-card">
-        <div class="matchup" style="font-size:16px;">Injuries</div>
-        ${renderNewsItems(data.injury_updates, "No recent injury updates are available yet.")}
-      </div>
-
-      <div class="card news-card">
-        <div class="matchup" style="font-size:16px;">Trades</div>
-        ${renderNewsItems(data.trade_updates, "No recent MLB trade updates are available yet.")}
-      </div>
-    `;
-  } catch (error) {
-    newsDiv.innerHTML = `<div class="card news-card">Could not load MLB news.</div>`;
-    console.error(error);
-  }
-}
-  
   const el = document.getElementById("season-leaders");
   const sections = [
     { title: "AVG / OPS Leaders", items: leaders.avg_ops || [] },
