@@ -837,7 +837,7 @@ footer {
     overflow-y: auto;
     -webkit-overflow-scrolling: touch;
     border-radius: 22px 22px 0 0;
-    padding: 16px 14px calc(16px + env(safe-area-inset-bottom));
+    padding: 16px 14px calc(96px + env(safe-area-inset-bottom));
     border-left: 0;
     border-right: 0;
     border-bottom: 0;
@@ -850,6 +850,10 @@ footer {
     overflow: visible;
   }
 
+  .watchlist-content-spacer {
+    height: 20px;
+ }
+  
   .watchlist-panel.open {
     transform: translateY(0);
   }
