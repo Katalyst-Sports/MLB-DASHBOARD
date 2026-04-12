@@ -32,7 +32,7 @@
   --bottom-nav-height: 76px;
 }
 
-  .card.news-card {
+.card.news-card {
   border-top: 4px solid #60a5fa;
 }
 
@@ -1112,6 +1112,7 @@ footer {
 
 <nav class="bottom-nav">
   <a class="bottom-nav-link" href="#player-search-section">Search</a>
+  <a class="bottom-nav-link" href="#news-section">News</a>
   <a class="bottom-nav-link" href="#live-games-section">Live</a>
   <a class="bottom-nav-link" href="#upcoming-games-section">Upcoming</a>
   <a class="bottom-nav-link" href="#finished-games-section">Finals</a>
@@ -1874,6 +1875,43 @@ function renderNewsItems(items, emptyText) {
       <div class="stat-line">${formatValue(item.summary || item.update || item.link, "No details available.")}</div>
     </div>
   `).join("")}</div>`;
+}
+
+async function loadNews() {
+  const newsDiv = document.getElementById("mlb-news");
+
+  try {
+    const response = await fetch(`./mlb_news.json?nocache=${Date.now()}`);
+    if (!response.ok) {
+      throw new Error("mlb_news.json missing");
+    }
+
+    const data = await response.json();
+    newsDiv.innerHTML = `
+      <div class="card news-card news-summary-card">
+        <div class="matchup">${formatValue(data.headline, "MLB News Desk")}</div>
+        <div class="summary">${formatValue(data.article, "No MLB roundup available yet.")}</div>
+      </div>
+
+      <div class="card news-card">
+        <div class="matchup" style="font-size:16px;">Top News</div>
+        ${renderNewsItems(data.top_news, "No top MLB headlines are available yet.")}
+      </div>
+
+      <div class="card news-card">
+        <div class="matchup" style="font-size:16px;">Injuries</div>
+        ${renderNewsItems(data.injury_updates, "No recent injury updates are available yet.")}
+      </div>
+
+      <div class="card news-card">
+        <div class="matchup" style="font-size:16px;">Trades</div>
+        ${renderNewsItems(data.trade_updates, "No recent MLB trade updates are available yet.")}
+      </div>
+    `;
+  } catch (error) {
+    newsDiv.innerHTML = `<div class="card news-card">Could not load MLB news.</div>`;
+    console.error(error);
+  }
 }
 
 async function loadNews() {
