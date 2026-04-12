@@ -1,349 +1,218 @@
 {
-  "updated_at": "2026-04-11T20:18:36.819749-04:00",
+  "updated_at": "2026-04-12T00:06:47.131922-04:00",
   "games": [
     {
-      "gamePk": 824695,
-      "game": "Pittsburgh Pirates @ Chicago Cubs",
-      "winner": "Pittsburgh Pirates",
-      "loser": "Chicago Cubs",
-      "final_score": "2-0",
-      "hitters": [
-        "Bryan Reynolds",
-        "Ian Happ"
-      ],
-      "pitchers": [
-        "Shota Imanaga"
-      ],
-      "hitter_lines": [
-        "Bryan Reynolds: 1 H, 1 HR, 2 RBI",
-        "Ian Happ: 2 H, 0 HR, 0 RBI"
-      ],
-      "pitcher_lines": [
-        "Shota Imanaga: 6.0 IP, 9 K, 0 ER"
-      ]
-    },
-    {
-      "gamePk": 823482,
+      "gamePk": 823480,
       "game": "Arizona Diamondbacks @ Philadelphia Phillies",
-      "winner": "Arizona Diamondbacks",
-      "loser": "Philadelphia Phillies",
-      "final_score": "5-4",
+      "winner": "Philadelphia Phillies",
+      "loser": "Arizona Diamondbacks",
+      "final_score": "3-4",
       "hitters": [
+        "Ketel Marte",
+        "Adrian Del Castillo",
+        "Kyle Schwarber",
         "Bryce Harper",
-        "Brandon Marsh"
+        "Justin Crawford"
       ],
       "pitchers": [
-        "Michael Soroka",
-        "Jes\u00fas Luzardo"
-      ],
-      "hitter_lines": [
-        "Ketel Marte: 1 H, 0 HR, 2 RBI",
-        "James McCann: 1 H, 0 HR, 2 RBI",
-        "Bryce Harper: 2 H, 0 HR, 1 RBI",
-        "Brandon Marsh: 1 H, 1 HR, 3 RBI"
-      ],
-      "pitcher_lines": [
-        "Michael Soroka: 5.2 IP, 10 K, 4 ER",
-        "Jes\u00fas Luzardo: 4.2 IP, 8 K, 5 ER"
+        "Brandon Pfaadt",
+        "Taijuan Walker"
       ]
     },
     {
-      "gamePk": 824297,
+      "gamePk": 824294,
       "game": "Miami Marlins @ Detroit Tigers",
       "winner": "Detroit Tigers",
       "loser": "Miami Marlins",
-      "final_score": "0-2",
+      "final_score": "1-6",
       "hitters": [
-        "Colt Keith",
-        "Javier B\u00e1ez"
+        "Otto Lopez",
+        "Riley Greene"
+      ],
+      "pitchers": []
+    },
+    {
+      "gamePk": 824697,
+      "game": "Pittsburgh Pirates @ Chicago Cubs",
+      "winner": "Pittsburgh Pirates",
+      "loser": "Chicago Cubs",
+      "final_score": "4-3",
+      "hitters": [
+        "Oneil Cruz",
+        "Bryan Reynolds",
+        "Nick Yorke",
+        "Alex Bregman",
+        "Mois\u00e9s Ballesteros"
       ],
       "pitchers": [
-        "Keider Montero"
-      ],
-      "hitter_lines": [
-        "Colt Keith: 2 H, 0 HR, 0 RBI",
-        "Javier B\u00e1ez: 1 H, 1 HR, 1 RBI"
-      ],
-      "pitcher_lines": [
-        "Keider Montero: 6.0 IP, 7 K, 0 ER"
+        "Braxton Ashcraft"
       ]
     },
     {
-      "gamePk": 824534,
-      "game": "Los Angeles Angels @ Cincinnati Reds",
-      "winner": "Los Angeles Angels",
-      "loser": "Cincinnati Reds",
-      "final_score": "10-2",
-      "hitters": [
-        "Zach Neto",
-        "Jorge Soler",
-        "Yo\u00e1n Moncada",
-        "Josh Lowe",
-        "Elly De La Cruz",
-        "Eugenio Su\u00e1rez"
-      ],
-      "pitchers": [],
-      "hitter_lines": [
-        "Zach Neto: 2 H, 1 HR, 2 RBI",
-        "Jorge Soler: 2 H, 1 HR, 4 RBI",
-        "Yo\u00e1n Moncada: 2 H, 0 HR, 1 RBI",
-        "Josh Lowe: 2 H, 1 HR, 1 RBI",
-        "Elly De La Cruz: 1 H, 1 HR, 1 RBI",
-        "Eugenio Su\u00e1rez: 2 H, 0 HR, 0 RBI"
-      ],
-      "pitcher_lines": []
-    },
-    {
-      "gamePk": 822829,
+      "gamePk": 822830,
       "game": "Minnesota Twins @ Toronto Blue Jays",
-      "winner": "Toronto Blue Jays",
-      "loser": "Minnesota Twins",
-      "final_score": "4-10",
+      "winner": "Minnesota Twins",
+      "loser": "Toronto Blue Jays",
+      "final_score": "7-4",
       "hitters": [
-        "Austin Martin",
-        "Ryan Jeffers",
+        "Trevor Larnach",
         "Brooks Lee",
         "Daulton Varsho",
         "Vladimir Guerrero Jr.",
-        "Davis Schneider",
-        "Ernie Clement",
-        "Brandon Valenzuela"
+        "Jes\u00fas S\u00e1nchez"
       ],
-      "pitchers": [],
-      "hitter_lines": [
-        "Austin Martin: 2 H, 0 HR, 0 RBI",
-        "Ryan Jeffers: 3 H, 1 HR, 3 RBI",
-        "Brooks Lee: 1 H, 1 HR, 1 RBI",
-        "Daulton Varsho: 2 H, 1 HR, 1 RBI",
-        "Vladimir Guerrero Jr.: 3 H, 0 HR, 1 RBI",
-        "Davis Schneider: 2 H, 0 HR, 2 RBI"
-      ],
-      "pitcher_lines": []
+      "pitchers": []
     },
     {
-      "gamePk": 823643,
+      "gamePk": 824535,
+      "game": "Los Angeles Angels @ Cincinnati Reds",
+      "winner": "Cincinnati Reds",
+      "loser": "Los Angeles Angels",
+      "final_score": "3-7",
+      "hitters": [
+        "Zach Neto",
+        "Spencer Steer",
+        "Elly De La Cruz"
+      ],
+      "pitchers": []
+    },
+    {
+      "gamePk": 823644,
       "game": "Athletics @ New York Mets",
       "winner": "Athletics",
       "loser": "New York Mets",
-      "final_score": "4-0",
+      "final_score": "11-6",
       "hitters": [
+        "Shea Langeliers",
+        "Tyler Soderstrom",
         "Jacob Wilson",
-        "Jeff McNeil"
+        "Jeff McNeil",
+        "Max Muncy",
+        "Carlos Cortes",
+        "Jorge Polanco",
+        "Bo Bichette",
+        "Francisco Alvarez"
       ],
-      "pitchers": [],
-      "hitter_lines": [
-        "Jacob Wilson: 3 H, 0 HR, 0 RBI",
-        "Jeff McNeil: 2 H, 0 HR, 1 RBI",
-        "Denzel Clarke: 1 H, 0 HR, 2 RBI"
-      ],
-      "pitcher_lines": []
+      "pitchers": []
     },
     {
-      "gamePk": 822997,
-      "game": "New York Yankees @ Tampa Bay Rays",
-      "winner": "Tampa Bay Rays",
-      "loser": "New York Yankees",
-      "final_score": "3-5",
-      "hitters": [
-        "Ben Rice",
-        "Amed Rosario",
-        "Yandy D\u00edaz",
-        "Nick Fortes"
-      ],
-      "pitchers": [
-        "Steven Matz"
-      ],
-      "hitter_lines": [
-        "Ben Rice: 1 H, 1 HR, 1 RBI",
-        "Amed Rosario: 2 H, 0 HR, 1 RBI",
-        "Chandler Simpson: 1 H, 0 HR, 2 RBI",
-        "Yandy D\u00edaz: 2 H, 1 HR, 2 RBI",
-        "Nick Fortes: 2 H, 0 HR, 0 RBI"
-      ],
-      "pitcher_lines": [
-        "Steven Matz: 5.0 IP, 7 K, 2 ER"
-      ]
-    },
-    {
-      "gamePk": 824858,
-      "game": "San Francisco Giants @ Baltimore Orioles",
-      "winner": "San Francisco Giants",
-      "loser": "Baltimore Orioles",
-      "final_score": "6-3",
-      "hitters": [
-        "Willy Adames",
-        "Matt Chapman",
-        "Casey Schmitt",
-        "Jung Hoo Lee",
-        "Gunnar Henderson",
-        "Adley Rutschman",
-        "Leody Taveras"
-      ],
-      "pitchers": [],
-      "hitter_lines": [
-        "Willy Adames: 2 H, 1 HR, 2 RBI",
-        "Matt Chapman: 2 H, 0 HR, 0 RBI",
-        "Casey Schmitt: 3 H, 0 HR, 1 RBI",
-        "Jung Hoo Lee: 2 H, 1 HR, 2 RBI",
-        "Gunnar Henderson: 1 H, 1 HR, 2 RBI",
-        "Adley Rutschman: 3 H, 0 HR, 0 RBI"
-      ],
-      "pitcher_lines": []
-    },
-    {
-      "gamePk": 824941,
-      "game": "Cleveland Guardians @ Atlanta Braves",
-      "winner": "Atlanta Braves",
-      "loser": "Cleveland Guardians",
-      "final_score": "5-11",
-      "hitters": [
-        "Steven Kwan",
-        "Kyle Manzardo",
-        "Angel Mart\u00ednez",
-        "Ronald Acu\u00f1a Jr.",
-        "Drake Baldwin",
-        "Matt Olson",
-        "Austin Riley",
-        "Dominic Smith",
-        "Michael Harris II",
-        "Mauricio Dub\u00f3n"
-      ],
-      "pitchers": [],
-      "hitter_lines": [
-        "Steven Kwan: 2 H, 0 HR, 0 RBI",
-        "Kyle Manzardo: 1 H, 1 HR, 1 RBI",
-        "Angel Mart\u00ednez: 2 H, 0 HR, 2 RBI",
-        "Ronald Acu\u00f1a Jr.: 2 H, 1 HR, 2 RBI",
-        "Drake Baldwin: 2 H, 0 HR, 1 RBI",
-        "Matt Olson: 1 H, 1 HR, 2 RBI"
-      ],
-      "pitcher_lines": []
-    },
-    {
-      "gamePk": 824128,
+      "gamePk": 824129,
       "game": "Chicago White Sox @ Kansas City Royals",
       "winner": "Kansas City Royals",
       "loser": "Chicago White Sox",
       "final_score": "0-2",
       "hitters": [
-        "Carter Jensen"
+        "Maikel Garcia"
       ],
       "pitchers": [
-        "Kris Bubic"
-      ],
-      "hitter_lines": [
-        "Carter Jensen: 1 H, 1 HR, 1 RBI"
-      ],
-      "pitcher_lines": [
-        "Kris Bubic: 7.0 IP, 11 K, 0 ER"
+        "Michael Wacha"
       ]
     },
     {
-      "gamePk": 823808,
+      "gamePk": 822996,
+      "game": "New York Yankees @ Tampa Bay Rays",
+      "winner": "Tampa Bay Rays",
+      "loser": "New York Yankees",
+      "final_score": "4-5",
+      "hitters": [
+        "Cody Bellinger",
+        "Austin Wells",
+        "Jos\u00e9 Caballero",
+        "Jonny DeLuca",
+        "Taylor Walls"
+      ],
+      "pitchers": [
+        "Max Fried"
+      ]
+    },
+    {
+      "gamePk": 823805,
       "game": "Washington Nationals @ Milwaukee Brewers",
       "winner": "Washington Nationals",
       "loser": "Milwaukee Brewers",
-      "final_score": "7-3",
+      "final_score": "3-1",
       "hitters": [
-        "James Wood",
-        "CJ Abrams",
-        "Jake Bauers"
+        "Jacob Young",
+        "Nasim Nu\u00f1ez",
+        "William Contreras"
       ],
-      "pitchers": [],
-      "hitter_lines": [
-        "James Wood: 4 H, 0 HR, 1 RBI",
-        "CJ Abrams: 2 H, 0 HR, 1 RBI",
-        "Jake Bauers: 2 H, 1 HR, 3 RBI"
+      "pitchers": []
+    },
+    {
+      "gamePk": 824857,
+      "game": "San Francisco Giants @ Baltimore Orioles",
+      "winner": "Baltimore Orioles",
+      "loser": "San Francisco Giants",
+      "final_score": "2-6",
+      "hitters": [
+        "Jung Hoo Lee",
+        "Heliot Ramos",
+        "Gunnar Henderson",
+        "Colton Cowser",
+        "Jeremiah Jackson"
       ],
-      "pitcher_lines": [
-        "Jake Irvin: 5.0 IP, 5 K, 3 ER"
+      "pitchers": [
+        "Logan Webb"
       ]
     },
     {
-      "gamePk": 823076,
+      "gamePk": 823074,
       "game": "Boston Red Sox @ St. Louis Cardinals",
-      "winner": "St. Louis Cardinals",
-      "loser": "Boston Red Sox",
-      "final_score": "2-3",
+      "winner": "Boston Red Sox",
+      "loser": "St. Louis Cardinals",
+      "final_score": "7-1",
       "hitters": [
-        "Wilyer Abreu",
+        "Jarren Duran",
+        "Willson Contreras",
+        "Carlos Narv\u00e1ez",
         "Jordan Walker"
       ],
-      "pitchers": [],
-      "hitter_lines": [
-        "Wilyer Abreu: 2 H, 0 HR, 0 RBI",
-        "Jordan Walker: 2 H, 0 HR, 0 RBI"
-      ],
-      "pitcher_lines": [
-        "Connelly Early: 4.1 IP, 5 K, 1 ER"
+      "pitchers": [
+        "Ranger Suarez"
       ]
     },
     {
-      "gamePk": 823318,
+      "gamePk": 824939,
+      "game": "Cleveland Guardians @ Atlanta Braves",
+      "winner": "Cleveland Guardians",
+      "loser": "Atlanta Braves",
+      "final_score": "6-0",
+      "hitters": [
+        "Angel Mart\u00ednez",
+        "Jos\u00e9 Ram\u00edrez"
+      ],
+      "pitchers": []
+    },
+    {
+      "gamePk": 823316,
       "game": "Colorado Rockies @ San Diego Padres",
       "winner": "San Diego Padres",
       "loser": "Colorado Rockies",
-      "final_score": "2-5",
+      "final_score": "5-9",
       "hitters": [
-        "Gavin Sheets",
-        "Luis Campusano"
+        "Edouard Julien",
+        "Mickey Moniak",
+        "Ram\u00f3n Laureano",
+        "Fernando Tatis Jr.",
+        "Manny Machado",
+        "Miguel Andujar"
       ],
-      "pitchers": [],
-      "hitter_lines": [
-        "Gavin Sheets: 2 H, 2 HR, 4 RBI",
-        "Luis Campusano: 2 H, 1 HR, 1 RBI"
-      ],
-      "pitcher_lines": []
+      "pitchers": []
     },
     {
-      "gamePk": 823156,
-      "game": "Houston Astros @ Seattle Mariners",
-      "winner": "Seattle Mariners",
-      "loser": "Houston Astros",
-      "final_score": "6-9",
-      "hitters": [
-        "Yordan Alvarez",
-        "Christian V\u00e1zquez",
-        "Randy Arozarena"
-      ],
-      "pitchers": [],
-      "hitter_lines": [
-        "Yordan Alvarez: 2 H, 1 HR, 3 RBI",
-        "Christian V\u00e1zquez: 2 H, 0 HR, 3 RBI",
-        "Randy Arozarena: 2 H, 1 HR, 3 RBI"
-      ],
-      "pitcher_lines": [
-        "Emerson Hancock: 5.0 IP, 5 K, 3 ER"
-      ]
-    },
-    {
-      "gamePk": 823968,
+      "gamePk": 823967,
       "game": "Texas Rangers @ Los Angeles Dodgers",
       "winner": "Los Angeles Dodgers",
       "loser": "Texas Rangers",
-      "final_score": "7-8",
+      "final_score": "3-6",
       "hitters": [
-        "Wyatt Langford",
-        "Corey Seager",
-        "Evan Carter",
-        "Max Muncy",
-        "Andy Pages",
-        "Miguel Rojas"
+        "Brandon Nimmo",
+        "Shohei Ohtani",
+        "Will Smith",
+        "Teoscar Hern\u00e1ndez"
       ],
       "pitchers": [
-        "Tyler Glasnow"
-      ],
-      "hitter_lines": [
-        "Wyatt Langford: 1 H, 1 HR, 1 RBI",
-        "Corey Seager: 1 H, 1 HR, 3 RBI",
-        "Evan Carter: 1 H, 1 HR, 2 RBI",
-        "Max Muncy: 4 H, 3 HR, 3 RBI",
-        "Andy Pages: 3 H, 1 HR, 4 RBI",
-        "Miguel Rojas: 2 H, 0 HR, 0 RBI"
-      ],
-      "pitcher_lines": [
-        "Kumar Rocker: 5.0 IP, 5 K, 3 ER",
-        "Tyler Glasnow: 6.0 IP, 7 K, 4 ER"
+        "Emmet Sheehan"
       ]
     }
   ],
