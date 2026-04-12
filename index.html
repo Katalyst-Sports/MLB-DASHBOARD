@@ -50,6 +50,7 @@ body {
 
 body.watchlist-open {
   overflow: hidden;
+  touch-action: none;
 }
 
 .topbar {
@@ -825,63 +826,6 @@ footer {
     min-height: 54px;
   }
 
-  .page-title {
-    font-size: 28px;
-  }
-
-  .quick-jump {
-    overflow-x: auto;
-    flex-wrap: nowrap;
-    padding-bottom: 2px;
-  }
-
-  .quick-jump::-webkit-scrollbar {
-    display: none;
-  }
-
-  .quick-jump-link {
-    flex: 0 0 auto;
-  }
-
-  .player-search-input,
-  .player-search-button,
-  .watchlist-action,
-  .watchlist-close {
-    min-height: 52px;
-    font-size: 16px;
-  }
-
-  .player-search-suggestions {
-    border-radius: 16px;
-  }
-
-  .player-suggestion {
-    grid-template-columns: 52px 1fr;
-    gap: 12px;
-    padding: 14px 14px;
-  }
-
-  .player-headshot {
-    width: 52px;
-    height: 52px;
-  }
-
-  .player-grid .card {
-    padding: 16px;
-  }
-
-  .player-grid {
-    gap: 12px;
-  }
-
-  .watchlist-backdrop.open {
-    display: block;
-  }
-
-  .watchlist-sheet-handle {
-    display: block;
-  }
-
   .watchlist-panel {
     width: 100%;
     max-width: 100%;
@@ -890,6 +834,8 @@ footer {
     top: auto !important;
     bottom: 0 !important;
     max-height: min(78vh, 680px);
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
     border-radius: 22px 22px 0 0;
     padding: 16px 14px calc(16px + env(safe-area-inset-bottom));
     border-left: 0;
@@ -898,6 +844,10 @@ footer {
     transform: translateY(100%);
     transition: transform 0.24s ease;
     display: block;
+  }
+
+  .watchlist-panel-body {
+    overflow: visible;
   }
 
   .watchlist-panel.open {
@@ -922,6 +872,7 @@ footer {
     cursor: default;
   }
 }
+
 </style>
 </head>
 
