@@ -1707,26 +1707,47 @@ async function loadNews() {
     }
 
     const data = await response.json();
+
     newsDiv.innerHTML = `
-      <div class="card news-card news-summary-card">
-        <div class="matchup">${formatValue(data.headline, "MLB News Desk")}</div>
-        <div class="summary">${formatValue(data.article, "No MLB roundup available yet.")}</div>
-      </div>
+      <details class="card news-card news-summary-card news-accordion" open>
+        <summary>
+          <div class="news-accordion-title">${formatValue(data.headline, "MLB News Desk")}</div>
+          <div class="news-accordion-icon">+</div>
+        </summary>
+        <div class="news-accordion-body">
+          <div class="summary">${formatValue(data.article, "No MLB roundup available yet.")}</div>
+        </div>
+      </details>
 
-      <div class="card news-card">
-        <div class="matchup" style="font-size:16px;">Top News</div>
-        ${renderNewsItems(data.top_news, "No top MLB headlines are available yet.")}
-      </div>
+      <details class="card news-card news-accordion">
+        <summary>
+          <div class="news-accordion-title">Top News</div>
+          <div class="news-accordion-icon">+</div>
+        </summary>
+        <div class="news-accordion-body">
+          ${renderNewsItems(data.top_news, "No top MLB headlines are available yet.")}
+        </div>
+      </details>
 
-      <div class="card news-card">
-        <div class="matchup" style="font-size:16px;">Injuries</div>
-        ${renderNewsItems(data.injury_updates, "No recent injury updates are available yet.")}
-      </div>
+      <details class="card news-card news-accordion">
+        <summary>
+          <div class="news-accordion-title">Injuries</div>
+          <div class="news-accordion-icon">+</div>
+        </summary>
+        <div class="news-accordion-body">
+          ${renderNewsItems(data.injury_updates, "No recent injury updates are available yet.")}
+        </div>
+      </details>
 
-      <div class="card news-card">
-        <div class="matchup" style="font-size:16px;">Trades</div>
-        ${renderNewsItems(data.trade_updates, "No recent MLB trade updates are available yet.")}
-      </div>
+      <details class="card news-card news-accordion">
+        <summary>
+          <div class="news-accordion-title">Trades</div>
+          <div class="news-accordion-icon">+</div>
+        </summary>
+        <div class="news-accordion-body">
+          ${renderNewsItems(data.trade_updates, "No recent MLB trade updates are available yet.")}
+        </div>
+      </details>
     `;
   } catch (error) {
     newsDiv.innerHTML = `<div class="card news-card">Could not load MLB news.</div>`;
