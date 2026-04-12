@@ -8,8 +8,8 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <meta name="apple-mobile-web-app-title" content="MLB StatStream">
 <link rel="manifest" href="./manifest.webmanifest">
-<link rel="icon" href="./icons/icon-192.png" type="image/png">
-<link rel="apple-touch-icon" href="./icons/icon-192.png">
+<link rel="icon" href="./icons/icon-192.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="./icons/icon-192.svg">
 <title>MLB StatStream</title>
 
 <style>
@@ -41,8 +41,9 @@ body {
   font-family: "Segoe UI", system-ui, -apple-system, sans-serif;
   color: var(--text);
   background:
+    radial-gradient(circle at 20% 20%, rgba(77, 163, 255, 0.18), transparent 24%),
+    radial-gradient(circle at 80% 10%, rgba(67, 192, 122, 0.14), transparent 22%),
     linear-gradient(rgba(6, 13, 24, 0.58), rgba(6, 13, 24, 0.70)),
-    url("./images/background.jpg") center center / cover no-repeat fixed,
     var(--bg);
 }
 
@@ -142,6 +143,25 @@ body.watchlist-open {
   height: 240px;
   object-fit: cover;
   display: block;
+}
+
+.hero-fallback {
+  width: 100%;
+  height: 240px;
+  display: flex;
+  align-items: end;
+  padding: 24px;
+  background:
+    radial-gradient(circle at 20% 20%, rgba(77, 163, 255, 0.26), transparent 22%),
+    radial-gradient(circle at 80% 30%, rgba(56, 189, 248, 0.18), transparent 20%),
+    linear-gradient(135deg, rgba(8, 18, 34, 0.96), rgba(18, 34, 58, 0.84));
+}
+
+.hero-fallback-text {
+  font-size: 28px;
+  font-weight: 900;
+  color: #ffffff;
+  letter-spacing: -0.03em;
 }
 
 .page-header {
@@ -975,7 +995,7 @@ footer {
 <header class="topbar">
   <div class="topbar-inner">
     <div class="topbar-brand">
-      <img class="topbar-logo" src="./icons/icon-192.png" alt="MLB StatStream icon">
+      <img class="topbar-logo" src="./icons/icon-192.svg" alt="MLB StatStream icon">
       <div>
         <div class="topbar-kicker">App Mode</div>
         <div class="topbar-title">MLB StatStream</div>
@@ -990,7 +1010,9 @@ footer {
 
 <div class="page-shell">
   <div class="hero">
-    <img src="./images/banner.jpg" alt="MLB StatStream banner">
+    <div class="hero-fallback">
+      <div class="hero-fallback-text">MLB StatStream</div>
+    </div>
   </div>
 
   <div class="page-header">
@@ -1527,6 +1549,53 @@ async function runSearchFromInput() {
   }
 }
 
+function clampWatchlistPosition(left, top) {
+  const panel = document.getElementById("watchlist-panel");
+  const width = panel?.offsetWidth || 390;
+  const height = panel?.offsetHeight || 420;
+  const minLeft = 12;
+  const minTop = 84;
+  const maxLeft = Math.max(minLeft, window.innerWidth - width - 12);
+  const maxTop = Math.max(minTop, window.innerHeight - height - 12);
+
+  return {
+    left: Math.min(Math.max(left, minLeft), maxLeft),
+    top: Math.min(Math.max(top, minTop), maxTop),
+  };
+}
+
+function saveWatchlistPosition(left, top) {
+  localStorage.setItem(
+    WATCHLIST_POSITION_KEY,
+    JSON.stringify({ left, top })
+  );
+}
+
+function applyWatchlistPosition() {
+  const panel = document.getElementById("watchlist-panel");
+
+  try {
+    const stored = JSON.parse(
+      localStorage.getItem(WATCHLIST_POSITION_KEY) || "null"
+    );
+
+    if (
+      !stored
+      || typeof stored.left !== "number"
+      || typeof stored.top !== "number"
+    ) {
+      return;
+    }
+
+    const clamped = clampWatchlistPosition(stored.left, stored.top);
+    panel.style.left = `${clamped.left}px`;
+    panel.style.top = `${clamped.top}px`;
+    panel.style.right = "auto";
+  } catch (error) {
+    console.error("Could not apply watchlist position:", error);
+  }
+}
+
 function openWatchlist() {
   const panel = document.getElementById("watchlist-panel");
   const backdrop = document.getElementById("watchlist-backdrop");
@@ -1712,7 +1781,7 @@ function renderNewsItems(items, emptyText) {
     <div class="news-item">
       <div><strong>${formatValue(item.title || item.player || item.team, "MLB Update")}</strong></div>
       ${item.team || item.date ? `<div class="stat-line">${[formatValue(item.team, ""), formatValue(item.date, "")].filter(Boolean).join(" | ")}</div>` : ""}
-      <div class="stat-line">${formatValue(item.summary || item.update || item.link, "No details available.")}</div>
+      <div class="stat-line">${formatValue(item.summary || item.update, "No details available.")}</div>
     </div>
   `).join("")}</div>`;
 }
