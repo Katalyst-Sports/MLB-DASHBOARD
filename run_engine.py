@@ -971,9 +971,22 @@ yesterday_recap["dashboard_recap"]["all_games"] = [
     {
         "game": game["game"],
         "final_score": game["final_score"],
-        "top_pitching_line": ", ".join(game.get("pitchers", [])) if game.get("pitchers") else "No standout pitching line available.",
-        "top_batting_line": ", ".join(game.get("hitters", [])) if game.get("hitters") else "No standout batting line available.",
-        "summary": f"{game['winner']} beat {game['loser']} {game['final_score']}.",
+        "top_pitching_line": (
+            f"Pitching impact: {', '.join(game.get('pitchers', [])[:3])}"
+            if game.get("pitchers")
+            else "Pitching impact: No dominant strikeout outing was captured."
+        ),
+        "top_batting_line": (
+            f"Offensive impact: {', '.join(game.get('hitters', [])[:4])}"
+            if game.get("hitters")
+            else "Offensive impact: No standout hitter cluster was captured."
+        ),
+        "summary": (
+            f"{game['winner']} edged {game['loser']} {game['final_score']} behind "
+            f"{', '.join(game.get('hitters', [])[:2]) if game.get('hitters') else 'timely offense'} "
+            f"and "
+            f"{', '.join(game.get('pitchers', [])[:2]) if game.get('pitchers') else 'key mound work'}."
+        ),
         "impact_player": (game.get("hitters") or game.get("pitchers") or ["N/A"])[0]
     }
     for game in yesterday_postgame
