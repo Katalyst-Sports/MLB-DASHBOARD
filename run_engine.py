@@ -897,7 +897,43 @@ for date_block in schedule_yesterday.get("dates", []):
                 "error": str(exc),
             })
 
+def build_game_card_summary(game):
+    hitters = ", ".join(game.get("hitters", [])[:3]) if game.get("hitters") else "timely offense"
+    pitchers = ", ".join(game.get("pitchers", [])[:2]) if game.get("pitchers") else "key pitching"
 
+    fallback = f"{game['winner']} beat {game['loser']} {game['final_score']} behind {hitters} and {pitchers}."
+
+    if not client:
+        return fallback
+
+    try:
+        prompt = f"""
+Write a sharp 1-sentence MLB game card recap.
+
+Requirements:
+- 18 to 28 words
+- energetic but factual
+- mention the winner, score, and key offensive or pitching impact
+- no hype
+- no quotation marks
+
+Game: {game['game']}
+Final: {game['final_score']}
+Winner: {game['winner']}
+Loser: {game['loser']}
+Impact Hitters: {hitters}
+Impact Pitchers: {pitchers}
+"""
+        response = client.chat.completions.create(
+            model="llama-3.1-8b-instant",
+            messages=[{"role": "user", "content": prompt}],
+            temperature=0.7,
+        )
+        text = response.choices[0].message.content.strip()
+        return text if text else fallback
+    except Exception:
+        return fallback
+        
 # =====================================================
 # YESTERDAY AI RECAP
 # =====================================================
