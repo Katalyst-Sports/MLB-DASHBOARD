@@ -264,7 +264,7 @@ body.watchlist-open {
 
 .player-grid {
   display: grid;
-  grid-template-columns: 1.15fr 1fr 1fr;
+  grid-template-columns: 1.05fr 0.98fr 0.98fr;
   gap: 14px;
   margin-top: 14px;
 }
@@ -548,21 +548,27 @@ body.watchlist-open {
 
 .diamond-board {
   position: relative;
-  width: 108px;
-  height: 108px;
+  width: 98px;
+  height: 98px;
   display: grid;
   place-items: center;
+  overflow: visible;
 }
 
 .runner-token {
   position: absolute;
-  width: 26px;
-  height: 26px;
+  width: 22px;
+  height: 22px;
   border-radius: 50%;
   overflow: hidden;
   border: 2px solid rgba(255,255,255,0.88);
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.32);
   background: rgba(255,255,255,0.08);
+  display: grid;
+  place-items: center;
+  color: #ffffff;
+  font-size: 10px;
+  font-weight: 900;
 }
 
 .runner-token img {
@@ -573,25 +579,23 @@ body.watchlist-open {
 }
 
 .runner-token.first {
-  left: 74px;
-  top: 40px;
+  left: 68px;
+  top: 38px;
 }
 
 .runner-token.second {
-  left: 41px;
-  top: 7px;
-  width: 28px;
-  height: 28px;
+  left: 38px;
+  top: 4px;
 }
 
 .runner-token.third {
   left: 8px;
-  top: 40px;
+  top: 38px;
 }
 
 .runner-token.scoring {
-  width: 30px;
-  height: 30px;
+  width: 24px;
+  height: 24px;
   box-shadow: 0 0 0 3px rgba(240, 184, 75, 0.18), 0 10px 24px rgba(0, 0, 0, 0.36);
 }
 
@@ -756,15 +760,15 @@ body.watchlist-open {
 .player-hero,
 .watchlist-player-hero {
   display: grid;
-  grid-template-columns: 110px 1fr;
+  grid-template-columns: 92px 1fr;
   gap: 14px;
   align-items: center;
 }
 
 .player-headshot-lg {
-  width: 110px;
-  height: 110px;
-  border-radius: 18px;
+  width: 92px;
+  height: 92px;
+  border-radius: 16px;
   object-fit: cover;
   border: 1px solid rgba(148, 163, 184, 0.18);
   background: rgba(255,255,255,0.06);
@@ -1364,17 +1368,19 @@ function renderList(items, emptyText) {
 }
 
 function renderRunnerToken(baseKey, runner) {
-  if (!runner?.name) return "";
+  const runnerName = typeof runner === "string" ? runner : runner?.name;
+  const runnerHeadshot = typeof runner === "string" ? null : runner?.headshot;
+  if (!runnerName) return "";
   const classes = ["runner-token", baseKey];
   if (baseKey === "second" || baseKey === "third") {
     classes.push("scoring");
   }
-  const alt = `${runner.name} on ${baseKey} base`;
+  const alt = `${runnerName} on ${baseKey} base`;
   return `
-    <div class="${classes.join(" ")}" title="${runner.name}">
-      ${runner.headshot
-        ? `<img src="${runner.headshot}" alt="${alt}">`
-        : `<div class="live-chip-value">${runner.name.slice(0, 1)}</div>`}
+    <div class="${classes.join(" ")}" title="${runnerName}">
+      ${runnerHeadshot
+        ? `<img src="${runnerHeadshot}" alt="${alt}">`
+        : `<span>${runnerName.slice(0, 1)}</span>`}
     </div>
   `;
 }
@@ -1454,6 +1460,10 @@ function renderSituationPills(game) {
       ${pills.slice(0, 4).map((pill) => `<div class="situation-pill ${pill.tone}">${pill.text}</div>`).join("")}
     </div>
   `;
+}
+
+function runnerDisplayName(runner) {
+  return typeof runner === "string" ? runner : runner?.name || null;
 }
 
 function formatOffensiveImpact(items) {
@@ -1848,7 +1858,7 @@ async function loadLive() {
       <div class="card live-card card-strong">
         ${matchupBadgesOnly(game.away_team, game.home_team)}
         <div class="live-top">
-          <div class="matchup">${matchupText(game.away_team, game.home_team)}</div>
+          <div class="matchup">Live Matchup</div>
           <div class="live-top-right">
             <div class="scoreline">${formatValue(game.score, "0-0")}</div>
             <div class="meta">${formatValue(game.inning, "TBD")}</div>
@@ -1895,12 +1905,12 @@ async function loadLive() {
                 ? `${formatValue(game.current_pitcher_line.innings)} IP | ${formatValue(game.current_pitcher_line.hits, 0)} H | ${formatValue(game.current_pitcher_line.earned_runs, 0)} ER | ${formatValue(game.current_pitcher_line.strikeouts, 0)} K | ${formatValue(game.current_pitcher_line.walks, 0)} BB | ${formatValue(game.current_pitcher_line.pitches, 0)} P`
                 : "No current pitcher line available."}
             </div>
-            <div class="stat-line">
+              <div class="stat-line">
               ${game.runners?.first || game.runners?.second || game.runners?.third
                 ? `Runners: ${[
-                    game.runners?.first ? `1B ${game.runners.first.name}` : null,
-                    game.runners?.second ? `2B ${game.runners.second.name}` : null,
-                    game.runners?.third ? `3B ${game.runners.third.name}` : null
+                    game.runners?.first ? `1B ${runnerDisplayName(game.runners.first)}` : null,
+                    game.runners?.second ? `2B ${runnerDisplayName(game.runners.second)}` : null,
+                    game.runners?.third ? `3B ${runnerDisplayName(game.runners.third)}` : null
                   ].filter(Boolean).join(" | ")}`
                 : "Bases empty."}
             </div>
@@ -2007,10 +2017,10 @@ async function loadDaily() {
       const id = `game-${index}`;
       const startText = game.start ? new Date(game.start).toLocaleString() : "TBD";
 
-      return `
+        return `
         <div class="card upcoming-card">
           ${matchupBadgesOnly(game.away_team, game.home_team)}
-          <div class="matchup toggle" onclick="toggle('${id}')">${matchupText(game.away_team, game.home_team)}</div>
+          <div class="matchup toggle" onclick="toggle('${id}')">Game Breakdown</div>
           <div class="meta">${startText} | ${formatValue(game.venue, "Venue TBD")} | ${formatValue(game.status, "Scheduled")}</div>
 
           <div id="${id}" style="display:none; margin-top:12px;">
@@ -2055,7 +2065,7 @@ async function loadFinishedGames() {
     el.innerHTML = games.map(game => `
       <div class="card finished-card">
         ${matchupBadgesOnly(game.game.split(" @ ")[0], game.game.split(" @ ")[1])}
-        <div class="matchup">${matchupText(game.game.split(" @ ")[0], game.game.split(" @ ")[1])}</div>
+        <div class="matchup">Final Score</div>
         <div class="scoreline">${formatValue(game.final_score, "N/A")}</div>
         <div class="stat-row">Winner: ${teamCode(game.winner)} | Loser: ${teamCode(game.loser)}</div>
         <div class="stat-row">Top Pitching: ${formatValue(game.top_pitching_line, "N/A")}</div>
@@ -2094,7 +2104,7 @@ function renderPreviousDayRecap(games) {
   el.innerHTML = games.map(game => `
     <div class="card recap-card">
       ${matchupBadgesOnly(game.game.split(" @ ")[0], game.game.split(" @ ")[1])}
-      <div class="matchup">${matchupText(game.game.split(" @ ")[0], game.game.split(" @ ")[1])}</div>
+      <div class="matchup">Recap Snapshot</div>
       <div class="scoreline">${formatValue(game.final_score, "N/A")}</div>
       <div class="stat-row">Top Pitching: ${formatValue(game.top_pitching_line, "N/A")}</div>
       <div class="stat-row">Top Batting: ${formatValue(game.top_batting_line, "N/A")}</div>
