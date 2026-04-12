@@ -48,6 +48,10 @@ body {
     var(--bg);
 }
 
+body.watchlist-open {
+  overflow: hidden;
+}
+
 .topbar {
   display: none;
   position: fixed;
@@ -627,6 +631,20 @@ body {
   cursor: pointer;
 }
 
+.watchlist-backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 1090;
+  background: rgba(3, 8, 16, 0.58);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  display: none;
+}
+
+.watchlist-backdrop.open {
+  display: block;
+}
+
 .watchlist-panel {
   position: fixed;
   top: 90px;
@@ -652,22 +670,13 @@ body {
   display: none;
 }
 
-.watchlist-backdrop {
-  position: fixed;
-  inset: 0;
-  z-index: 1090;
-  background: rgba(3, 8, 16, 0.58);
-  backdrop-filter: blur(6px);
-  -webkit-backdrop-filter: blur(6px);
+.watchlist-sheet-handle {
   display: none;
-}
-
-.watchlist-backdrop.open {
-  display: block;
-}
-
-body.watchlist-open {
-  overflow: hidden;
+  width: 54px;
+  height: 6px;
+  border-radius: 999px;
+  background: rgba(255,255,255,0.22);
+  margin: 0 auto 12px;
 }
 
 .watchlist-panel-header {
@@ -768,9 +777,9 @@ footer {
   }
 
   .bottom-nav {
-  display: grid;
+    display: grid;
   }
-  
+
   .topbar-inner {
     padding: 0 14px;
   }
@@ -813,33 +822,8 @@ footer {
     left: 14px;
     bottom: calc(14px + var(--bottom-nav-height));
     border-radius: 14px;
+    min-height: 54px;
   }
-
-  .watchlist-panel {
-   width: 100%;
-   max-width: 100%;
-   left: 0 !important;
-   right: 0 !important;
-   top: auto !important;
-   bottom: 0 !important;
-   max-height: min(78vh, 680px);
-   border-radius: 22px 22px 0 0;
-   padding: 16px 14px calc(16px + env(safe-area-inset-bottom));
-   border-left: 0;
-   border-right: 0;
-   border-bottom: 0;
-   transform: translateY(100%);
-   transition: transform 0.24s ease;
-   display: block;
-}
-
-.watchlist-panel.open {
-  transform: translateY(0);
-}
-
-.watchlist-panel.minimized {
-  transform: translateY(calc(100% - 86px));
-}
 
   .page-title {
     font-size: 28px;
@@ -859,6 +843,84 @@ footer {
     flex: 0 0 auto;
   }
 
+  .player-search-input,
+  .player-search-button,
+  .watchlist-action,
+  .watchlist-close {
+    min-height: 52px;
+    font-size: 16px;
+  }
+
+  .player-search-suggestions {
+    border-radius: 16px;
+  }
+
+  .player-suggestion {
+    grid-template-columns: 52px 1fr;
+    gap: 12px;
+    padding: 14px 14px;
+  }
+
+  .player-headshot {
+    width: 52px;
+    height: 52px;
+  }
+
+  .player-grid .card {
+    padding: 16px;
+  }
+
+  .player-grid {
+    gap: 12px;
+  }
+
+  .watchlist-backdrop.open {
+    display: block;
+  }
+
+  .watchlist-sheet-handle {
+    display: block;
+  }
+
+  .watchlist-panel {
+    width: 100%;
+    max-width: 100%;
+    left: 0 !important;
+    right: 0 !important;
+    top: auto !important;
+    bottom: 0 !important;
+    max-height: min(78vh, 680px);
+    border-radius: 22px 22px 0 0;
+    padding: 16px 14px calc(16px + env(safe-area-inset-bottom));
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 0;
+    transform: translateY(100%);
+    transition: transform 0.24s ease;
+    display: block;
+  }
+
+  .watchlist-panel.open {
+    transform: translateY(0);
+  }
+
+  .watchlist-panel.minimized {
+    transform: translateY(calc(100% - 86px));
+  }
+
+  .watchlist-panel.minimized .watchlist-panel-body {
+    display: none;
+  }
+
+  .watchlist-actions {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 8px;
+  }
+
+  .watchlist-panel-header {
+    cursor: default;
+  }
 }
 </style>
 </head>
@@ -978,8 +1040,10 @@ footer {
 
 <button id="watchlist-fab" class="watchlist-fab">Watchlist (0/8)</button>
 
-<div id="watchlist-backdrop" class="watchlist-backdrop"></div>  
+<div id="watchlist-backdrop" class="watchlist-backdrop"></div>
+
 <div id="watchlist-panel" class="watchlist-panel">
+  <div class="watchlist-sheet-handle"></div>
   <div id="watchlist-panel-header" class="watchlist-panel-header">
     <div>
       <div class="matchup">My Watchlist</div>
@@ -1064,9 +1128,7 @@ function setUpdatedTimestamp(value) {
   const formatted = value ? new Date(value).toLocaleString() : "Unavailable";
   document.getElementById("updated").textContent = formatted;
   const topbarUpdated = document.getElementById("topbar-updated");
-  if (topbarUpdated) {
-    topbarUpdated.textContent = formatted;
-  }
+  if (topbarUpdated) topbarUpdated.textContent = formatted;
 }
 
 function teamInfo(teamName) {
@@ -1105,8 +1167,8 @@ function formatPlayerChip(name) {
   if (value === "N/A") return { text: value, className: "" };
   if (value.length <= 14) return { text: value, className: "" };
   const parts = value.trim().split(/\s+/);
-  if (parts.length < 2) return { text: value, className: "long-name" };
-  return { text: `${parts[0][0]}. ${parts.slice(1).join(" ")}`, className: "long-name" };
+  if (parts.length < 2) return { text: `${parts[0][0]}. ${parts.slice(1).join(" ")}`, className: "long-name" };
+  return { text: value, className: "" };
 }
 
 function renderPlayerChip(name) {
@@ -1275,9 +1337,7 @@ function renderActivePlayerActions() {
 
 function handleAddToWatchlist(id) {
   const ok = addToWatchlist(id);
-  if (!ok) {
-    alert("Your watchlist is full. Remove a player before adding another.");
-  }
+  if (!ok) alert("Your watchlist is full. Remove a player before adding another.");
 }
 
 function renderPlayerSearch(data) {
@@ -1461,8 +1521,10 @@ function openWatchlist() {
 
 function closeWatchlist() {
   document.getElementById("watchlist-panel").classList.remove("open");
+  document.getElementById("watchlist-panel").classList.remove("minimized");
   document.getElementById("watchlist-backdrop").classList.remove("open");
   document.body.classList.remove("watchlist-open");
+  document.getElementById("watchlist-minimize").textContent = "Minimize";
 }
 
 function toggleMinimizeWatchlist() {
@@ -1538,7 +1600,7 @@ async function renderWatchlist() {
 async function loadLive() {
   const el = document.getElementById("live");
   try {
-    const response = await fetch(LIVE_API_URL + "?nocache=" + Date.now());
+    const response = await fetch(`${LIVE_API_URL}?nocache=${Date.now()}`);
     const data = await response.json();
     setUpdatedTimestamp(data.updated_at);
 
@@ -1622,7 +1684,7 @@ async function loadLive() {
 async function loadDaily() {
   const el = document.getElementById("games");
   try {
-    const response = await fetch("./daily.json?nocache=" + Date.now());
+    const response = await fetch(`./daily.json?nocache=${Date.now()}`);
     const data = await response.json();
     const games = safeArray(data.games);
 
@@ -1671,7 +1733,7 @@ async function loadDaily() {
 async function loadFinishedGames() {
   const el = document.getElementById("finished-games");
   try {
-    const response = await fetch("./postgame.json?nocache=" + Date.now());
+    const response = await fetch(`./postgame.json?nocache=${Date.now()}`);
     const data = await response.json();
     const games = safeArray(data.games);
 
@@ -1699,7 +1761,7 @@ async function loadFinishedGames() {
 
 async function loadPreviousDayRecap() {
   try {
-    const response = await fetch("./yesterday_recap.json?nocache=" + Date.now());
+    const response = await fetch(`./yesterday_recap.json?nocache=${Date.now()}`);
     if (!response.ok) throw new Error("Recap file missing");
     const data = await response.json();
     const recap = data.dashboard_recap || {};
@@ -1759,7 +1821,6 @@ async function refreshLiveOnly() {
 
 function beginWatchlistDrag(event) {
   if (window.innerWidth <= 720) return;
-
   const panel = document.getElementById("watchlist-panel");
   draggingWatchlist = true;
   const rect = panel.getBoundingClientRect();
@@ -1819,7 +1880,7 @@ document.getElementById("watchlist-fab").addEventListener("click", openWatchlist
 document.getElementById("watchlist-refresh").addEventListener("click", renderWatchlist);
 document.getElementById("watchlist-minimize").addEventListener("click", toggleMinimizeWatchlist);
 document.getElementById("watchlist-close").addEventListener("click", closeWatchlist);
-document.getElementById("watchlist-backdrop").addEventListener("click", closeWatchlist);  
+document.getElementById("watchlist-backdrop").addEventListener("click", closeWatchlist);
 
 document.getElementById("watchlist-panel-header").addEventListener("mousedown", beginWatchlistDrag);
 document.addEventListener("mousemove", onWatchlistDrag);
@@ -1827,7 +1888,6 @@ document.addEventListener("mouseup", endWatchlistDrag);
 
 window.addEventListener("resize", () => {
   if (window.innerWidth <= 720) return;
-
   const panel = document.getElementById("watchlist-panel");
   const rect = panel.getBoundingClientRect();
   const clamped = clampWatchlistPosition(rect.left, rect.top);
