@@ -557,56 +557,40 @@ body.watchlist-open {
 
 .runner-token {
   position: absolute;
-  width: 22px;
-  height: 22px;
+  width: 23px;
+  height: 23px;
   border-radius: 50%;
-  overflow: hidden;
   border: 2px solid rgba(255,255,255,0.88);
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.32);
-  background: linear-gradient(135deg, rgba(17, 24, 39, 0.96), rgba(30, 41, 59, 0.96));
+  background: linear-gradient(135deg, rgba(37, 99, 235, 0.90), rgba(14, 165, 233, 0.78));
   display: grid;
   place-items: center;
   color: #ffffff;
-  font-size: 10px;
+  font-size: 9px;
   font-weight: 900;
   line-height: 1;
-}
-
-.runner-token img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  display: block;
-  transform: scale(1.12);
-}
-
-.runner-token.fallback {
-  background: linear-gradient(135deg, rgba(37, 99, 235, 0.88), rgba(14, 165, 233, 0.78));
   text-shadow: 0 1px 2px rgba(0, 0, 0, 0.28);
 }
 
-.runner-token.fallback span {
-  transform: translateY(0.5px);
-}
-
 .runner-token.first {
-  left: 68px;
-  top: 38px;
+  left: 69px;
+  top: 39px;
 }
 
 .runner-token.second {
-  left: 38px;
-  top: 4px;
+  left: 36px;
+  top: 2px;
 }
 
 .runner-token.third {
-  left: 8px;
-  top: 38px;
+  left: 5px;
+  top: 37px;
 }
 
 .runner-token.scoring {
-  width: 24px;
-  height: 24px;
+  width: 28px;
+  height: 28px;
+  font-size: 10px;
   box-shadow: 0 0 0 3px rgba(240, 184, 75, 0.18), 0 10px 24px rgba(0, 0, 0, 0.36);
 }
 
@@ -1387,22 +1371,15 @@ function renderList(items, emptyText) {
 
 function renderRunnerToken(baseKey, runner) {
   const runnerName = typeof runner === "string" ? runner : runner?.name;
-  const runnerHeadshot = typeof runner === "string" ? null : runner?.headshot;
   if (!runnerName) return "";
   const classes = ["runner-token", baseKey];
   if (baseKey === "second" || baseKey === "third") {
     classes.push("scoring");
   }
-  if (!runnerHeadshot) {
-    classes.push("fallback");
-  }
-  const alt = `${runnerName} on ${baseKey} base`;
   const initials = initialsFromName(runnerName);
   return `
     <div class="${classes.join(" ")}" title="${runnerName}">
-      ${runnerHeadshot
-        ? `<img src="${runnerHeadshot}" alt="${alt}" onerror="this.parentElement.classList.add('fallback'); this.remove(); this.parentElement.innerHTML='<span>${initials}</span>';">`
-        : `<span>${initials}</span>`}
+      <span>${initials}</span>
     </div>
   `;
 }
