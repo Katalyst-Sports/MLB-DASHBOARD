@@ -3,6 +3,13 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#08111f">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="MLB StatStream">
+<link rel="manifest" href="./manifest.webmanifest">
+<link rel="icon" href="./icons/icon-192.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="./icons/icon-192.svg">
 <title>MLB StatStream</title>
 
 <style>
@@ -243,19 +250,6 @@ body {
 
 .muted { color: var(--muted); }
 .toggle { cursor: pointer; }
-
-.badge {
-  display: inline-block;
-  margin-left: 8px;
-  padding: 3px 8px;
-  border-radius: 999px;
-  font-size: 10px;
-  font-weight: 800;
-  letter-spacing: 0.04em;
-}
-
-.badge-hot { background: rgba(255, 107, 107, 0.16); color: #ffb1b1; }
-.badge-cold { background: rgba(77, 163, 255, 0.16); color: #add3ff; }
 
 .mini-grid {
   display: grid;
@@ -1171,7 +1165,6 @@ function applyWatchlistPosition() {
   const panel = document.getElementById("watchlist-panel");
   const saved = getSavedWatchlistPosition();
   if (!saved) return;
-
   panel.style.left = `${saved.left}px`;
   panel.style.top = `${saved.top}px`;
   panel.style.right = "auto";
@@ -1283,7 +1276,6 @@ async function loadLive() {
     el.innerHTML = data.games.map(game => `
       <div class="card live-card card-strong">
         ${matchupBadgesOnly(game.away_team, game.home_team)}
-
         <div class="live-top">
           <div class="matchup">${matchupText(game.away_team, game.home_team)}</div>
           <div class="live-top-right">
@@ -1297,12 +1289,10 @@ async function loadLive() {
             <div class="live-chip-label">Batter</div>
             ${renderPlayerChip(game.current_batter)}
           </div>
-
           <div class="live-chip live-chip-player">
             <div class="live-chip-label">Pitcher</div>
             ${renderPlayerChip(game.current_pitcher)}
           </div>
-
           <div class="live-state-stack">
             <div class="live-chip live-chip-compact">
               <div class="live-chip-label">Count</div>
@@ -1313,7 +1303,6 @@ async function loadLive() {
               <div class="live-chip-value">${formatValue(game.outs, 0)}</div>
             </div>
           </div>
-
           <div class="live-chip live-chip-player">
             <div class="live-chip-label">Runners On</div>
             <div class="live-chip-value">${game.bases?.first || game.bases?.second || game.bases?.third ? [
@@ -1346,7 +1335,6 @@ async function loadLive() {
         </div>
 
         <div class="previous-play"><strong>Previous Play:</strong> ${formatValue(game.previous_play, "No previous play yet.")}</div>
-
         <div class="section-title-sm">Offensive Impact</div>
         <div class="stat-row">${formatOffensiveImpact(game.offensive_impact)}</div>
       </div>
@@ -1376,9 +1364,7 @@ async function loadDaily() {
       return `
         <div class="card upcoming-card">
           ${matchupBadgesOnly(game.away_team, game.home_team)}
-          <div class="matchup toggle" onclick="toggle('${id}')">
-            ${matchupText(game.away_team, game.home_team)}
-          </div>
+          <div class="matchup toggle" onclick="toggle('${id}')">${matchupText(game.away_team, game.home_team)}</div>
           <div class="meta">${startText} | ${formatValue(game.venue, "Venue TBD")} | ${formatValue(game.status, "Scheduled")}</div>
 
           <div id="${id}" style="display:none; margin-top:12px;">
@@ -1489,6 +1475,118 @@ function renderSeasonLeaders(leaders) {
   `).join("");
 }
 
+function getSavedWatchlistPosition() {
+  try {
+    return JSON.parse(localStorage.getItem(WATCHLIST_POSITION_KEY) || "null");
+  } catch {
+    return null;
+  }
+}
+
+function saveWatchlistPosition(left, top) {
+  localStorage.setItem(WATCHLIST_POSITION_KEY, JSON.stringify({ left, top }));
+}
+
+function applyWatchlistPosition() {
+  const panel = document.getElementById("watchlist-panel");
+  const saved = getSavedWatchlistPosition();
+  if (!saved) return;
+  panel.style.left = `${saved.left}px`;
+  panel.style.top = `${saved.top}px`;
+  panel.style.right = "auto";
+}
+
+function clampWatchlistPosition(left, top) {
+  const panel = document.getElementById("watchlist-panel");
+  const maxLeft = Math.max(8, window.innerWidth - panel.offsetWidth - 8);
+  const maxTop = Math.max(8, window.innerHeight - 120);
+  return {
+    left: Math.min(Math.max(8, left), maxLeft),
+    top: Math.min(Math.max(8, top), maxTop)
+  };
+}
+
+function openWatchlist() {
+  const panel = document.getElementById("watchlist-panel");
+  panel.classList.add("open");
+  applyWatchlistPosition();
+  renderWatchlist();
+}
+
+function closeWatchlist() {
+  document.getElementById("watchlist-panel").classList.remove("open");
+}
+
+function toggleMinimizeWatchlist() {
+  const panel = document.getElementById("watchlist-panel");
+  panel.classList.toggle("minimized");
+  document.getElementById("watchlist-minimize").textContent =
+    panel.classList.contains("minimized") ? "Restore" : "Minimize";
+}
+
+async function renderWatchlist() {
+  const content = document.getElementById("watchlist-content");
+  const ids = getWatchlist();
+
+  if (!ids.length) {
+    content.innerHTML = `<div class="muted">No watched players yet. Search for a player and add them to your watchlist.</div>`;
+    return;
+  }
+
+  content.innerHTML = `<div class="muted">Loading watchlist...</div>`;
+
+  const players = await Promise.all(
+    ids.map(async (id) => {
+      try {
+        const res = await fetch(`${PLAYER_API_URL}?id=${id}&nocache=${Date.now()}`);
+        return res.json();
+      } catch {
+        return null;
+      }
+    })
+  );
+
+  const validPlayers = players.filter(item => item && item.found);
+
+  content.innerHTML = `
+    <div class="watchlist-grid">
+      ${validPlayers.map(item => {
+        const p = item.player || {};
+        const live = item.live || {};
+        const hitting = item.season_stats?.hitting;
+        const pitching = item.season_stats?.pitching;
+
+        return `
+          <div class="card watchlist-card">
+            <div class="watchlist-player-hero">
+              <img class="watchlist-headshot" src="${p.headshot}" alt="${formatValue(p.full_name)}">
+              <div>
+                <div class="matchup">${formatValue(p.full_name)}</div>
+                <div class="meta">${formatValue(p.team)} | ${formatValue(p.position)}</div>
+                <div class="stat-line">Bats ${formatValue(p.bat_side)} | Throws ${formatValue(p.pitch_hand)}</div>
+              </div>
+            </div>
+
+            ${live.is_live
+              ? `<div class="section-title-sm">Live</div>
+                 <div class="stat-row">${formatValue(live.game)} | ${formatValue(live.score)} | ${formatValue(live.inning)}</div>
+                 ${live.batting_line ? `<div class="stat-line">Batting: ${formatValue(live.batting_line.hits, 0)} H | ${formatValue(live.batting_line.atBats, 0)} AB | ${formatValue(live.batting_line.homeRuns, 0)} HR | ${formatValue(live.batting_line.rbi, 0)} RBI</div>` : ""}
+                 ${live.pitching_line ? `<div class="stat-line">Pitching: ${formatValue(live.pitching_line.inningsPitched)} IP | ${formatValue(live.pitching_line.strikeOuts, 0)} K | ${formatValue(live.pitching_line.earnedRuns, 0)} ER | ${formatValue(live.pitching_line.numberOfPitches, 0)} P</div>` : ""}`
+              : `<div class="section-title-sm">Season</div>
+                 ${hitting ? `<div class="stat-line">AVG ${formatValue(hitting.avg)} | OPS ${formatValue(hitting.ops)} | HR ${formatValue(hitting.home_runs, 0)} | RBI ${formatValue(hitting.rbi, 0)}</div>` : ""}
+                 ${pitching ? `<div class="stat-line">ERA ${formatValue(pitching.era)} | WHIP ${formatValue(pitching.whip)} | K ${formatValue(pitching.strikeouts, 0)}</div>` : ""}
+                 ${!hitting && !pitching ? `<div class="muted">No season snapshot available.</div>` : ""}`}
+
+            <div style="margin-top:12px;">
+              <button class="watchlist-close" onclick="removeFromWatchlist(${p.id}); renderWatchlist();">Remove</button>
+            </div>
+          </div>
+        `;
+      }).join("")}
+    </div>
+  `;
+}
+
 async function refreshLiveOnly() {
   await loadLive();
   if (activePlayerId) loadPlayer(activePlayerId);
@@ -1571,6 +1669,14 @@ window.addEventListener("resize", () => {
   panel.style.right = "auto";
   saveWatchlistPosition(clamped.left, clamped.top);
 });
+
+if ("serviceWorker" in navigator) {
+  window.addEventListener("load", () => {
+    navigator.serviceWorker.register("./service-worker.js").catch((error) => {
+      console.error("Service worker registration failed:", error);
+    });
+  });
+}
 
 updateWatchlistFab();
 loadLive();
