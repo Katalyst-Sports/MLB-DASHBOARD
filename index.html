@@ -552,46 +552,6 @@ body.watchlist-open {
   height: 98px;
   display: grid;
   place-items: center;
-  overflow: visible;
-}
-
-.runner-token {
-  position: absolute;
-  width: 23px;
-  height: 23px;
-  border-radius: 50%;
-  border: 2px solid rgba(255,255,255,0.88);
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.32);
-  background: linear-gradient(135deg, rgba(37, 99, 235, 0.90), rgba(14, 165, 233, 0.78));
-  display: grid;
-  place-items: center;
-  color: #ffffff;
-  font-size: 9px;
-  font-weight: 900;
-  line-height: 1;
-  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.28);
-}
-
-.runner-token.first {
-  left: 69px;
-  top: 39px;
-}
-
-.runner-token.second {
-  left: 36px;
-  top: 2px;
-}
-
-.runner-token.third {
-  left: 5px;
-  top: 37px;
-}
-
-.runner-token.scoring {
-  width: 28px;
-  height: 28px;
-  font-size: 10px;
-  box-shadow: 0 0 0 3px rgba(240, 184, 75, 0.18), 0 10px 24px rgba(0, 0, 0, 0.36);
 }
 
 .pitcher-line {
@@ -1293,13 +1253,6 @@ function teamCode(teamName) {
   return teamInfo(teamName).abbr;
 }
 
-function initialsFromName(name) {
-  const parts = String(name || "").trim().split(/\s+/).filter(Boolean);
-  if (!parts.length) return "P";
-  if (parts.length === 1) return parts[0].slice(0, 1).toUpperCase();
-  return `${parts[0][0] || ""}${parts[parts.length - 1][0] || ""}`.toUpperCase();
-}
-
 function matchupText(awayTeam, homeTeam) {
   return `${teamCode(awayTeam)} @ ${teamCode(homeTeam)}`;
 }
@@ -1369,21 +1322,6 @@ function renderList(items, emptyText) {
   return `<ul class="list">${values.map(item => `<li>${item}</li>`).join("")}</ul>`;
 }
 
-function renderRunnerToken(baseKey, runner) {
-  const runnerName = typeof runner === "string" ? runner : runner?.name;
-  if (!runnerName) return "";
-  const classes = ["runner-token", baseKey];
-  if (baseKey === "second" || baseKey === "third") {
-    classes.push("scoring");
-  }
-  const initials = initialsFromName(runnerName);
-  return `
-    <div class="${classes.join(" ")}" title="${runnerName}">
-      <span>${initials}</span>
-    </div>
-  `;
-}
-
 function renderDiamond(bases = {}, runners = {}) {
   const firstFill = bases.first ? "var(--base-on)" : "var(--base-off)";
   const secondFill = bases.second ? "var(--base-on)" : "var(--base-off)";
@@ -1402,9 +1340,6 @@ function renderDiamond(bases = {}, runners = {}) {
           <rect x="8" y="40" width="12" height="12" transform="rotate(45 14 46)" fill="${thirdFill}" stroke="rgba(255,255,255,0.28)" />
           <circle cx="46" cy="46" r="5" fill="rgba(255,255,255,0.12)" />
         </svg>
-        ${renderRunnerToken("first", runners.first)}
-        ${renderRunnerToken("second", runners.second)}
-        ${renderRunnerToken("third", runners.third)}
       </div>
     </div>
   `;
