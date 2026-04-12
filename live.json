@@ -1,54 +1,54 @@
 {
-  "updated_at": "2026-04-12T17:53:42.979147-04:00",
+  "updated_at": "2026-04-12T18:58:28.153803-04:00",
   "games": [
     {
       "gamePk": 824126,
       "game": "Chicago White Sox @ Kansas City Royals",
-      "score": "2-1",
-      "inning": "3rd",
+      "score": "5-5",
+      "inning": "6th",
       "hot_hitters": [
-        "Tanner Murray"
+        "Lenyn Sosa",
+        "Colson Montgomery",
+        "Tanner Murray",
+        "Carter Jensen",
+        "Isaac Collins"
       ],
       "top_pitchers": []
     },
     {
       "gamePk": 823317,
       "game": "Colorado Rockies @ San Diego Padres",
-      "score": "2-4",
-      "inning": "6th",
+      "score": "2-7",
+      "inning": "9th",
       "hot_hitters": [
+        "Ram\u00f3n Laureano",
         "Fernando Tatis Jr.",
+        "Jackson Merrill",
         "Ty France"
       ],
       "top_pitchers": []
     },
     {
-      "gamePk": 823154,
-      "game": "Houston Astros @ Seattle Mariners",
-      "score": "1-4",
-      "inning": "6th",
-      "hot_hitters": [
-        "Jose Altuve",
-        "Yainer Diaz",
-        "Randy Arozarena",
-        "Luke Raley"
-      ],
-      "top_pitchers": [
-        "Logan Gilbert"
-      ]
-    },
-    {
       "gamePk": 823966,
       "game": "Texas Rangers @ Los Angeles Dodgers",
-      "score": "2-1",
-      "inning": "6th",
+      "score": "5-2",
+      "inning": "9th",
       "hot_hitters": [
+        "Brandon Nimmo",
         "Evan Carter",
+        "Josh Smith",
+        "Josh Jung",
         "Shohei Ohtani"
       ],
-      "top_pitchers": [
-        "Jacob deGrom"
-      ]
+      "top_pitchers": []
+    },
+    {
+      "gamePk": 824938,
+      "game": "Cleveland Guardians @ Atlanta Braves",
+      "score": "0-0",
+      "inning": "1st",
+      "hot_hitters": [],
+      "top_pitchers": []
     }
   ],
   "errors": []

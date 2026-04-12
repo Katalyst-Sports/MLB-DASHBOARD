@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-12T17:53:42.979147-04:00",
+  "updated_at": "2026-04-12T18:58:28.153803-04:00",
   "games": [
     {
       "gamePk": 824859,
@@ -170,6 +170,23 @@
       ],
       "pitchers": [
         "Jameson Taillon"
+      ]
+    },
+    {
+      "gamePk": 823154,
+      "game": "Houston Astros @ Seattle Mariners",
+      "winner": "Seattle Mariners",
+      "loser": "Houston Astros",
+      "final_score": "1-6",
+      "hitters": [
+        "Jose Altuve",
+        "Yainer Diaz",
+        "Julio Rodr\u00edguez",
+        "Randy Arozarena",
+        "Luke Raley"
+      ],
+      "pitchers": [
+        "Logan Gilbert"
       ]
     }
   ],
