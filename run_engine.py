@@ -83,6 +83,10 @@ def normalize_whitespace(value):
     return re.sub(r"\s+", " ", str(value or "")).strip()
 
 
+def strip_html(value):
+    return normalize_whitespace(re.sub(r"<[^>]+>", " ", str(value or "")))
+
+
 def is_il_add_transaction(text):
     lowered = normalize_whitespace(text).lower()
     il_markers = [
@@ -177,9 +181,8 @@ def parse_news_rss(url, limit=8):
             items.append(
                 {
                     "title": normalize_whitespace(item.findtext("title", "")),
-                    "link": normalize_whitespace(item.findtext("link", "")),
                     "published": normalize_whitespace(item.findtext("pubDate", "")),
-                    "summary": normalize_whitespace(item.findtext("description", "")),
+                    "summary": strip_html(item.findtext("description", "")),
                 }
             )
     except Exception as exc:
@@ -290,21 +293,93 @@ def build_player_team_grounding(injury_updates, trade_updates, limit=16):
     return grounding
 
 
+def build_news_brief(item, grounded_players):
+    title = normalize_whitespace(item.get("title"))
+    source_summary = strip_html(item.get("summary"))
+    grounded_lines = "\n".join(
+        [f"- {player}: {team}" for player, team in grounded_players.items()]
+    ) or "- No grounded player-team affiliations available."
+
+    fallback = source_summary or "No summary available yet."
+
+    if not client:
+        return fallback
+
+    try:
+        prompt = f"""
+You are writing a short MLB dashboard news brief.
+
+Requirements:
+- Write exactly 1 to 2 sentences
+- Keep it factual, concise, and easy to scan on mobile
+- Use only the title and source summary below
+- Do not add facts from memory
+- Do not guess a player's team
+- Only mention a team for a player if it is explicitly stated in the source text or grounded list
+- Do not mention or quote any source website
+
+Headline:
+{title}
+
+Source summary:
+{source_summary or "No source summary provided."}
+
+Grounded player-team affiliations:
+{grounded_lines}
+"""
+
+        response = client.chat.completions.create(
+            model="llama-3.1-8b-instant",
+            messages=[{"role": "user", "content": prompt}],
+            temperature=0.1,
+        )
+        content = normalize_whitespace(response.choices[0].message.content)
+        return content or fallback
+    except Exception as exc:
+        errors.append(
+            {
+                "stage": "news_brief",
+                "title": title,
+                "error": str(exc),
+            }
+        )
+        return fallback
+
+
+def rewrite_top_news(top_news, grounded_players):
+    rewritten = []
+
+    for item in top_news:
+        rewritten.append(
+            {
+                "title": normalize_whitespace(item.get("title")),
+                "published": normalize_whitespace(item.get("published")),
+                "summary": build_news_brief(item, grounded_players),
+            }
+        )
+
+    return rewritten
+
+
 def build_news_roundup(top_news, injury_updates, trade_updates):
+    grounded_players = build_player_team_grounding(injury_updates, trade_updates)
+    rewritten_top_news = rewrite_top_news(top_news, grounded_players)
     roundup = {
         "updated_at": NOW.isoformat(),
         "headline": "MLB News Desk",
         "article": "No news roundup generated yet.",
-        "top_news": top_news,
+        "top_news": rewritten_top_news,
         "injury_updates": injury_updates,
         "trade_updates": trade_updates,
     }
 
     if client:
         try:
-            grounded_players = build_player_team_grounding(injury_updates, trade_updates)
             news_lines = "\n".join(
-                [f"- {item['title']}" for item in top_news[:6]]
+                [
+                    f"- {item['title']}: {item['summary']}"
+                    for item in rewritten_top_news[:6]
+                ]
             ) or "- No major top headlines available."
             injury_lines = "\n".join(
                 [f"- {item['team']}: {item['player']} ({item['update']})" for item in injury_updates[:8]]
