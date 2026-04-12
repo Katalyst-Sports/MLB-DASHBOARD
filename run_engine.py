@@ -394,7 +394,79 @@ Trades / roster movement:
 
     return roundup
 
+def safe_float(value, default=0.0):
+    try:
+        return float(value)
+    except (TypeError, ValueError):
+        return default
 
+
+def fetch_stat_leaders(stat_group, stat_type, limit=5):
+    try:
+        payload = fetch(
+            f"{BASE}/v1/stats/leaders"
+            f"?leaderCategories={stat_type}"
+            f"&statGroup={stat_group}"
+            f"&season={SEASON}"
+            f"&sportId=1"
+            f"&limit={limit}"
+        )
+        return payload.get("leagueLeaders", [])
+    except Exception as exc:
+        errors.append({
+            "stage": f"leaders_{stat_group}_{stat_type}",
+            "error": str(exc),
+        })
+        return []
+
+
+def extract_leader_entries(league_leaders):
+    if not league_leaders:
+        return []
+    leaders = league_leaders[0].get("leaders", [])
+    return leaders if isinstance(leaders, list) else []
+
+
+def build_season_leaders():
+    avg_leaders = extract_leader_entries(fetch_stat_leaders("hitting", "battingAverage", 5))
+    ops_leaders = extract_leader_entries(fetch_stat_leaders("hitting", "ops", 5))
+    hr_leaders = extract_leader_entries(fetch_stat_leaders("hitting", "homeRuns", 5))
+    rbi_leaders = extract_leader_entries(fetch_stat_leaders("hitting", "runsBattedIn", 5))
+    so_leaders = extract_leader_entries(fetch_stat_leaders("pitching", "strikeouts", 5))
+    win_leaders = extract_leader_entries(fetch_stat_leaders("pitching", "wins", 5))
+    era_leaders = extract_leader_entries(fetch_stat_leaders("pitching", "earnedRunAverage", 5))
+    whip_leaders = extract_leader_entries(fetch_stat_leaders("pitching", "whip", 5))
+
+    return {
+        "avg_ops": [
+            f"{entry['person']['fullName']} ({entry['team']['name']}) - AVG {entry['value']}"
+            for entry in avg_leaders
+        ] + [
+            f"{entry['person']['fullName']} ({entry['team']['name']}) - OPS {entry['value']}"
+            for entry in ops_leaders
+        ],
+        "power": [
+            f"{entry['person']['fullName']} ({entry['team']['name']}) - HR {entry['value']}"
+            for entry in hr_leaders
+        ] + [
+            f"{entry['person']['fullName']} ({entry['team']['name']}) - RBI {entry['value']}"
+            for entry in rbi_leaders
+        ],
+        "pitching": [
+            f"{entry['person']['fullName']} ({entry['team']['name']}) - K {entry['value']}"
+            for entry in so_leaders
+        ] + [
+            f"{entry['person']['fullName']} ({entry['team']['name']}) - W {entry['value']}"
+            for entry in win_leaders
+        ],
+        "run_prevention": [
+            f"{entry['person']['fullName']} ({entry['team']['name']}) - ERA {entry['value']}"
+            for entry in era_leaders
+        ] + [
+            f"{entry['person']['fullName']} ({entry['team']['name']}) - WHIP {entry['value']}"
+            for entry in whip_leaders
+        ],
+    }
 # =====================================================
 # PLAYER STAT HELPERS
 # =====================================================
@@ -738,6 +810,8 @@ yesterday_recap["dashboard_recap"]["all_games"] = [
     }
     for game in yesterday_postgame
 ]
+
+yesterday_recap["dashboard_recap"]["season_leaders"] = build_season_leaders()
 
 # =====================================================
 # NEWS / IL FILES
