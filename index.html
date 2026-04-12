@@ -305,7 +305,16 @@ body.watchlist-open {
 .upcoming-card { border-top: 4px solid var(--blue); }
 .finished-card { border-top: 4px solid var(--gold); }
 .recap-card { border-top: 4px solid #64748b; }
-.leader-card { border-top: 4px solid var(--green); }
+.leader-card {
+  border-top: 4px solid var(--green);
+  max-height: 320px;
+  overflow-y: auto;
+  scrollbar-width: thin;
+}
+  
+.leader-card .list {
+  margin-bottom: 0;
+}  
 .player-card { border-top: 4px solid var(--cyan); }
 .watchlist-card { border-top: 4px solid #22c55e; }
 .news-card { border-top: 4px solid #60a5fa; }
