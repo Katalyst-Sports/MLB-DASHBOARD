@@ -1,5 +1,90 @@
 {
-  "updated_at": "2026-04-12T12:04:20.071906-04:00",
-  "games": [],
+  "updated_at": "2026-04-12T13:56:54.817692-04:00",
+  "games": [
+    {
+      "gamePk": 824859,
+      "game": "San Francisco Giants @ Baltimore Orioles",
+      "score": "0-2",
+      "inning": "2nd",
+      "hot_hitters": [
+        "Samuel Basallo"
+      ],
+      "top_pitchers": []
+    },
+    {
+      "gamePk": 823479,
+      "game": "Arizona Diamondbacks @ Philadelphia Phillies",
+      "score": "0-0",
+      "inning": "2nd",
+      "hot_hitters": [],
+      "top_pitchers": []
+    },
+    {
+      "gamePk": 822828,
+      "game": "Minnesota Twins @ Toronto Blue Jays",
+      "score": "0-1",
+      "inning": "1st",
+      "hot_hitters": [],
+      "top_pitchers": []
+    },
+    {
+      "gamePk": 824533,
+      "game": "Los Angeles Angels @ Cincinnati Reds",
+      "score": "3-0",
+      "inning": "1st",
+      "hot_hitters": [],
+      "top_pitchers": []
+    },
+    {
+      "gamePk": 823642,
+      "game": "Athletics @ New York Mets",
+      "score": "0-0",
+      "inning": "1st",
+      "hot_hitters": [],
+      "top_pitchers": []
+    },
+    {
+      "gamePk": 824293,
+      "game": "Miami Marlins @ Detroit Tigers",
+      "score": "0-3",
+      "inning": "2nd",
+      "hot_hitters": [
+        "Dillon Dingler"
+      ],
+      "top_pitchers": []
+    },
+    {
+      "gamePk": 822998,
+      "game": "New York Yankees @ Tampa Bay Rays",
+      "score": "0-1",
+      "inning": "2nd",
+      "hot_hitters": [],
+      "top_pitchers": []
+    },
+    {
+      "gamePk": 823804,
+      "game": "Washington Nationals @ Milwaukee Brewers",
+      "score": "0-0",
+      "inning": "1st",
+      "hot_hitters": [],
+      "top_pitchers": []
+    },
+    {
+      "gamePk": 823075,
+      "game": "Boston Red Sox @ St. Louis Cardinals",
+      "score": "0-0",
+      "inning": "1st",
+      "hot_hitters": [],
+      "top_pitchers": []
+    },
+    {
+      "gamePk": 824696,
+      "game": "Pittsburgh Pirates @ Chicago Cubs",
+      "score": "0-0",
+      "inning": "1st",
+      "hot_hitters": [],
+      "top_pitchers": []
+    }
+  ],
   "errors": []
 }

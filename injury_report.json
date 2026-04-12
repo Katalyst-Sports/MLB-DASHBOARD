@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-12T12:04:20.071906-04:00",
+  "updated_at": "2026-04-12T13:56:54.817692-04:00",
   "teams": [
     {
       "team_id": 109,
@@ -225,7 +225,7 @@
     {
       "team_id": 110,
       "team_name": "Baltimore Orioles",
-      "injured_count": 10,
+      "injured_count": 11,
       "players": [
         {
           "player_id": 668939,
@@ -290,6 +290,14 @@
           "date": "2026-03-25",
           "note": "Baltimore Orioles placed LHP Keegan Akin on the 15-day injured list retroactive to March 22, 2026. Left groin strain. | Status Change",
           "description": "Baltimore Orioles placed LHP Keegan Akin on the 15-day injured list retroactive to March 22, 2026. Left groin strain."
+        },
+        {
+          "player_id": 641933,
+          "name": "Tyler O'Neill",
+          "il_type": "Injured List",
+          "date": "2026-04-12",
+          "note": "Baltimore Orioles placed RF Tyler O'Neill on the 7-day injured list retroactive to April 9, 2026. Concussion. | Status Change",
+          "description": "Baltimore Orioles placed RF Tyler O'Neill on the 7-day injured list retroactive to April 9, 2026. Concussion."
         },
         {
           "player_id": 682274,

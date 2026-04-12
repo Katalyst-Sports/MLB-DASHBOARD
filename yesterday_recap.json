@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-04-12T12:04:20.071906-04:00",
+  "updated_at": "2026-04-12T13:56:54.817692-04:00",
   "date": "2026-04-11",
   "dashboard_recap": {
     "headline": "MLB Daily Recap - April 11, 2026",
-    "article": "**PHILLIES STUN DIAMONDBACKS IN WALK-OFF THRILLER**\n\nKyle Schwarber's three-RBI, 420-foot homer in the top of the 9th inning propelled the Phillies to a 4-3 victory over the Diamondbacks. Taijuan Walker turned in a strong outing, striking out six over five innings to earn the win. Ketel Marte had a strong game for Arizona, collecting two hits. Brandon Pfaadt took the loss after allowing two earned runs over five innings.\n\n**TIGERS DOMINATE MARLINS, RILEY GREENE SHINES**\n\nRiley Greene homered and drove in four runs to lead the Tigers to a 6-1 victory over the Marlins. Casey Mize was solid on the mound, striking out five over 5.2 innings. Otto Lopez also had a strong game for Detroit, collecting two hits. Janson Junk took the loss for Miami after allowing one earned run over 4.2 innings.\n\n**PITTSBURGH PIRATES STUN CUBS IN WALK-OFF**\n\nThe Pirates secured a 4-3 win over the Cubs on a Brandon Lowe single that scored Nick Gonzales in the top of the 8th inning. Braxton Ashcraft was dominant on the mound, striking out nine over five innings. Oneil Cruz had a strong game for Pittsburgh, collecting four hits.\n\n**TWINS DEFEAT BLUE JAYS, TREVOR LARNACH HOMERS**\n\nTrevor Larnach homered and drove in three runs to lead the Twins to a 7-4 victory over the Blue Jays. Joe Ryan pitched seven strong innings, striking out five and allowing two earned runs. Jes\u00fas S\u00e1nchez homered for Toronto, but it wasn't enough to overcome Minnesota's offense.\n\n**RED SOX ROUT CARDINALS, RANGER SUAREZ DOMINATES**\n\nRanger Suarez pitched six shutout innings, striking out six to lead the Red Sox to a 7-1 victory over the Cardinals. Jordan Walker homered for St. Louis, but Boston's offense was too much to overcome.",
+    "article": "**PHILLIES TAKE DOWN DIAMONDBACKS IN THRILLER**\n\nKyle Schwarber's 3 RBI performance, including a home run, led the Philadelphia Phillies to a 4-3 win over the Arizona Diamondbacks. Taijuan Walker earned the win with 5 strong innings, striking out 6 and allowing 2 earned runs. Meanwhile, top prospect Justin Crawford made his presence felt with a solid defensive outing in center field.\n\nIn other action, the Detroit Tigers dominated the Miami Marlins 6-1 behind Riley Greene's 4 RBI performance, including a home run. Casey Mize pitched 5.2 innings, striking out 5 and allowing just 1 earned run. The Pittsburgh Pirates edged the Chicago Cubs 4-3, with Braxton Ashcraft throwing 5 scoreless innings and striking out 9. The Minnesota Twins topped the Toronto Blue Jays 7-4, with Joe Ryan pitching 7 strong innings and striking out 5.",
     "all_games": [
       {
         "game": "Arizona Diamondbacks @ Philadelphia Phillies",
         "final_score": "3-4",
         "top_pitching_line": "Taijuan Walker: 5.0 IP, 6 K, 2 ER, 2 BB, 4 H",
         "top_batting_line": "Kyle Schwarber: 1 H, 1 HR, 3 RBI, 4 AB",
-        "summary": "The Philadelphia Phillies edged the Arizona Diamondbacks 4-3 behind Kyle Schwarber's 1 HR, 3 RBI performance and a crucial single by Jose Fernandez.",
+        "summary": "The Philadelphia Phillies edged the Arizona Diamondbacks 4-3 behind Kyle Schwarber's 1 HR, 3 RBI performance and Taijuan Walker's 5 strong innings.",
         "impact_player": "Kyle Schwarber"
       },
       {
@@ -18,7 +18,7 @@
         "final_score": "1-6",
         "top_pitching_line": "Casey Mize: 5.2 IP, 5 K, 1 ER, 1 BB, 6 H",
         "top_batting_line": "Riley Greene: 2 H, 1 HR, 4 RBI, 3 AB",
-        "summary": "The Detroit Tigers dominated the Miami Marlins 6-1 behind Casey Mize's 5.2 strong innings and Riley Greene's 2-hit, 4-RBI performance.",
+        "summary": "The Detroit Tigers defeated the Miami Marlins 6-1 behind Casey Mize's 5.2 innings of work and Riley Greene's 2 hits, including a home run and 4 RBIs.",
         "impact_player": "Riley Greene"
       },
       {
@@ -26,7 +26,7 @@
         "final_score": "4-3",
         "top_pitching_line": "Braxton Ashcraft: 5.0 IP, 9 K, 1 ER, 1 BB, 4 H",
         "top_batting_line": "Oneil Cruz: 4 H, 0 HR, 0 RBI, 5 AB",
-        "summary": "The Pittsburgh Pirates edged the Chicago Cubs 4-3 behind Braxton Ashcraft's 5 strong innings, striking out 9 with 1 ER, and a key throwing error by Caleb Thielbar.",
+        "summary": "The Pittsburgh Pirates edged the Chicago Cubs 4-3 behind Braxton Ashcraft's 5 strong innings, striking out 9 and allowing 1 earned run.",
         "impact_player": "Oneil Cruz"
       },
       {
@@ -34,7 +34,7 @@
         "final_score": "7-4",
         "top_pitching_line": "Joe Ryan: 7.0 IP, 5 K, 2 ER, 1 BB, 2 H",
         "top_batting_line": "Trevor Larnach: 1 H, 1 HR, 3 RBI, 3 AB",
-        "summary": "The Minnesota Twins defeated the Toronto Blue Jays 7-4 behind Joe Ryan's 7 shutout innings and Trevor Larnach's 1 HR, 3 RBI performance.",
+        "summary": "The Minnesota Twins edged the Toronto Blue Jays 7-4, led by Trevor Larnach's 3-RBI, 1-homer performance and Joe Ryan's 7-inning, 5-K outing.",
         "impact_player": "Trevor Larnach"
       },
       {
@@ -42,7 +42,7 @@
         "final_score": "3-7",
         "top_pitching_line": "Pierce Johnson: 1.1 IP, 3 K, 0 ER, 0 BB, 1 H",
         "top_batting_line": "Spencer Steer: 1 H, 1 HR, 1 RBI, 3 AB",
-        "summary": "Cincinnati Reds win 7-3 behind Spencer Steer's 1 HR and 1 RBI, while Pierce Johnson pitches 1.1 scoreless innings with 3 strikeouts.",
+        "summary": "The Cincinnati Reds defeated the Los Angeles Angels 7-3 behind Spencer Steer's 1 HR and 1 RBI, and Pierce Johnson's 1.1 scoreless innings with 3 strikeouts.",
         "impact_player": "Spencer Steer"
       },
       {
@@ -50,7 +50,7 @@
         "final_score": "11-6",
         "top_pitching_line": "Mark Leiter Jr.: 1.0 IP, 3 K, 0 ER, 0 BB, 0 H",
         "top_batting_line": "Tyler Soderstrom: 3 H, 2 HR, 5 RBI, 5 AB",
-        "summary": "The Athletics defeated the Mets 11-6 behind Tyler Soderstrom's 3 hits, 2 home runs, and 5 RBIs, including a two-run homer.",
+        "summary": "The Athletics defeated the New York Mets 11-6 behind Tyler Soderstrom's 3 hits, 2 home runs, and 5 RBIs, including a 2-run homer.",
         "impact_player": "Tyler Soderstrom"
       },
       {
@@ -66,7 +66,7 @@
         "final_score": "4-5",
         "top_pitching_line": "Ian Seymour: 1.2 IP, 3 K, 0 ER, 0 BB, 0 H",
         "top_batting_line": "Austin Wells: 1 H, 1 HR, 1 RBI, 5 AB",
-        "summary": "Tampa Bay Rays edged New York Yankees 5-4 behind Austin Wells' 1 HR and 1 RBI, and Ian Seymour's 1.2 scoreless innings.",
+        "summary": "Tampa Bay Rays edge New York Yankees 5-4, behind Austin Wells' 1 HR and 1 RBI, and Ian Seymour's 1.2 scoreless innings.",
         "impact_player": "Austin Wells"
       },
       {
@@ -82,7 +82,7 @@
         "final_score": "2-6",
         "top_pitching_line": "Anthony Nunez: 1.0 IP, 2 K, 0 ER, 0 BB, 1 H",
         "top_batting_line": "Jeremiah Jackson: 3 H, 1 HR, 2 RBI, 4 AB",
-        "summary": "The Baltimore Orioles defeated the San Francisco Giants 6-2 behind Jeremiah Jackson's 3 hits, including a home run, and Anthony Nunez's scoreless relief inning.",
+        "summary": "The Baltimore Orioles outlasted the San Francisco Giants 6-2 behind Jeremiah Jackson's 3 hits, including a home run, and Anthony Nunez's scoreless relief inning.",
         "impact_player": "Jeremiah Jackson"
       },
       {
@@ -90,7 +90,7 @@
         "final_score": "7-1",
         "top_pitching_line": "Ranger Suarez: 6.0 IP, 6 K, 0 ER, 2 BB, 3 H",
         "top_batting_line": "Jordan Walker: 1 H, 1 HR, 1 RBI, 3 AB",
-        "summary": "The Boston Red Sox dominated the St. Louis Cardinals 7-1 behind Ranger Suarez's 6 shutout innings and Jordan Walker's 1 HR, 1 RBI performance.",
+        "summary": "The Boston Red Sox defeated the St. Louis Cardinals 7-1 behind Ranger Suarez's 6 shutout innings, striking out 6 and walking 2.",
         "impact_player": "Jordan Walker"
       },
       {
@@ -106,7 +106,7 @@
         "final_score": "5-9",
         "top_pitching_line": "Wandy Peralta: 1.1 IP, 2 K, 0 ER, 1 BB, 1 H",
         "top_batting_line": "Mickey Moniak: 3 H, 2 HR, 4 RBI, 4 AB",
-        "summary": "The San Diego Padres defeated the Colorado Rockies 9-5, led by Mickey Moniak's 3 hits, 2 home runs, and 4 RBIs.",
+        "summary": "The San Diego Padres defeated the Colorado Rockies 9-5 behind Mickey Moniak's 3 hits, 2 home runs, and 4 RBIs, including a key single that scored Ezequiel Tovar.",
         "impact_player": "Mickey Moniak"
       },
       {
@@ -114,7 +114,7 @@
         "final_score": "3-6",
         "top_pitching_line": "Jack Dreyer: 1.0 IP, 3 K, 0 ER, 0 BB, 0 H",
         "top_batting_line": "Brandon Nimmo: 3 H, 2 HR, 3 RBI, 4 AB",
-        "summary": "The Los Angeles Dodgers defeated the Texas Rangers 6-3 behind Brandon Nimmo's 3 hits, 2 home runs, and 3 RBIs.",
+        "summary": "The Los Angeles Dodgers outlasted the Texas Rangers 6-3 behind Brandon Nimmo's 3 hits, 2 home runs, and 3 RBIs.",
         "impact_player": "Brandon Nimmo"
       },
       {
@@ -122,20 +122,20 @@
         "final_score": "7-8",
         "top_pitching_line": "Kai-Wei Teng: 0.2 IP, 2 K, 0 ER, 1 BB, 0 H",
         "top_batting_line": "Cal Raleigh: 1 H, 1 HR, 3 RBI, 3 AB",
-        "summary": "The Seattle Mariners edged the Houston Astros 8-7 behind Cal Raleigh's 3-RBI, 1-HR performance and a strong relief appearance from Kai-Wei Teng.",
+        "summary": "The Seattle Mariners edged the Houston Astros 8-7 behind Cal Raleigh's 1 HR and 3 RBI, and a strong relief appearance by Kai-Wei Teng.",
         "impact_player": "Cal Raleigh"
       }
     ],
     "season_leaders": {
       "avg_ops": [
         "Andy Pages (Los Angeles Dodgers) - AVG .442",
-        "Chandler Simpson (Tampa Bay Rays) - AVG .385",
+        "Chandler Simpson (Tampa Bay Rays) - AVG .396",
+        "Colt Keith (Detroit Tigers) - AVG .367",
         "Wilyer Abreu (Boston Red Sox) - AVG .364",
-        "Yandy D\u00edaz (Tampa Bay Rays) - AVG .364",
         "Brandon Nimmo (Texas Rangers) - AVG .364",
         "Yordan Alvarez (Houston Astros) - OPS 1.315",
-        "Ben Rice (New York Yankees) - OPS 1.256",
         "Andy Pages (Los Angeles Dodgers) - OPS 1.232",
+        "Ben Rice (New York Yankees) - OPS 1.229",
         "Sal Stewart (Cincinnati Reds) - OPS 1.093",
         "Jordan Walker (St. Louis Cardinals) - OPS 1.092"
       ],
@@ -153,7 +153,8 @@
         "CJ Abrams (Washington Nationals) - RBI 15",
         "Jorge Soler (Los Angeles Angels) - RBI 15",
         "Yordan Alvarez (Houston Astros) - RBI 14",
-        "Jonathan Aranda (Tampa Bay Rays) - RBI 14"
+        "Jonathan Aranda (Tampa Bay Rays) - RBI 14",
+        "Yandy D\u00edaz (Tampa Bay Rays) - RBI 14"
       ],
       "pitching": [
         "Jacob Misiorowski (Milwaukee Brewers) - K 28",
@@ -204,11 +205,11 @@
         "Jos\u00e9 Soriano (Los Angeles Angels) - ERA 0.45",
         "Eduardo Rodriguez (Arizona Diamondbacks) - ERA 0.50",
         "Parker Messick (Cleveland Guardians) - ERA 0.51",
-        "Sandy Alcantara (Miami Marlins) - ERA 0.74",
-        "Cam Schlittler (New York Yankees) - WHIP 0.48",
-        "Sandy Alcantara (Miami Marlins) - WHIP 0.58",
+        "Mitch Keller (Pittsburgh Pirates) - ERA 1.00",
+        "Cam Schlittler (New York Yankees) - WHIP 0.57",
         "Kevin Gausman (Toronto Blue Jays) - WHIP 0.63",
-        "Jos\u00e9 Soriano (Los Angeles Angels) - WHIP 0.65",
+        "Jos\u00e9 Soriano (Los Angeles Angels) - WHIP 0.64",
+        "Sandy Alcantara (Miami Marlins) - WHIP 0.67",
         "Michael Wacha (Kansas City Royals) - WHIP 0.71"
       ]
     }
