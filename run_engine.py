@@ -778,7 +778,7 @@ Write a concise previous-day MLB recap.
 
 Requirements:
 - Start with a strong headline on the first line
-- Then write 3 to 4 sentences total
+- Then write 3 to 4 sentences total with creative sports journalism and make each story different
 - Focus on the biggest offensive impact players and pitching impact players across the completed games
 - Mention standout hitters, home run power, RBI impact, dominant pitchers, strikeout performances, and run prevention
 - Keep it sharp, factual, and easy to read on mobile
