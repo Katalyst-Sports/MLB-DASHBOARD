@@ -293,36 +293,37 @@ def build_player_team_grounding(injury_updates, trade_updates, limit=16):
     return grounding
 
 
-def build_news_brief(item, grounded_players):
-    title = normalize_whitespace(item.get("title"))
-    source_summary = strip_html(item.get("summary"))
+def generate_news_item(title, facts_block, fallback_summary, grounded_players):
     grounded_lines = "\n".join(
         [f"- {player}: {team}" for player, team in grounded_players.items()]
     ) or "- No grounded player-team affiliations available."
-
-    fallback = source_summary or "No summary available yet."
+    fallback_title = normalize_whitespace(title) or "MLB News Desk"
+    fallback_summary = normalize_whitespace(fallback_summary) or "No summary available yet."
 
     if not client:
-        return fallback
+        return {
+            "title": fallback_title,
+            "summary": fallback_summary,
+        }
 
     try:
         prompt = f"""
-You are writing a short MLB dashboard news brief.
+You are writing an original MLB dashboard news card.
 
 Requirements:
-- Write exactly 1 to 2 sentences
+- Write a fresh headline on the first line
+- Then write exactly 1 to 2 sentences
 - Keep it factual, concise, and easy to scan on mobile
-- Use only the title and source summary below
+- Use only the facts below
 - Do not add facts from memory
 - Do not guess a player's team
-- Only mention a team for a player if it is explicitly stated in the source text or grounded list
+- Only mention a team for a player if it is explicitly stated in the facts or grounded list
 - Do not mention or quote any source website
+- Do not copy headline wording from outside coverage
+- If a detail is uncertain, leave it out
 
-Headline:
-{title}
-
-Source summary:
-{source_summary or "No source summary provided."}
+Facts:
+{facts_block}
 
 Grounded player-team affiliations:
 {grounded_lines}
@@ -333,42 +334,108 @@ Grounded player-team affiliations:
             messages=[{"role": "user", "content": prompt}],
             temperature=0.1,
         )
-        content = normalize_whitespace(response.choices[0].message.content)
-        return content or fallback
+        content = response.choices[0].message.content.strip()
+        parts = content.split("\n", 1)
+        generated_title = normalize_whitespace(parts[0]) if parts else fallback_title
+        generated_summary = normalize_whitespace(parts[1]) if len(parts) > 1 else fallback_summary
+        return {
+            "title": generated_title or fallback_title,
+            "summary": generated_summary or fallback_summary,
+        }
     except Exception as exc:
         errors.append(
             {
-                "stage": "news_brief",
-                "title": title,
+                "stage": "generated_news_item",
+                "title": fallback_title,
                 "error": str(exc),
             }
         )
-        return fallback
+        return {
+            "title": fallback_title,
+            "summary": fallback_summary,
+        }
 
 
-def rewrite_top_news(top_news, grounded_players):
-    rewritten = []
-
-    for item in top_news:
-        rewritten.append(
-            {
-                "title": normalize_whitespace(item.get("title")),
-                "published": normalize_whitespace(item.get("published")),
-                "summary": build_news_brief(item, grounded_players),
-            }
-        )
-
-    return rewritten
-
-
-def build_news_roundup(top_news, injury_updates, trade_updates):
+def build_original_top_news(yesterday_games, today_games, injury_updates, trade_updates, limit=8):
     grounded_players = build_player_team_grounding(injury_updates, trade_updates)
-    rewritten_top_news = rewrite_top_news(top_news, grounded_players)
+    items = []
+
+    for game in yesterday_games[:4]:
+        title = f"{game['winner']} Takes {game['final_score']} Win"
+        facts_block = "\n".join(
+            [
+                f"- Game: {game['game']}",
+                f"- Final: {game['final_score']}",
+                f"- Winner: {game['winner']}",
+                f"- Loser: {game['loser']}",
+                f"- Top batting line: {game.get('top_batting_line', 'No standout batting line available.')}",
+                f"- Top pitching line: {game.get('top_pitching_line', 'No standout pitching line available.')}",
+                f"- Winning pitcher: {game.get('winning_pitcher', 'N/A')}",
+                f"- Save: {game.get('save_pitcher', 'N/A')}",
+                f"- Key play: {game.get('game_summary', 'No key play captured.')}",
+            ]
+        )
+        fallback_summary = build_game_card_summary(game)
+        item = generate_news_item(title, facts_block, fallback_summary, grounded_players)
+        item["published"] = YESTERDAY
+        items.append(item)
+
+    for game in today_games[:2]:
+        title = f"{game['winner']} Finishes Off {game['loser']}"
+        facts_block = "\n".join(
+            [
+                f"- Game: {game['game']}",
+                f"- Final: {game['final_score']}",
+                f"- Winner: {game['winner']}",
+                f"- Loser: {game['loser']}",
+                f"- Impact hitters: {', '.join(game.get('hitters', [])) or 'No standout hitters listed.'}",
+                f"- Impact pitchers: {', '.join(game.get('pitchers', [])) or 'No standout pitchers listed.'}",
+            ]
+        )
+        fallback_summary = f"{game['winner']} wrapped up a {game['final_score']} result over {game['loser']}."
+        item = generate_news_item(title, facts_block, fallback_summary, grounded_players)
+        item["published"] = TODAY
+        items.append(item)
+
+    for update in injury_updates[:1]:
+        title = f"{update['team']} Injury Watch"
+        facts_block = "\n".join(
+            [
+                f"- Date: {update['date']}",
+                f"- Team: {update['team']}",
+                f"- Player: {update['player']}",
+                f"- Update: {update['update']}",
+            ]
+        )
+        fallback_summary = f"{update['team']} logged a roster-health update involving {update['player']}."
+        item = generate_news_item(title, facts_block, fallback_summary, grounded_players)
+        item["published"] = update["date"]
+        items.append(item)
+
+    for update in trade_updates[:1]:
+        title = f"{update['team']} Makes Roster Move"
+        facts_block = "\n".join(
+            [
+                f"- Date: {update['date']}",
+                f"- Team: {update['team']}",
+                f"- Player: {update['player']}",
+                f"- Move: {update['update']}",
+            ]
+        )
+        fallback_summary = f"{update['team']} made a transaction involving {update['player']}."
+        item = generate_news_item(title, facts_block, fallback_summary, grounded_players)
+        item["published"] = update["date"]
+        items.append(item)
+
+    return items[:limit], grounded_players
+
+
+def build_news_roundup(top_news, injury_updates, trade_updates, grounded_players):
     roundup = {
         "updated_at": NOW.isoformat(),
         "headline": "MLB News Desk",
         "article": "No news roundup generated yet.",
-        "top_news": rewritten_top_news,
+        "top_news": top_news,
         "injury_updates": injury_updates,
         "trade_updates": trade_updates,
     }
@@ -378,7 +445,7 @@ def build_news_roundup(top_news, injury_updates, trade_updates):
             news_lines = "\n".join(
                 [
                     f"- {item['title']}: {item['summary']}"
-                    for item in rewritten_top_news[:6]
+                    for item in top_news[:6]
                 ]
             ) or "- No major top headlines available."
             injury_lines = "\n".join(
@@ -1255,12 +1322,18 @@ yesterday_recap["dashboard_recap"]["season_leaders"] = build_season_leaders()
 # NEWS / IL FILES
 # =====================================================
 
-top_news = parse_news_rss("https://www.mlb.com/feeds/news/rss.xml", limit=8)
 recent_transactions = build_recent_transaction_feed(days=10)
 injury_updates = build_injury_updates(recent_transactions, limit=12)
 trade_updates = build_trade_updates(recent_transactions, limit=10)
+top_news, grounded_players = build_original_top_news(
+    yesterday_postgame,
+    postgame_today,
+    injury_updates,
+    trade_updates,
+    limit=8,
+)
 
-mlb_news = build_news_roundup(top_news, injury_updates, trade_updates)
+mlb_news = build_news_roundup(top_news, injury_updates, trade_updates, grounded_players)
 
 injury_report = {
     "updated_at": NOW.isoformat(),
@@ -1288,5 +1361,6 @@ print(f"Wrote live.json with {len(live)} games")
 print(f"Wrote postgame.json with {len(postgame_today)} games")
 print(f"Wrote yesterday_postgame.json with {len(yesterday_postgame)} games")
 print("Wrote yesterday_recap.json")
-print(f"Wrote mlb_news.json with {len(top_news)} headlines")
+print(f"Wrote mlb_news.json with {len(top_news)} original stories")
 print(f"Wrote injury_report.json with {len(injury_report['teams'])} teams")
+
