@@ -769,23 +769,28 @@ if yesterday_postgame and client:
                     f"Final: {game['final_score']}\n"
                     f"Winner: {game['winner']}\n"
                     f"Loser: {game['loser']}\n"
-                    f"Hitters: {', '.join(game['hitters']) if game['hitters'] else 'Multiple contributors'}\n"
-                    f"Pitchers: {', '.join(game['pitchers']) if game['pitchers'] else 'Staff effort'}\n"
+                    f"Impact Hitters: {', '.join(game['hitters']) if game['hitters'] else 'Multiple contributors'}\n"
+                    f"Impact Pitchers: {', '.join(game['pitchers']) if game['pitchers'] else 'Staff effort'}\n"
                 )
                 for game in yesterday_postgame
             ]
         )
 
         prompt = f"""
-You are a professional MLB columnist.
+You are an MLB recap writer for a dashboard.
 
-Write a YESTERDAY MLB recap with:
-- A strong headline
-- One paragraph per game
-- Specific stats and reasons
-- End with a section titled "Biggest Story of the Day"
+Write a concise previous-day MLB recap.
 
-Avoid generic language.
+Requirements:
+- Start with a strong headline on the first line
+- Then write 3 to 4 sentences total
+- Focus on the biggest offensive impact players and pitching impact players across the completed games
+- Mention standout hitters, home run power, RBI impact, dominant pitchers, strikeout performances, and run prevention
+- Keep it sharp, factual, and easy to read on mobile
+- No bullet points
+- No section headers
+- No speculation
+- If there were only a few games, still keep it to 3 to 4 sentences and center the most important performances
 
 Games:
 {games_text}
@@ -818,7 +823,6 @@ yesterday_recap["dashboard_recap"]["all_games"] = [
 ]
 
 yesterday_recap["dashboard_recap"]["season_leaders"] = build_season_leaders()
-
 # =====================================================
 # NEWS / IL FILES
 # =====================================================
