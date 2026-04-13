@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-13T12:41:07.035771-04:00",
+  "updated_at": "2026-04-13T16:13:54.310868-04:00",
   "teams": [
     {
       "team_id": 109,
@@ -752,9 +752,9 @@
           "player_id": 678009,
           "name": "Parker Meadows",
           "il_type": "Injured List",
-          "date": "2026-04-10",
-          "note": "Detroit Tigers placed CF Parker Meadows on the 10-day injured list. Left radius fracture. | Status Change",
-          "description": "Detroit Tigers placed CF Parker Meadows on the 10-day injured list. Left radius fracture."
+          "date": "2026-04-13",
+          "note": "Detroit Tigers transferred CF Parker Meadows from the 10-day injured list to the 60-day injured list. Left radius fracture. | Status Change",
+          "description": "Detroit Tigers transferred CF Parker Meadows from the 10-day injured list to the 60-day injured list. Left radius fracture."
         },
         {
           "player_id": 681857,
@@ -793,7 +793,7 @@
     {
       "team_id": 117,
       "team_name": "Houston Astros",
-      "injured_count": 11,
+      "injured_count": 13,
       "players": [
         {
           "player_id": 656986,
@@ -852,6 +852,14 @@
           "description": "Houston Astros placed CF Jake Meyers on the 10-day injured list retroactive to April 9, 2026. Grade two right oblique strain."
         },
         {
+          "player_id": 665161,
+          "name": "Jeremy Pe\u00f1a",
+          "il_type": "Injured List",
+          "date": "2026-04-13",
+          "note": "Houston Astros placed SS Jeremy Pe\u00f1a on the 10-day injured list retroactive to April 12, 2026. Grade one hamstring strain. | Status Change",
+          "description": "Houston Astros placed SS Jeremy Pe\u00f1a on the 10-day injured list retroactive to April 12, 2026. Grade one hamstring strain."
+        },
+        {
           "player_id": 623352,
           "name": "Josh Hader",
           "il_type": "Injured List",
@@ -874,6 +882,14 @@
           "date": "2026-04-10",
           "note": "Houston Astros transferred RHP Ronel Blanco from the 15-day injured list to the 60-day injured list. Right elbow surgery recovery. | Status Change",
           "description": "Houston Astros transferred RHP Ronel Blanco from the 15-day injured list to the 60-day injured list. Right elbow surgery recovery."
+        },
+        {
+          "player_id": 837227,
+          "name": "Tatsuya Imai",
+          "il_type": "Injured List",
+          "date": "2026-04-13",
+          "note": "Houston Astros placed RHP Tatsuya Imai on the 15-day injured list retroactive to April 12, 2026. Right arm fatigue. | Status Change",
+          "description": "Houston Astros placed RHP Tatsuya Imai on the 15-day injured list retroactive to April 12, 2026. Right arm fatigue."
         },
         {
           "player_id": 701305,
@@ -1384,8 +1400,16 @@
     {
       "team_id": 143,
       "team_name": "Philadelphia Phillies",
-      "injured_count": 3,
+      "injured_count": 4,
       "players": [
+        {
+          "player_id": 680742,
+          "name": "Jonathan Bowlan",
+          "il_type": "Injured List",
+          "date": "2026-04-13",
+          "note": "Philadelphia Phillies placed RHP Jonathan Bowlan on the 15-day injured list. Right groin strain. | Status Change",
+          "description": "Philadelphia Phillies placed RHP Jonathan Bowlan on the 15-day injured list. Right groin strain."
+        },
         {
           "player_id": 676661,
           "name": "Max Lazar",
@@ -1838,9 +1862,9 @@
           "player_id": 669456,
           "name": "Shane Bieber",
           "il_type": "Injured List",
-          "date": "2026-03-25",
-          "note": "Toronto Blue Jays placed RHP Shane Bieber on the 15-day injured list retroactive to March 22, 2026. Right elbow inflammation. | Status Change",
-          "description": "Toronto Blue Jays placed RHP Shane Bieber on the 15-day injured list retroactive to March 22, 2026. Right elbow inflammation."
+          "date": "2026-04-13",
+          "note": "Toronto Blue Jays transferred RHP Shane Bieber from the 15-day injured list to the 60-day injured list. Right elbow inflammation. | Status Change",
+          "description": "Toronto Blue Jays transferred RHP Shane Bieber from the 15-day injured list to the 60-day injured list. Right elbow inflammation."
         },
         {
           "player_id": 702056,
@@ -1863,8 +1887,16 @@
     {
       "team_id": 120,
       "team_name": "Washington Nationals",
-      "injured_count": 4,
+      "injured_count": 6,
       "players": [
+        {
+          "player_id": 669371,
+          "name": "Cole Henry",
+          "il_type": "Injured List",
+          "date": "2026-04-13",
+          "note": "Washington Nationals placed RHP Cole Henry on the 15-day injured list. Right rotator cuff strain. | Status Change",
+          "description": "Washington Nationals placed RHP Cole Henry on the 15-day injured list. Right rotator cuff strain."
+        },
         {
           "player_id": 687792,
           "name": "DJ Herz",
@@ -1880,6 +1912,14 @@
           "date": "2026-03-23",
           "note": "Washington Nationals placed RHP Josiah Gray on the 60-day injured list. Right flexor strain. | Status Change",
           "description": "Washington Nationals placed RHP Josiah Gray on the 60-day injured list. Right flexor strain."
+        },
+        {
+          "player_id": 686610,
+          "name": "Ken Waldichuk",
+          "il_type": "Injured List",
+          "date": "2026-04-13",
+          "note": "Washington Nationals placed LHP Ken Waldichuk on the 15-day injured list. Left forearm tightness. | Status Change",
+          "description": "Washington Nationals placed LHP Ken Waldichuk on the 15-day injured list. Left forearm tightness."
         },
         {
           "player_id": 687606,

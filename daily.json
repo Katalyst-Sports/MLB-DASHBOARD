@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-13T12:41:07.035771-04:00",
+  "updated_at": "2026-04-13T16:13:54.310868-04:00",
   "games": [
     {
       "gamePk": 823153,
@@ -7,7 +7,7 @@
       "home_team": "Seattle Mariners",
       "venue": "T-Mobile Park",
       "start": "2026-04-13T20:10:00Z",
-      "status": "Preview",
+      "status": "Live",
       "away_pitcher": {
         "id": 681347,
         "name": "Mike Burrows",
@@ -62,8 +62,8 @@
         "id": 669923,
         "name": "George Kirby",
         "hand": "R",
-        "era": "3.60",
-        "whip": "0.90",
+        "era": "3.54",
+        "whip": "0.89",
         "last3": {
           "starts": [
             {
@@ -112,10 +112,10 @@
         {
           "name": "Yordan Alvarez",
           "stats": {
-            "avg": ".340",
-            "obp": ".500",
-            "slg": ".755",
-            "ops": "1.255",
+            "avg": ".333",
+            "obp": ".493",
+            "slg": ".741",
+            "ops": "1.234",
             "homeRuns": 6,
             "rbi": 14
           },
@@ -152,10 +152,10 @@
         {
           "name": "Jose Altuve",
           "stats": {
-            "avg": ".333",
-            "obp": ".457",
-            "slg": ".526",
-            "ops": ".983",
+            "avg": ".328",
+            "obp": ".451",
+            "slg": ".517",
+            "ops": ".968",
             "homeRuns": 2,
             "rbi": 6
           },
@@ -316,8 +316,8 @@
           "stats": {
             "avg": ".255",
             "obp": ".314",
-            "slg": ".532",
-            "ops": ".846",
+            "slg": ".553",
+            "ops": ".867",
             "homeRuns": 3,
             "rbi": 9
           },
@@ -530,7 +530,14 @@
           "quality_starts": 0
         }
       },
-      "home_pitcher": {},
+      "home_pitcher": {
+        "id": 665152,
+        "name": "Dean Kremer",
+        "hand": "R",
+        "era": "N/A",
+        "whip": "N/A",
+        "last3": {}
+      },
       "away_hitters": [
         {
           "name": "Corbin Carroll",
@@ -2615,18 +2622,6 @@
           }
         },
         {
-          "name": "Luke Williams",
-          "stats": {
-            "avg": ".000",
-            "obp": "1.000",
-            "slg": ".000",
-            "ops": "1.000",
-            "homeRuns": 0,
-            "rbi": 0
-          },
-          "last10ab": {}
-        },
-        {
           "name": "Matt Olson",
           "stats": {
             "avg": ".290",
@@ -2743,6 +2738,26 @@
             "homeRuns": 0,
             "rbi": 0,
             "walks": 1,
+            "games": 3
+          }
+        },
+        {
+          "name": "Michael Harris II",
+          "stats": {
+            "avg": ".235",
+            "obp": ".264",
+            "slg": ".373",
+            "ops": ".637",
+            "homeRuns": 2,
+            "rbi": 7
+          },
+          "last10ab": {
+            "avg": "0.364",
+            "hits": 4,
+            "atBats": 11,
+            "homeRuns": 1,
+            "rbi": 3,
+            "walks": 0,
             "games": 3
           }
         }
