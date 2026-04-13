@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-04-13T07:56:21.738975-04:00",
+  "updated_at": "2026-04-13T12:41:07.035771-04:00",
   "date": "2026-04-12",
   "dashboard_recap": {
     "headline": "MLB Daily Recap - April 12, 2026",
-    "article": "**Giants' Homers Not Enough as Orioles Take Down San Francisco 6-2**\n\nThe Baltimore Orioles rode a strong team effort to a 6-2 win over the San Francisco Giants, led by Casey Schmitt's 3-hit, 1-homer performance. Schmitt's fly ball homer to left field highlighted the Giants' offense, but ultimately fell short. Cade Povich earned the win for the Orioles with 6.2 innings of 5-K, 1-ER pitching.\n\n**Diamondbacks' Late Rally Gives Them 4-3 Win Over Phillies**\n\nIn a thrilling game, the Arizona Diamondbacks edged the Philadelphia Phillies 4-3, thanks in part to Andrew Painter's 5-K, 1-ER outing. Trea Turner's 2-hit, 1-homer performance helped spark the Diamondbacks' offense, while Paul Sewald earned the save. Taylor Clarke secured the win for Arizona after Jos\u00e9 Alvarado took the loss.\n\n**Twins' Power Surge Leads to 8-2 Win Over Blue Jays**\n\nThe Minnesota Twins flexed their muscles with an 8-2 win over the Toronto Blue Jays, led by Tristan Gray's 1-hit, 1-homer performance. Gray's 3-RBI effort helped pace the Twins' offense, while Taj Bradley earned the win with 5 innings of 7-K pitching.",
+    "article": "**Giants Fall to Orioles, Diamondbacks Outlast Phillies in Thrilling Finale**\n\nCasey Schmitt's 1st-inning homer sparked the Orioles to a 6-2 victory over the Giants, with Cade Povich earning the win after 6.2 innings of one-run ball. Meanwhile, the Diamondbacks edged the Phillies 4-3 behind Taylor Clarke's strong relief work, with Trea Turner's 2-run homer leading the way for the Diamondbacks.\n\nIn other action, the Twins routed the Blue Jays 8-2 behind Taj Bradley's 5-strikeout start, and the Angels outlasted the Reds 9-6 thanks to Jos\u00e9 Soriano's 7-strikeout performance.",
     "all_games": [
       {
         "game": "San Francisco Giants @ Baltimore Orioles",
         "final_score": "2-6",
         "top_pitching_line": "Cade Povich: 6.2 IP, 5 K, 1 ER, 0 BB, 5 H",
         "top_batting_line": "Casey Schmitt: 3 H, 1 HR, 1 RBI, 4 AB",
-        "summary": "The Baltimore Orioles defeated the San Francisco Giants 6-2 behind Cade Povich's 6.2 innings of one-run relief, while Casey Schmitt homered for the Giants.",
+        "summary": "Baltimore Orioles outlasted the San Francisco Giants 6-2 behind Cade Povich's 6.2 innings of one-run relief and Casey Schmitt's 3-hit, 1-home run performance.",
         "impact_player": "Casey Schmitt"
       },
       {
@@ -18,7 +18,7 @@
         "final_score": "4-3",
         "top_pitching_line": "Andrew Painter: 5.0 IP, 7 K, 1 ER, 1 BB, 3 H",
         "top_batting_line": "Trea Turner: 2 H, 1 HR, 2 RBI, 4 AB",
-        "summary": "The Arizona Diamondbacks edged the Philadelphia Phillies 4-3 behind Andrew Painter's 5-inning, 7-strikeout performance and Trea Turner's 2-hit, 1-home run effort.",
+        "summary": "The Arizona Diamondbacks edged the Philadelphia Phillies 4-3 behind Andrew Painter's 5 strong innings and Trea Turner's 2-hit, 1-home run performance.",
         "impact_player": "Trea Turner"
       },
       {
@@ -26,7 +26,7 @@
         "final_score": "8-2",
         "top_pitching_line": "Taj Bradley: 5.0 IP, 7 K, 1 ER, 4 BB, 5 H",
         "top_batting_line": "Tristan Gray: 1 H, 1 HR, 3 RBI, 3 AB",
-        "summary": "The Minnesota Twins defeated the Toronto Blue Jays 8-2 behind Taj Bradley's 5.0 innings of work with 7 strikeouts and Tristan Gray's 3 RBI, including a home run.",
+        "summary": "The Minnesota Twins defeated the Toronto Blue Jays 8-2 behind Taj Bradley's 5-inning performance and Tristan Gray's 3-RBI, 1-home-run outing.",
         "impact_player": "Tristan Gray"
       },
       {
@@ -34,7 +34,7 @@
         "final_score": "9-6",
         "top_pitching_line": "Jos\u00e9 Soriano: 7.0 IP, 10 K, 0 ER, 3 BB, 2 H",
         "top_batting_line": "Elly De La Cruz: 2 H, 1 HR, 3 RBI, 5 AB",
-        "summary": "The Los Angeles Angels defeated the Cincinnati Reds 9-6 behind Jos\u00e9 Soriano's 7 shutout innings and Elly De La Cruz's 2-hit, 3-RBI performance.",
+        "summary": "The Los Angeles Angels defeated the Cincinnati Reds 9-6 behind Jos\u00e9 Soriano's 7-inning, 10-strikeout performance and Elly De La Cruz's 2-hit, 3-RBI game.",
         "impact_player": "Elly De La Cruz"
       },
       {
@@ -58,7 +58,7 @@
         "final_score": "4-5",
         "top_pitching_line": "Drew Rasmussen: 6.0 IP, 7 K, 0 ER, 0 BB, 1 H",
         "top_batting_line": "Aaron Judge: 1 H, 1 HR, 2 RBI, 3 AB",
-        "summary": "The Tampa Bay Rays edged the New York Yankees 5-4 behind Drew Rasmussen's 6 shutout innings and Aaron Judge's 2-RBI, 1-homer performance.",
+        "summary": "Tampa Bay Rays edge New York Yankees 5-4 behind Drew Rasmussen's 6 shutout innings and Aaron Judge's 1 HR, 2 RBI performance.",
         "impact_player": "Aaron Judge"
       },
       {
@@ -66,7 +66,7 @@
         "final_score": "6-5",
         "top_pitching_line": "Bryan Hudson: 1.0 IP, 3 K, 0 ER, 0 BB, 0 H",
         "top_batting_line": "Colson Montgomery: 2 H, 1 HR, 2 RBI, 3 AB",
-        "summary": "The Chicago White Sox edged the Kansas City Royals 6-5, with Colson Montgomery's 2 hits, 1 home run, and 2 RBIs leading the charge.",
+        "summary": "The Chicago White Sox edged the Kansas City Royals 6-5, led by Colson Montgomery's 2 hits, including a home run, and 2 RBIs.",
         "impact_player": "Colson Montgomery"
       },
       {
@@ -74,7 +74,7 @@
         "final_score": "8-6",
         "top_pitching_line": "Brandon Woodruff: 6.0 IP, 6 K, 1 ER, 1 BB, 3 H",
         "top_batting_line": "Brice Turang: 3 H, 2 HR, 2 RBI, 4 AB",
-        "summary": "The Washington Nationals edged the Milwaukee Brewers 8-6, led by a 2-home-run performance from Brice Turang and a strong 6-inning outing from Brandon Woodruff.",
+        "summary": "The Washington Nationals edged the Milwaukee Brewers 8-6 behind a crucial 2-run single from Keibert Ruiz in the key 2-run inning.",
         "impact_player": "Brice Turang"
       },
       {
@@ -82,7 +82,7 @@
         "final_score": "9-3",
         "top_pitching_line": "George Soriano: 1.0 IP, 1 K, 0 ER, 0 BB, 0 H",
         "top_batting_line": "Willson Contreras: 4 H, 1 HR, 3 RBI, 5 AB",
-        "summary": "The Boston Red Sox defeated the St. Louis Cardinals 9-3 behind Willson Contreras' 4 hits, including a home run, and Trevor Story's 3rd double of the game.",
+        "summary": "The Boston Red Sox defeated the St. Louis Cardinals 9-3 behind Willson Contreras's 4 hits, including a home run, and Trevor Story's 3rd double of the game.",
         "impact_player": "Willson Contreras"
       },
       {
@@ -90,7 +90,7 @@
         "final_score": "6-7",
         "top_pitching_line": "Daniel Palencia: 1.0 IP, 2 K, 0 ER, 1 BB, 0 H",
         "top_batting_line": "Brandon Lowe: 2 H, 2 HR, 5 RBI, 4 AB",
-        "summary": "The Chicago Cubs edged the Pittsburgh Pirates 7-6 behind Brandon Lowe's 2 HR and 5 RBI, and a crucial single by Carson Kelly.",
+        "summary": "The Chicago Cubs outlasted the Pittsburgh Pirates 7-6 behind Brandon Lowe's 2 home runs and 5 RBIs, and a crucial single by Carson Kelly.",
         "impact_player": "Brandon Lowe"
       },
       {
@@ -98,7 +98,7 @@
         "final_score": "2-7",
         "top_pitching_line": "David Morgan: 1.2 IP, 4 K, 0 ER, 1 BB, 0 H",
         "top_batting_line": "Ty France: 3 H, 1 HR, 1 RBI, 3 AB",
-        "summary": "The San Diego Padres defeated the Colorado Rockies 7-2 behind Ty France's 3 hits, including a home run, and Jackson Merrill's 3rd home run of the season.",
+        "summary": "The San Diego Padres dominated the Colorado Rockies 7-2, led by Ty France's 3 hits, including a home run, and Jackson Merrill's 3rd home run of the season.",
         "impact_player": "Ty France"
       },
       {
@@ -106,7 +106,7 @@
         "final_score": "1-6",
         "top_pitching_line": "Logan Gilbert: 7.0 IP, 7 K, 1 ER, 1 BB, 4 H",
         "top_batting_line": "Yainer Diaz: 1 H, 1 HR, 1 RBI, 3 AB",
-        "summary": "The Seattle Mariners dominated the Houston Astros 6-1, led by Logan Gilbert's 7 shutout innings and Yainer Diaz's solo home run.",
+        "summary": "The Seattle Mariners dominated the Houston Astros 6-1 behind Logan Gilbert's 7 strong innings and Yainer Diaz's solo home run for the Astros' only run.",
         "impact_player": "Yainer Diaz"
       },
       {
@@ -114,7 +114,7 @@
         "final_score": "5-2",
         "top_pitching_line": "Jacob deGrom: 6.0 IP, 9 K, 1 ER, 3 BB, 4 H",
         "top_batting_line": "Evan Carter: 1 H, 1 HR, 1 RBI, 3 AB",
-        "summary": "The Texas Rangers edged the Los Angeles Dodgers 5-2 behind Jacob deGrom's 6 strong innings and Evan Carter's 1 HR, 1 RBI performance.",
+        "summary": "The Texas Rangers edged the Los Angeles Dodgers 5-2 behind Jacob deGrom's 6 shutout innings and Evan Carter's 1 HR and 1 RBI.",
         "impact_player": "Evan Carter"
       },
       {
