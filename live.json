@@ -1,28 +1,5 @@
 {
-  "updated_at": "2026-04-12T19:54:48.602786-04:00",
-  "games": [
-    {
-      "gamePk": 824126,
-      "game": "Chicago White Sox @ Kansas City Royals",
-      "score": "6-5",
-      "inning": "9th",
-      "hot_hitters": [
-        "Lenyn Sosa",
-        "Colson Montgomery",
-        "Tanner Murray",
-        "Carter Jensen",
-        "Isaac Collins"
-      ],
-      "top_pitchers": []
-    },
-    {
-      "gamePk": 824938,
-      "game": "Cleveland Guardians @ Atlanta Braves",
-      "score": "0-0",
-      "inning": "2nd",
-      "hot_hitters": [],
-      "top_pitchers": []
-    }
-  ],
+  "updated_at": "2026-04-13T03:28:07.656483-04:00",
+  "games": [],
   "errors": []
 }
