@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-14T11:51:37.508500-04:00",
+  "updated_at": "2026-04-14T15:55:40.638345-04:00",
   "teams": [
     {
       "team_id": 109,
@@ -391,7 +391,7 @@
     {
       "team_id": 112,
       "team_name": "Chicago Cubs",
-      "injured_count": 10,
+      "injured_count": 11,
       "players": [
         {
           "player_id": 690990,
@@ -400,6 +400,14 @@
           "date": "2026-04-05",
           "note": "Chicago Cubs placed RHP Cade Horton on the 15-day injured list retroactive to April 4, 2026. Right forearm strain. | Status Change",
           "description": "Chicago Cubs placed RHP Cade Horton on the 15-day injured list retroactive to April 4, 2026. Right forearm strain."
+        },
+        {
+          "player_id": 681799,
+          "name": "Ethan Roberts",
+          "il_type": "Injured List",
+          "date": "2026-04-14",
+          "note": "Chicago Cubs placed RHP Ethan Roberts on the 15-day injured list retroactive to April 13, 2026. Right middle finger laceration. | Status Change",
+          "description": "Chicago Cubs placed RHP Ethan Roberts on the 15-day injured list retroactive to April 13, 2026. Right middle finger laceration."
         },
         {
           "player_id": 640451,
@@ -478,7 +486,7 @@
     {
       "team_id": 145,
       "team_name": "Chicago White Sox",
-      "injured_count": 9,
+      "injured_count": 10,
       "players": [
         {
           "player_id": 669720,
@@ -519,6 +527,14 @@
           "date": "2026-04-05",
           "note": "Chicago White Sox placed CF Everson Pereira on the 10-day injured list retroactive to April 2, 2026. Left ankle sprain. | Status Change",
           "description": "Chicago White Sox placed CF Everson Pereira on the 10-day injured list retroactive to April 2, 2026. Left ankle sprain."
+        },
+        {
+          "player_id": 686563,
+          "name": "Jonathan Cannon",
+          "il_type": "Injured List",
+          "date": "2026-04-14",
+          "note": "Chicago White Sox placed RHP Jonathan Cannon on the 15-day injured list retroactive to April 13, 2026. Right hip inflammation. | Status Change",
+          "description": "Chicago White Sox placed RHP Jonathan Cannon on the 15-day injured list retroactive to April 13, 2026. Right hip inflammation."
         },
         {
           "player_id": 681066,
@@ -1204,7 +1220,7 @@
     {
       "team_id": 158,
       "team_name": "Milwaukee Brewers",
-      "injured_count": 8,
+      "injured_count": 9,
       "players": [
         {
           "player_id": 668731,
@@ -1221,6 +1237,14 @@
           "date": "2026-03-28",
           "note": "Milwaukee Brewers placed 1B Andrew Vaughn on the 10-day injured list retroactive to March 27, 2026. Left hamate fracture. | Status Change",
           "description": "Milwaukee Brewers placed 1B Andrew Vaughn on the 10-day injured list retroactive to March 27, 2026. Left hamate fracture."
+        },
+        {
+          "player_id": 592885,
+          "name": "Christian Yelich",
+          "il_type": "Injured List",
+          "date": "2026-04-14",
+          "note": "Milwaukee Brewers placed LF Christian Yelich on the 10-day injured list retroactive to April 13, 2026. Left groin strain. | Status Change",
+          "description": "Milwaukee Brewers placed LF Christian Yelich on the 10-day injured list retroactive to April 13, 2026. Left groin strain."
         },
         {
           "player_id": 684974,
@@ -1258,9 +1282,9 @@
           "player_id": 642239,
           "name": "Rob Zastryzny",
           "il_type": "Injured List",
-          "date": "2026-03-25",
-          "note": "Milwaukee Brewers placed LHP Rob Zastryzny on the 15-day injured list retroactive to March 22, 2026. Left shoulder strain. | Status Change",
-          "description": "Milwaukee Brewers placed LHP Rob Zastryzny on the 15-day injured list retroactive to March 22, 2026. Left shoulder strain."
+          "date": "2026-04-14",
+          "note": "Milwaukee Brewers placed LHP Rob Zastryzny on the 60-day injured list. Left shoulder strain. | Status Change",
+          "description": "Milwaukee Brewers placed LHP Rob Zastryzny on the 60-day injured list. Left shoulder strain."
         },
         {
           "player_id": 672642,

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-14T11:51:37.508500-04:00",
+  "updated_at": "2026-04-14T15:55:40.638345-04:00",
   "games": [
     {
       "gamePk": 824853,
@@ -1208,10 +1208,10 @@
         {
           "name": "Brandon Lowe",
           "stats": {
-            "avg": ".278",
-            "obp": ".400",
-            "slg": ".648",
-            "ops": "1.048",
+            "avg": ".259",
+            "obp": ".385",
+            "slg": ".630",
+            "ops": "1.015",
             "homeRuns": 6,
             "rbi": 14
           },
@@ -3446,10 +3446,10 @@
         {
           "name": "Ceddanne Rafaela",
           "stats": {
-            "avg": ".319",
-            "obp": ".385",
-            "slg": ".404",
-            "ops": ".789",
+            "avg": ".298",
+            "obp": ".365",
+            "slg": ".383",
+            "ops": ".748",
             "homeRuns": 1,
             "rbi": 5
           },
@@ -3966,6 +3966,26 @@
       ],
       "home_hitters": [
         {
+          "name": "Everson Pereira",
+          "stats": {
+            "avg": ".250",
+            "obp": ".294",
+            "slg": ".500",
+            "ops": ".794",
+            "homeRuns": 1,
+            "rbi": 1
+          },
+          "last10ab": {
+            "avg": "0.200",
+            "hits": 2,
+            "atBats": 10,
+            "homeRuns": 1,
+            "rbi": 1,
+            "walks": 1,
+            "games": 3
+          }
+        },
+        {
           "name": "Dustin Harris",
           "stats": {
             "avg": ".273",
@@ -4124,26 +4144,6 @@
             "walks": 2,
             "games": 5
           }
-        },
-        {
-          "name": "Andrew Benintendi",
-          "stats": {
-            "avg": ".179",
-            "obp": ".238",
-            "slg": ".256",
-            "ops": ".494",
-            "homeRuns": 0,
-            "rbi": 2
-          },
-          "last10ab": {
-            "avg": "0.273",
-            "hits": 3,
-            "atBats": 11,
-            "homeRuns": 0,
-            "rbi": 1,
-            "walks": 1,
-            "games": 4
-          }
         }
       ]
     },
@@ -4158,8 +4158,8 @@
         "id": 592332,
         "name": "Kevin Gausman",
         "hand": "R",
-        "era": "2.08",
-        "whip": "0.63",
+        "era": "1.56",
+        "whip": "0.58",
         "last3": {
           "starts": [
             {
@@ -4186,7 +4186,7 @@
               "date": "2026-04-07",
               "opponent": "Los Angeles Dodgers",
               "ip": "5.1",
-              "er": 3,
+              "er": 2,
               "k": 5,
               "bb": 2,
               "pitches": 84,
@@ -4198,8 +4198,8 @@
           "avg_bb": "0.7",
           "avg_pitches": "85.3",
           "avg_strikes": "60.0",
-          "era": "2.08",
-          "whip": "0.63",
+          "era": "1.56",
+          "whip": "0.58",
           "strike_pct": "70.3",
           "quality_starts": 2
         }
@@ -4518,26 +4518,6 @@
           }
         },
         {
-          "name": "Christian Yelich",
-          "stats": {
-            "avg": ".314",
-            "obp": ".375",
-            "slg": ".451",
-            "ops": ".826",
-            "homeRuns": 1,
-            "rbi": 10
-          },
-          "last10ab": {
-            "avg": "0.600",
-            "hits": 6,
-            "atBats": 10,
-            "homeRuns": 1,
-            "rbi": 5,
-            "walks": 1,
-            "games": 3
-          }
-        },
-        {
           "name": "Jake Bauers",
           "stats": {
             "avg": ".239",
@@ -4614,6 +4594,26 @@
             "homeRuns": 1,
             "rbi": 2,
             "walks": 4,
+            "games": 3
+          }
+        },
+        {
+          "name": "Joey Ortiz",
+          "stats": {
+            "avg": ".220",
+            "obp": ".256",
+            "slg": ".220",
+            "ops": ".476",
+            "homeRuns": 0,
+            "rbi": 3
+          },
+          "last10ab": {
+            "avg": "0.455",
+            "hits": 5,
+            "atBats": 11,
+            "homeRuns": 0,
+            "rbi": 3,
+            "walks": 1,
             "games": 3
           }
         }
@@ -5098,7 +5098,56 @@
       "venue": "Daikin Park",
       "start": "2026-04-15T00:10:00Z",
       "status": "Preview",
-      "away_pitcher": {},
+      "away_pitcher": {
+        "id": 547179,
+        "name": "Michael Lorenzen",
+        "hand": "R",
+        "era": "8.36",
+        "whip": "2.14",
+        "last3": {
+          "starts": [
+            {
+              "date": "2026-03-28",
+              "opponent": "Miami Marlins",
+              "ip": "4.1",
+              "er": 3,
+              "k": 4,
+              "bb": 0,
+              "pitches": 93,
+              "strikes": 58
+            },
+            {
+              "date": "2026-04-03",
+              "opponent": "Philadelphia Phillies",
+              "ip": "3.0",
+              "er": 9,
+              "k": 2,
+              "bb": 2,
+              "pitches": 77,
+              "strikes": 50
+            },
+            {
+              "date": "2026-04-08",
+              "opponent": "Houston Astros",
+              "ip": "5.2",
+              "er": 1,
+              "k": 4,
+              "bb": 2,
+              "pitches": 100,
+              "strikes": 62
+            }
+          ],
+          "avg_ip": "4.1",
+          "avg_k": "3.3",
+          "avg_bb": "1.3",
+          "avg_pitches": "90.0",
+          "avg_strikes": "56.7",
+          "era": "9.00",
+          "whip": "2.31",
+          "strike_pct": "63.0",
+          "quality_starts": 0
+        }
+      },
       "home_pitcher": {
         "id": 676467,
         "name": "Colton Gordon",
@@ -6545,26 +6594,6 @@
           }
         },
         {
-          "name": "Luis Robert Jr.",
-          "stats": {
-            "avg": ".300",
-            "obp": ".435",
-            "slg": ".420",
-            "ops": ".855",
-            "homeRuns": 2,
-            "rbi": 7
-          },
-          "last10ab": {
-            "avg": "0.455",
-            "hits": 5,
-            "atBats": 11,
-            "homeRuns": 1,
-            "rbi": 5,
-            "walks": 3,
-            "games": 3
-          }
-        },
-        {
           "name": "Jared Young",
           "stats": {
             "avg": ".350",
@@ -6582,6 +6611,26 @@
             "rbi": 1,
             "walks": 1,
             "games": 4
+          }
+        },
+        {
+          "name": "Luis Robert Jr.",
+          "stats": {
+            "avg": ".280",
+            "obp": ".419",
+            "slg": ".400",
+            "ops": ".819",
+            "homeRuns": 2,
+            "rbi": 7
+          },
+          "last10ab": {
+            "avg": "0.455",
+            "hits": 5,
+            "atBats": 11,
+            "homeRuns": 1,
+            "rbi": 5,
+            "walks": 3,
+            "games": 3
           }
         },
         {
