@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-04-14T15:55:40.638345-04:00",
+  "updated_at": "2026-04-14T18:33:23.704767-04:00",
   "teams": [
     {
       "team_id": 109,
       "team_name": "Arizona Diamondbacks",
-      "injured_count": 13,
+      "injured_count": 14,
       "players": [
         {
           "player_id": 640462,
@@ -63,6 +63,14 @@
           "description": "Arizona Diamondbacks placed RHP Cristian Mena on the 60-day injured list. Right shoulder strain."
         },
         {
+          "player_id": 672515,
+          "name": "Gabriel Moreno",
+          "il_type": "Injured List",
+          "date": "2026-04-14",
+          "note": "Arizona Diamondbacks placed C Gabriel Moreno on the 10-day injured list retroactive to April 11, 2026. Left oblique strain. | Status Change",
+          "description": "Arizona Diamondbacks placed C Gabriel Moreno on the 10-day injured list retroactive to April 11, 2026. Left oblique strain."
+        },
+        {
           "player_id": 691783,
           "name": "Jordan Lawlar",
           "il_type": "Injured List",
@@ -98,9 +106,9 @@
           "player_id": 656976,
           "name": "Pavin Smith",
           "il_type": "Injured List",
-          "date": "2026-03-30",
-          "note": "Arizona Diamondbacks placed 1B Pavin Smith on the 10-day injured list. Left elbow inflammation. | Status Change",
-          "description": "Arizona Diamondbacks placed 1B Pavin Smith on the 10-day injured list. Left elbow inflammation."
+          "date": "2026-04-14",
+          "note": "Arizona Diamondbacks transferred 1B Pavin Smith from the 10-day injured list to the 60-day injured list. Left elbow inflammation. | Status Change",
+          "description": "Arizona Diamondbacks transferred 1B Pavin Smith from the 10-day injured list to the 60-day injured list. Left elbow inflammation."
         },
         {
           "player_id": 682988,
@@ -342,9 +350,9 @@
           "player_id": 670912,
           "name": "Johan Oviedo",
           "il_type": "Injured List",
-          "date": "2026-04-03",
-          "note": "Boston Red Sox placed RHP Johan Oviedo on the 15-day injured list retroactive to March 31, 2026. Right elbow strain. | Status Change",
-          "description": "Boston Red Sox placed RHP Johan Oviedo on the 15-day injured list retroactive to March 31, 2026. Right elbow strain."
+          "date": "2026-04-14",
+          "note": "Boston Red Sox transferred RHP Johan Oviedo from the 15-day injured list to the 60-day injured list. Right elbow strain. | Status Change",
+          "description": "Boston Red Sox transferred RHP Johan Oviedo from the 15-day injured list to the 60-day injured list. Right elbow strain."
         },
         {
           "player_id": 676710,
@@ -1346,7 +1354,7 @@
     {
       "team_id": 121,
       "team_name": "New York Mets",
-      "injured_count": 6,
+      "injured_count": 7,
       "players": [
         {
           "player_id": 621345,
@@ -1363,6 +1371,14 @@
           "date": "2026-02-15",
           "note": "New York Mets placed RHP Dedniel N\u00fa\u00f1ez on the 60-day injured list. Tommy John surgery recovery. | Status Change",
           "description": "New York Mets placed RHP Dedniel N\u00fa\u00f1ez on the 60-day injured list. Tommy John surgery recovery."
+        },
+        {
+          "player_id": 680702,
+          "name": "Joey Gerber",
+          "il_type": "Injured List",
+          "date": "2026-04-14",
+          "note": "New York Mets placed RHP Joey Gerber on the 15-day injured list. Right finger blister. | Status Change",
+          "description": "New York Mets placed RHP Joey Gerber on the 15-day injured list. Right finger blister."
         },
         {
           "player_id": 665742,
@@ -1776,9 +1792,9 @@
           "player_id": 686752,
           "name": "Ryan Pepiot",
           "il_type": "Injured List",
-          "date": "2026-03-24",
-          "note": "Tampa Bay Rays placed RHP Ryan Pepiot on the 15-day injured list retroactive to March 22, 2026. Right hip inflammation. | Status Change",
-          "description": "Tampa Bay Rays placed RHP Ryan Pepiot on the 15-day injured list retroactive to March 22, 2026. Right hip inflammation."
+          "date": "2026-04-14",
+          "note": "Tampa Bay Rays transferred RHP Ryan Pepiot from the 15-day injured list to the 60-day injured list. Right hip inflammation. | Status Change",
+          "description": "Tampa Bay Rays transferred RHP Ryan Pepiot from the 15-day injured list to the 60-day injured list. Right hip inflammation."
         },
         {
           "player_id": 621051,

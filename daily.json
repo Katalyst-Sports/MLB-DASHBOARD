@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-14T15:55:40.638345-04:00",
+  "updated_at": "2026-04-14T18:33:23.704767-04:00",
   "games": [
     {
       "gamePk": 824853,
@@ -7,7 +7,7 @@
       "home_team": "Baltimore Orioles",
       "venue": "Oriole Park at Camden Yards",
       "start": "2026-04-14T22:35:00Z",
-      "status": "Preview",
+      "status": "Live",
       "away_pitcher": {
         "id": 518876,
         "name": "Merrill Kelly",
@@ -128,26 +128,6 @@
           }
         },
         {
-          "name": "Gabriel Moreno",
-          "stats": {
-            "avg": ".275",
-            "obp": ".333",
-            "slg": ".400",
-            "ops": ".733",
-            "homeRuns": 0,
-            "rbi": 5
-          },
-          "last10ab": {
-            "avg": "0.333",
-            "hits": 4,
-            "atBats": 12,
-            "homeRuns": 0,
-            "rbi": 1,
-            "walks": 1,
-            "games": 3
-          }
-        },
-        {
           "name": "Adrian Del Castillo",
           "stats": {
             "avg": ".333",
@@ -243,6 +223,26 @@
             "atBats": 11,
             "homeRuns": 0,
             "rbi": 0,
+            "walks": 0,
+            "games": 3
+          }
+        },
+        {
+          "name": "Geraldo Perdomo",
+          "stats": {
+            "avg": ".148",
+            "obp": ".284",
+            "slg": ".241",
+            "ops": ".525",
+            "homeRuns": 1,
+            "rbi": 4
+          },
+          "last10ab": {
+            "avg": "0.333",
+            "hits": 4,
+            "atBats": 12,
+            "homeRuns": 1,
+            "rbi": 2,
             "walks": 0,
             "games": 3
           }
@@ -429,7 +429,7 @@
       "home_team": "Detroit Tigers",
       "venue": "Comerica Park",
       "start": "2026-04-14T22:40:00Z",
-      "status": "Preview",
+      "status": "Live",
       "away_pitcher": {
         "id": 666142,
         "name": "Cole Ragans",
@@ -903,52 +903,52 @@
       "start": "2026-04-14T22:40:00Z",
       "status": "Preview",
       "away_pitcher": {
-        "id": 571945,
-        "name": "Miles Mikolas",
-        "hand": "R",
-        "era": "12.41",
-        "whip": "2.35",
+        "id": 676571,
+        "name": "PJ Poulin",
+        "hand": "L",
+        "era": "4.00",
+        "whip": "1.44",
         "last3": {
           "starts": [
             {
-              "date": "2026-03-28",
+              "date": "2026-03-26",
               "opponent": "Chicago Cubs",
-              "ip": "5.0",
-              "er": 4,
-              "k": 4,
-              "bb": 3,
-              "pitches": 97,
-              "strikes": 57
-            },
-            {
-              "date": "2026-04-03",
-              "opponent": "Los Angeles Dodgers",
-              "ip": "4.1",
-              "er": 11,
-              "k": 4,
+              "ip": "1.0",
+              "er": 0,
+              "k": 0,
               "bb": 1,
-              "pitches": 87,
-              "strikes": 56
+              "pitches": 24,
+              "strikes": 13
             },
             {
-              "date": "2026-04-08",
-              "opponent": "St. Louis Cardinals",
-              "ip": "3.0",
-              "er": 2,
-              "k": 3,
-              "bb": 3,
-              "pitches": 55,
-              "strikes": 34
+              "date": "2026-03-29",
+              "opponent": "Chicago Cubs",
+              "ip": "0.2",
+              "er": 0,
+              "k": 1,
+              "bb": 1,
+              "pitches": 14,
+              "strikes": 8
+            },
+            {
+              "date": "2026-03-31",
+              "opponent": "Philadelphia Phillies",
+              "ip": "1.0",
+              "er": 0,
+              "k": 1,
+              "bb": 0,
+              "pitches": 9,
+              "strikes": 7
             }
           ],
-          "avg_ip": "4.0",
-          "avg_k": "3.7",
-          "avg_bb": "2.3",
-          "avg_pitches": "79.7",
-          "avg_strikes": "49.0",
-          "era": "12.41",
-          "whip": "2.35",
-          "strike_pct": "61.5",
+          "avg_ip": "1.0",
+          "avg_k": "0.7",
+          "avg_bb": "0.7",
+          "avg_pitches": "15.7",
+          "avg_strikes": "9.3",
+          "era": "0.00",
+          "whip": "1.12",
+          "strike_pct": "59.6",
           "quality_starts": 0
         }
       },
@@ -1373,7 +1373,7 @@
       "home_team": "Cincinnati Reds",
       "venue": "Great American Ball Park",
       "start": "2026-04-14T22:40:00Z",
-      "status": "Preview",
+      "status": "Live",
       "away_pitcher": {
         "id": 592662,
         "name": "Robbie Ray",
@@ -1845,7 +1845,7 @@
       "home_team": "Philadelphia Phillies",
       "venue": "Citizens Bank Park",
       "start": "2026-04-14T22:40:00Z",
-      "status": "Preview",
+      "status": "Live",
       "away_pitcher": {
         "id": 702303,
         "name": "Riley Martin",
@@ -2317,7 +2317,7 @@
       "home_team": "New York Yankees",
       "venue": "Yankee Stadium",
       "start": "2026-04-14T23:05:00Z",
-      "status": "Preview",
+      "status": "Live",
       "away_pitcher": {
         "id": 672282,
         "name": "Reid Detmers",
