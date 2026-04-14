@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-04-14T02:08:30.353576-04:00",
+  "updated_at": "2026-04-14T06:47:53.480277-04:00",
   "date": "2026-04-13",
   "dashboard_recap": {
     "headline": "MLB Daily Recap - April 13, 2026",
-    "article": "**Astros Fall to Mariners as Kirby Dominates**\n\nSeattle's George Kirby pitched 7.2 innings, striking out six while allowing just two earned runs, leading the Mariners to a 6-2 win over the Houston Astros. Josh Naylor's two-homer, five-RBI performance was not enough to propel the Astros to victory. Meanwhile, the Mariners' Julio Rodr\u00edguez and Cal Raleigh also had strong games, with Rodr\u00edguez driving in a run and Raleigh scoring twice.\n\nIn other action, the Baltimore Orioles edged the Arizona Diamondbacks 9-7 behind a strong outing from Dean Kremer and a five-RBI performance from Jeremiah Jackson. Jackson's two-homer, five-RBI effort helped propel the Orioles to their win, while the Diamondbacks' Ketel Marte and Ildemaro Vargas both had strong games.\n\nThe Pittsburgh Pirates routed the Washington Nationals 16-5, behind a dominant performance from Paul Skenes and a five-RBI effort from Brandon Lowe. Skenes pitched six innings, striking out six and allowing just one earned run, while Lowe homered and drove in five runs for the Pirates.",
+    "article": "ASTROS' SLUMP CONTINUES AS MARINERS TAKE DOWN HOUSTON 6-2\n\nSeattle's offense showed no signs of slowing down, as Cal Raleigh and Julio Rodr\u00edguez combined for three hits and two RBIs. Meanwhile, Josh Naylor's two-home-run performance was not enough to lift the Astros, who fell to 2-6 on the season. George Kirby dominated on the mound, tossing 7.2 innings of two-run baseball with six strikeouts. In other action, the Orioles' bullpen held off the Diamondbacks, thanks in part to Dean Kremer's five strikeouts in five innings of work, and the Pirates' Paul Skenes pitched a six-inning shutout in a 16-5 rout of the Nationals.",
     "all_games": [
       {
         "game": "Houston Astros @ Seattle Mariners",
@@ -18,7 +18,7 @@
         "final_score": "7-9",
         "top_pitching_line": "Dean Kremer: 5.0 IP, 9 K, 2 ER, 0 BB, 6 H",
         "top_batting_line": "Jeremiah Jackson: 3 H, 2 HR, 5 RBI, 4 AB",
-        "summary": "Baltimore Orioles outlasted Arizona Diamondbacks 9-7 behind Jeremiah Jackson's 3-for-4 performance with 2 home runs and 5 RBIs.",
+        "summary": "Baltimore Orioles outlast Arizona 9-7 behind Dean Kremer's 5 strong innings and Jeremiah Jackson's 3-hit, 2-homer performance.",
         "impact_player": "Jeremiah Jackson"
       },
       {
@@ -26,7 +26,7 @@
         "final_score": "5-16",
         "top_pitching_line": "Paul Skenes: 6.0 IP, 6 K, 1 ER, 1 BB, 1 H",
         "top_batting_line": "Brandon Lowe: 3 H, 1 HR, 5 RBI, 5 AB",
-        "summary": "The Pittsburgh Pirates dominated the Washington Nationals 16-5 behind a 3-hit, 5-RBI performance from Brandon Lowe.",
+        "summary": "The Pittsburgh Pirates dominated with a 16-5 victory, led by Brandon Lowe's 3 hits, 1 home run, and 5 RBIs, while Paul Skenes pitched 6 strong innings.",
         "impact_player": "Brandon Lowe"
       },
       {
@@ -34,7 +34,7 @@
         "final_score": "7-13",
         "top_pitching_line": "Cristopher S\u00e1nchez: 6.0 IP, 8 K, 2 ER, 3 BB, 6 H",
         "top_batting_line": "Kyle Schwarber: 2 H, 2 HR, 3 RBI, 3 AB",
-        "summary": "The Philadelphia Phillies dominated the Chicago Cubs 13-7 behind Kyle Schwarber's 2 HR and 3 RBI, and Cristopher S\u00e1nchez's 6 strong innings with 8 strikeouts.",
+        "summary": "The Philadelphia Phillies dominated the Chicago Cubs 13-7 behind Kyle Schwarber's 2 HR, 3 RBI performance and Cristopher S\u00e1nchez's 6 strong innings.",
         "impact_player": "Kyle Schwarber"
       },
       {
@@ -42,7 +42,7 @@
         "final_score": "10-11",
         "top_pitching_line": "Will Warren: 3.2 IP, 6 K, 0 ER, 1 BB, 3 H",
         "top_batting_line": "Mike Trout: 2 H, 2 HR, 5 RBI, 5 AB",
-        "summary": "The New York Yankees edged the Los Angeles Angels 11-10, led by Mike Trout's 2 HR and 5 RBI, and Will Warren's 3.2 scoreless innings.",
+        "summary": "The New York Yankees outlasted the Los Angeles Angels 11-10 behind Mike Trout's 2 HR and 5 RBI, and a crucial wild pitch by Jordan Romano.",
         "impact_player": "Mike Trout"
       },
       {
@@ -50,7 +50,7 @@
         "final_score": "10-4",
         "top_pitching_line": "Lake Bachar: 2.0 IP, 4 K, 0 ER, 1 BB, 1 H",
         "top_batting_line": "Agust\u00edn Ram\u00edrez: 3 H, 1 HR, 4 RBI, 4 AB",
-        "summary": "The Miami Marlins dominated the Atlanta Braves 10-4, led by Agust\u00edn Ram\u00edrez's 3 hits, including a home run, and 4 RBIs.",
+        "summary": "The Miami Marlins dominated the Atlanta Braves 10-4, led by Agust\u00edn Ram\u00edrez's 3 hits, 1 home run, and 4 RBIs, and Lake Bachar's 2 scoreless innings with 4 strikeouts.",
         "impact_player": "Agust\u00edn Ram\u00edrez"
       },
       {
@@ -58,7 +58,7 @@
         "final_score": "6-13",
         "top_pitching_line": "Garrett Acton: 2.0 IP, 3 K, 0 ER, 2 BB, 0 H",
         "top_batting_line": "Ryan Jeffers: 3 H, 1 HR, 3 RBI, 4 AB",
-        "summary": "The Minnesota Twins defeated the Boston Red Sox 13-6, led by Ryan Jeffers' 3 hits, 1 home run, and 3 RBIs.",
+        "summary": "The Minnesota Twins dominated the Boston Red Sox 13-6, led by Ryan Jeffers' 3 hits, including a home run, and 3 RBIs.",
         "impact_player": "Ryan Jeffers"
       },
       {
@@ -66,7 +66,7 @@
         "final_score": "9-3",
         "top_pitching_line": "Ryan Fernandez: 1.2 IP, 2 K, 0 ER, 0 BB, 4 H",
         "top_batting_line": "Brayan Rocchio: 2 H, 1 HR, 2 RBI, 3 AB",
-        "summary": "The Cleveland Guardians dominated the St. Louis Cardinals 9-3 behind Brayan Rocchio's 2 hits, including a home run, and a strong relief appearance from Ryan Fernandez.",
+        "summary": "The Cleveland Guardians dominated the St. Louis Cardinals 9-3 behind Brayan Rocchio's 2 hits, including a home run, and 2 RBIs.",
         "impact_player": "Brayan Rocchio"
       },
       {
@@ -74,7 +74,7 @@
         "final_score": "8-1",
         "top_pitching_line": "Nathan Eovaldi: 7.0 IP, 7 K, 0 ER, 2 BB, 3 H",
         "top_batting_line": "Jake Burger: 2 H, 2 HR, 4 RBI, 4 AB",
-        "summary": "The Texas Rangers dominated the Athletics 8-1 behind Nathan Eovaldi's 7 shutout innings and Jake Burger's 2-home run, 4-RBI performance.",
+        "summary": "The Texas Rangers dominated the Athletics 8-1 behind Nathan Eovaldi's 7 shutout innings and Jake Burger's 2 home runs and 4 RBIs.",
         "impact_player": "Jake Burger"
       },
       {
@@ -82,7 +82,7 @@
         "final_score": "0-4",
         "top_pitching_line": "Joey Gerber: 2.0 IP, 5 K, 0 ER, 1 BB, 2 H",
         "top_batting_line": "Andy Pages: 1 H, 1 HR, 3 RBI, 4 AB",
-        "summary": "The Los Angeles Dodgers shut out the New York Mets 4-0, led by Andy Pages' 1-for-4 performance with a 3-RBI home run.",
+        "summary": "The Los Angeles Dodgers shut out the New York Mets 4-0 behind Joey Gerber's 2 scoreless innings and Andy Pages' 3-RBI, 1-homer performance.",
         "impact_player": "Andy Pages"
       }
     ],
