@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-04-15T06:43:53.851826-04:00",
+  "updated_at": "2026-04-15T10:57:24.543124-04:00",
   "date": "2026-04-14",
   "dashboard_recap": {
     "headline": "MLB Daily Recap - April 14, 2026",
-    "article": "Diamondbacks Walk Off in Thrilling 4-3 Win Over Orioles\n\nIn a nail-biting finish, Ildemaro Vargas' 3 RBI performance, including a 3-run home run, propelled the Arizona Diamondbacks to a 4-3 victory over the Baltimore Orioles. Merrill Kelly earned the win, while Trevor Rogers took the loss. Grant Wolfram's 1.1 innings of scoreless relief provided crucial support.\n\nReds Edge Giants in Low-Scoring Affair\n\nThe Cincinnati Reds edged the San Francisco Giants 2-1, with Willy Adames hitting his third home run of the season. Robbie Ray tossed 5 strong innings for the Giants, but Brady Singer earned the win for the Reds. Willy Adames' home run proved to be the difference-maker.\n\nAngels Cruise Past Yankees 7-1\n\nMike Trout and Reid Detmers led the Los Angeles Angels to a 7-1 thrashing of the New York Yankees. Detmers pitched a complete game, striking out 9, while Yo\u00e1n Moncada hit a 3-run home run for the Angels.",
+    "article": "**MLB Recap: Thursday's Action**\n\nThursday's MLB slate featured a mix of high-scoring affairs and dominant pitching performances. In the Arizona Diamondbacks' 4-3 win over the Baltimore Orioles, Ildemaro Vargas went deep twice, driving in three runs, while Merrill Kelly earned the win in relief. On the mound, Trevor Rogers struggled, allowing three runs over 4.2 innings for the Orioles.\n\nIn the Detroit Tigers' 2-1 victory over the Kansas City Royals, Dillon Dingler doubled and scored the go-ahead run in the seventh inning. Will Vest earned the win with a scoreless ninth inning, striking out three Royals.\n\nThe Washington Nationals outlasted the Pittsburgh Pirates 5-4, behind CJ Abrams' three-hit, two-RBI performance. Mitchell Parker tossed two scoreless innings for the win, striking out five Pirates.\n\nThursday's action also saw the Los Angeles Angels dominate the New York Yankees 7-1, with Reid Detmers allowing just one earned run over seven innings. Yo\u00e1n Moncada homered and drove in three runs for the Angels.\n\nByron Buxton continued his hot streak, homering twice and driving in two runs in the Minnesota Twins' 6-0 win over the Boston Red Sox. Mick Abel pitched a complete-game shutout, striking out 10 Red Sox.\n\nThe Tampa Bay Rays edged the Chicago White Sox 8-5, behind Shane McClanahan's five scoreless innings and Everson Pereira's three-RBI performance.\n\nIn other results, the Toronto Blue Jays rallied for a 9-7 win over the Milwaukee Brewers, while the Atlanta Braves outlasted the Miami Marlins 6-5. The St. Louis Cardinals edged the Cleveland Guardians 6-5, and the Houston Astros came from behind to beat the Colorado Rockies 7-6.",
     "all_games": [
       {
         "game": "Arizona Diamondbacks @ Baltimore Orioles",
@@ -18,7 +18,7 @@
         "final_score": "1-2",
         "top_pitching_line": "Will Vest: 1.0 IP, 3 K, 0 ER, 0 BB, 0 H",
         "top_batting_line": "Dillon Dingler: 2 H, 0 HR, 1 RBI, 4 AB",
-        "summary": "The Detroit Tigers edged the Kansas City Royals 2-1 behind Will Vest's scoreless relief inning and Dillon Dingler's key double that plated a run.",
+        "summary": "The Detroit Tigers edged the Kansas City Royals 2-1 behind Will Vest's scoreless relief inning and Dillon Dingler's key double that scored Kevin McGonigle.",
         "impact_player": "Dillon Dingler"
       },
       {
@@ -34,7 +34,7 @@
         "final_score": "1-2",
         "top_pitching_line": "Robbie Ray: 5.0 IP, 6 K, 2 ER, 4 BB, 2 H",
         "top_batting_line": "Willy Adames: 2 H, 1 HR, 1 RBI, 4 AB",
-        "summary": "The Cincinnati Reds edged the San Francisco Giants 2-1 behind Willy Adames' solo home run and Robbie Ray's 5 strong innings with 6 strikeouts.",
+        "summary": "The Cincinnati Reds edged the San Francisco Giants 2-1 behind a strong outing from Robbie Ray and Willy Adames' solo home run.",
         "impact_player": "Willy Adames"
       },
       {
@@ -42,7 +42,7 @@
         "final_score": "10-4",
         "top_pitching_line": "Chase Shugart: 2.0 IP, 3 K, 0 ER, 1 BB, 2 H",
         "top_batting_line": "Carson Kelly: 2 H, 1 HR, 3 RBI, 4 AB",
-        "summary": "The Chicago Cubs dominated the Philadelphia Phillies 10-4, led by Carson Kelly's 2-for-4 performance with a home run and 3 RBIs.",
+        "summary": "The Chicago Cubs dominated the Philadelphia Phillies 10-4 behind Carson Kelly's 2-hit, 1-home run performance, including a 3-RBI homer.",
         "impact_player": "Carson Kelly"
       },
       {
@@ -50,7 +50,7 @@
         "final_score": "7-1",
         "top_pitching_line": "Reid Detmers: 7.0 IP, 9 K, 1 ER, 0 BB, 4 H",
         "top_batting_line": "Yo\u00e1n Moncada: 2 H, 1 HR, 3 RBI, 4 AB",
-        "summary": "The Los Angeles Angels dominated the New York Yankees 7-1 behind Reid Detmers' 7 strong innings, striking out 9 and allowing just 1 earned run.",
+        "summary": "The Los Angeles Angels dominated the New York Yankees 7-1 behind Reid Detmers' 7-inning, 9-K performance and Yo\u00e1n Moncada's 2-hit, 3-RBI effort.",
         "impact_player": "Yo\u00e1n Moncada"
       },
       {
@@ -58,7 +58,7 @@
         "final_score": "5-6",
         "top_pitching_line": "Dylan Lee: 1.0 IP, 2 K, 0 ER, 0 BB, 0 H",
         "top_batting_line": "Dominic Smith: 3 H, 0 HR, 4 RBI, 4 AB",
-        "summary": "The Atlanta Braves edged the Miami Marlins 6-5, with Dominic Smith's 4-RBI performance and Dylan Lee's scoreless relief inning proving pivotal.",
+        "summary": "The Atlanta Braves edged the Miami Marlins 6-5 behind a strong performance from Dylan Lee and Dominic Smith's 4-RBI effort, including a crucial double.",
         "impact_player": "Dominic Smith"
       },
       {
@@ -66,7 +66,7 @@
         "final_score": "0-6",
         "top_pitching_line": "Mick Abel: 7.0 IP, 10 K, 0 ER, 0 BB, 4 H",
         "top_batting_line": "Byron Buxton: 4 H, 2 HR, 2 RBI, 5 AB",
-        "summary": "The Minnesota Twins dominated the Boston Red Sox 6-0 behind Mick Abel's 7 shutout innings and Byron Buxton's 2 home runs.",
+        "summary": "The Minnesota Twins dominated the Boston Red Sox 6-0, led by Byron Buxton's 4 hits and 2 home runs, and Mick Abel's 7 shutout innings with 10 strikeouts.",
         "impact_player": "Byron Buxton"
       },
       {
@@ -74,7 +74,7 @@
         "final_score": "8-5",
         "top_pitching_line": "Shane McClanahan: 5.0 IP, 4 K, 2 ER, 4 BB, 2 H",
         "top_batting_line": "Everson Pereira: 1 H, 1 HR, 3 RBI, 4 AB",
-        "summary": "The Tampa Bay Rays edged the Chicago White Sox 8-5, led by Everson Pereira's 1 HR and 3 RBI, and Shane McClanahan's 5 strong innings.",
+        "summary": "The Tampa Bay Rays edged the Chicago White Sox 8-5 behind Everson Pereira's 3 RBI and Shane McClanahan's 5 strong innings with 4 strikeouts.",
         "impact_player": "Everson Pereira"
       },
       {
@@ -82,7 +82,7 @@
         "final_score": "9-7",
         "top_pitching_line": "Jacob Misiorowski: 5.1 IP, 5 K, 2 ER, 0 BB, 5 H",
         "top_batting_line": "Jake Bauers: 1 H, 1 HR, 3 RBI, 4 AB",
-        "summary": "The Toronto Blue Jays outlasted the Milwaukee Brewers 9-7, led by Jake Bauers' 1 HR and 3 RBI, and Jacob Misiorowski's 5.1 IP with 5 K and 2 ER.",
+        "summary": "The Toronto Blue Jays edged the Milwaukee Brewers 9-7 behind Jake Bauers' 1 HR and 3 RBI, and Jacob Misiorowski's 5.1 strong innings.",
         "impact_player": "Jake Bauers"
       },
       {
@@ -90,7 +90,7 @@
         "final_score": "5-6",
         "top_pitching_line": "Matt Svanson: 1.0 IP, 2 K, 0 ER, 0 BB, 0 H",
         "top_batting_line": "JJ Wetherholt: 2 H, 2 HR, 3 RBI, 4 AB",
-        "summary": "The St. Louis Cardinals edged the Cleveland Guardians 6-5, led by JJ Wetherholt's 2 HR and 3 RBI performance.",
+        "summary": "The St. Louis Cardinals edged the Cleveland Guardians 6-5 behind JJ Wetherholt's 2 HR and 3 RBI, including a crucial 3-run game.",
         "impact_player": "JJ Wetherholt"
       },
       {
@@ -114,7 +114,7 @@
         "final_score": "1-2",
         "top_pitching_line": "Jeffrey Springs: 6.1 IP, 5 K, 1 ER, 2 BB, 3 H",
         "top_batting_line": "Jacob Wilson: 1 H, 0 HR, 2 RBI, 3 AB",
-        "summary": "The Athletics edged the Rangers 2-1 behind a crucial two-run single by Jacob Wilson in the key game detail.",
+        "summary": "The Athletics edged the Rangers 2-1 behind Jacob Wilson's 2-RBI single and Jeffrey Springs' 6.1 innings of 1-run relief.",
         "impact_player": "Jacob Wilson"
       },
       {
