@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-15T10:57:24.543124-04:00",
+  "updated_at": "2026-04-15T14:54:17.074431-04:00",
   "teams": [
     {
       "team_id": 109,
@@ -1456,7 +1456,7 @@
     {
       "team_id": 143,
       "team_name": "Philadelphia Phillies",
-      "injured_count": 4,
+      "injured_count": 5,
       "players": [
         {
           "player_id": 680742,
@@ -1481,6 +1481,14 @@
           "date": "2026-03-25",
           "note": "Philadelphia Phillies placed RHP Orion Kerkering on the 15-day injured list retroactive to March 22, 2026. Right hamstring strain. | Status Change",
           "description": "Philadelphia Phillies placed RHP Orion Kerkering on the 15-day injured list retroactive to March 22, 2026. Right hamstring strain."
+        },
+        {
+          "player_id": 647315,
+          "name": "Zach Pop",
+          "il_type": "Injured List",
+          "date": "2026-04-15",
+          "note": "Philadelphia Phillies placed RHP Zach Pop on the 15-day injured list retroactive to April 13, 2026. Right calf strain. | Status Change",
+          "description": "Philadelphia Phillies placed RHP Zach Pop on the 15-day injured list retroactive to April 13, 2026. Right calf strain."
         },
         {
           "player_id": 554430,
@@ -1613,8 +1621,16 @@
     {
       "team_id": 137,
       "team_name": "San Francisco Giants",
-      "injured_count": 7,
+      "injured_count": 9,
       "players": [
+        {
+          "player_id": 664056,
+          "name": "Harrison Bader",
+          "il_type": "Injured List",
+          "date": "2026-04-15",
+          "note": "San Francisco Giants placed LF Harrison Bader on the 10-day injured list retroactive to April 12, 2026. Left hamstring strain. | Status Change",
+          "description": "San Francisco Giants placed LF Harrison Bader on the 10-day injured list retroactive to April 12, 2026. Left hamstring strain."
+        },
         {
           "player_id": 806185,
           "name": "Hayden Birdsong",
@@ -1622,6 +1638,14 @@
           "date": "2026-03-21",
           "note": "San Francisco Giants placed RHP Hayden Birdsong on the 60-day injured list. Tommy John surgery. | Status Change",
           "description": "San Francisco Giants placed RHP Hayden Birdsong on the 60-day injured list. Tommy John surgery."
+        },
+        {
+          "player_id": 666931,
+          "name": "Jared Oliva",
+          "il_type": "Injured List",
+          "date": "2026-04-15",
+          "note": "San Francisco Giants placed OF Jared Oliva on the 10-day injured list. Left wrist hamate fracture. | Status Change",
+          "description": "San Francisco Giants placed OF Jared Oliva on the 10-day injured list. Left wrist hamate fracture."
         },
         {
           "player_id": 671345,

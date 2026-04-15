@@ -1,5 +1,39 @@
 {
-  "updated_at": "2026-04-15T10:57:24.543124-04:00",
-  "games": [],
+  "updated_at": "2026-04-15T14:54:17.074431-04:00",
+  "games": [
+    {
+      "gamePk": 824855,
+      "game": "Arizona Diamondbacks @ Baltimore Orioles",
+      "score": "5-5",
+      "inning": "8th",
+      "hot_hitters": [
+        "Corbin Carroll",
+        "Jeremiah Jackson"
+      ],
+      "top_pitchers": []
+    },
+    {
+      "gamePk": 823071,
+      "game": "Cleveland Guardians @ St. Louis Cardinals",
+      "score": "1-1",
+      "inning": "5th",
+      "hot_hitters": [
+        "Kyle Manzardo"
+      ],
+      "top_pitchers": []
+    },
+    {
+      "gamePk": 823722,
+      "game": "Boston Red Sox @ Minnesota Twins",
+      "score": "5-1",
+      "inning": "5th",
+      "hot_hitters": [
+        "Trevor Story",
+        "Isiah Kiner-Falefa",
+        "Austin Martin"
+      ],
+      "top_pitchers": []
+    }
+  ],
   "errors": []
 }
