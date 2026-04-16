@@ -1,6 +1,28 @@
 {
-  "updated_at": "2026-04-16T15:53:52.834956-04:00",
+  "updated_at": "2026-04-16T18:08:48.257346-04:00",
   "games": [
+    {
+      "gamePk": 823396,
+      "game": "Washington Nationals @ Pittsburgh Pirates",
+      "winner": "Washington Nationals",
+      "loser": "Pittsburgh Pirates",
+      "final_score": "8-7",
+      "hitters": [
+        "James Wood",
+        "Daylen Lile",
+        "Drew Millas",
+        "Jake Mangum",
+        "Nick Gonzales",
+        "Oneil Cruz",
+        "Marcell Ozuna",
+        "Brandon Lowe",
+        "Konnor Griffin"
+      ],
+      "pitchers": [
+        "Foster Griffin",
+        "Braxton Ashcraft"
+      ]
+    },
     {
       "gamePk": 824530,
       "game": "San Francisco Giants @ Cincinnati Reds",
@@ -13,6 +35,56 @@
       "pitchers": [
         "Landen Roupp"
       ]
+    },
+    {
+      "gamePk": 823560,
+      "game": "Los Angeles Angels @ New York Yankees",
+      "winner": "Los Angeles Angels",
+      "loser": "New York Yankees",
+      "final_score": "11-4",
+      "hitters": [
+        "Mike Trout",
+        "Jo Adell",
+        "Oswald Peraza",
+        "Aaron Judge",
+        "Giancarlo Stanton",
+        "Ben Rice",
+        "Jos\u00e9 Caballero"
+      ],
+      "pitchers": []
+    },
+    {
+      "gamePk": 823801,
+      "game": "Toronto Blue Jays @ Milwaukee Brewers",
+      "winner": "Milwaukee Brewers",
+      "loser": "Toronto Blue Jays",
+      "final_score": "1-2",
+      "hitters": [
+        "Andr\u00e9s Gim\u00e9nez",
+        "William Contreras",
+        "Gary S\u00e1nchez"
+      ],
+      "pitchers": [
+        "Patrick Corbin",
+        "Brandon Sproat"
+      ]
+    },
+    {
+      "gamePk": 824614,
+      "game": "Tampa Bay Rays @ Chicago White Sox",
+      "winner": "Tampa Bay Rays",
+      "loser": "Chicago White Sox",
+      "final_score": "5-3",
+      "hitters": [
+        "Junior Caminero",
+        "Yandy D\u00edaz",
+        "Richie Palacios",
+        "Nick Fortes",
+        "Miguel Vargas",
+        "Chase Meidroth",
+        "Everson Pereira"
+      ],
+      "pitchers": []
     }
   ],
   "errors": []
