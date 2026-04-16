@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-15T18:04:31.967647-04:00",
+  "updated_at": "2026-04-16T01:53:26.741181-04:00",
   "teams": [
     {
       "team_id": 109,
@@ -1873,7 +1873,7 @@
     {
       "team_id": 140,
       "team_name": "Texas Rangers",
-      "injured_count": 4,
+      "injured_count": 6,
       "players": [
         {
           "player_id": 691945,
@@ -1884,12 +1884,20 @@
           "description": "Texas Rangers placed RHP Carter Baumler on the 15-day injured list. Right intercostal strain."
         },
         {
+          "player_id": 455119,
+          "name": "Chris Martin",
+          "il_type": "Injured List",
+          "date": "2026-04-15",
+          "note": "Texas Rangers placed RHP Chris Martin on the 15-day injured list. Right shoulder impingement. | Status Change",
+          "description": "Texas Rangers placed RHP Chris Martin on the 15-day injured list. Right shoulder impingement."
+        },
+        {
           "player_id": 674003,
           "name": "Cody Bradford",
           "il_type": "Injured List",
-          "date": "2026-03-25",
-          "note": "Texas Rangers placed LHP Cody Bradford on the 15-day injured list retroactive to March 22, 2026. Left elbow surgery rehab. | Status Change",
-          "description": "Texas Rangers placed LHP Cody Bradford on the 15-day injured list retroactive to March 22, 2026. Left elbow surgery rehab."
+          "date": "2026-04-15",
+          "note": "Texas Rangers placed LHP Cody Bradford on the 60-day injured list. Left elbow surgery rehab. | Status Change",
+          "description": "Texas Rangers placed LHP Cody Bradford on the 60-day injured list. Left elbow surgery rehab."
         },
         {
           "player_id": 683227,
@@ -1906,6 +1914,14 @@
           "date": "2026-03-08",
           "note": "Texas Rangers placed LHP Jordan Montgomery on the 60-day injured list. Recovering from Tommy John surgery. | Status Change",
           "description": "Texas Rangers placed LHP Jordan Montgomery on the 60-day injured list. Recovering from Tommy John surgery."
+        },
+        {
+          "player_id": 681168,
+          "name": "Luis Curvelo",
+          "il_type": "Injured List",
+          "date": "2026-04-15",
+          "note": "Texas Rangers placed RHP Luis Curvelo on the 15-day injured list. Right biceps strain. | Status Change",
+          "description": "Texas Rangers placed RHP Luis Curvelo on the 15-day injured list. Right biceps strain."
         }
       ]
     },

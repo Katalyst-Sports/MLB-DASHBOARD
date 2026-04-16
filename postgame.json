@@ -1,51 +1,5 @@
 {
-  "updated_at": "2026-04-15T18:04:31.967647-04:00",
-  "games": [
-    {
-      "gamePk": 824855,
-      "game": "Arizona Diamondbacks @ Baltimore Orioles",
-      "winner": "Arizona Diamondbacks",
-      "loser": "Baltimore Orioles",
-      "final_score": "8-5",
-      "hitters": [
-        "Corbin Carroll",
-        "Adrian Del Castillo",
-        "Ildemaro Vargas",
-        "Nolan Arenado",
-        "Jeremiah Jackson"
-      ],
-      "pitchers": []
-    },
-    {
-      "gamePk": 823071,
-      "game": "Cleveland Guardians @ St. Louis Cardinals",
-      "winner": "St. Louis Cardinals",
-      "loser": "Cleveland Guardians",
-      "final_score": "3-5",
-      "hitters": [
-        "Kyle Manzardo",
-        "Daniel Schneemann",
-        "Alec Burleson",
-        "Nathan Church"
-      ],
-      "pitchers": []
-    },
-    {
-      "gamePk": 823722,
-      "game": "Boston Red Sox @ Minnesota Twins",
-      "winner": "Boston Red Sox",
-      "loser": "Minnesota Twins",
-      "final_score": "9-5",
-      "hitters": [
-        "Roman Anthony",
-        "Trevor Story",
-        "Andruw Monasterio",
-        "Isiah Kiner-Falefa",
-        "Austin Martin",
-        "Ryan Kreidler"
-      ],
-      "pitchers": []
-    }
-  ],
+  "updated_at": "2026-04-16T01:53:26.741181-04:00",
+  "games": [],
   "errors": []
 }
