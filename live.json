@@ -1,5 +1,80 @@
 {
-  "updated_at": "2026-04-16T12:10:59.500467-04:00",
-  "games": [],
+  "updated_at": "2026-04-16T15:53:52.834956-04:00",
+  "games": [
+    {
+      "gamePk": 823396,
+      "game": "Washington Nationals @ Pittsburgh Pirates",
+      "score": "7-7",
+      "inning": "10th",
+      "hot_hitters": [
+        "Daylen Lile",
+        "Drew Millas",
+        "Jake Mangum",
+        "Nick Gonzales",
+        "Oneil Cruz",
+        "Marcell Ozuna",
+        "Brandon Lowe"
+      ],
+      "top_pitchers": []
+    },
+    {
+      "gamePk": 824289,
+      "game": "Kansas City Royals @ Detroit Tigers",
+      "score": "2-6",
+      "inning": "6th",
+      "hot_hitters": [
+        "Bobby Witt Jr.",
+        "Dillon Dingler",
+        "Matt Vierling"
+      ],
+      "top_pitchers": []
+    },
+    {
+      "gamePk": 823560,
+      "game": "Los Angeles Angels @ New York Yankees",
+      "score": "7-4",
+      "inning": "7th",
+      "hot_hitters": [
+        "Mike Trout",
+        "Oswald Peraza",
+        "Aaron Judge",
+        "Giancarlo Stanton",
+        "Ben Rice",
+        "Jos\u00e9 Caballero"
+      ],
+      "top_pitchers": []
+    },
+    {
+      "gamePk": 823801,
+      "game": "Toronto Blue Jays @ Milwaukee Brewers",
+      "score": "1-2",
+      "inning": "9th",
+      "hot_hitters": [
+        "Andr\u00e9s Gim\u00e9nez",
+        "William Contreras",
+        "Gary S\u00e1nchez"
+      ],
+      "top_pitchers": []
+    },
+    {
+      "gamePk": 824614,
+      "game": "Tampa Bay Rays @ Chicago White Sox",
+      "score": "1-1",
+      "inning": "6th",
+      "hot_hitters": [
+        "Nick Fortes",
+        "Miguel Vargas"
+      ],
+      "top_pitchers": []
+    },
+    {
+      "gamePk": 825023,
+      "game": "Texas Rangers @ Athletics",
+      "score": "1-0",
+      "inning": "4th",
+      "hot_hitters": [],
+      "top_pitchers": []
+    }
+  ],
   "errors": []
 }

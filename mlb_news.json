@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-04-16T12:10:59.500467-04:00",
-  "headline": "**MLB Daily Roundup: April 16, 2026**",
-  "article": "The Arizona Diamondbacks secured a crucial 8-5 victory over the Baltimore Orioles, with Adrian Del Castillo leading the offense. Meanwhile, the St. Louis Cardinals edged out the Cleveland Guardians 5-3, and the Boston Red Sox dominated the Minnesota Twins 9-5. The Kansas City Royals fell short in Detroit, while the Washington Nationals made two significant moves, shifting Ken Waldichuk to the 60-day injured list and acquiring left-hander Richard Lovelady in a trade with the New York Mets.\n\nInjuries continue to plague several teams, with the Texas Rangers placing Chris Martin, Luis Curvelo, and Cody Bradford on the injured list. The New York Mets' Jared Young and the Colorado Rockies' Kyle Freeland also join the list, while the Houston Astros' Cody Bolton and the San Francisco Giants' Jared Oliva are out due to injuries.\n\nThe Washington Nationals made a significant trade, acquiring left-hander Richard Lovelady from the New York Mets for cash. The Philadelphia Phillies traded right-hander Griff McGarry to the Los Angeles Dodgers for future considerations and international bonus pool money. The Baltimore Orioles acquired first baseman Christian Encarnacion-Strand from the Cincinnati Reds for cash, while the Toronto Blue Jays traded for second baseman Lenyn Sosa from the Chicago White Sox.",
+  "updated_at": "2026-04-16T15:53:52.834956-04:00",
+  "headline": "**MLB Daily Recap: April 16, 2026**",
+  "article": "The Arizona Diamondbacks secured a crucial 8-5 victory over the Baltimore Orioles, with Adrian Del Castillo leading the offense. Kevin Ginkel pitched 2 strong innings, striking out 4 batters and allowing 1 earned run. The St. Louis Cardinals also secured a win, defeating the Cleveland Guardians 5-3 behind Alec Burleson's 2 hits and 2 RBIs. The Boston Red Sox dominated the Minnesota Twins 9-5, with Trevor Story contributing 2 hits, 1 home run, and 5 RBIs.\n\nSeveral key players are dealing with injuries, including Washington Nationals left-hander Ken Waldichuk, who has been transferred to the 60-day injured list due to left forearm tightness. The Texas Rangers have also placed several players on the injured list, including Chris Martin (right shoulder impingement), Luis Curvelo (right biceps strain), and Cody Bradford (left elbow surgery rehab). The New York Mets have placed Jared Young on the 10-day injured list retroactive to April 13, 2026, with a left meniscus tear.\n\nThe MLB trade market has been active, with several notable deals taking place. The Baltimore Orioles acquired RHP Axel Perez from the Los Angeles Dodgers in exchange for RHP Chayce McDermott. The New York Mets traded LHP Richard Lovelady to the Washington Nationals for cash. The Arizona Diamondbacks traded RHP Junior Fern\u00e1ndez to the Milwaukee Brewers.",
   "top_news": [
     {
       "title": "**Diamondbacks Take Down Orioles 8-5**",
@@ -24,13 +24,18 @@
       "published": "2026-04-15"
     },
     {
+      "title": "**Giants Shut Out Reds 3-0**",
+      "summary": "The San Francisco Giants secured a shutout victory over the Cincinnati Reds, winning 3-0. Jung Hoo Lee and Landen Roupp were key contributors to the Giants' win.",
+      "published": "2026-04-16"
+    },
+    {
       "title": "**Nationals' Waldichuk Shifted to 60-Day IL**",
       "summary": "Washington Nationals left-hander Ken Waldichuk has been transferred from the 15-day injured list to the 60-day injured list due to left forearm tightness.",
       "published": "2026-04-16"
     },
     {
-      "title": "**Nationals Acquire Left-Handed Pitcher in Trade**",
-      "summary": "The Washington Nationals have acquired left-handed pitcher Richard Lovelady in a trade with the New York Mets. The Mets received cash in return for Lovelady's services.",
+      "title": "**Orioles Acquire Axel Perez in Trade**",
+      "summary": "The Baltimore Orioles have bolstered their roster with the addition of right-handed pitcher Axel Perez, who was acquired in a trade with the Los Angeles Dodgers. Perez joins the Orioles in exchange for right-handed pitcher Chayce McDermott.",
       "published": "2026-04-16"
     }
   ],
@@ -111,15 +116,33 @@
   "trade_updates": [
     {
       "date": "2026-04-16",
-      "team": "Washington Nationals",
-      "player": "Richard Lovelady",
-      "update": "New York Mets traded LHP Richard Lovelady to Washington Nationals for cash. | Trade"
+      "team": "Baltimore Orioles",
+      "player": "Axel Perez",
+      "update": "Los Angeles Dodgers traded RHP Axel Perez to Baltimore Orioles for RHP Chayce McDermott. | Trade"
+    },
+    {
+      "date": "2026-04-16",
+      "team": "Los Angeles Dodgers",
+      "player": "Chayce McDermott",
+      "update": "Los Angeles Dodgers traded RHP Axel Perez to Baltimore Orioles for RHP Chayce McDermott. | Trade"
     },
     {
       "date": "2026-04-16",
       "team": "New York Mets",
       "player": "Unknown Player",
       "update": "New York Mets traded LHP Richard Lovelady to Washington Nationals for cash. | Trade"
+    },
+    {
+      "date": "2026-04-16",
+      "team": "Washington Nationals",
+      "player": "Richard Lovelady",
+      "update": "New York Mets traded LHP Richard Lovelady to Washington Nationals for cash. | Trade"
+    },
+    {
+      "date": "2026-04-15",
+      "team": "Milwaukee Brewers",
+      "player": "Junior Fern\u00e1ndez",
+      "update": "Arizona Diamondbacks traded RHP Junior Fern\u00e1ndez to Milwaukee Brewers. | Trade"
     },
     {
       "date": "2026-04-14",
@@ -147,27 +170,9 @@
     },
     {
       "date": "2026-04-13",
-      "team": "Toronto Blue Jays",
-      "player": "Lenyn Sosa",
-      "update": "Chicago White Sox traded 2B Lenyn Sosa to Toronto Blue Jays for OF Jordan Rich and Future Considerations. | Trade"
-    },
-    {
-      "date": "2026-04-13",
-      "team": "Chicago White Sox",
-      "player": "Jordan Rich",
-      "update": "Chicago White Sox traded 2B Lenyn Sosa to Toronto Blue Jays for OF Jordan Rich and Future Considerations. | Trade"
-    },
-    {
-      "date": "2026-04-13",
       "team": "Chicago White Sox",
       "player": "Unknown Player",
       "update": "Chicago White Sox traded 2B Lenyn Sosa to Toronto Blue Jays for OF Jordan Rich and Future Considerations. | Trade"
-    },
-    {
-      "date": "2026-04-08",
-      "team": "Milwaukee Brewers",
-      "player": "Unknown Player",
-      "update": "Milwaukee Brewers traded RF Steward Berroa to Philadelphia Phillies for cash. | Trade"
     }
   ]
 }
