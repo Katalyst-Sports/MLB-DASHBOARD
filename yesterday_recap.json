@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-04-16T18:08:48.257346-04:00",
+  "updated_at": "2026-04-16T20:09:03.586049-04:00",
   "date": "2026-04-15",
   "dashboard_recap": {
     "headline": "MLB Daily Recap - April 15, 2026",
-    "article": "**Diamondbacks Stun Orioles in Thrilling 8-5 Victory**\n\nThe Arizona Diamondbacks rode a strong team effort to a 8-5 win over the Baltimore Orioles, with Adrian Del Castillo leading the charge. Del Castillo went 2-for-5 with a home run and 5 RBIs, while Nolan Arenado and Ildemaro Vargas also contributed with key hits. On the mound, Kevin Ginkel pitched 2 strong innings, striking out 4 and allowing just 1 earned run. Ryan Thompson earned the win, while Juan Morillo secured the save.\n\n**Cardinals Outlast Guardians in 5-3 Thriller**\n\nThe St. Louis Cardinals edged out the Cleveland Guardians 5-3, behind a solid performance from Dustin May. Alec Burleson went 2-for-5 with 2 RBIs, while Nathan Church delivered a key double in the 8th inning. Slade Cecconi pitched 4 strong innings for the Guardians, striking out 4 and allowing just 1 earned run.\n\n**Red Sox Rout Twins 9-5**\n\nThe Boston Red Sox dominated the Minnesota Twins 9-5, with Trevor Story leading the charge. Story went 2-for-4 with a home run and 5 RBIs, while Connelly Early pitched 6 strong innings, striking out 5 and allowing just 1 earned run. Ryan Kreidler also homered for the Red Sox, while Matt Wallner scored 2 runs.\n\n**Tigers Edge Royals 2-1 in Low-Scoring Affair**\n\nThe Detroit Tigers edged out the Kansas City Royals 2-1, behind a strong outing from Seth Lugo. Lugo pitched 6.2 innings, striking out 7 and allowing just 1 earned run. Wenceel P\u00e9rez went 1-for-1 with a home run, while Kyle Finnegan earned the win.",
+    "article": "**Diamondbacks Stun Orioles, Cubs Cruise Past Phillies**\n\nThe Arizona Diamondbacks took down the Baltimore Orioles 8-5 behind a strong team effort. Adrian Del Castillo led the way with a 2-HR, 5-RBI performance, while Corbin Carroll and Ildemaro Vargas also contributed with multiple hits. Ryan Thompson earned the win for the Diamondbacks. On the pitching side, Kevin Ginkel shone with 4 strikeouts in 2 innings. \n\nIn other action, the Chicago Cubs dominated the Philadelphia Phillies 11-2, with Nico Hoerner driving in 5 runs off a home run. Shota Imanaga pitched 6 innings, fanning 11 batters. Bryce Harper hit his 4th home run of the season for the Phillies. \n\nThe Houston Astros edged the Colorado Rockies 3-1, with Yordan Alvarez hitting his 7th home run of the season. Spencer Arrighetti earned the win with 10 strikeouts in 6 innings.",
     "all_games": [
       {
         "game": "Arizona Diamondbacks @ Baltimore Orioles",
         "final_score": "8-5",
         "top_pitching_line": "Kevin Ginkel: 2.0 IP, 4 K, 1 ER, 0 BB, 2 H",
         "top_batting_line": "Adrian Del Castillo: 2 H, 1 HR, 5 RBI, 5 AB",
-        "summary": "The Arizona Diamondbacks outlasted the Baltimore Orioles 8-5 behind Adrian Del Castillo's 2-for-5 performance with 1 home run and 5 RBIs.",
+        "summary": "The Arizona Diamondbacks outlasted the Baltimore Orioles 8-5 behind Adrian Del Castillo's 2 hits, including a home run, and 5 RBIs, while Kevin Ginkel struck out 4 in 2 innings.",
         "impact_player": "Adrian Del Castillo"
       },
       {
@@ -26,7 +26,7 @@
         "final_score": "9-5",
         "top_pitching_line": "Connelly Early: 6.0 IP, 5 K, 1 ER, 2 BB, 2 H",
         "top_batting_line": "Trevor Story: 2 H, 1 HR, 5 RBI, 4 AB",
-        "summary": "The Boston Red Sox defeated the Minnesota Twins 9-5, led by Trevor Story's 2-for-4 performance with 1 home run and 5 RBIs.",
+        "summary": "The Boston Red Sox outlasted the Minnesota Twins 9-5, led by Trevor Story's 2-for-4 performance with 1 home run and 5 RBIs.",
         "impact_player": "Trevor Story"
       },
       {
@@ -42,7 +42,7 @@
         "final_score": "0-2",
         "top_pitching_line": "Carmen Mlodzinski: 6.0 IP, 5 K, 0 ER, 2 BB, 2 H",
         "top_batting_line": "Ryan O'Hearn: 3 H, 0 HR, 0 RBI, 4 AB",
-        "summary": "The Pittsburgh Pirates shut out the Washington Nationals 2-0 behind Carmen Mlodzinski's 6 scoreless innings, highlighted by a key single from Nick Gonzales.",
+        "summary": "The Pittsburgh Pirates shut out the Washington Nationals 2-0 behind Carmen Mlodzinski's 6 strong innings, with Ryan O'Hearn collecting 3 hits for the Nationals.",
         "impact_player": "Ryan O'Hearn"
       },
       {
@@ -50,7 +50,7 @@
         "final_score": "3-8",
         "top_pitching_line": "JT Brubaker: 2.0 IP, 2 K, 0 ER, 1 BB, 2 H",
         "top_batting_line": "Sal Stewart: 2 H, 2 HR, 6 RBI, 4 AB",
-        "summary": "The Cincinnati Reds dominated the San Francisco Giants 8-3 behind Sal Stewart's 2 HR and 6 RBI performance.",
+        "summary": "The Cincinnati Reds dominated the San Francisco Giants 8-3, led by Sal Stewart's 2 HR and 6 RBI performance.",
         "impact_player": "Sal Stewart"
       },
       {
@@ -58,7 +58,7 @@
         "final_score": "11-2",
         "top_pitching_line": "Shota Imanaga: 6.0 IP, 11 K, 1 ER, 1 BB, 3 H",
         "top_batting_line": "Nico Hoerner: 3 H, 1 HR, 5 RBI, 5 AB",
-        "summary": "The Chicago Cubs dominated the Philadelphia Phillies 11-2 behind Shota Imanaga's 6 shutout innings and Nico Hoerner's 3-hit, 5-RBI performance.",
+        "summary": "The Chicago Cubs dominated the Philadelphia Phillies 11-2 behind Shota Imanaga's 6.0 IP with 11 Ks and Nico Hoerner's 3 H, 1 HR, 5 RBI performance.",
         "impact_player": "Nico Hoerner"
       },
       {
@@ -66,7 +66,7 @@
         "final_score": "4-5",
         "top_pitching_line": "Jack Kochanowicz: 6.2 IP, 6 K, 3 ER, 4 BB, 4 H",
         "top_batting_line": "Mike Trout: 2 H, 1 HR, 2 RBI, 4 AB",
-        "summary": "The New York Yankees edged the Los Angeles Angels 5-4 behind Jack Kochanowicz's 6.2 innings with 6 strikeouts and Mike Trout's 2 hits and 2 RBI.",
+        "summary": "The New York Yankees edged the Los Angeles Angels 5-4, behind a strong outing from Jack Kochanowicz and Mike Trout's 2 hits, 1 HR, and 2 RBI.",
         "impact_player": "Mike Trout"
       },
       {
@@ -74,7 +74,7 @@
         "final_score": "3-6",
         "top_pitching_line": "Bryce Elder: 5.2 IP, 7 K, 0 ER, 2 BB, 4 H",
         "top_batting_line": "Liam Hicks: 1 H, 1 HR, 2 RBI, 4 AB",
-        "summary": "The Atlanta Braves defeated the Miami Marlins 6-3 behind Bryce Elder's 5.2 scoreless innings and Liam Hicks' 1 HR and 2 RBI.",
+        "summary": "The Atlanta Braves defeated the Miami Marlins 6-3 behind Bryce Elder's 5.2 scoreless innings and Liam Hicks' 1 HR, 2 RBI performance.",
         "impact_player": "Liam Hicks"
       },
       {
@@ -82,7 +82,7 @@
         "final_score": "8-3",
         "top_pitching_line": "Jesse Scholtens: 5.0 IP, 3 K, 0 ER, 2 BB, 1 H",
         "top_batting_line": "Jonny DeLuca: 1 H, 1 HR, 3 RBI, 1 AB",
-        "summary": "The Tampa Bay Rays defeated the Chicago White Sox 8-3 behind Jesse Scholtens' 5 shutout innings and Jonny DeLuca's 1 HR, 3 RBI performance.",
+        "summary": "The Tampa Bay Rays defeated the Chicago White Sox 8-3 behind Jesse Scholtens' 5 shutout innings and Jonny DeLuca's 3 RBI, including a home run.",
         "impact_player": "Jonny DeLuca"
       },
       {
@@ -90,7 +90,7 @@
         "final_score": "1-2",
         "top_pitching_line": "Dylan Cease: 6.0 IP, 6 K, 0 ER, 3 BB, 2 H",
         "top_batting_line": "William Contreras: 2 H, 0 HR, 1 RBI, 4 AB",
-        "summary": "The Milwaukee Brewers edged the Toronto Blue Jays 2-1 behind Dylan Cease's 6 shutout innings and William Contreras' 2 hits and 1 RBI.",
+        "summary": "The Milwaukee Brewers edged the Toronto Blue Jays 2-1 behind Dylan Cease's 6 shutout innings and William Contreras' 2 hits, 1 RBI performance.",
         "impact_player": "William Contreras"
       },
       {
@@ -106,7 +106,7 @@
         "final_score": "6-7",
         "top_pitching_line": "Emerson Hancock: 6.0 IP, 6 K, 2 ER, 1 BB, 4 H",
         "top_batting_line": "Luke Raley: 4 H, 1 HR, 2 RBI, 5 AB",
-        "summary": "The San Diego Padres edged the Seattle Mariners 7-6 behind Luke Raley's 4 hits and home run, and Emerson Hancock's 6 strong innings.",
+        "summary": "The San Diego Padres edged the Seattle Mariners 7-6 behind Emerson Hancock's 6 strong innings and Luke Raley's 4-hit, 2-RBI performance.",
         "impact_player": "Luke Raley"
       },
       {
@@ -114,7 +114,7 @@
         "final_score": "5-6",
         "top_pitching_line": "Kumar Rocker: 4.2 IP, 6 K, 2 ER, 4 BB, 4 H",
         "top_batting_line": "Jake Burger: 1 H, 1 HR, 3 RBI, 2 AB",
-        "summary": "The Athletics edged the Rangers 6-5 behind Kumar Rocker's 4.2 innings of work, striking out 6, while Jake Burger's 1 HR and 3 RBI propelled the Athletics' offense.",
+        "summary": "The Athletics edged the Rangers 6-5, with Jake Burger's 5th home run of the season providing a spark, but ultimately falling short.",
         "impact_player": "Jake Burger"
       },
       {
@@ -122,7 +122,7 @@
         "final_score": "2-8",
         "top_pitching_line": "Shohei Ohtani: 6.0 IP, 10 K, 1 ER, 2 BB, 2 H",
         "top_batting_line": "Dalton Rushing: 2 H, 1 HR, 4 RBI, 4 AB",
-        "summary": "The Los Angeles Dodgers dominated the New York Mets 8-2 behind Shohei Ohtani's 6 shutout innings and Dalton Rushing's 2 hits, 1 home run, and 4 RBIs.",
+        "summary": "The Los Angeles Dodgers dominated the New York Mets 8-2 behind Shohei Ohtani's 6 shutout innings and Dalton Rushing's 2-hit, 4-RBI performance.",
         "impact_player": "Dalton Rushing"
       }
     ],
@@ -172,16 +172,15 @@
       ],
       "run_prevention": [
         "Jos\u00e9 Soriano (Los Angeles Angels) - ERA 0.33",
+        "Parker Messick (Cleveland Guardians) - ERA 0.36",
         "Michael Wacha (Kansas City Royals) - ERA 0.43",
         "Shohei Ohtani (Los Angeles Dodgers) - ERA 0.50",
         "Bryce Elder (Atlanta Braves) - ERA 0.77",
-        "Chad Patrick (Milwaukee Brewers) - ERA 0.95",
         "Jos\u00e9 Soriano (Los Angeles Angels) - WHIP 0.67",
+        "Parker Messick (Cleveland Guardians) - WHIP 0.70",
         "Michael Wacha (Kansas City Royals) - WHIP 0.71",
         "Shohei Ohtani (Los Angeles Dodgers) - WHIP 0.72",
-        "Cam Schlittler (New York Yankees) - WHIP 0.74",
-        "Emerson Hancock (Seattle Mariners) - WHIP 0.76",
-        "Nolan McLean (New York Mets) - WHIP 0.76"
+        "Cam Schlittler (New York Yankees) - WHIP 0.74"
       ]
     }
   }

@@ -1,42 +1,23 @@
 {
-  "updated_at": "2026-04-16T18:08:48.257346-04:00",
+  "updated_at": "2026-04-16T20:09:03.586049-04:00",
   "games": [
-    {
-      "gamePk": 824289,
-      "game": "Kansas City Royals @ Detroit Tigers",
-      "score": "9-10",
-      "inning": "9th",
-      "hot_hitters": [
-        "Bobby Witt Jr.",
-        "Vinnie Pasquantino",
-        "Salvador Perez",
-        "Carter Jensen",
-        "Gleyber Torres",
-        "Dillon Dingler",
-        "Riley Greene",
-        "Matt Vierling",
-        "Spencer Torkelson"
-      ],
-      "top_pitchers": []
-    },
-    {
-      "gamePk": 825023,
-      "game": "Texas Rangers @ Athletics",
-      "score": "9-6",
-      "inning": "9th",
-      "hot_hitters": [
-        "Josh Jung",
-        "Ezequiel Duran",
-        "Shea Langeliers",
-        "Nick Kurtz",
-        "Carlos Cortes",
-        "Lawrence Butler"
-      ],
-      "top_pitchers": []
-    },
     {
       "gamePk": 824453,
       "game": "Baltimore Orioles @ Cleveland Guardians",
+      "score": "0-4",
+      "inning": "8th",
+      "hot_hitters": [
+        "Steven Kwan",
+        "Jos\u00e9 Ram\u00edrez",
+        "George Valera"
+      ],
+      "top_pitchers": [
+        "Parker Messick"
+      ]
+    },
+    {
+      "gamePk": 824208,
+      "game": "Colorado Rockies @ Houston Astros",
       "score": "0-0",
       "inning": "1st",
       "hot_hitters": [],

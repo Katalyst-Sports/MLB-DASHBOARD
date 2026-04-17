@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-16T18:08:48.257346-04:00",
+  "updated_at": "2026-04-16T20:09:03.586049-04:00",
   "games": [
     {
       "gamePk": 823396,
@@ -35,6 +35,25 @@
       "pitchers": [
         "Landen Roupp"
       ]
+    },
+    {
+      "gamePk": 824289,
+      "game": "Kansas City Royals @ Detroit Tigers",
+      "winner": "Detroit Tigers",
+      "loser": "Kansas City Royals",
+      "final_score": "9-10",
+      "hitters": [
+        "Bobby Witt Jr.",
+        "Vinnie Pasquantino",
+        "Salvador Perez",
+        "Carter Jensen",
+        "Gleyber Torres",
+        "Dillon Dingler",
+        "Riley Greene",
+        "Matt Vierling",
+        "Spencer Torkelson"
+      ],
+      "pitchers": []
     },
     {
       "gamePk": 823560,
@@ -83,6 +102,23 @@
         "Miguel Vargas",
         "Chase Meidroth",
         "Everson Pereira"
+      ],
+      "pitchers": []
+    },
+    {
+      "gamePk": 825023,
+      "game": "Texas Rangers @ Athletics",
+      "winner": "Texas Rangers",
+      "loser": "Athletics",
+      "final_score": "9-6",
+      "hitters": [
+        "Josh Jung",
+        "Ezequiel Duran",
+        "Shea Langeliers",
+        "Nick Kurtz",
+        "Jacob Wilson",
+        "Carlos Cortes",
+        "Lawrence Butler"
       ],
       "pitchers": []
     }
