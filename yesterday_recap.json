@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-04-17T10:43:20.467551-04:00",
+  "updated_at": "2026-04-17T13:36:17.441310-04:00",
   "date": "2026-04-16",
   "dashboard_recap": {
     "headline": "MLB Daily Recap - April 16, 2026",
-    "article": "\"MARVELOUS MIDDAY MASH-UPS: DAY OF UPSETS AND POWER HITS\"\n\nIn a thrilling day of MLB action, the Washington Nationals edged out the Pittsburgh Pirates 8-7 in a back-and-forth battle, with Marcell Ozuna delivering a crucial 3-RBI home run and James Wood's timely single driving in the winning run. Meanwhile, Braxton Ashcraft shone on the mound for the Pirates with 7 strikeouts over 5.2 innings. Elsewhere, the San Francisco Giants dominated the Cincinnati Reds 3-0 behind a masterful performance by Landen Roupp, who tossed 6 shutout innings with 6 strikeouts. Jung Hoo Lee led the Giants' offense with 3 hits, including an RBI single that plated the game's first run.",
+    "article": "**Nationals Stun Pirates in Thrilling 8-7 Victory**\n\nThe Washington Nationals pulled off a stunning comeback win over the Pittsburgh Pirates yesterday, securing an 8-7 victory. James Wood's clutch single in the top of the 9th inning proved to be the difference-maker, scoring Jorbit Vivas and securing the win for the Nationals. On the mound, Braxton Ashcraft delivered a strong performance, tossing 5.2 innings with 7 strikeouts and 2 earned runs. Meanwhile, Marcell Ozuna's 3-RBI effort was highlighted by a home run, leading the Nationals' offense.\n\nIn other notable games, Landen Roupp spun a shutout for the San Francisco Giants, blanking the Cincinnati Reds 3-0. Jung Hoo Lee's 3-hit performance paced the Giants' offense. Parker Messick also had a standout outing, tossing 8 scoreless innings with 9 strikeouts for the Cleveland Guardians in a 4-2 win over the Baltimore Orioles.",
     "all_games": [
       {
         "game": "Washington Nationals @ Pittsburgh Pirates",
         "final_score": "8-7",
         "top_pitching_line": "Braxton Ashcraft: 5.2 IP, 7 K, 2 ER, 2 BB, 5 H",
         "top_batting_line": "Marcell Ozuna: 1 H, 1 HR, 3 RBI, 4 AB",
-        "summary": "The Washington Nationals edged the Pittsburgh Pirates 8-7 behind Marcell Ozuna's 1 HR and 3 RBI, and Braxton Ashcraft's 5.2 IP with 7 strikeouts.",
+        "summary": "The Washington Nationals edged the Pittsburgh Pirates 8-7, led by Marcell Ozuna's 1 HR and 3 RBI, and Braxton Ashcraft's 5.2 IP with 7 strikeouts.",
         "impact_player": "Marcell Ozuna"
       },
       {
@@ -18,7 +18,7 @@
         "final_score": "3-0",
         "top_pitching_line": "Landen Roupp: 6.0 IP, 6 K, 0 ER, 2 BB, 1 H",
         "top_batting_line": "Jung Hoo Lee: 3 H, 0 HR, 1 RBI, 4 AB",
-        "summary": "The San Francisco Giants shut out the Cincinnati Reds 3-0 behind Landen Roupp's 6 shutout innings, with Jung Hoo Lee contributing 3 hits and 1 RBI.",
+        "summary": "The San Francisco Giants shut out the Cincinnati Reds 3-0 behind Landen Roupp's 6 scoreless innings and Jung Hoo Lee's 3-hit performance.",
         "impact_player": "Jung Hoo Lee"
       },
       {
@@ -26,7 +26,7 @@
         "final_score": "9-10",
         "top_pitching_line": "Alex Lange: 1.0 IP, 2 K, 0 ER, 0 BB, 2 H",
         "top_batting_line": "Salvador Perez: 2 H, 1 HR, 4 RBI, 4 AB",
-        "summary": "The Detroit Tigers edged the Kansas City Royals 10-9 behind Salvador Perez's 2 hits, 1 home run, and 4 RBIs, and Alex Lange's 1 scoreless inning.",
+        "summary": "The Detroit Tigers edged the Kansas City Royals 10-9 behind Salvador Perez's 2 hits, 1 home run, and 4 RBIs, and Alex Lange's scoreless 1st inning.",
         "impact_player": "Salvador Perez"
       },
       {
@@ -34,7 +34,7 @@
         "final_score": "11-4",
         "top_pitching_line": "Sam Bachman: 3.0 IP, 2 K, 0 ER, 0 BB, 1 H",
         "top_batting_line": "Jo Adell: 2 H, 1 HR, 4 RBI, 4 AB",
-        "summary": "The Los Angeles Angels dominated the New York Yankees 11-4, led by Jo Adell's 2-for-4 performance including a grand slam and 4 RBIs.",
+        "summary": "The Los Angeles Angels dominated the New York Yankees 11-4, led by Jo Adell's 2-for-4 performance with a grand slam and 4 RBIs.",
         "impact_player": "Jo Adell"
       },
       {
@@ -42,7 +42,7 @@
         "final_score": "1-2",
         "top_pitching_line": "Patrick Corbin: 5.2 IP, 6 K, 1 ER, 1 BB, 4 H",
         "top_batting_line": "Andr\u00e9s Gim\u00e9nez: 2 H, 0 HR, 0 RBI, 3 AB",
-        "summary": "The Milwaukee Brewers edged the Toronto Blue Jays 2-1 behind Patrick Corbin's 5.2 innings of work, striking out 6 and allowing 1 ER.",
+        "summary": "The Milwaukee Brewers edged the Toronto Blue Jays 2-1 behind Patrick Corbin's 5.2 innings with 6 strikeouts and 1 earned run.",
         "impact_player": "Andr\u00e9s Gim\u00e9nez"
       },
       {
@@ -50,7 +50,7 @@
         "final_score": "5-3",
         "top_pitching_line": "Sean Newcomb: 1.2 IP, 3 K, 0 ER, 0 BB, 1 H",
         "top_batting_line": "Junior Caminero: 2 H, 1 HR, 1 RBI, 5 AB",
-        "summary": "The Tampa Bay Rays edged the Chicago White Sox 5-3 behind Junior Caminero's 2 hits, including a home run, and Sean Newcomb's 1.2 scoreless innings with 3 strikeouts.",
+        "summary": "The Tampa Bay Rays edged the Chicago White Sox 5-3 behind Junior Caminero's 2 hits, including a home run, and Sean Newcomb's 1.2 scoreless innings.",
         "impact_player": "Junior Caminero"
       },
       {
@@ -58,7 +58,7 @@
         "final_score": "9-6",
         "top_pitching_line": "Jacob Lopez: 5.0 IP, 5 K, 2 ER, 4 BB, 3 H",
         "top_batting_line": "Josh Jung: 3 H, 1 HR, 2 RBI, 5 AB",
-        "summary": "The Texas Rangers edged the Athletics 9-6, led by Josh Jung's 3 hits, including a home run, and Jacob Lopez's 5 strong innings with 5 strikeouts.",
+        "summary": "The Texas Rangers outlasted the Athletics 9-6 behind Josh Jung's 3 hits, including a home run, and Jacob Lopez's 5 strong innings with 5 strikeouts.",
         "impact_player": "Josh Jung"
       },
       {
@@ -66,7 +66,7 @@
         "final_score": "2-4",
         "top_pitching_line": "Parker Messick: 8.0 IP, 9 K, 2 ER, 2 BB, 2 H",
         "top_batting_line": "Jos\u00e9 Ram\u00edrez: 2 H, 1 HR, 2 RBI, 3 AB",
-        "summary": "The Cleveland Guardians edged the Baltimore Orioles 4-2 behind Parker Messick's 8-inning, 9-K performance and Jos\u00e9 Ram\u00edrez's 2-hit, 2-RBI effort.",
+        "summary": "Cleveland Guardians edge Baltimore Orioles 4-2 behind Jos\u00e9 Ram\u00edrez's 2 hits, including a 2 RBI home run, and Parker Messick's 8 strong innings.",
         "impact_player": "Jos\u00e9 Ram\u00edrez"
       },
       {
@@ -82,7 +82,7 @@
         "final_score": "2-5",
         "top_pitching_line": "Walker Buehler: 5.0 IP, 7 K, 2 ER, 1 BB, 5 H",
         "top_batting_line": "Fernando Tatis Jr.: 1 H, 0 HR, 2 RBI, 2 AB",
-        "summary": "The San Diego Padres edged the Seattle Mariners 5-2 behind Walker Buehler's 5 strong innings and Fernando Tatis Jr.'s 2 RBI performance.",
+        "summary": "The San Diego Padres defeated the Seattle Mariners 5-2 behind Walker Buehler's 5 scoreless innings and Fernando Tatis Jr.'s 2 RBI performance.",
         "impact_player": "Fernando Tatis Jr."
       }
     ],
