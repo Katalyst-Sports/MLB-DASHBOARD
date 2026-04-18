@@ -1,5 +1,53 @@
 {
-  "updated_at": "2026-04-18T15:56:14.871410-04:00",
-  "games": [],
+  "updated_at": "2026-04-18T17:53:04.340304-04:00",
+  "games": [
+    {
+      "gamePk": 823558,
+      "game": "Kansas City Royals @ New York Yankees",
+      "winner": "New York Yankees",
+      "loser": "Kansas City Royals",
+      "final_score": "4-13",
+      "hitters": [
+        "Carter Jensen",
+        "Amed Rosario",
+        "Cody Bellinger",
+        "Ben Rice",
+        "Jos\u00e9 Caballero",
+        "J.C. Escarra"
+      ],
+      "pitchers": [
+        "Will Warren"
+      ]
+    },
+    {
+      "gamePk": 823721,
+      "game": "Cincinnati Reds @ Minnesota Twins",
+      "winner": "Cincinnati Reds",
+      "loser": "Minnesota Twins",
+      "final_score": "5-4",
+      "hitters": [
+        "Eugenio Su\u00e1rez",
+        "Nathaniel Lowe",
+        "Josh Bell",
+        "Luke Keaschall"
+      ],
+      "pitchers": []
+    },
+    {
+      "gamePk": 824694,
+      "game": "New York Mets @ Chicago Cubs",
+      "winner": "Chicago Cubs",
+      "loser": "New York Mets",
+      "final_score": "2-4",
+      "hitters": [
+        "Francisco Lindor",
+        "Luis Robert Jr.",
+        "Mark Vientos",
+        "Ian Happ",
+        "Carson Kelly"
+      ],
+      "pitchers": []
+    }
+  ],
   "errors": []
 }

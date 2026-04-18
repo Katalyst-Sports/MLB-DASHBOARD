@@ -1,83 +1,66 @@
 {
-  "updated_at": "2026-04-18T15:56:14.871410-04:00",
+  "updated_at": "2026-04-18T17:53:04.340304-04:00",
   "games": [
-    {
-      "gamePk": 823558,
-      "game": "Kansas City Royals @ New York Yankees",
-      "score": "2-12",
-      "inning": "8th",
-      "hot_hitters": [
-        "Carter Jensen",
-        "Amed Rosario",
-        "Cody Bellinger",
-        "Ben Rice",
-        "Jos\u00e9 Caballero",
-        "J.C. Escarra"
-      ],
-      "top_pitchers": []
-    },
-    {
-      "gamePk": 823721,
-      "game": "Cincinnati Reds @ Minnesota Twins",
-      "score": "2-4",
-      "inning": "6th",
-      "hot_hitters": [
-        "Josh Bell"
-      ],
-      "top_pitchers": []
-    },
-    {
-      "gamePk": 824694,
-      "game": "New York Mets @ Chicago Cubs",
-      "score": "1-1",
-      "inning": "6th",
-      "hot_hitters": [
-        "Luis Robert Jr.",
-        "Mark Vientos",
-        "Ian Happ"
-      ],
-      "top_pitchers": []
-    },
     {
       "gamePk": 823394,
       "game": "Tampa Bay Rays @ Pittsburgh Pirates",
-      "score": "0-2",
-      "inning": "2nd",
+      "score": "0-4",
+      "inning": "4th",
       "hot_hitters": [
-        "Ryan O'Hearn"
+        "Ryan O'Hearn",
+        "Marcell Ozuna"
       ],
       "top_pitchers": []
     },
     {
       "gamePk": 822751,
       "game": "San Francisco Giants @ Washington Nationals",
-      "score": "0-0",
-      "inning": "1st",
-      "hot_hitters": [],
+      "score": "5-5",
+      "inning": "6th",
+      "hot_hitters": [
+        "Luis Arraez",
+        "Jung Hoo Lee",
+        "Heliot Ramos",
+        "James Wood",
+        "Daylen Lile"
+      ],
       "top_pitchers": []
     },
     {
       "gamePk": 825020,
       "game": "Chicago White Sox @ Athletics",
-      "score": "0-0",
-      "inning": "1st",
-      "hot_hitters": [],
+      "score": "5-3",
+      "inning": "6th",
+      "hot_hitters": [
+        "Andrew Benintendi",
+        "Colson Montgomery",
+        "Everson Pereira",
+        "Jacob Wilson"
+      ],
       "top_pitchers": []
     },
     {
       "gamePk": 824775,
       "game": "Detroit Tigers @ Boston Red Sox",
-      "score": "0-0",
-      "inning": "1st",
-      "hot_hitters": [],
-      "top_pitchers": []
+      "score": "4-1",
+      "inning": "6th",
+      "hot_hitters": [
+        "Kevin McGonigle",
+        "Kerry Carpenter"
+      ],
+      "top_pitchers": [
+        "Tarik Skubal"
+      ]
     },
     {
       "gamePk": 823882,
       "game": "Milwaukee Brewers @ Miami Marlins",
-      "score": "0-0",
-      "inning": "1st",
-      "hot_hitters": [],
+      "score": "4-1",
+      "inning": "6th",
+      "hot_hitters": [
+        "Brice Turang",
+        "Liam Hicks"
+      ],
       "top_pitchers": []
     }
   ],
