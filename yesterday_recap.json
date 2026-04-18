@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-04-18T12:06:18.600175-04:00",
+  "updated_at": "2026-04-18T14:03:28.721037-04:00",
   "date": "2026-04-17",
   "dashboard_recap": {
     "headline": "MLB Daily Recap - April 17, 2026",
-    "article": "**Mets' Bats Fall Flat in Chicago as Cubs Cruise to 12-4 Win**\n\nThe Chicago Cubs' offense exploded in a 12-4 win over the New York Mets, led by Mois\u00e9s Ballesteros' 2-hit, 1-home run, 3-RBI performance. Ballesteros' 1st-inning homer gave the Cubs an early 3-0 lead, and the Cubs never looked back. Edward Cabrera earned the win for the Cubs, while Kodai Senga took the loss for the Mets.\n\n**Alonso and Schneemann Power Orioles Past Guardians**\n\nPete Alonso and Daniel Schneemann led the Baltimore Orioles to a 6-4 win over the Cleveland Guardians. Schneemann's 2-hit, 1-home run, 4-RBI performance was the highlight of the game, as the Orioles took an early 3-0 lead. Rico Garcia earned the win for the Orioles, while Erik Sabrowski took the loss for the Guardians.\n\n**Braves' Staff Deal Phillies a Shutout**\n\nThe Atlanta Braves' pitching staff dominated the Philadelphia Phillies, leading to a 9-0 win. Austin Riley's 2-hit, 2-home run, 4-RBI performance helped lead the Braves to the shutout win. Mart\u00edn P\u00e9rez earned the win for the Braves, while Taijuan Walker took the loss for the Phillies.\n\n**Giants' Webb Outduels Nationals' Littell**\n\nLogan Webb pitched a strong game for the San Francisco Giants, leading to a 10-5 win over the Washington Nationals. Heliot Ramos' 1-hit, 1-home run, 4-RBI performance helped the Giants take an early 4-1 lead. Webb earned the win for the Giants, while Zack Littell took the loss for the Nationals.",
+    "article": "**Mets' Offense Falters in Blowout Loss to Cubs**\n\nThe Chicago Cubs dominated the New York Mets 12-4 yesterday, behind a strong team effort from their pitching staff. Mois\u00e9s Ballesteros led the Cubs' offense with a 2-for-2 day, including a home run and three RBIs. Ian Happ added a fifth-inning home run for the Cubs. On the mound, Huascar Brazob\u00e1n pitched 0.2 innings of scoreless relief, striking out one.\n\nIn other games, Austin Riley hit two home runs, driving in four runs to lead the Atlanta Braves to a 9-0 shutout win over the Philadelphia Phillies. Logan Webb pitched seven strong innings, earning the win in the San Francisco Giants' 10-5 victory over the Washington Nationals. Max Muncy hit two home runs, driving in three runs to lead the Los Angeles Dodgers to a 7-1 win over the Colorado Rockies.",
     "all_games": [
       {
         "game": "New York Mets @ Chicago Cubs",
         "final_score": "4-12",
         "top_pitching_line": "Huascar Brazob\u00e1n: 0.2 IP, 1 K, 0 ER, 0 BB, 2 H",
         "top_batting_line": "Mois\u00e9s Ballesteros: 2 H, 1 HR, 3 RBI, 2 AB",
-        "summary": "The Chicago Cubs dominated the New York Mets 12-4, led by Mois\u00e9s Ballesteros' 2 hits, 1 home run, and 3 RBIs, and Ian Happ's 5th home run.",
+        "summary": "The Chicago Cubs dominated the New York Mets 12-4, led by Mois\u00e9s Ballesteros' 2 hits, 1 HR, and 3 RBI, and Ian Happ's 5th home run.",
         "impact_player": "Mois\u00e9s Ballesteros"
       },
       {
@@ -18,7 +18,7 @@
         "final_score": "6-4",
         "top_pitching_line": "Tanner Bibee: 6.0 IP, 5 K, 0 ER, 3 BB, 4 H",
         "top_batting_line": "Daniel Schneemann: 2 H, 1 HR, 4 RBI, 4 AB",
-        "summary": "The Baltimore Orioles edged the Cleveland Guardians 6-4, led by Daniel Schneemann's 2 hits, 1 home run, and 4 RBIs.",
+        "summary": "The Baltimore Orioles edged the Cleveland Guardians 6-4, led by Daniel Schneemann's 2 hits, 1 home run, and 4 RBIs, and a strong outing from the Guardians' Tanner Bibee.",
         "impact_player": "Daniel Schneemann"
       },
       {
@@ -26,7 +26,7 @@
         "final_score": "9-0",
         "top_pitching_line": "Mart\u00edn P\u00e9rez: 6.0 IP, 4 K, 0 ER, 2 BB, 4 H",
         "top_batting_line": "Austin Riley: 2 H, 2 HR, 4 RBI, 5 AB",
-        "summary": "The Atlanta Braves dominated the Philadelphia Phillies 9-0 behind Mart\u00edn P\u00e9rez's 6 shutout innings and Austin Riley's 2-homer, 4-RBI performance.",
+        "summary": "The Atlanta Braves dominated the Philadelphia Phillies 9-0, led by Austin Riley's 2 home runs and 4 RBIs, and Mart\u00edn P\u00e9rez's 6 shutout innings.",
         "impact_player": "Austin Riley"
       },
       {
@@ -34,7 +34,7 @@
         "final_score": "10-5",
         "top_pitching_line": "Caleb Kilian: 1.0 IP, 2 K, 0 ER, 1 BB, 0 H",
         "top_batting_line": "Heliot Ramos: 1 H, 1 HR, 4 RBI, 4 AB",
-        "summary": "The San Francisco Giants defeated the Washington Nationals 10-5 behind Heliot Ramos' 1 HR and 4 RBI performance.",
+        "summary": "The San Francisco Giants defeated the Washington Nationals 10-5, led by Heliot Ramos' 1 HR and 4 RBI performance.",
         "impact_player": "Heliot Ramos"
       },
       {
@@ -42,7 +42,7 @@
         "final_score": "1-5",
         "top_pitching_line": "Mason Montgomery: 1.0 IP, 2 K, 0 ER, 0 BB, 1 H",
         "top_batting_line": "Oneil Cruz: 1 H, 1 HR, 2 RBI, 4 AB",
-        "summary": "The Pittsburgh Pirates dominated the Tampa Bay Rays 5-1 behind Oneil Cruz's 1 HR and 2 RBI, while Mason Montgomery pitched a scoreless 1st inning.",
+        "summary": "The Pittsburgh Pirates dominated the Tampa Bay Rays 5-1, led by Oneil Cruz's 1 HR and 2 RBI, while Mason Montgomery pitched a scoreless 1st inning.",
         "impact_player": "Oneil Cruz"
       },
       {
@@ -50,7 +50,7 @@
         "final_score": "2-4",
         "top_pitching_line": "Cam Schlittler: 6.0 IP, 6 K, 0 ER, 2 BB, 3 H",
         "top_batting_line": "Vinnie Pasquantino: 2 H, 1 HR, 2 RBI, 4 AB",
-        "summary": "The New York Yankees edged the Kansas City Royals 4-2 behind Cam Schlittler's 6 scoreless innings, while Vinnie Pasquantino's 2 hits and home run were not enough.",
+        "summary": "The New York Yankees edged the Kansas City Royals 4-2, behind Vinnie Pasquantino's 2 hits and 2 RBI, and Cam Schlittler's 6 shutout innings.",
         "impact_player": "Vinnie Pasquantino"
       },
       {
@@ -58,7 +58,7 @@
         "final_score": "7-5",
         "top_pitching_line": "Tyler Phillips: 1.1 IP, 3 K, 0 ER, 3 BB, 1 H",
         "top_batting_line": "Otto Lopez: 3 H, 1 HR, 2 RBI, 5 AB",
-        "summary": "The Milwaukee Brewers edged the Miami Marlins 7-5 behind Otto Lopez's 3 hits, including a home run, and a strong relief appearance by Tyler Phillips.",
+        "summary": "The Milwaukee Brewers outlasted the Miami Marlins 7-5, led by Otto Lopez's 3 hits, including a home run, and Tyler Phillips' 1.1 scoreless innings.",
         "impact_player": "Otto Lopez"
       },
       {
@@ -66,7 +66,7 @@
         "final_score": "0-1",
         "top_pitching_line": "Casey Mize: 6.2 IP, 7 K, 0 ER, 1 BB, 3 H",
         "top_batting_line": "Masataka Yoshida: 1 H, 0 HR, 1 RBI, 1 AB",
-        "summary": "The Boston Red Sox edged the Detroit Tigers 1-0 behind a solo RBI single from Masataka Yoshida and Casey Mize's 6.2 scoreless innings.",
+        "summary": "The Boston Red Sox edged the Detroit Tigers 1-0 behind Casey Mize's 6.2 scoreless innings and Masataka Yoshida's decisive single that plated Jarren Duran.",
         "impact_player": "Masataka Yoshida"
       },
       {
@@ -74,7 +74,7 @@
         "final_score": "9-4",
         "top_pitching_line": "Peter Lambert: 5.0 IP, 8 K, 4 ER, 1 BB, 7 H",
         "top_batting_line": "Iv\u00e1n Herrera: 2 H, 1 HR, 3 RBI, 4 AB",
-        "summary": "The St. Louis Cardinals defeated the Houston Astros 9-4 behind Iv\u00e1n Herrera's 2 hits, including a home run, and 3 RBIs, while Peter Lambert struck out 8 in 5 innings.",
+        "summary": "The St. Louis Cardinals defeated the Houston Astros 9-4 behind Iv\u00e1n Herrera's 2 hits, 1 home run, and 3 RBIs, and Peter Lambert's 5 strong innings with 8 strikeouts.",
         "impact_player": "Iv\u00e1n Herrera"
       },
       {
@@ -82,7 +82,7 @@
         "final_score": "2-1",
         "top_pitching_line": "Joe Ryan: 6.0 IP, 6 K, 1 ER, 0 BB, 3 H",
         "top_batting_line": "Eugenio Su\u00e1rez: 2 H, 0 HR, 2 RBI, 4 AB",
-        "summary": "The Cincinnati Reds edged the Minnesota Twins 2-1 behind Eugenio Su\u00e1rez's 2 hits and 2 RBIs, as Joe Ryan pitched 6 strong innings with 6 strikeouts.",
+        "summary": "The Cincinnati Reds edged the Minnesota Twins 2-1 behind Eugenio Su\u00e1rez's 2 RBIs and Joe Ryan's 6 scoreless innings with 6 strikeouts.",
         "impact_player": "Eugenio Su\u00e1rez"
       },
       {
@@ -90,7 +90,7 @@
         "final_score": "7-1",
         "top_pitching_line": "Tyler Glasnow: 7.0 IP, 7 K, 1 ER, 2 BB, 2 H",
         "top_batting_line": "Max Muncy: 3 H, 2 HR, 3 RBI, 4 AB",
-        "summary": "The Los Angeles Dodgers dominated the Colorado Rockies 7-1, led by Max Muncy's 3 hits and 2 home runs, and Tyler Glasnow's 7 shutout innings with 7 strikeouts.",
+        "summary": "The Los Angeles Dodgers dominated the Colorado Rockies 7-1 behind Tyler Glasnow's 7 strong innings and Max Muncy's 3 hits, 2 home runs, and 3 RBIs.",
         "impact_player": "Max Muncy"
       },
       {
@@ -98,7 +98,7 @@
         "final_score": "0-8",
         "top_pitching_line": "Jos\u00e9 Soriano: 5.2 IP, 8 K, 0 ER, 4 BB, 2 H",
         "top_batting_line": "Josh Lowe: 2 H, 1 HR, 2 RBI, 4 AB",
-        "summary": "The Los Angeles Angels dominated the San Diego Padres 8-0, led by Josh Lowe's 2-hit, 1-home run performance.",
+        "summary": "The Los Angeles Angels dominated the San Diego Padres 8-0 behind Jos\u00e9 Soriano's 5.2 scoreless innings and Josh Lowe's 2-hit, 2-RBI performance.",
         "impact_player": "Josh Lowe"
       },
       {
@@ -106,7 +106,7 @@
         "final_score": "5-0",
         "top_pitching_line": "Logan Gilbert: 5.1 IP, 7 K, 2 ER, 1 BB, 7 H",
         "top_batting_line": "Brandon Nimmo: 1 H, 1 HR, 1 RBI, 4 AB",
-        "summary": "The Texas Rangers shut out the Seattle Mariners 5-0 behind a strong outing and Brandon Nimmo's 1 HR, 1 RBI performance.",
+        "summary": "The Texas Rangers shut out the Seattle Mariners 5-0 behind a strong outing and a Brandon Nimmo home run, while Logan Gilbert struggled with 7 hits allowed.",
         "impact_player": "Brandon Nimmo"
       },
       {
@@ -122,7 +122,7 @@
         "final_score": "9-2",
         "top_pitching_line": "Justin Sterner: 2.1 IP, 4 K, 0 ER, 0 BB, 1 H",
         "top_batting_line": "Munetaka Murakami: 3 H, 1 HR, 4 RBI, 5 AB",
-        "summary": "The Chicago White Sox dominated the Athletics 9-2, led by Munetaka Murakami's 3 hits, 1 home run, and 4 RBIs, and Justin Sterner's 2.1 scoreless innings with 4 strikeouts.",
+        "summary": "The Chicago White Sox dominated the Athletics 9-2, led by Munetaka Murakami's 3 hits, 1 home run, and 4 RBIs.",
         "impact_player": "Munetaka Murakami"
       }
     ],
@@ -134,7 +134,7 @@
         "Otto Lopez (Miami Marlins) - AVG .347",
         "Xavier Edwards (Miami Marlins) - AVG .347",
         "Yordan Alvarez (Houston Astros) - OPS 1.229",
-        "Ben Rice (New York Yankees) - OPS 1.205",
+        "Ben Rice (New York Yankees) - OPS 1.186",
         "CJ Abrams (Washington Nationals) - OPS 1.151",
         "Andy Pages (Los Angeles Dodgers) - OPS 1.144",
         "Sal Stewart (Cincinnati Reds) - OPS 1.062"

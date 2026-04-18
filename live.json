@@ -1,5 +1,30 @@
 {
-  "updated_at": "2026-04-18T12:06:18.600175-04:00",
-  "games": [],
+  "updated_at": "2026-04-18T14:03:28.721037-04:00",
+  "games": [
+    {
+      "gamePk": 823558,
+      "game": "Kansas City Royals @ New York Yankees",
+      "score": "0-0",
+      "inning": "2nd",
+      "hot_hitters": [],
+      "top_pitchers": []
+    },
+    {
+      "gamePk": 823721,
+      "game": "Cincinnati Reds @ Minnesota Twins",
+      "score": "0-0",
+      "inning": "1st",
+      "hot_hitters": [],
+      "top_pitchers": []
+    },
+    {
+      "gamePk": 824694,
+      "game": "New York Mets @ Chicago Cubs",
+      "score": "0-0",
+      "inning": "1st",
+      "hot_hitters": [],
+      "top_pitchers": []
+    }
+  ],
   "errors": []
 }
