@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-18T17:53:04.340304-04:00",
+  "updated_at": "2026-04-18T19:54:29.468462-04:00",
   "games": [
     {
       "gamePk": 823558,
@@ -45,6 +45,69 @@
         "Mark Vientos",
         "Ian Happ",
         "Carson Kelly"
+      ],
+      "pitchers": []
+    },
+    {
+      "gamePk": 822751,
+      "game": "San Francisco Giants @ Washington Nationals",
+      "winner": "San Francisco Giants",
+      "loser": "Washington Nationals",
+      "final_score": "7-6",
+      "hitters": [
+        "Luis Arraez",
+        "Matt Chapman",
+        "Casey Schmitt",
+        "Jung Hoo Lee",
+        "Heliot Ramos",
+        "Drew Gilbert",
+        "James Wood",
+        "Jacob Young",
+        "Daylen Lile"
+      ],
+      "pitchers": []
+    },
+    {
+      "gamePk": 825020,
+      "game": "Chicago White Sox @ Athletics",
+      "winner": "Athletics",
+      "loser": "Chicago White Sox",
+      "final_score": "6-7",
+      "hitters": [
+        "Andrew Benintendi",
+        "Munetaka Murakami",
+        "Colson Montgomery",
+        "Everson Pereira",
+        "Shea Langeliers",
+        "Nick Kurtz",
+        "Jacob Wilson"
+      ],
+      "pitchers": []
+    },
+    {
+      "gamePk": 824775,
+      "game": "Detroit Tigers @ Boston Red Sox",
+      "winner": "Detroit Tigers",
+      "loser": "Boston Red Sox",
+      "final_score": "4-1",
+      "hitters": [
+        "Kevin McGonigle",
+        "Kerry Carpenter"
+      ],
+      "pitchers": [
+        "Tarik Skubal"
+      ]
+    },
+    {
+      "gamePk": 823882,
+      "game": "Milwaukee Brewers @ Miami Marlins",
+      "winner": "Milwaukee Brewers",
+      "loser": "Miami Marlins",
+      "final_score": "5-2",
+      "hitters": [
+        "Brice Turang",
+        "Liam Hicks",
+        "Connor Norby"
       ],
       "pitchers": []
     }

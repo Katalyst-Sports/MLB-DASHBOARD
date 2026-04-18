@@ -1,66 +1,74 @@
 {
-  "updated_at": "2026-04-18T17:53:04.340304-04:00",
+  "updated_at": "2026-04-18T19:54:29.468462-04:00",
   "games": [
     {
       "gamePk": 823394,
       "game": "Tampa Bay Rays @ Pittsburgh Pirates",
-      "score": "0-4",
-      "inning": "4th",
+      "score": "5-4",
+      "inning": "6th",
       "hot_hitters": [
+        "Junior Caminero",
         "Ryan O'Hearn",
         "Marcell Ozuna"
       ],
       "top_pitchers": []
     },
     {
-      "gamePk": 822751,
-      "game": "San Francisco Giants @ Washington Nationals",
-      "score": "5-5",
-      "inning": "6th",
+      "gamePk": 824451,
+      "game": "Baltimore Orioles @ Cleveland Guardians",
+      "score": "1-3",
+      "inning": "7th",
       "hot_hitters": [
-        "Luis Arraez",
-        "Jung Hoo Lee",
-        "Heliot Ramos",
-        "James Wood",
-        "Daylen Lile"
-      ],
-      "top_pitchers": []
-    },
-    {
-      "gamePk": 825020,
-      "game": "Chicago White Sox @ Athletics",
-      "score": "5-3",
-      "inning": "6th",
-      "hot_hitters": [
-        "Andrew Benintendi",
-        "Colson Montgomery",
-        "Everson Pereira",
-        "Jacob Wilson"
-      ],
-      "top_pitchers": []
-    },
-    {
-      "gamePk": 824775,
-      "game": "Detroit Tigers @ Boston Red Sox",
-      "score": "4-1",
-      "inning": "6th",
-      "hot_hitters": [
-        "Kevin McGonigle",
-        "Kerry Carpenter"
+        "Leody Taveras",
+        "Brayan Rocchio"
       ],
       "top_pitchers": [
-        "Tarik Skubal"
+        "Dean Kremer",
+        "Gavin Williams"
       ]
     },
     {
-      "gamePk": 823882,
-      "game": "Milwaukee Brewers @ Miami Marlins",
-      "score": "4-1",
-      "inning": "6th",
+      "gamePk": 824206,
+      "game": "St. Louis Cardinals @ Houston Astros",
+      "score": "2-1",
+      "inning": "3rd",
       "hot_hitters": [
-        "Brice Turang",
-        "Liam Hicks"
+        "Yordan Alvarez"
       ],
+      "top_pitchers": []
+    },
+    {
+      "gamePk": 823151,
+      "game": "Texas Rangers @ Seattle Mariners",
+      "score": "0-1",
+      "inning": "2nd",
+      "hot_hitters": [],
+      "top_pitchers": []
+    },
+    {
+      "gamePk": 823474,
+      "game": "Atlanta Braves @ Philadelphia Phillies",
+      "score": "0-1",
+      "inning": "3rd",
+      "hot_hitters": [
+        "Felix Reyes"
+      ],
+      "top_pitchers": []
+    },
+    {
+      "gamePk": 824372,
+      "game": "Los Angeles Dodgers @ Colorado Rockies",
+      "score": "0-0",
+      "inning": "1st",
+      "hot_hitters": [],
+      "top_pitchers": []
+    },
+    {
+      "gamePk": 825098,
+      "game": "Toronto Blue Jays @ Arizona Diamondbacks",
+      "score": "0-0",
+      "inning": "1st",
+      "hot_hitters": [],
       "top_pitchers": []
     }
   ],
