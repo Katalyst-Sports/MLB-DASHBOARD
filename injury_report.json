@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-18T14:03:28.721037-04:00",
+  "updated_at": "2026-04-18T15:56:14.871410-04:00",
   "teams": [
     {
       "team_id": 109,
@@ -580,9 +580,9 @@
           "player_id": 672860,
           "name": "Prelander Berroa",
           "il_type": "Injured List",
-          "date": "2026-03-25",
-          "note": "Chicago White Sox placed RHP Prelander Berroa on the 15-day injured list. Tommy John surgery recovery. | Status Change",
-          "description": "Chicago White Sox placed RHP Prelander Berroa on the 15-day injured list. Tommy John surgery recovery."
+          "date": "2026-04-18",
+          "note": "Chicago White Sox transferred RHP Prelander Berroa from the 15-day injured list to the 60-day injured list. Tommy John surgery recovery. | Status Change",
+          "description": "Chicago White Sox transferred RHP Prelander Berroa from the 15-day injured list to the 60-day injured list. Tommy John surgery recovery."
         }
       ]
     },
@@ -1504,8 +1504,16 @@
     {
       "team_id": 143,
       "team_name": "Philadelphia Phillies",
-      "injured_count": 5,
+      "injured_count": 6,
       "players": [
+        {
+          "player_id": 661395,
+          "name": "Jhoan Duran",
+          "il_type": "Injured List",
+          "date": "2026-04-18",
+          "note": "Philadelphia Phillies placed RHP Jhoan Duran on the 15-day injured list retroactive to April 15, 2026. Left oblique strain. | Status Change",
+          "description": "Philadelphia Phillies placed RHP Jhoan Duran on the 15-day injured list retroactive to April 15, 2026. Left oblique strain."
+        },
         {
           "player_id": 680742,
           "name": "Jonathan Bowlan",
