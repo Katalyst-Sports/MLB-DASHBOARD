@@ -1,9 +1,94 @@
 {
-  "updated_at": "2026-04-17T18:09:04.901440-04:00",
+  "updated_at": "2026-04-17T20:06:20.715463-04:00",
   "games": [
     {
       "gamePk": 824454,
       "game": "Baltimore Orioles @ Cleveland Guardians",
+      "score": "0-0",
+      "inning": "6th",
+      "hot_hitters": [
+        "Pete Alonso"
+      ],
+      "top_pitchers": []
+    },
+    {
+      "gamePk": 823476,
+      "game": "Atlanta Braves @ Philadelphia Phillies",
+      "score": "7-0",
+      "inning": "5th",
+      "hot_hitters": [
+        "Austin Riley",
+        "Dominic Smith",
+        "Bryce Harper"
+      ],
+      "top_pitchers": []
+    },
+    {
+      "gamePk": 822752,
+      "game": "San Francisco Giants @ Washington Nationals",
+      "score": "8-3",
+      "inning": "4th",
+      "hot_hitters": [
+        "Willy Adames",
+        "Matt Chapman",
+        "Heliot Ramos",
+        "Drew Gilbert",
+        "Daylen Lile",
+        "Jos\u00e9 Tena"
+      ],
+      "top_pitchers": [
+        "Logan Webb"
+      ]
+    },
+    {
+      "gamePk": 823397,
+      "game": "Tampa Bay Rays @ Pittsburgh Pirates",
+      "score": "0-1",
+      "inning": "5th",
+      "hot_hitters": [
+        "Brandon Lowe",
+        "Marcell Ozuna",
+        "Spencer Horwitz"
+      ],
+      "top_pitchers": []
+    },
+    {
+      "gamePk": 823559,
+      "game": "Kansas City Royals @ New York Yankees",
+      "score": "0-2",
+      "inning": "4th",
+      "hot_hitters": [
+        "Ben Rice"
+      ],
+      "top_pitchers": []
+    },
+    {
+      "gamePk": 823883,
+      "game": "Milwaukee Brewers @ Miami Marlins",
+      "score": "0-0",
+      "inning": "4th",
+      "hot_hitters": [],
+      "top_pitchers": []
+    },
+    {
+      "gamePk": 824778,
+      "game": "Detroit Tigers @ Boston Red Sox",
+      "score": "0-0",
+      "inning": "4th",
+      "hot_hitters": [],
+      "top_pitchers": []
+    },
+    {
+      "gamePk": 824207,
+      "game": "St. Louis Cardinals @ Houston Astros",
+      "score": "0-0",
+      "inning": "1st",
+      "hot_hitters": [],
+      "top_pitchers": []
+    },
+    {
+      "gamePk": 823720,
+      "game": "Cincinnati Reds @ Minnesota Twins",
       "score": "0-0",
       "inning": "1st",
       "hot_hitters": [],

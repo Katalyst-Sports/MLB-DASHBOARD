@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-17T18:09:04.901440-04:00",
+  "updated_at": "2026-04-17T20:06:20.715463-04:00",
   "teams": [
     {
       "team_id": 109,
@@ -1944,7 +1944,7 @@
     {
       "team_id": 141,
       "team_name": "Toronto Blue Jays",
-      "injured_count": 10,
+      "injured_count": 11,
       "players": [
         {
           "player_id": 680718,
@@ -2001,6 +2001,14 @@
           "date": "2026-03-25",
           "note": "Toronto Blue Jays placed RHP Jos\u00e9 Berr\u00edos on the 15-day injured list retroactive to March 22, 2026. Right elbow stress fracture. | Status Change",
           "description": "Toronto Blue Jays placed RHP Jos\u00e9 Berr\u00edos on the 15-day injured list retroactive to March 22, 2026. Right elbow stress fracture."
+        },
+        {
+          "player_id": 681751,
+          "name": "Lazaro Estrada",
+          "il_type": "Injured List",
+          "date": "2026-04-05",
+          "note": "Toronto Blue Jays placed RHP Lazaro Estrada on the 15-day injured list. | Status Change",
+          "description": "Toronto Blue Jays placed RHP Lazaro Estrada on the 15-day injured list."
         },
         {
           "player_id": 669456,
