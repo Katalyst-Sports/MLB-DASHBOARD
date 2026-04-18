@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-04-18T10:27:14.013639-04:00",
+  "updated_at": "2026-04-18T12:06:18.600175-04:00",
   "headline": "**MLB Daily Roundup: April 18, 2026**",
-  "article": "The Chicago Cubs dominated the New York Mets in a 12-4 victory, while the Baltimore Orioles secured a hard-fought 6-4 win over the Cleveland Guardians. The Atlanta Braves shut out the Philadelphia Phillies 9-0, and the San Francisco Giants took down the Washington Nationals 10-5.\n\nInjuries and availability have impacted several teams, with the Seattle Mariners placing Patrick Wisdom on the 15-day injured list due to a left oblique strain. The Detroit Tigers have also placed Zach McKinstry on the 10-day injured list with left hip/abdominal inflammation. The Houston Astros transferred Josh Hader to the 60-day injured list with left biceps tendinitis, while the Chicago Cubs placed Daniel Palencia on the 15-day injured list with a left oblique strain.\n\nSeveral trades and roster movements have taken place, including the Baltimore Orioles acquiring right-handed pitcher Axel Perez from the Los Angeles Dodgers in exchange for right-handed pitcher Chayce McDermott. The Washington Nationals acquired left-handed pitcher Richard Lovelady from the New York Mets for cash, while the Milwaukee Brewers acquired right-handed pitcher Junior Fern\u00e1ndez from the Arizona Diamondbacks.",
+  "article": "The Chicago Cubs dominated the New York Mets in a 12-4 victory, while the Baltimore Orioles secured a 6-4 win over the Cleveland Guardians. The Atlanta Braves shut out the Philadelphia Phillies 9-0, and the San Francisco Giants took down the Washington Nationals 10-5.\n\nInjuries and availability are impacting several teams. The New York Mets placed second baseman Jorge Polanco on the 10-day injured list due to a right wrist contusion. The Seattle Mariners, Detroit Tigers, Houston Astros, Chicago Cubs, Washington Nationals, Texas Rangers have also made injury-related roster moves.\n\nSeveral trades and roster movements have taken place. The Baltimore Orioles acquired right-handed pitcher Axel Perez in a trade with the Los Angeles Dodgers. The New York Mets traded left-handed pitcher Richard Lovelady to the Washington Nationals for cash. The Milwaukee Brewers acquired right-handed pitcher Junior Fern\u00e1ndez from the Arizona Diamondbacks, while the Philadelphia Phillies traded right-handed pitcher Griff McGarry to the Los Angeles Dodgers. The Baltimore Orioles also acquired first baseman Christian Encarnacion-Strand from the Cincinnati Reds for cash.",
   "top_news": [
     {
       "title": "**Cubs Cruise Past Mets 12-4**",
-      "summary": "The Chicago Cubs dominated the New York Mets in a lopsided 12-4 victory, securing a decisive win. Mois\u00e9s Ballesteros led the Mets' offense with 2 hits, including a home run, and 3 RBIs.",
+      "summary": "The Chicago Cubs dominated the New York Mets in a lopsided 12-4 victory, securing their win. Mois\u00e9s Ballesteros led the Mets' offense with a 2-hit, 1-home run performance.",
       "published": "2026-04-17"
     },
     {
-      "title": "**Orioles Take Down Guardians in Thrilling 6-4 Victory**",
-      "summary": "The Baltimore Orioles secured a hard-fought win against the Cleveland Guardians, with a final score of 6-4. Daniel Schneemann led the Orioles' offense with 2 hits, 1 home run, and 4 RBIs.",
+      "title": "**Orioles Take Down Guardians 6-4**",
+      "summary": "The Baltimore Orioles secured a 6-4 victory over the Cleveland Guardians in their recent matchup. Daniel Schneemann led the Orioles' offense with 2 hits, 1 home run, and 4 RBIs.",
       "published": "2026-04-17"
     },
     {
@@ -20,21 +20,27 @@
     },
     {
       "title": "**Giants Take Down Nationals 10-5**",
-      "summary": "The San Francisco Giants secured a 10-5 victory over the Washington Nationals, with Heliot Ramos leading the charge at the plate. Ramos hit a home run and drove in four runs, while Logan Webb earned the win on the mound.",
+      "summary": "The San Francisco Giants secured a 10-5 victory over the Washington Nationals, with Logan Webb earning the win. Heliot Ramos led the Giants' offense with a home run and four RBIs.",
       "published": "2026-04-17"
     },
     {
-      "title": "**Mariners Place Patrick Wisdom on Injured List**",
-      "summary": "Seattle Mariners first baseman Patrick Wisdom has been placed on the 15-day injured list due to a left oblique strain, effective retroactive to April 15, 2026.",
-      "published": "2026-04-17"
+      "title": "**Mets Place Jorge Polanco on 10-Day Injured List**",
+      "summary": "New York Mets second baseman Jorge Polanco has been placed on the 10-day injured list due to a right wrist contusion. The move is retroactive to April 15, 2026.",
+      "published": "2026-04-18"
     },
     {
       "title": "**Orioles Acquire Axel Perez in Trade**",
-      "summary": "The Baltimore Orioles have bolstered their roster with the addition of right-handed pitcher Axel Perez, who was acquired in a trade with the Los Angeles Dodgers. Perez joins the Orioles in exchange for right-handed pitcher Chayce McDermott.",
+      "summary": "The Baltimore Orioles have acquired right-handed pitcher Axel Perez in a trade with the Los Angeles Dodgers. Perez joins the Orioles in exchange for right-handed pitcher Chayce McDermott.",
       "published": "2026-04-16"
     }
   ],
   "injury_updates": [
+    {
+      "date": "2026-04-18",
+      "team": "New York Mets",
+      "player": "Jorge Polanco",
+      "update": "New York Mets placed 2B Jorge Polanco on the 10-day injured list retroactive to April 15, 2026. Right wrist contusion. | Status Change"
+    },
     {
       "date": "2026-04-17",
       "team": "Seattle Mariners",
@@ -100,12 +106,6 @@
       "team": "Houston Astros",
       "player": "Cody Bolton",
       "update": "Houston Astros placed RHP Cody Bolton on the 15-day injured list retroactive to April 13, 2026. | Status Change"
-    },
-    {
-      "date": "2026-04-15",
-      "team": "San Francisco Giants",
-      "player": "Jared Oliva",
-      "update": "San Francisco Giants placed OF Jared Oliva on the 10-day injured list. Left wrist hamate fracture. | Status Change"
     }
   ],
   "trade_updates": [

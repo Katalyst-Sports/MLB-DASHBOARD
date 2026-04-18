@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-18T10:27:14.013639-04:00",
+  "updated_at": "2026-04-18T12:06:18.600175-04:00",
   "teams": [
     {
       "team_id": 109,
@@ -1386,7 +1386,7 @@
     {
       "team_id": 121,
       "team_name": "New York Mets",
-      "injured_count": 8,
+      "injured_count": 9,
       "players": [
         {
           "player_id": 621345,
@@ -1419,6 +1419,14 @@
           "date": "2026-04-14",
           "note": "New York Mets placed RHP Joey Gerber on the 15-day injured list. Right finger blister. | Status Change",
           "description": "New York Mets placed RHP Joey Gerber on the 15-day injured list. Right finger blister."
+        },
+        {
+          "player_id": 593871,
+          "name": "Jorge Polanco",
+          "il_type": "Injured List",
+          "date": "2026-04-18",
+          "note": "New York Mets placed 2B Jorge Polanco on the 10-day injured list retroactive to April 15, 2026. Right wrist contusion. | Status Change",
+          "description": "New York Mets placed 2B Jorge Polanco on the 10-day injured list retroactive to April 15, 2026. Right wrist contusion."
         },
         {
           "player_id": 665742,
