@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-19T17:53:56.152148-04:00",
+  "updated_at": "2026-04-19T19:55:57.943160-04:00",
   "games": [
     {
       "gamePk": 822750,
@@ -32,6 +32,24 @@
         "Spencer Horwitz"
       ],
       "pitchers": []
+    },
+    {
+      "gamePk": 823556,
+      "game": "Kansas City Royals @ New York Yankees",
+      "winner": "New York Yankees",
+      "loser": "Kansas City Royals",
+      "final_score": "0-7",
+      "hitters": [
+        "Bobby Witt Jr.",
+        "Elias D\u00edaz",
+        "Ben Rice",
+        "Aaron Judge",
+        "Trent Grisham"
+      ],
+      "pitchers": [
+        "Cole Ragans",
+        "Ryan Weathers"
+      ]
     },
     {
       "gamePk": 824452,
@@ -107,6 +125,109 @@
         "Ian Happ"
       ],
       "pitchers": []
+    },
+    {
+      "gamePk": 824371,
+      "game": "Los Angeles Dodgers @ Colorado Rockies",
+      "winner": "Colorado Rockies",
+      "loser": "Los Angeles Dodgers",
+      "final_score": "6-9",
+      "hitters": [
+        "Shohei Ohtani",
+        "Max Muncy",
+        "Ryan Ward",
+        "Hyeseong Kim",
+        "Alex Freeland",
+        "Edouard Julien",
+        "Mickey Moniak",
+        "Troy Johnston",
+        "Kyle Karros"
+      ],
+      "pitchers": []
+    },
+    {
+      "gamePk": 825018,
+      "game": "Chicago White Sox @ Athletics",
+      "winner": "Chicago White Sox",
+      "loser": "Athletics",
+      "final_score": "7-4",
+      "hitters": [
+        "Chase Meidroth",
+        "Miguel Vargas",
+        "Munetaka Murakami",
+        "Everson Pereira",
+        "Colson Montgomery",
+        "Derek Hill",
+        "Darell Hernaiz"
+      ],
+      "pitchers": [
+        "Noah Schultz",
+        "Jeffrey Springs"
+      ]
+    },
+    {
+      "gamePk": 824047,
+      "game": "San Diego Padres @ Los Angeles Angels",
+      "winner": "San Diego Padres",
+      "loser": "Los Angeles Angels",
+      "final_score": "2-1",
+      "hitters": [
+        "Bryce Johnson"
+      ],
+      "pitchers": [
+        "Michael King",
+        "Walbert Urena"
+      ]
+    },
+    {
+      "gamePk": 823150,
+      "game": "Texas Rangers @ Seattle Mariners",
+      "winner": "Seattle Mariners",
+      "loser": "Texas Rangers",
+      "final_score": "2-5",
+      "hitters": [
+        "Brandon Nimmo",
+        "Rob Refsnyder",
+        "Randy Arozarena",
+        "J.P. Crawford"
+      ],
+      "pitchers": [
+        "Bryan Woo"
+      ]
+    },
+    {
+      "gamePk": 825100,
+      "game": "Toronto Blue Jays @ Arizona Diamondbacks",
+      "winner": "Toronto Blue Jays",
+      "loser": "Arizona Diamondbacks",
+      "final_score": "10-4",
+      "hitters": [
+        "Nathan Lukes",
+        "Ernie Clement",
+        "Vladimir Guerrero Jr.",
+        "Kazuma Okamoto",
+        "Jorge Barrosa",
+        "Adrian Del Castillo"
+      ],
+      "pitchers": []
+    },
+    {
+      "gamePk": 824777,
+      "game": "Detroit Tigers @ Boston Red Sox",
+      "winner": "Detroit Tigers",
+      "loser": "Boston Red Sox",
+      "final_score": "6-2",
+      "hitters": [
+        "Jahmai Jones",
+        "Matt Vierling",
+        "Dillon Dingler",
+        "Javier B\u00e1ez",
+        "Willson Contreras"
+      ],
+      "pitchers": [
+        "Framber Valdez",
+        "Garrett Crochet"
+      ]
     }
   ],
   "errors": []

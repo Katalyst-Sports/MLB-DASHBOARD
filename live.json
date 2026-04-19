@@ -1,102 +1,15 @@
 {
-  "updated_at": "2026-04-19T17:53:56.152148-04:00",
+  "updated_at": "2026-04-19T19:55:57.943160-04:00",
   "games": [
     {
-      "gamePk": 823556,
-      "game": "Kansas City Royals @ New York Yankees",
-      "score": "0-7",
-      "inning": "5th",
+      "gamePk": 823475,
+      "game": "Atlanta Braves @ Philadelphia Phillies",
+      "score": "0-2",
+      "inning": "2nd",
       "hot_hitters": [
-        "Ben Rice",
-        "Aaron Judge",
-        "Trent Grisham"
+        "Kyle Schwarber"
       ],
       "top_pitchers": []
-    },
-    {
-      "gamePk": 824371,
-      "game": "Los Angeles Dodgers @ Colorado Rockies",
-      "score": "4-6",
-      "inning": "8th",
-      "hot_hitters": [
-        "Max Muncy",
-        "Ryan Ward",
-        "Hyeseong Kim",
-        "Alex Freeland",
-        "Edouard Julien",
-        "Mickey Moniak",
-        "Troy Johnston",
-        "Kyle Karros"
-      ],
-      "top_pitchers": []
-    },
-    {
-      "gamePk": 825018,
-      "game": "Chicago White Sox @ Athletics",
-      "score": "7-1",
-      "inning": "7th",
-      "hot_hitters": [
-        "Chase Meidroth",
-        "Miguel Vargas",
-        "Munetaka Murakami",
-        "Everson Pereira",
-        "Colson Montgomery",
-        "Derek Hill",
-        "Darell Hernaiz"
-      ],
-      "top_pitchers": []
-    },
-    {
-      "gamePk": 824047,
-      "game": "San Diego Padres @ Los Angeles Angels",
-      "score": "1-0",
-      "inning": "6th",
-      "hot_hitters": [],
-      "top_pitchers": [
-        "Walbert Urena"
-      ]
-    },
-    {
-      "gamePk": 823150,
-      "game": "Texas Rangers @ Seattle Mariners",
-      "score": "1-5",
-      "inning": "7th",
-      "hot_hitters": [
-        "Rob Refsnyder",
-        "Randy Arozarena",
-        "J.P. Crawford"
-      ],
-      "top_pitchers": [
-        "Bryan Woo"
-      ]
-    },
-    {
-      "gamePk": 825100,
-      "game": "Toronto Blue Jays @ Arizona Diamondbacks",
-      "score": "10-1",
-      "inning": "6th",
-      "hot_hitters": [
-        "Nathan Lukes",
-        "Ernie Clement",
-        "Vladimir Guerrero Jr.",
-        "Kazuma Okamoto"
-      ],
-      "top_pitchers": []
-    },
-    {
-      "gamePk": 824777,
-      "game": "Detroit Tigers @ Boston Red Sox",
-      "score": "5-1",
-      "inning": "5th",
-      "hot_hitters": [
-        "Jahmai Jones",
-        "Matt Vierling",
-        "Dillon Dingler",
-        "Willson Contreras"
-      ],
-      "top_pitchers": [
-        "Garrett Crochet"
-      ]
     }
   ],
   "errors": []
