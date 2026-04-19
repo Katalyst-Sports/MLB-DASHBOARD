@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-04-19T02:18:47.259364-04:00",
+  "updated_at": "2026-04-19T05:10:23.289643-04:00",
   "date": "2026-04-18",
   "dashboard_recap": {
     "headline": "MLB Daily Recap - April 18, 2026",
-    "article": "**Yankees Blast Past Royals, While Tigers Shut Down Red Sox**\n\nThe New York Yankees dominated the Kansas City Royals 13-4 behind Cody Bellinger's dominant performance, recording three hits, two home runs, and five RBIs. Will Warren earned the win for the Yankees, throwing seven innings with 11 strikeouts, two earned runs, and no walks. The Royals' Michael Massey did manage a double, scoring two runs.\n\nIn the American League, the Detroit Tigers secured a 4-1 victory over the Boston Red Sox, with Kerry Carpenter contributing two hits, a home run, and two RBIs. Tarik Skubal pitched six innings with 10 strikeouts, one earned run, and two walks.\n\nThe Atlanta Braves edged the Philadelphia Phillies 3-1, with Cristopher S\u00e1nchez tossing six innings with eight strikeouts, no earned runs, and one walk. Felix Reyes hit a home run for the Braves.",
+    "article": "**Yankees Dominate Royals as Will Warren Shines**\n\nThe New York Yankees crushed the Kansas City Royals 13-4, with Cody Bellinger leading the charge. Bellinger homered twice and drove in five runs, while Will Warren pitched seven strong innings, striking out 11 and giving up just two earned runs. The Royals' Michael Massey did manage to double in a run, but it wasn't enough to keep up with the Yankees' onslaught.\n\n**Reds Hold Off Twins in Thrilling Finish**\n\nThe Cincinnati Reds edged the Minnesota Twins 5-4, thanks in part to a strong outing from reliever Kyle Nicolas. Nicolas pitched a perfect inning, striking out three, and helped seal the win for the Reds. Eugenio Su\u00e1rez had a big game for the Reds, while Nathaniel Lowe and Josh Bell also contributed for the Twins.\n\n**Giants Outlast Nationals in Extra Innings**\n\nThe San Francisco Giants took down the Washington Nationals 7-6 in a back-and-forth game that went into extra innings. Heliot Ramos homered and drove in two runs for the Giants, while Luis Arraez and Matt Chapman also had big games for the winning team.",
     "all_games": [
       {
         "game": "Kansas City Royals @ New York Yankees",
         "final_score": "4-13",
         "top_pitching_line": "Will Warren: 7.0 IP, 11 K, 2 ER, 0 BB, 5 H",
         "top_batting_line": "Cody Bellinger: 3 H, 2 HR, 5 RBI, 4 AB",
-        "summary": "The New York Yankees dominated the Kansas City Royals 13-4 behind Cody Bellinger's 3 hits, 2 home runs, and 5 RBIs.",
+        "summary": "The New York Yankees dominated the Kansas City Royals 13-4, led by Cody Bellinger's 3 hits, 2 home runs, and 5 RBIs.",
         "impact_player": "Cody Bellinger"
       },
       {
@@ -18,7 +18,7 @@
         "final_score": "5-4",
         "top_pitching_line": "Kyle Nicolas: 1.0 IP, 3 K, 0 ER, 0 BB, 0 H",
         "top_batting_line": "Tyler Stephenson: 1 H, 0 HR, 2 RBI, 3 AB",
-        "summary": "The Cincinnati Reds edged the Minnesota Twins 5-4 behind Tyler Stephenson's 2 RBI and Kyle Nicolas' 1 scoreless inning with 3 strikeouts.",
+        "summary": "The Cincinnati Reds edged the Minnesota Twins 5-4, with Tyler Stephenson contributing 2 RBIs and Kyle Nicolas striking out 3 in a scoreless inning.",
         "impact_player": "Tyler Stephenson"
       },
       {
@@ -26,7 +26,7 @@
         "final_score": "2-4",
         "top_pitching_line": "Jameson Taillon: 6.0 IP, 4 K, 1 ER, 3 BB, 5 H",
         "top_batting_line": "Carson Kelly: 1 H, 1 HR, 3 RBI, 1 AB",
-        "summary": "The Chicago Cubs edged the New York Mets 4-2 behind Carson Kelly's 1 HR and 3 RBI, while Jameson Taillon pitched 6 strong innings.",
+        "summary": "The Chicago Cubs edged the New York Mets 4-2, with Carson Kelly's 1 HR and 3 RBI leading the Cubs' offense.",
         "impact_player": "Carson Kelly"
       },
       {
@@ -34,7 +34,7 @@
         "final_score": "8-7",
         "top_pitching_line": "Paul Skenes: 4.0 IP, 5 K, 0 ER, 0 BB, 3 H",
         "top_batting_line": "Cedric Mullins: 2 H, 1 HR, 3 RBI, 5 AB",
-        "summary": "Tampa Bay Rays edged the Pittsburgh Pirates 8-7 behind Cedric Mullins' 2 hits, including a home run, and 3 RBIs.",
+        "summary": "Tampa Bay Rays win 8-7 behind Cedric Mullins' 2 hits, 1 home run, and 3 RBIs, and Paul Skenes' 4 shutout innings.",
         "impact_player": "Cedric Mullins"
       },
       {
@@ -42,7 +42,7 @@
         "final_score": "7-6",
         "top_pitching_line": "Cade Cavalli: 4.0 IP, 5 K, 1 ER, 0 BB, 7 H",
         "top_batting_line": "Heliot Ramos: 3 H, 1 HR, 2 RBI, 5 AB",
-        "summary": "The San Francisco Giants edged the Washington Nationals 7-6 behind Heliot Ramos' 3 hits, including a home run, and a crucial single by Matt Chapman that scored Luis Arraez.",
+        "summary": "The San Francisco Giants edged the Washington Nationals 7-6 behind Heliot Ramos' 3-hit, 1-home run performance and a crucial single by Matt Chapman.",
         "impact_player": "Heliot Ramos"
       },
       {
@@ -50,7 +50,7 @@
         "final_score": "6-7",
         "top_pitching_line": "Jack Perkins: 2.1 IP, 3 K, 0 ER, 2 BB, 1 H",
         "top_batting_line": "Andrew Benintendi: 1 H, 1 HR, 3 RBI, 6 AB",
-        "summary": "The Athletics edged the White Sox 7-6, with Andrew Benintendi's 1 HR and 3 RBI leading the Chicago offense.",
+        "summary": "The Athletics edged the White Sox 7-6 behind Andrew Benintendi's 3 RBI, including a solo home run, and a strong relief outing from Jack Perkins.",
         "impact_player": "Andrew Benintendi"
       },
       {
@@ -58,7 +58,7 @@
         "final_score": "4-1",
         "top_pitching_line": "Tarik Skubal: 6.0 IP, 10 K, 1 ER, 2 BB, 4 H",
         "top_batting_line": "Kerry Carpenter: 2 H, 1 HR, 2 RBI, 3 AB",
-        "summary": "The Detroit Tigers edged the Boston Red Sox 4-1 behind Tarik Skubal's 6-inning, 10-K performance and Kerry Carpenter's 2-hit, 2-RBI effort.",
+        "summary": "The Detroit Tigers edged the Boston Red Sox 4-1 behind Tarik Skubal's 6 shutout innings and Kerry Carpenter's 2-hit, 1-home run performance.",
         "impact_player": "Kerry Carpenter"
       },
       {
@@ -66,7 +66,7 @@
         "final_score": "5-2",
         "top_pitching_line": "Brandon Woodruff: 7.0 IP, 4 K, 1 ER, 1 BB, 3 H",
         "top_batting_line": "Brice Turang: 2 H, 1 HR, 3 RBI, 3 AB",
-        "summary": "The Milwaukee Brewers outlasted the Miami Marlins 5-2 behind Brandon Woodruff's 7-inning, 4-K performance and Brice Turang's 2-hit, 3-RBI effort.",
+        "summary": "The Milwaukee Brewers edged the Miami Marlins 5-2 behind Brandon Woodruff's 7-inning, 1-earned-run performance and Brice Turang's 2-hit, 1-home-run, 3-RBI effort.",
         "impact_player": "Brice Turang"
       },
       {
@@ -74,7 +74,7 @@
         "final_score": "2-4",
         "top_pitching_line": "Gavin Williams: 7.0 IP, 11 K, 1 ER, 1 BB, 3 H",
         "top_batting_line": "Brayan Rocchio: 1 H, 1 HR, 3 RBI, 3 AB",
-        "summary": "The Cleveland Guardians outlasted the Baltimore Orioles 4-2 behind Gavin Williams' 7 shutout innings and Brayan Rocchio's 3-RBI performance.",
+        "summary": "The Cleveland Guardians edged the Baltimore Orioles 4-2 behind Gavin Williams' 7-inning, 11-K performance and Brayan Rocchio's 3-RBI, 1-HR outing.",
         "impact_player": "Brayan Rocchio"
       },
       {
@@ -82,7 +82,7 @@
         "final_score": "7-5",
         "top_pitching_line": "Andre Pallante: 5.0 IP, 5 K, 1 ER, 3 BB, 3 H",
         "top_batting_line": "Shay Whitcomb: 1 H, 1 HR, 3 RBI, 4 AB",
-        "summary": "The St. Louis Cardinals edged the Houston Astros 7-5 behind Andre Pallante's 5 strong innings and Shay Whitcomb's 3-RBI, 1-homer performance.",
+        "summary": "The St. Louis Cardinals edged the Houston Astros 7-5 behind Andre Pallante's 5 shutout innings and Shay Whitcomb's 3-RBI homer.",
         "impact_player": "Shay Whitcomb"
       },
       {
@@ -98,7 +98,7 @@
         "final_score": "3-1",
         "top_pitching_line": "Cristopher S\u00e1nchez: 6.0 IP, 8 K, 0 ER, 1 BB, 8 H",
         "top_batting_line": "Felix Reyes: 1 H, 1 HR, 1 RBI, 3 AB",
-        "summary": "The Atlanta Braves edged the Philadelphia Phillies 3-1 behind a strong outing from Cristopher S\u00e1nchez and key hits from Felix Reyes and Mauricio Dub\u00f3n.",
+        "summary": "The Atlanta Braves edged the Philadelphia Phillies 3-1 behind Cristopher S\u00e1nchez's 6 shutout innings and Felix Reyes' solo home run.",
         "impact_player": "Felix Reyes"
       },
       {
@@ -106,7 +106,7 @@
         "final_score": "3-4",
         "top_pitching_line": "Ryan Feltner: 5.2 IP, 5 K, 2 ER, 1 BB, 5 H",
         "top_batting_line": "Kyle Tucker: 3 H, 1 HR, 2 RBI, 5 AB",
-        "summary": "The Colorado Rockies edged the Los Angeles Dodgers 4-3 behind Ryan Feltner's 5.2 innings with 5 strikeouts and 2 earned runs.",
+        "summary": "The Colorado Rockies edged the Los Angeles Dodgers 4-3 behind Ryan Feltner's 5.2 innings with 5 strikeouts and Troy Johnston's decisive double.",
         "impact_player": "Kyle Tucker"
       },
       {
@@ -114,7 +114,7 @@
         "final_score": "2-6",
         "top_pitching_line": "Juan Morillo: 1.1 IP, 2 K, 0 ER, 0 BB, 1 H",
         "top_batting_line": "Corbin Carroll: 1 H, 1 HR, 4 RBI, 3 AB",
-        "summary": "The Arizona Diamondbacks defeated the Toronto Blue Jays 6-2 behind Corbin Carroll's grand slam and Juan Morillo's 1.1 scoreless innings.",
+        "summary": "The Arizona Diamondbacks defeated the Toronto Blue Jays 6-2, led by Corbin Carroll's grand slam and 4 RBIs, including 1 home run.",
         "impact_player": "Corbin Carroll"
       },
       {
@@ -122,7 +122,7 @@
         "final_score": "4-1",
         "top_pitching_line": "Yusei Kikuchi: 6.0 IP, 8 K, 0 ER, 1 BB, 4 H",
         "top_batting_line": "Fernando Tatis Jr.: 2 H, 0 HR, 2 RBI, 4 AB",
-        "summary": "The San Diego Padres edged the Los Angeles Angels 4-1 behind Yusei Kikuchi's 6 shutout innings and Fernando Tatis Jr.'s 2-hit, 2-RBI performance.",
+        "summary": "The San Diego Padres edged the Los Angeles Angels 4-1 behind Yusei Kikuchi's 6 shutout innings and Fernando Tatis Jr.'s 2 hits and 2 RBIs.",
         "impact_player": "Fernando Tatis Jr."
       }
     ],
