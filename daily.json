@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-19T10:07:04.007160-04:00",
+  "updated_at": "2026-04-19T12:01:55.315021-04:00",
   "games": [
     {
       "gamePk": 822750,
@@ -59,52 +59,52 @@
         }
       },
       "home_pitcher": {
-        "id": 571945,
-        "name": "Miles Mikolas",
-        "hand": "R",
-        "era": "11.49",
-        "whip": "2.17",
+        "id": 676571,
+        "name": "PJ Poulin",
+        "hand": "L",
+        "era": "3.86",
+        "whip": "1.46",
         "last3": {
           "starts": [
             {
-              "date": "2026-03-28",
+              "date": "2026-03-26",
               "opponent": "Chicago Cubs",
-              "ip": "5.0",
-              "er": 4,
-              "k": 4,
-              "bb": 3,
-              "pitches": 97,
-              "strikes": 57
-            },
-            {
-              "date": "2026-04-03",
-              "opponent": "Los Angeles Dodgers",
-              "ip": "4.1",
-              "er": 11,
-              "k": 4,
+              "ip": "1.0",
+              "er": 0,
+              "k": 0,
               "bb": 1,
-              "pitches": 87,
-              "strikes": 56
+              "pitches": 24,
+              "strikes": 13
             },
             {
-              "date": "2026-04-08",
-              "opponent": "St. Louis Cardinals",
-              "ip": "3.0",
-              "er": 2,
-              "k": 3,
-              "bb": 3,
-              "pitches": 55,
-              "strikes": 34
+              "date": "2026-03-29",
+              "opponent": "Chicago Cubs",
+              "ip": "0.2",
+              "er": 0,
+              "k": 1,
+              "bb": 1,
+              "pitches": 14,
+              "strikes": 8
+            },
+            {
+              "date": "2026-03-31",
+              "opponent": "Philadelphia Phillies",
+              "ip": "1.0",
+              "er": 0,
+              "k": 1,
+              "bb": 0,
+              "pitches": 9,
+              "strikes": 7
             }
           ],
-          "avg_ip": "4.0",
-          "avg_k": "3.7",
-          "avg_bb": "2.3",
-          "avg_pitches": "79.7",
-          "avg_strikes": "49.0",
-          "era": "12.41",
-          "whip": "2.35",
-          "strike_pct": "61.5",
+          "avg_ip": "1.0",
+          "avg_k": "0.7",
+          "avg_bb": "0.7",
+          "avg_pitches": "15.7",
+          "avg_strikes": "9.3",
+          "era": "0.00",
+          "whip": "1.12",
+          "strike_pct": "59.6",
           "quality_starts": 0
         }
       },
@@ -2300,26 +2300,6 @@
           }
         },
         {
-          "name": "Deyvison De Los Santos",
-          "stats": {
-            "avg": ".286",
-            "obp": ".286",
-            "slg": ".429",
-            "ops": ".715",
-            "homeRuns": 0,
-            "rbi": 0
-          },
-          "last10ab": {
-            "avg": "0.286",
-            "hits": 2,
-            "atBats": 7,
-            "homeRuns": 0,
-            "rbi": 0,
-            "walks": 0,
-            "games": 3
-          }
-        },
-        {
           "name": "Agust\u00edn Ram\u00edrez",
           "stats": {
             "avg": ".233",
@@ -2357,6 +2337,26 @@
             "rbi": 0,
             "walks": 1,
             "games": 5
+          }
+        },
+        {
+          "name": "Jakob Marsee",
+          "stats": {
+            "avg": ".160",
+            "obp": ".274",
+            "slg": ".222",
+            "ops": ".496",
+            "homeRuns": 0,
+            "rbi": 4
+          },
+          "last10ab": {
+            "avg": "0.091",
+            "hits": 1,
+            "atBats": 11,
+            "homeRuns": 0,
+            "rbi": 0,
+            "walks": 1,
+            "games": 3
           }
         }
       ]
@@ -2772,6 +2772,26 @@
           }
         },
         {
+          "name": "Dustin Harris",
+          "stats": {
+            "avg": ".250",
+            "obp": ".438",
+            "slg": ".333",
+            "ops": ".771",
+            "homeRuns": 0,
+            "rbi": 1
+          },
+          "last10ab": {
+            "avg": "0.273",
+            "hits": 3,
+            "atBats": 11,
+            "homeRuns": 0,
+            "rbi": 1,
+            "walks": 2,
+            "games": 4
+          }
+        },
+        {
           "name": "Carlos Correa",
           "stats": {
             "avg": ".264",
@@ -2809,26 +2829,6 @@
             "rbi": 3,
             "walks": 1,
             "games": 3
-          }
-        },
-        {
-          "name": "Joey Loperfido",
-          "stats": {
-            "avg": ".259",
-            "obp": ".333",
-            "slg": ".345",
-            "ops": ".678",
-            "homeRuns": 0,
-            "rbi": 6
-          },
-          "last10ab": {
-            "avg": "0.333",
-            "hits": 4,
-            "atBats": 12,
-            "homeRuns": 0,
-            "rbi": 0,
-            "walks": 0,
-            "games": 4
           }
         }
       ]
@@ -3956,26 +3956,6 @@
           }
         },
         {
-          "name": "Freddie Freeman",
-          "stats": {
-            "avg": ".296",
-            "obp": ".360",
-            "slg": ".519",
-            "ops": ".879",
-            "homeRuns": 3,
-            "rbi": 14
-          },
-          "last10ab": {
-            "avg": "0.250",
-            "hits": 3,
-            "atBats": 12,
-            "homeRuns": 0,
-            "rbi": 1,
-            "walks": 1,
-            "games": 3
-          }
-        },
-        {
           "name": "Hyeseong Kim",
           "stats": {
             "avg": ".273",
@@ -4052,6 +4032,26 @@
             "homeRuns": 2,
             "rbi": 5,
             "walks": 0,
+            "games": 3
+          }
+        },
+        {
+          "name": "Kyle Tucker",
+          "stats": {
+            "avg": ".260",
+            "obp": ".356",
+            "slg": ".403",
+            "ops": ".759",
+            "homeRuns": 3,
+            "rbi": 13
+          },
+          "last10ab": {
+            "avg": "0.182",
+            "hits": 2,
+            "atBats": 11,
+            "homeRuns": 0,
+            "rbi": 2,
+            "walks": 2,
             "games": 3
           }
         }
