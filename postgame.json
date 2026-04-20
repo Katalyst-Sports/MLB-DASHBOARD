@@ -1,5 +1,22 @@
 {
-  "updated_at": "2026-04-20T12:20:42.672480-04:00",
-  "games": [],
+  "updated_at": "2026-04-20T16:04:31.638520-04:00",
+  "games": [
+    {
+      "gamePk": 824776,
+      "game": "Detroit Tigers @ Boston Red Sox",
+      "winner": "Boston Red Sox",
+      "loser": "Detroit Tigers",
+      "final_score": "6-8",
+      "hitters": [
+        "Kevin McGonigle",
+        "Riley Greene",
+        "Hao-Yu  Lee",
+        "Masataka Yoshida",
+        "Caleb Durbin",
+        "Carlos Narv\u00e1ez"
+      ],
+      "pitchers": []
+    }
+  ],
   "errors": []
 }

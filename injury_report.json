@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-20T12:20:42.672480-04:00",
+  "updated_at": "2026-04-20T16:04:31.638520-04:00",
   "teams": [
     {
       "team_id": 109,
@@ -849,7 +849,7 @@
     {
       "team_id": 117,
       "team_name": "Houston Astros",
-      "injured_count": 15,
+      "injured_count": 16,
       "players": [
         {
           "player_id": 656986,
@@ -879,9 +879,9 @@
           "player_id": 664299,
           "name": "Cristian Javier",
           "il_type": "Injured List",
-          "date": "2026-04-10",
-          "note": "Houston Astros placed RHP Cristian Javier on the 15-day injured list retroactive to April 9, 2026. Grade two right shoulder strain. | Status Change",
-          "description": "Houston Astros placed RHP Cristian Javier on the 15-day injured list retroactive to April 9, 2026. Grade two right shoulder strain."
+          "date": "2026-04-20",
+          "note": "Houston Astros transferred RHP Cristian Javier from the 15-day injured list to the 60-day injured list. Grade two right shoulder strain. | Status Change",
+          "description": "Houston Astros transferred RHP Cristian Javier from the 15-day injured list to the 60-day injured list. Grade two right shoulder strain."
         },
         {
           "player_id": 660853,
@@ -946,6 +946,14 @@
           "date": "2026-03-25",
           "note": "Houston Astros placed RHP Nate Pearson on the 15-day injured list. Right elbow surgery recovery. | Status Change",
           "description": "Houston Astros placed RHP Nate Pearson on the 15-day injured list. Right elbow surgery recovery."
+        },
+        {
+          "player_id": 669397,
+          "name": "Nick Allen",
+          "il_type": "Injured List",
+          "date": "2026-04-20",
+          "note": "Houston Astros placed SS Nick Allen on the 10-day injured list retroactive to April 19, 2026. Mid-back spasms. | Status Change",
+          "description": "Houston Astros placed SS Nick Allen on the 10-day injured list retroactive to April 19, 2026. Mid-back spasms."
         },
         {
           "player_id": 669854,
@@ -1858,7 +1866,7 @@
     {
       "team_id": 139,
       "team_name": "Tampa Bay Rays",
-      "injured_count": 8,
+      "injured_count": 10,
       "players": [
         {
           "player_id": 670955,
@@ -1899,6 +1907,22 @@
           "date": "2026-02-10",
           "note": "Tampa Bay Rays placed RHP Manuel Rodr\u00edguez on the 60-day injured list. | Status Change",
           "description": "Tampa Bay Rays placed RHP Manuel Rodr\u00edguez on the 60-day injured list."
+        },
+        {
+          "player_id": 669438,
+          "name": "Mason Englert",
+          "il_type": "Injured List",
+          "date": "2026-04-20",
+          "note": "Tampa Bay Rays placed RHP Mason Englert on the 15-day injured list. Right forearm tightness. | Status Change",
+          "description": "Tampa Bay Rays placed RHP Mason Englert on the 15-day injured list. Right forearm tightness."
+        },
+        {
+          "player_id": 675627,
+          "name": "Michael Grove",
+          "il_type": "Injured List",
+          "date": "2026-04-20",
+          "note": "Tampa Bay Rays transferred RHP Michael Grove from the 15-day injured list to the 60-day injured list. Right shoulder surgery. | Status Change",
+          "description": "Tampa Bay Rays transferred RHP Michael Grove from the 15-day injured list to the 60-day injured list. Right shoulder surgery."
         },
         {
           "player_id": 686752,
