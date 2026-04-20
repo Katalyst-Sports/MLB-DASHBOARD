@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-20T07:57:38.260050-04:00",
+  "updated_at": "2026-04-20T12:20:42.672480-04:00",
   "teams": [
     {
       "team_id": 109,
@@ -1347,7 +1347,7 @@
     {
       "team_id": 142,
       "team_name": "Minnesota Twins",
-      "injured_count": 5,
+      "injured_count": 6,
       "players": [
         {
           "player_id": 689520,
@@ -1364,6 +1364,14 @@
           "date": "2026-04-02",
           "note": "Minnesota Twins transferred RHP David Festa from the 15-day injured list to the 60-day injured list. Right shoulder impingement. | Status Change",
           "description": "Minnesota Twins transferred RHP David Festa from the 15-day injured list to the 60-day injured list. Right shoulder impingement."
+        },
+        {
+          "player_id": 690953,
+          "name": "Mick Abel",
+          "il_type": "Injured List",
+          "date": "2026-04-20",
+          "note": "Minnesota Twins placed RHP Mick Abel on the 15-day injured list retroactive to April 17, 2026. Right elbow inflammation. | Status Change",
+          "description": "Minnesota Twins placed RHP Mick Abel on the 15-day injured list retroactive to April 17, 2026. Right elbow inflammation."
         },
         {
           "player_id": 641154,
