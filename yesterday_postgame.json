@@ -1,334 +1,335 @@
 {
-  "updated_at": "2026-04-19T19:55:57.943160-04:00",
+  "updated_at": "2026-04-20T03:29:30.149154-04:00",
   "games": [
     {
-      "gamePk": 823558,
+      "gamePk": 822750,
+      "game": "San Francisco Giants @ Washington Nationals",
+      "winner": "Washington Nationals",
+      "loser": "San Francisco Giants",
+      "final_score": "0-3",
+      "hitters": [
+        "Rafael Devers",
+        "Drew Gilbert",
+        "Curtis Mead",
+        "Keibert Ruiz"
+      ],
+      "pitchers": [
+        "Robbie Ray"
+      ],
+      "top_batting_line": "Curtis Mead: 1 H, 1 HR, 2 RBI, 4 AB",
+      "top_pitching_line": "Andrew Alvarez: 4.1 IP, 5 K, 0 ER, 0 BB, 3 H",
+      "winning_pitcher": "Andrew Alvarez",
+      "losing_pitcher": "Robbie Ray",
+      "save_pitcher": "",
+      "game_summary": "Curtis Mead homers (2) on a fly ball to left field. Keibert Ruiz scores."
+    },
+    {
+      "gamePk": 823393,
+      "game": "Tampa Bay Rays @ Pittsburgh Pirates",
+      "winner": "Pittsburgh Pirates",
+      "loser": "Tampa Bay Rays",
+      "final_score": "3-6",
+      "hitters": [
+        "Junior Caminero",
+        "Jake Mangum",
+        "Nick Gonzales",
+        "Bryan Reynolds",
+        "Nick Yorke",
+        "Spencer Horwitz"
+      ],
+      "pitchers": [],
+      "top_batting_line": "Junior Caminero: 1 H, 1 HR, 1 RBI, 4 AB",
+      "top_pitching_line": "Mitch Keller: 7.0 IP, 5 K, 2 ER, 0 BB, 5 H",
+      "winning_pitcher": "Mitch Keller",
+      "losing_pitcher": "Shane McClanahan",
+      "save_pitcher": "",
+      "game_summary": "Junior Caminero homers (5) on a fly ball to left field."
+    },
+    {
+      "gamePk": 823556,
       "game": "Kansas City Royals @ New York Yankees",
       "winner": "New York Yankees",
       "loser": "Kansas City Royals",
-      "final_score": "4-13",
+      "final_score": "0-7",
       "hitters": [
-        "Carter Jensen",
-        "Amed Rosario",
-        "Cody Bellinger",
+        "Bobby Witt Jr.",
+        "Elias D\u00edaz",
         "Ben Rice",
-        "Jos\u00e9 Caballero",
-        "J.C. Escarra"
+        "Aaron Judge",
+        "Trent Grisham"
       ],
       "pitchers": [
-        "Will Warren"
+        "Cole Ragans",
+        "Ryan Weathers"
       ],
-      "top_batting_line": "Cody Bellinger: 3 H, 2 HR, 5 RBI, 4 AB",
-      "top_pitching_line": "Will Warren: 7.0 IP, 11 K, 2 ER, 0 BB, 5 H",
-      "winning_pitcher": "Will Warren",
-      "losing_pitcher": "Noah Cameron",
+      "top_batting_line": "Trent Grisham: 2 H, 1 HR, 3 RBI, 4 AB",
+      "top_pitching_line": "Ryan Weathers: 7.1 IP, 8 K, 0 ER, 1 BB, 5 H",
+      "winning_pitcher": "Ryan Weathers",
+      "losing_pitcher": "Cole Ragans",
       "save_pitcher": "",
-      "game_summary": "Michael Massey doubles (2) on a line drive to right fielder Amed Rosario. Tyler Tolbert scores. Carter Jensen scores."
+      "game_summary": "Trent Grisham homers (3) on a fly ball to right field. Cody Bellinger scores. Paul Goldschmidt scores."
     },
     {
-      "gamePk": 823721,
-      "game": "Cincinnati Reds @ Minnesota Twins",
-      "winner": "Cincinnati Reds",
-      "loser": "Minnesota Twins",
-      "final_score": "5-4",
-      "hitters": [
-        "Eugenio Su\u00e1rez",
-        "Nathaniel Lowe",
-        "Josh Bell",
-        "Luke Keaschall"
-      ],
-      "pitchers": [],
-      "top_batting_line": "Tyler Stephenson: 1 H, 0 HR, 2 RBI, 3 AB",
-      "top_pitching_line": "Kyle Nicolas: 1.0 IP, 3 K, 0 ER, 0 BB, 0 H",
-      "winning_pitcher": "Kyle Nicolas",
-      "losing_pitcher": "Cole Sands",
-      "save_pitcher": "Tony Santillan",
-      "game_summary": "Dane Myers singles on a fly ball to center fielder Ryan Kreidler. Spencer Steer scores."
-    },
-    {
-      "gamePk": 824694,
-      "game": "New York Mets @ Chicago Cubs",
-      "winner": "Chicago Cubs",
-      "loser": "New York Mets",
-      "final_score": "2-4",
-      "hitters": [
-        "Francisco Lindor",
-        "Luis Robert Jr.",
-        "Mark Vientos",
-        "Ian Happ",
-        "Carson Kelly"
-      ],
-      "pitchers": [],
-      "top_batting_line": "Carson Kelly: 1 H, 1 HR, 3 RBI, 1 AB",
-      "top_pitching_line": "Jameson Taillon: 6.0 IP, 4 K, 1 ER, 3 BB, 5 H",
-      "winning_pitcher": "Jameson Taillon",
-      "losing_pitcher": "Freddy Peralta",
-      "save_pitcher": "Caleb Thielbar",
-      "game_summary": "Mets challenged (play at 1st), call on the field was overturned: Francisco Alvarez reaches on a throwing error by second baseman Nico Hoerner. Bo Bichette scores. Luis Robert Jr. to 2nd."
-    },
-    {
-      "gamePk": 823394,
-      "game": "Tampa Bay Rays @ Pittsburgh Pirates",
-      "winner": "Tampa Bay Rays",
-      "loser": "Pittsburgh Pirates",
-      "final_score": "8-7",
-      "hitters": [
-        "Chandler Simpson",
-        "Junior Caminero",
-        "Jonathan Aranda",
-        "Jonny DeLuca",
-        "Cedric Mullins",
-        "Ryan O'Hearn",
-        "Marcell Ozuna"
-      ],
-      "pitchers": [],
-      "top_batting_line": "Cedric Mullins: 2 H, 1 HR, 3 RBI, 5 AB",
-      "top_pitching_line": "Paul Skenes: 4.0 IP, 5 K, 0 ER, 0 BB, 3 H",
-      "winning_pitcher": "Griffin Jax",
-      "losing_pitcher": "Yohan Ram\u00edrez",
-      "save_pitcher": "Yoendrys G\u00f3mez",
-      "game_summary": "Konnor Griffin singles on a ground ball to right fielder Jonny DeLuca. Jake Mangum scores. Spencer Horwitz to 3rd."
-    },
-    {
-      "gamePk": 822751,
-      "game": "San Francisco Giants @ Washington Nationals",
-      "winner": "San Francisco Giants",
-      "loser": "Washington Nationals",
-      "final_score": "7-6",
-      "hitters": [
-        "Luis Arraez",
-        "Matt Chapman",
-        "Casey Schmitt",
-        "Jung Hoo Lee",
-        "Heliot Ramos",
-        "Drew Gilbert",
-        "James Wood",
-        "Jacob Young",
-        "Daylen Lile"
-      ],
-      "pitchers": [],
-      "top_batting_line": "Heliot Ramos: 3 H, 1 HR, 2 RBI, 5 AB",
-      "top_pitching_line": "Cade Cavalli: 4.0 IP, 5 K, 1 ER, 0 BB, 7 H",
-      "winning_pitcher": "Caleb Kilian",
-      "losing_pitcher": "Cionel P\u00e9rez",
-      "save_pitcher": "",
-      "game_summary": "Matt Chapman singles on a ground ball to left fielder Daylen Lile. Luis Arraez scores."
-    },
-    {
-      "gamePk": 825020,
-      "game": "Chicago White Sox @ Athletics",
-      "winner": "Athletics",
-      "loser": "Chicago White Sox",
-      "final_score": "6-7",
-      "hitters": [
-        "Andrew Benintendi",
-        "Munetaka Murakami",
-        "Colson Montgomery",
-        "Everson Pereira",
-        "Shea Langeliers",
-        "Nick Kurtz",
-        "Jacob Wilson"
-      ],
-      "pitchers": [],
-      "top_batting_line": "Andrew Benintendi: 1 H, 1 HR, 3 RBI, 6 AB",
-      "top_pitching_line": "Jack Perkins: 2.1 IP, 3 K, 0 ER, 2 BB, 1 H",
-      "winning_pitcher": "Jack Perkins",
-      "losing_pitcher": "Lucas Sims",
-      "save_pitcher": "",
-      "game_summary": "Max Muncy out on a sacrifice fly to left fielder Sam Antonacci. Jacob Wilson scores."
-    },
-    {
-      "gamePk": 824775,
-      "game": "Detroit Tigers @ Boston Red Sox",
-      "winner": "Detroit Tigers",
-      "loser": "Boston Red Sox",
-      "final_score": "4-1",
-      "hitters": [
-        "Kevin McGonigle",
-        "Kerry Carpenter"
-      ],
-      "pitchers": [
-        "Tarik Skubal"
-      ],
-      "top_batting_line": "Kerry Carpenter: 2 H, 1 HR, 2 RBI, 3 AB",
-      "top_pitching_line": "Tarik Skubal: 6.0 IP, 10 K, 1 ER, 2 BB, 4 H",
-      "winning_pitcher": "Tarik Skubal",
-      "losing_pitcher": "Brayan Bello",
-      "save_pitcher": "Kenley Jansen",
-      "game_summary": "Connor Wong grounds into a double play, second baseman Gleyber Torres to first baseman Spencer Torkelson. Wilyer Abreu scores. Ceddanne Rafaela to 3rd. Caleb Durbin out at 2nd. Connor Wong out at 1st."
-    },
-    {
-      "gamePk": 823882,
-      "game": "Milwaukee Brewers @ Miami Marlins",
-      "winner": "Milwaukee Brewers",
-      "loser": "Miami Marlins",
-      "final_score": "5-2",
-      "hitters": [
-        "Brice Turang",
-        "Liam Hicks",
-        "Connor Norby"
-      ],
-      "pitchers": [],
-      "top_batting_line": "Brice Turang: 2 H, 1 HR, 3 RBI, 3 AB",
-      "top_pitching_line": "Brandon Woodruff: 7.0 IP, 4 K, 1 ER, 1 BB, 3 H",
-      "winning_pitcher": "Brandon Woodruff",
-      "losing_pitcher": "Sandy Alcantara",
-      "save_pitcher": "Abner Uribe",
-      "game_summary": "Heriberto Hern\u00e1ndez grounds into a force out, third baseman Luis Rengifo to second baseman Brice Turang. Otto Lopez scores. Connor Norby to 3rd. Owen Caissie out at 2nd. Heriberto Hern\u00e1ndez to 1st."
-    },
-    {
-      "gamePk": 824451,
+      "gamePk": 824452,
       "game": "Baltimore Orioles @ Cleveland Guardians",
       "winner": "Cleveland Guardians",
       "loser": "Baltimore Orioles",
-      "final_score": "2-4",
+      "final_score": "4-8",
       "hitters": [
-        "Gunnar Henderson",
-        "Leody Taveras",
-        "Bo Naylor",
+        "Taylor Ward",
+        "Jos\u00e9 Ram\u00edrez",
+        "David Fry",
         "Brayan Rocchio"
       ],
       "pitchers": [
-        "Dean Kremer",
-        "Gavin Williams"
+        "Joey Cantillo"
       ],
-      "top_batting_line": "Brayan Rocchio: 1 H, 1 HR, 3 RBI, 3 AB",
-      "top_pitching_line": "Gavin Williams: 7.0 IP, 11 K, 1 ER, 1 BB, 3 H",
-      "winning_pitcher": "Gavin Williams",
-      "losing_pitcher": "Dean Kremer",
-      "save_pitcher": "Cade Smith",
-      "game_summary": "Bo Naylor homers (1) on a fly ball to right field."
+      "top_batting_line": "Jos\u00e9 Ram\u00edrez: 2 H, 2 HR, 2 RBI, 4 AB",
+      "top_pitching_line": "Tyler Wells: 2.0 IP, 5 K, 0 ER, 0 BB, 0 H",
+      "winning_pitcher": "Matt Festa",
+      "losing_pitcher": "Trevor Rogers",
+      "save_pitcher": "",
+      "game_summary": "Brayan Rocchio singles on a line drive to center fielder Leody Taveras. Rhys Hoskins scores. David Fry scores. Daniel Schneemann to 2nd."
     },
     {
-      "gamePk": 824206,
+      "gamePk": 823881,
+      "game": "Milwaukee Brewers @ Miami Marlins",
+      "winner": "Miami Marlins",
+      "loser": "Milwaukee Brewers",
+      "final_score": "3-5",
+      "hitters": [
+        "Kyle Stowers",
+        "Liam Hicks"
+      ],
+      "pitchers": [
+        "Jacob Misiorowski",
+        "Eury P\u00e9rez"
+      ],
+      "top_batting_line": "Gary S\u00e1nchez: 1 H, 0 HR, 2 RBI, 4 AB",
+      "top_pitching_line": "Jacob Misiorowski: 5.0 IP, 9 K, 1 ER, 3 BB, 4 H",
+      "winning_pitcher": "Eury P\u00e9rez",
+      "losing_pitcher": "Jacob Misiorowski",
+      "save_pitcher": "Pete Fairbanks",
+      "game_summary": "Gary S\u00e1nchez singles on a ground ball to center fielder Jakob Marsee. Sal Frelick scores. Garrett Mitchell scores. Brice Turang to 3rd."
+    },
+    {
+      "gamePk": 824205,
       "game": "St. Louis Cardinals @ Houston Astros",
       "winner": "St. Louis Cardinals",
       "loser": "Houston Astros",
       "final_score": "7-5",
       "hitters": [
-        "Alec Burleson",
-        "Nolan Gorman",
         "Masyn Winn",
-        "Jos\u00e9 Ferm\u00edn",
         "Yordan Alvarez",
-        "Shay Whitcomb"
-      ],
-      "pitchers": [],
-      "top_batting_line": "Shay Whitcomb: 1 H, 1 HR, 3 RBI, 4 AB",
-      "top_pitching_line": "Andre Pallante: 5.0 IP, 5 K, 1 ER, 3 BB, 3 H",
-      "winning_pitcher": "Andre Pallante",
-      "losing_pitcher": "Lance McCullers Jr.",
-      "save_pitcher": "Riley O'Brien",
-      "game_summary": "Shay Whitcomb homers (1) on a fly ball to center field. Cam Smith scores. Christian V\u00e1zquez scores."
-    },
-    {
-      "gamePk": 823151,
-      "game": "Texas Rangers @ Seattle Mariners",
-      "winner": "Seattle Mariners",
-      "loser": "Texas Rangers",
-      "final_score": "3-7",
-      "hitters": [
-        "Wyatt Langford",
-        "Josh Jung",
-        "Ezequiel Duran",
-        "J.P. Crawford",
-        "Luke Raley",
-        "Dominic Canzone",
-        "Cole Young"
-      ],
-      "pitchers": [],
-      "top_batting_line": "Josh Jung: 2 H, 1 HR, 1 RBI, 4 AB",
-      "top_pitching_line": "George Kirby: 5.2 IP, 5 K, 1 ER, 2 BB, 7 H",
-      "winning_pitcher": "George Kirby",
-      "losing_pitcher": "Nathan Eovaldi",
-      "save_pitcher": "Andr\u00e9s Mu\u00f1oz",
-      "game_summary": "Ezequiel Duran doubles (3) on a sharp line drive to left fielder Randy Arozarena. Josh Smith scores. Josh Jung to 3rd."
-    },
-    {
-      "gamePk": 823474,
-      "game": "Atlanta Braves @ Philadelphia Phillies",
-      "winner": "Atlanta Braves",
-      "loser": "Philadelphia Phillies",
-      "final_score": "3-1",
-      "hitters": [
-        "Ozzie Albies",
-        "Austin Riley",
-        "Jonah Heim",
-        "Felix Reyes"
+        "Jose Altuve",
+        "Taylor Trammell"
       ],
       "pitchers": [
-        "Chris Sale",
-        "Cristopher S\u00e1nchez"
+        "Mike Burrows"
       ],
-      "top_batting_line": "Felix Reyes: 1 H, 1 HR, 1 RBI, 3 AB",
-      "top_pitching_line": "Cristopher S\u00e1nchez: 6.0 IP, 8 K, 0 ER, 1 BB, 8 H",
-      "winning_pitcher": "Chris Sale",
-      "losing_pitcher": "Cristopher S\u00e1nchez",
-      "save_pitcher": "Robert Suarez",
-      "game_summary": "Mauricio Dub\u00f3n singles on a fly ball to center fielder Brandon Marsh. Ozzie Albies scores. Matt Olson scores. Austin Riley to 2nd."
+      "top_batting_line": "Masyn Winn: 3 H, 0 HR, 3 RBI, 5 AB",
+      "top_pitching_line": "Kai-Wei Teng: 2.0 IP, 3 K, 0 ER, 1 BB, 1 H",
+      "winning_pitcher": "Riley O'Brien",
+      "losing_pitcher": "Bryan King",
+      "save_pitcher": "Gordon Graceffo",
+      "game_summary": "Jose Altuve singles on a ground ball to shortstop Masyn Winn. Taylor Trammell scores. Carlos Correa to 3rd."
     },
     {
-      "gamePk": 824372,
+      "gamePk": 823718,
+      "game": "Cincinnati Reds @ Minnesota Twins",
+      "winner": "Cincinnati Reds",
+      "loser": "Minnesota Twins",
+      "final_score": "7-4",
+      "hitters": [
+        "TJ Friedl",
+        "Victor Caratini",
+        "James Outman"
+      ],
+      "pitchers": [
+        "Bailey Ober"
+      ],
+      "top_batting_line": "TJ Friedl: 2 H, 0 HR, 3 RBI, 5 AB",
+      "top_pitching_line": "Bailey Ober: 6.1 IP, 10 K, 0 ER, 4 BB, 3 H",
+      "winning_pitcher": "Emilio Pag\u00e1n",
+      "losing_pitcher": "Garrett Acton",
+      "save_pitcher": "Graham Ashcraft",
+      "game_summary": "Rece Hinds doubles (1) on a sharp line drive to left fielder Austin Martin. Eugenio Su\u00e1rez scores. Will Benson scores."
+    },
+    {
+      "gamePk": 824691,
+      "game": "New York Mets @ Chicago Cubs",
+      "winner": "Chicago Cubs",
+      "loser": "New York Mets",
+      "final_score": "1-2",
+      "hitters": [
+        "MJ Melendez",
+        "Marcus Semien",
+        "Ian Happ"
+      ],
+      "pitchers": [],
+      "top_batting_line": "MJ Melendez: 1 H, 1 HR, 1 RBI, 4 AB",
+      "top_pitching_line": "Tobias Myers: 2.0 IP, 2 K, 0 ER, 1 BB, 1 H",
+      "winning_pitcher": "Caleb Thielbar",
+      "losing_pitcher": "Craig Kimbrel",
+      "save_pitcher": "",
+      "game_summary": "Nico Hoerner out on a sacrifice fly to right fielder Tyrone Taylor. Pete Crow-Armstrong scores."
+    },
+    {
+      "gamePk": 824371,
       "game": "Los Angeles Dodgers @ Colorado Rockies",
       "winner": "Colorado Rockies",
       "loser": "Los Angeles Dodgers",
-      "final_score": "3-4",
+      "final_score": "6-9",
       "hitters": [
-        "Kyle Tucker",
-        "Freddie Freeman",
-        "Dalton Rushing",
-        "Troy Johnston"
+        "Shohei Ohtani",
+        "Max Muncy",
+        "Ryan Ward",
+        "Hyeseong Kim",
+        "Alex Freeland",
+        "Edouard Julien",
+        "Mickey Moniak",
+        "Troy Johnston",
+        "Kyle Karros"
       ],
       "pitchers": [],
-      "top_batting_line": "Kyle Tucker: 3 H, 1 HR, 2 RBI, 5 AB",
-      "top_pitching_line": "Ryan Feltner: 5.2 IP, 5 K, 2 ER, 1 BB, 5 H",
-      "winning_pitcher": "Brennan Bernardino",
-      "losing_pitcher": "Will Klein",
-      "save_pitcher": "Victor Vodnik",
-      "game_summary": "Troy Johnston doubles (5) on a line drive to center fielder Andy Pages. Hunter Goodman scores. Ezequiel Tovar scores."
-    },
-    {
-      "gamePk": 825098,
-      "game": "Toronto Blue Jays @ Arizona Diamondbacks",
-      "winner": "Arizona Diamondbacks",
-      "loser": "Toronto Blue Jays",
-      "final_score": "2-6",
-      "hitters": [
-        "Nathan Lukes",
-        "Ernie Clement",
-        "Eloy Jim\u00e9nez",
-        "Kazuma Okamoto",
-        "Corbin Carroll",
-        "Geraldo Perdomo",
-        "Alek Thomas"
-      ],
-      "pitchers": [],
-      "top_batting_line": "Corbin Carroll: 1 H, 1 HR, 4 RBI, 3 AB",
-      "top_pitching_line": "Juan Morillo: 1.1 IP, 2 K, 0 ER, 0 BB, 1 H",
-      "winning_pitcher": "Juan Morillo",
-      "losing_pitcher": "Jeff Hoffman",
+      "top_batting_line": "Mickey Moniak: 2 H, 1 HR, 3 RBI, 5 AB",
+      "top_pitching_line": "Kyle Hurt: 1.0 IP, 1 K, 0 ER, 0 BB, 0 H",
+      "winning_pitcher": "Antonio Senzatela",
+      "losing_pitcher": "Blake Treinen",
       "save_pitcher": "",
-      "game_summary": "Corbin Carroll hits a grand slam (3) to left center field. Ildemaro Vargas scores. Alek Thomas scores. Ketel Marte scores."
+      "game_summary": "Dalton Rushing grounds out, second baseman Willi Castro to first baseman Edouard Julien. Will Smith scores. Max Muncy to 3rd. Andy Pages to 2nd."
     },
     {
-      "gamePk": 824049,
+      "gamePk": 825018,
+      "game": "Chicago White Sox @ Athletics",
+      "winner": "Chicago White Sox",
+      "loser": "Athletics",
+      "final_score": "7-4",
+      "hitters": [
+        "Chase Meidroth",
+        "Miguel Vargas",
+        "Munetaka Murakami",
+        "Everson Pereira",
+        "Colson Montgomery",
+        "Derek Hill",
+        "Darell Hernaiz"
+      ],
+      "pitchers": [
+        "Noah Schultz",
+        "Jeffrey Springs"
+      ],
+      "top_batting_line": "Miguel Vargas: 2 H, 1 HR, 2 RBI, 3 AB",
+      "top_pitching_line": "Noah Schultz: 5.0 IP, 6 K, 1 ER, 1 BB, 1 H",
+      "winning_pitcher": "Noah Schultz",
+      "losing_pitcher": "Jeffrey Springs",
+      "save_pitcher": "Seranthony Dom\u00ednguez",
+      "game_summary": "Zack Gelof doubles (1) on a line drive to right fielder Derek Hill. Tyler Soderstrom scores. Darell Hernaiz scores. Zack Gelof to 3rd."
+    },
+    {
+      "gamePk": 824047,
       "game": "San Diego Padres @ Los Angeles Angels",
       "winner": "San Diego Padres",
       "loser": "Los Angeles Angels",
-      "final_score": "4-1",
+      "final_score": "2-1",
       "hitters": [
-        "Fernando Tatis Jr.",
-        "Miguel Andujar"
+        "Bryce Johnson"
       ],
       "pitchers": [
-        "Yusei Kikuchi"
+        "Michael King",
+        "Walbert Urena"
       ],
-      "top_batting_line": "Fernando Tatis Jr.: 2 H, 0 HR, 2 RBI, 4 AB",
-      "top_pitching_line": "Yusei Kikuchi: 6.0 IP, 8 K, 0 ER, 1 BB, 4 H",
-      "winning_pitcher": "Adrian Morejon",
-      "losing_pitcher": "Ryan Zeferjahn",
+      "top_batting_line": "Bryce Johnson: 2 H, 0 HR, 1 RBI, 3 AB",
+      "top_pitching_line": "Michael King: 5.0 IP, 6 K, 0 ER, 4 BB, 1 H",
+      "winning_pitcher": "Michael King",
+      "losing_pitcher": "Walbert Urena",
       "save_pitcher": "Mason Miller",
-      "game_summary": "Fernando Tatis Jr. singles on a line drive to center fielder Mike Trout. Freddy Fermin scores. Jake Cronenworth to 2nd."
+      "game_summary": "Zach Neto grounds out, shortstop Xander Bogaerts to first baseman Gavin Sheets. Oswald Peraza scores."
+    },
+    {
+      "gamePk": 823150,
+      "game": "Texas Rangers @ Seattle Mariners",
+      "winner": "Seattle Mariners",
+      "loser": "Texas Rangers",
+      "final_score": "2-5",
+      "hitters": [
+        "Brandon Nimmo",
+        "Rob Refsnyder",
+        "Randy Arozarena",
+        "J.P. Crawford"
+      ],
+      "pitchers": [
+        "Bryan Woo"
+      ],
+      "top_batting_line": "Randy Arozarena: 2 H, 1 HR, 2 RBI, 4 AB",
+      "top_pitching_line": "Bryan Woo: 7.0 IP, 6 K, 2 ER, 1 BB, 4 H",
+      "winning_pitcher": "Bryan Woo",
+      "losing_pitcher": "MacKenzie Gore",
+      "save_pitcher": "Andr\u00e9s Mu\u00f1oz",
+      "game_summary": "Evan Carter doubles (4) on a sharp line drive to right fielder Rob Refsnyder. Wyatt Langford scores. Joc Pederson to 3rd."
+    },
+    {
+      "gamePk": 825100,
+      "game": "Toronto Blue Jays @ Arizona Diamondbacks",
+      "winner": "Toronto Blue Jays",
+      "loser": "Arizona Diamondbacks",
+      "final_score": "10-4",
+      "hitters": [
+        "Nathan Lukes",
+        "Ernie Clement",
+        "Vladimir Guerrero Jr.",
+        "Kazuma Okamoto",
+        "Jorge Barrosa",
+        "Adrian Del Castillo"
+      ],
+      "pitchers": [],
+      "top_batting_line": "Kazuma Okamoto: 2 H, 1 HR, 3 RBI, 4 AB",
+      "top_pitching_line": "Andrew Hoffmann: 2.1 IP, 3 K, 1 ER, 1 BB, 2 H",
+      "winning_pitcher": "Kevin Gausman",
+      "losing_pitcher": "Ryne Nelson",
+      "save_pitcher": "",
+      "game_summary": "Jorge Barrosa homers (1) on a fly ball to left field. Ketel Marte scores."
+    },
+    {
+      "gamePk": 824777,
+      "game": "Detroit Tigers @ Boston Red Sox",
+      "winner": "Detroit Tigers",
+      "loser": "Boston Red Sox",
+      "final_score": "6-2",
+      "hitters": [
+        "Jahmai Jones",
+        "Matt Vierling",
+        "Dillon Dingler",
+        "Javier B\u00e1ez",
+        "Willson Contreras"
+      ],
+      "pitchers": [
+        "Framber Valdez",
+        "Garrett Crochet"
+      ],
+      "top_batting_line": "Dillon Dingler: 4 H, 1 HR, 4 RBI, 5 AB",
+      "top_pitching_line": "Framber Valdez: 6.0 IP, 7 K, 1 ER, 2 BB, 3 H",
+      "winning_pitcher": "Framber Valdez",
+      "losing_pitcher": "Garrett Crochet",
+      "save_pitcher": "",
+      "game_summary": "Caleb Durbin doubles (4) on a line drive to left fielder Riley Greene. Wilyer Abreu scores."
+    },
+    {
+      "gamePk": 823475,
+      "game": "Atlanta Braves @ Philadelphia Phillies",
+      "winner": "Atlanta Braves",
+      "loser": "Philadelphia Phillies",
+      "final_score": "4-2",
+      "hitters": [
+        "Michael Harris II",
+        "Kyle Schwarber"
+      ],
+      "pitchers": [],
+      "top_batting_line": "Kyle Schwarber: 2 H, 1 HR, 2 RBI, 4 AB",
+      "top_pitching_line": "Grant Holmes: 4.2 IP, 4 K, 2 ER, 1 BB, 4 H",
+      "winning_pitcher": "Tyler Kinley",
+      "losing_pitcher": "Andrew Painter",
+      "save_pitcher": "Raisel Iglesias",
+      "game_summary": "Ozzie Albies doubles (3) on a line drive to left fielder Brandon Marsh. Matt Olson scores. Austin Riley to 3rd."
     }
   ],
   "errors": []
