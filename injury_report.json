@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-20T16:04:31.638520-04:00",
+  "updated_at": "2026-04-20T18:29:58.742812-04:00",
   "teams": [
     {
       "team_id": 109,
@@ -984,7 +984,7 @@
     {
       "team_id": 118,
       "team_name": "Kansas City Royals",
-      "injured_count": 6,
+      "injured_count": 7,
       "players": [
         {
           "player_id": 679525,
@@ -1017,6 +1017,14 @@
           "date": "2026-04-19",
           "note": "Kansas City Royals transferred RHP James McArthur from the 15-day injured list to the 60-day injured list. Right elbow inflammation. | Status Change",
           "description": "Kansas City Royals transferred RHP James McArthur from the 15-day injured list to the 60-day injured list. Right elbow inflammation."
+        },
+        {
+          "player_id": 663697,
+          "name": "Jonathan India",
+          "il_type": "Injured List",
+          "date": "2026-04-20",
+          "note": "Kansas City Royals placed 2B Jonathan India on the 10-day injured list retroactive to April 19, 2026. Left shoulder subluxation. | Status Change",
+          "description": "Kansas City Royals placed 2B Jonathan India on the 10-day injured list retroactive to April 19, 2026. Left shoulder subluxation."
         },
         {
           "player_id": 686681,
@@ -1110,7 +1118,7 @@
     {
       "team_id": 119,
       "team_name": "Los Angeles Dodgers",
-      "injured_count": 12,
+      "injured_count": 13,
       "players": [
         {
           "player_id": 676508,
@@ -1151,6 +1159,14 @@
           "date": "2026-03-23",
           "note": "Los Angeles Dodgers placed RHP Brusdar Graterol on the 15-day injured list retroactive to March 22, 2026. Recovery from right shoulder surgery. | Status Change",
           "description": "Los Angeles Dodgers placed RHP Brusdar Graterol on the 15-day injured list retroactive to March 22, 2026. Recovery from right shoulder surgery."
+        },
+        {
+          "player_id": 621242,
+          "name": "Edwin D\u00edaz",
+          "il_type": "Injured List",
+          "date": "2026-04-20",
+          "note": "Los Angeles Dodgers placed RHP Edwin D\u00edaz on the 15-day injured list. Right elbow loose bodies. | Status Change",
+          "description": "Los Angeles Dodgers placed RHP Edwin D\u00edaz on the 15-day injured list. Right elbow loose bodies."
         },
         {
           "player_id": 571771,
@@ -1780,8 +1796,16 @@
     {
       "team_id": 136,
       "team_name": "Seattle Mariners",
-      "injured_count": 7,
+      "injured_count": 8,
       "players": [
+        {
+          "player_id": 680977,
+          "name": "Brendan Donovan",
+          "il_type": "Injured List",
+          "date": "2026-04-20",
+          "note": "Seattle Mariners placed 2B Brendan Donovan on the 10-day injured list retroactive to April 18, 2026. Left groin muscle strain. | Status Change",
+          "description": "Seattle Mariners placed 2B Brendan Donovan on the 10-day injured list retroactive to April 18, 2026. Left groin muscle strain."
+        },
         {
           "player_id": 682243,
           "name": "Bryce Miller",
@@ -1818,9 +1842,9 @@
           "player_id": 670156,
           "name": "Miles Mastrobuoni",
           "il_type": "Injured List",
-          "date": "2026-03-25",
-          "note": "Seattle Mariners placed 3B Miles Mastrobuoni on the 10-day injured list retroactive to March 22, 2026. Right calf strain. | Status Change",
-          "description": "Seattle Mariners placed 3B Miles Mastrobuoni on the 10-day injured list retroactive to March 22, 2026. Right calf strain."
+          "date": "2026-04-20",
+          "note": "Seattle Mariners placed 3B Miles Mastrobuoni on the 60-day injured list. Right calf strain. | Status Change",
+          "description": "Seattle Mariners placed 3B Miles Mastrobuoni on the 60-day injured list. Right calf strain."
         },
         {
           "player_id": 621550,

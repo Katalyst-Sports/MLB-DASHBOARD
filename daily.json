@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-20T16:04:31.638520-04:00",
+  "updated_at": "2026-04-20T18:29:58.742812-04:00",
   "games": [
     {
       "gamePk": 824776,
@@ -479,13 +479,13 @@
       "home_team": "Cleveland Guardians",
       "venue": "Progressive Field",
       "start": "2026-04-20T22:10:00Z",
-      "status": "Preview",
+      "status": "Live",
       "away_pitcher": {
         "id": 681293,
         "name": "Spencer Arrighetti",
         "hand": "R",
-        "era": "1.50",
-        "whip": "1.17",
+        "era": "1.35",
+        "whip": "1.20",
         "last3": {
           "starts": [
             {
@@ -497,16 +497,26 @@
               "bb": 4,
               "pitches": 100,
               "strikes": 61
+            },
+            {
+              "date": "2026-04-20",
+              "opponent": "Cleveland Guardians",
+              "ip": "0.2",
+              "er": 0,
+              "k": 0,
+              "bb": 1,
+              "pitches": 8,
+              "strikes": 3
             }
           ],
-          "avg_ip": "6.0",
-          "avg_k": "10.0",
-          "avg_bb": "4.0",
-          "avg_pitches": "100.0",
-          "avg_strikes": "61.0",
-          "era": "1.50",
-          "whip": "1.17",
-          "strike_pct": "61.0",
+          "avg_ip": "3.1",
+          "avg_k": "5.0",
+          "avg_bb": "2.5",
+          "avg_pitches": "54.0",
+          "avg_strikes": "32.0",
+          "era": "1.35",
+          "whip": "1.20",
+          "strike_pct": "59.3",
           "quality_starts": 1
         }
       },
@@ -514,8 +524,8 @@
         "id": 677944,
         "name": "Slade Cecconi",
         "hand": "R",
-        "era": "5.03",
-        "whip": "1.37",
+        "era": "5.66",
+        "whip": "1.50",
         "last3": {
           "starts": [
             {
@@ -564,10 +574,10 @@
         {
           "name": "Yordan Alvarez",
           "stats": {
-            "avg": ".333",
-            "obp": ".471",
-            "slg": ".790",
-            "ops": "1.261",
+            "avg": ".329",
+            "obp": ".467",
+            "slg": ".780",
+            "ops": "1.247",
             "homeRuns": 10,
             "rbi": 21
           },
@@ -602,12 +612,32 @@
           }
         },
         {
+          "name": "Christian Walker",
+          "stats": {
+            "avg": ".263",
+            "obp": ".362",
+            "slg": ".525",
+            "ops": ".887",
+            "homeRuns": 5,
+            "rbi": 18
+          },
+          "last10ab": {
+            "avg": "0.300",
+            "hits": 3,
+            "atBats": 10,
+            "homeRuns": 0,
+            "rbi": 1,
+            "walks": 2,
+            "games": 3
+          }
+        },
+        {
           "name": "Jose Altuve",
           "stats": {
-            "avg": ".298",
-            "obp": ".404",
-            "slg": ".476",
-            "ops": ".880",
+            "avg": ".294",
+            "obp": ".400",
+            "slg": ".471",
+            "ops": ".871",
             "homeRuns": 3,
             "rbi": 8
           },
@@ -622,32 +652,12 @@
           }
         },
         {
-          "name": "Christian Walker",
-          "stats": {
-            "avg": ".253",
-            "obp": ".355",
-            "slg": ".481",
-            "ops": ".836",
-            "homeRuns": 4,
-            "rbi": 16
-          },
-          "last10ab": {
-            "avg": "0.300",
-            "hits": 3,
-            "atBats": 10,
-            "homeRuns": 0,
-            "rbi": 1,
-            "walks": 2,
-            "games": 3
-          }
-        },
-        {
           "name": "Taylor Trammell",
           "stats": {
             "avg": ".321",
-            "obp": ".387",
+            "obp": ".406",
             "slg": ".429",
-            "ops": ".816",
+            "ops": ".835",
             "homeRuns": 0,
             "rbi": 4
           },
@@ -684,10 +694,10 @@
         {
           "name": "Carlos Correa",
           "stats": {
-            "avg": ".253",
-            "obp": ".345",
-            "slg": ".360",
-            "ops": ".705",
+            "avg": ".263",
+            "obp": ".352",
+            "slg": ".368",
+            "ops": ".720",
             "homeRuns": 1,
             "rbi": 10
           },
@@ -767,9 +777,9 @@
           "name": "Jos\u00e9 Ram\u00edrez",
           "stats": {
             "avg": ".229",
-            "obp": ".354",
+            "obp": ".360",
             "slg": ".494",
-            "ops": ".848",
+            "ops": ".854",
             "homeRuns": 6,
             "rbi": 12
           },
@@ -786,10 +796,10 @@
         {
           "name": "Chase DeLauter",
           "stats": {
-            "avg": ".232",
-            "obp": ".325",
-            "slg": ".522",
-            "ops": ".847",
+            "avg": ".229",
+            "obp": ".321",
+            "slg": ".514",
+            "ops": ".835",
             "homeRuns": 5,
             "rbi": 12
           },
@@ -931,7 +941,7 @@
       "home_team": "Tampa Bay Rays",
       "venue": "Tropicana Field",
       "start": "2026-04-20T22:40:00Z",
-      "status": "Preview",
+      "status": "Live",
       "away_pitcher": {
         "id": 695076,
         "name": "Rhett Lowder",
@@ -1393,7 +1403,7 @@
       "home_team": "Miami Marlins",
       "venue": "loanDepot park",
       "start": "2026-04-20T22:40:00Z",
-      "status": "Preview",
+      "status": "Live",
       "away_pitcher": {
         "id": 700241,
         "name": "Michael McGreevy",
@@ -1865,7 +1875,7 @@
       "home_team": "Washington Nationals",
       "venue": "Nationals Park",
       "start": "2026-04-20T22:45:00Z",
-      "status": "Preview",
+      "status": "Live",
       "away_pitcher": {
         "id": 693821,
         "name": "Bryce Elder",
@@ -2742,19 +2752,19 @@
           }
         },
         {
-          "name": "Jonathan India",
+          "name": "Nick Loftin",
           "stats": {
-            "avg": ".167",
-            "obp": ".310",
-            "slg": ".313",
-            "ops": ".623",
-            "homeRuns": 2,
-            "rbi": 8
+            "avg": ".222",
+            "obp": ".364",
+            "slg": ".333",
+            "ops": ".697",
+            "homeRuns": 0,
+            "rbi": 0
           },
           "last10ab": {
-            "avg": "0.100",
-            "hits": 1,
-            "atBats": 10,
+            "avg": "0.222",
+            "hits": 2,
+            "atBats": 9,
             "homeRuns": 0,
             "rbi": 0,
             "walks": 1,
@@ -4520,26 +4530,6 @@
           }
         },
         {
-          "name": "Brendan Donovan",
-          "stats": {
-            "avg": ".304",
-            "obp": ".437",
-            "slg": ".518",
-            "ops": ".955",
-            "homeRuns": 3,
-            "rbi": 8
-          },
-          "last10ab": {
-            "avg": "0.364",
-            "hits": 4,
-            "atBats": 11,
-            "homeRuns": 1,
-            "rbi": 1,
-            "walks": 2,
-            "games": 3
-          }
-        },
-        {
           "name": "Randy Arozarena",
           "stats": {
             "avg": ".293",
@@ -4677,6 +4667,26 @@
             "rbi": 1,
             "walks": 2,
             "games": 4
+          }
+        },
+        {
+          "name": "Josh Naylor",
+          "stats": {
+            "avg": ".146",
+            "obp": ".231",
+            "slg": ".220",
+            "ops": ".451",
+            "homeRuns": 2,
+            "rbi": 7
+          },
+          "last10ab": {
+            "avg": "0.000",
+            "hits": 0,
+            "atBats": 11,
+            "homeRuns": 0,
+            "rbi": 0,
+            "walks": 2,
+            "games": 3
           }
         }
       ]

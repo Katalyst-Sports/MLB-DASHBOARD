@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-04-20T16:04:31.638520-04:00",
+  "updated_at": "2026-04-20T18:29:58.742812-04:00",
   "date": "2026-04-19",
   "dashboard_recap": {
     "headline": "MLB Daily Recap - April 19, 2026",
-    "article": "**Nationals Shut Down Giants, 3-0**\n\nA strong pitching performance from Andrew Alvarez led the Washington Nationals to a 3-0 shutout over the San Francisco Giants. Alvarez threw 4.1 innings, striking out five and allowing no earned runs. Curtis Mead's two-run homer in the top of the third gave the Nationals an early lead, and the team's bullpen closed out the game. Mead finished the day with a home run and two RBIs.\n\n**Pirates Overcome Rays, 6-3**\n\nThe Pittsburgh Pirates rallied for a 6-3 win over the Tampa Bay Rays. Junior Caminero hit a solo homer in the bottom of the fifth to give the Pirates a 4-3 lead, and the team added two more runs in the seventh. Mitch Keller pitched seven strong innings, allowing two earned runs and striking out five.\n\n**Yankees Cruise Past Royals, 7-0**\n\nThe New York Yankees dominated the Kansas City Royals, 7-0. Trent Grisham hit a three-run homer in the top of the fifth to give the Yankees a 5-0 lead, and the team's bullpen closed out the game. Ryan Weathers pitched 7.1 innings, striking out eight and allowing no earned runs.",
+    "article": "**Giants Fall in Washington, While Dodgers' Streak Continues**\n\nA trio of power hitters stole the show on Tuesday night, with Curtis Mead (2 HR, 2 RBI) leading the charge for the Giants in their 3-0 loss to the Nationals. Mead's two-run homer was the highlight of the game, but it wasn't enough to overcome Andrew Alvarez's (4.1 IP, 5 K, 0 ER) strong outing for the Nats.\n\nIn other action, the Rockies' offense exploded for 9 runs in a 9-6 win over the Dodgers, with Mickey Moniak (2 H, 1 HR, 3 RBI) and Ryan Ward (2 H, 1 HR, 2 RBI) leading the way. Meanwhile, the Padres' Michael King (5.0 IP, 6 K, 0 ER) pitched a gem in a 2-1 win over the Angels.\n\nThe Yankees' Ryan Weathers (7.1 IP, 8 K, 0 ER) was nearly unhittable in a 7-0 shutout of the Royals, while the Guardians' Joey Cantillo (no stats) and the Tigers' Framber Valdez (6.0 IP, 7 K, 1 ER) also turned in strong performances on the mound.",
     "all_games": [
       {
         "game": "San Francisco Giants @ Washington Nationals",
         "final_score": "0-3",
         "top_pitching_line": "Andrew Alvarez: 4.1 IP, 5 K, 0 ER, 0 BB, 3 H",
         "top_batting_line": "Curtis Mead: 1 H, 1 HR, 2 RBI, 4 AB",
-        "summary": "The Washington Nationals shut out the San Francisco Giants 3-0 behind Andrew Alvarez's 4.1 scoreless innings and Curtis Mead's 2-run homer.",
+        "summary": "The Washington Nationals shut out the San Francisco Giants 3-0 behind Andrew Alvarez's 4.1 scoreless innings, highlighted by Curtis Mead's two-run homer.",
         "impact_player": "Curtis Mead"
       },
       {
@@ -18,7 +18,7 @@
         "final_score": "3-6",
         "top_pitching_line": "Mitch Keller: 7.0 IP, 5 K, 2 ER, 0 BB, 5 H",
         "top_batting_line": "Junior Caminero: 1 H, 1 HR, 1 RBI, 4 AB",
-        "summary": "The Pittsburgh Pirates defeated the Tampa Bay Rays 6-3 behind Mitch Keller's 7 strong innings and Junior Caminero's 1-run homer.",
+        "summary": "The Pittsburgh Pirates outlasted the Tampa Bay Rays 6-3 behind Mitch Keller's 7-inning performance and Junior Caminero's 1-home run effort.",
         "impact_player": "Junior Caminero"
       },
       {
@@ -26,7 +26,7 @@
         "final_score": "0-7",
         "top_pitching_line": "Ryan Weathers: 7.1 IP, 8 K, 0 ER, 1 BB, 5 H",
         "top_batting_line": "Trent Grisham: 2 H, 1 HR, 3 RBI, 4 AB",
-        "summary": "The New York Yankees dominated the Kansas City Royals 7-0 behind a strong outing from Ryan Weathers, who struck out 8 in 7.1 innings.",
+        "summary": "The New York Yankees dominated the Kansas City Royals 7-0 behind a strong outing from Ryan Weathers and a 2-hit, 3-RBI performance from Trent Grisham.",
         "impact_player": "Trent Grisham"
       },
       {
@@ -34,7 +34,7 @@
         "final_score": "4-8",
         "top_pitching_line": "Tyler Wells: 2.0 IP, 5 K, 0 ER, 0 BB, 0 H",
         "top_batting_line": "Jos\u00e9 Ram\u00edrez: 2 H, 2 HR, 2 RBI, 4 AB",
-        "summary": "The Cleveland Guardians defeated the Baltimore Orioles 8-4 behind Jos\u00e9 Ram\u00edrez's 2 home runs and 2 RBIs, and a strong start from Tyler Wells.",
+        "summary": "Cleveland Guardians win 8-4 behind Jos\u00e9 Ram\u00edrez's 2 HR and 2 RBI, while Tyler Wells pitches 2 scoreless innings with 5 strikeouts.",
         "impact_player": "Jos\u00e9 Ram\u00edrez"
       },
       {
@@ -42,7 +42,7 @@
         "final_score": "3-5",
         "top_pitching_line": "Jacob Misiorowski: 5.0 IP, 9 K, 1 ER, 3 BB, 4 H",
         "top_batting_line": "Gary S\u00e1nchez: 1 H, 0 HR, 2 RBI, 4 AB",
-        "summary": "The Miami Marlins outlasted the Milwaukee Brewers 5-3 behind Jacob Misiorowski's 5 strong innings and Gary S\u00e1nchez's 2 RBI performance.",
+        "summary": "The Miami Marlins edged the Milwaukee Brewers 5-3 behind Jacob Misiorowski's 5 shutout innings and Gary S\u00e1nchez's 2 RBI single.",
         "impact_player": "Gary S\u00e1nchez"
       },
       {
@@ -50,7 +50,7 @@
         "final_score": "7-5",
         "top_pitching_line": "Kai-Wei Teng: 2.0 IP, 3 K, 0 ER, 1 BB, 1 H",
         "top_batting_line": "Masyn Winn: 3 H, 0 HR, 3 RBI, 5 AB",
-        "summary": "The St. Louis Cardinals outlasted the Houston Astros 7-5, led by Masyn Winn's 3 hits and 3 RBIs, and Kai-Wei Teng's 2 scoreless innings.",
+        "summary": "The St. Louis Cardinals edged the Houston Astros 7-5, led by Masyn Winn's 3 hits and 3 RBIs, and Kai-Wei Teng's 2 scoreless innings.",
         "impact_player": "Masyn Winn"
       },
       {
@@ -58,7 +58,7 @@
         "final_score": "7-4",
         "top_pitching_line": "Bailey Ober: 6.1 IP, 10 K, 0 ER, 4 BB, 3 H",
         "top_batting_line": "TJ Friedl: 2 H, 0 HR, 3 RBI, 5 AB",
-        "summary": "The Cincinnati Reds edged the Minnesota Twins 7-4, led by TJ Friedl's 3 RBI and a strong outing from Bailey Ober with 10 strikeouts.",
+        "summary": "The Cincinnati Reds edged the Minnesota Twins 7-4, led by TJ Friedl's 3 RBI and a strong outing from the Twins' Bailey Ober.",
         "impact_player": "TJ Friedl"
       },
       {
@@ -82,7 +82,7 @@
         "final_score": "7-4",
         "top_pitching_line": "Noah Schultz: 5.0 IP, 6 K, 1 ER, 1 BB, 1 H",
         "top_batting_line": "Miguel Vargas: 2 H, 1 HR, 2 RBI, 3 AB",
-        "summary": "The Chicago White Sox edged the Athletics 7-4 behind Noah Schultz's 5 strong innings, striking out 6 and allowing 1 earned run.",
+        "summary": "The Chicago White Sox defeated the Athletics 7-4 behind Noah Schultz's 5 shutout innings and Miguel Vargas' 2 hits, including a home run.",
         "impact_player": "Miguel Vargas"
       },
       {
@@ -90,7 +90,7 @@
         "final_score": "2-1",
         "top_pitching_line": "Michael King: 5.0 IP, 6 K, 0 ER, 4 BB, 1 H",
         "top_batting_line": "Bryce Johnson: 2 H, 0 HR, 1 RBI, 3 AB",
-        "summary": "The San Diego Padres edged the Los Angeles Angels 2-1 behind Michael King's 5 shutout innings and Bryce Johnson's 2-hit, 1-RBI performance.",
+        "summary": "The San Diego Padres edged the Los Angeles Angels 2-1 behind Michael King's 5 shutout innings with 6 strikeouts, and Bryce Johnson's 2 hits and 1 RBI.",
         "impact_player": "Bryce Johnson"
       },
       {
@@ -98,7 +98,7 @@
         "final_score": "2-5",
         "top_pitching_line": "Bryan Woo: 7.0 IP, 6 K, 2 ER, 1 BB, 4 H",
         "top_batting_line": "Randy Arozarena: 2 H, 1 HR, 2 RBI, 4 AB",
-        "summary": "The Seattle Mariners defeated the Texas Rangers 5-2 behind Bryan Woo's 7 strong innings and Randy Arozarena's 2 hits, including a 2 RBI home run.",
+        "summary": "The Seattle Mariners defeated the Texas Rangers 5-2 behind Bryan Woo's 7-inning performance and Randy Arozarena's 2-hit, 1-home run effort.",
         "impact_player": "Randy Arozarena"
       },
       {
@@ -114,7 +114,7 @@
         "final_score": "6-2",
         "top_pitching_line": "Framber Valdez: 6.0 IP, 7 K, 1 ER, 2 BB, 3 H",
         "top_batting_line": "Dillon Dingler: 4 H, 1 HR, 4 RBI, 5 AB",
-        "summary": "The Detroit Tigers outlasted the Boston Red Sox 6-2 behind Dillon Dingler's 4 hits, 1 home run, and 4 RBIs, and Framber Valdez's 6 strong innings.",
+        "summary": "The Detroit Tigers defeated the Boston Red Sox 6-2 behind Dillon Dingler's 4 hits, including a home run, and 4 RBIs.",
         "impact_player": "Dillon Dingler"
       },
       {
@@ -134,7 +134,7 @@
         "Yandy D\u00edaz (Tampa Bay Rays) - AVG .337",
         "Xavier Edwards (Miami Marlins) - AVG .337",
         "Ben Rice (New York Yankees) - OPS 1.276",
-        "Yordan Alvarez (Houston Astros) - OPS 1.261",
+        "Yordan Alvarez (Houston Astros) - OPS 1.247",
         "Andy Pages (Los Angeles Dodgers) - OPS 1.061",
         "CJ Abrams (Washington Nationals) - OPS 1.029",
         "Jordan Walker (St. Louis Cardinals) - OPS 1.013"
