@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-21T06:51:31.895685-04:00",
+  "updated_at": "2026-04-21T11:55:29.526722-04:00",
   "teams": [
     {
       "team_id": 109,
@@ -146,7 +146,7 @@
     {
       "team_id": 144,
       "team_name": "Atlanta Braves",
-      "injured_count": 10,
+      "injured_count": 11,
       "players": [
         {
           "player_id": 700363,
@@ -203,6 +203,14 @@
           "date": "2026-03-24",
           "note": "Atlanta Braves placed LHP Joey Wentz on the 60-day injured list. Right knee ACL tear. | Status Change",
           "description": "Atlanta Braves placed LHP Joey Wentz on the 60-day injured list. Right knee ACL tear."
+        },
+        {
+          "player_id": 628452,
+          "name": "Raisel Iglesias",
+          "il_type": "Injured List",
+          "date": "2026-04-21",
+          "note": "Atlanta Braves placed RHP Raisel Iglesias on the 15-day injured list retroactive to April 20, 2026. Right shoulder inflammation. | Status Change",
+          "description": "Atlanta Braves placed RHP Raisel Iglesias on the 15-day injured list retroactive to April 20, 2026. Right shoulder inflammation."
         },
         {
           "player_id": 669221,

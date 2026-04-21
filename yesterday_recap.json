@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-04-21T06:51:31.895685-04:00",
+  "updated_at": "2026-04-21T11:55:29.526722-04:00",
   "date": "2026-04-20",
   "dashboard_recap": {
     "headline": "MLB Daily Recap - April 20, 2026",
-    "article": "**MLB Recap: Power Hitters Shine on a Day of Dominant Performances**\n\nIn a day filled with impressive showings, Isaac Paredes stole the spotlight with two home runs, driving in two runs for the Houston Astros in their 9-2 win over the Cleveland Guardians. Paredes' 2-for-5 performance highlighted a Astros lineup that saw multiple contributors. On the other side, Jayden Murray was solid for two innings, allowing no earned runs and striking out two.\n\nIn a contrasting matchup, the Los Angeles Dodgers flexed their muscle with Max Muncy delivering a 4-hit, 2-home run performance in their 12-3 rout of the Colorado Rockies. Muncy's efforts were matched by a strong outing from Justin Wrobleski, who went 7 innings with 3 strikeouts and 1 earned run.\n\nMeanwhile, the Toronto Blue Jays' Vladimir Guerrero Jr. went 3-for-4 with a home run, helping his team claim a 5-2 victory over the Los Angeles Angels. Dylan Cease was nearly unhittable for 5 innings, punching out 12 Angels batters while allowing 2 earned runs.",
+    "article": "**Red Sox Outslug Tigers in Thrilling 8-6 Victory**\n\nIn a back-and-forth battle, the Boston Red Sox edged out the Detroit Tigers 8-6 behind a strong performance from several impact hitters. Kevin McGonigle and Masataka Yoshida led the charge with key hits, while Riley Greene doubled in the Tigers' top-scoring inning. On the mound, Jack Flaherty struggled with control, issuing six walks in just 3.1 innings, but the Red Sox's staff effort ultimately proved too much for the Tigers. Garrett Whitlock picked up the win, and Aroldis Chapman earned the save.\n\nIn other action, the Houston Astros dominated the Cleveland Guardians 9-2 behind a pair of homers from Isaac Paredes. The Cincinnati Reds also picked up a 6-1 win over the Tampa Bay Rays, thanks in large part to Sal Stewart's two-hit performance, including a home run.",
     "all_games": [
       {
         "game": "Detroit Tigers @ Boston Red Sox",
         "final_score": "6-8",
         "top_pitching_line": "Jack Flaherty: 3.1 IP, 3 K, 0 ER, 6 BB, 3 H",
         "top_batting_line": "Riley Greene: 2 H, 0 HR, 2 RBI, 3 AB",
-        "summary": "The Boston Red Sox outlasted the Detroit Tigers 8-6, led by Riley Greene's 2 hits and 2 RBIs, including a key double.",
+        "summary": "The Boston Red Sox outlasted the Detroit Tigers 8-6, behind a strong outing from Jack Flaherty and key contributions from Riley Greene's 2 hits and 2 RBIs.",
         "impact_player": "Riley Greene"
       },
       {
@@ -18,7 +18,7 @@
         "final_score": "9-2",
         "top_pitching_line": "Jayden Murray: 2.0 IP, 2 K, 0 ER, 1 BB, 2 H",
         "top_batting_line": "Isaac Paredes: 3 H, 2 HR, 2 RBI, 5 AB",
-        "summary": "The Houston Astros dominated the Cleveland Guardians 9-2 behind Isaac Paredes' 2-home run, 3-hit performance.",
+        "summary": "The Houston Astros dominated the Cleveland Guardians 9-2, led by Isaac Paredes' 2-home run, 2-RBI effort.",
         "impact_player": "Isaac Paredes"
       },
       {
@@ -26,7 +26,7 @@
         "final_score": "6-1",
         "top_pitching_line": "Brock Burke: 1.0 IP, 2 K, 0 ER, 0 BB, 0 H",
         "top_batting_line": "Sal Stewart: 2 H, 1 HR, 2 RBI, 4 AB",
-        "summary": "The Cincinnati Reds defeated the Tampa Bay Rays 6-1 behind Sal Stewart's 2 hits, including a home run, and a strong outing from Brock Burke.",
+        "summary": "Cincinnati Reds win 6-1 behind Sal Stewart's 2 hits, including a home run, and 2 RBIs, while Brock Burke pitches a scoreless inning.",
         "impact_player": "Sal Stewart"
       },
       {
@@ -34,7 +34,7 @@
         "final_score": "3-5",
         "top_pitching_line": "Max Meyer: 5.1 IP, 8 K, 2 ER, 2 BB, 3 H",
         "top_batting_line": "Agust\u00edn Ram\u00edrez: 1 H, 1 HR, 1 RBI, 4 AB",
-        "summary": "The Miami Marlins defeated the St. Louis Cardinals 5-3 behind Max Meyer's 5.1 innings with 8 strikeouts and Agust\u00edn Ram\u00edrez's 1 home run and RBI.",
+        "summary": "The Miami Marlins defeated the St. Louis Cardinals 5-3 behind Max Meyer's 5.1 innings with 8 strikeouts and 2 earned runs, while Agust\u00edn Ram\u00edrez hit a home run.",
         "impact_player": "Agust\u00edn Ram\u00edrez"
       },
       {
@@ -50,7 +50,7 @@
         "final_score": "7-5",
         "top_pitching_line": "Seth Lugo: 7.0 IP, 7 K, 0 ER, 4 BB, 1 H",
         "top_batting_line": "Leody Taveras: 1 H, 1 HR, 4 RBI, 5 AB",
-        "summary": "Baltimore Orioles win 7-5 behind Seth Lugo's 7 shutout innings and 7 strikeouts, as Leody Taveras hits a home run and drives in 4 runs.",
+        "summary": "The Baltimore Orioles edged the Kansas City Royals 7-5, led by Seth Lugo's 7 shutout innings and Leody Taveras' 4-RBI performance.",
         "impact_player": "Leody Taveras"
       },
       {
@@ -66,7 +66,7 @@
         "final_score": "12-3",
         "top_pitching_line": "Justin Wrobleski: 7.0 IP, 3 K, 1 ER, 0 BB, 8 H",
         "top_batting_line": "Max Muncy: 4 H, 2 HR, 2 RBI, 4 AB",
-        "summary": "The Los Angeles Dodgers dominated the Colorado Rockies 12-3 behind Max Muncy's 4 hits and 2 home runs, and Justin Wrobleski's 7 shutout innings.",
+        "summary": "The Los Angeles Dodgers dominated the Colorado Rockies 12-3, led by Max Muncy's 4 hits and 2 home runs, and Justin Wrobleski's 7 strong innings.",
         "impact_player": "Max Muncy"
       },
       {
@@ -74,7 +74,7 @@
         "final_score": "5-2",
         "top_pitching_line": "Dylan Cease: 5.0 IP, 12 K, 2 ER, 2 BB, 5 H",
         "top_batting_line": "Vladimir Guerrero Jr.: 3 H, 1 HR, 2 RBI, 4 AB",
-        "summary": "The Toronto Blue Jays edged the Los Angeles Angels 5-2 behind Vladimir Guerrero Jr.'s 3 hits, 1 home run, and 2 RBIs, and Dylan Cease's 5 strong innings with 12 strikeouts.",
+        "summary": "The Toronto Blue Jays edged the Los Angeles Angels 5-2 behind Vladimir Guerrero Jr.'s 3 hits, including a home run, and Dylan Cease's 5 strong innings with 12 strikeouts.",
         "impact_player": "Vladimir Guerrero Jr."
       },
       {
