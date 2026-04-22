@@ -1,9 +1,34 @@
 {
-  "updated_at": "2026-04-22T11:52:41.518824-04:00",
+  "updated_at": "2026-04-22T15:56:02.432133-04:00",
   "games": [
     {
-      "gamePk": 823878,
-      "game": "St. Louis Cardinals @ Miami Marlins",
+      "gamePk": 824123,
+      "game": "Baltimore Orioles @ Kansas City Royals",
+      "score": "8-4",
+      "inning": "6th",
+      "hot_hitters": [
+        "Pete Alonso",
+        "Leody Taveras",
+        "Colton Cowser",
+        "Coby Mayo",
+        "Vinnie Pasquantino",
+        "Carter Jensen"
+      ],
+      "top_pitchers": []
+    },
+    {
+      "gamePk": 824044,
+      "game": "Toronto Blue Jays @ Los Angeles Angels",
+      "score": "0-0",
+      "inning": "3rd",
+      "hot_hitters": [
+        "Ernie Clement"
+      ],
+      "top_pitchers": []
+    },
+    {
+      "gamePk": 823147,
+      "game": "Athletics @ Seattle Mariners",
       "score": "0-0",
       "inning": "1st",
       "hot_hitters": [],

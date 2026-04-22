@@ -1,5 +1,49 @@
 {
-  "updated_at": "2026-04-22T11:52:41.518824-04:00",
-  "games": [],
+  "updated_at": "2026-04-22T15:56:02.432133-04:00",
+  "games": [
+    {
+      "gamePk": 823878,
+      "game": "St. Louis Cardinals @ Miami Marlins",
+      "winner": "Miami Marlins",
+      "loser": "St. Louis Cardinals",
+      "final_score": "1-4",
+      "hitters": [
+        "Iv\u00e1n Herrera",
+        "Agust\u00edn Ram\u00edrez",
+        "Heriberto Hern\u00e1ndez",
+        "Javier Sanoja"
+      ],
+      "pitchers": []
+    },
+    {
+      "gamePk": 824449,
+      "game": "Houston Astros @ Cleveland Guardians",
+      "winner": "Houston Astros",
+      "loser": "Cleveland Guardians",
+      "final_score": "2-0",
+      "hitters": [
+        "Yordan Alvarez",
+        "Chase DeLauter"
+      ],
+      "pitchers": [
+        "Peter Lambert"
+      ]
+    },
+    {
+      "gamePk": 822993,
+      "game": "Cincinnati Reds @ Tampa Bay Rays",
+      "winner": "Tampa Bay Rays",
+      "loser": "Cincinnati Reds",
+      "final_score": "1-6",
+      "hitters": [
+        "Yandy D\u00edaz",
+        "Junior Caminero",
+        "Ryan Vilade"
+      ],
+      "pitchers": [
+        "Nick Martinez"
+      ]
+    }
+  ],
   "errors": []
 }

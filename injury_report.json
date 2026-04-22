@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-22T11:52:41.518824-04:00",
+  "updated_at": "2026-04-22T15:56:02.432133-04:00",
   "teams": [
     {
       "team_id": 109,
@@ -123,7 +123,7 @@
     {
       "team_id": 133,
       "team_name": "Athletics",
-      "injured_count": 2,
+      "injured_count": 3,
       "players": [
         {
           "player_id": 667670,
@@ -132,6 +132,14 @@
           "date": "2026-04-10",
           "note": "Athletics placed RF Brent Rooker on the 10-day injured list. Oblique strain. | Status Change",
           "description": "Athletics placed RF Brent Rooker on the 10-day injured list. Oblique strain."
+        },
+        {
+          "player_id": 672016,
+          "name": "Denzel Clarke",
+          "il_type": "Injured List",
+          "date": "2026-04-22",
+          "note": "Athletics placed CF Denzel Clarke on the 10-day injured list. Mid foot bone bruise in right foot. | Status Change",
+          "description": "Athletics placed CF Denzel Clarke on the 10-day injured list. Mid foot bone bruise in right foot."
         },
         {
           "player_id": 680684,
@@ -406,9 +414,9 @@
           "player_id": 671213,
           "name": "Triston Casas",
           "il_type": "Injured List",
-          "date": "2026-03-25",
-          "note": "Boston Red Sox placed 1B Triston Casas on the 10-day injured list retroactive to March 22, 2026. Recovery from left patellar tendon repair. | Status Change",
-          "description": "Boston Red Sox placed 1B Triston Casas on the 10-day injured list retroactive to March 22, 2026. Recovery from left patellar tendon repair."
+          "date": "2026-04-22",
+          "note": "Boston Red Sox transferred 1B Triston Casas from the 10-day injured list to the 60-day injured list. Recovery from left patellar tendon repair. | Status Change",
+          "description": "Boston Red Sox transferred 1B Triston Casas from the 10-day injured list to the 60-day injured list. Recovery from left patellar tendon repair."
         }
       ]
     },
@@ -784,9 +792,9 @@
           "player_id": 690544,
           "name": "Bailey Horn",
           "il_type": "Injured List",
-          "date": "2026-03-25",
-          "note": "Detroit Tigers placed LHP Bailey Horn on the 15-day injured list retroactive to March 22, 2026. Left elbow arthroscopy recovery. | Status Change",
-          "description": "Detroit Tigers placed LHP Bailey Horn on the 15-day injured list retroactive to March 22, 2026. Left elbow arthroscopy recovery."
+          "date": "2026-04-22",
+          "note": "Detroit Tigers placed LHP Bailey Horn on the 60-day injured list. Left elbow arthroscopy recovery. | Status Change",
+          "description": "Detroit Tigers placed LHP Bailey Horn on the 60-day injured list. Left elbow arthroscopy recovery."
         },
         {
           "player_id": 689225,
@@ -1652,9 +1660,9 @@
           "player_id": 663773,
           "name": "Bryan Hoeing",
           "il_type": "Injured List",
-          "date": "2026-03-25",
-          "note": "San Diego Padres placed RHP Bryan Hoeing on the 15-day injured list. Right elbow surgery. | Status Change",
-          "description": "San Diego Padres placed RHP Bryan Hoeing on the 15-day injured list. Right elbow surgery."
+          "date": "2026-04-22",
+          "note": "San Diego Padres transferred RHP Bryan Hoeing from the 15-day injured list to the 60-day injured list. Torn right elbow flexor tendon. | Status Change",
+          "description": "San Diego Padres transferred RHP Bryan Hoeing from the 15-day injured list to the 60-day injured list. Torn right elbow flexor tendon."
         },
         {
           "player_id": 656288,
