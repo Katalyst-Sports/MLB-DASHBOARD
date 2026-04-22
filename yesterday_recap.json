@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-04-22T06:49:43.924893-04:00",
+  "updated_at": "2026-04-22T11:52:41.518824-04:00",
   "date": "2026-04-21",
   "dashboard_recap": {
     "headline": "MLB Daily Recap - April 21, 2026",
-    "article": "**Astros Fall to Guardians in 8-5 Loss**\n\nThe Cleveland Guardians took down the Houston Astros 8-5, behind a strong team effort from their pitching staff. Angel Mart\u00ednez led the Guardians at the plate, going 2-for-4 with a home run and an RBI. For the Astros, Yordan Alvarez doubled in a run, but it wasn't enough to overcome the Cleveland pitching. Kai-Wei Teng stood out on the mound for the Guardians, throwing 2.2 scoreless innings with two strikeouts.\n\n**Reds Blast Rays in 12-6 Win**\n\nMeanwhile, the Cincinnati Reds exploded for 12 runs in a 12-6 win over the Tampa Bay Rays. Elly De La Cruz was the star of the game, going 3-for-6 with two home runs and five RBIs. Chase Burns dominated on the mound for the Reds, throwing 5.2 innings with eight strikeouts. The Reds' offense was too much for the Rays to handle, as they scored in every inning but one.\n\n**Cardinals Take Down Marlins in 5-3 Win**\n\nIn other action, the St. Louis Cardinals edged the Miami Marlins 5-3. Nathan Church hit a home run and drove in two runs for the Cardinals, while Dustin May pitched 5.1 strong innings with five strikeouts. The Cardinals' bullpen was able to shut the door in the late innings, securing the win.\n\n**Brewers Rout Tigers in 12-4 Win**\n\nThe Milwaukee Brewers also won big, defeating the Detroit Tigers 12-4. Brice Turang drove in four runs for the Brewers, while Grant Anderson earned the win on the mound. The Brewers' offense was relentless, scoring in every inning but one.",
+    "article": "**Astros Fall to Guardians in Cleveland, Reds Rout Rays in Tampa**\n\nIn a closely contested game, the Cleveland Guardians took down the Houston Astros 8-5. The Guardians' offense was led by Angel Mart\u00ednez, who hit a home run and drove in a run. For the Astros, Carlos Correa and Yordan Alvarez both had strong performances, but it wasn't enough to overcome the Guardians' pitching effort. On the mound, Peyton Pallette earned the win, while Enyel De Los Santos took the loss.\n\nIn other action, the Cincinnati Reds dominated the Tampa Bay Rays 12-6, behind a powerful offense that included Elly De La Cruz, who hit two home runs and drove in five runs. Chase Burns pitched 5.2 innings, striking out eight and allowing two earned runs. The Reds' win marked a strong day for the team, which also saw Dane Myers and Matt McLain contribute to the offense.",
     "all_games": [
       {
         "game": "Houston Astros @ Cleveland Guardians",
         "final_score": "5-8",
         "top_pitching_line": "Kai-Wei Teng: 2.2 IP, 2 K, 0 ER, 1 BB, 0 H",
         "top_batting_line": "Angel Mart\u00ednez: 2 H, 1 HR, 1 RBI, 4 AB",
-        "summary": "The Cleveland Guardians outlasted the Houston Astros 8-5, behind Angel Mart\u00ednez's 2 hits, 1 home run, and 1 RBI, and a strong relief appearance from Kai-Wei Teng.",
+        "summary": "The Cleveland Guardians outlasted the Houston Astros 8-5, behind Angel Mart\u00ednez's 2 hits, including a home run, and a strong relief outing from Kai-Wei Teng.",
         "impact_player": "Angel Mart\u00ednez"
       },
       {
@@ -18,7 +18,7 @@
         "final_score": "12-6",
         "top_pitching_line": "Chase Burns: 5.2 IP, 8 K, 2 ER, 2 BB, 4 H",
         "top_batting_line": "Elly De La Cruz: 3 H, 2 HR, 5 RBI, 6 AB",
-        "summary": "The Cincinnati Reds defeated the Tampa Bay Rays 12-6 behind Elly De La Cruz's 3 hits, 2 home runs, and 5 RBIs, and Chase Burns' 5.2 innings with 8 strikeouts.",
+        "summary": "The Cincinnati Reds outlasted the Tampa Bay Rays 12-6 behind Elly De La Cruz's 3 hits, 2 home runs, and 5 RBIs, and Chase Burns' 5.2 innings with 8 strikeouts.",
         "impact_player": "Elly De La Cruz"
       },
       {
@@ -26,7 +26,7 @@
         "final_score": "5-3",
         "top_pitching_line": "Dustin May: 5.1 IP, 5 K, 1 ER, 1 BB, 6 H",
         "top_batting_line": "Nathan Church: 2 H, 1 HR, 2 RBI, 4 AB",
-        "summary": "The St. Louis Cardinals edged the Miami Marlins 5-3 behind Nathan Church's 2 hits, 1 home run, and 2 RBIs, and Dustin May's 5.1 innings with 5 strikeouts.",
+        "summary": "The St. Louis Cardinals edged the Miami Marlins 5-3 behind Nathan Church's 2 hits, including a home run, and 2 RBIs, while Dustin May pitched 5.1 strong innings.",
         "impact_player": "Nathan Church"
       },
       {
@@ -34,7 +34,7 @@
         "final_score": "12-4",
         "top_pitching_line": "Aaron Ashby: 1.0 IP, 2 K, 0 ER, 2 BB, 0 H",
         "top_batting_line": "Brice Turang: 2 H, 0 HR, 4 RBI, 5 AB",
-        "summary": "The Milwaukee Brewers dominated the Detroit Tigers 12-4, led by Brice Turang's 4 RBI performance and Aaron Ashby's scoreless relief inning.",
+        "summary": "The Milwaukee Brewers dominated the Detroit Tigers 12-4, led by Brice Turang's 4 RBI performance and Aaron Ashby's 1 scoreless inning.",
         "impact_player": "Brice Turang"
       },
       {
@@ -50,7 +50,7 @@
         "final_score": "4-0",
         "top_pitching_line": "Tyler Samaniego: 1.2 IP, 3 K, 0 ER, 1 BB, 1 H",
         "top_batting_line": "Giancarlo Stanton: 2 H, 1 HR, 3 RBI, 4 AB",
-        "summary": "The New York Yankees shut out the Boston Red Sox 4-0 behind Giancarlo Stanton's 2 hits, including a 3-RBI home run, and Tyler Samaniego's 1.2 scoreless innings.",
+        "summary": "The New York Yankees shut out the Boston Red Sox 4-0 behind Tyler Samaniego's 1.2 scoreless innings and Giancarlo Stanton's 2-hit, 3-RBI performance.",
         "impact_player": "Giancarlo Stanton"
       },
       {
@@ -58,7 +58,7 @@
         "final_score": "5-3",
         "top_pitching_line": "Nolan McLean: 6.2 IP, 10 K, 3 ER, 0 BB, 5 H",
         "top_batting_line": "Francisco Lindor: 1 H, 1 HR, 3 RBI, 3 AB",
-        "summary": "The Minnesota Twins edged the New York Mets 5-3 behind Francisco Lindor's 3 RBI, including a home run, and Nolan McLean's 6.2 innings with 10 strikeouts.",
+        "summary": "The Minnesota Twins edged the New York Mets 5-3 behind Francisco Lindor's 1 HR, 3 RBI, and Nolan McLean's 6.2 IP with 10 Ks.",
         "impact_player": "Francisco Lindor"
       },
       {
@@ -66,7 +66,7 @@
         "final_score": "5-6",
         "top_pitching_line": "Rico Garcia: 1.0 IP, 2 K, 1 ER, 0 BB, 1 H",
         "top_batting_line": "Coby Mayo: 1 H, 1 HR, 3 RBI, 3 AB",
-        "summary": "The Kansas City Royals edged the Baltimore Orioles 6-5, with Coby Mayo's 1 HR and 3 RBI leading the Orioles' offense.",
+        "summary": "The Kansas City Royals edged the Baltimore Orioles 6-5 behind Coby Mayo's 1 HR and 3 RBI, and a pivotal wild pitch in the 6-5 win.",
         "impact_player": "Coby Mayo"
       },
       {
@@ -74,7 +74,7 @@
         "final_score": "4-7",
         "top_pitching_line": "Jes\u00fas Luzardo: 4.2 IP, 3 K, 1 ER, 4 BB, 5 H",
         "top_batting_line": "Seiya Suzuki: 2 H, 1 HR, 2 RBI, 4 AB",
-        "summary": "The Chicago Cubs outlasted the Philadelphia Phillies 7-4 behind Seiya Suzuki's 2 hits, including a home run, and Jes\u00fas Luzardo's 4.2 innings of work.",
+        "summary": "The Chicago Cubs defeated the Philadelphia Phillies 7-4, led by Seiya Suzuki's 2 hits, including a home run, and 2 RBI.",
         "impact_player": "Seiya Suzuki"
       },
       {
@@ -82,7 +82,7 @@
         "final_score": "1-5",
         "top_pitching_line": "Kumar Rocker: 6.0 IP, 5 K, 1 ER, 1 BB, 4 H",
         "top_batting_line": "Ryan O'Hearn: 1 H, 0 HR, 1 RBI, 4 AB",
-        "summary": "The Texas Rangers dominated the Pittsburgh Pirates 5-1, led by Kumar Rocker's 6 shutout innings and Ryan O'Hearn's 1 RBI.",
+        "summary": "The Texas Rangers defeated the Pittsburgh Pirates 5-1 behind Kumar Rocker's 6 shutout innings and Ryan O'Hearn's 1 RBI.",
         "impact_player": "Ryan O'Hearn"
       },
       {
@@ -90,7 +90,7 @@
         "final_score": "1-0",
         "top_pitching_line": "Chase Dollander: 6.0 IP, 9 K, 1 ER, 1 BB, 3 H",
         "top_batting_line": "Fernando Tatis Jr.: 2 H, 0 HR, 0 RBI, 4 AB",
-        "summary": "The San Diego Padres edged the Colorado Rockies 1-0 behind Chase Dollander's 6 shutout innings, striking out 9 and allowing 1 earned run.",
+        "summary": "The San Diego Padres edged the Colorado Rockies 1-0 behind Chase Dollander's 6 shutout innings and a key Jake Cronenworth score off a Manny Machado walk.",
         "impact_player": "Fernando Tatis Jr."
       },
       {
@@ -98,7 +98,7 @@
         "final_score": "4-2",
         "top_pitching_line": "Patrick Corbin: 5.0 IP, 3 K, 1 ER, 2 BB, 2 H",
         "top_batting_line": "Lenyn Sosa: 1 H, 0 HR, 2 RBI, 1 AB",
-        "summary": "The Toronto Blue Jays edged the Los Angeles Angels 4-2 behind Lenyn Sosa's 2 RBI and Patrick Corbin's 5 strong innings with 3 strikeouts.",
+        "summary": "The Toronto Blue Jays edged the Los Angeles Angels 4-2, with Lenyn Sosa driving in 2 runs and Patrick Corbin pitching 5 strong innings.",
         "impact_player": "Lenyn Sosa"
       },
       {
@@ -106,7 +106,7 @@
         "final_score": "5-2",
         "top_pitching_line": "Luis Castillo: 5.0 IP, 6 K, 2 ER, 2 BB, 5 H",
         "top_batting_line": "Jeff McNeil: 2 H, 1 HR, 1 RBI, 5 AB",
-        "summary": "The Athletics outlasted the Mariners 5-2 behind Jeff McNeil's 2 hits, including a home run, and a strong 5-inning outing from Luis Castillo.",
+        "summary": "The Athletics defeated the Mariners 5-2 behind Jeff McNeil's 2 hits, including a home run, and the strong start from Luis Castillo.",
         "impact_player": "Jeff McNeil"
       },
       {
@@ -114,7 +114,7 @@
         "final_score": "11-5",
         "top_pitching_line": "Jonathan Lo\u00e1isiga: 1.1 IP, 2 K, 0 ER, 1 BB, 1 H",
         "top_batting_line": "Colson Montgomery: 2 H, 1 HR, 3 RBI, 5 AB",
-        "summary": "The Chicago White Sox outlasted the Arizona Diamondbacks 11-5 behind Colson Montgomery's 2 hits, 1 home run, and 3 RBIs.",
+        "summary": "The Chicago White Sox dominated the Arizona Diamondbacks 11-5, led by Colson Montgomery's 2 hits, 1 home run, and 3 RBIs.",
         "impact_player": "Colson Montgomery"
       },
       {
@@ -122,7 +122,7 @@
         "final_score": "1-3",
         "top_pitching_line": "Landen Roupp: 5.0 IP, 7 K, 1 ER, 5 BB, 1 H",
         "top_batting_line": "Jung Hoo Lee: 2 H, 0 HR, 1 RBI, 3 AB",
-        "summary": "The San Francisco Giants edged the Los Angeles Dodgers 3-1 behind Landen Roupp's 5 strong innings, striking out 7 and allowing 1 earned run.",
+        "summary": "The San Francisco Giants edged the Los Angeles Dodgers 3-1, behind Landen Roupp's 5 strong innings and Jung Hoo Lee's 2 hits and 1 RBI.",
         "impact_player": "Jung Hoo Lee"
       }
     ],

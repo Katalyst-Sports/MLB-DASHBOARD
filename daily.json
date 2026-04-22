@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-22T06:49:43.924893-04:00",
+  "updated_at": "2026-04-22T11:52:41.518824-04:00",
   "games": [
     {
       "gamePk": 823878,
@@ -7,7 +7,7 @@
       "home_team": "Miami Marlins",
       "venue": "loanDepot park",
       "start": "2026-04-22T16:10:00Z",
-      "status": "Preview",
+      "status": "Live",
       "away_pitcher": {
         "id": 681517,
         "name": "Kyle Leahy",
@@ -210,6 +210,26 @@
           }
         },
         {
+          "name": "Iv\u00e1n Herrera",
+          "stats": {
+            "avg": ".229",
+            "obp": ".393",
+            "slg": ".349",
+            "ops": ".742",
+            "homeRuns": 2,
+            "rbi": 11
+          },
+          "last10ab": {
+            "avg": "0.077",
+            "hits": 1,
+            "atBats": 13,
+            "homeRuns": 0,
+            "rbi": 2,
+            "walks": 0,
+            "games": 3
+          }
+        },
+        {
           "name": "JJ Wetherholt",
           "stats": {
             "avg": ".229",
@@ -226,26 +246,6 @@
             "homeRuns": 1,
             "rbi": 4,
             "walks": 1,
-            "games": 3
-          }
-        },
-        {
-          "name": "Iv\u00e1n Herrera",
-          "stats": {
-            "avg": ".217",
-            "obp": ".383",
-            "slg": ".325",
-            "ops": ".708",
-            "homeRuns": 2,
-            "rbi": 11
-          },
-          "last10ab": {
-            "avg": "0.077",
-            "hits": 1,
-            "atBats": 13,
-            "homeRuns": 0,
-            "rbi": 2,
-            "walks": 0,
             "games": 3
           }
         },
@@ -2212,6 +2212,26 @@
           }
         },
         {
+          "name": "Adam Frazier",
+          "stats": {
+            "avg": ".263",
+            "obp": ".378",
+            "slg": ".421",
+            "ops": ".799",
+            "homeRuns": 1,
+            "rbi": 4
+          },
+          "last10ab": {
+            "avg": "0.300",
+            "hits": 3,
+            "atBats": 10,
+            "homeRuns": 0,
+            "rbi": 1,
+            "walks": 1,
+            "games": 3
+          }
+        },
+        {
           "name": "Jorge Soler",
           "stats": {
             "avg": ".224",
@@ -2228,26 +2248,6 @@
             "homeRuns": 1,
             "rbi": 2,
             "walks": 4,
-            "games": 3
-          }
-        },
-        {
-          "name": "Adam Frazier",
-          "stats": {
-            "avg": ".263",
-            "obp": ".378",
-            "slg": ".395",
-            "ops": ".773",
-            "homeRuns": 1,
-            "rbi": 4
-          },
-          "last10ab": {
-            "avg": "0.300",
-            "hits": 3,
-            "atBats": 10,
-            "homeRuns": 0,
-            "rbi": 1,
-            "walks": 1,
             "games": 3
           }
         },
@@ -3285,52 +3285,32 @@
       "start": "2026-04-22T22:45:00Z",
       "status": "Preview",
       "away_pitcher": {
-        "id": 527048,
-        "name": "Mart\u00edn P\u00e9rez",
-        "hand": "L",
-        "era": "2.21",
-        "whip": "0.93",
+        "id": 800311,
+        "name": "Didier Fuentes",
+        "hand": "R",
+        "era": "2.25",
+        "whip": "0.75",
         "last3": {
           "starts": [
             {
-              "date": "2026-03-31",
-              "opponent": "Athletics",
-              "ip": "4.1",
-              "er": 0,
-              "k": 3,
-              "bb": 0,
-              "pitches": 47,
-              "strikes": 31
-            },
-            {
-              "date": "2026-04-05",
-              "opponent": "Arizona Diamondbacks",
-              "ip": "5.0",
-              "er": 4,
-              "k": 1,
-              "bb": 1,
-              "pitches": 75,
-              "strikes": 47
-            },
-            {
-              "date": "2026-04-11",
-              "opponent": "Cleveland Guardians",
-              "ip": "5.0",
+              "date": "2026-03-29",
+              "opponent": "Kansas City Royals",
+              "ip": "4.0",
               "er": 1,
-              "k": 2,
-              "bb": 3,
-              "pitches": 86,
-              "strikes": 53
+              "k": 4,
+              "bb": 1,
+              "pitches": 56,
+              "strikes": 36
             }
           ],
-          "avg_ip": "4.2",
-          "avg_k": "2.0",
-          "avg_bb": "1.3",
-          "avg_pitches": "69.3",
-          "avg_strikes": "43.7",
-          "era": "3.14",
-          "whip": "0.91",
-          "strike_pct": "63.0",
+          "avg_ip": "4.0",
+          "avg_k": "4.0",
+          "avg_bb": "1.0",
+          "avg_pitches": "56.0",
+          "avg_strikes": "36.0",
+          "era": "2.25",
+          "whip": "0.75",
+          "strike_pct": "64.3",
           "quality_starts": 0
         }
       },
@@ -6882,10 +6862,10 @@
         {
           "name": "Matt Chapman",
           "stats": {
-            "avg": ".286",
-            "obp": ".337",
-            "slg": ".385",
-            "ops": ".722",
+            "avg": ".297",
+            "obp": ".347",
+            "slg": ".396",
+            "ops": ".743",
             "homeRuns": 1,
             "rbi": 12
           },
