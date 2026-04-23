@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-04-23T02:18:23.433038-04:00",
+  "updated_at": "2026-04-23T06:56:39.752534-04:00",
   "date": "2026-04-22",
   "dashboard_recap": {
     "headline": "MLB Daily Recap - April 22, 2026",
-    "article": "**Cardinals Fall to Marlins in 4-1 Loss**\n\nIv\u00e1n Herrera's third homer of the season, a fly ball to left center, was the lone bright spot for the St. Louis Cardinals in a 4-1 loss to the Miami Marlins. Herrera finished 1-for-4 with a home run and an RBI. Michael Petersen impressed in relief for Miami, fanning three in a perfect inning. \n\n**Astros Shut Down Guardians 2-0**\n\nYordan Alvarez crushed the 11th homer of his season, a fly ball to right center, to help the Houston Astros blank the Cleveland Guardians 2-0. Alvarez went 3-for-4 with a home run and two RBIs. Peter Lambert dominated on the mound, striking out eight in six scoreless frames.\n\n**Rays Rout Reds 6-1**\n\nJunior Caminero's first homer of the season, a solo shot, was one of six hits for Tampa Bay in an 8-1 win over the Cincinnati Reds. Nick Martinez pitched eight strong innings, allowing just one earned run on five hits.",
+    "article": "**Cardinals Fall to Marlins as Herrera Keeps Home Run Streak Alive**\n\nIn a one-sided matchup, the Miami Marlins dominated the St. Louis Cardinals 4-1, behind a strong team effort from their pitching staff. Iv\u00e1n Herrera continued his hot streak, hitting his third home run of the season, while Agust\u00edn Ram\u00edrez and Heriberto Hern\u00e1ndez also contributed with strong performances at the plate. On the mound, Michael Petersen shone in relief, striking out three batters in a perfect inning of work.\n\n**Astros Shut Out Guardians Behind Lambert's Eight Ks**\n\nThe Houston Astros secured a 2-0 win over the Cleveland Guardians, thanks in large part to Peter Lambert's impressive six-inning outing. The right-hander struck out eight Guardians and allowed just three walks, earning his second win of the season. At the plate, Yordan Alvarez continued his torrid pace, hitting his 11th home run of the season and driving in two runs.\n\n**Yankees Take Down Red Sox Behind Fried's Eight Scoreless**\n\nMax Fried pitched a gem, striking out nine Boston Red Sox batters over eight scoreless innings, leading the New York Yankees to a 4-1 victory. Amed Rosario hit a home run and drove in four runs, while Giancarlo Stanton added a strong performance at the plate.",
     "all_games": [
       {
         "game": "St. Louis Cardinals @ Miami Marlins",
         "final_score": "1-4",
         "top_pitching_line": "Michael Petersen: 1.0 IP, 3 K, 0 ER, 0 BB, 0 H",
         "top_batting_line": "Iv\u00e1n Herrera: 1 H, 1 HR, 1 RBI, 4 AB",
-        "summary": "The Miami Marlins defeated the St. Louis Cardinals 4-1, led by Iv\u00e1n Herrera's solo home run and Michael Petersen's scoreless 1st inning.",
+        "summary": "The Miami Marlins defeated the St. Louis Cardinals 4-1 behind Iv\u00e1n Herrera's solo home run and Michael Petersen's 1 scoreless inning with 3 strikeouts.",
         "impact_player": "Iv\u00e1n Herrera"
       },
       {
@@ -26,7 +26,7 @@
         "final_score": "1-6",
         "top_pitching_line": "Nick Martinez: 8.0 IP, 6 K, 1 ER, 1 BB, 5 H",
         "top_batting_line": "Junior Caminero: 1 H, 1 HR, 2 RBI, 4 AB",
-        "summary": "The Tampa Bay Rays defeated the Cincinnati Reds 6-1 behind Nick Martinez's 8-inning performance and Junior Caminero's 1 HR and 2 RBI.",
+        "summary": "The Tampa Bay Rays dominated the Cincinnati Reds 6-1 behind Nick Martinez's 8 shutout innings and Junior Caminero's 1 HR, 2 RBI performance.",
         "impact_player": "Junior Caminero"
       },
       {
@@ -34,7 +34,7 @@
         "final_score": "8-6",
         "top_pitching_line": "Anthony Nunez: 1.0 IP, 2 K, 0 ER, 0 BB, 0 H",
         "top_batting_line": "Coby Mayo: 1 H, 1 HR, 3 RBI, 4 AB",
-        "summary": "Baltimore Orioles outlasted the Kansas City Royals 8-6, led by Coby Mayo's 1 HR and 3 RBI, and Anthony Nunez's 1.0 IP of scoreless relief.",
+        "summary": "Baltimore Orioles win 8-6 behind Coby Mayo's 1 HR and 3 RBI, while Anthony Nunez pitches a scoreless 1st inning with 2 strikeouts.",
         "impact_player": "Coby Mayo"
       },
       {
@@ -42,7 +42,7 @@
         "final_score": "3-7",
         "top_pitching_line": "Jos\u00e9 Soriano: 5.0 IP, 4 K, 0 ER, 0 BB, 7 H",
         "top_batting_line": "Nolan Schanuel: 2 H, 1 HR, 4 RBI, 4 AB",
-        "summary": "The Los Angeles Angels defeated the Toronto Blue Jays 7-3 behind Nolan Schanuel's 2 hits, 1 home run, and 4 RBIs, including a key 4th-inning run.",
+        "summary": "The Los Angeles Angels defeated the Toronto Blue Jays 7-3 behind Nolan Schanuel's 2 hits, 1 home run, and 4 RBIs, and Jos\u00e9 Soriano's 5 shutout innings.",
         "impact_player": "Nolan Schanuel"
       },
       {
@@ -50,7 +50,7 @@
         "final_score": "4-5",
         "top_pitching_line": "Justin Sterner: 1.0 IP, 2 K, 0 ER, 0 BB, 1 H",
         "top_batting_line": "Cal Raleigh: 3 H, 1 HR, 1 RBI, 5 AB",
-        "summary": "Seattle Mariners win 5-4 behind Cal Raleigh's 3 hits, including a home run, and Justin Sterner's scoreless relief inning.",
+        "summary": "The Seattle Mariners edged the Athletics 5-4 behind Cal Raleigh's 3-hit, 1-home run performance, including a key RBI.",
         "impact_player": "Cal Raleigh"
       },
       {
@@ -58,7 +58,7 @@
         "final_score": "2-5",
         "top_pitching_line": "Casey Mize: 6.0 IP, 7 K, 1 ER, 3 BB, 3 H",
         "top_batting_line": "Spencer Torkelson: 1 H, 1 HR, 2 RBI, 4 AB",
-        "summary": "The Detroit Tigers edged the Milwaukee Brewers 5-2 behind Casey Mize's 6 strong innings and Spencer Torkelson's 2-RBI performance.",
+        "summary": "The Detroit Tigers outlasted the Milwaukee Brewers 5-2 behind Casey Mize's 6 strong innings and Spencer Torkelson's 2-RBI performance.",
         "impact_player": "Spencer Torkelson"
       },
       {
@@ -66,7 +66,7 @@
         "final_score": "8-6",
         "top_pitching_line": "Didier Fuentes: 3.0 IP, 7 K, 4 ER, 1 BB, 7 H",
         "top_batting_line": "Michael Harris II: 2 H, 2 HR, 3 RBI, 4 AB",
-        "summary": "The Atlanta Braves edged the Washington Nationals 8-6, led by Michael Harris II's 2 HR and 3 RBI performance.",
+        "summary": "The Atlanta Braves edged the Washington Nationals 8-6 behind Michael Harris II's 2 HR and 3 RBI performance.",
         "impact_player": "Michael Harris II"
       },
       {
@@ -74,7 +74,7 @@
         "final_score": "4-1",
         "top_pitching_line": "Max Fried: 8.0 IP, 9 K, 0 ER, 2 BB, 3 H",
         "top_batting_line": "Amed Rosario: 1 H, 1 HR, 4 RBI, 1 AB",
-        "summary": "The New York Yankees edged the Boston Red Sox 4-1 behind Max Fried's 8-inning performance with 9 strikeouts and Amed Rosario's 4-RBI game.",
+        "summary": "The New York Yankees beat the Boston Red Sox 4-1 behind Max Fried's 8-inning shutout performance and Amed Rosario's 1-for-1 with a home run and 4 RBIs.",
         "impact_player": "Amed Rosario"
       },
       {
@@ -82,7 +82,7 @@
         "final_score": "2-3",
         "top_pitching_line": "Connor Prielipp: 4.0 IP, 6 K, 2 ER, 0 BB, 4 H",
         "top_batting_line": "Byron Buxton: 1 H, 1 HR, 1 RBI, 5 AB",
-        "summary": "The New York Mets edged the Minnesota Twins 3-2, with Byron Buxton's solo homer and Connor Prielipp's 4 strong innings not enough to overcome a late Mets rally.",
+        "summary": "The New York Mets edged the Minnesota Twins 3-2 behind a crucial single by Mark Vientos that scored Brett Baty.",
         "impact_player": "Byron Buxton"
       },
       {
@@ -90,7 +90,7 @@
         "final_score": "2-7",
         "top_pitching_line": "Ben Brown: 2.1 IP, 5 K, 0 ER, 0 BB, 3 H",
         "top_batting_line": "Seiya Suzuki: 2 H, 1 HR, 2 RBI, 4 AB",
-        "summary": "The Chicago Cubs dominated the Philadelphia Phillies 7-2 behind Seiya Suzuki's 2 hits, including a home run, and Ben Brown's 2.1 scoreless innings with 5 strikeouts.",
+        "summary": "The Chicago Cubs defeated the Philadelphia Phillies 7-2 behind Seiya Suzuki's 2 hits, including a home run, and 2 RBI.",
         "impact_player": "Seiya Suzuki"
       },
       {
@@ -98,7 +98,7 @@
         "final_score": "8-4",
         "top_pitching_line": "Braxton Ashcraft: 7.0 IP, 5 K, 2 ER, 2 BB, 4 H",
         "top_batting_line": "Oneil Cruz: 1 H, 1 HR, 3 RBI, 5 AB",
-        "summary": "The Pittsburgh Pirates defeated the Texas Rangers 8-4 behind Braxton Ashcraft's 7-inning outing and Oneil Cruz's 3-RBI, 1-homer performance.",
+        "summary": "The Pittsburgh Pirates defeated the Texas Rangers 8-4 behind Braxton Ashcraft's 7-inning outing and Oneil Cruz's 3-RBI, 1-home run performance.",
         "impact_player": "Oneil Cruz"
       },
       {
@@ -106,7 +106,7 @@
         "final_score": "3-8",
         "top_pitching_line": "Tomoyuki Sugano: 5.2 IP, 4 K, 1 ER, 1 BB, 5 H",
         "top_batting_line": "Luis Campusano: 3 H, 1 HR, 1 RBI, 4 AB",
-        "summary": "The Colorado Rockies defeated the San Diego Padres 8-3 behind Tomoyuki Sugano's 5.2 innings of work, striking out 4 and allowing 1 ER.",
+        "summary": "The Colorado Rockies defeated the San Diego Padres 8-3 behind Tomoyuki Sugano's 5.2 innings of work, striking out four and allowing one earned run.",
         "impact_player": "Luis Campusano"
       },
       {
@@ -114,7 +114,7 @@
         "final_score": "7-11",
         "top_pitching_line": "Bryan Hudson: 1.0 IP, 2 K, 0 ER, 1 BB, 1 H",
         "top_batting_line": "Ildemaro Vargas: 2 H, 2 HR, 5 RBI, 5 AB",
-        "summary": "The Arizona Diamondbacks outlasted the Chicago White Sox 11-7 behind Ildemaro Vargas' 2 HR, 5 RBI performance and a strong bullpen appearance by Bryan Hudson.",
+        "summary": "The Arizona Diamondbacks outlasted the Chicago White Sox 11-7 behind Ildemaro Vargas' 2 HR and 5 RBI performance.",
         "impact_player": "Ildemaro Vargas"
       },
       {
