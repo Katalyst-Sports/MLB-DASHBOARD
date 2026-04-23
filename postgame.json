@@ -1,5 +1,41 @@
 {
-  "updated_at": "2026-04-23T12:54:52.843550-04:00",
-  "games": [],
+  "updated_at": "2026-04-23T16:14:57.500373-04:00",
+  "games": [
+    {
+      "gamePk": 822745,
+      "game": "Atlanta Braves @ Washington Nationals",
+      "winner": "Atlanta Braves",
+      "loser": "Washington Nationals",
+      "final_score": "7-2",
+      "hitters": [
+        "Matt Olson",
+        "Ozzie Albies",
+        "Michael Harris II",
+        "Dominic Smith",
+        "James Wood",
+        "CJ Abrams",
+        "Daylen Lile"
+      ],
+      "pitchers": [
+        "JR Ritchie",
+        "Cade Cavalli"
+      ]
+    },
+    {
+      "gamePk": 824288,
+      "game": "Milwaukee Brewers @ Detroit Tigers",
+      "winner": "Detroit Tigers",
+      "loser": "Milwaukee Brewers",
+      "final_score": "4-5",
+      "hitters": [
+        "Gary S\u00e1nchez",
+        "David Hamilton",
+        "Jahmai Jones",
+        "Riley Greene",
+        "Spencer Torkelson"
+      ],
+      "pitchers": []
+    }
+  ],
   "errors": []
 }

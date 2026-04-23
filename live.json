@@ -1,19 +1,45 @@
 {
-  "updated_at": "2026-04-23T12:54:52.843550-04:00",
+  "updated_at": "2026-04-23T16:14:57.500373-04:00",
   "games": [
     {
-      "gamePk": 822745,
-      "game": "Atlanta Braves @ Washington Nationals",
-      "score": "0-0",
-      "inning": "1st",
+      "gamePk": 824689,
+      "game": "Philadelphia Phillies @ Chicago Cubs",
+      "score": "5-6",
+      "inning": "7th",
+      "hot_hitters": [
+        "Brandon Marsh",
+        "Ian Happ",
+        "Seiya Suzuki",
+        "Carson Kelly",
+        "Michael Busch",
+        "Matt Shaw"
+      ],
+      "top_pitchers": []
+    },
+    {
+      "gamePk": 824368,
+      "game": "San Diego Padres @ Colorado Rockies",
+      "score": "2-5",
+      "inning": "4th",
+      "hot_hitters": [
+        "Mickey Moniak",
+        "TJ Rumfield"
+      ],
+      "top_pitchers": []
+    },
+    {
+      "gamePk": 825096,
+      "game": "Chicago White Sox @ Arizona Diamondbacks",
+      "score": "0-1",
+      "inning": "3rd",
       "hot_hitters": [],
       "top_pitchers": []
     },
     {
-      "gamePk": 824288,
-      "game": "Milwaukee Brewers @ Detroit Tigers",
-      "score": "0-0",
-      "inning": "1st",
+      "gamePk": 823233,
+      "game": "Los Angeles Dodgers @ San Francisco Giants",
+      "score": "1-0",
+      "inning": "2nd",
       "hot_hitters": [],
       "top_pitchers": []
     }

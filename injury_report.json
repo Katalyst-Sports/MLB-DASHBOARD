@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-23T12:54:52.843550-04:00",
+  "updated_at": "2026-04-23T16:14:57.500373-04:00",
   "teams": [
     {
       "team_id": 109,
@@ -1466,7 +1466,7 @@
     {
       "team_id": 121,
       "team_name": "New York Mets",
-      "injured_count": 9,
+      "injured_count": 10,
       "players": [
         {
           "player_id": 621345,
@@ -1483,6 +1483,14 @@
           "date": "2026-02-15",
           "note": "New York Mets placed RHP Dedniel N\u00fa\u00f1ez on the 60-day injured list. Tommy John surgery recovery. | Status Change",
           "description": "New York Mets placed RHP Dedniel N\u00fa\u00f1ez on the 60-day injured list. Tommy John surgery recovery."
+        },
+        {
+          "player_id": 596019,
+          "name": "Francisco Lindor",
+          "il_type": "Injured List",
+          "date": "2026-04-23",
+          "note": "New York Mets placed SS Francisco Lindor on the 10-day injured list. Left calf strain. | Status Change",
+          "description": "New York Mets placed SS Francisco Lindor on the 10-day injured list. Left calf strain."
         },
         {
           "player_id": 676724,
