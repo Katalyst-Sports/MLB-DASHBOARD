@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-04-24T13:58:10.817041-04:00",
+  "updated_at": "2026-04-24T16:10:42.978777-04:00",
   "headline": "**MLB Daily Roundup: April 24, 2026**",
-  "article": "The Atlanta Braves secured a 7-2 victory over the Washington Nationals, with Ozzie Albies leading the charge at the plate. Albies hit a home run (5) on a fly ball to right center field and finished with 3 hits, 1 home run, and 4 RBIs. The Detroit Tigers edged out the Milwaukee Brewers 5-4 in a closely contested matchup, with Riley Greene leading the Tigers' offense with a 2-hit, 1-home run performance, driving in 2 runs. The Chicago Cubs edged out the Philadelphia Phillies 7-8 in a thrilling matchup, with Brandon Marsh leading the Phillies with 3 hits, including 2 home runs, and 3 RBIs.\n\nSeveral key players have been impacted by injuries, including Baltimore Orioles right-hander Dean Kremer, who has been placed on the 15-day injured list due to a right quad strain. The move is retroactive to April 20, 2026. Other injured players include Robert Garcia of the Texas Rangers, Francisco Lindor of the New York Mets, Dylan Dodd of the Atlanta Braves, Bryan Hoeing of the San Diego Padres, Wyatt Langford of the Texas Rangers, Max Lazar of the Philadelphia Phillies, and J.T. Realmuto of the Philadelphia Phillies.\n\nThe Chicago Cubs have bolstered their roster with the addition of infielder Nicky Lopez, acquired from the Colorado Rockies in exchange for cash. Lopez joins the Cubs after being traded from the Rockies.",
+  "article": "The Atlanta Braves secured a 7-2 victory over the Washington Nationals, with Ozzie Albies leading the charge at the plate. Albies hit a home run (5) on a fly ball to right center field and finished with 3 hits, 1 home run, and 4 RBIs.\n\nInjuries and availability continue to impact MLB teams. Ryan Feltner has been placed on the 15-day injured list due to right ulnar nerve inflammation. The Colorado Rockies right-hander joins a list of injured players that includes Dean Kremer (Baltimore Orioles), Robert Garcia (Texas Rangers), Francisco Lindor (New York Mets), Dylan Dodd (Atlanta Braves), Bryan Hoeing (San Diego Padres), Wyatt Langford (Texas Rangers), and Max Lazar (Philadelphia Phillies).\n\nThe Chicago Cubs have bolstered their roster with the addition of infielder Nicky Lopez, acquired from the Colorado Rockies in exchange for cash. Lopez joins the Cubs after being traded from the Rockies. Other notable trades include the Houston Astros trading RHP Wilmy Sanchez to the New York Yankees for SS Braden Shewmake, the Los Angeles Dodgers trading RHP Axel Perez to the Baltimore Orioles for RHP Chayce McDermott, and the New York Mets trading LHP Richard Lovelady to the Washington Nationals for cash.",
   "top_news": [
     {
       "title": "**Braves Take Down Nationals 7-2**",
@@ -20,13 +20,13 @@
     },
     {
       "title": "**Padres Take Down Rockies in Thrilling 10-8 Victory**",
-      "summary": "The San Diego Padres outlasted the Colorado Rockies in a high-scoring game, winning 10-8. Mickey Moniak led the Padres' offense with 4 hits, including 2 home runs, and 2 RBIs.",
+      "summary": "The San Diego Padres secured a hard-fought win against the Colorado Rockies, outscoring them 10-8. Mickey Moniak led the Padres' offense with a standout performance, going 4-for-5 with two home runs and two RBIs.",
       "published": "2026-04-23"
     },
     {
-      "title": "**Orioles RHP Dean Kremer Lands on Injured List**",
-      "summary": "Baltimore Orioles right-hander Dean Kremer has been placed on the 15-day injured list due to a right quad strain. The move is retroactive to April 20, 2026.",
-      "published": "2026-04-23"
+      "title": "**Rockies RHP Ryan Feltner Lands on Injured List**",
+      "summary": "Colorado Rockies right-hander Ryan Feltner has been placed on the 15-day injured list due to right ulnar nerve inflammation.",
+      "published": "2026-04-24"
     },
     {
       "title": "**Cubs Acquire Nicky Lopez in Trade**",
@@ -35,6 +35,12 @@
     }
   ],
   "injury_updates": [
+    {
+      "date": "2026-04-24",
+      "team": "Colorado Rockies",
+      "player": "Ryan Feltner",
+      "update": "Colorado Rockies placed RHP Ryan Feltner on the 15-day injured list. Right ulnar nerve inflammation. | Status Change"
+    },
     {
       "date": "2026-04-23",
       "team": "Baltimore Orioles",
@@ -100,12 +106,6 @@
       "team": "San Diego Padres",
       "player": "Bryan Hoeing",
       "update": "San Diego Padres transferred RHP Bryan Hoeing from the 15-day injured list to the 60-day injured list. Torn right elbow flexor tendon. | Status Change"
-    },
-    {
-      "date": "2026-04-22",
-      "team": "Athletics",
-      "player": "Denzel Clarke",
-      "update": "Athletics placed CF Denzel Clarke on the 10-day injured list. Mid foot bone bruise in right foot. | Status Change"
     }
   ],
   "trade_updates": [

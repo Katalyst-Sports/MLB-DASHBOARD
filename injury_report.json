@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-24T13:58:10.817041-04:00",
+  "updated_at": "2026-04-24T16:10:42.978777-04:00",
   "teams": [
     {
       "team_id": 109,
@@ -707,7 +707,7 @@
     {
       "team_id": 115,
       "team_name": "Colorado Rockies",
-      "injured_count": 11,
+      "injured_count": 12,
       "players": [
         {
           "player_id": 688760,
@@ -780,6 +780,14 @@
           "date": "2026-03-26",
           "note": "Colorado Rockies transferred RHP RJ Petit from the 15-day injured list to the 60-day injured list. Tommy John surgery. | Status Change",
           "description": "Colorado Rockies transferred RHP RJ Petit from the 15-day injured list to the 60-day injured list. Tommy John surgery."
+        },
+        {
+          "player_id": 663372,
+          "name": "Ryan Feltner",
+          "il_type": "Injured List",
+          "date": "2026-04-24",
+          "note": "Colorado Rockies placed RHP Ryan Feltner on the 15-day injured list. Right ulnar nerve inflammation. | Status Change",
+          "description": "Colorado Rockies placed RHP Ryan Feltner on the 15-day injured list. Right ulnar nerve inflammation."
         },
         {
           "player_id": 671289,

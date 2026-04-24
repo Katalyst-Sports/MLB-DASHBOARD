@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-24T13:58:10.817041-04:00",
+  "updated_at": "2026-04-24T16:10:42.978777-04:00",
   "games": [
     {
       "gamePk": 824529,
@@ -884,6 +884,26 @@
           }
         },
         {
+          "name": "Tyler O'Neill",
+          "stats": {
+            "avg": ".241",
+            "obp": ".353",
+            "slg": ".345",
+            "ops": ".698",
+            "homeRuns": 1,
+            "rbi": 4
+          },
+          "last10ab": {
+            "avg": "0.182",
+            "hits": 2,
+            "atBats": 11,
+            "homeRuns": 1,
+            "rbi": 3,
+            "walks": 2,
+            "games": 4
+          }
+        },
+        {
           "name": "Dylan Beavers",
           "stats": {
             "avg": ".226",
@@ -901,26 +921,6 @@
             "rbi": 3,
             "walks": 0,
             "games": 4
-          }
-        },
-        {
-          "name": "Samuel Basallo",
-          "stats": {
-            "avg": ".172",
-            "obp": ".284",
-            "slg": ".313",
-            "ops": ".597",
-            "homeRuns": 3,
-            "rbi": 6
-          },
-          "last10ab": {
-            "avg": "0.200",
-            "hits": 2,
-            "atBats": 10,
-            "homeRuns": 0,
-            "rbi": 0,
-            "walks": 2,
-            "games": 3
           }
         }
       ]
