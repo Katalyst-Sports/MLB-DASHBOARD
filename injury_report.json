@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-25T16:01:37.985247-04:00",
+  "updated_at": "2026-04-25T17:56:06.507362-04:00",
   "teams": [
     {
       "team_id": 109,
@@ -1585,8 +1585,16 @@
     {
       "team_id": 147,
       "team_name": "New York Yankees",
-      "injured_count": 4,
+      "injured_count": 5,
       "players": [
+        {
+          "player_id": 683409,
+          "name": "Angel Chivilli",
+          "il_type": "Injured List",
+          "date": "2026-04-25",
+          "note": "New York Yankees placed RHP Angel Chivilli on the 15-day injured list retroactive to April 23, 2026. Right shoulder discomfort. | Status Change",
+          "description": "New York Yankees placed RHP Angel Chivilli on the 15-day injured list retroactive to April 23, 2026. Right shoulder discomfort."
+        },
         {
           "player_id": 683011,
           "name": "Anthony Volpe",

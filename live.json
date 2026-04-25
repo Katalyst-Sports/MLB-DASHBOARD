@@ -1,50 +1,43 @@
 {
-  "updated_at": "2026-04-25T16:01:37.985247-04:00",
+  "updated_at": "2026-04-25T17:56:06.507362-04:00",
   "games": [
-    {
-      "gamePk": 823070,
-      "game": "Seattle Mariners @ St. Louis Cardinals",
-      "score": "6-7",
-      "inning": "6th",
-      "hot_hitters": [
-        "Cal Raleigh",
-        "Julio Rodr\u00edguez",
-        "Cole Young",
-        "Will Wilson",
-        "JJ Wetherholt",
-        "Iv\u00e1n Herrera",
-        "Nathan Church",
-        "Pedro Pag\u00e9s"
-      ],
-      "top_pitchers": []
-    },
-    {
-      "gamePk": 822826,
-      "game": "Cleveland Guardians @ Toronto Blue Jays",
-      "score": "1-0",
-      "inning": "4th",
-      "hot_hitters": [],
-      "top_pitchers": []
-    },
     {
       "gamePk": 823229,
       "game": "Miami Marlins @ San Francisco Giants",
-      "score": "0-0",
-      "inning": "1st",
-      "hot_hitters": [],
-      "top_pitchers": []
+      "score": "1-1",
+      "inning": "6th",
+      "hot_hitters": [
+        "Agust\u00edn Ram\u00edrez",
+        "Xavier Edwards",
+        "Jung Hoo Lee",
+        "Drew Gilbert"
+      ],
+      "top_pitchers": [
+        "Eury P\u00e9rez"
+      ]
     },
     {
       "gamePk": 822989,
       "game": "Minnesota Twins @ Tampa Bay Rays",
-      "score": "0-0",
-      "inning": "1st",
-      "hot_hitters": [],
+      "score": "0-2",
+      "inning": "7th",
+      "hot_hitters": [
+        "Byron Buxton",
+        "Jake Fraley"
+      ],
       "top_pitchers": []
     },
     {
       "gamePk": 824613,
       "game": "Washington Nationals @ Chicago White Sox",
+      "score": "2-0",
+      "inning": "7th",
+      "hot_hitters": [],
+      "top_pitchers": []
+    },
+    {
+      "gamePk": 825093,
+      "game": "San Diego Padres @ Arizona Diamondbacks",
       "score": "0-0",
       "inning": "1st",
       "hot_hitters": [],

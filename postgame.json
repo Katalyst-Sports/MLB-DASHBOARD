@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-25T16:01:37.985247-04:00",
+  "updated_at": "2026-04-25T17:56:06.507362-04:00",
   "games": [
     {
       "gamePk": 824851,
@@ -19,6 +19,41 @@
       "pitchers": [
         "Garrett Crochet"
       ]
+    },
+    {
+      "gamePk": 823070,
+      "game": "Seattle Mariners @ St. Louis Cardinals",
+      "winner": "Seattle Mariners",
+      "loser": "St. Louis Cardinals",
+      "final_score": "11-9",
+      "hitters": [
+        "Cal Raleigh",
+        "Julio Rodr\u00edguez",
+        "Josh Naylor",
+        "Mitch Garver",
+        "Cole Young",
+        "Will Wilson",
+        "JJ Wetherholt",
+        "Iv\u00e1n Herrera",
+        "Masyn Winn",
+        "Nathan Church",
+        "Pedro Pag\u00e9s"
+      ],
+      "pitchers": []
+    },
+    {
+      "gamePk": 822826,
+      "game": "Cleveland Guardians @ Toronto Blue Jays",
+      "winner": "Toronto Blue Jays",
+      "loser": "Cleveland Guardians",
+      "final_score": "3-5",
+      "hitters": [
+        "David Fry",
+        "Myles Straw",
+        "Ernie Clement",
+        "Kazuma Okamoto"
+      ],
+      "pitchers": []
     },
     {
       "gamePk": 823637,
