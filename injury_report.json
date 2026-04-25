@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-25T10:10:16.939862-04:00",
+  "updated_at": "2026-04-25T12:07:19.868574-04:00",
   "teams": [
     {
       "team_id": 109,
@@ -2136,7 +2136,7 @@
     {
       "team_id": 141,
       "team_name": "Toronto Blue Jays",
-      "injured_count": 11,
+      "injured_count": 12,
       "players": [
         {
           "player_id": 680718,
@@ -2203,6 +2203,14 @@
           "description": "Toronto Blue Jays placed RHP Lazaro Estrada on the 15-day injured list."
         },
         {
+          "player_id": 664770,
+          "name": "Nathan Lukes",
+          "il_type": "Injured List",
+          "date": "2026-04-25",
+          "note": "Toronto Blue Jays placed RF Nathan Lukes on the 10-day injured list. Left hamstring strain. | Status Change",
+          "description": "Toronto Blue Jays placed RF Nathan Lukes on the 10-day injured list. Left hamstring strain."
+        },
+        {
           "player_id": 669456,
           "name": "Shane Bieber",
           "il_type": "Injured List",
@@ -2222,9 +2230,9 @@
           "player_id": 554340,
           "name": "Yimi Garc\u00eda",
           "il_type": "Injured List",
-          "date": "2026-03-25",
-          "note": "Toronto Blue Jays placed RHP Yimi Garc\u00eda on the 15-day injured list retroactive to March 22, 2026. Right elbow ulnar nerve and AC joint surgery. | Status Change",
-          "description": "Toronto Blue Jays placed RHP Yimi Garc\u00eda on the 15-day injured list retroactive to March 22, 2026. Right elbow ulnar nerve and AC joint surgery."
+          "date": "2026-04-25",
+          "note": "Toronto Blue Jays transferred RHP Yimi Garc\u00eda from the 15-day injured list to the 60-day injured list. Right elbow ulnar nerve and AC joint surgery. | Status Change",
+          "description": "Toronto Blue Jays transferred RHP Yimi Garc\u00eda from the 15-day injured list to the 60-day injured list. Right elbow ulnar nerve and AC joint surgery."
         }
       ]
     },

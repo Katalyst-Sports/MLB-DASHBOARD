@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-25T10:10:16.939862-04:00",
+  "updated_at": "2026-04-25T12:07:19.868574-04:00",
   "games": [
     {
       "gamePk": 824851,
@@ -7,7 +7,7 @@
       "home_team": "Baltimore Orioles",
       "venue": "Oriole Park at Camden Yards",
       "start": "2026-04-25T16:05:00Z",
-      "status": "Preview",
+      "status": "Live",
       "away_pitcher": {
         "id": 676979,
         "name": "Garrett Crochet",
@@ -2520,6 +2520,26 @@
           }
         },
         {
+          "name": "Andr\u00e9s Chaparro",
+          "stats": {
+            "avg": ".333",
+            "obp": ".429",
+            "slg": ".500",
+            "ops": ".929",
+            "homeRuns": 0,
+            "rbi": 0
+          },
+          "last10ab": {
+            "avg": "0.333",
+            "hits": 2,
+            "atBats": 6,
+            "homeRuns": 0,
+            "rbi": 0,
+            "walks": 0,
+            "games": 2
+          }
+        },
+        {
           "name": "Daylen Lile",
           "stats": {
             "avg": ".296",
@@ -2616,26 +2636,6 @@
             "homeRuns": 1,
             "rbi": 2,
             "walks": 1,
-            "games": 3
-          }
-        },
-        {
-          "name": "Jacob Young",
-          "stats": {
-            "avg": ".238",
-            "obp": ".273",
-            "slg": ".357",
-            "ops": ".630",
-            "homeRuns": 2,
-            "rbi": 12
-          },
-          "last10ab": {
-            "avg": "0.182",
-            "hits": 2,
-            "atBats": 11,
-            "homeRuns": 1,
-            "rbi": 2,
-            "walks": 0,
             "games": 3
           }
         }
