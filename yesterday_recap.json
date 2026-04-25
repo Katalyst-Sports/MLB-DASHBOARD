@@ -1,141 +1,175 @@
 {
-  "updated_at": "2026-04-24T18:28:34.026898-04:00",
-  "date": "2026-04-23",
+  "updated_at": "2026-04-25T01:31:12.830012-04:00",
+  "date": "2026-04-24",
   "dashboard_recap": {
-    "headline": "MLB Daily Recap - April 23, 2026",
-    "article": "**Braves Take Down Nationals Behind Albies' Big Night**\n\nOzzie Albies led the Atlanta Braves to a 7-2 victory over the Washington Nationals, homering for the fifth time this season and driving in four runs. Albies finished 3-for-4 with the long ball, a highlight of a strong team effort that saw Matt Olson and Michael Harris II also contribute with multi-hit games. On the mound, JR Ritchie earned the win with a solid outing. In the Nationals' loss, Cade Cavalli turned in a strong performance, striking out 10 over five innings.\n\n**Tigers Stun Brewers in Extra Innings**\n\nThe Detroit Tigers edged the Milwaukee Brewers 5-4 in a back-and-forth contest, with Riley Greene delivering a crucial home run and two RBIs. Spencer Torkelson also went deep for the Tigers, while Gary S\u00e1nchez and David Hamilton contributed with multi-hit games for the Brewers. Grant Anderson earned the win in relief for the Tigers.\n\n**Cubs Outlast Phillies in Thrilling Finish**\n\nThe Chicago Cubs pulled off a 7-8 comeback victory over the Philadelphia Phillies, with Brandon Marsh hitting two home runs and driving in three runs for the Phillies. Dansby Swanson's late-game single proved to be the difference-maker, scoring Ian Happ and setting up the walk-off win for the Cubs. Javier Assad earned the win in relief.\n\n**Padres Outslug Rockies in High-Scoring Affair**\n\nThe San Diego Padres scored 10 runs to top the Colorado Rockies 10-8, with Mickey Moniak hitting two home runs and driving in two runs. Gavin Sheets also went deep for the Padres, while Ram\u00f3n Laureano and Manny Machado each contributed with multi-hit games. Ron Marinaccio earned the win for the Padres.\n\n**White Sox Blank Diamondbacks**\n\nThe Chicago White Sox cruised to a 4-1 victory over the Arizona Diamondbacks, with Andrew Benintendi hitting a solo home run and driving in three runs. Davis Martin turned in a strong outing on the mound, striking out seven over six innings. Grant Taylor earned the win for the White Sox.\n\n**Dodgers Shut Down Giants**\n\nThe Los Angeles Dodgers dominated the San Francisco Giants 3-0, with Tyler Glasnow pitching a complete-game shutout. Glasnow struck out nine over eight innings, allowing just one hit. Hyeseong Kim contributed with a multi-hit game for the Dodgers.\n\n**Yankees Edge Red Sox**\n\nThe New York Yankees topped the Boston Red Sox 4-2, with Payton Tolle turning in a strong outing on the mound, striking out 11 over six innings. Jazz Chisholm Jr. hit a solo home run for the Yankees. Cam Schlittler earned the win in relief.\n\n**Mets Outlast Twins**\n\nThe New York Mets edged the Minnesota Twins 10-8, with Ryan Jeffers hitting a solo home run and driving in four runs for the Twins. Travis Gray also contributed with a late-game single, scoring Brooks Lee. Devin Williams earned the win in relief for the Mets.\n\n**Rangers Rout Pirates**\n\nThe Texas Rangers cruised to a 6-1 victory over the Pittsburgh Pirates, with Corey Seager hitting a solo home run and driving in three runs. Jacob deGrom turned in a strong outing on the mound, striking out 10 over five innings.",
+    "headline": "MLB Daily Recap - April 24, 2026",
+    "article": "**MLB Recap: April 24th**\n\nThe Cincinnati Reds outlasted the Detroit Tigers 9-8, thanks in part to Matt McLain's 2-home run, 4-RBI performance. McLain's big day included two hits in four at-bats, leading the Reds to their first win in a back-and-forth contest. Meanwhile, on the opposite coast, the Baltimore Orioles dominated the Boston Red Sox 10-3, with Adley Rutschman driving in six runs on three hits, including two home runs. Rutschman was nearly unstoppable, finishing 3-for-5 with a pair of long balls.\n\nIn other action, Freddy Peralta tossed 5.2 scoreless innings for the Colorado Rockies, striking out eight in a 4-3 win over the New York Mets. The Minnesota Twins were no match for Drew Rasmussen, who threw six scoreless innings for the Tampa Bay Rays in a 6-2 victory. The Pittsburgh Pirates also shut out the Milwaukee Brewers 6-0, with Paul Skenes pitching a complete game shutout, allowing just one hit and striking out seven.",
     "all_games": [
       {
-        "game": "Atlanta Braves @ Washington Nationals",
-        "final_score": "7-2",
-        "top_pitching_line": "Cade Cavalli: 5.0 IP, 10 K, 2 ER, 0 BB, 7 H",
-        "top_batting_line": "Ozzie Albies: 3 H, 1 HR, 4 RBI, 4 AB",
-        "summary": "The Atlanta Braves defeated the Washington Nationals 7-2 behind Ozzie Albies' 3-hit, 4-RBI performance, including his 5th home run of the season.",
-        "impact_player": "Ozzie Albies"
+        "game": "Detroit Tigers @ Cincinnati Reds",
+        "final_score": "8-9",
+        "top_pitching_line": "Kyle Finnegan: 1.2 IP, 4 K, 1 ER, 0 BB, 2 H",
+        "top_batting_line": "Matt McLain: 2 H, 2 HR, 4 RBI, 4 AB",
+        "summary": "Cincinnati Reds outlast Detroit Tigers 9-8 behind Matt McLain's 2 HR, 4 RBI performance and Kyle Finnegan's 1.2 IP, 4 K outing.",
+        "impact_player": "Matt McLain"
       },
       {
-        "game": "Milwaukee Brewers @ Detroit Tigers",
+        "game": "Boston Red Sox @ Baltimore Orioles",
+        "final_score": "3-10",
+        "top_pitching_line": "Brandon Young: 5.2 IP, 5 K, 3 ER, 1 BB, 7 H",
+        "top_batting_line": "Adley Rutschman: 3 H, 2 HR, 6 RBI, 5 AB",
+        "summary": "The Baltimore Orioles dominated the Boston Red Sox 10-3 behind Adley Rutschman's 3 hits, 2 home runs, and 6 RBIs.",
+        "impact_player": "Adley Rutschman"
+      },
+      {
+        "game": "Cleveland Guardians @ Toronto Blue Jays",
+        "final_score": "8-6",
+        "top_pitching_line": "Tommy Nance: 1.0 IP, 3 K, 0 ER, 0 BB, 0 H",
+        "top_batting_line": "Angel Mart\u00ednez: 2 H, 2 HR, 4 RBI, 4 AB",
+        "summary": "The Cleveland Guardians outlasted the Toronto Blue Jays 8-6, led by Angel Mart\u00ednez's 2 HR and 4 RBI, and Tommy Nance's 1.0 IP with 3 K and 0 ER.",
+        "impact_player": "Angel Mart\u00ednez"
+      },
+      {
+        "game": "Colorado Rockies @ New York Mets",
+        "final_score": "4-3",
+        "top_pitching_line": "Freddy Peralta: 5.2 IP, 8 K, 2 ER, 3 BB, 7 H",
+        "top_batting_line": "Brett Baty: 2 H, 0 HR, 2 RBI, 4 AB",
+        "summary": "The Colorado Rockies edged the New York Mets 4-3 behind Freddy Peralta's 5.2 innings with 8 strikeouts and 2 earned runs allowed.",
+        "impact_player": "Brett Baty"
+      },
+      {
+        "game": "Minnesota Twins @ Tampa Bay Rays",
+        "final_score": "2-6",
+        "top_pitching_line": "Drew Rasmussen: 6.0 IP, 6 K, 1 ER, 1 BB, 5 H",
+        "top_batting_line": "Junior Caminero: 2 H, 2 HR, 3 RBI, 4 AB",
+        "summary": "Tampa Bay Rays win 6-2 behind Drew Rasmussen's 6 strong innings and Junior Caminero's 2 HR, 3 RBI performance.",
+        "impact_player": "Junior Caminero"
+      },
+      {
+        "game": "Philadelphia Phillies @ Atlanta Braves",
+        "final_score": "3-5",
+        "top_pitching_line": "Tim Mayza: 1.0 IP, 1 K, 0 ER, 1 BB, 1 H",
+        "top_batting_line": "Trea Turner: 1 H, 1 HR, 2 RBI, 3 AB",
+        "summary": "The Atlanta Braves outlasted the Philadelphia Phillies 5-3 behind Michael Harris II's key double that plated two runs.",
+        "impact_player": "Trea Turner"
+      },
+      {
+        "game": "Los Angeles Angels @ Kansas City Royals",
+        "final_score": "3-6",
+        "top_pitching_line": "Ryan Zeferjahn: 1.0 IP, 2 K, 0 ER, 0 BB, 0 H",
+        "top_batting_line": "Isaac Collins: 2 H, 0 HR, 2 RBI, 3 AB",
+        "summary": "The Kansas City Royals defeated the Los Angeles Angels 6-3 behind Isaac Collins' 2 hits and 2 RBIs, including a key single to score Kyle Isbel.",
+        "impact_player": "Isaac Collins"
+      },
+      {
+        "game": "Washington Nationals @ Chicago White Sox",
         "final_score": "4-5",
-        "top_pitching_line": "Grant Anderson: 0.1 IP, 1 K, 0 ER, 0 BB, 0 H",
-        "top_batting_line": "Riley Greene: 2 H, 1 HR, 2 RBI, 3 AB",
-        "summary": "The Detroit Tigers edged the Milwaukee Brewers 5-4 behind Riley Greene's 2 hits, 1 home run, and 2 RBIs, and Spencer Torkelson's 2nd home run of the game.",
-        "impact_player": "Riley Greene"
+        "top_pitching_line": "Seranthony Dom\u00ednguez: 1.0 IP, 2 K, 0 ER, 0 BB, 1 H",
+        "top_batting_line": "Brady House: 1 H, 1 HR, 2 RBI, 4 AB",
+        "summary": "The Chicago White Sox edged the Washington Nationals 5-4 behind Brady House's 2 RBI, including a home run, and a strong relief outing from Seranthony Dom\u00ednguez.",
+        "impact_player": "Brady House"
       },
       {
-        "game": "Philadelphia Phillies @ Chicago Cubs",
-        "final_score": "7-8",
-        "top_pitching_line": "Jos\u00e9 Alvarado: 1.0 IP, 1 K, 0 ER, 1 BB, 1 H",
-        "top_batting_line": "Brandon Marsh: 3 H, 2 HR, 3 RBI, 4 AB",
-        "summary": "The Chicago Cubs edged the Philadelphia Phillies 8-7 behind Brandon Marsh's 3 hits and 2 home runs, including 3 RBIs.",
-        "impact_player": "Brandon Marsh"
+        "game": "Pittsburgh Pirates @ Milwaukee Brewers",
+        "final_score": "6-0",
+        "top_pitching_line": "Paul Skenes: 7.0 IP, 7 K, 0 ER, 0 BB, 1 H",
+        "top_batting_line": "Konnor Griffin: 3 H, 1 HR, 3 RBI, 4 AB",
+        "summary": "The Pittsburgh Pirates shut out the Milwaukee Brewers 6-0 behind Paul Skenes' 7-inning performance and Konnor Griffin's 3-hit, 3-RBI effort.",
+        "impact_player": "Konnor Griffin"
       },
       {
-        "game": "San Diego Padres @ Colorado Rockies",
-        "final_score": "10-8",
-        "top_pitching_line": "Seth Halvorsen: 1.0 IP, 2 K, 0 ER, 1 BB, 0 H",
-        "top_batting_line": "Mickey Moniak: 4 H, 2 HR, 2 RBI, 5 AB",
-        "summary": "The San Diego Padres outlasted the Colorado Rockies 10-8 behind Mickey Moniak's 4 hits and 2 home runs, including a key 2-run shot.",
-        "impact_player": "Mickey Moniak"
+        "game": "Athletics @ Texas Rangers",
+        "final_score": "8-1",
+        "top_pitching_line": "Luis Severino: 6.2 IP, 5 K, 1 ER, 1 BB, 6 H",
+        "top_batting_line": "Carlos Cortes: 2 H, 2 HR, 4 RBI, 4 AB",
+        "summary": "The Athletics dominated the Texas Rangers 8-1 behind Carlos Cortes' 2 HR and 4 RBI performance, and Luis Severino's 6.2 strong innings.",
+        "impact_player": "Carlos Cortes"
       },
       {
-        "game": "Chicago White Sox @ Arizona Diamondbacks",
-        "final_score": "4-1",
-        "top_pitching_line": "Davis Martin: 6.1 IP, 7 K, 1 ER, 1 BB, 6 H",
-        "top_batting_line": "Andrew Benintendi: 2 H, 1 HR, 3 RBI, 5 AB",
-        "summary": "The Chicago White Sox edged the Arizona Diamondbacks 4-1 behind Davis Martin's 6.1 innings of work and Andrew Benintendi's 2-hit, 3-RBI performance.",
-        "impact_player": "Andrew Benintendi"
-      },
-      {
-        "game": "Los Angeles Dodgers @ San Francisco Giants",
-        "final_score": "3-0",
-        "top_pitching_line": "Tyler Glasnow: 8.0 IP, 9 K, 0 ER, 1 BB, 1 H",
-        "top_batting_line": "Hyeseong Kim: 2 H, 0 HR, 1 RBI, 4 AB",
-        "summary": "The Los Angeles Dodgers shut out the San Francisco Giants 3-0 behind Tyler Glasnow's 8-inning performance with 9 strikeouts and 1 hit allowed.",
-        "impact_player": "Hyeseong Kim"
-      },
-      {
-        "game": "New York Yankees @ Boston Red Sox",
-        "final_score": "4-2",
-        "top_pitching_line": "Payton Tolle: 6.0 IP, 11 K, 1 ER, 1 BB, 3 H",
-        "top_batting_line": "Jazz Chisholm Jr.: 2 H, 1 HR, 1 RBI, 4 AB",
-        "summary": "The New York Yankees edged the Boston Red Sox 4-2 behind Payton Tolle's 6.0 innings with 11 strikeouts and Aaron Judge's key single that scored a run.",
+        "game": "New York Yankees @ Houston Astros",
+        "final_score": "12-4",
+        "top_pitching_line": "Will Warren: 6.0 IP, 6 K, 2 ER, 1 BB, 7 H",
+        "top_batting_line": "Jazz Chisholm Jr.: 3 H, 1 HR, 4 RBI, 4 AB",
+        "summary": "The New York Yankees dominated the Houston Astros 12-4 behind a strong outing from Will Warren and a 3-hit, 4-RBI performance from Jazz Chisholm Jr.",
         "impact_player": "Jazz Chisholm Jr."
       },
       {
-        "game": "Minnesota Twins @ New York Mets",
-        "final_score": "8-10",
-        "top_pitching_line": "Tobias Myers: 2.1 IP, 3 K, 0 ER, 0 BB, 2 H",
-        "top_batting_line": "Ryan Jeffers: 1 H, 1 HR, 4 RBI, 3 AB",
-        "summary": "The New York Mets outlasted the Minnesota Twins 10-8 behind Ryan Jeffers' 4 RBI, including a home run, and a strong relief outing from Tobias Myers.",
-        "impact_player": "Ryan Jeffers"
+        "game": "Seattle Mariners @ St. Louis Cardinals",
+        "final_score": "3-2",
+        "top_pitching_line": "Andre Pallante: 5.1 IP, 8 K, 3 ER, 3 BB, 4 H",
+        "top_batting_line": "Josh Naylor: 1 H, 1 HR, 1 RBI, 3 AB",
+        "summary": "The Seattle Mariners edged the St. Louis Cardinals 3-2 behind Josh Naylor's solo home run and a strong outing from the Cardinals' Andre Pallante.",
+        "impact_player": "Josh Naylor"
       },
       {
-        "game": "Pittsburgh Pirates @ Texas Rangers",
-        "final_score": "1-6",
-        "top_pitching_line": "Jacob deGrom: 5.2 IP, 10 K, 1 ER, 1 BB, 5 H",
-        "top_batting_line": "Corey Seager: 2 H, 1 HR, 3 RBI, 4 AB",
-        "summary": "The Texas Rangers dominated the Pittsburgh Pirates 6-1 behind Jacob deGrom's 5.2 innings of one-run ball and Corey Seager's 3-RBI performance.",
-        "impact_player": "Corey Seager"
+        "game": "Chicago Cubs @ Los Angeles Dodgers",
+        "final_score": "6-4",
+        "top_pitching_line": "Emmet Sheehan: 6.1 IP, 10 K, 1 ER, 1 BB, 4 H",
+        "top_batting_line": "Dansby Swanson: 2 H, 1 HR, 4 RBI, 3 AB",
+        "summary": "The Chicago Cubs edged the Los Angeles Dodgers 6-4 behind Dansby Swanson's 2-hit, 1-home run performance and Emmet Sheehan's 6.1 innings of 1-run ball.",
+        "impact_player": "Dansby Swanson"
+      },
+      {
+        "game": "Miami Marlins @ San Francisco Giants",
+        "final_score": "9-4",
+        "top_pitching_line": "JT Brubaker: 3.0 IP, 3 K, 1 ER, 1 BB, 3 H",
+        "top_batting_line": "Liam Hicks: 1 H, 1 HR, 3 RBI, 4 AB",
+        "summary": "The Miami Marlins defeated the San Francisco Giants 9-4 behind Liam Hicks' 3-RBI performance, including a solo home run.",
+        "impact_player": "Liam Hicks"
       }
     ],
     "season_leaders": {
       "avg_ops": [
-        "Yordan Alvarez (Houston Astros) - AVG .347",
-        "Yandy D\u00edaz (Tampa Bay Rays) - AVG .340",
-        "Vladimir Guerrero Jr. (Toronto Blue Jays) - AVG .337",
-        "Andy Pages (Los Angeles Dodgers) - AVG .337",
-        "Xavier Edwards (Miami Marlins) - AVG .330",
-        "Yordan Alvarez (Houston Astros) - OPS 1.245",
-        "Ben Rice (New York Yankees) - OPS 1.169",
-        "James Wood (Washington Nationals) - OPS 1.010",
-        "Sal Stewart (Cincinnati Reds) - OPS 1.004",
-        "Munetaka Murakami (Chicago White Sox) - OPS .992"
+        "Yordan Alvarez (Houston Astros) - AVG .357",
+        "Xavier Edwards (Miami Marlins) - AVG .347",
+        "Yandy D\u00edaz (Tampa Bay Rays) - AVG .337",
+        "Ryan O'Hearn (Pittsburgh Pirates) - AVG .333",
+        "Andy Pages (Los Angeles Dodgers) - AVG .333",
+        "Yordan Alvarez (Houston Astros) - OPS 1.247",
+        "Ben Rice (New York Yankees) - OPS 1.197",
+        "Munetaka Murakami (Chicago White Sox) - OPS 1.020",
+        "James Wood (Washington Nationals) - OPS 1.005",
+        "Corbin Carroll (Arizona Diamondbacks) - OPS .976"
       ],
       "power": [
         "Yordan Alvarez (Houston Astros) - HR 11",
-        "Munetaka Murakami (Chicago White Sox) - HR 10",
+        "Munetaka Murakami (Chicago White Sox) - HR 11",
         "James Wood (Washington Nationals) - HR 10",
         "Aaron Judge (New York Yankees) - HR 9",
-        "Oneil Cruz (Pittsburgh Pirates) - HR 8",
-        "Elly De La Cruz (Cincinnati Reds) - HR 8",
-        "Shea Langeliers (Athletics) - HR 8",
-        "Mickey Moniak (Colorado Rockies) - HR 8",
-        "Max Muncy (Los Angeles Dodgers) - HR 8",
-        "Ben Rice (New York Yankees) - HR 8",
-        "Kyle Schwarber (Philadelphia Phillies) - HR 8",
-        "Sal Stewart (Cincinnati Reds) - HR 8",
-        "Mike Trout (Los Angeles Angels) - HR 8",
-        "Jordan Walker (St. Louis Cardinals) - HR 8",
+        "Ben Rice (New York Yankees) - HR 9",
         "Yordan Alvarez (Houston Astros) - RBI 26",
+        "Oneil Cruz (Pittsburgh Pirates) - RBI 24",
+        "Liam Hicks (Miami Marlins) - RBI 24",
         "Sal Stewart (Cincinnati Reds) - RBI 24",
         "Drake Baldwin (Atlanta Braves) - RBI 23",
-        "Oneil Cruz (Pittsburgh Pirates) - RBI 23",
-        "Nico Hoerner (Chicago Cubs) - RBI 22",
-        "Matt Olson (Atlanta Braves) - RBI 22"
+        "Nico Hoerner (Chicago Cubs) - RBI 23"
       ],
       "pitching": [
         "Dylan Cease (Toronto Blue Jays) - K 44",
+        "Gavin Williams (Cleveland Guardians) - K 44",
         "Jos\u00e9 Soriano (Los Angeles Angels) - K 43",
         "Cristopher S\u00e1nchez (Philadelphia Phillies) - K 43",
         "Jacob Misiorowski (Milwaukee Brewers) - K 42",
-        "Cam Schlittler (New York Yankees) - K 41",
         "Aaron Ashby (Milwaukee Brewers) - W 5",
         "Jos\u00e9 Soriano (Los Angeles Angels) - W 5",
+        "George Kirby (Seattle Mariners) - W 4",
         "Landen Roupp (San Francisco Giants) - W 4",
         "Chris Sale (Atlanta Braves) - W 4",
-        "Michael Soroka (Arizona Diamondbacks) - W 4"
+        "Paul Skenes (Pittsburgh Pirates) - W 4",
+        "Michael Soroka (Arizona Diamondbacks) - W 4",
+        "Gavin Williams (Cleveland Guardians) - W 4"
       ],
       "run_prevention": [
         "Jos\u00e9 Soriano (Los Angeles Angels) - ERA 0.24",
         "Seth Lugo (Kansas City Royals) - ERA 1.15",
         "Bryce Elder (Atlanta Braves) - ERA 1.50",
-        "Taj Bradley (Minnesota Twins) - ERA 1.63",
         "Parker Messick (Cleveland Guardians) - ERA 1.76",
+        "Cam Schlittler (New York Yankees) - ERA 1.77",
         "Tyler Glasnow (Los Angeles Dodgers) - WHIP 0.70",
         "Shota Imanaga (Chicago Cubs) - WHIP 0.72",
+        "Paul Skenes (Pittsburgh Pirates) - WHIP 0.72",
         "Cam Schlittler (New York Yankees) - WHIP 0.73",
-        "Nolan McLean (New York Mets) - WHIP 0.76",
-        "Max Fried (New York Yankees) - WHIP 0.77"
+        "Drew Rasmussen (Tampa Bay Rays) - WHIP 0.74"
       ]
     }
   }

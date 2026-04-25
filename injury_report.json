@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-24T18:28:34.026898-04:00",
+  "updated_at": "2026-04-25T01:31:12.830012-04:00",
   "teams": [
     {
       "team_id": 109,
@@ -439,7 +439,7 @@
     {
       "team_id": 112,
       "team_name": "Chicago Cubs",
-      "injured_count": 12,
+      "injured_count": 13,
       "players": [
         {
           "player_id": 690990,
@@ -448,6 +448,14 @@
           "date": "2026-04-18",
           "note": "Chicago Cubs transferred RHP Cade Horton from the 15-day injured list to the 60-day injured list. Right forearm strain. | Status Change",
           "description": "Chicago Cubs transferred RHP Cade Horton from the 15-day injured list to the 60-day injured list. Right forearm strain."
+        },
+        {
+          "player_id": 573204,
+          "name": "Caleb Thielbar",
+          "il_type": "Injured List",
+          "date": "2026-04-24",
+          "note": "Chicago Cubs placed LHP Caleb Thielbar on the 15-day injured list. Left hamstring strain. | Status Change",
+          "description": "Chicago Cubs placed LHP Caleb Thielbar on the 15-day injured list. Left hamstring strain."
         },
         {
           "player_id": 694037,
@@ -509,9 +517,9 @@
           "player_id": 687863,
           "name": "Porter Hodge",
           "il_type": "Injured List",
-          "date": "2026-03-25",
-          "note": "Chicago Cubs placed RHP Porter Hodge on the 15-day injured list retroactive to March 22, 2026. Right elbow strain. | Status Change",
-          "description": "Chicago Cubs placed RHP Porter Hodge on the 15-day injured list retroactive to March 22, 2026. Right elbow strain."
+          "date": "2026-04-24",
+          "note": "Chicago Cubs transferred RHP Porter Hodge from the 15-day injured list to the 60-day injured list. Right elbow strain. | Status Change",
+          "description": "Chicago Cubs transferred RHP Porter Hodge from the 15-day injured list to the 60-day injured list. Right elbow strain."
         },
         {
           "player_id": 673548,
