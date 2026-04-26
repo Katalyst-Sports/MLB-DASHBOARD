@@ -1,9 +1,166 @@
 {
-  "updated_at": "2026-04-26T13:05:57.314454-04:00",
+  "updated_at": "2026-04-26T15:52:07.967012-04:00",
   "games": [
+    {
+      "gamePk": 824852,
+      "game": "Boston Red Sox @ Baltimore Orioles",
+      "score": "5-2",
+      "inning": "8th",
+      "hot_hitters": [
+        "Willson Contreras",
+        "Ceddanne Rafaela",
+        "Gunnar Henderson",
+        "Samuel Basallo"
+      ],
+      "top_pitchers": []
+    },
     {
       "gamePk": 824934,
       "game": "Philadelphia Phillies @ Atlanta Braves",
+      "score": "0-6",
+      "inning": "7th",
+      "hot_hitters": [
+        "Ronald Acu\u00f1a Jr.",
+        "Drake Baldwin",
+        "Matt Olson",
+        "Eli White"
+      ],
+      "top_pitchers": []
+    },
+    {
+      "gamePk": 822824,
+      "game": "Cleveland Guardians @ Toronto Blue Jays",
+      "score": "2-4",
+      "inning": "8th",
+      "hot_hitters": [
+        "Angel Mart\u00ednez",
+        "Vladimir Guerrero Jr.",
+        "Jes\u00fas S\u00e1nchez"
+      ],
+      "top_pitchers": []
+    },
+    {
+      "gamePk": 824528,
+      "game": "Detroit Tigers @ Cincinnati Reds",
+      "score": "6-3",
+      "inning": "8th",
+      "hot_hitters": [
+        "Gleyber Torres",
+        "Hao-Yu  Lee",
+        "Spencer Torkelson",
+        "Kerry Carpenter",
+        "Nathaniel Lowe",
+        "JJ Bleday"
+      ],
+      "top_pitchers": []
+    },
+    {
+      "gamePk": 823635,
+      "game": "Colorado Rockies @ New York Mets",
+      "score": "3-1",
+      "inning": "8th",
+      "hot_hitters": [
+        "Edouard Julien",
+        "Jake McCarthy",
+        "Tyrone Taylor"
+      ],
+      "top_pitchers": []
+    },
+    {
+      "gamePk": 822991,
+      "game": "Minnesota Twins @ Tampa Bay Rays",
+      "score": "2-4",
+      "inning": "8th",
+      "hot_hitters": [
+        "Brooks Lee",
+        "Chandler Simpson",
+        "Yandy D\u00edaz"
+      ],
+      "top_pitchers": []
+    },
+    {
+      "gamePk": 824612,
+      "game": "Washington Nationals @ Chicago White Sox",
+      "score": "0-0",
+      "inning": "9th",
+      "hot_hitters": [],
+      "top_pitchers": []
+    },
+    {
+      "gamePk": 824202,
+      "game": "New York Yankees @ Houston Astros",
+      "score": "1-7",
+      "inning": "6th",
+      "hot_hitters": [
+        "Aaron Judge",
+        "Yordan Alvarez",
+        "Isaac Paredes",
+        "Christian Walker"
+      ],
+      "top_pitchers": [
+        "Spencer Arrighetti"
+      ]
+    },
+    {
+      "gamePk": 823797,
+      "game": "Pittsburgh Pirates @ Milwaukee Brewers",
+      "score": "0-5",
+      "inning": "6th",
+      "hot_hitters": [],
+      "top_pitchers": [
+        "Kyle Harrison"
+      ]
+    },
+    {
+      "gamePk": 823068,
+      "game": "Seattle Mariners @ St. Louis Cardinals",
+      "score": "1-1",
+      "inning": "6th",
+      "hot_hitters": [
+        "Cal Raleigh",
+        "JJ Wetherholt"
+      ],
+      "top_pitchers": [
+        "Michael McGreevy"
+      ]
+    },
+    {
+      "gamePk": 822911,
+      "game": "Athletics @ Texas Rangers",
+      "score": "2-0",
+      "inning": "4th",
+      "hot_hitters": [
+        "Carlos Cortes"
+      ],
+      "top_pitchers": []
+    },
+    {
+      "gamePk": 825094,
+      "game": "San Diego Padres @ Arizona Diamondbacks",
+      "score": "0-0",
+      "inning": "1st",
+      "hot_hitters": [],
+      "top_pitchers": []
+    },
+    {
+      "gamePk": 823230,
+      "game": "Miami Marlins @ San Francisco Giants",
+      "score": "0-0",
+      "inning": "1st",
+      "hot_hitters": [],
+      "top_pitchers": []
+    },
+    {
+      "gamePk": 824122,
+      "game": "Los Angeles Angels @ Kansas City Royals",
+      "score": "0-0",
+      "inning": "1st",
+      "hot_hitters": [],
+      "top_pitchers": []
+    },
+    {
+      "gamePk": 823959,
+      "game": "Chicago Cubs @ Los Angeles Dodgers",
       "score": "0-0",
       "inning": "1st",
       "hot_hitters": [],

@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-04-26T13:05:57.314454-04:00",
+  "updated_at": "2026-04-26T15:52:07.967012-04:00",
   "headline": "**MLB Daily Roundup: April 26, 2026**",
-  "article": "The Boston Red Sox dominated the Baltimore Orioles with a 17-1 victory, led by Willson Contreras' 2 hits, 1 home run, and 5 RBIs. The Seattle Mariners rallied to defeat the St. Louis Cardinals 11-9, with Nathan Church hitting 2 home runs and driving in 4 runs. The Toronto Blue Jays secured a 5-3 victory over the Cleveland Guardians, with Kazuma Okamoto leading the offense with a 2-hit, 1-home run performance.\n\nSeveral players have been impacted by injuries, including Detroit Tigers right-handed pitcher Connor Seabold, who has been placed on the 15-day injured list due to left ankle inflammation. The Cleveland Guardians have also placed RHP Shawn Armstrong on the 15-day injured list retroactive to April 23, 2026, due to a right groin strain. Other teams have also reported injuries, including the New York Yankees, Cincinnati Reds, Toronto Blue Jays, Chicago Cubs, and Toronto Blue Jays.\n\nThe Toronto Blue Jays have made a trade, acquiring catcher Willie MacIver from the Texas Rangers in exchange for cash. The Seattle Mariners have traded RHP Casey Legumina to the Tampa Bay Rays for RHP Ty Cummings. The Chicago Cubs have acquired 3B Nicky Lopez from the Colorado Rockies in exchange for cash. The Houston Astros have traded RHP Wilmy Sanchez to the New York Yankees for SS Braden Shewmake.",
+  "article": "The Boston Red Sox dominated the Baltimore Orioles with a 17-1 victory, led by Willson Contreras' 2 hits, 1 home run, and 5 RBIs. The Seattle Mariners rallied to defeat the St. Louis Cardinals 11-9, with Nathan Church hitting a pair of home runs and driving in four runs. The Toronto Blue Jays secured a 5-3 win over the Cleveland Guardians, with Kazuma Okamoto contributing a 2-hit, 1-home run performance.\n\nSeveral players have been sidelined due to injuries. Logan O'Hoppe, the Los Angeles Angels' catcher, has been placed on the 10-day injured list with a left wrist fracture. Other players on the injured list include Riley Martin (Chicago Cubs, left elbow inflammation), Connor Seabold (Detroit Tigers, left ankle inflammation), Shawn Armstrong (Cleveland Guardians, right groin strain), Angel Chivilli (New York Yankees, right shoulder discomfort), Eugenio Su\u00e1rez (Cincinnati Reds, mild left oblique strain), Nathan Lukes (Toronto Blue Jays, left hamstring strain), and Yimi Garc\u00eda (Toronto Blue Jays, right elbow ulnar nerve and AC joint surgery).\n\nThe Toronto Blue Jays have made a trade, acquiring catcher Willie MacIver from the Texas Rangers in exchange for cash. The Seattle Mariners traded RHP Casey Legumina to the Tampa Bay Rays for RHP Ty Cummings. The Chicago Cubs acquired 3B Nicky Lopez from the Colorado Rockies for cash, while the Houston Astros traded RHP Wilmy Sanchez to the New York Yankees for SS Braden Shewmake.",
   "top_news": [
     {
       "title": "**Red Sox Rout Orioles 17-1**",
@@ -9,8 +9,8 @@
       "published": "2026-04-25"
     },
     {
-      "title": "**Mariners Come from Behind to Win 11-9**",
-      "summary": "The Seattle Mariners rallied to defeat the St. Louis Cardinals 11-9, with Nathan Church leading the offense. Church hit 2 home runs and drove in 4 runs in the game.",
+      "title": "**Mariners Come from Behind to Defeat Cardinals 11-9**",
+      "summary": "The Seattle Mariners rallied to secure an 11-9 victory over the St. Louis Cardinals, overcoming a late deficit to secure the win. Nathan Church led the Mariners' offense with a pair of home runs and four RBIs.",
       "published": "2026-04-25"
     },
     {
@@ -19,13 +19,13 @@
       "published": "2026-04-25"
     },
     {
-      "title": "**Giants Take Down Marlins 6-2**",
-      "summary": "The San Francisco Giants secured a 6-2 victory over the Miami Marlins, with Casey Schmitt leading the offense. Schmitt hit 2 home runs, drove in 2 runs, and went 3 for 3 at the plate.",
+      "title": "**Giants Take Down Marlins in 6-2 Victory**",
+      "summary": "The San Francisco Giants secured a 6-2 win over the Miami Marlins, with Casey Schmitt leading the offense. Schmitt hit 2 home runs, drove in 2 runs, and went 3 for 3 at the plate.",
       "published": "2026-04-25"
     },
     {
-      "title": "**Tigers RHP Connor Seabold Lands on Injured List**",
-      "summary": "Detroit Tigers right-handed pitcher Connor Seabold has been placed on the 15-day injured list due to left ankle inflammation.",
+      "title": "**Logan O'Hoppe Sidelined with Left Wrist Fracture**",
+      "summary": "Los Angeles Angels catcher Logan O'Hoppe has been placed on the 10-day injured list due to a left wrist fracture.",
       "published": "2026-04-26"
     },
     {
@@ -35,6 +35,18 @@
     }
   ],
   "injury_updates": [
+    {
+      "date": "2026-04-26",
+      "team": "Los Angeles Angels",
+      "player": "Logan O'Hoppe",
+      "update": "Los Angeles Angels placed C Logan O'Hoppe on the 10-day injured list. Left wrist fracture. | Status Change"
+    },
+    {
+      "date": "2026-04-26",
+      "team": "Chicago Cubs",
+      "player": "Riley Martin",
+      "update": "Chicago Cubs placed LHP Riley Martin on the 15-day injured list retroactive to April 24, 2026. Left elbow inflammation. | Status Change"
+    },
     {
       "date": "2026-04-26",
       "team": "Detroit Tigers",
@@ -94,18 +106,6 @@
       "team": "Colorado Rockies",
       "player": "Ryan Feltner",
       "update": "Colorado Rockies placed RHP Ryan Feltner on the 15-day injured list. Right ulnar nerve inflammation. | Status Change"
-    },
-    {
-      "date": "2026-04-23",
-      "team": "Baltimore Orioles",
-      "player": "Dean Kremer",
-      "update": "Baltimore Orioles placed RHP Dean Kremer on the 15-day injured list retroactive to April 20, 2026. Right quad strain. | Status Change"
-    },
-    {
-      "date": "2026-04-23",
-      "team": "Texas Rangers",
-      "player": "Robert Garcia",
-      "update": "Texas Rangers placed LHP Robert Garcia on the 15-day injured list retroactive to April 20, 2026. Left shoulder inflammation. | Status Change"
     }
   ],
   "trade_updates": [
