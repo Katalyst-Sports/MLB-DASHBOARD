@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-04-26T10:33:33.452213-04:00",
+  "updated_at": "2026-04-26T13:05:57.314454-04:00",
   "headline": "**MLB Daily Roundup: April 26, 2026**",
-  "article": "The Boston Red Sox dominated the Baltimore Orioles, securing a 17-1 victory. Willson Contreras led the Red Sox offense with 2 hits, 1 home run, and 5 RBIs. The Seattle Mariners rallied to secure an 11-9 victory over the St. Louis Cardinals, overcoming a late deficit. Nathan Church led the Mariners' offense with 2 home runs and 4 RBIs. The Toronto Blue Jays secured a 5-3 victory over the Cleveland Guardians, with Kazuma Okamoto leading the offense with 2 hits, 1 home run, and 2 RBIs.\n\nSeveral key players have been impacted by injuries and availability. The New York Yankees have placed right-handed pitcher Angel Chivilli on the 15-day injured list due to right shoulder discomfort, effective retroactive to April 23, 2026. The Cincinnati Reds have placed third baseman Eugenio Su\u00e1rez on the 10-day injured list retroactive to April 23, 2026, due to a mild left oblique strain. The Toronto Blue Jays have placed right fielder Nathan Lukes on the 10-day injured list due to a left hamstring strain and transferred right-handed pitcher Yimi Garc\u00eda from the 15-day injured list to the 60-day injured list due to right elbow ulnar nerve and AC joint surgery.\n\nThe Toronto Blue Jays have bolstered their roster with the addition of catcher Willie MacIver, acquired from the Texas Rangers in exchange for cash. The Seattle Mariners have traded right-handed pitcher Casey Legumina to the Tampa Bay Rays for right-handed pitcher Ty Cummings. The Chicago Cubs have traded third baseman Nicky Lopez to the Colorado Rockies for cash. The Houston Astros have traded shortstop Braden Shewmake to the New York Yankees for right-handed pitcher Wilmy Sanchez.",
+  "article": "The Boston Red Sox dominated the Baltimore Orioles with a 17-1 victory, led by Willson Contreras' 2 hits, 1 home run, and 5 RBIs. The Seattle Mariners rallied to defeat the St. Louis Cardinals 11-9, with Nathan Church hitting 2 home runs and driving in 4 runs. The Toronto Blue Jays secured a 5-3 victory over the Cleveland Guardians, with Kazuma Okamoto leading the offense with a 2-hit, 1-home run performance.\n\nSeveral players have been impacted by injuries, including Detroit Tigers right-handed pitcher Connor Seabold, who has been placed on the 15-day injured list due to left ankle inflammation. The Cleveland Guardians have also placed RHP Shawn Armstrong on the 15-day injured list retroactive to April 23, 2026, due to a right groin strain. Other teams have also reported injuries, including the New York Yankees, Cincinnati Reds, Toronto Blue Jays, Chicago Cubs, and Toronto Blue Jays.\n\nThe Toronto Blue Jays have made a trade, acquiring catcher Willie MacIver from the Texas Rangers in exchange for cash. The Seattle Mariners have traded RHP Casey Legumina to the Tampa Bay Rays for RHP Ty Cummings. The Chicago Cubs have acquired 3B Nicky Lopez from the Colorado Rockies in exchange for cash. The Houston Astros have traded RHP Wilmy Sanchez to the New York Yankees for SS Braden Shewmake.",
   "top_news": [
     {
       "title": "**Red Sox Rout Orioles 17-1**",
@@ -9,32 +9,44 @@
       "published": "2026-04-25"
     },
     {
-      "title": "**Mariners Come from Behind to Defeat Cardinals 11-9**",
-      "summary": "The Seattle Mariners rallied to secure an 11-9 victory over the St. Louis Cardinals, overcoming a late deficit. Nathan Church led the Mariners' offense with 2 home runs and 4 RBIs.",
+      "title": "**Mariners Come from Behind to Win 11-9**",
+      "summary": "The Seattle Mariners rallied to defeat the St. Louis Cardinals 11-9, with Nathan Church leading the offense. Church hit 2 home runs and drove in 4 runs in the game.",
       "published": "2026-04-25"
     },
     {
       "title": "**Blue Jays Take Down Guardians 5-3**",
-      "summary": "The Toronto Blue Jays secured a 5-3 victory over the Cleveland Guardians, with Kazuma Okamoto leading the offense with 2 hits, 1 home run, and 2 RBIs. Connor Brogdon earned a strong relief appearance, striking out 2 batters in 1 inning of work.",
+      "summary": "The Toronto Blue Jays secured a 5-3 victory over the Cleveland Guardians in their latest matchup. Kazuma Okamoto led the Blue Jays' offense with a 2-hit, 1-home run performance, driving in 2 runs.",
       "published": "2026-04-25"
     },
     {
-      "title": "**Giants Take Down Marlins in 6-2 Victory**",
-      "summary": "The San Francisco Giants secured a 6-2 win over the Miami Marlins, with Casey Schmitt leading the offense with 2 hits, 1 home run, and 2 RBIs. Robbie Ray pitched 5 strong innings for the Marlins, striking out 4 and allowing 1 earned run.",
+      "title": "**Giants Take Down Marlins 6-2**",
+      "summary": "The San Francisco Giants secured a 6-2 victory over the Miami Marlins, with Casey Schmitt leading the offense. Schmitt hit 2 home runs, drove in 2 runs, and went 3 for 3 at the plate.",
       "published": "2026-04-25"
     },
     {
-      "title": "**Yankees Place RHP Angel Chivilli on 15-Day Injured List**",
-      "summary": "The New York Yankees have placed right-handed pitcher Angel Chivilli on the 15-day injured list due to right shoulder discomfort, effective retroactive to April 23, 2026.",
-      "published": "2026-04-25"
+      "title": "**Tigers RHP Connor Seabold Lands on Injured List**",
+      "summary": "Detroit Tigers right-handed pitcher Connor Seabold has been placed on the 15-day injured list due to left ankle inflammation.",
+      "published": "2026-04-26"
     },
     {
       "title": "**Blue Jays Acquire Willie MacIver in Trade**",
-      "summary": "The Toronto Blue Jays have bolstered their roster with the addition of catcher Willie MacIver, acquired from the Texas Rangers in exchange for cash.",
+      "summary": "The Toronto Blue Jays have acquired catcher Willie MacIver in a trade with the Texas Rangers, who received cash in return.",
       "published": "2026-04-24"
     }
   ],
   "injury_updates": [
+    {
+      "date": "2026-04-26",
+      "team": "Detroit Tigers",
+      "player": "Connor Seabold",
+      "update": "Detroit Tigers placed RHP Connor Seabold on the 15-day injured list. Left ankle inflammation. | Status Change"
+    },
+    {
+      "date": "2026-04-26",
+      "team": "Cleveland Guardians",
+      "player": "Shawn Armstrong",
+      "update": "Cleveland Guardians placed RHP Shawn Armstrong on the 15-day injured list retroactive to April 23, 2026. Right groin strain. | Status Change"
+    },
     {
       "date": "2026-04-25",
       "team": "New York Yankees",
@@ -94,18 +106,6 @@
       "team": "Texas Rangers",
       "player": "Robert Garcia",
       "update": "Texas Rangers placed LHP Robert Garcia on the 15-day injured list retroactive to April 20, 2026. Left shoulder inflammation. | Status Change"
-    },
-    {
-      "date": "2026-04-23",
-      "team": "New York Mets",
-      "player": "Francisco Lindor",
-      "update": "New York Mets placed SS Francisco Lindor on the 10-day injured list. Left calf strain. | Status Change"
-    },
-    {
-      "date": "2026-04-23",
-      "team": "Atlanta Braves",
-      "player": "Dylan Dodd",
-      "update": "Atlanta Braves placed LHP Dylan Dodd on the 15-day injured list retroactive to April 22, 2026. Left thoracic spine inflammation. | Status Change"
     }
   ],
   "trade_updates": [

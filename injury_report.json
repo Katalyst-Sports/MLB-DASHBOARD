@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-26T10:33:33.452213-04:00",
+  "updated_at": "2026-04-26T13:05:57.314454-04:00",
   "teams": [
     {
       "team_id": 109,
@@ -684,7 +684,7 @@
     {
       "team_id": 114,
       "team_name": "Cleveland Guardians",
-      "injured_count": 4,
+      "injured_count": 5,
       "players": [
         {
           "player_id": 689958,
@@ -717,6 +717,14 @@
           "date": "2026-03-25",
           "note": "Cleveland Guardians placed RHP Hunter Gaddis on the 15-day injured list retroactive to March 22, 2026. Right forearm strain. | Status Change",
           "description": "Cleveland Guardians placed RHP Hunter Gaddis on the 15-day injured list retroactive to March 22, 2026. Right forearm strain."
+        },
+        {
+          "player_id": 542888,
+          "name": "Shawn Armstrong",
+          "il_type": "Injured List",
+          "date": "2026-04-26",
+          "note": "Cleveland Guardians placed RHP Shawn Armstrong on the 15-day injured list retroactive to April 23, 2026. Right groin strain. | Status Change",
+          "description": "Cleveland Guardians placed RHP Shawn Armstrong on the 15-day injured list retroactive to April 23, 2026. Right groin strain."
         }
       ]
     },
@@ -826,7 +834,7 @@
     {
       "team_id": 116,
       "team_name": "Detroit Tigers",
-      "injured_count": 10,
+      "injured_count": 11,
       "players": [
         {
           "player_id": 690544,
@@ -843,6 +851,14 @@
           "date": "2026-03-23",
           "note": "Detroit Tigers placed RHP Beau Brieske on the 60-day injured list. Left adductor strain. | Status Change",
           "description": "Detroit Tigers placed RHP Beau Brieske on the 60-day injured list. Left adductor strain."
+        },
+        {
+          "player_id": 657756,
+          "name": "Connor Seabold",
+          "il_type": "Injured List",
+          "date": "2026-04-26",
+          "note": "Detroit Tigers placed RHP Connor Seabold on the 15-day injured list. Left ankle inflammation. | Status Change",
+          "description": "Detroit Tigers placed RHP Connor Seabold on the 15-day injured list. Left ankle inflammation."
         },
         {
           "player_id": 695549,
