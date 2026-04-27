@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-26T17:56:05.426601-04:00",
+  "updated_at": "2026-04-26T20:02:59.194334-04:00",
   "games": [
     {
       "gamePk": 824851,
@@ -336,14 +336,17 @@
       "loser": "New York Mets",
       "final_score": "3-0",
       "hitters": [
-        "Hunter Goodman"
+        "Hunter Goodman",
+        "Carson Benge"
       ],
-      "pitchers": [],
-      "top_batting_line": "Hunter Goodman: 1 H, 1 HR, 2 RBI, 2 AB",
-      "top_pitching_line": "Chase Dollander: 2.2 IP, 3 K, 0 ER, 1 BB, 2 H",
-      "winning_pitcher": "",
-      "losing_pitcher": "",
-      "save_pitcher": "",
+      "pitchers": [
+        "Chase Dollander"
+      ],
+      "top_batting_line": "Hunter Goodman: 1 H, 1 HR, 2 RBI, 4 AB",
+      "top_pitching_line": "Chase Dollander: 7.0 IP, 7 K, 0 ER, 2 BB, 5 H",
+      "winning_pitcher": "Chase Dollander",
+      "losing_pitcher": "Kodai Senga",
+      "save_pitcher": "Zach Agnos",
       "game_summary": "Hunter Goodman homers (7) on a fly ball to right center field. Edouard Julien scores."
     }
   ],

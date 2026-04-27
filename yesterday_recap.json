@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-04-26T17:56:05.426601-04:00",
+  "updated_at": "2026-04-26T20:02:59.194334-04:00",
   "date": "2026-04-25",
   "dashboard_recap": {
     "headline": "MLB Daily Recap - April 25, 2026",
-    "article": "**Red Sox Rout Orioles 17-1 Behind Contreras' Big Day**\n\nWillson Contreras delivered a monster performance for the Boston Red Sox, going 2-for-4 with a home run and 5 RBIs in their 17-1 thrashing of the Baltimore Orioles. Contreras' 5th home run of the season highlighted a 4-hit, 4-RBI day for the catcher. Meanwhile, left-hander Garrett Crochet dominated on the mound, tossing 6 strong innings with 7 strikeouts and 0 earned runs.\n\n**Mariners Edge Cardinals 11-9 in High-Scoring Affair**\n\nThe Seattle Mariners outlasted the St. Louis Cardinals 11-9, thanks in part to Nathan Church's 2-home run, 4-RBI effort at the plate. Church finished 2-for-4 with 2 long balls, helping the Mariners overcome a 9-7 deficit. On the mound, the Cardinals' bullpen struggled to contain the Mariners' offense, allowing 4 runs in the 8th inning to seal the loss.\n\n**Blue Jays Outlast Guardians 5-3**\n\nThe Toronto Blue Jays took down the Cleveland Guardians 5-3 behind Kazuma Okamoto's 2-hit, 2-RBI day at the plate. Okamoto's 1 home run highlighted a 3-hit, 3-AB performance, while Kevin Gausman earned the win with 5 strong innings of work.",
+    "article": "**SOX DOMINATE ORIOLES 17-1**\n\nThe Boston Red Sox exploded for 17 runs behind a dominant performance from Garrett Crochet, who tossed 6 shutout innings with 7 strikeouts. Willson Contreras led the charge with a 2-home run, 5-RBI day, while Ceddanne Rafaela and Wilyer Abreu also contributed with multi-hit performances. Contreras' 5th home run of the season was a highlight, scoring Isiah Kiner-Falefa and Ceddanne Rafaela in the process.\n\n**MARINERS EDGE CARDINALS 11-9**\n\nIn a back-and-forth battle, the Seattle Mariners outlasted the St. Louis Cardinals 11-9. Nathan Church went deep twice with 4 RBIs, while Julio Rodr\u00edguez added 2 hits and 2 RBIs. Josh Naylor also contributed with 2 hits and 2 RBIs for the Mariners. Cole Ragans was impressive on the mound for the Royals, tossing 6 scoreless innings with 11 strikeouts in a 12-1 win over the Los Angeles Angels.",
     "all_games": [
       {
         "game": "Boston Red Sox @ Baltimore Orioles",
         "final_score": "17-1",
         "top_pitching_line": "Garrett Crochet: 6.0 IP, 7 K, 0 ER, 2 BB, 3 H",
         "top_batting_line": "Willson Contreras: 2 H, 1 HR, 5 RBI, 4 AB",
-        "summary": "The Boston Red Sox dominated the Baltimore Orioles 17-1 behind Garrett Crochet's 6 shutout innings and Willson Contreras' 5-RBI performance.",
+        "summary": "The Boston Red Sox dominated the Baltimore Orioles 17-1 behind Garrett Crochet's 6 scoreless innings and Willson Contreras' 5 RBIs, including a 2-hit, 1-homer performance.",
         "impact_player": "Willson Contreras"
       },
       {
@@ -18,7 +18,7 @@
         "final_score": "11-9",
         "top_pitching_line": "Jose A. Ferrer: 2.0 IP, 1 K, 0 ER, 1 BB, 2 H",
         "top_batting_line": "Nathan Church: 2 H, 2 HR, 4 RBI, 4 AB",
-        "summary": "The Seattle Mariners outlasted the St. Louis Cardinals 11-9 behind Nathan Church's 2 HR and 4 RBI performance.",
+        "summary": "The Seattle Mariners edged the St. Louis Cardinals 11-9 behind Nathan Church's 2 HR and 4 RBI, and a late rally sparked by Leo Rivas' key single.",
         "impact_player": "Nathan Church"
       },
       {
@@ -26,7 +26,7 @@
         "final_score": "3-5",
         "top_pitching_line": "Matt Festa: 1.0 IP, 3 K, 0 ER, 0 BB, 1 H",
         "top_batting_line": "Kazuma Okamoto: 2 H, 1 HR, 2 RBI, 3 AB",
-        "summary": "The Toronto Blue Jays outlasted the Cleveland Guardians 5-3 behind Kazuma Okamoto's 2 hits, including a home run, and a strong relief outing from Matt Festa.",
+        "summary": "The Toronto Blue Jays outlasted the Cleveland Guardians 5-3, led by Kazuma Okamoto's 2 hits, including a home run, and 2 RBIs.",
         "impact_player": "Kazuma Okamoto"
       },
       {
@@ -34,7 +34,7 @@
         "final_score": "2-6",
         "top_pitching_line": "Robbie Ray: 5.0 IP, 4 K, 1 ER, 3 BB, 4 H",
         "top_batting_line": "Casey Schmitt: 2 H, 1 HR, 2 RBI, 3 AB",
-        "summary": "The San Francisco Giants defeated the Miami Marlins 6-2 behind Casey Schmitt's 2 hits, including a home run, and Robbie Ray's 5 scoreless innings.",
+        "summary": "The San Francisco Giants defeated the Miami Marlins 6-2 behind Casey Schmitt's 2 hits, 1 home run, and 2 RBIs in 3 at-bats.",
         "impact_player": "Casey Schmitt"
       },
       {
@@ -66,7 +66,7 @@
         "final_score": "3-4",
         "top_pitching_line": "MacKenzie Gore: 5.0 IP, 7 K, 3 ER, 3 BB, 6 H",
         "top_batting_line": "Josh Jung: 1 H, 1 HR, 2 RBI, 4 AB",
-        "summary": "The Texas Rangers edged the Athletics 4-3 behind Josh Jung's 1-for-4 performance, including a go-ahead home run in the 5th inning.",
+        "summary": "The Texas Rangers edged the Athletics 4-3 behind Josh Jung's go-ahead 4th home run, a fly ball to right center field.",
         "impact_player": "Josh Jung"
       },
       {
@@ -74,7 +74,7 @@
         "final_score": "1-12",
         "top_pitching_line": "Cole Ragans: 6.0 IP, 11 K, 1 ER, 0 BB, 5 H",
         "top_batting_line": "Salvador Perez: 3 H, 1 HR, 2 RBI, 5 AB",
-        "summary": "The Kansas City Royals dominated the Los Angeles Angels 12-1 behind Cole Ragans' 6 shutout innings and Salvador Perez's 3-hit, 2-RBI performance.",
+        "summary": "The Kansas City Royals dominated the Los Angeles Angels 12-1 behind Cole Ragans' 6.0 innings of 1-run ball and Salvador Perez's 3-hit, 2-RBI performance.",
         "impact_player": "Salvador Perez"
       },
       {
@@ -82,7 +82,7 @@
         "final_score": "8-3",
         "top_pitching_line": "Mike Burrows: 5.0 IP, 8 K, 2 ER, 3 BB, 5 H",
         "top_batting_line": "Austin Wells: 2 H, 1 HR, 2 RBI, 3 AB",
-        "summary": "The New York Yankees defeated the Houston Astros 8-3 behind Austin Wells' 2 hits, 1 home run, and 2 RBIs, and Mike Burrows' 5 strong innings.",
+        "summary": "The New York Yankees defeated the Houston Astros 8-3 behind Austin Wells' 2 hits, including a 2 RBI home run, and Mike Burrows' 5 strong innings with 8 strikeouts.",
         "impact_player": "Austin Wells"
       },
       {
@@ -90,7 +90,7 @@
         "final_score": "6-3",
         "top_pitching_line": "Jacob Misiorowski: 6.0 IP, 9 K, 3 ER, 1 BB, 6 H",
         "top_batting_line": "Nick Gonzales: 3 H, 0 HR, 1 RBI, 5 AB",
-        "summary": "The Pittsburgh Pirates edged the Milwaukee Brewers 6-3 behind Jacob Misiorowski's 6 strong innings and Nick Gonzales' 3-hit, 1-RBI performance.",
+        "summary": "The Pittsburgh Pirates edged the Milwaukee Brewers 6-3 behind Jacob Misiorowski's 6 strong innings and Nick Gonzales' 3-hit effort with a key RBI single.",
         "impact_player": "Nick Gonzales"
       },
       {
@@ -98,7 +98,7 @@
         "final_score": "2-9",
         "top_pitching_line": "Drew Anderson: 2.2 IP, 5 K, 1 ER, 1 BB, 1 H",
         "top_batting_line": "Sal Stewart: 3 H, 1 HR, 5 RBI, 4 AB",
-        "summary": "The Cincinnati Reds dominated the Detroit Tigers 9-2 behind Drew Anderson's strong 2.2 innings with 5 strikeouts and Sal Stewart's 3 hits, including a 5-RBI home run.",
+        "summary": "The Cincinnati Reds dominated the Detroit Tigers 9-2 behind Drew Anderson's strong relief outing and Sal Stewart's 3-hit, 5-RBI performance.",
         "impact_player": "Sal Stewart"
       },
       {
@@ -106,7 +106,7 @@
         "final_score": "4-12",
         "top_pitching_line": "Will Klein: 1.1 IP, 2 K, 0 ER, 0 BB, 1 H",
         "top_batting_line": "Seiya Suzuki: 3 H, 1 HR, 1 RBI, 4 AB",
-        "summary": "The Los Angeles Dodgers dominated the Chicago Cubs 12-4 behind Seiya Suzuki's 3 hits and 1 home run, while Will Klein pitched 1.1 scoreless innings.",
+        "summary": "The Los Angeles Dodgers dominated the Chicago Cubs 12-4, led by Seiya Suzuki's 3 hits and home run, and a strong relief outing from Will Klein.",
         "impact_player": "Seiya Suzuki"
       },
       {
@@ -114,24 +114,24 @@
         "final_score": "8-5",
         "top_pitching_line": "Zack Wheeler: 5.0 IP, 6 K, 2 ER, 3 BB, 3 H",
         "top_batting_line": "Bryce Harper: 2 H, 0 HR, 4 RBI, 3 AB",
-        "summary": "The Philadelphia Phillies outlasted the Atlanta Braves 8-5 behind Zack Wheeler's 5 strong innings and Bryce Harper's 4 RBI performance.",
+        "summary": "The Philadelphia Phillies defeated the Atlanta Braves 8-5 behind Zack Wheeler's 5 strong innings and Bryce Harper's 4 RBI performance.",
         "impact_player": "Bryce Harper"
       },
       {
         "game": "Colorado Rockies @ New York Mets",
         "final_score": "3-0",
-        "top_pitching_line": "Chase Dollander: 2.2 IP, 3 K, 0 ER, 1 BB, 2 H",
-        "top_batting_line": "Hunter Goodman: 1 H, 1 HR, 2 RBI, 2 AB",
-        "summary": "The Colorado Rockies shut out the New York Mets 3-0 behind Chase Dollander's 2.2 scoreless innings and Hunter Goodman's 2-RBI, 7th home run.",
+        "top_pitching_line": "Chase Dollander: 7.0 IP, 7 K, 0 ER, 2 BB, 5 H",
+        "top_batting_line": "Hunter Goodman: 1 H, 1 HR, 2 RBI, 4 AB",
+        "summary": "The Colorado Rockies shut out the New York Mets 3-0 behind Chase Dollander's 7 scoreless innings, with Hunter Goodman's 2-RBI homer keying the win.",
         "impact_player": "Hunter Goodman"
       }
     ],
     "season_leaders": {
       "avg_ops": [
         "Yordan Alvarez (Houston Astros) - AVG .358",
-        "Xavier Edwards (Miami Marlins) - AVG .346",
+        "Xavier Edwards (Miami Marlins) - AVG .343",
         "Vladimir Guerrero Jr. (Toronto Blue Jays) - AVG .340",
-        "Andy Pages (Los Angeles Dodgers) - AVG .340",
+        "Andy Pages (Los Angeles Dodgers) - AVG .337",
         "Yandy D\u00edaz (Tampa Bay Rays) - AVG .337",
         "Yordan Alvarez (Houston Astros) - OPS 1.220",
         "Ben Rice (New York Yankees) - OPS 1.183",
@@ -165,13 +165,14 @@
         "Jos\u00e9 Soriano (Los Angeles Angels) - K 43",
         "Cristopher S\u00e1nchez (Philadelphia Phillies) - K 43",
         "Aaron Ashby (Milwaukee Brewers) - W 5",
+        "Landen Roupp (San Francisco Giants) - W 5",
         "Chris Sale (Atlanta Braves) - W 5",
         "Jos\u00e9 Soriano (Los Angeles Angels) - W 5",
         "George Kirby (Seattle Mariners) - W 4",
-        "Landen Roupp (San Francisco Giants) - W 4",
         "Paul Skenes (Pittsburgh Pirates) - W 4",
         "Michael Soroka (Arizona Diamondbacks) - W 4",
-        "Gavin Williams (Cleveland Guardians) - W 4"
+        "Gavin Williams (Cleveland Guardians) - W 4",
+        "Justin Wrobleski (Los Angeles Dodgers) - W 4"
       ],
       "run_prevention": [
         "Jos\u00e9 Soriano (Los Angeles Angels) - ERA 0.24",

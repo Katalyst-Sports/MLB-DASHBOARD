@@ -1,69 +1,22 @@
 {
-  "updated_at": "2026-04-26T17:56:05.426601-04:00",
+  "updated_at": "2026-04-26T20:02:59.194334-04:00",
   "games": [
-    {
-      "gamePk": 823637,
-      "game": "Colorado Rockies @ New York Mets",
-      "score": "3-0",
-      "inning": "3rd",
-      "hot_hitters": [
-        "Hunter Goodman"
-      ],
-      "top_pitchers": []
-    },
-    {
-      "gamePk": 825094,
-      "game": "San Diego Padres @ Arizona Diamondbacks",
-      "score": "7-2",
-      "inning": "6th",
-      "hot_hitters": [
-        "Manny Machado",
-        "Luis Campusano",
-        "Ildemaro Vargas",
-        "Jose Fernandez"
-      ],
-      "top_pitchers": [
-        "Michael King"
-      ]
-    },
-    {
-      "gamePk": 823230,
-      "game": "Miami Marlins @ San Francisco Giants",
-      "score": "3-6",
-      "inning": "8th",
-      "hot_hitters": [
-        "Graham Pauley",
-        "Jung Hoo Lee",
-        "Casey Schmitt",
-        "Drew Gilbert"
-      ],
-      "top_pitchers": []
-    },
     {
       "gamePk": 824122,
       "game": "Los Angeles Angels @ Kansas City Royals",
-      "score": "6-3",
-      "inning": "6th",
+      "score": "7-5",
+      "inning": "8th",
       "hot_hitters": [
         "Zach Neto",
         "Mike Trout",
+        "Jorge Soler",
         "Josh Lowe",
         "Adam Frazier",
-        "Bobby Witt Jr."
+        "Lane Thomas",
+        "Bobby Witt Jr.",
+        "Isaac Collins"
       ],
       "top_pitchers": []
-    },
-    {
-      "gamePk": 823959,
-      "game": "Chicago Cubs @ Los Angeles Dodgers",
-      "score": "0-4",
-      "inning": "6th",
-      "hot_hitters": [
-        "Shohei Ohtani"
-      ],
-      "top_pitchers": [
-        "Justin Wrobleski"
-      ]
     }
   ],
   "errors": []

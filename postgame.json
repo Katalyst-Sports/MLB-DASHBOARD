@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-26T17:56:05.426601-04:00",
+  "updated_at": "2026-04-26T20:02:59.194334-04:00",
   "games": [
     {
       "gamePk": 824852,
@@ -78,6 +78,20 @@
       ],
       "pitchers": [
         "Nolan McLean"
+      ]
+    },
+    {
+      "gamePk": 823637,
+      "game": "Colorado Rockies @ New York Mets",
+      "winner": "Colorado Rockies",
+      "loser": "New York Mets",
+      "final_score": "3-0",
+      "hitters": [
+        "Hunter Goodman",
+        "Carson Benge"
+      ],
+      "pitchers": [
+        "Chase Dollander"
       ]
     },
     {
@@ -166,6 +180,57 @@
         "Josh Jung"
       ],
       "pitchers": []
+    },
+    {
+      "gamePk": 825094,
+      "game": "San Diego Padres @ Arizona Diamondbacks",
+      "winner": "Arizona Diamondbacks",
+      "loser": "San Diego Padres",
+      "final_score": "7-12",
+      "hitters": [
+        "Jackson Merrill",
+        "Manny Machado",
+        "Luis Campusano",
+        "Ildemaro Vargas",
+        "Lourdes Gurriel Jr.",
+        "Jose Fernandez",
+        "Nolan Arenado",
+        "Alek Thomas",
+        "Tim Tawa"
+      ],
+      "pitchers": [
+        "Michael King"
+      ]
+    },
+    {
+      "gamePk": 823230,
+      "game": "Miami Marlins @ San Francisco Giants",
+      "winner": "San Francisco Giants",
+      "loser": "Miami Marlins",
+      "final_score": "3-6",
+      "hitters": [
+        "Graham Pauley",
+        "Jung Hoo Lee",
+        "Casey Schmitt",
+        "Drew Gilbert"
+      ],
+      "pitchers": [
+        "Landen Roupp"
+      ]
+    },
+    {
+      "gamePk": 823959,
+      "game": "Chicago Cubs @ Los Angeles Dodgers",
+      "winner": "Los Angeles Dodgers",
+      "loser": "Chicago Cubs",
+      "final_score": "0-6",
+      "hitters": [
+        "Shohei Ohtani"
+      ],
+      "pitchers": [
+        "Shota Imanaga",
+        "Justin Wrobleski"
+      ]
     }
   ],
   "errors": []
