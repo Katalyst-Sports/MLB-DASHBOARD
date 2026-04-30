@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-04-30T03:53:30.741351-04:00",
+  "updated_at": "2026-04-30T09:09:47.984654-04:00",
   "date": "2026-04-29",
   "dashboard_recap": {
     "headline": "MLB Daily Recap - April 29, 2026",
-    "article": "**RAYS' SLUMP CONTINUES AS GUARDIANS TAKE DOWN TAMPA BAY**\n\nIn a tightly contested game, the Cleveland Guardians edged out the Tampa Bay Rays 3-1, behind a dominant outing from Gavin Williams. Williams tossed 7.2 innings, striking out nine and allowing no earned runs. Chase DeLauter led the Guardians' offense with 2 hits, including 2 RBIs. On the other side, Chandler Simpson and Yandy D\u00edaz both had impressive performances for the Rays, but ultimately came up short.\n\n**WHITE SOX TAKE DOWN ANGELS IN THRILLER**\n\nThe Chicago White Sox pulled off a thrilling 3-2 victory over the Los Angeles Angels, thanks in part to a strong start from Erick Fedde. Fedde went 7 innings, striking out six and allowing just 2 earned runs. Mike Trout provided a bright spot for the Angels, homering in his lone at-bat. The White Sox' Seranthony Dom\u00ednguez earned the win in relief.\n\n**MARIINS TAKE DOWN DODGERS IN WALK-OFF**\n\nThe Miami Marlins pulled off a thrilling 3-2 victory over the Los Angeles Dodgers, thanks to a walk-off single from Javier Sanoja. Esteury Ruiz homered and drove in a run for the Marlins, while Tyler Glasnow pitched 5.2 strong innings for the Dodgers. Andrew Nardi earned the win in relief for the Marlins.\n\n**CARDINALS PULL OFF WALK-OFF IN THRILLER**\n\nThe St. Louis Cardinals pulled off a thrilling 5-4 victory over the Pittsburgh Pirates, thanks to a walk-off single from Alec Burleson. Burleson homered and drove in 2 runs for the Cardinals, while Andre Pallante pitched 6 strong innings for the team. Riley O'Brien earned the save.\n\n**NATIONALS TAKE DOWN METS BY 12**\n\nThe Washington Nationals dominated the New York Mets 14-2, behind a strong outing from Cade Cavalli. Cavalli pitched 6 innings, striking out 10 and allowing just 2 earned runs. Brady House homered and drove in 4 runs for the Nationals, while Curtis Mead also homered.\n\n**DIAMONDBACKS TAKE DOWN BREWERS**\n\nThe Arizona Diamondbacks took down the Milwaukee Brewers 6-2, behind a strong outing from Kevin Ginkel. Ginkel pitched 1.1 innings, striking out 3 and allowing no earned runs. Corbin Carroll homered for the Diamondbacks, while Nolan Arenado also homered and drove in 3 runs.\n\n**ROYALS FALL SHORT TO ATHLETICS**\n\nThe Kansas City Royals fell to the Athletics 5-2, behind a strong outing from Luis Severino. Severino pitched 7 innings, striking out 8 and allowing just 1 earned run. Lawrence Butler homered and drove in 3 runs for the Athletics.",
+    "article": "**Guardians Take Down Rays, Williams Throws Gem**\n\nIn a 3-1 victory for the Cleveland Guardians over the Tampa Bay Rays, Gavin Williams was dominant on the mound, pitching 7.2 innings with 9 strikeouts and zero earned runs. Williams earned the win in the process, helping the Guardians take down the Rays. Chase DeLauter led the Guardians' offense with 2 hits and 2 RBIs, while Chandler Simpson and Yandy D\u00edaz also contributed for Tampa Bay.\n\n**White Sox Edge Angels in Thriller**\n\nThe Chicago White Sox edged the Los Angeles Angels 3-2, with Erick Fedde pitching 7 strong innings with 6 strikeouts and 2 earned runs. Mike Trout hit a home run for the Angels, but it wasn't enough to overcome the White Sox' pitching. Seranthony Dom\u00ednguez earned the win in relief.\n\n**Mariners Come from Behind to Beat Twins**\n\nThe Seattle Mariners came from behind to beat the Minnesota Twins 5-3, with J.P. Crawford hitting a home run and driving in a crucial run. Dominic Canzone and Cole Young also had strong games for the Mariners, while Trevor Larnach and Ryan Jeffers contributed for the Twins. Taj Bradley pitched 7 strong innings for the Mariners, striking out 7.\n\n**Rangers Shut Down Yankees**\n\nThe Texas Rangers shut down the New York Yankees 3-0, with Nathan Eovaldi pitching 7 strong innings with 7 strikeouts and no earned runs. Josh Jung drove in 2 runs for the Rangers, while Ben Rice and Ezequiel Duran also contributed.",
     "all_games": [
       {
         "game": "Tampa Bay Rays @ Cleveland Guardians",
         "final_score": "1-3",
         "top_pitching_line": "Gavin Williams: 7.2 IP, 9 K, 0 ER, 0 BB, 5 H",
         "top_batting_line": "Chase DeLauter: 2 H, 0 HR, 2 RBI, 3 AB",
-        "summary": "Cleveland Guardians edge Tampa Bay Rays 3-1 behind Gavin Williams' 7.2 shutout innings with 9 strikeouts and Chase DeLauter's 2 hits and 2 RBIs.",
+        "summary": "Cleveland Guardians win 3-1, behind Gavin Williams' 7.2 scoreless innings and Chase DeLauter's 2 hits and 2 RBIs.",
         "impact_player": "Chase DeLauter"
       },
       {
@@ -18,7 +18,7 @@
         "final_score": "2-3",
         "top_pitching_line": "Erick Fedde: 7.0 IP, 6 K, 2 ER, 0 BB, 5 H",
         "top_batting_line": "Mike Trout: 1 H, 1 HR, 1 RBI, 4 AB",
-        "summary": "The Chicago White Sox edged the Los Angeles Angels 3-2 behind a late-inning single by Colson Montgomery and Mike Trout's solo home run.",
+        "summary": "The Chicago White Sox edged the Los Angeles Angels 3-2 behind a key single by Colson Montgomery and a strong 7-inning outing from Erick Fedde.",
         "impact_player": "Mike Trout"
       },
       {
@@ -34,7 +34,7 @@
         "final_score": "0-3",
         "top_pitching_line": "Nathan Eovaldi: 7.0 IP, 7 K, 0 ER, 1 BB, 4 H",
         "top_batting_line": "Josh Jung: 1 H, 0 HR, 2 RBI, 4 AB",
-        "summary": "The Texas Rangers shut out the New York Yankees 3-0, behind Nathan Eovaldi's 7 scoreless innings and Josh Jung's 2 RBI effort.",
+        "summary": "The Texas Rangers shut out the New York Yankees 3-0 behind Nathan Eovaldi's 7 scoreless innings, with Josh Jung contributing 2 RBIs.",
         "impact_player": "Josh Jung"
       },
       {
@@ -42,7 +42,7 @@
         "final_score": "1-8",
         "top_pitching_line": "Spencer Miles: 2.0 IP, 3 K, 0 ER, 1 BB, 0 H",
         "top_batting_line": "Ernie Clement: 1 H, 1 HR, 2 RBI, 5 AB",
-        "summary": "The Toronto Blue Jays dominated the Boston Red Sox 8-1 behind Spencer Miles' strong 2-inning relief stint and Ernie Clement's 2-RBI performance.",
+        "summary": "The Toronto Blue Jays dominated the Boston Red Sox 8-1 behind Brandon Valenzuela's two-homer performance and Spencer Miles' 2 scoreless innings.",
         "impact_player": "Ernie Clement"
       },
       {
@@ -50,7 +50,7 @@
         "final_score": "3-2",
         "top_pitching_line": "Tyler Glasnow: 5.2 IP, 9 K, 2 ER, 6 BB, 3 H",
         "top_batting_line": "Esteury Ruiz: 2 H, 1 HR, 1 RBI, 4 AB",
-        "summary": "The Miami Marlins edged the Los Angeles Dodgers 3-2, led by Esteury Ruiz's 2 hits, including a home run, and a crucial single by Javier Sanoja.",
+        "summary": "The Miami Marlins edged the Los Angeles Dodgers 3-2 behind Esteury Ruiz's 2 hits, including a home run, and a crucial single by Javier Sanoja.",
         "impact_player": "Esteury Ruiz"
       },
       {
@@ -58,7 +58,7 @@
         "final_score": "5-4",
         "top_pitching_line": "Jameson Taillon: 7.0 IP, 6 K, 3 ER, 1 BB, 3 H",
         "top_batting_line": "Pete Crow-Armstrong: 1 H, 1 HR, 3 RBI, 4 AB",
-        "summary": "The Chicago Cubs edged the San Diego Padres 5-4, led by Pete Crow-Armstrong's 1 HR and 3 RBI, and Jameson Taillon's 7 strong innings.",
+        "summary": "The Chicago Cubs edged the San Diego Padres 5-4 behind Jameson Taillon's 7-inning outing and Pete Crow-Armstrong's 3-RBI performance.",
         "impact_player": "Pete Crow-Armstrong"
       },
       {
@@ -66,7 +66,7 @@
         "final_score": "13-2",
         "top_pitching_line": "Juan Mejia: 1.0 IP, 3 K, 0 ER, 0 BB, 1 H",
         "top_batting_line": "Hunter Goodman: 3 H, 2 HR, 3 RBI, 4 AB",
-        "summary": "The Colorado Rockies dominated the Cincinnati Reds 13-2, led by Hunter Goodman's 3 hits, 2 home runs, and 3 RBIs, and Juan Mejia's 1 scoreless inning with 3 strikeouts.",
+        "summary": "The Colorado Rockies dominated the Cincinnati Reds 13-2, led by Hunter Goodman's 3 hits, 2 home runs, and 3 RBIs.",
         "impact_player": "Hunter Goodman"
       },
       {
@@ -74,7 +74,7 @@
         "final_score": "5-4",
         "top_pitching_line": "Andre Pallante: 6.0 IP, 6 K, 1 ER, 0 BB, 5 H",
         "top_batting_line": "Alec Burleson: 1 H, 1 HR, 2 RBI, 4 AB",
-        "summary": "The St. Louis Cardinals edged the Pittsburgh Pirates 5-4 behind Andre Pallante's 6 shutout innings and Alec Burleson's 1 HR, 2 RBI performance.",
+        "summary": "The St. Louis Cardinals edged the Pittsburgh Pirates 5-4 behind Alec Burleson's 1 HR and 2 RBI, and Andre Pallante's 6 shutout innings with 6 Ks.",
         "impact_player": "Alec Burleson"
       },
       {
@@ -82,7 +82,7 @@
         "final_score": "14-2",
         "top_pitching_line": "Cade Cavalli: 6.0 IP, 10 K, 2 ER, 2 BB, 8 H",
         "top_batting_line": "Brady House: 1 H, 1 HR, 4 RBI, 5 AB",
-        "summary": "The Washington Nationals dominated the New York Mets 14-2 behind Cade Cavalli's 6.0 IP with 10 Ks and Brady House's 1 HR, 4 RBI performance.",
+        "summary": "The Washington Nationals dominated the New York Mets 14-2, led by Brady House's 4-RBI performance and Cade Cavalli's 6-inning, 10-strikeout outing.",
         "impact_player": "Brady House"
       },
       {
@@ -90,7 +90,7 @@
         "final_score": "3-4",
         "top_pitching_line": "Tarik Skubal: 7.0 IP, 7 K, 2 ER, 0 BB, 5 H",
         "top_batting_line": "Matt Olson: 2 H, 1 HR, 2 RBI, 4 AB",
-        "summary": "The Atlanta Braves edged the Detroit Tigers 4-3 behind Matt Olson's 2-hit, 1-home run performance, including a key 9th homer.",
+        "summary": "The Atlanta Braves edged the Detroit Tigers 4-3, led by Matt Olson's 2-hit, 1-home run performance with 2 RBI.",
         "impact_player": "Matt Olson"
       },
       {
@@ -98,7 +98,7 @@
         "final_score": "6-2",
         "top_pitching_line": "Kevin Ginkel: 1.1 IP, 3 K, 0 ER, 0 BB, 1 H",
         "top_batting_line": "Nolan Arenado: 1 H, 1 HR, 3 RBI, 3 AB",
-        "summary": "The Arizona Diamondbacks outlasted the Milwaukee Brewers 6-2 behind Nolan Arenado's 3 RBI and Kevin Ginkel's 1.1 scoreless innings.",
+        "summary": "The Arizona Diamondbacks defeated the Milwaukee Brewers 6-2 behind Nolan Arenado's 3 RBI performance, including a solo home run.",
         "impact_player": "Nolan Arenado"
       },
       {
@@ -106,7 +106,7 @@
         "final_score": "2-5",
         "top_pitching_line": "Luis Severino: 7.0 IP, 8 K, 1 ER, 2 BB, 4 H",
         "top_batting_line": "Lawrence Butler: 1 H, 1 HR, 3 RBI, 4 AB",
-        "summary": "The Athletics defeated the Kansas City Royals 5-2 behind Lawrence Butler's 3-RBI performance, including a home run.",
+        "summary": "The Athletics defeated the Kansas City Royals 5-2 behind Lawrence Butler's 3-RBI performance, including a solo home run.",
         "impact_player": "Lawrence Butler"
       },
       {
@@ -114,7 +114,7 @@
         "final_score": "0-0",
         "top_pitching_line": "No standout pitching line available.",
         "top_batting_line": "No standout batting line available.",
-        "summary": "The Philadelphia Phillies shut out the San Francisco Giants 0-0, with a strong defensive effort securing the win.",
+        "summary": "The Philadelphia Phillies edged the San Francisco Giants 0-0, with a shutout performance securing the win.",
         "impact_player": "N/A"
       },
       {
@@ -122,7 +122,7 @@
         "final_score": "0-0",
         "top_pitching_line": "No standout pitching line available.",
         "top_batting_line": "No standout batting line available.",
-        "summary": "The Baltimore Orioles edged the Houston Astros 0-0, a scoreless game marked by a defensive showdown with no standout performances.",
+        "summary": "The Baltimore Orioles shut out the Houston Astros 0-0, with a strong defensive effort securing the win.",
         "impact_player": "N/A"
       }
     ],
