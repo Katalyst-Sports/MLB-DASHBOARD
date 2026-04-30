@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-30T13:53:43.782544-04:00",
+  "updated_at": "2026-04-30T17:36:57.942876-04:00",
   "teams": [
     {
       "team_id": 109,
@@ -1760,7 +1760,7 @@
     {
       "team_id": 143,
       "team_name": "Philadelphia Phillies",
-      "injured_count": 7,
+      "injured_count": 8,
       "players": [
         {
           "player_id": 592663,
@@ -1785,6 +1785,14 @@
           "date": "2026-04-13",
           "note": "Philadelphia Phillies placed RHP Jonathan Bowlan on the 15-day injured list. Right groin strain. | Status Change",
           "description": "Philadelphia Phillies placed RHP Jonathan Bowlan on the 15-day injured list. Right groin strain."
+        },
+        {
+          "player_id": 679775,
+          "name": "Kyle Backhus",
+          "il_type": "Injured List",
+          "date": "2026-04-30",
+          "note": "Philadelphia Phillies placed LHP Kyle Backhus on the 15-day injured list retroactive to April 27, 2026. Left elbow inflammation. | Status Change",
+          "description": "Philadelphia Phillies placed LHP Kyle Backhus on the 15-day injured list retroactive to April 27, 2026. Left elbow inflammation."
         },
         {
           "player_id": 676661,

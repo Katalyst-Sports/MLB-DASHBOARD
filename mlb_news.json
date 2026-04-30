@@ -1,31 +1,41 @@
 {
-  "updated_at": "2026-04-30T13:53:43.782544-04:00",
+  "updated_at": "2026-04-30T17:36:57.942876-04:00",
   "headline": "**MLB Daily Recap: April 30, 2026**",
-  "article": "The Tampa Bay Rays fell to the Cleveland Guardians in a 1-3 decision, despite a strong outing from Gavin Williams. Williams earned the win with 7.2 innings of shutout ball, striking out nine and allowing just five hits.\n\nSeveral key players are dealing with injuries, including Luis Robert Jr. of the New York Mets, who has been placed on the 10-day injured list due to a lumbar spine disc herniation. Other injured players include Brandon Williamson of the Cincinnati Reds, Javier B\u00e1ez of the Detroit Tigers, Casey Mize of the Detroit Tigers, Angel Zerpa of the Milwaukee Brewers, Jared Oliva of the San Francisco Giants, Garrett Crochet of the Boston Red Sox, and Everson Pereira of the Chicago White Sox.\n\nThe Los Angeles Dodgers made a trade, acquiring 2B Tyler Fitzgerald from the Toronto Blue Jays in exchange for cash. The Seattle Mariners also made a trade, sending RHP Casey Legumina to the Tampa Bay Rays in exchange for RHP Ty Cummings.",
+  "article": "The Tampa Bay Rays fell to the Cleveland Guardians in a 1-3 showdown, with Chase DeLauter leading the Rays' offense with 2 hits and 2 RBIs. The Los Angeles Angels dropped a 2-3 decision to the Chicago White Sox, unable to overcome a late rally, as Mike Trout led the Angels' offense with a home run and an RBI. The Seattle Mariners secured a hard-fought win over the Minnesota Twins, with a final score of 5-3, led by J.P. Crawford's strong performance.\n\nSeveral key players are dealing with injuries, including Kyle Backhus (Philadelphia Phillies), Luis Robert Jr. (New York Mets), Brandon Williamson (Cincinnati Reds), Javier B\u00e1ez (Detroit Tigers), Casey Mize (Detroit Tigers), Angel Zerpa (Milwaukee Brewers), Jared Oliva (San Francisco Giants), and Garrett Crochet (Boston Red Sox). The status of these players will impact their teams' lineups and rotations.\n\nThe Detroit Tigers made a notable move, securing a 5-2 victory over the Atlanta Braves. The Los Angeles Dodgers acquired Tyler Fitzgerald from the Toronto Blue Jays for cash, while the Toronto Blue Jays also traded Willie MacIver to the Blue Jays for cash. The Seattle Mariners traded RHP Casey Legumina to the Tampa Bay Rays for RHP Ty Cummings.",
   "top_news": [
     {
-      "title": "**Rays Fall Short in Cleveland**",
-      "summary": "The Tampa Bay Rays dropped a 1-3 decision to the Cleveland Guardians, unable to overcome a strong outing from Gavin Williams. Williams earned the win with 7.2 innings of shutout ball, striking out nine and allowing just five hits.",
+      "title": "**Rays Fall to Guardians in 1-3 Showdown**",
+      "summary": "The Tampa Bay Rays were defeated by the Cleveland Guardians in a 1-3 final, with Chase DeLauter leading the Rays' offense with 2 hits and 2 RBIs.",
       "published": "2026-04-29"
     },
     {
       "title": "**Angels Fall Short in Chicago**",
-      "summary": "The Los Angeles Angels dropped a 2-3 decision to the Chicago White Sox, unable to overcome a late rally. Mike Trout led the Angels' offense with a home run and an RBI, while Erick Fedde pitched 7 strong innings with 6 strikeouts.",
+      "summary": "The Los Angeles Angels dropped a 2-3 decision to the Chicago White Sox, unable to overcome a late rally. Mike Trout led the Angels' offense with a home run and an RBI.",
       "published": "2026-04-29"
     },
     {
       "title": "**Mariners Take Down Twins in Thrilling 5-3 Victory**",
-      "summary": "The Seattle Mariners secured a hard-fought 5-3 win over the Minnesota Twins, with Cooper Criswell earning the win and Andr\u00e9s Mu\u00f1oz securing the save.",
+      "summary": "The Seattle Mariners secured a hard-fought win over the Minnesota Twins, with a final score of 5-3. J.P. Crawford led the Mariners' offense with a strong performance, recording 2 hits, including a home run, and 1 RBI.",
       "published": "2026-04-29"
     },
     {
       "title": "**Yankees Fall to Rangers in Shutout**",
-      "summary": "The New York Yankees suffered a 0-3 loss to the Texas Rangers, with Nathan Eovaldi earning the win after pitching 7.0 innings with 7 strikeouts and 0 earned runs.",
+      "summary": "The New York Yankees were defeated 3-0 by the Texas Rangers, with Nathan Eovaldi earning the win after pitching 7.0 innings with 7 strikeouts and 0 earned runs.",
       "published": "2026-04-29"
     },
     {
-      "title": "**Mets Place Luis Robert Jr. on 10-Day Injured List**",
-      "summary": "Luis Robert Jr., the center fielder for the New York Mets, has been placed on the 10-day injured list due to a lumbar spine disc herniation. The move is retroactive to April 27, 2026.",
+      "title": "**Tigers Take Down Braves 5-2**",
+      "summary": "The Detroit Tigers secured a 5-2 victory over the Atlanta Braves, led by strong performances from their impact hitters. Gleyber Torres, Colt Keith, Spencer Torkelson, Matt Vierling, and Ozzie Albies all made notable contributions to the win.",
+      "published": "2026-04-30"
+    },
+    {
+      "title": "**Astros Fall to Orioles in Blowout 10-3 Loss**",
+      "summary": "The Baltimore Orioles dominated the Houston Astros, securing a 10-3 victory. Isaac Paredes and Brice Matthews led the Orioles' offense, while Chris Bassitt pitched a strong game for the winning team.",
+      "published": "2026-04-30"
+    },
+    {
+      "title": "**Phillies Place Kyle Backhus on 15-Day Injured List**",
+      "summary": "The Philadelphia Phillies have placed left-handed pitcher Kyle Backhus on the 15-day injured list retroactive to April 27, 2026, due to left elbow inflammation.",
       "published": "2026-04-30"
     },
     {
@@ -35,6 +45,12 @@
     }
   ],
   "injury_updates": [
+    {
+      "date": "2026-04-30",
+      "team": "Philadelphia Phillies",
+      "player": "Kyle Backhus",
+      "update": "Philadelphia Phillies placed LHP Kyle Backhus on the 15-day injured list retroactive to April 27, 2026. Left elbow inflammation. | Status Change"
+    },
     {
       "date": "2026-04-30",
       "team": "New York Mets",
@@ -100,12 +116,6 @@
       "team": "Athletics",
       "player": "Max Muncy",
       "update": "Athletics placed 3B Max Muncy on the 10-day injured list retroactive to April 26, 2026. Left fifth metacarpal fracture. | Status Change"
-    },
-    {
-      "date": "2026-04-28",
-      "team": "New York Yankees",
-      "player": "Giancarlo Stanton",
-      "update": "New York Yankees placed DH Giancarlo Stanton on the 10-day injured list retroactive to April 25, 2026. Right calf strain. | Status Change"
     }
   ],
   "trade_updates": [

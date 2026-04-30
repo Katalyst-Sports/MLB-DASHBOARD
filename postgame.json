@@ -1,5 +1,128 @@
 {
-  "updated_at": "2026-04-30T13:53:43.782544-04:00",
-  "games": [],
+  "updated_at": "2026-04-30T17:36:57.942876-04:00",
+  "games": [
+    {
+      "gamePk": 824929,
+      "game": "Detroit Tigers @ Atlanta Braves",
+      "winner": "Detroit Tigers",
+      "loser": "Atlanta Braves",
+      "final_score": "5-2",
+      "hitters": [
+        "Gleyber Torres",
+        "Colt Keith",
+        "Spencer Torkelson",
+        "Matt Vierling",
+        "Ozzie Albies"
+      ],
+      "pitchers": [
+        "Framber Valdez"
+      ]
+    },
+    {
+      "gamePk": 824848,
+      "game": "Houston Astros @ Baltimore Orioles",
+      "winner": "Baltimore Orioles",
+      "loser": "Houston Astros",
+      "final_score": "3-10",
+      "hitters": [
+        "Isaac Paredes",
+        "Brice Matthews",
+        "Dustin Harris",
+        "Christian V\u00e1zquez",
+        "Adley Rutschman",
+        "Jeremiah Jackson"
+      ],
+      "pitchers": [
+        "Chris Bassitt"
+      ]
+    },
+    {
+      "gamePk": 823391,
+      "game": "St. Louis Cardinals @ Pittsburgh Pirates",
+      "winner": "St. Louis Cardinals",
+      "loser": "Pittsburgh Pirates",
+      "final_score": "10-5",
+      "hitters": [
+        "JJ Wetherholt",
+        "Alec Burleson",
+        "Jordan Walker",
+        "Nolan Gorman",
+        "Pedro Pag\u00e9s",
+        "Brandon Lowe",
+        "Bryan Reynolds"
+      ],
+      "pitchers": [
+        "Paul Skenes"
+      ]
+    },
+    {
+      "gamePk": 823472,
+      "game": "San Francisco Giants @ Philadelphia Phillies",
+      "winner": "Philadelphia Phillies",
+      "loser": "San Francisco Giants",
+      "final_score": "2-3",
+      "hitters": [
+        "Heliot Ramos",
+        "Matt Chapman",
+        "Casey Schmitt",
+        "Kyle Schwarber",
+        "Adolis Garc\u00eda",
+        "Justin Crawford"
+      ],
+      "pitchers": [
+        "Logan Webb",
+        "Cristopher S\u00e1nchez"
+      ]
+    },
+    {
+      "gamePk": 824524,
+      "game": "Colorado Rockies @ Cincinnati Reds",
+      "winner": "Cincinnati Reds",
+      "loser": "Colorado Rockies",
+      "final_score": "4-6",
+      "hitters": [
+        "Tyler Freeman",
+        "Kyle Karros",
+        "TJ Friedl",
+        "Nathaniel Lowe",
+        "Spencer Steer"
+      ],
+      "pitchers": []
+    },
+    {
+      "gamePk": 823634,
+      "game": "Washington Nationals @ New York Mets",
+      "winner": "Washington Nationals",
+      "loser": "New York Mets",
+      "final_score": "5-4",
+      "hitters": [
+        "Luis Garc\u00eda Jr.",
+        "CJ Abrams",
+        "Juan Soto",
+        "MJ Melendez"
+      ],
+      "pitchers": [
+        "Freddy Peralta"
+      ]
+    },
+    {
+      "gamePk": 823795,
+      "game": "Arizona Diamondbacks @ Milwaukee Brewers",
+      "winner": "Milwaukee Brewers",
+      "loser": "Arizona Diamondbacks",
+      "final_score": "1-13",
+      "hitters": [
+        "Corbin Carroll",
+        "Ildemaro Vargas",
+        "Lourdes Gurriel Jr.",
+        "Garrett Mitchell",
+        "Brice Turang",
+        "William Contreras",
+        "Tyler Black",
+        "Sal Frelick"
+      ],
+      "pitchers": []
+    }
+  ],
   "errors": []
 }

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-30T13:53:43.782544-04:00",
+  "updated_at": "2026-04-30T17:36:57.942876-04:00",
   "games": [
     {
       "gamePk": 824445,
@@ -310,22 +310,29 @@
       "winning_pitcher": "",
       "losing_pitcher": "",
       "save_pitcher": "",
-      "game_summary": ""
+      "game_summary": "Status Change - In Progress"
     },
     {
       "gamePk": 824850,
       "game": "Houston Astros @ Baltimore Orioles",
-      "winner": "Baltimore Orioles",
-      "loser": "Houston Astros",
-      "final_score": "0-0",
-      "hitters": [],
-      "pitchers": [],
-      "top_batting_line": "No standout batting line available.",
-      "top_pitching_line": "No standout pitching line available.",
+      "winner": "Houston Astros",
+      "loser": "Baltimore Orioles",
+      "final_score": "11-3",
+      "hitters": [
+        "Yordan Alvarez",
+        "Isaac Paredes",
+        "Yainer Diaz",
+        "Cam Smith"
+      ],
+      "pitchers": [
+        "Lance McCullers Jr."
+      ],
+      "top_batting_line": "Cam Smith: 1 H, 1 HR, 3 RBI, 3 AB",
+      "top_pitching_line": "Lance McCullers Jr.: 5.0 IP, 7 K, 3 ER, 4 BB, 2 H",
       "winning_pitcher": "",
       "losing_pitcher": "",
       "save_pitcher": "",
-      "game_summary": ""
+      "game_summary": "Leody Taveras triples (1) on a ground ball to right fielder Cam Smith. Pete Alonso scores. Tyler O'Neill scores."
     }
   ],
   "errors": []
