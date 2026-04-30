@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-30T09:09:47.984654-04:00",
+  "updated_at": "2026-04-30T13:53:43.782544-04:00",
   "teams": [
     {
       "team_id": 109,
@@ -669,8 +669,16 @@
     {
       "team_id": 113,
       "team_name": "Cincinnati Reds",
-      "injured_count": 5,
+      "injured_count": 6,
       "players": [
+        {
+          "player_id": 682227,
+          "name": "Brandon Williamson",
+          "il_type": "Injured List",
+          "date": "2026-04-30",
+          "note": "Cincinnati Reds placed LHP Brandon Williamson on the 15-day injured list. Left shoulder fatigue. | Status Change",
+          "description": "Cincinnati Reds placed LHP Brandon Williamson on the 15-day injured list. Left shoulder fatigue."
+        },
         {
           "player_id": 657571,
           "name": "Caleb Ferguson",
@@ -1594,7 +1602,7 @@
     {
       "team_id": 121,
       "team_name": "New York Mets",
-      "injured_count": 11,
+      "injured_count": 12,
       "players": [
         {
           "player_id": 621345,
@@ -1667,6 +1675,14 @@
           "date": "2026-04-28",
           "note": "New York Mets placed RHP Kodai Senga on the 15-day injured list retroactive to April 27, 2026. Lumbar spine inflammation. | Status Change",
           "description": "New York Mets placed RHP Kodai Senga on the 15-day injured list retroactive to April 27, 2026. Lumbar spine inflammation."
+        },
+        {
+          "player_id": 673357,
+          "name": "Luis Robert Jr.",
+          "il_type": "Injured List",
+          "date": "2026-04-30",
+          "note": "New York Mets placed CF Luis Robert Jr. on the 10-day injured list retroactive to April 27, 2026. Lumbar spine disc herniation. | Status Change",
+          "description": "New York Mets placed CF Luis Robert Jr. on the 10-day injured list retroactive to April 27, 2026. Lumbar spine disc herniation."
         },
         {
           "player_id": 657585,

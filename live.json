@@ -1,5 +1,80 @@
 {
-  "updated_at": "2026-04-30T09:09:47.984654-04:00",
-  "games": [],
+  "updated_at": "2026-04-30T13:53:43.782544-04:00",
+  "games": [
+    {
+      "gamePk": 824929,
+      "game": "Detroit Tigers @ Atlanta Braves",
+      "score": "1-2",
+      "inning": "6th",
+      "hot_hitters": [
+        "Gleyber Torres",
+        "Spencer Torkelson",
+        "Ozzie Albies"
+      ],
+      "top_pitchers": [
+        "Framber Valdez"
+      ]
+    },
+    {
+      "gamePk": 824848,
+      "game": "Houston Astros @ Baltimore Orioles",
+      "score": "0-1",
+      "inning": "5th",
+      "hot_hitters": [],
+      "top_pitchers": []
+    },
+    {
+      "gamePk": 823391,
+      "game": "St. Louis Cardinals @ Pittsburgh Pirates",
+      "score": "4-1",
+      "inning": "5th",
+      "hot_hitters": [
+        "JJ Wetherholt",
+        "Jordan Walker"
+      ],
+      "top_pitchers": [
+        "Paul Skenes"
+      ]
+    },
+    {
+      "gamePk": 823472,
+      "game": "San Francisco Giants @ Philadelphia Phillies",
+      "score": "2-1",
+      "inning": "6th",
+      "hot_hitters": [
+        "Heliot Ramos",
+        "Kyle Schwarber"
+      ],
+      "top_pitchers": []
+    },
+    {
+      "gamePk": 824524,
+      "game": "Colorado Rockies @ Cincinnati Reds",
+      "score": "2-3",
+      "inning": "5th",
+      "hot_hitters": [
+        "Tyler Freeman",
+        "TJ Friedl",
+        "Nathaniel Lowe"
+      ],
+      "top_pitchers": []
+    },
+    {
+      "gamePk": 823634,
+      "game": "Washington Nationals @ New York Mets",
+      "score": "3-0",
+      "inning": "3rd",
+      "hot_hitters": [],
+      "top_pitchers": []
+    },
+    {
+      "gamePk": 823795,
+      "game": "Arizona Diamondbacks @ Milwaukee Brewers",
+      "score": "0-1",
+      "inning": "1st",
+      "hot_hitters": [],
+      "top_pitchers": []
+    }
+  ],
   "errors": []
 }
