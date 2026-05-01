@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-01T07:39:20.523866-04:00",
+  "updated_at": "2026-05-01T10:43:37.965836-04:00",
   "games": [
     {
       "gamePk": 824686,
@@ -190,6 +190,26 @@
           }
         },
         {
+          "name": "Gabriel Moreno",
+          "stats": {
+            "avg": ".275",
+            "obp": ".333",
+            "slg": ".400",
+            "ops": ".733",
+            "homeRuns": 0,
+            "rbi": 5
+          },
+          "last10ab": {
+            "avg": "0.333",
+            "hits": 4,
+            "atBats": 12,
+            "homeRuns": 0,
+            "rbi": 1,
+            "walks": 1,
+            "games": 3
+          }
+        },
+        {
           "name": "Geraldo Perdomo",
           "stats": {
             "avg": ".236",
@@ -227,26 +247,6 @@
             "rbi": 1,
             "walks": 1,
             "games": 3
-          }
-        },
-        {
-          "name": "Aramis Garcia",
-          "stats": {
-            "avg": ".333",
-            "obp": ".333",
-            "slg": ".333",
-            "ops": ".666",
-            "homeRuns": 0,
-            "rbi": 0
-          },
-          "last10ab": {
-            "avg": "0.333",
-            "hits": 1,
-            "atBats": 3,
-            "homeRuns": 0,
-            "rbi": 0,
-            "walks": 0,
-            "games": 2
           }
         },
         {
@@ -5860,10 +5860,10 @@
         {
           "name": "Nick Kurtz",
           "stats": {
-            "avg": ".236",
-            "obp": ".417",
-            "slg": ".425",
-            "ops": ".842",
+            "avg": ".245",
+            "obp": ".424",
+            "slg": ".434",
+            "ops": ".858",
             "homeRuns": 5,
             "rbi": 15
           },
