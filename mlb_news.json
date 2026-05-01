@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-05-01T14:11:45.601539-04:00",
-  "headline": "**MLB Daily Roundup: April 30, 2026**",
-  "article": "The Detroit Tigers secured a 5-2 victory over the Atlanta Braves, with Drew Anderson earning the win. Framber Valdez led the Tigers' pitching effort, striking out eight batters in six innings. The Houston Astros bounced back from a blowout loss to the Orioles with an 11-5 victory, led by Cam Smith's offense and Lance McCullers Jr.'s dominant performance on the mound.\n\nSeveral key players have been impacted by injuries, including Philadelphia Phillies left-handed pitcher Kyle Backhus, who has been placed on the 15-day injured list due to left elbow inflammation. The New York Mets have also placed center fielder Luis Robert Jr. on the 10-day injured list with a lumbar spine disc herniation. Other teams have also suffered injuries, including the Cincinnati Reds, Detroit Tigers, Milwaukee Brewers, San Francisco Giants, and Boston Red Sox.\n\nThe Los Angeles Dodgers have made a trade, acquiring second baseman Tyler Fitzgerald from the Toronto Blue Jays in exchange for cash. The Blue Jays also traded catcher Willie MacIver to the Texas Rangers for cash. Other trades include the Seattle Mariners sending right-handed pitcher Casey Legumina to the Tampa Bay Rays for right-handed pitcher Ty Cummings, and the Chicago Cubs acquiring third baseman Nicky Lopez from the Colorado Rockies for cash.",
+  "updated_at": "2026-05-01T17:10:35.456472-04:00",
+  "headline": "**MLB Daily Recap: April 30, 2026**",
+  "article": "The Detroit Tigers secured a 5-2 victory over the Atlanta Braves, with Drew Anderson earning the win. Framber Valdez led the Tigers' pitching effort, striking out eight batters in six innings. The Houston Astros bounced back from a blowout loss to the Orioles with an 11-5 victory, led by Cam Smith's strong performance.\n\nSeveral key players have been affected by injuries, impacting their teams' lineups. Brandon Woodruff has been placed on the 15-day injured list due to right shoulder inflammation with the Milwaukee Brewers. Other notable injuries include Kyle Backhus (Philadelphia Phillies), Luis Robert Jr. (New York Mets), Brandon Williamson (Cincinnati Reds), Javier B\u00e1ez (Detroit Tigers), Casey Mize (Detroit Tigers), Angel Zerpa (Milwaukee Brewers), and Jared Oliva (San Francisco Giants).\n\nThe Detroit Tigers bolstered their roster with the addition of infielder Zack Short, acquired from the Washington Nationals in exchange for cash. Other notable roster moves include the Los Angeles Dodgers acquiring Tyler Fitzgerald from the Toronto Blue Jays for cash, and the Toronto Blue Jays acquiring Willie MacIver from the Texas Rangers for cash.",
   "top_news": [
     {
       "title": "**Tigers Take Down Braves 5-2**",
@@ -10,31 +10,37 @@
     },
     {
       "title": "**Astros Fall to Orioles in Blowout**",
-      "summary": "The Baltimore Orioles dominated the Houston Astros 10-3, handing them a tough loss. Jeremiah Jackson led the Orioles' offense with 2 hits, 1 home run, and 5 RBIs.",
+      "summary": "The Baltimore Orioles dominated the Houston Astros 10-3, handing them a decisive loss. Jeremiah Jackson led the Orioles' offense with 2 hits, 1 home run, and 5 RBIs.",
       "published": "2026-04-30"
     },
     {
       "title": "**Astros Take Down Orioles 11-5**",
-      "summary": "The Houston Astros secured a convincing 11-5 victory over the Baltimore Orioles, with Cam Smith leading the offense and Lance McCullers Jr. dominating on the mound.",
+      "summary": "The Houston Astros secured a convincing 11-5 victory over the Baltimore Orioles, with Cam Smith leading the Astros' offense. Lance McCullers Jr. earned the win with 6 strong innings, striking out 9 and allowing 3 earned runs.",
       "published": "2026-04-30"
     },
     {
-      "title": "**Cardinals Cruise Past Pirates 10-5**",
-      "summary": "The St. Louis Cardinals secured a convincing 10-5 victory over the Pittsburgh Pirates, with Jordan Walker leading the offense. Walker's impressive performance included 2 hits, 1 home run, and 3 RBIs.",
+      "title": "Cardinals Cruise Past Pirates 10-5",
+      "summary": "The St. Louis Cardinals secured a decisive 10-5 victory over the Pittsburgh Pirates, behind a strong performance from their offense. Jordan Walker led the charge with 2 hits, 1 home run, and 3 RBIs.",
       "published": "2026-04-30"
     },
     {
-      "title": "**Phillies Place Kyle Backhus on 15-Day Injured List**",
-      "summary": "Kyle Backhus, a left-handed pitcher for the Philadelphia Phillies, has been placed on the 15-day injured list due to left elbow inflammation. The move is retroactive to April 27, 2026.",
-      "published": "2026-04-30"
+      "title": "**Woodruff Lands on Injured List**",
+      "summary": "Milwaukee Brewers right-hander Brandon Woodruff has been placed on the 15-day injured list due to right shoulder inflammation.",
+      "published": "2026-05-01"
     },
     {
-      "title": "**Dodgers Acquire Tyler Fitzgerald in Trade**",
-      "summary": "The Los Angeles Dodgers have acquired 2B Tyler Fitzgerald in a trade with the Toronto Blue Jays. The Blue Jays sent Fitzgerald to the Dodgers in exchange for cash.",
-      "published": "2026-04-28"
+      "title": "**Tigers Acquire Zack Short in Trade**",
+      "summary": "The Detroit Tigers have bolstered their roster with the addition of infielder Zack Short, acquired from the Washington Nationals in exchange for cash.",
+      "published": "2026-05-01"
     }
   ],
   "injury_updates": [
+    {
+      "date": "2026-05-01",
+      "team": "Milwaukee Brewers",
+      "player": "Brandon Woodruff",
+      "update": "Milwaukee Brewers placed RHP Brandon Woodruff on the 15-day injured list. Right shoulder inflammation. | Status Change"
+    },
     {
       "date": "2026-04-30",
       "team": "Philadelphia Phillies",
@@ -100,15 +106,21 @@
       "team": "Minnesota Twins",
       "player": "Garrett Acton",
       "update": "Minnesota Twins placed RHP Garrett Acton on the 15-day injured list retroactive to April 26, 2026. Right shoulder strain. | Status Change"
-    },
-    {
-      "date": "2026-04-28",
-      "team": "Athletics",
-      "player": "Max Muncy",
-      "update": "Athletics placed 3B Max Muncy on the 10-day injured list retroactive to April 26, 2026. Left fifth metacarpal fracture. | Status Change"
     }
   ],
   "trade_updates": [
+    {
+      "date": "2026-05-01",
+      "team": "Detroit Tigers",
+      "player": "Zack Short",
+      "update": "Washington Nationals traded 3B Zack Short to Detroit Tigers for cash. | Trade"
+    },
+    {
+      "date": "2026-05-01",
+      "team": "Washington Nationals",
+      "player": "Unknown Player",
+      "update": "Washington Nationals traded 3B Zack Short to Detroit Tigers for cash. | Trade"
+    },
     {
       "date": "2026-04-28",
       "team": "Los Angeles Dodgers",
@@ -123,14 +135,14 @@
     },
     {
       "date": "2026-04-24",
-      "team": "Texas Rangers",
-      "player": "Unknown Player",
+      "team": "Toronto Blue Jays",
+      "player": "Willie MacIver",
       "update": "Texas Rangers traded C Willie MacIver to Toronto Blue Jays for cash. | Trade"
     },
     {
       "date": "2026-04-24",
-      "team": "Toronto Blue Jays",
-      "player": "Willie MacIver",
+      "team": "Texas Rangers",
+      "player": "Unknown Player",
       "update": "Texas Rangers traded C Willie MacIver to Toronto Blue Jays for cash. | Trade"
     },
     {

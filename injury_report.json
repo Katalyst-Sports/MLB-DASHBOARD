@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-01T14:11:45.601539-04:00",
+  "updated_at": "2026-05-01T17:10:35.456472-04:00",
   "teams": [
     {
       "team_id": 109,
@@ -1452,7 +1452,7 @@
     {
       "team_id": 158,
       "team_name": "Milwaukee Brewers",
-      "injured_count": 10,
+      "injured_count": 11,
       "players": [
         {
           "player_id": 668731,
@@ -1477,6 +1477,14 @@
           "date": "2026-04-29",
           "note": "Milwaukee Brewers placed LHP Angel Zerpa on the 15-day injured list retroactive to April 26, 2026. Left forearm tightness. | Status Change",
           "description": "Milwaukee Brewers placed LHP Angel Zerpa on the 15-day injured list retroactive to April 26, 2026. Left forearm tightness."
+        },
+        {
+          "player_id": 605540,
+          "name": "Brandon Woodruff",
+          "il_type": "Injured List",
+          "date": "2026-05-01",
+          "note": "Milwaukee Brewers placed RHP Brandon Woodruff on the 15-day injured list. Right shoulder inflammation. | Status Change",
+          "description": "Milwaukee Brewers placed RHP Brandon Woodruff on the 15-day injured list. Right shoulder inflammation."
         },
         {
           "player_id": 592885,

@@ -1,12 +1,18 @@
 {
-  "updated_at": "2026-05-01T14:11:45.601539-04:00",
+  "updated_at": "2026-05-01T17:10:35.456472-04:00",
   "games": [
     {
       "gamePk": 824686,
       "game": "Arizona Diamondbacks @ Chicago Cubs",
-      "score": "0-0",
-      "inning": "1st",
-      "hot_hitters": [],
+      "score": "5-6",
+      "inning": "9th",
+      "hot_hitters": [
+        "Geraldo Perdomo",
+        "Ildemaro Vargas",
+        "Jorge Barrosa",
+        "Michael Busch",
+        "Carson Kelly"
+      ],
       "top_pitchers": []
     }
   ],
