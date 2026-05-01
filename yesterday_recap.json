@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-05-01T03:17:28.096738-04:00",
+  "updated_at": "2026-05-01T07:39:20.523866-04:00",
   "date": "2026-04-30",
   "dashboard_recap": {
     "headline": "MLB Daily Recap - April 30, 2026",
-    "article": "**Tigers Top Braves 5-2, Astros Split Doubleheader with Orioles**\n\nIn a dominant performance, the Detroit Tigers took down the Atlanta Braves 5-2 behind Drew Anderson's win. Gleyber Torres and Colt Keith had strong outings for Detroit, while Framber Valdez shone on the mound with 8 strikeouts in 6 innings. Matt Vierling led the Tigers with 3 hits and 2 RBIs.\n\nThe Houston Astros split a doubleheader with the Baltimore Orioles, with the Orioles taking the first game 10-3 and the Astros winning the nightcap 11-5. Jeremiah Jackson hit a home run and drove in 5 runs in the Orioles' win, while Lance McCullers Jr. struck out 9 in the Astros' victory.\n\nIn other action, the St. Louis Cardinals took down the Pittsburgh Pirates 10-5 behind Gordon Graceffo's win, while the Philadelphia Phillies edged the San Francisco Giants 3-2 and 6-5 in a doubleheader. The Cincinnati Reds defeated the Colorado Rockies 6-4, and the Washington Nationals topped the New York Mets 5-4.",
+    "article": "**Tigers Top Braves in Thrilling 5-2 Victory**\n\nIn a closely contested matchup, the Detroit Tigers emerged victorious over the Atlanta Braves, with Drew Anderson earning the win. Gleyber Torres and Colt Keith led the Tigers' offense, while Framber Valdez dominated on the mound, striking out eight batters over six strong innings. Matt Vierling contributed with three hits and two RBIs.\n\nMeanwhile, the Houston Astros suffered a 10-3 setback against the Baltimore Orioles, with Chris Bassitt and Jeremiah Jackson delivering standout performances. Jackson went deep with five RBIs, while Bassitt tossed six and two-thirds scoreless innings. The Astros bounced back to win the second game 11-5, with Lance McCullers Jr. striking out nine over six innings.",
     "all_games": [
       {
         "game": "Detroit Tigers @ Atlanta Braves",
         "final_score": "5-2",
         "top_pitching_line": "Framber Valdez: 6.0 IP, 8 K, 2 ER, 0 BB, 6 H",
         "top_batting_line": "Matt Vierling: 3 H, 0 HR, 2 RBI, 5 AB",
-        "summary": "The Detroit Tigers edged the Atlanta Braves 5-2 behind Framber Valdez's 6-inning, 8-K performance and Matt Vierling's 3-hit, 2-RBI effort.",
+        "summary": "The Detroit Tigers edged the Atlanta Braves 5-2 behind Framber Valdez's 6 strong innings and Matt Vierling's 3-hit, 2-RBI performance.",
         "impact_player": "Matt Vierling"
       },
       {
@@ -18,7 +18,7 @@
         "final_score": "3-10",
         "top_pitching_line": "Chris Bassitt: 6.2 IP, 7 K, 1 ER, 1 BB, 7 H",
         "top_batting_line": "Jeremiah Jackson: 2 H, 1 HR, 5 RBI, 4 AB",
-        "summary": "The Baltimore Orioles dominated the Houston Astros 10-3 behind Jeremiah Jackson's 2 hits, 1 home run, and 5 RBIs.",
+        "summary": "The Baltimore Orioles dominated the Houston Astros 10-3 behind Jeremiah Jackson's 2 hits, 1 home run, and 5 RBIs, and a strong outing from Chris Bassitt.",
         "impact_player": "Jeremiah Jackson"
       },
       {
@@ -26,7 +26,7 @@
         "final_score": "11-5",
         "top_pitching_line": "Lance McCullers Jr.: 6.0 IP, 9 K, 3 ER, 4 BB, 2 H",
         "top_batting_line": "Cam Smith: 1 H, 1 HR, 3 RBI, 4 AB",
-        "summary": "The Houston Astros defeated the Baltimore Orioles 11-5 behind Lance McCullers Jr.'s 6 strong innings and Cam Smith's 1 HR, 3 RBI performance.",
+        "summary": "The Houston Astros defeated the Baltimore Orioles 11-5 behind Lance McCullers Jr.'s 6 strong innings with 9 strikeouts and Cam Smith's 3-RBI performance.",
         "impact_player": "Cam Smith"
       },
       {
@@ -34,7 +34,7 @@
         "final_score": "10-5",
         "top_pitching_line": "Paul Skenes: 5.0 IP, 9 K, 4 ER, 0 BB, 8 H",
         "top_batting_line": "Jordan Walker: 2 H, 1 HR, 3 RBI, 5 AB",
-        "summary": "The St. Louis Cardinals defeated the Pittsburgh Pirates 10-5, led by Jordan Walker's 2 hits, 1 home run, and 3 RBIs, and Paul Skenes' 5 strong innings with 9 strikeouts.",
+        "summary": "The St. Louis Cardinals defeated the Pittsburgh Pirates 10-5, led by Jordan Walker's 2 hits, 1 home run, and 3 RBIs, and Paul Skenes' 5 shutless innings.",
         "impact_player": "Jordan Walker"
       },
       {
@@ -42,7 +42,7 @@
         "final_score": "2-3",
         "top_pitching_line": "Logan Webb: 7.0 IP, 6 K, 1 ER, 2 BB, 7 H",
         "top_batting_line": "Kyle Schwarber: 1 H, 1 HR, 1 RBI, 2 AB",
-        "summary": "The Philadelphia Phillies edged the San Francisco Giants 3-2 behind Kyle Schwarber's 1 HR and 1 RBI, and a key run-scoring single by Justin Crawford.",
+        "summary": "The Philadelphia Phillies edged the San Francisco Giants 3-2 behind Kyle Schwarber's 1 HR and 1 RBI, and a crucial single by Justin Crawford.",
         "impact_player": "Kyle Schwarber"
       },
       {
@@ -50,7 +50,7 @@
         "final_score": "5-6",
         "top_pitching_line": "Caleb Kilian: 2.0 IP, 2 K, 0 ER, 0 BB, 1 H",
         "top_batting_line": "Kyle Schwarber: 4 H, 1 HR, 2 RBI, 4 AB",
-        "summary": "The Philadelphia Phillies edged the San Francisco Giants 6-5 behind Kyle Schwarber's 4 hits, including a home run, and Caleb Kilian's 2 scoreless innings.",
+        "summary": "The Philadelphia Phillies edged the San Francisco Giants 6-5 behind Kyle Schwarber's 4 hits, including a home run, and a strong relief appearance by Caleb Kilian.",
         "impact_player": "Kyle Schwarber"
       },
       {
@@ -58,7 +58,7 @@
         "final_score": "4-6",
         "top_pitching_line": "Connor Phillips: 1.0 IP, 3 K, 0 ER, 1 BB, 0 H",
         "top_batting_line": "Tyler Freeman: 2 H, 1 HR, 2 RBI, 4 AB",
-        "summary": "The Cincinnati Reds edged the Colorado Rockies 6-4 behind Tyler Freeman's 2 hits, including a home run, and a strong relief appearance from Connor Phillips.",
+        "summary": "The Cincinnati Reds edged the Colorado Rockies 6-4 behind Tyler Freeman's 2 hits, 1 home run, and 2 RBIs, and Connor Phillips' 1 scoreless inning.",
         "impact_player": "Tyler Freeman"
       },
       {
@@ -66,7 +66,7 @@
         "final_score": "5-4",
         "top_pitching_line": "Freddy Peralta: 6.0 IP, 6 K, 1 ER, 3 BB, 4 H",
         "top_batting_line": "CJ Abrams: 2 H, 1 HR, 3 RBI, 3 AB",
-        "summary": "The Washington Nationals edged the New York Mets 5-4 behind CJ Abrams' 2-hit, 1-home run, 3-RBI performance and Freddy Peralta's 6-inning, 6-K outing.",
+        "summary": "The Washington Nationals edged the New York Mets 5-4 behind CJ Abrams' 2-hit, 3-RBI performance, including his 8th home run of the season.",
         "impact_player": "CJ Abrams"
       },
       {
@@ -82,7 +82,7 @@
         "final_score": "3-6",
         "top_pitching_line": "Jeffrey Springs: 3.0 IP, 4 K, 2 ER, 1 BB, 5 H",
         "top_batting_line": "Maikel Garcia: 3 H, 1 HR, 1 RBI, 5 AB",
-        "summary": "The Athletics defeated the Kansas City Royals 6-3 behind Elias D\u00edaz's solo homer and a strong outing from Jeffrey Springs.",
+        "summary": "The Athletics outlasted the Kansas City Royals 6-3 behind a strong outing from Jeffrey Springs and a key home run from Elias D\u00edaz.",
         "impact_player": "Maikel Garcia"
       },
       {
@@ -90,7 +90,7 @@
         "final_score": "1-7",
         "top_pitching_line": "Tommy Nance: 1.1 IP, 3 K, 0 ER, 0 BB, 0 H",
         "top_batting_line": "Byron Buxton: 3 H, 1 HR, 1 RBI, 4 AB",
-        "summary": "The Minnesota Twins dominated the Toronto Blue Jays 7-1 behind Byron Buxton's 3 hits, including a home run, and Tommy Nance's 1.1 scoreless innings.",
+        "summary": "The Minnesota Twins dominated the Toronto Blue Jays 7-1, led by Byron Buxton's 3 hits, including a home run, and Tommy Nance's 1.1 scoreless innings with 3 strikeouts.",
         "impact_player": "Byron Buxton"
       }
     ],
