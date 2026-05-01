@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-01T10:43:37.965836-04:00",
+  "updated_at": "2026-05-01T14:11:45.601539-04:00",
   "games": [
     {
       "gamePk": 824686,
@@ -7,7 +7,7 @@
       "home_team": "Chicago Cubs",
       "venue": "Wrigley Field",
       "start": "2026-05-01T18:20:00Z",
-      "status": "Preview",
+      "status": "Live",
       "away_pitcher": {
         "id": 668678,
         "name": "Zac Gallen",
@@ -2369,7 +2369,14 @@
           "quality_starts": 0
         }
       },
-      "home_pitcher": {},
+      "home_pitcher": {
+        "id": 687562,
+        "name": "Jake Bennett",
+        "hand": "L",
+        "era": "N/A",
+        "whip": "N/A",
+        "last3": {}
+      },
       "away_hitters": [
         {
           "name": "Yordan Alvarez",
@@ -3952,10 +3959,10 @@
         {
           "name": "Ryan Jeffers",
           "stats": {
-            "avg": ".291",
-            "obp": ".411",
-            "slg": ".494",
-            "ops": ".905",
+            "avg": ".304",
+            "obp": ".421",
+            "slg": ".506",
+            "ops": ".927",
             "homeRuns": 4,
             "rbi": 20
           },
