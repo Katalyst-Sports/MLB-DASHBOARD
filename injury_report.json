@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-02T06:29:49.943793-04:00",
+  "updated_at": "2026-05-02T10:14:41.154527-04:00",
   "teams": [
     {
       "team_id": 109,
@@ -1555,7 +1555,7 @@
     {
       "team_id": 142,
       "team_name": "Minnesota Twins",
-      "injured_count": 7,
+      "injured_count": 8,
       "players": [
         {
           "player_id": 689520,
@@ -1564,6 +1564,14 @@
           "date": "2026-04-11",
           "note": "Minnesota Twins placed RHP Cody Laweryson on the 15-day injured list retroactive to April 9, 2026. Right forearm strain. | Status Change",
           "description": "Minnesota Twins placed RHP Cody Laweryson on the 15-day injured list retroactive to April 9, 2026. Right forearm strain."
+        },
+        {
+          "player_id": 663485,
+          "name": "Cole Sands",
+          "il_type": "Injured List",
+          "date": "2026-05-02",
+          "note": "Minnesota Twins placed RHP Cole Sands on the 15-day injured list retroactive to April 29, 2026. Right forearm strain. | Status Change",
+          "description": "Minnesota Twins placed RHP Cole Sands on the 15-day injured list retroactive to April 29, 2026. Right forearm strain."
         },
         {
           "player_id": 701581,
