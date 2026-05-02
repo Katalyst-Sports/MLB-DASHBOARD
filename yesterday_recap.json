@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-05-02T03:09:53.676246-04:00",
+  "updated_at": "2026-05-02T06:29:49.943793-04:00",
   "date": "2026-05-01",
   "dashboard_recap": {
     "headline": "MLB Daily Recap - May 01, 2026",
-    "article": "**Diamondbacks' Late Surge Falls Short Against Cubs**\n\nGeraldo Perdomo's 2-homer effort and 3-RBI night highlighted a 5-6 loss for the Diamondbacks against the Cubs. Perdomo's second home run of the game capped a 5-run Arizona frame, but Colin Rea's 5.1 innings of work and 6 strikeouts led the Cubs to victory. Rea earned the win, while Zac Gallen took the loss. Jacob Webb secured the save for the Cubs.\n\n**Rangers Take Down Tigers in 5-4 Thriller**\n\nDanny Jansen's 1-homer, 1-RBI performance paced the Rangers to a 5-4 win over the Tigers. Brant Hurter's 1-inning relief stint and 2 strikeouts aided the Texas cause. Tyler Alexander earned the win for the Rangers, while Burch Smith took the loss for the Tigers. Jacob Latz secured the save for Texas.\n\n**Pirates' Offense Explodes Against Reds**\n\nHenry Davis's 2-homer, 3-RBI night led the Pirates to a 9-1 rout of the Reds. Davis's impressive performance was matched by Mitch Keller, who tossed 7 innings of 1-run ball and struck out 6. Keller earned the win, while Brady Singer took the loss for the Reds.",
+    "article": "**Diamonds Shattered: Daily MLB Recap**\n\nA thrilling day of baseball unfolded across the league, with standout performances from several impact players. Geraldo Perdomo led the charge, crushing two home runs and driving in three runs to propel the Chicago Cubs to a 5-6 victory over the Arizona Diamondbacks. Perdomo's impressive display earned him a spot atop the batting leaderboard, alongside other notable hitters like Danny Jansen, who homered for the Texas Rangers, and Henry Davis, who belted two home runs for the Pittsburgh Pirates.\n\nMeanwhile, on the mound, Colin Rea pitched a gem for the Cubs, striking out six and allowing just two earned runs over 5.1 innings. Other strong pitching performances came from Will Warren, who fanned nine for the New York Yankees, and Jacob Misiorowski, who tossed 5.1 scoreless innings for the Milwaukee Brewers.\n\nIn a high-scoring affair, the Atlanta Braves edged the Colorado Rockies 8-6, with Michael Harris II hitting a crucial home run for the Braves. The Toronto Blue Jays also secured a win, as Kazuma Okamoto went deep twice to pace the Jays to a 7-3 victory over the Minnesota Twins.",
     "all_games": [
       {
         "game": "Arizona Diamondbacks @ Chicago Cubs",
@@ -18,7 +18,7 @@
         "final_score": "5-4",
         "top_pitching_line": "Brant Hurter: 1.0 IP, 2 K, 0 ER, 0 BB, 0 H",
         "top_batting_line": "Danny Jansen: 1 H, 1 HR, 1 RBI, 4 AB",
-        "summary": "The Texas Rangers edged the Detroit Tigers 5-4, led by Danny Jansen's 1-for-4 performance with a home run and RBI, and Brant Hurter's scoreless 1st inning.",
+        "summary": "The Texas Rangers edged the Detroit Tigers 5-4 behind Danny Jansen's 1 HR and Brant Hurter's 1.0 IP of scoreless relief.",
         "impact_player": "Danny Jansen"
       },
       {
@@ -26,7 +26,7 @@
         "final_score": "1-9",
         "top_pitching_line": "Mitch Keller: 7.0 IP, 6 K, 1 ER, 1 BB, 3 H",
         "top_batting_line": "Henry Davis: 2 H, 2 HR, 3 RBI, 3 AB",
-        "summary": "The Pittsburgh Pirates dominated the Cincinnati Reds 9-1, led by Mitch Keller's 7 shutout innings and Henry Davis's 2 home runs and 3 RBIs.",
+        "summary": "The Pittsburgh Pirates dominated the Cincinnati Reds 9-1 behind Mitch Keller's 7 shutout innings and Henry Davis's 2 home runs and 3 RBIs.",
         "impact_player": "Henry Davis"
       },
       {
@@ -34,7 +34,7 @@
         "final_score": "6-1",
         "top_pitching_line": "Jacob Misiorowski: 5.1 IP, 8 K, 0 ER, 2 BB, 0 H",
         "top_batting_line": "William Contreras: 4 H, 0 HR, 3 RBI, 5 AB",
-        "summary": "The Milwaukee Brewers dominated the Washington Nationals 6-1 behind Jacob Misiorowski's 5.1 scoreless innings and William Contreras' 4-hit, 3-RBI performance.",
+        "summary": "The Milwaukee Brewers defeated the Washington Nationals 6-1 behind Jacob Misiorowski's 5.1 scoreless innings and William Contreras' 4-hit, 3-RBI performance.",
         "impact_player": "William Contreras"
       },
       {
@@ -42,7 +42,7 @@
         "final_score": "2-7",
         "top_pitching_line": "Will Warren: 6.1 IP, 9 K, 1 ER, 1 BB, 3 H",
         "top_batting_line": "Ben Rice: 2 H, 1 HR, 3 RBI, 5 AB",
-        "summary": "The New York Yankees defeated the Baltimore Orioles 7-2 behind Will Warren's 6.1 innings with 9 strikeouts and Ben Rice's 2 hits, 1 home run, and 3 RBIs.",
+        "summary": "The New York Yankees defeated the Baltimore Orioles 7-2 behind Will Warren's 6.1 innings of work, striking out 9 and allowing 1 earned run.",
         "impact_player": "Ben Rice"
       },
       {
@@ -50,7 +50,7 @@
         "final_score": "1-3",
         "top_pitching_line": "Zack Kelly: 1.1 IP, 2 K, 0 ER, 0 BB, 2 H",
         "top_batting_line": "Jarren Duran: 1 H, 1 HR, 3 RBI, 4 AB",
-        "summary": "The Boston Red Sox edged the Houston Astros 3-1, behind Jarren Duran's 2nd home run and Zack Kelly's 1.1 scoreless innings.",
+        "summary": "The Boston Red Sox edged the Houston Astros 3-1 behind Zack Kelly's 1.1 scoreless innings and Jarren Duran's 1 HR, 3 RBI performance.",
         "impact_player": "Jarren Duran"
       },
       {
@@ -58,7 +58,7 @@
         "final_score": "0-3",
         "top_pitching_line": "Shane McClanahan: 6.0 IP, 5 K, 0 ER, 0 BB, 5 H",
         "top_batting_line": "Yandy D\u00edaz: 1 H, 1 HR, 1 RBI, 2 AB",
-        "summary": "The Tampa Bay Rays shut out the San Francisco Giants 3-0 behind Shane McClanahan's 6 scoreless innings, including 5 strikeouts.",
+        "summary": "Tampa Bay Rays shut out the San Francisco Giants 3-0 behind Shane McClanahan's 6 scoreless innings and Yandy D\u00edaz's solo home run.",
         "impact_player": "Yandy D\u00edaz"
       },
       {
@@ -66,7 +66,7 @@
         "final_score": "6-5",
         "top_pitching_line": "Zack Wheeler: 6.0 IP, 8 K, 1 ER, 2 BB, 3 H",
         "top_batting_line": "Bryson Stott: 1 H, 1 HR, 3 RBI, 3 AB",
-        "summary": "The Philadelphia Phillies edged the Miami Marlins 6-5 behind Zack Wheeler's 6 strong innings and Bryson Stott's 3 RBI, including a home run.",
+        "summary": "The Philadelphia Phillies edged the Miami Marlins 6-5 behind Zack Wheeler's 6 strong innings with 8 strikeouts and Bryson Stott's 3 RBI performance.",
         "impact_player": "Bryson Stott"
       },
       {
@@ -82,7 +82,7 @@
         "final_score": "2-7",
         "top_pitching_line": "Emmet Sheehan: 4.2 IP, 8 K, 4 ER, 0 BB, 8 H",
         "top_batting_line": "Nolan Gorman: 1 H, 1 HR, 2 RBI, 4 AB",
-        "summary": "The St. Louis Cardinals defeated the Los Angeles Dodgers 7-2 behind Nolan Gorman's 1 HR, 2 RBI, and Emmet Sheehan's 4.2 IP with 8 strikeouts.",
+        "summary": "The St. Louis Cardinals defeated the Los Angeles Dodgers 7-2 behind Nolan Gorman's 1 HR and 2 RBI, and Emmet Sheehan's 4.2 IP with 8 strikeouts.",
         "impact_player": "Nolan Gorman"
       },
       {
@@ -90,7 +90,7 @@
         "final_score": "8-6",
         "top_pitching_line": "Jose Quintana: 6.0 IP, 3 K, 1 ER, 0 BB, 5 H",
         "top_batting_line": "Michael Harris II: 1 H, 1 HR, 2 RBI, 1 AB",
-        "summary": "The Atlanta Braves edged the Colorado Rockies 8-6, led by Michael Harris II's 1-for-1 performance with a 2-RBI homer and Jose Quintana's 6 shuttee innings.",
+        "summary": "The Atlanta Braves edged the Colorado Rockies 8-6 behind Jose Quintana's 6 shuttest innings and Michael Harris II's 2-RBI, 7th home run.",
         "impact_player": "Michael Harris II"
       },
       {
@@ -106,7 +106,7 @@
         "final_score": "8-5",
         "top_pitching_line": "Erik Sabrowski: 1.0 IP, 2 K, 0 ER, 0 BB, 0 H",
         "top_batting_line": "Rhys Hoskins: 2 H, 1 HR, 3 RBI, 4 AB",
-        "summary": "The Cleveland Guardians edged the Athletics 8-5, led by Rhys Hoskins' 2 hits, including a home run, and 3 RBIs.",
+        "summary": "The Cleveland Guardians outlasted the Athletics 8-5, behind Rhys Hoskins' 2 hits, including a home run, and 3 RBIs.",
         "impact_player": "Rhys Hoskins"
       },
       {
@@ -114,7 +114,7 @@
         "final_score": "8-2",
         "top_pitching_line": "Noah Schultz: 6.0 IP, 2 K, 0 ER, 3 BB, 2 H",
         "top_batting_line": "Munetaka Murakami: 1 H, 1 HR, 3 RBI, 3 AB",
-        "summary": "The Chicago White Sox dominated the San Diego Padres 8-2, led by Munetaka Murakami's 1 HR and 3 RBI, and Noah Schultz's 6 shutout innings.",
+        "summary": "The Chicago White Sox defeated the San Diego Padres 8-2 behind Noah Schultz's 6 shutout innings and Munetaka Murakami's 1 HR, 3 RBI performance.",
         "impact_player": "Munetaka Murakami"
       },
       {
@@ -122,7 +122,7 @@
         "final_score": "7-6",
         "top_pitching_line": "Alex Hoppe: 1.0 IP, 3 K, 0 ER, 0 BB, 0 H",
         "top_batting_line": "Julio Rodr\u00edguez: 2 H, 2 HR, 4 RBI, 4 AB",
-        "summary": "The Kansas City Royals edged the Seattle Mariners 7-6, led by Julio Rodr\u00edguez's 2 HR and 4 RBI, and a clutch Lane Thomas single that scored Salvador Perez.",
+        "summary": "The Kansas City Royals edged the Seattle Mariners 7-6 behind Julio Rodr\u00edguez's 2 HR and 4 RBI, and a crucial Lane Thomas single that scored Salvador Perez.",
         "impact_player": "Julio Rodr\u00edguez"
       }
     ],
