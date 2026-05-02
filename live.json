@@ -1,5 +1,84 @@
 {
-  "updated_at": "2026-05-02T13:09:46.120756-04:00",
-  "games": [],
+  "updated_at": "2026-05-02T15:57:04.896106-04:00",
+  "games": [
+    {
+      "gamePk": 823554,
+      "game": "Baltimore Orioles @ New York Yankees",
+      "score": "4-6",
+      "inning": "7th",
+      "hot_hitters": [
+        "Pete Alonso",
+        "Trent Grisham",
+        "Cody Bellinger"
+      ],
+      "top_pitchers": []
+    },
+    {
+      "gamePk": 823715,
+      "game": "Toronto Blue Jays @ Minnesota Twins",
+      "score": "3-4",
+      "inning": "6th",
+      "hot_hitters": [
+        "Kazuma Okamoto",
+        "Lenyn Sosa",
+        "Myles Straw",
+        "Byron Buxton",
+        "Trevor Larnach"
+      ],
+      "top_pitchers": [
+        "Dylan Cease"
+      ]
+    },
+    {
+      "gamePk": 824685,
+      "game": "Arizona Diamondbacks @ Chicago Cubs",
+      "score": "0-1",
+      "inning": "6th",
+      "hot_hitters": [
+        "Ian Happ"
+      ],
+      "top_pitchers": []
+    },
+    {
+      "gamePk": 825014,
+      "game": "Cleveland Guardians @ Athletics",
+      "score": "0-0",
+      "inning": "1st",
+      "hot_hitters": [],
+      "top_pitchers": []
+    },
+    {
+      "gamePk": 823388,
+      "game": "Cincinnati Reds @ Pittsburgh Pirates",
+      "score": "0-0",
+      "inning": "1st",
+      "hot_hitters": [],
+      "top_pitchers": []
+    },
+    {
+      "gamePk": 822746,
+      "game": "Milwaukee Brewers @ Washington Nationals",
+      "score": "0-0",
+      "inning": "1st",
+      "hot_hitters": [],
+      "top_pitchers": []
+    },
+    {
+      "gamePk": 824771,
+      "game": "Houston Astros @ Boston Red Sox",
+      "score": "0-0",
+      "inning": "1st",
+      "hot_hitters": [],
+      "top_pitchers": []
+    },
+    {
+      "gamePk": 823876,
+      "game": "Philadelphia Phillies @ Miami Marlins",
+      "score": "0-0",
+      "inning": "1st",
+      "hot_hitters": [],
+      "top_pitchers": []
+    }
+  ],
   "errors": []
 }
