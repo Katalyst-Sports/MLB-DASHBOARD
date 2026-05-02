@@ -1,5 +1,48 @@
 {
-  "updated_at": "2026-05-02T15:57:04.896106-04:00",
-  "games": [],
+  "updated_at": "2026-05-02T18:07:58.124916-04:00",
+  "games": [
+    {
+      "gamePk": 823554,
+      "game": "Baltimore Orioles @ New York Yankees",
+      "winner": "New York Yankees",
+      "loser": "Baltimore Orioles",
+      "final_score": "4-9",
+      "hitters": [
+        "Pete Alonso",
+        "Trent Grisham",
+        "Cody Bellinger"
+      ],
+      "pitchers": []
+    },
+    {
+      "gamePk": 823715,
+      "game": "Toronto Blue Jays @ Minnesota Twins",
+      "winner": "Toronto Blue Jays",
+      "loser": "Minnesota Twins",
+      "final_score": "11-4",
+      "hitters": [
+        "Kazuma Okamoto",
+        "Lenyn Sosa",
+        "Myles Straw",
+        "Brandon Valenzuela",
+        "Byron Buxton",
+        "Trevor Larnach"
+      ],
+      "pitchers": [
+        "Dylan Cease"
+      ]
+    },
+    {
+      "gamePk": 824685,
+      "game": "Arizona Diamondbacks @ Chicago Cubs",
+      "winner": "Chicago Cubs",
+      "loser": "Arizona Diamondbacks",
+      "final_score": "0-2",
+      "hitters": [
+        "Ian Happ"
+      ],
+      "pitchers": []
+    }
+  ],
   "errors": []
 }
