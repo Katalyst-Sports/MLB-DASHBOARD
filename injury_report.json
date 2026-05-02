@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-01T17:10:35.456472-04:00",
+  "updated_at": "2026-05-01T20:08:26.671563-04:00",
   "teams": [
     {
       "team_id": 109,
@@ -265,7 +265,7 @@
     {
       "team_id": 110,
       "team_name": "Baltimore Orioles",
-      "injured_count": 13,
+      "injured_count": 14,
       "players": [
         {
           "player_id": 668939,
@@ -338,6 +338,14 @@
           "date": "2026-03-25",
           "note": "Baltimore Orioles placed LHP Keegan Akin on the 15-day injured list retroactive to March 22, 2026. Left groin strain. | Status Change",
           "description": "Baltimore Orioles placed LHP Keegan Akin on the 15-day injured list retroactive to March 22, 2026. Left groin strain."
+        },
+        {
+          "player_id": 664854,
+          "name": "Ryan Helsley",
+          "il_type": "Injured List",
+          "date": "2026-05-01",
+          "note": "Baltimore Orioles placed RHP Ryan Helsley on the 15-day injured list retroactive to April 29, 2026. Right elbow inflammation. | Status Change",
+          "description": "Baltimore Orioles placed RHP Ryan Helsley on the 15-day injured list retroactive to April 29, 2026. Right elbow inflammation."
         },
         {
           "player_id": 663624,
@@ -2044,7 +2052,7 @@
     {
       "team_id": 136,
       "team_name": "Seattle Mariners",
-      "injured_count": 8,
+      "injured_count": 9,
       "players": [
         {
           "player_id": 680977,
@@ -2085,6 +2093,14 @@
           "date": "2026-02-16",
           "note": "Seattle Mariners placed RHP Logan Evans on the 60-day injured list. Recovery from torn UCL in right arm. | Status Change",
           "description": "Seattle Mariners placed RHP Logan Evans on the 60-day injured list. Recovery from torn UCL in right arm."
+        },
+        {
+          "player_id": 666374,
+          "name": "Matt Brash",
+          "il_type": "Injured List",
+          "date": "2026-05-01",
+          "note": "Seattle Mariners placed RHP Matt Brash on the 15-day injured list retroactive to April 30, 2026. Right lat inflammation. | Status Change",
+          "description": "Seattle Mariners placed RHP Matt Brash on the 15-day injured list retroactive to April 30, 2026. Right lat inflammation."
         },
         {
           "player_id": 670156,
