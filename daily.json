@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-02T10:14:41.154527-04:00",
+  "updated_at": "2026-05-02T13:09:46.120756-04:00",
   "games": [
     {
       "gamePk": 823554,
@@ -2330,22 +2330,22 @@
           }
         },
         {
-          "name": "Nick Yorke",
+          "name": "Henry Davis",
           "stats": {
-            "avg": ".221",
-            "obp": ".308",
+            "avg": ".176",
+            "obp": ".273",
             "slg": ".309",
-            "ops": ".617",
-            "homeRuns": 1,
+            "ops": ".582",
+            "homeRuns": 2,
             "rbi": 6
           },
           "last10ab": {
-            "avg": "0.200",
+            "avg": "0.182",
             "hits": 2,
-            "atBats": 10,
+            "atBats": 11,
             "homeRuns": 0,
-            "rbi": 1,
-            "walks": 2,
+            "rbi": 2,
+            "walks": 1,
             "games": 3
           }
         }
@@ -3524,6 +3524,26 @@
           }
         },
         {
+          "name": "J.T. Realmuto",
+          "stats": {
+            "avg": ".259",
+            "obp": ".344",
+            "slg": ".352",
+            "ops": ".696",
+            "homeRuns": 1,
+            "rbi": 4
+          },
+          "last10ab": {
+            "avg": "0.083",
+            "hits": 1,
+            "atBats": 12,
+            "homeRuns": 0,
+            "rbi": 0,
+            "walks": 2,
+            "games": 4
+          }
+        },
+        {
           "name": "Adolis Garc\u00eda",
           "stats": {
             "avg": ".241",
@@ -3561,26 +3581,6 @@
             "rbi": 1,
             "walks": 1,
             "games": 4
-          }
-        },
-        {
-          "name": "Garrett Stubbs",
-          "stats": {
-            "avg": ".222",
-            "obp": ".273",
-            "slg": ".222",
-            "ops": ".495",
-            "homeRuns": 0,
-            "rbi": 1
-          },
-          "last10ab": {
-            "avg": "0.222",
-            "hits": 2,
-            "atBats": 9,
-            "homeRuns": 0,
-            "rbi": 1,
-            "walks": 1,
-            "games": 3
           }
         }
       ],
