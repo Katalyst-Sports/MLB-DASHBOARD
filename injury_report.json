@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-03T10:15:00.163198-04:00",
+  "updated_at": "2026-05-03T13:11:14.868772-04:00",
   "teams": [
     {
       "team_id": 109,
@@ -162,7 +162,7 @@
     {
       "team_id": 144,
       "team_name": "Atlanta Braves",
-      "injured_count": 12,
+      "injured_count": 13,
       "players": [
         {
           "player_id": 700363,
@@ -235,6 +235,14 @@
           "date": "2026-04-21",
           "note": "Atlanta Braves placed RHP Raisel Iglesias on the 15-day injured list retroactive to April 20, 2026. Right shoulder inflammation. | Status Change",
           "description": "Atlanta Braves placed RHP Raisel Iglesias on the 15-day injured list retroactive to April 20, 2026. Right shoulder inflammation."
+        },
+        {
+          "player_id": 660670,
+          "name": "Ronald Acu\u00f1a Jr.",
+          "il_type": "Injured List",
+          "date": "2026-05-03",
+          "note": "Atlanta Braves placed RF Ronald Acu\u00f1a Jr. on the 10-day injured list. Left hamstring strain. | Status Change",
+          "description": "Atlanta Braves placed RF Ronald Acu\u00f1a Jr. on the 10-day injured list. Left hamstring strain."
         },
         {
           "player_id": 669221,
