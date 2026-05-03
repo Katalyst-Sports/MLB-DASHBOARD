@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-02T18:07:58.124916-04:00",
+  "updated_at": "2026-05-03T03:11:38.778199-04:00",
   "teams": [
     {
       "team_id": 109,
@@ -2060,7 +2060,7 @@
     {
       "team_id": 136,
       "team_name": "Seattle Mariners",
-      "injured_count": 9,
+      "injured_count": 10,
       "players": [
         {
           "player_id": 680977,
@@ -2133,6 +2133,14 @@
           "date": "2026-04-08",
           "note": "Seattle Mariners placed RF Victor Robles on the 10-day injured list retroactive to April 7, 2026. Right pec strain. | Status Change",
           "description": "Seattle Mariners placed RF Victor Robles on the 10-day injured list retroactive to April 7, 2026. Right pec strain."
+        },
+        {
+          "player_id": 669717,
+          "name": "Will Wilson",
+          "il_type": "Injured List",
+          "date": "2026-05-02",
+          "note": "Seattle Mariners placed 3B Will Wilson on the 10-day injured list retroactive to April 30, 2026. Left thumb fracture. | Status Change",
+          "description": "Seattle Mariners placed 3B Will Wilson on the 10-day injured list retroactive to April 30, 2026. Left thumb fracture."
         }
       ]
     },
