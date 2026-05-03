@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-03T15:58:38.463053-04:00",
+  "updated_at": "2026-05-03T18:09:08.084714-04:00",
   "games": [
     {
       "gamePk": 823711,
@@ -20,6 +20,21 @@
       ]
     },
     {
+      "gamePk": 824769,
+      "game": "Houston Astros @ Boston Red Sox",
+      "winner": "Houston Astros",
+      "loser": "Boston Red Sox",
+      "final_score": "3-1",
+      "hitters": [
+        "Christian Walker",
+        "Cam Smith",
+        "Christian V\u00e1zquez",
+        "Jarren Duran",
+        "Willson Contreras"
+      ],
+      "pitchers": []
+    },
+    {
       "gamePk": 823387,
       "game": "Cincinnati Reds @ Pittsburgh Pirates",
       "winner": "Pittsburgh Pirates",
@@ -31,6 +46,24 @@
       "pitchers": [
         "Chase Burns",
         "Braxton Ashcraft"
+      ]
+    },
+    {
+      "gamePk": 823555,
+      "game": "Baltimore Orioles @ New York Yankees",
+      "winner": "New York Yankees",
+      "loser": "Baltimore Orioles",
+      "final_score": "3-11",
+      "hitters": [
+        "Pete Alonso",
+        "Blaze Alexander",
+        "Ben Rice",
+        "Aaron Judge",
+        "Jasson Dom\u00ednguez",
+        "Ryan McMahon"
+      ],
+      "pitchers": [
+        "Max Fried"
       ]
     },
     {
@@ -47,6 +80,68 @@
       "pitchers": [
         "Logan Henderson"
       ]
+    },
+    {
+      "gamePk": 822987,
+      "game": "San Francisco Giants @ Tampa Bay Rays",
+      "winner": "Tampa Bay Rays",
+      "loser": "San Francisco Giants",
+      "final_score": "1-2",
+      "hitters": [
+        "Casey Schmitt",
+        "Jonathan Aranda"
+      ],
+      "pitchers": []
+    },
+    {
+      "gamePk": 823875,
+      "game": "Philadelphia Phillies @ Miami Marlins",
+      "winner": "Philadelphia Phillies",
+      "loser": "Miami Marlins",
+      "final_score": "7-2",
+      "hitters": [
+        "Kyle Schwarber",
+        "Brandon Marsh",
+        "Bryson Stott",
+        "Otto Lopez",
+        "Christopher Morel",
+        "Esteury Ruiz"
+      ],
+      "pitchers": [
+        "Jes\u00fas Luzardo"
+      ]
+    },
+    {
+      "gamePk": 823065,
+      "game": "Los Angeles Dodgers @ St. Louis Cardinals",
+      "winner": "Los Angeles Dodgers",
+      "loser": "St. Louis Cardinals",
+      "final_score": "4-1",
+      "hitters": [
+        "Freddie Freeman",
+        "Hyeseong Kim",
+        "Masyn Winn",
+        "Nathan Church"
+      ],
+      "pitchers": []
+    },
+    {
+      "gamePk": 824687,
+      "game": "Arizona Diamondbacks @ Chicago Cubs",
+      "winner": "Chicago Cubs",
+      "loser": "Arizona Diamondbacks",
+      "final_score": "4-8",
+      "hitters": [
+        "Lourdes Gurriel Jr.",
+        "Gabriel Moreno",
+        "Adrian Del Castillo",
+        "Nico Hoerner",
+        "Mois\u00e9s Ballesteros",
+        "Seiya Suzuki",
+        "Michael Busch",
+        "Carson Kelly"
+      ],
+      "pitchers": []
     }
   ],
   "errors": []

@@ -1,122 +1,76 @@
 {
-  "updated_at": "2026-05-03T15:58:38.463053-04:00",
+  "updated_at": "2026-05-03T18:09:08.084714-04:00",
   "games": [
-    {
-      "gamePk": 824769,
-      "game": "Houston Astros @ Boston Red Sox",
-      "score": "1-1",
-      "inning": "7th",
-      "hot_hitters": [
-        "Cam Smith",
-        "Jarren Duran",
-        "Willson Contreras"
-      ],
-      "top_pitchers": []
-    },
-    {
-      "gamePk": 823555,
-      "game": "Baltimore Orioles @ New York Yankees",
-      "score": "3-4",
-      "inning": "7th",
-      "hot_hitters": [
-        "Blaze Alexander",
-        "Ben Rice",
-        "Aaron Judge",
-        "Ryan McMahon"
-      ],
-      "top_pitchers": []
-    },
-    {
-      "gamePk": 822987,
-      "game": "San Francisco Giants @ Tampa Bay Rays",
-      "score": "1-1",
-      "inning": "9th",
-      "hot_hitters": [
-        "Casey Schmitt",
-        "Jonathan Aranda"
-      ],
-      "top_pitchers": []
-    },
-    {
-      "gamePk": 823875,
-      "game": "Philadelphia Phillies @ Miami Marlins",
-      "score": "7-2",
-      "inning": "8th",
-      "hot_hitters": [
-        "Kyle Schwarber",
-        "Brandon Marsh",
-        "Bryson Stott",
-        "Otto Lopez",
-        "Christopher Morel",
-        "Esteury Ruiz"
-      ],
-      "top_pitchers": []
-    },
-    {
-      "gamePk": 823065,
-      "game": "Los Angeles Dodgers @ St. Louis Cardinals",
-      "score": "3-0",
-      "inning": "7th",
-      "hot_hitters": [
-        "Hyeseong Kim",
-        "Masyn Winn",
-        "Nathan Church"
-      ],
-      "top_pitchers": []
-    },
-    {
-      "gamePk": 824687,
-      "game": "Arizona Diamondbacks @ Chicago Cubs",
-      "score": "2-6",
-      "inning": "6th",
-      "hot_hitters": [
-        "Gabriel Moreno",
-        "Mois\u00e9s Ballesteros",
-        "Michael Busch"
-      ],
-      "top_pitchers": []
-    },
     {
       "gamePk": 824364,
       "game": "Atlanta Braves @ Colorado Rockies",
-      "score": "3-1",
-      "inning": "3rd",
+      "score": "11-6",
+      "inning": "9th",
       "hot_hitters": [
+        "Drake Baldwin",
+        "Ozzie Albies",
+        "Matt Olson",
+        "Eli White",
         "Jonah Heim",
-        "Jorge Mateo"
+        "Jorge Mateo",
+        "Mickey Moniak",
+        "TJ Rumfield"
       ],
       "top_pitchers": []
     },
     {
       "gamePk": 825013,
       "game": "Cleveland Guardians @ Athletics",
-      "score": "0-0",
-      "inning": "1st",
-      "hot_hitters": [],
+      "score": "1-7",
+      "inning": "8th",
+      "hot_hitters": [
+        "Chase DeLauter",
+        "Kyle Manzardo",
+        "Travis Bazzana",
+        "Colby Thomas",
+        "Zack Gelof",
+        "Tyler Soderstrom",
+        "Jeff McNeil"
+      ],
       "top_pitchers": []
     },
     {
       "gamePk": 824043,
       "game": "New York Mets @ Los Angeles Angels",
-      "score": "0-0",
-      "inning": "1st",
-      "hot_hitters": [],
+      "score": "2-1",
+      "inning": "7th",
+      "hot_hitters": [
+        "Bo Bichette",
+        "Mark Vientos"
+      ],
       "top_pitchers": []
     },
     {
       "gamePk": 823145,
       "game": "Kansas City Royals @ Seattle Mariners",
-      "score": "0-0",
-      "inning": "1st",
-      "hot_hitters": [],
-      "top_pitchers": []
+      "score": "4-1",
+      "inning": "8th",
+      "hot_hitters": [
+        "Isaac Collins",
+        "Kyle Isbel"
+      ],
+      "top_pitchers": [
+        "Kris Bubic"
+      ]
     },
     {
       "gamePk": 823307,
       "game": "Chicago White Sox @ San Diego Padres",
-      "score": "0-0",
-      "inning": "1st",
-      "hot_hitters": [],
+      "score": "3-3",
+      "inning": "7th",
+      "hot_hitters": [
+        "Chase Meidroth",
+        "Derek Hill",
+        "Drew Romo",
+        "Miguel Andujar",
+        "Manny Machado",
+        "Ty France"
+      ],
       "top_pitchers": []
     }
   ],
