@@ -1,5 +1,53 @@
 {
-  "updated_at": "2026-05-03T13:11:14.868772-04:00",
-  "games": [],
+  "updated_at": "2026-05-03T15:58:38.463053-04:00",
+  "games": [
+    {
+      "gamePk": 823711,
+      "game": "Toronto Blue Jays @ Minnesota Twins",
+      "winner": "Minnesota Twins",
+      "loser": "Toronto Blue Jays",
+      "final_score": "3-4",
+      "hitters": [
+        "Kazuma Okamoto",
+        "Vladimir Guerrero Jr.",
+        "Jes\u00fas S\u00e1nchez",
+        "Daulton Varsho",
+        "Luke Keaschall",
+        "Matt Wallner"
+      ],
+      "pitchers": [
+        "Trey Yesavage"
+      ]
+    },
+    {
+      "gamePk": 823387,
+      "game": "Cincinnati Reds @ Pittsburgh Pirates",
+      "winner": "Pittsburgh Pirates",
+      "loser": "Cincinnati Reds",
+      "final_score": "0-1",
+      "hitters": [
+        "Oneil Cruz"
+      ],
+      "pitchers": [
+        "Chase Burns",
+        "Braxton Ashcraft"
+      ]
+    },
+    {
+      "gamePk": 822742,
+      "game": "Milwaukee Brewers @ Washington Nationals",
+      "winner": "Washington Nationals",
+      "loser": "Milwaukee Brewers",
+      "final_score": "2-3",
+      "hitters": [
+        "Brandon Lockridge",
+        "CJ Abrams",
+        "Nasim Nu\u00f1ez"
+      ],
+      "pitchers": [
+        "Logan Henderson"
+      ]
+    }
+  ],
   "errors": []
 }

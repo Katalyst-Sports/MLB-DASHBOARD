@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-03T13:11:14.868772-04:00",
+  "updated_at": "2026-05-03T15:58:38.463053-04:00",
   "teams": [
     {
       "team_id": 109,
@@ -1207,7 +1207,7 @@
     {
       "team_id": 108,
       "team_name": "Los Angeles Angels",
-      "injured_count": 9,
+      "injured_count": 10,
       "players": [
         {
           "player_id": 666201,
@@ -1280,6 +1280,14 @@
           "date": "2026-03-23",
           "note": "Los Angeles Angels placed 2B Vaughn Grissom on the 10-day injured list retroactive to March 22, 2026. Left wrist sprain. | Status Change",
           "description": "Los Angeles Angels placed 2B Vaughn Grissom on the 10-day injured list retroactive to March 22, 2026. Left wrist sprain."
+        },
+        {
+          "player_id": 579328,
+          "name": "Yusei Kikuchi",
+          "il_type": "Injured List",
+          "date": "2026-05-03",
+          "note": "Los Angeles Angels placed LHP Yusei Kikuchi on the 15-day injured list retroactive to April 30, 2026. Left shoulder inflammation. | Status Change",
+          "description": "Los Angeles Angels placed LHP Yusei Kikuchi on the 15-day injured list retroactive to April 30, 2026. Left shoulder inflammation."
         }
       ]
     },
@@ -1634,7 +1642,7 @@
     {
       "team_id": 121,
       "team_name": "New York Mets",
-      "injured_count": 12,
+      "injured_count": 13,
       "players": [
         {
           "player_id": 621345,
@@ -1723,6 +1731,14 @@
           "date": "2026-02-10",
           "note": "New York Mets placed RHP Reed Garrett on the 60-day injured list. | Status Change",
           "description": "New York Mets placed RHP Reed Garrett on the 60-day injured list."
+        },
+        {
+          "player_id": 677595,
+          "name": "Ronny Mauricio",
+          "il_type": "Injured List",
+          "date": "2026-05-03",
+          "note": "New York Mets placed SS Ronny Mauricio on the 10-day injured list. Left thumb fracture. | Status Change",
+          "description": "New York Mets placed SS Ronny Mauricio on the 10-day injured list. Left thumb fracture."
         },
         {
           "player_id": 656731,
@@ -1886,7 +1902,7 @@
     {
       "team_id": 135,
       "team_name": "San Diego Padres",
-      "injured_count": 11,
+      "injured_count": 12,
       "players": [
         {
           "player_id": 663773,
@@ -1895,6 +1911,14 @@
           "date": "2026-04-22",
           "note": "San Diego Padres transferred RHP Bryan Hoeing from the 15-day injured list to the 60-day injured list. Torn right elbow flexor tendon. | Status Change",
           "description": "San Diego Padres transferred RHP Bryan Hoeing from the 15-day injured list to the 60-day injured list. Torn right elbow flexor tendon."
+        },
+        {
+          "player_id": 608566,
+          "name": "Germ\u00e1n M\u00e1rquez",
+          "il_type": "Injured List",
+          "date": "2026-05-03",
+          "note": "San Diego Padres placed RHP Germ\u00e1n M\u00e1rquez on the 15-day injured list retroactive to May 2, 2026. Forearm nerve inflammation. | Status Change",
+          "description": "San Diego Padres placed RHP Germ\u00e1n M\u00e1rquez on the 15-day injured list retroactive to May 2, 2026. Forearm nerve inflammation."
         },
         {
           "player_id": 656288,
