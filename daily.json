@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-03T06:36:00.670899-04:00",
+  "updated_at": "2026-05-03T10:15:00.163198-04:00",
   "games": [
     {
       "gamePk": 823711,
@@ -1834,7 +1834,36 @@
       "venue": "Nationals Park",
       "start": "2026-05-03T17:35:00Z",
       "status": "Preview",
-      "away_pitcher": {},
+      "away_pitcher": {
+        "id": 701656,
+        "name": "Logan Henderson",
+        "hand": "R",
+        "era": "9.00",
+        "whip": "2.00",
+        "last3": {
+          "starts": [
+            {
+              "date": "2026-04-04",
+              "opponent": "Kansas City Royals",
+              "ip": "2.0",
+              "er": 2,
+              "k": 3,
+              "bb": 1,
+              "pitches": 35,
+              "strikes": 23
+            }
+          ],
+          "avg_ip": "2.0",
+          "avg_k": "3.0",
+          "avg_bb": "1.0",
+          "avg_pitches": "35.0",
+          "avg_strikes": "23.0",
+          "era": "9.00",
+          "whip": "2.00",
+          "strike_pct": "65.7",
+          "quality_starts": 0
+        }
+      },
       "home_pitcher": {
         "id": 641793,
         "name": "Zack Littell",
