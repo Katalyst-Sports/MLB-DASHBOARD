@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-05-04T14:06:47.757651-04:00",
-  "headline": "**MLB Daily Roundup: May 4, 2026**",
-  "article": "The Minnesota Twins edged out the Toronto Blue Jays 4-3 in a closely contested game, with Kazuma Okamoto leading the Blue Jays' offense. The Houston Astros secured a 3-1 victory over the Boston Red Sox, with Bryan Abreu earning the win. The Cincinnati Reds dropped a 1-0 decision to the Pittsburgh Pirates, with Gregory Soto earning the win.\n\nSeveral key players are dealing with injuries, affecting their teams' lineups. Yusei Kikuchi has been placed on the 15-day injured list due to left shoulder inflammation, effective retroactive to April 30, 2026. Ronny Mauricio is out with a left thumb fracture, while Germ\u00e1n M\u00e1rquez is dealing with forearm nerve inflammation. Ronald Acu\u00f1a Jr. has a left hamstring strain, and Will Wilson is out with a left thumb fracture.\n\nThe Detroit Tigers have bolstered their roster with the acquisition of infielder Zack Short from the Washington Nationals in exchange for cash. The Los Angeles Dodgers have also made a move, trading for second baseman Tyler Fitzgerald from the Toronto Blue Jays for cash.",
+  "updated_at": "2026-05-04T17:46:29.108060-04:00",
+  "headline": "**MLB Daily Recap: May 3, 2026**",
+  "article": "The Minnesota Twins edged out the Toronto Blue Jays 4-3 in a closely contested game, with Kazuma Okamoto leading the Blue Jays' offense with a home run and two RBIs. The Houston Astros secured a 3-1 victory over the Boston Red Sox, with Bryan Abreu earning the win. The Cincinnati Reds dropped a 1-0 decision to the Pittsburgh Pirates, with Gregory Soto earning the win.\n\nSeveral key players are dealing with injuries, impacting their teams' lineups. The Boston Red Sox placed Patrick Sandoval on the 60-day injured list due to recovery from left UCL surgery. Danny Coulombe was also placed on the 15-day injured list retroactive to May 2, 2026, with cervical spasms. The Detroit Tigers placed Tarik Skubal on the 15-day injured list retroactive to May 1, 2026, with loose bodies in his left elbow.\n\nThe Detroit Tigers acquired infielder Zack Short from the Washington Nationals in exchange for cash. The Los Angeles Dodgers acquired 2B Tyler Fitzgerald from the Toronto Blue Jays for cash, while the Toronto Blue Jays acquired C Willie MacIver from the Texas Rangers in a separate trade.",
   "top_news": [
     {
       "title": "**Twins Take Down Blue Jays in Thrilling Finish**",
@@ -19,22 +19,40 @@
       "published": "2026-05-03"
     },
     {
-      "title": "**Yankees Rout Orioles 11-3**",
-      "summary": "The New York Yankees dominated the Baltimore Orioles, securing a convincing 11-3 victory. Jasson Dom\u00ednguez led the Orioles' offense with 3 hits, 1 home run, and 3 RBIs.",
+      "title": "**Orioles Fall to Yankees in Blowout**",
+      "summary": "The New York Yankees dominated the Baltimore Orioles 11-3, handing them a tough loss. Jasson Dom\u00ednguez led the Orioles' offense with 3 hits, 1 home run, and 3 RBIs.",
       "published": "2026-05-03"
     },
     {
-      "title": "**Kikuchi Lands on Injured List**",
-      "summary": "Los Angeles Angels left-hander Yusei Kikuchi has been placed on the 15-day injured list due to left shoulder inflammation, effective retroactive to April 30, 2026.",
-      "published": "2026-05-03"
+      "title": "**Red Sox Place Patrick Sandoval on 60-Day Injured List**",
+      "summary": "Boston Red Sox left-handed pitcher Patrick Sandoval has been placed on the 60-day injured list due to recovery from left UCL surgery.",
+      "published": "2026-05-04"
     },
     {
       "title": "**Tigers Acquire Zack Short in Trade**",
-      "summary": "The Detroit Tigers have made a move to bolster their roster, acquiring infielder Zack Short from the Washington Nationals in exchange for cash.",
+      "summary": "The Detroit Tigers have acquired infielder Zack Short from the Washington Nationals in exchange for cash.",
       "published": "2026-05-01"
     }
   ],
   "injury_updates": [
+    {
+      "date": "2026-05-04",
+      "team": "Boston Red Sox",
+      "player": "Patrick Sandoval",
+      "update": "Boston Red Sox placed LHP Patrick Sandoval on the 60-day injured list. Left UCL surgery recovery. | Status Change"
+    },
+    {
+      "date": "2026-05-04",
+      "team": "Boston Red Sox",
+      "player": "Danny Coulombe",
+      "update": "Boston Red Sox placed LHP Danny Coulombe on the 15-day injured list retroactive to May 2, 2026. Cervical spasms. | Status Change"
+    },
+    {
+      "date": "2026-05-04",
+      "team": "Detroit Tigers",
+      "player": "Tarik Skubal",
+      "update": "Detroit Tigers placed LHP Tarik Skubal on the 15-day injured list retroactive to May 1, 2026. Loose bodies in left elbow. | Status Change"
+    },
     {
       "date": "2026-05-03",
       "team": "Los Angeles Angels",
@@ -88,24 +106,6 @@
       "team": "Milwaukee Brewers",
       "player": "Brandon Woodruff",
       "update": "Milwaukee Brewers placed RHP Brandon Woodruff on the 15-day injured list. Right shoulder inflammation. | Status Change"
-    },
-    {
-      "date": "2026-04-30",
-      "team": "Philadelphia Phillies",
-      "player": "Kyle Backhus",
-      "update": "Philadelphia Phillies placed LHP Kyle Backhus on the 15-day injured list retroactive to April 27, 2026. Left elbow inflammation. | Status Change"
-    },
-    {
-      "date": "2026-04-30",
-      "team": "New York Mets",
-      "player": "Luis Robert Jr.",
-      "update": "New York Mets placed CF Luis Robert Jr. on the 10-day injured list retroactive to April 27, 2026. Lumbar spine disc herniation. | Status Change"
-    },
-    {
-      "date": "2026-04-30",
-      "team": "Cincinnati Reds",
-      "player": "Brandon Williamson",
-      "update": "Cincinnati Reds placed LHP Brandon Williamson on the 15-day injured list. Left shoulder fatigue. | Status Change"
     }
   ],
   "trade_updates": [

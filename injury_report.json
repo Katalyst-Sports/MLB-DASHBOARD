@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-04T14:06:47.757651-04:00",
+  "updated_at": "2026-05-04T17:46:29.108060-04:00",
   "teams": [
     {
       "team_id": 109,
@@ -392,7 +392,7 @@
     {
       "team_id": 111,
       "team_name": "Boston Red Sox",
-      "injured_count": 9,
+      "injured_count": 10,
       "players": [
         {
           "player_id": 678011,
@@ -401,6 +401,14 @@
           "date": "2026-03-25",
           "note": "Boston Red Sox placed 2B Anthony Seigler on the 10-day injured list retroactive to March 22, 2026. Left knee patellar tendinopathy. | Status Change",
           "description": "Boston Red Sox placed 2B Anthony Seigler on the 10-day injured list retroactive to March 22, 2026. Left knee patellar tendinopathy."
+        },
+        {
+          "player_id": 543056,
+          "name": "Danny Coulombe",
+          "il_type": "Injured List",
+          "date": "2026-05-04",
+          "note": "Boston Red Sox placed LHP Danny Coulombe on the 15-day injured list retroactive to May 2, 2026. Cervical spasms. | Status Change",
+          "description": "Boston Red Sox placed LHP Danny Coulombe on the 15-day injured list retroactive to May 2, 2026. Cervical spasms."
         },
         {
           "player_id": 676979,
@@ -430,9 +438,9 @@
           "player_id": 663776,
           "name": "Patrick Sandoval",
           "il_type": "Injured List",
-          "date": "2026-03-25",
-          "note": "Boston Red Sox placed LHP Patrick Sandoval on the 15-day injured list retroactive to March 22, 2026. Left UCL surgery recovery. | Status Change",
-          "description": "Boston Red Sox placed LHP Patrick Sandoval on the 15-day injured list retroactive to March 22, 2026. Left UCL surgery recovery."
+          "date": "2026-05-04",
+          "note": "Boston Red Sox placed LHP Patrick Sandoval on the 60-day injured list. Left UCL surgery recovery. | Status Change",
+          "description": "Boston Red Sox placed LHP Patrick Sandoval on the 60-day injured list. Left UCL surgery recovery."
         },
         {
           "player_id": 663853,
@@ -890,7 +898,7 @@
     {
       "team_id": 116,
       "team_name": "Detroit Tigers",
-      "injured_count": 13,
+      "injured_count": 14,
       "players": [
         {
           "player_id": 690544,
@@ -971,6 +979,14 @@
           "date": "2026-03-25",
           "note": "Detroit Tigers placed RHP Sawyer Gipson-Long on the 15-day injured list retroactive to March 22, 2026. Left oblique strain. | Status Change",
           "description": "Detroit Tigers placed RHP Sawyer Gipson-Long on the 15-day injured list retroactive to March 22, 2026. Left oblique strain."
+        },
+        {
+          "player_id": 669373,
+          "name": "Tarik Skubal",
+          "il_type": "Injured List",
+          "date": "2026-05-04",
+          "note": "Detroit Tigers placed LHP Tarik Skubal on the 15-day injured list retroactive to May 1, 2026. Loose bodies in left elbow. | Status Change",
+          "description": "Detroit Tigers placed LHP Tarik Skubal on the 15-day injured list retroactive to May 1, 2026. Loose bodies in left elbow."
         },
         {
           "player_id": 700242,

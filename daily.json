@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-04T14:06:47.757651-04:00",
+  "updated_at": "2026-05-04T17:46:29.108060-04:00",
   "games": [
     {
       "gamePk": 824363,
@@ -7,7 +7,7 @@
       "home_team": "Colorado Rockies",
       "venue": "Coors Field",
       "start": "2026-05-04T21:40:00Z",
-      "status": "Preview",
+      "status": "Live",
       "away_pitcher": {
         "id": 623211,
         "name": "Huascar Brazob\u00e1n",
@@ -62,8 +62,8 @@
         "id": 608372,
         "name": "Tomoyuki Sugano",
         "hand": "R",
-        "era": "2.84",
-        "whip": "1.17",
+        "era": "2.78",
+        "whip": "1.14",
         "last3": {
           "starts": [
             {
@@ -132,10 +132,10 @@
         {
           "name": "Juan Soto",
           "stats": {
-            "avg": ".314",
-            "obp": ".415",
-            "slg": ".500",
-            "ops": ".915",
+            "avg": ".310",
+            "obp": ".410",
+            "slg": ".493",
+            "ops": ".903",
             "homeRuns": 3,
             "rbi": 8
           },
@@ -192,10 +192,10 @@
         {
           "name": "Bo Bichette",
           "stats": {
-            "avg": ".243",
-            "obp": ".280",
-            "slg": ".321",
-            "ops": ".601",
+            "avg": ".241",
+            "obp": ".278",
+            "slg": ".319",
+            "ops": ".597",
             "homeRuns": 2,
             "rbi": 15
           },
@@ -521,53 +521,53 @@
         }
       },
       "home_pitcher": {
-        "id": 669373,
-        "name": "Tarik Skubal",
+        "id": 663947,
+        "name": "Tyler Holton",
         "hand": "L",
-        "era": "2.70",
-        "whip": "0.95",
+        "era": "5.27",
+        "whip": "1.90",
         "last3": {
           "starts": [
             {
               "date": "2026-03-26",
               "opponent": "San Diego Padres",
-              "ip": "6.0",
+              "ip": "0.2",
               "er": 0,
-              "k": 6,
-              "bb": 0,
-              "pitches": 74,
-              "strikes": 49
+              "k": 0,
+              "bb": 1,
+              "pitches": 11,
+              "strikes": 5
             },
             {
-              "date": "2026-04-01",
+              "date": "2026-03-30",
               "opponent": "Arizona Diamondbacks",
-              "ip": "7.0",
-              "er": 1,
-              "k": 3,
-              "bb": 0,
-              "pitches": 87,
-              "strikes": 60
+              "ip": "1.0",
+              "er": 0,
+              "k": 1,
+              "bb": 2,
+              "pitches": 19,
+              "strikes": 7
             },
             {
-              "date": "2026-04-07",
-              "opponent": "Minnesota Twins",
-              "ip": "4.2",
-              "er": 4,
-              "k": 7,
-              "bb": 2,
-              "pitches": 95,
-              "strikes": 65
+              "date": "2026-04-03",
+              "opponent": "St. Louis Cardinals",
+              "ip": "1.0",
+              "er": 0,
+              "k": 1,
+              "bb": 0,
+              "pitches": 7,
+              "strikes": 5
             }
           ],
-          "avg_ip": "6.0",
-          "avg_k": "5.3",
-          "avg_bb": "0.7",
-          "avg_pitches": "85.3",
-          "avg_strikes": "58.0",
-          "era": "2.55",
-          "whip": "1.08",
-          "strike_pct": "68.0",
-          "quality_starts": 2
+          "avg_ip": "1.0",
+          "avg_k": "0.7",
+          "avg_bb": "1.0",
+          "avg_pitches": "12.3",
+          "avg_strikes": "5.7",
+          "era": "0.00",
+          "whip": "1.12",
+          "strike_pct": "45.9",
+          "quality_starts": 0
         }
       },
       "away_hitters": [
@@ -942,7 +942,56 @@
       "venue": "Tropicana Field",
       "start": "2026-05-04T22:40:00Z",
       "status": "Preview",
-      "away_pitcher": {},
+      "away_pitcher": {
+        "id": 641778,
+        "name": "Eric Lauer",
+        "hand": "L",
+        "era": "6.00",
+        "whip": "1.52",
+        "last3": {
+          "starts": [
+            {
+              "date": "2026-03-29",
+              "opponent": "Athletics",
+              "ip": "5.1",
+              "er": 2,
+              "k": 9,
+              "bb": 1,
+              "pitches": 87,
+              "strikes": 58
+            },
+            {
+              "date": "2026-04-05",
+              "opponent": "Chicago White Sox",
+              "ip": "2.0",
+              "er": 2,
+              "k": 0,
+              "bb": 3,
+              "pitches": 49,
+              "strikes": 26
+            },
+            {
+              "date": "2026-04-11",
+              "opponent": "Minnesota Twins",
+              "ip": "5.1",
+              "er": 7,
+              "k": 3,
+              "bb": 5,
+              "pitches": 95,
+              "strikes": 53
+            }
+          ],
+          "avg_ip": "4.1",
+          "avg_k": "4.0",
+          "avg_bb": "3.0",
+          "avg_pitches": "77.0",
+          "avg_strikes": "45.7",
+          "era": "7.82",
+          "whip": "1.58",
+          "strike_pct": "59.3",
+          "quality_starts": 0
+        }
+      },
       "home_pitcher": {
         "id": 607259,
         "name": "Nick Martinez",
