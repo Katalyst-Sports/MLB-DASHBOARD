@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-05-04T04:06:50.939221-04:00",
+  "updated_at": "2026-05-04T09:14:02.700513-04:00",
   "date": "2026-05-03",
   "dashboard_recap": {
     "headline": "MLB Daily Recap - May 03, 2026",
-    "article": "**MLB Recap: Upset Wins and Power Hitting Dominate**\n\nIn a day filled with surprises, the Minnesota Twins edged the Toronto Blue Jays 4-3, with Kazuma Okamoto's 9th home run of the season proving to be the difference-maker. Okamoto's fly ball to left center field brought in Myles Straw and gave the Twins the lead they wouldn't relinquish.\n\nMeanwhile, the Houston Astros continued their strong start to the season, taking down the Boston Red Sox 3-1 behind a strong outing from AJ Blubaugh, who struck out five in 3.2 innings of work. Jarren Duran's solo home run was the only highlight for the Red Sox.\n\nThe Atlanta Braves also made headlines with an 11-6 win over the Colorado Rockies, with Mickey Moniak's pair of home runs leading the way for the Braves. Moniak finished the day with three runs batted in and a pair of hits.\n\nOn the pitching side, Logan Henderson turned in an impressive performance for the Washington Nationals, striking out eight in six innings of work in their 3-2 win over the Milwaukee Brewers.",
+    "article": "**MLB Recap: Monday's Action**\n\nMinnesota Twins 4, Toronto Blue Jays 3: Kazuma Okamoto's 9th home run of the season, a fly ball to left center field, proved to be the difference-maker as the Twins edged the Blue Jays. Trey Yesavage tossed 4.0 innings, striking out 6, but took the loss. Andrew Morris earned the win.\n\nHouston Astros 3, Boston Red Sox 1: Jarren Duran's solo home run wasn't enough to power the Red Sox past the Astros. Bryan Abreu earned the win, striking out 5 over 3.2 innings. Cam Smith's sharp line drive single to left field plated two runs for the Astros.\n\nPittsburgh Pirates 1, Cincinnati Reds 0: Oneil Cruz's sharp line drive single to center field scored a run, securing the Pirates' narrow win. Chase Burns fired 7.0 shutout innings, striking out 7 for the Pirates.",
     "all_games": [
       {
         "game": "Toronto Blue Jays @ Minnesota Twins",
@@ -18,7 +18,7 @@
         "final_score": "3-1",
         "top_pitching_line": "AJ Blubaugh: 3.2 IP, 5 K, 1 ER, 2 BB, 2 H",
         "top_batting_line": "Jarren Duran: 2 H, 1 HR, 1 RBI, 5 AB",
-        "summary": "The Houston Astros edged the Boston Red Sox 3-1, with Cam Smith's single driving in two runs and AJ Blubaugh pitching 3.2 strong innings.",
+        "summary": "The Houston Astros edged the Boston Red Sox 3-1 behind a strong outing from AJ Blubaugh and a key single from Cam Smith.",
         "impact_player": "Jarren Duran"
       },
       {
@@ -26,7 +26,7 @@
         "final_score": "0-1",
         "top_pitching_line": "Chase Burns: 7.0 IP, 7 K, 0 ER, 1 BB, 3 H",
         "top_batting_line": "Oneil Cruz: 2 H, 0 HR, 1 RBI, 4 AB",
-        "summary": "The Pittsburgh Pirates edged the Cincinnati Reds 1-0 behind Chase Burns' 7 shutout innings and Oneil Cruz's key RBI single.",
+        "summary": "Pittsburgh Pirates edge Cincinnati Reds 1-0 behind Chase Burns' 7 shutout innings and Oneil Cruz's decisive single that plated the game's only run.",
         "impact_player": "Oneil Cruz"
       },
       {
@@ -42,7 +42,7 @@
         "final_score": "2-3",
         "top_pitching_line": "Logan Henderson: 6.0 IP, 8 K, 2 ER, 0 BB, 3 H",
         "top_batting_line": "Nasim Nu\u00f1ez: 2 H, 0 HR, 2 RBI, 3 AB",
-        "summary": "The Washington Nationals edged the Milwaukee Brewers 3-2 behind Logan Henderson's 6 shutout innings and Nasim Nu\u00f1ez's 2 hits and 2 RBIs.",
+        "summary": "The Washington Nationals edged the Milwaukee Brewers 3-2 behind Logan Henderson's 6.0 innings of 2-earned-run ball and Nasim Nu\u00f1ez's 2 hits and 2 RBIs.",
         "impact_player": "Nasim Nu\u00f1ez"
       },
       {
@@ -50,7 +50,7 @@
         "final_score": "1-2",
         "top_pitching_line": "Tyler Mahle: 5.1 IP, 5 K, 0 ER, 1 BB, 4 H",
         "top_batting_line": "Jonathan Aranda: 4 H, 0 HR, 1 RBI, 5 AB",
-        "summary": "The Tampa Bay Rays edged the San Francisco Giants 2-1, with Jonathan Aranda delivering a key single to score Chandler Simpson.",
+        "summary": "The Tampa Bay Rays edged the San Francisco Giants 2-1 behind Tyler Mahle's 5.1 scoreless innings and Jonathan Aranda's key single that scored Chandler Simpson.",
         "impact_player": "Jonathan Aranda"
       },
       {
@@ -58,7 +58,7 @@
         "final_score": "7-2",
         "top_pitching_line": "Jes\u00fas Luzardo: 6.1 IP, 10 K, 2 ER, 0 BB, 8 H",
         "top_batting_line": "Bryson Stott: 1 H, 1 HR, 3 RBI, 4 AB",
-        "summary": "The Philadelphia Phillies defeated the Miami Marlins 7-2 behind Bryson Stott's 3-RBI performance, including a solo home run.",
+        "summary": "The Philadelphia Phillies defeated the Miami Marlins 7-2 behind Bryson Stott's 3-RBI, 1-home-run performance.",
         "impact_player": "Bryson Stott"
       },
       {
@@ -66,7 +66,7 @@
         "final_score": "4-1",
         "top_pitching_line": "Tanner Scott: 1.0 IP, 2 K, 0 ER, 0 BB, 0 H",
         "top_batting_line": "Freddie Freeman: 2 H, 0 HR, 1 RBI, 5 AB",
-        "summary": "The Los Angeles Dodgers edged the St. Louis Cardinals 4-1 behind a strong outing and key hits, including Freddie Freeman's 2 hits and Andy Pages' crucial run.",
+        "summary": "The Los Angeles Dodgers edged the St. Louis Cardinals 4-1 behind a strong outing and key hits, including Freddie Freeman's 2-for-5 effort.",
         "impact_player": "Freddie Freeman"
       },
       {
@@ -74,7 +74,7 @@
         "final_score": "4-8",
         "top_pitching_line": "Matthew Boyd: 6.0 IP, 5 K, 2 ER, 1 BB, 4 H",
         "top_batting_line": "Mois\u00e9s Ballesteros: 2 H, 1 HR, 2 RBI, 4 AB",
-        "summary": "The Chicago Cubs defeated the Arizona Diamondbacks 8-4 behind Mois\u00e9s Ballesteros' 2 hits, including a home run, and Matthew Boyd's 6 strong innings.",
+        "summary": "The Chicago Cubs defeated the Arizona Diamondbacks 8-4 behind Mois\u00e9s Ballesteros' 2 hits, 1 home run, and 2 RBIs, and Matthew Boyd's 6 strong innings.",
         "impact_player": "Mois\u00e9s Ballesteros"
       },
       {
@@ -82,7 +82,7 @@
         "final_score": "11-6",
         "top_pitching_line": "Spencer Strider: 3.1 IP, 6 K, 3 ER, 5 BB, 4 H",
         "top_batting_line": "Mickey Moniak: 2 H, 2 HR, 3 RBI, 4 AB",
-        "summary": "The Atlanta Braves defeated the Colorado Rockies 11-6 behind Mickey Moniak's 2 HR and 3 RBI, and a strong start from Spencer Strider.",
+        "summary": "The Atlanta Braves defeated the Colorado Rockies 11-6 behind Mickey Moniak's 2 home runs and 3 RBIs, and Spencer Strider's 6 strikeouts in 3.1 innings.",
         "impact_player": "Mickey Moniak"
       },
       {
@@ -90,7 +90,7 @@
         "final_score": "1-7",
         "top_pitching_line": "Colin Holderman: 2.0 IP, 2 K, 0 ER, 0 BB, 3 H",
         "top_batting_line": "Tyler Soderstrom: 3 H, 1 HR, 1 RBI, 4 AB",
-        "summary": "The Athletics dominated the Guardians 7-1 behind Tyler Soderstrom's 3 hits, including a home run, and Colin Holderman's 2 scoreless innings.",
+        "summary": "The Athletics dominated the Guardians 7-1, led by Tyler Soderstrom's 3 hits, including a home run, and Colin Holderman's 2 scoreless innings.",
         "impact_player": "Tyler Soderstrom"
       },
       {
@@ -98,7 +98,7 @@
         "final_score": "5-1",
         "top_pitching_line": "Clay Holmes: 6.2 IP, 6 K, 1 ER, 3 BB, 4 H",
         "top_batting_line": "Mark Vientos: 2 H, 2 HR, 4 RBI, 4 AB",
-        "summary": "The New York Mets defeated the Los Angeles Angels 5-1 behind Mark Vientos' 2-home run, 4-RBI performance and Clay Holmes' 6.2 innings of 1-run relief.",
+        "summary": "The New York Mets defeated the Los Angeles Angels 5-1 behind Mark Vientos' 2 home runs and Clay Holmes' 6.2 innings of 1-run ball.",
         "impact_player": "Mark Vientos"
       },
       {
@@ -106,7 +106,7 @@
         "final_score": "4-1",
         "top_pitching_line": "Kris Bubic: 7.0 IP, 7 K, 1 ER, 2 BB, 4 H",
         "top_batting_line": "Isaac Collins: 2 H, 0 HR, 2 RBI, 2 AB",
-        "summary": "The Kansas City Royals edged the Seattle Mariners 4-1 behind Kris Bubic's 7 strong innings and Isaac Collins' 2 hits, 2 RBI performance.",
+        "summary": "The Kansas City Royals edged the Seattle Mariners 4-1 behind Kris Bubic's 7 strong innings, including 7 strikeouts, and Isaac Collins' 2 hits and 2 RBIs.",
         "impact_player": "Isaac Collins"
       },
       {
@@ -114,7 +114,7 @@
         "final_score": "3-4",
         "top_pitching_line": "Griffin Canning: 5.0 IP, 7 K, 1 ER, 3 BB, 3 H",
         "top_batting_line": "Derek Hill: 1 H, 1 HR, 2 RBI, 1 AB",
-        "summary": "The San Diego Padres edged the Chicago White Sox 4-3 behind a solo homer from Derek Hill and a strong 5-inning outing from Griffin Canning.",
+        "summary": "The San Diego Padres edged the Chicago White Sox 4-3 behind Derek Hill's 1 HR and 2 RBI, and a crucial single by Xander Bogaerts.",
         "impact_player": "Derek Hill"
       },
       {
@@ -122,7 +122,7 @@
         "final_score": "1-7",
         "top_pitching_line": "Jack Leiter: 6.2 IP, 10 K, 5 ER, 1 BB, 5 H",
         "top_batting_line": "Spencer Torkelson: 1 H, 1 HR, 2 RBI, 4 AB",
-        "summary": "The Detroit Tigers dominated the Texas Rangers 7-1 behind Jack Leiter's 6.2 innings with 10 strikeouts and Spencer Torkelson's 1 HR and 2 RBI.",
+        "summary": "The Detroit Tigers dominated the Texas Rangers 7-1, led by Spencer Torkelson's 1 HR and 2 RBI, and Jack Leiter's 6.2 IP with 10 strikeouts.",
         "impact_player": "Spencer Torkelson"
       }
     ],
