@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-04T09:14:02.700513-04:00",
+  "updated_at": "2026-05-04T14:06:47.757651-04:00",
   "games": [
     {
       "gamePk": 824363,
@@ -8,7 +8,56 @@
       "venue": "Coors Field",
       "start": "2026-05-04T21:40:00Z",
       "status": "Preview",
-      "away_pitcher": {},
+      "away_pitcher": {
+        "id": 623211,
+        "name": "Huascar Brazob\u00e1n",
+        "hand": "R",
+        "era": "1.15",
+        "whip": "0.89",
+        "last3": {
+          "starts": [
+            {
+              "date": "2026-03-28",
+              "opponent": "Pittsburgh Pirates",
+              "ip": "0.2",
+              "er": 0,
+              "k": 1,
+              "bb": 0,
+              "pitches": 4,
+              "strikes": 4
+            },
+            {
+              "date": "2026-03-29",
+              "opponent": "Pittsburgh Pirates",
+              "ip": "1.2",
+              "er": 0,
+              "k": 0,
+              "bb": 0,
+              "pitches": 14,
+              "strikes": 11
+            },
+            {
+              "date": "2026-04-01",
+              "opponent": "St. Louis Cardinals",
+              "ip": "0.2",
+              "er": 0,
+              "k": 1,
+              "bb": 0,
+              "pitches": 13,
+              "strikes": 9
+            }
+          ],
+          "avg_ip": "1.0",
+          "avg_k": "0.7",
+          "avg_bb": "0.0",
+          "avg_pitches": "10.3",
+          "avg_strikes": "8.0",
+          "era": "0.00",
+          "whip": "0.33",
+          "strike_pct": "77.4",
+          "quality_starts": 0
+        }
+      },
       "home_pitcher": {
         "id": 608372,
         "name": "Tomoyuki Sugano",
@@ -429,7 +478,7 @@
       "away_team": "Boston Red Sox",
       "home_team": "Detroit Tigers",
       "venue": "Comerica Park",
-      "start": "2026-05-04T22:40:00Z",
+      "start": "2026-05-04T22:10:00Z",
       "status": "Preview",
       "away_pitcher": {
         "id": 801139,
@@ -1720,26 +1769,6 @@
           }
         },
         {
-          "name": "Agust\u00edn Ram\u00edrez",
-          "stats": {
-            "avg": ".230",
-            "obp": ".318",
-            "slg": ".345",
-            "ops": ".663",
-            "homeRuns": 2,
-            "rbi": 14
-          },
-          "last10ab": {
-            "avg": "0.167",
-            "hits": 2,
-            "atBats": 12,
-            "homeRuns": 0,
-            "rbi": 0,
-            "walks": 4,
-            "games": 4
-          }
-        },
-        {
           "name": "Christopher Morel",
           "stats": {
             "avg": ".273",
@@ -1776,6 +1805,26 @@
             "homeRuns": 0,
             "rbi": 0,
             "walks": 2,
+            "games": 3
+          }
+        },
+        {
+          "name": "Owen Caissie",
+          "stats": {
+            "avg": ".207",
+            "obp": ".248",
+            "slg": ".337",
+            "ops": ".585",
+            "homeRuns": 2,
+            "rbi": 15
+          },
+          "last10ab": {
+            "avg": "0.500",
+            "hits": 5,
+            "atBats": 10,
+            "homeRuns": 1,
+            "rbi": 4,
+            "walks": 0,
             "games": 3
           }
         }
@@ -2258,7 +2307,7 @@
       "away_team": "Cincinnati Reds",
       "home_team": "Chicago Cubs",
       "venue": "Wrigley Field",
-      "start": "2026-05-04T23:40:00Z",
+      "start": "2026-05-04T23:10:00Z",
       "status": "Preview",
       "away_pitcher": {
         "id": 695534,
