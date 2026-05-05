@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-05-05T02:28:39.747535-04:00",
+  "updated_at": "2026-05-05T07:06:35.247621-04:00",
   "date": "2026-05-04",
   "dashboard_recap": {
     "headline": "MLB Daily Recap - May 04, 2026",
-    "article": "**Mets Take Down Rockies, Dodgers Outslug Astros in Wednesday's MLB Action**\n\nIn a 4-2 victory, the New York Mets' staff effort led by Juan Mejia's 5 K innings, earned the win over the Colorado Rockies. Carson Benge's 1 HR and 1 RBI paced the Mets' offense. Meanwhile, Bryce Harper's 3 hits and 1 HR propelled the Philadelphia Phillies to a 1-0 shutout over the Miami Marlins. Aaron Nola's 6 scoreless innings and 5 Ks led the way for the Phillies.\n\nIn other action, Jarren Duran's 3 hits and 3 RBI powered the Boston Red Sox to a 5-4 win over the Detroit Tigers, while Payton Tolle's 7 strong innings earned him the win. Elsewhere, the Los Angeles Dodgers used a 5-hit 8th inning to outlast the Houston Astros 8-3, with Yoshinobu Yamamoto pitching 6 innings of 8 K ball.",
+    "article": "**Mets Walk Off in Colorado, Dodgers Win in Houston**\n\nThe New York Mets edged out the Colorado Rockies 4-2, thanks in part to Carson Benge's solo home run. Mickey Moniak also had a strong game for the Mets. On the mound, Juan Mejia struck out five in two innings of work. David Peterson earned the win for the Mets.\n\nIn other action, the Los Angeles Dodgers dominated the Houston Astros 8-3, behind a strong start from Yoshinobu Yamamoto, who struck out eight in six innings. Kyle Tucker had a big game for the Astros, hitting a home run. The Chicago White Sox blanked the Los Angeles Angels 6-0, with Davis Martin throwing a seven-inning shutout.",
     "all_games": [
       {
         "game": "New York Mets @ Colorado Rockies",
         "final_score": "4-2",
         "top_pitching_line": "Juan Mejia: 2.0 IP, 5 K, 0 ER, 0 BB, 0 H",
         "top_batting_line": "Carson Benge: 1 H, 1 HR, 1 RBI, 2 AB",
-        "summary": "The New York Mets edged the Colorado Rockies 4-2 behind Juan Mejia's 2 scoreless innings and Carson Benge's 1 HR, 1 RBI performance.",
+        "summary": "The New York Mets edged the Colorado Rockies 4-2 behind Juan Mejia's 2 scoreless innings with 5 strikeouts and Carson Benge's 1 HR and 1 RBI.",
         "impact_player": "Carson Benge"
       },
       {
@@ -18,7 +18,7 @@
         "final_score": "5-4",
         "top_pitching_line": "Payton Tolle: 7.0 IP, 8 K, 0 ER, 1 BB, 1 H",
         "top_batting_line": "Jarren Duran: 3 H, 1 HR, 3 RBI, 5 AB",
-        "summary": "The Boston Red Sox edged the Detroit Tigers 5-4, led by Jarren Duran's 3 hits, including a home run, and 3 RBIs.",
+        "summary": "The Boston Red Sox edged the Detroit Tigers 5-4 behind Jarren Duran's 3 hits, 1 home run, and 3 RBIs, and Payton Tolle's 7 shutout innings.",
         "impact_player": "Jarren Duran"
       },
       {
@@ -26,7 +26,7 @@
         "final_score": "1-5",
         "top_pitching_line": "Nick Martinez: 5.0 IP, 4 K, 1 ER, 1 BB, 5 H",
         "top_batting_line": "Ryan Vilade: 1 H, 1 HR, 3 RBI, 2 AB",
-        "summary": "The Tampa Bay Rays defeated the Toronto Blue Jays 5-1 behind Nick Martinez's 5 strong innings, and Ryan Vilade's 1 HR and 3 RBI.",
+        "summary": "Tampa Bay Rays win 5-1 behind Nick Martinez's 5 strong innings, while Ryan Vilade's 1 HR and 3 RBI lead the Blue Jays' offense.",
         "impact_player": "Ryan Vilade"
       },
       {
@@ -34,7 +34,7 @@
         "final_score": "1-0",
         "top_pitching_line": "Aaron Nola: 6.0 IP, 5 K, 0 ER, 0 BB, 5 H",
         "top_batting_line": "Bryce Harper: 3 H, 1 HR, 1 RBI, 4 AB",
-        "summary": "The Philadelphia Phillies edged the Miami Marlins 1-0 behind Aaron Nola's 6 shutout innings and Bryce Harper's solo home run.",
+        "summary": "The Philadelphia Phillies edged the Miami Marlins 1-0 behind Aaron Nola's 6 shutout innings and Bryce Harper's solo homer.",
         "impact_player": "Bryce Harper"
       },
       {
@@ -42,7 +42,7 @@
         "final_score": "1-12",
         "top_pitching_line": "Cam Schlittler: 5.2 IP, 4 K, 1 ER, 3 BB, 7 H",
         "top_batting_line": "Aaron Judge: 2 H, 1 HR, 4 RBI, 4 AB",
-        "summary": "The New York Yankees dominated the Baltimore Orioles 12-1 behind Aaron Judge's 2 hits, including a home run, and 4 RBIs.",
+        "summary": "The New York Yankees dominated the Baltimore Orioles 12-1 behind Aaron Judge's 2 hits, 1 home run, and 4 RBIs, and Cam Schlittler's 5.2 innings of work.",
         "impact_player": "Aaron Judge"
       },
       {
@@ -50,7 +50,7 @@
         "final_score": "4-5",
         "top_pitching_line": "Edward Cabrera: 6.0 IP, 8 K, 3 ER, 2 BB, 9 H",
         "top_batting_line": "Seiya Suzuki: 2 H, 1 HR, 3 RBI, 3 AB",
-        "summary": "The Chicago Cubs edged the Cincinnati Reds 5-4 behind Seiya Suzuki's 2-for-3 performance with a home run and 3 RBIs.",
+        "summary": "The Chicago Cubs edged the Cincinnati Reds 5-4 behind Seiya Suzuki's 2-hit, 3-RBI performance, including a solo home run.",
         "impact_player": "Seiya Suzuki"
       },
       {
@@ -58,7 +58,7 @@
         "final_score": "2-6",
         "top_pitching_line": "Connor Brogdon: 1.1 IP, 1 K, 0 ER, 0 BB, 1 H",
         "top_batting_line": "David Fry: 2 H, 1 HR, 2 RBI, 3 AB",
-        "summary": "The Kansas City Royals defeated the Cleveland Guardians 6-2 behind David Fry's 2 hits, including a home run, and a strong relief appearance by Connor Brogdon.",
+        "summary": "The Kansas City Royals outlasted the Cleveland Guardians 6-2, led by David Fry's 2 hits, 1 home run, and 2 RBIs.",
         "impact_player": "David Fry"
       },
       {
@@ -66,7 +66,7 @@
         "final_score": "3-6",
         "top_pitching_line": "Kyle Leahy: 5.1 IP, 5 K, 1 ER, 2 BB, 6 H",
         "top_batting_line": "Brice Turang: 3 H, 1 HR, 2 RBI, 5 AB",
-        "summary": "The St. Louis Cardinals defeated the Milwaukee Brewers 6-3, with Brice Turang's 5th home run providing a brief highlight for the Brewers.",
+        "summary": "The St. Louis Cardinals defeated the Milwaukee Brewers 6-3 behind a strong outing from Kyle Leahy and a 3-hit, 2-RBI performance from Brice Turang.",
         "impact_player": "Brice Turang"
       },
       {
@@ -82,7 +82,7 @@
         "final_score": "6-0",
         "top_pitching_line": "Davis Martin: 7.0 IP, 10 K, 0 ER, 0 BB, 5 H",
         "top_batting_line": "Munetaka Murakami: 3 H, 1 HR, 2 RBI, 4 AB",
-        "summary": "The Chicago White Sox dominated the Los Angeles Angels 6-0 behind Davis Martin's 7 shutout innings and Munetaka Murakami's 3-hit, 2-RBI performance.",
+        "summary": "The Chicago White Sox dominated the Los Angeles Angels 6-0 behind Davis Martin's 7 shutout innings and Munetaka Murakami's 3-hit, 1-home-run performance.",
         "impact_player": "Munetaka Murakami"
       },
       {
@@ -90,7 +90,7 @@
         "final_score": "4-5",
         "top_pitching_line": "Andr\u00e9s Mu\u00f1oz: 1.0 IP, 2 K, 0 ER, 0 BB, 1 H",
         "top_batting_line": "Luke Raley: 1 H, 1 HR, 3 RBI, 2 AB",
-        "summary": "The Seattle Mariners edged the Atlanta Braves 5-4 behind Luke Raley's 1 HR, 3 RBI performance and Andr\u00e9s Mu\u00f1oz's scoreless 1st inning.",
+        "summary": "The Seattle Mariners edged the Atlanta Braves 5-4, with Luke Raley's 1 HR and 3 RBI leading the Mariners' offense.",
         "impact_player": "Luke Raley"
       },
       {
@@ -98,7 +98,7 @@
         "final_score": "2-3",
         "top_pitching_line": "Trevor McDonald: 7.0 IP, 8 K, 1 ER, 0 BB, 2 H",
         "top_batting_line": "Jackson Merrill: 2 H, 1 HR, 1 RBI, 4 AB",
-        "summary": "The San Francisco Giants edged the San Diego Padres 3-2 behind Trevor McDonald's 7 shutout innings and Ram\u00f3n Laureano's 5th home run of the season.",
+        "summary": "The San Francisco Giants edged the San Diego Padres 3-2 behind Trevor McDonald's 7 scoreless innings and Ram\u00f3n Laureano's 5th home run of the season.",
         "impact_player": "Jackson Merrill"
       }
     ],
