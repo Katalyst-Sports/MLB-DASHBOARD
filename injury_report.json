@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-05T13:06:02.801698-04:00",
+  "updated_at": "2026-05-05T16:44:29.008608-04:00",
   "teams": [
     {
       "team_id": 109,
@@ -2211,7 +2211,7 @@
     {
       "team_id": 138,
       "team_name": "St. Louis Cardinals",
-      "injured_count": 2,
+      "injured_count": 3,
       "players": [
         {
           "player_id": 690928,
@@ -2228,13 +2228,21 @@
           "date": "2026-03-31",
           "note": "St. Louis Cardinals placed RHP Matt Pushard on the 15-day injured list retroactive to March 30, 2026. Right knee patellar tendinitis. | Status Change",
           "description": "St. Louis Cardinals placed RHP Matt Pushard on the 15-day injured list retroactive to March 30, 2026. Right knee patellar tendinitis."
+        },
+        {
+          "player_id": 602104,
+          "name": "Ram\u00f3n Ur\u00edas",
+          "il_type": "Injured List",
+          "date": "2026-05-05",
+          "note": "St. Louis Cardinals placed 3B Ram\u00f3n Ur\u00edas on the 10-day injured list. Right elbow lateral epicondylitis. | Status Change",
+          "description": "St. Louis Cardinals placed 3B Ram\u00f3n Ur\u00edas on the 10-day injured list. Right elbow lateral epicondylitis."
         }
       ]
     },
     {
       "team_id": 139,
       "team_name": "Tampa Bay Rays",
-      "injured_count": 10,
+      "injured_count": 11,
       "players": [
         {
           "player_id": 670955,
@@ -2301,6 +2309,14 @@
           "description": "Tampa Bay Rays transferred RHP Ryan Pepiot from the 15-day injured list to the 60-day injured list. Right hip inflammation."
         },
         {
+          "player_id": 571927,
+          "name": "Steven Matz",
+          "il_type": "Injured List",
+          "date": "2026-05-05",
+          "note": "Tampa Bay Rays placed LHP Steven Matz on the 15-day injured list retroactive to May 4, 2026. Left elbow inflammation. | Status Change",
+          "description": "Tampa Bay Rays placed LHP Steven Matz on the 15-day injured list retroactive to May 4, 2026. Left elbow inflammation."
+        },
+        {
           "player_id": 621051,
           "name": "Steven Wilson",
           "il_type": "Injured List",
@@ -2321,7 +2337,7 @@
     {
       "team_id": 140,
       "team_name": "Texas Rangers",
-      "injured_count": 8,
+      "injured_count": 9,
       "players": [
         {
           "player_id": 691945,
@@ -2362,6 +2378,14 @@
           "date": "2026-03-08",
           "note": "Texas Rangers placed LHP Jordan Montgomery on the 60-day injured list. Recovering from Tommy John surgery. | Status Change",
           "description": "Texas Rangers placed LHP Jordan Montgomery on the 60-day injured list. Recovering from Tommy John surgery."
+        },
+        {
+          "player_id": 669701,
+          "name": "Josh Smith",
+          "il_type": "Injured List",
+          "date": "2026-05-05",
+          "note": "Texas Rangers placed 2B Josh Smith on the 10-day injured list retroactive to May 4, 2026. Right glute strain. | Status Change",
+          "description": "Texas Rangers placed 2B Josh Smith on the 10-day injured list retroactive to May 4, 2026. Right glute strain."
         },
         {
           "player_id": 681168,

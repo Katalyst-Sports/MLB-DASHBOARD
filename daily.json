@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-05T13:06:02.801698-04:00",
+  "updated_at": "2026-05-05T16:44:29.008608-04:00",
   "games": [
     {
       "gamePk": 824281,
@@ -394,10 +394,10 @@
         {
           "name": "Colt Keith",
           "stats": {
-            "avg": ".317",
-            "obp": ".355",
-            "slg": ".386",
-            "ops": ".741",
+            "avg": ".327",
+            "obp": ".364",
+            "slg": ".396",
+            "ops": ".760",
             "homeRuns": 0,
             "rbi": 6
           },
@@ -4028,10 +4028,10 @@
         {
           "name": "Iv\u00e1n Herrera",
           "stats": {
-            "avg": ".256",
-            "obp": ".416",
-            "slg": ".424",
-            "ops": ".840",
+            "avg": ".248",
+            "obp": ".410",
+            "slg": ".416",
+            "ops": ".826",
             "homeRuns": 4,
             "rbi": 17
           },
@@ -5974,6 +5974,26 @@
           }
         },
         {
+          "name": "Cole Young",
+          "stats": {
+            "avg": ".266",
+            "obp": ".331",
+            "slg": ".383",
+            "ops": ".714",
+            "homeRuns": 3,
+            "rbi": 19
+          },
+          "last10ab": {
+            "avg": "0.182",
+            "hits": 2,
+            "atBats": 11,
+            "homeRuns": 1,
+            "rbi": 3,
+            "walks": 0,
+            "games": 3
+          }
+        },
+        {
           "name": "J.P. Crawford",
           "stats": {
             "avg": ".208",
@@ -5990,26 +6010,6 @@
             "homeRuns": 0,
             "rbi": 0,
             "walks": 3,
-            "games": 3
-          }
-        },
-        {
-          "name": "Cole Young",
-          "stats": {
-            "avg": ".258",
-            "obp": ".324",
-            "slg": ".375",
-            "ops": ".699",
-            "homeRuns": 3,
-            "rbi": 19
-          },
-          "last10ab": {
-            "avg": "0.182",
-            "hits": 2,
-            "atBats": 11,
-            "homeRuns": 1,
-            "rbi": 3,
-            "walks": 0,
             "games": 3
           }
         },
