@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-05T16:44:29.008608-04:00",
+  "updated_at": "2026-05-05T19:34:53.717503-04:00",
   "teams": [
     {
       "team_id": 109,
@@ -628,9 +628,9 @@
           "player_id": 689672,
           "name": "Drew Thorpe",
           "il_type": "Injured List",
-          "date": "2026-03-25",
-          "note": "Chicago White Sox placed RHP Drew Thorpe on the 15-day injured list. Tommy John surgery recovery. | Status Change",
-          "description": "Chicago White Sox placed RHP Drew Thorpe on the 15-day injured list. Tommy John surgery recovery."
+          "date": "2026-05-05",
+          "note": "Chicago White Sox transferred RHP Drew Thorpe from the 15-day injured list to the 60-day injured list. Recovery from Tommy John surgery. | Status Change",
+          "description": "Chicago White Sox transferred RHP Drew Thorpe from the 15-day injured list to the 60-day injured list. Recovery from Tommy John surgery."
         },
         {
           "player_id": 677592,
@@ -1017,7 +1017,7 @@
     {
       "team_id": 117,
       "team_name": "Houston Astros",
-      "injured_count": 17,
+      "injured_count": 18,
       "players": [
         {
           "player_id": 656986,
@@ -1146,6 +1146,14 @@
           "date": "2026-04-21",
           "note": "Houston Astros placed LF Taylor Trammell on the 10-day injured list. Left groin strain. | Status Change",
           "description": "Houston Astros placed LF Taylor Trammell on the 10-day injured list. Left groin strain."
+        },
+        {
+          "player_id": 673237,
+          "name": "Yainer Diaz",
+          "il_type": "Injured List",
+          "date": "2026-05-05",
+          "note": "Houston Astros placed C Yainer Diaz on the 10-day injured list. Left oblique strain. | Status Change",
+          "description": "Houston Astros placed C Yainer Diaz on the 10-day injured list. Left oblique strain."
         },
         {
           "player_id": 701305,
@@ -1918,7 +1926,7 @@
     {
       "team_id": 135,
       "team_name": "San Diego Padres",
-      "injured_count": 12,
+      "injured_count": 13,
       "players": [
         {
           "player_id": 663773,
@@ -1943,6 +1951,14 @@
           "date": "2026-03-25",
           "note": "San Diego Padres placed RHP Griffin Canning on the 15-day injured list. Left Achilles surgery. | Status Change",
           "description": "San Diego Padres placed RHP Griffin Canning on the 15-day injured list. Left Achilles surgery."
+        },
+        {
+          "player_id": 630105,
+          "name": "Jake Cronenworth",
+          "il_type": "Injured List",
+          "date": "2026-05-05",
+          "note": "San Diego Padres placed 2B Jake Cronenworth on the 7-day injured list. Concussion symptoms. | Status Change",
+          "description": "San Diego Padres placed 2B Jake Cronenworth on the 7-day injured list. Concussion symptoms."
         },
         {
           "player_id": 592094,
