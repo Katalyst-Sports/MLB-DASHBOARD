@@ -1,5 +1,15 @@
 {
-  "updated_at": "2026-05-05T07:06:35.247621-04:00",
-  "games": [],
+  "updated_at": "2026-05-05T13:06:02.801698-04:00",
+  "games": [
+    {
+      "gamePk": 824362,
+      "game": "New York Mets @ Colorado Rockies",
+      "winner": "Colorado Rockies",
+      "loser": "New York Mets",
+      "final_score": "0-0",
+      "hitters": [],
+      "pitchers": []
+    }
+  ],
   "errors": []
 }
