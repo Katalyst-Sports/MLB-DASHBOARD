@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-04T17:46:29.108060-04:00",
+  "updated_at": "2026-05-05T02:28:39.747535-04:00",
   "teams": [
     {
       "team_id": 109,
@@ -604,9 +604,9 @@
           "player_id": 669720,
           "name": "Austin Hays",
           "il_type": "Injured List",
-          "date": "2026-04-07",
-          "note": "Chicago White Sox placed LF Austin Hays on the 10-day injured list. Right hamstring strain. | Status Change",
-          "description": "Chicago White Sox placed LF Austin Hays on the 10-day injured list. Right hamstring strain."
+          "date": "2026-05-04",
+          "note": "Chicago White Sox placed LF Austin Hays on the 10-day injured list retroactive to May 2, 2026. Left calf strain. | Status Change",
+          "description": "Chicago White Sox placed LF Austin Hays on the 10-day injured list retroactive to May 2, 2026. Left calf strain."
         },
         {
           "player_id": 681460,
@@ -684,9 +684,9 @@
           "player_id": 695020,
           "name": "Tanner Murray",
           "il_type": "Injured List",
-          "date": "2026-04-27",
-          "note": "Chicago White Sox placed LF Tanner Murray on the 10-day injured list. Left shoulder dislocation. | Status Change",
-          "description": "Chicago White Sox placed LF Tanner Murray on the 10-day injured list. Left shoulder dislocation."
+          "date": "2026-05-04",
+          "note": "Chicago White Sox transferred LF Tanner Murray from the 10-day injured list to the 60-day injured list. Left shoulder dislocation. | Status Change",
+          "description": "Chicago White Sox transferred LF Tanner Murray from the 10-day injured list to the 60-day injured list. Left shoulder dislocation."
         }
       ]
     },
@@ -2021,7 +2021,7 @@
     {
       "team_id": 137,
       "team_name": "San Francisco Giants",
-      "injured_count": 10,
+      "injured_count": 11,
       "players": [
         {
           "player_id": 691740,
@@ -2030,6 +2030,14 @@
           "date": "2026-04-21",
           "note": "San Francisco Giants placed C Daniel Susac on the 10-day injured list retroactive to April 20, 2026. Right elbow ulnar neuritis/. | Status Change",
           "description": "San Francisco Giants placed C Daniel Susac on the 10-day injured list retroactive to April 20, 2026. Right elbow ulnar neuritis/."
+        },
+        {
+          "player_id": 669062,
+          "name": "Erik Miller",
+          "il_type": "Injured List",
+          "date": "2026-05-04",
+          "note": "San Francisco Giants placed LHP Erik Miller on the 15-day injured list retroactive to May 1, 2026. Low back strain. | Status Change",
+          "description": "San Francisco Giants placed LHP Erik Miller on the 15-day injured list retroactive to May 1, 2026. Low back strain."
         },
         {
           "player_id": 664056,
@@ -2108,7 +2116,7 @@
     {
       "team_id": 136,
       "team_name": "Seattle Mariners",
-      "injured_count": 10,
+      "injured_count": 11,
       "players": [
         {
           "player_id": 680977,
@@ -2133,6 +2141,14 @@
           "date": "2026-03-27",
           "note": "Seattle Mariners placed RHP Carlos Vargas on the 15-day injured list retroactive to March 24, 2026. Right lat strain. | Status Change",
           "description": "Seattle Mariners placed RHP Carlos Vargas on the 15-day injured list retroactive to March 24, 2026. Right lat strain."
+        },
+        {
+          "player_id": 642100,
+          "name": "Gabe Speier",
+          "il_type": "Injured List",
+          "date": "2026-05-04",
+          "note": "Seattle Mariners placed LHP Gabe Speier on the 15-day injured list retroactive to May 3, 2026. Left shoulder inflammation. | Status Change",
+          "description": "Seattle Mariners placed LHP Gabe Speier on the 15-day injured list retroactive to May 3, 2026. Left shoulder inflammation."
         },
         {
           "player_id": 641487,
