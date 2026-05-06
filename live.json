@@ -1,49 +1,65 @@
 {
-  "updated_at": "2026-05-06T16:53:34.313161-04:00",
+  "updated_at": "2026-05-06T19:37:08.256968-04:00",
   "games": [
     {
-      "gamePk": 824198,
-      "game": "Los Angeles Dodgers @ Houston Astros",
-      "score": "12-2",
-      "inning": "9th",
+      "gamePk": 824282,
+      "game": "Boston Red Sox @ Detroit Tigers",
+      "score": "2-0",
+      "inning": "3rd",
       "hot_hitters": [
-        "Shohei Ohtani",
-        "Kyle Tucker",
-        "Andy Pages",
-        "Dalton Rushing",
-        "Hyeseong Kim",
-        "Brice Matthews"
+        "Riley Greene"
       ],
       "top_pitchers": []
     },
     {
-      "gamePk": 823226,
-      "game": "San Diego Padres @ San Francisco Giants",
-      "score": "1-1",
-      "inning": "6th",
-      "hot_hitters": [
-        "Gavin Sheets",
-        "Rafael Devers"
-      ],
-      "top_pitchers": [
-        "Matt Waldron"
-      ]
+      "gamePk": 823470,
+      "game": "Athletics @ Philadelphia Phillies",
+      "score": "1-0",
+      "inning": "4th",
+      "hot_hitters": [],
+      "top_pitchers": []
     },
     {
-      "gamePk": 824036,
-      "game": "Chicago White Sox @ Los Angeles Angels",
-      "score": "1-5",
+      "gamePk": 823872,
+      "game": "Baltimore Orioles @ Miami Marlins",
+      "score": "4-3",
+      "inning": "4th",
+      "hot_hitters": [
+        "Pete Alonso"
+      ],
+      "top_pitchers": []
+    },
+    {
+      "gamePk": 822740,
+      "game": "Minnesota Twins @ Washington Nationals",
+      "score": "1-0",
+      "inning": "4th",
+      "hot_hitters": [],
+      "top_pitchers": []
+    },
+    {
+      "gamePk": 823550,
+      "game": "Texas Rangers @ New York Yankees",
+      "score": "1-0",
       "inning": "2nd",
       "hot_hitters": [
-        "Travis d'Arnaud"
+        "Corey Seager"
       ],
       "top_pitchers": []
     },
     {
-      "gamePk": 823141,
-      "game": "Atlanta Braves @ Seattle Mariners",
-      "score": "0-1",
-      "inning": "3rd",
+      "gamePk": 824683,
+      "game": "Cincinnati Reds @ Chicago Cubs",
+      "score": "0-0",
+      "inning": "1st",
+      "hot_hitters": [],
+      "top_pitchers": []
+    },
+    {
+      "gamePk": 824118,
+      "game": "Cleveland Guardians @ Kansas City Royals",
+      "score": "0-0",
+      "inning": "1st",
       "hot_hitters": [],
       "top_pitchers": []
     }
