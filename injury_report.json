@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-06T11:54:21.905084-04:00",
+  "updated_at": "2026-05-06T16:53:34.313161-04:00",
   "teams": [
     {
       "team_id": 109,
@@ -273,7 +273,7 @@
     {
       "team_id": 110,
       "team_name": "Baltimore Orioles",
-      "injured_count": 14,
+      "injured_count": 15,
       "players": [
         {
           "player_id": 668939,
@@ -362,6 +362,14 @@
           "date": "2026-04-13",
           "note": "Baltimore Orioles placed 1B Ryan Mountcastle on the 60-day injured list. Left foot fracture. | Status Change",
           "description": "Baltimore Orioles placed 1B Ryan Mountcastle on the 60-day injured list. Left foot fracture."
+        },
+        {
+          "player_id": 669432,
+          "name": "Trevor Rogers",
+          "il_type": "Injured List",
+          "date": "2026-04-29",
+          "note": "Baltimore Orioles placed LHP Trevor Rogers on the 15-day injured list retroactive to April 26, 2026. Illness. | Status Change",
+          "description": "Baltimore Orioles placed LHP Trevor Rogers on the 15-day injured list retroactive to April 26, 2026. Illness."
         },
         {
           "player_id": 641933,
@@ -693,15 +701,15 @@
     {
       "team_id": 113,
       "team_name": "Cincinnati Reds",
-      "injured_count": 6,
+      "injured_count": 7,
       "players": [
         {
           "player_id": 682227,
           "name": "Brandon Williamson",
           "il_type": "Injured List",
-          "date": "2026-04-30",
-          "note": "Cincinnati Reds placed LHP Brandon Williamson on the 15-day injured list. Left shoulder fatigue. | Status Change",
-          "description": "Cincinnati Reds placed LHP Brandon Williamson on the 15-day injured list. Left shoulder fatigue."
+          "date": "2026-05-06",
+          "note": "Cincinnati Reds transferred LHP Brandon Williamson from the 15-day injured list to the 60-day injured list. Left shoulder fatigue. | Status Change",
+          "description": "Cincinnati Reds transferred LHP Brandon Williamson from the 15-day injured list to the 60-day injured list. Left shoulder fatigue."
         },
         {
           "player_id": 657571,
@@ -710,6 +718,14 @@
           "date": "2026-03-25",
           "note": "Cincinnati Reds placed LHP Caleb Ferguson on the 15-day injured list retroactive to March 22, 2026. Oblique muscle strain. | Status Change",
           "description": "Cincinnati Reds placed LHP Caleb Ferguson on the 15-day injured list retroactive to March 22, 2026. Oblique muscle strain."
+        },
+        {
+          "player_id": 641941,
+          "name": "Emilio Pag\u00e1n",
+          "il_type": "Injured List",
+          "date": "2026-05-06",
+          "note": "Cincinnati Reds placed RHP Emilio Pag\u00e1n on the 15-day injured list. Left hamstring strain. | Status Change",
+          "description": "Cincinnati Reds placed RHP Emilio Pag\u00e1n on the 15-day injured list. Left hamstring strain."
         },
         {
           "player_id": 553993,
@@ -898,7 +914,7 @@
     {
       "team_id": 116,
       "team_name": "Detroit Tigers",
-      "injured_count": 14,
+      "injured_count": 15,
       "players": [
         {
           "player_id": 690544,
@@ -931,6 +947,14 @@
           "date": "2026-04-26",
           "note": "Detroit Tigers placed RHP Connor Seabold on the 15-day injured list. Left ankle inflammation. | Status Change",
           "description": "Detroit Tigers placed RHP Connor Seabold on the 15-day injured list. Left ankle inflammation."
+        },
+        {
+          "player_id": 650402,
+          "name": "Gleyber Torres",
+          "il_type": "Injured List",
+          "date": "2026-05-06",
+          "note": "Detroit Tigers placed 2B Gleyber Torres on the 10-day injured list retroactive to May 4, 2026. Left oblique strain. | Status Change",
+          "description": "Detroit Tigers placed 2B Gleyber Torres on the 10-day injured list retroactive to May 4, 2026. Left oblique strain."
         },
         {
           "player_id": 695549,
@@ -1017,7 +1041,7 @@
     {
       "team_id": 117,
       "team_name": "Houston Astros",
-      "injured_count": 18,
+      "injured_count": 19,
       "players": [
         {
           "player_id": 656986,
@@ -1034,6 +1058,14 @@
           "date": "2026-03-25",
           "note": "Houston Astros placed LHP Brandon Walter on the 60-day injured list. Left elbow surgery recovery. | Status Change",
           "description": "Houston Astros placed LHP Brandon Walter on the 60-day injured list. Left elbow surgery recovery."
+        },
+        {
+          "player_id": 621043,
+          "name": "Carlos Correa",
+          "il_type": "Injured List",
+          "date": "2026-05-06",
+          "note": "Houston Astros placed SS Carlos Correa on the 10-day injured list retroactive to May 5, 2026. Left ankle tendon injury. | Status Change",
+          "description": "Houston Astros placed SS Carlos Correa on the 10-day injured list retroactive to May 5, 2026. Left ankle tendon injury."
         },
         {
           "player_id": 675989,

@@ -1,5 +1,52 @@
 {
-  "updated_at": "2026-05-06T11:54:21.905084-04:00",
-  "games": [],
+  "updated_at": "2026-05-06T16:53:34.313161-04:00",
+  "games": [
+    {
+      "gamePk": 824198,
+      "game": "Los Angeles Dodgers @ Houston Astros",
+      "score": "12-2",
+      "inning": "9th",
+      "hot_hitters": [
+        "Shohei Ohtani",
+        "Kyle Tucker",
+        "Andy Pages",
+        "Dalton Rushing",
+        "Hyeseong Kim",
+        "Brice Matthews"
+      ],
+      "top_pitchers": []
+    },
+    {
+      "gamePk": 823226,
+      "game": "San Diego Padres @ San Francisco Giants",
+      "score": "1-1",
+      "inning": "6th",
+      "hot_hitters": [
+        "Gavin Sheets",
+        "Rafael Devers"
+      ],
+      "top_pitchers": [
+        "Matt Waldron"
+      ]
+    },
+    {
+      "gamePk": 824036,
+      "game": "Chicago White Sox @ Los Angeles Angels",
+      "score": "1-5",
+      "inning": "2nd",
+      "hot_hitters": [
+        "Travis d'Arnaud"
+      ],
+      "top_pitchers": []
+    },
+    {
+      "gamePk": 823141,
+      "game": "Atlanta Braves @ Seattle Mariners",
+      "score": "0-1",
+      "inning": "3rd",
+      "hot_hitters": [],
+      "top_pitchers": []
+    }
+  ],
   "errors": []
 }

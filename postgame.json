@@ -1,5 +1,31 @@
 {
-  "updated_at": "2026-05-06T11:54:21.905084-04:00",
-  "games": [],
+  "updated_at": "2026-05-06T16:53:34.313161-04:00",
+  "games": [
+    {
+      "gamePk": 822985,
+      "game": "Toronto Blue Jays @ Tampa Bay Rays",
+      "winner": "Tampa Bay Rays",
+      "loser": "Toronto Blue Jays",
+      "final_score": "0-3",
+      "hitters": [
+        "Myles Straw"
+      ],
+      "pitchers": []
+    },
+    {
+      "gamePk": 823063,
+      "game": "Milwaukee Brewers @ St. Louis Cardinals",
+      "winner": "Milwaukee Brewers",
+      "loser": "St. Louis Cardinals",
+      "final_score": "6-2",
+      "hitters": [
+        "Sal Frelick",
+        "Jackson Chourio",
+        "Jake Bauers",
+        "Andrew Vaughn"
+      ],
+      "pitchers": []
+    }
+  ],
   "errors": []
 }
