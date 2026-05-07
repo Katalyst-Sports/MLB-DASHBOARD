@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-07T16:49:03.093761-04:00",
+  "updated_at": "2026-05-07T19:39:28.466194-04:00",
   "games": [
     {
       "gamePk": 823551,
@@ -26,6 +26,64 @@
         "Ryan Jeffers",
         "Brooks Lee",
         "Keibert Ruiz"
+      ],
+      "pitchers": []
+    },
+    {
+      "gamePk": 824117,
+      "game": "Cleveland Guardians @ Kansas City Royals",
+      "winner": "Cleveland Guardians",
+      "loser": "Kansas City Royals",
+      "final_score": "8-5",
+      "hitters": [
+        "Brayan Rocchio",
+        "Bo Naylor",
+        "Maikel Garcia",
+        "Bobby Witt Jr.",
+        "Vinnie Pasquantino"
+      ],
+      "pitchers": []
+    },
+    {
+      "gamePk": 824681,
+      "game": "Cincinnati Reds @ Chicago Cubs",
+      "winner": "Chicago Cubs",
+      "loser": "Cincinnati Reds",
+      "final_score": "3-8",
+      "hitters": [
+        "Sal Stewart",
+        "Blake Dunn",
+        "Ke'Bryan Hayes",
+        "Michael Conforto"
+      ],
+      "pitchers": [
+        "Shota Imanaga"
+      ]
+    },
+    {
+      "gamePk": 824362,
+      "game": "New York Mets @ Colorado Rockies",
+      "winner": "Colorado Rockies",
+      "loser": "New York Mets",
+      "final_score": "2-6",
+      "hitters": [
+        "Austin Slater",
+        "Jake McCarthy"
+      ],
+      "pitchers": [
+        "Christian Scott"
+      ]
+    },
+    {
+      "gamePk": 825090,
+      "game": "Pittsburgh Pirates @ Arizona Diamondbacks",
+      "winner": "Pittsburgh Pirates",
+      "loser": "Arizona Diamondbacks",
+      "final_score": "4-2",
+      "hitters": [
+        "Brandon Lowe",
+        "Joey Bart",
+        "Corbin Carroll"
       ],
       "pitchers": []
     }

@@ -1,51 +1,35 @@
 {
-  "updated_at": "2026-05-07T16:49:03.093761-04:00",
+  "updated_at": "2026-05-07T19:39:28.466194-04:00",
   "games": [
     {
-      "gamePk": 824117,
-      "game": "Cleveland Guardians @ Kansas City Royals",
-      "score": "8-5",
-      "inning": "8th",
+      "gamePk": 823467,
+      "game": "Athletics @ Philadelphia Phillies",
+      "score": "7-0",
+      "inning": "4th",
       "hot_hitters": [
-        "Bo Naylor",
-        "Maikel Garcia",
-        "Bobby Witt Jr.",
-        "Vinnie Pasquantino"
+        "Shea Langeliers",
+        "Brent Rooker",
+        "Carlos Cortes",
+        "Jacob Wilson"
       ],
       "top_pitchers": []
     },
     {
-      "gamePk": 824681,
-      "game": "Cincinnati Reds @ Chicago Cubs",
-      "score": "2-8",
-      "inning": "8th",
+      "gamePk": 823870,
+      "game": "Baltimore Orioles @ Miami Marlins",
+      "score": "2-3",
+      "inning": "4th",
       "hot_hitters": [
-        "Sal Stewart",
-        "Blake Dunn",
-        "Ke'Bryan Hayes",
-        "Michael Conforto"
+        "Liam Hicks"
       ],
       "top_pitchers": []
     },
     {
-      "gamePk": 824362,
-      "game": "New York Mets @ Colorado Rockies",
-      "score": "2-1",
-      "inning": "6th",
-      "hot_hitters": [
-        "Austin Slater"
-      ],
-      "top_pitchers": []
-    },
-    {
-      "gamePk": 825090,
-      "game": "Pittsburgh Pirates @ Arizona Diamondbacks",
-      "score": "1-2",
-      "inning": "5th",
-      "hot_hitters": [
-        "Brandon Lowe",
-        "Corbin Carroll"
-      ],
+      "gamePk": 824767,
+      "game": "Tampa Bay Rays @ Boston Red Sox",
+      "score": "3-0",
+      "inning": "2nd",
+      "hot_hitters": [],
       "top_pitchers": []
     }
   ],

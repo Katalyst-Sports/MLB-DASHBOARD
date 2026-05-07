@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-07T16:49:03.093761-04:00",
+  "updated_at": "2026-05-07T19:39:28.466194-04:00",
   "teams": [
     {
       "team_id": 109,
@@ -400,7 +400,7 @@
     {
       "team_id": 111,
       "team_name": "Boston Red Sox",
-      "injured_count": 10,
+      "injured_count": 11,
       "players": [
         {
           "player_id": 678011,
@@ -449,6 +449,14 @@
           "date": "2026-05-04",
           "note": "Boston Red Sox placed LHP Patrick Sandoval on the 60-day injured list. Left UCL surgery recovery. | Status Change",
           "description": "Boston Red Sox placed LHP Patrick Sandoval on the 60-day injured list. Left UCL surgery recovery."
+        },
+        {
+          "player_id": 701350,
+          "name": "Roman Anthony",
+          "il_type": "Injured List",
+          "date": "2026-05-07",
+          "note": "Boston Red Sox placed LF Roman Anthony on the 10-day injured list retroactive to May 5, 2026. Right wrist sprain. | Status Change",
+          "description": "Boston Red Sox placed LF Roman Anthony on the 10-day injured list retroactive to May 5, 2026. Right wrist sprain."
         },
         {
           "player_id": 663853,
@@ -1966,7 +1974,7 @@
     {
       "team_id": 135,
       "team_name": "San Diego Padres",
-      "injured_count": 13,
+      "injured_count": 14,
       "players": [
         {
           "player_id": 663773,
@@ -2028,9 +2036,17 @@
           "player_id": 605397,
           "name": "Joe Musgrove",
           "il_type": "Injured List",
-          "date": "2026-03-25",
-          "note": "San Diego Padres placed RHP Joe Musgrove on the 15-day injured list. Right elbow inflammation. | Status Change",
-          "description": "San Diego Padres placed RHP Joe Musgrove on the 15-day injured list. Right elbow inflammation."
+          "date": "2026-05-07",
+          "note": "San Diego Padres transferred RHP Joe Musgrove from the 15-day injured list to the 60-day injured list. | Status Change",
+          "description": "San Diego Padres transferred RHP Joe Musgrove from the 15-day injured list to the 60-day injured list."
+        },
+        {
+          "player_id": 669134,
+          "name": "Luis Campusano",
+          "il_type": "Injured List",
+          "date": "2026-05-07",
+          "note": "San Diego Padres placed C Luis Campusano on the 10-day injured list. Left toe fracture. | Status Change",
+          "description": "San Diego Padres placed C Luis Campusano on the 10-day injured list. Left toe fracture."
         },
         {
           "player_id": 663362,

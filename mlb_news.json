@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-05-07T16:49:03.093761-04:00",
-  "headline": "**MLB Daily Roundup: May 6, 2026**",
-  "article": "The Tampa Bay Rays secured a shutout victory over the Toronto Blue Jays, with Shane McClanahan earning the win after 5.2 innings of scoreless baseball. Ian Seymour closed out the game with a save. The Los Angeles Dodgers cruised to a 12-2 win over the Houston Astros, behind a historic performance from Andy Pages, who hit three home runs and drove in six runs. The San Diego Padres secured a 5-1 victory over the San Francisco Giants, with Matt Waldron earning the win.\n\nSeveral key players are dealing with injuries, including Chris Devenski of the Pittsburgh Pirates, who was placed on the 15-day injured list due to an undisclosed illness. Matthew Boyd of the Chicago Cubs was also placed on the 15-day injured list retroactive to May 4, 2026, with a left meniscus injury. The Cincinnati Reds have placed Emilio Pag\u00e1n on the 15-day injured list with a left hamstring strain and transferred Brandon Williamson to the 60-day injured list with left shoulder fatigue.\n\nThe Minnesota Twins acquired Yoendrys G\u00f3mez from the Tampa Bay Rays in exchange for cash. The Chicago White Sox received Trevor Richards from the Philadelphia Phillies in a trade for cash. The Atlanta Braves traded Jonah Heim to the Athletics for cash, while the Washington Nationals traded Zack Short to the Detroit Tigers for cash.",
+  "updated_at": "2026-05-07T19:39:28.466194-04:00",
+  "headline": "**MLB Daily Recap: May 6, 2026**",
+  "article": "The Tampa Bay Rays secured a shutout victory over the Toronto Blue Jays, with Shane McClanahan earning the win after 5.2 innings of scoreless baseball. Ian Seymour closed out the game with a save. The Milwaukee Brewers took down the St. Louis Cardinals 6-2, led by Andrew Vaughn's 2 hits, 1 home run, and 3 RBIs. The Los Angeles Dodgers dominated the Houston Astros 12-2, with Andy Pages hitting three home runs and driving in six runs.\n\nSeveral key players are dealing with injuries, including Luis Campusano (left toe fracture) and Joe Musgrove (undisclosed reason) for the San Diego Padres. Roman Anthony (right wrist sprain) has been placed on the injured list for the Boston Red Sox, while Chris Devenski (undisclosed illness) and Matthew Boyd (left meniscus injury) have been placed on the injured list for the Pittsburgh Pirates and Chicago Cubs, respectively.\n\nThe Chicago Cubs acquired RHP Tyler Ferguson from the Athletics, while the Tampa Bay Rays traded RHP Yoendrys G\u00f3mez to the Minnesota Twins for cash. The Philadelphia Phillies traded RHP Trevor Richards to the Chicago White Sox for cash, and the Atlanta Braves traded C Jonah Heim to the Athletics for cash. The Washington Nationals traded 3B Zack Short to the Detroit Tigers for cash.",
   "top_news": [
     {
       "title": "**Rays Shut Out Blue Jays 3-0**",
@@ -14,37 +14,55 @@
       "published": "2026-05-06"
     },
     {
-      "title": "**Dodgers Blast Astros 12-2 in Dominant Victory**",
-      "summary": "The Los Angeles Dodgers cruised to a 12-2 win over the Houston Astros, behind a historic performance from Andy Pages. Pages hit three home runs and drove in six runs, including a key homer on a fly ball to left field.",
+      "title": "**Dodgers Blast Astros 12-2 in Dominant Performance**",
+      "summary": "The Los Angeles Dodgers cruised to a 12-2 victory over the Houston Astros, behind a historic night from Andy Pages. Pages hit three home runs and drove in six runs, including a key eighth homer on a fly ball to left field.",
       "published": "2026-05-06"
     },
     {
       "title": "**Padres Take Down Giants 5-1**",
-      "summary": "The San Diego Padres secured a 5-1 victory over the San Francisco Giants, with Matt Waldron earning the win. Xander Bogaerts led the Padres' offense with a home run and 2 RBI.",
+      "summary": "The San Diego Padres secured a 5-1 victory over the San Francisco Giants, with Matt Waldron earning the win after 5.0 IP, 7 K, 1 ER, 0 BB, 2 H. Xander Bogaerts led the Padres' offense with a 1 H, 1 HR, 2 RBI performance.",
       "published": "2026-05-06"
     },
     {
       "title": "**Yankees Rout Rangers 9-2**",
-      "summary": "The New York Yankees dominated the Texas Rangers in a lopsided 9-2 victory, handing the Rangers their loss. Brandon Nimmo and Cody Bellinger led the Yankees' offense, while Ezequiel Duran and Ryan McMahon contributed for the Rangers.",
+      "summary": "The New York Yankees dominated the Texas Rangers in a lopsided 9-2 victory, handing the Rangers their loss. Brandon Nimmo and Cody Bellinger led the Yankees' offense, while Ezequiel Duran was one of the few bright spots for the Rangers.",
       "published": "2026-05-07"
     },
     {
       "title": "**Nationals Take Down Twins 7-5**",
-      "summary": "The Washington Nationals secured a 7-5 victory over the Minnesota Twins, handing the Twins their loss. Impact hitters for both teams included Ryan Jeffers and Brooks Lee for the Twins, and Keibert Ruiz for the Nationals.",
+      "summary": "The Washington Nationals secured a 7-5 win over the Minnesota Twins, snapping their opponent's momentum. Impact hitters for both teams included Ryan Jeffers and Brooks Lee for the Twins, and Keibert Ruiz for the Nationals.",
       "published": "2026-05-07"
     },
     {
-      "title": "**Pirates Place Devenski on 15-Day IL**",
-      "summary": "Pittsburgh Pirates right-hander Chris Devenski has been placed on the 15-day injured list due to an undisclosed illness. The move was made on May 7, 2026.",
+      "title": "**Padres Place Campusano on 10-Day IL**",
+      "summary": "San Diego Padres catcher Luis Campusano has been placed on the 10-day injured list due to a left toe fracture.",
       "published": "2026-05-07"
     },
     {
-      "title": "**G\u00f3mez Heads North: Twins Acquire RHP Yoendrys G\u00f3mez**",
-      "summary": "The Minnesota Twins have made a move to bolster their pitching staff, acquiring right-handed pitcher Yoendrys G\u00f3mez from the Tampa Bay Rays in exchange for cash.",
-      "published": "2026-05-06"
+      "title": "**Ferguson Joins Cubs Roster**",
+      "summary": "The Chicago Cubs have acquired right-handed pitcher Tyler Ferguson in a trade. The Athletics traded Ferguson to the Cubs.",
+      "published": "2026-05-07"
     }
   ],
   "injury_updates": [
+    {
+      "date": "2026-05-07",
+      "team": "San Diego Padres",
+      "player": "Luis Campusano",
+      "update": "San Diego Padres placed C Luis Campusano on the 10-day injured list. Left toe fracture. | Status Change"
+    },
+    {
+      "date": "2026-05-07",
+      "team": "San Diego Padres",
+      "player": "Joe Musgrove",
+      "update": "San Diego Padres transferred RHP Joe Musgrove from the 15-day injured list to the 60-day injured list. | Status Change"
+    },
+    {
+      "date": "2026-05-07",
+      "team": "Boston Red Sox",
+      "player": "Roman Anthony",
+      "update": "Boston Red Sox placed LF Roman Anthony on the 10-day injured list retroactive to May 5, 2026. Right wrist sprain. | Status Change"
+    },
     {
       "date": "2026-05-07",
       "team": "Pittsburgh Pirates",
@@ -98,37 +116,25 @@
       "team": "Houston Astros",
       "player": "Yainer Diaz",
       "update": "Houston Astros placed C Yainer Diaz on the 10-day injured list. Left oblique strain. | Status Change"
-    },
-    {
-      "date": "2026-05-05",
-      "team": "St. Louis Cardinals",
-      "player": "Ram\u00f3n Ur\u00edas",
-      "update": "St. Louis Cardinals placed 3B Ram\u00f3n Ur\u00edas on the 10-day injured list. Right elbow lateral epicondylitis. | Status Change"
-    },
-    {
-      "date": "2026-05-05",
-      "team": "Texas Rangers",
-      "player": "Josh Smith",
-      "update": "Texas Rangers placed 2B Josh Smith on the 10-day injured list retroactive to May 4, 2026. Right glute strain. | Status Change"
-    },
-    {
-      "date": "2026-05-05",
-      "team": "Tampa Bay Rays",
-      "player": "Steven Matz",
-      "update": "Tampa Bay Rays placed LHP Steven Matz on the 15-day injured list retroactive to May 4, 2026. Left elbow inflammation. | Status Change"
     }
   ],
   "trade_updates": [
     {
-      "date": "2026-05-06",
-      "team": "Minnesota Twins",
-      "player": "Yoendrys G\u00f3mez",
-      "update": "Tampa Bay Rays traded RHP Yoendrys G\u00f3mez to Minnesota Twins for cash. | Trade"
+      "date": "2026-05-07",
+      "team": "Chicago Cubs",
+      "player": "Tyler Ferguson",
+      "update": "Athletics traded RHP Tyler Ferguson to Chicago Cubs. | Trade"
     },
     {
       "date": "2026-05-06",
       "team": "Tampa Bay Rays",
       "player": "Unknown Player",
+      "update": "Tampa Bay Rays traded RHP Yoendrys G\u00f3mez to Minnesota Twins for cash. | Trade"
+    },
+    {
+      "date": "2026-05-06",
+      "team": "Minnesota Twins",
+      "player": "Yoendrys G\u00f3mez",
       "update": "Tampa Bay Rays traded RHP Yoendrys G\u00f3mez to Minnesota Twins for cash. | Trade"
     },
     {
@@ -171,12 +177,6 @@
       "date": "2026-04-28",
       "team": "Los Angeles Dodgers",
       "player": "Tyler Fitzgerald",
-      "update": "Toronto Blue Jays traded 2B Tyler Fitzgerald to Los Angeles Dodgers for cash. | Trade"
-    },
-    {
-      "date": "2026-04-28",
-      "team": "Toronto Blue Jays",
-      "player": "Unknown Player",
       "update": "Toronto Blue Jays traded 2B Tyler Fitzgerald to Los Angeles Dodgers for cash. | Trade"
     }
   ]
