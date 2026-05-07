@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-05-07T12:24:26.469683-04:00",
+  "updated_at": "2026-05-07T16:49:03.093761-04:00",
   "date": "2026-05-06",
   "dashboard_recap": {
     "headline": "MLB Daily Recap - May 06, 2026",
-    "article": "**Shane McClanahan Shines as Rays Shut Down Blue Jays 3-0**\n\nShane McClanahan pitched 5.2 innings of shutout ball, striking out four and allowing just two hits, to lead the Tampa Bay Rays to a 3-0 win over the Toronto Blue Jays. The Rays' staff effort was enough to secure the victory, with McClanahan earning the win. Myles Straw was the lone bright spot for the Blue Jays, but it wasn't enough to overcome the Rays' dominant pitching.\n\n**Dodgers Blast Astros 12-2 Behind Andy Pages' Three-Homer Night**\n\nAndy Pages went off, hitting three home runs and driving in six runs, as the Los Angeles Dodgers routed the Houston Astros 12-2. Pages' performance was part of a big night for the Dodgers' offense, which also saw Shohei Ohtani and Kyle Tucker contribute. Meanwhile, Jack Dreyer got the win, and Kyle Hurt pitched a scoreless inning to seal the victory.\n\n**Red Sox Shut Down Tigers 4-0 Behind Sonny Gray's 10 K's**\n\nSonny Gray pitched five strong innings, striking out 10 and allowing just three hits, to lead the Boston Red Sox to a 4-0 win over the Detroit Tigers. Gray's performance was part of a shutout effort by the Red Sox, who also got a run-scoring sacrifice fly from Caleb Durbin.",
+    "article": "\"Shane McClanahan Leads Rays to Shutout Win, Dodgers Blast Astros in Blowout\"\n\nIn a shutout victory, the Tampa Bay Rays took down the Toronto Blue Jays 3-0 behind a solid staff effort that included a strong start from Shane McClanahan, who pitched 5.2 innings with 4 strikeouts and no earned runs. Meanwhile, the Los Angeles Dodgers dominated the Houston Astros 12-2, with Andy Pages leading the way, hitting three home runs and driving in six runs. Pages' power surge was part of a team effort that saw seven Dodgers players record multiple hits.\n\nIn another game, the Milwaukee Brewers edged the St. Louis Cardinals 6-2, with Andrew Vaughn hitting a home run and driving in three runs. The Atlanta Braves fell to the Seattle Mariners 3-1, with Bryan Woo pitching a complete game and recording 9 strikeouts.",
     "all_games": [
       {
         "game": "Toronto Blue Jays @ Tampa Bay Rays",
@@ -18,7 +18,7 @@
         "final_score": "6-2",
         "top_pitching_line": "Brandon Sproat: 4.0 IP, 5 K, 0 ER, 3 BB, 1 H",
         "top_batting_line": "Andrew Vaughn: 2 H, 1 HR, 3 RBI, 4 AB",
-        "summary": "The Milwaukee Brewers topped the St. Louis Cardinals 6-2 behind Andrew Vaughn's 2 hits, 1 home run, and 3 RBIs, and Brandon Sproat's 4 shutout innings.",
+        "summary": "The Milwaukee Brewers defeated the St. Louis Cardinals 6-2, led by Andrew Vaughn's 2 hits, 1 home run, and 3 RBIs.",
         "impact_player": "Andrew Vaughn"
       },
       {
@@ -26,7 +26,7 @@
         "final_score": "12-2",
         "top_pitching_line": "Kyle Hurt: 1.0 IP, 2 K, 0 ER, 0 BB, 0 H",
         "top_batting_line": "Andy Pages: 3 H, 3 HR, 6 RBI, 5 AB",
-        "summary": "The Los Angeles Dodgers dominated the Houston Astros 12-2, led by Andy Pages' 3 HR and 6 RBI performance.",
+        "summary": "The Los Angeles Dodgers dominated the Houston Astros 12-2 behind Andy Pages' 3 home runs and 6 RBIs, including his 8th of the season.",
         "impact_player": "Andy Pages"
       },
       {
@@ -34,7 +34,7 @@
         "final_score": "5-1",
         "top_pitching_line": "Matt Waldron: 5.0 IP, 7 K, 1 ER, 0 BB, 2 H",
         "top_batting_line": "Xander Bogaerts: 1 H, 1 HR, 2 RBI, 1 AB",
-        "summary": "The San Diego Padres outlasted the San Francisco Giants 5-1 behind Matt Waldron's 5 strong innings and Xander Bogaerts' 2-RBI, 7th home run.",
+        "summary": "The San Diego Padres defeated the San Francisco Giants 5-1 behind Matt Waldron's 5 scoreless innings and Xander Bogaerts' 2-RBI home run.",
         "impact_player": "Xander Bogaerts"
       },
       {
@@ -42,7 +42,7 @@
         "final_score": "2-8",
         "top_pitching_line": "Chase Silseth: 2.0 IP, 4 K, 0 ER, 0 BB, 1 H",
         "top_batting_line": "Travis d'Arnaud: 1 H, 1 HR, 3 RBI, 2 AB",
-        "summary": "The Los Angeles Angels dominated the Chicago White Sox 8-2 behind Chase Silseth's strong 2-inning relief stint and Travis d'Arnaud's 3-RBI performance.",
+        "summary": "The Los Angeles Angels defeated the Chicago White Sox 8-2 behind Chase Silseth's dominant 2.0 IP with 4 Ks and Travis d'Arnaud's 1 HR and 3 RBI.",
         "impact_player": "Travis d'Arnaud"
       },
       {
@@ -50,7 +50,7 @@
         "final_score": "1-3",
         "top_pitching_line": "Bryan Woo: 6.0 IP, 9 K, 0 ER, 2 BB, 1 H",
         "top_batting_line": "Julio Rodr\u00edguez: 1 H, 1 HR, 1 RBI, 4 AB",
-        "summary": "The Seattle Mariners edged the Atlanta Braves 3-1 behind Bryan Woo's 6 shutout innings and Julio Rodr\u00edguez's solo home run.",
+        "summary": "Seattle Mariners win 3-1 behind Bryan Woo's 6 shutout innings and Julio Rodr\u00edguez's 1 HR, 1 RBI performance.",
         "impact_player": "Julio Rodr\u00edguez"
       },
       {
@@ -58,7 +58,7 @@
         "final_score": "4-0",
         "top_pitching_line": "Jack Flaherty: 5.0 IP, 10 K, 2 ER, 1 BB, 3 H",
         "top_batting_line": "Caleb Durbin: 1 H, 0 HR, 1 RBI, 4 AB",
-        "summary": "The Boston Red Sox shut out the Detroit Tigers 4-0 behind Jack Flaherty's 5 scoreless innings and a key error by Colt Keith that allowed two runs to score.",
+        "summary": "The Boston Red Sox shut out the Detroit Tigers 4-0 behind Jack Flaherty's 5 shuttest innings with 10 strikeouts.",
         "impact_player": "Caleb Durbin"
       },
       {
@@ -66,7 +66,7 @@
         "final_score": "3-6",
         "top_pitching_line": "Jos\u00e9 Alvarado: 0.2 IP, 2 K, 0 ER, 1 BB, 1 H",
         "top_batting_line": "Adolis Garc\u00eda: 2 H, 1 HR, 1 RBI, 4 AB",
-        "summary": "The Philadelphia Phillies defeated the Athletics 6-3 behind a strong outing from Jos\u00e9 Alvarado and a key home run from Adolis Garc\u00eda.",
+        "summary": "The Philadelphia Phillies topped the Athletics 6-3 behind a strong outing from Jos\u00e9 Alvarado and a key home run from Adolis Garc\u00eda.",
         "impact_player": "Adolis Garc\u00eda"
       },
       {
@@ -74,7 +74,7 @@
         "final_score": "7-4",
         "top_pitching_line": "Rico Garcia: 1.0 IP, 1 K, 0 ER, 1 BB, 0 H",
         "top_batting_line": "Pete Alonso: 1 H, 1 HR, 3 RBI, 5 AB",
-        "summary": "Baltimore Orioles win 7-4 behind Pete Alonso's 1 HR and 3 RBI, while Rico Garcia earns a scoreless 1st inning in relief.",
+        "summary": "Baltimore Orioles win 7-4 behind Pete Alonso's 1 HR and 3 RBI, while Rico Garcia pitches a scoreless 1st inning in relief.",
         "impact_player": "Pete Alonso"
       },
       {
@@ -90,7 +90,7 @@
         "final_score": "6-1",
         "top_pitching_line": "Nathan Eovaldi: 8.0 IP, 8 K, 1 ER, 0 BB, 3 H",
         "top_batting_line": "Corey Seager: 2 H, 1 HR, 2 RBI, 5 AB",
-        "summary": "The Texas Rangers defeated the New York Yankees 6-1 behind Nathan Eovaldi's 8-inning, 8-K performance and Corey Seager's 2-hit, 1-homer effort.",
+        "summary": "The Texas Rangers defeated the New York Yankees 6-1 behind Nathan Eovaldi's 8-inning, 8-K performance and Corey Seager's 2-hit, 2-RBI outing.",
         "impact_player": "Corey Seager"
       },
       {
@@ -98,7 +98,7 @@
         "final_score": "6-7",
         "top_pitching_line": "Colin Rea: 5.1 IP, 5 K, 1 ER, 3 BB, 6 H",
         "top_batting_line": "Ian Happ: 3 H, 1 HR, 2 RBI, 5 AB",
-        "summary": "The Chicago Cubs edged the Cincinnati Reds 7-6, led by Ian Happ's 3 hits, including a home run, and 2 RBIs.",
+        "summary": "The Chicago Cubs edged the Cincinnati Reds 7-6 behind Ian Happ's 3 hits, including a home run, and a crucial 5th-inning walk that sparked a key rally.",
         "impact_player": "Ian Happ"
       },
       {
@@ -106,7 +106,7 @@
         "final_score": "3-1",
         "top_pitching_line": "Cole Ragans: 3.0 IP, 4 K, 0 ER, 2 BB, 1 H",
         "top_batting_line": "Chase DeLauter: 2 H, 0 HR, 2 RBI, 4 AB",
-        "summary": "The Cleveland Guardians edged the Kansas City Royals 3-1 behind Chase DeLauter's 2 RBIs and Cole Ragans' 3 scoreless innings with 4 strikeouts.",
+        "summary": "The Cleveland Guardians edged the Kansas City Royals 3-1, behind Chase DeLauter's 2 hits and 2 RBIs, and Cole Ragans' 3 scoreless innings.",
         "impact_player": "Chase DeLauter"
       },
       {
@@ -128,16 +128,16 @@
     ],
     "season_leaders": {
       "avg_ops": [
-        "Ildemaro Vargas (Arizona Diamondbacks) - AVG .364",
+        "Ildemaro Vargas (Arizona Diamondbacks) - AVG .357",
         "Ben Rice (New York Yankees) - AVG .343",
         "Brandon Marsh (Philadelphia Phillies) - AVG .336",
         "Shea Langeliers (Athletics) - AVG .336",
         "Andy Pages (Los Angeles Dodgers) - AVG .336",
         "Ben Rice (New York Yankees) - OPS 1.214",
-        "Mickey Moniak (Colorado Rockies) - OPS 1.091",
-        "Aaron Judge (New York Yankees) - OPS 1.066",
         "Yordan Alvarez (Houston Astros) - OPS 1.061",
-        "Matt Olson (Atlanta Braves) - OPS 1.059"
+        "Mickey Moniak (Colorado Rockies) - OPS 1.061",
+        "Matt Olson (Atlanta Braves) - OPS 1.059",
+        "Aaron Judge (New York Yankees) - OPS 1.043"
       ],
       "power": [
         "Aaron Judge (New York Yankees) - HR 15",
@@ -149,7 +149,8 @@
         "Matt Olson (Atlanta Braves) - RBI 33",
         "Andy Pages (Los Angeles Dodgers) - RBI 33",
         "Liam Hicks (Miami Marlins) - RBI 32",
-        "Drake Baldwin (Atlanta Braves) - RBI 30"
+        "Drake Baldwin (Atlanta Braves) - RBI 30",
+        "Sal Stewart (Cincinnati Reds) - RBI 30"
       ],
       "pitching": [
         "Cristopher S\u00e1nchez (Philadelphia Phillies) - K 60",
@@ -176,8 +177,8 @@
         "Paul Skenes (Pittsburgh Pirates) - WHIP 0.71",
         "Shohei Ohtani (Los Angeles Dodgers) - WHIP 0.81",
         "Tyler Glasnow (Los Angeles Dodgers) - WHIP 0.83",
-        "Shota Imanaga (Chicago Cubs) - WHIP 0.85",
-        "Cam Schlittler (New York Yankees) - WHIP 0.87"
+        "Cam Schlittler (New York Yankees) - WHIP 0.87",
+        "Max Fried (New York Yankees) - WHIP 0.89"
       ]
     }
   }

@@ -1,12 +1,51 @@
 {
-  "updated_at": "2026-05-07T12:24:26.469683-04:00",
+  "updated_at": "2026-05-07T16:49:03.093761-04:00",
   "games": [
     {
-      "gamePk": 823551,
-      "game": "Texas Rangers @ New York Yankees",
-      "score": "0-0",
-      "inning": "1st",
-      "hot_hitters": [],
+      "gamePk": 824117,
+      "game": "Cleveland Guardians @ Kansas City Royals",
+      "score": "8-5",
+      "inning": "8th",
+      "hot_hitters": [
+        "Bo Naylor",
+        "Maikel Garcia",
+        "Bobby Witt Jr.",
+        "Vinnie Pasquantino"
+      ],
+      "top_pitchers": []
+    },
+    {
+      "gamePk": 824681,
+      "game": "Cincinnati Reds @ Chicago Cubs",
+      "score": "2-8",
+      "inning": "8th",
+      "hot_hitters": [
+        "Sal Stewart",
+        "Blake Dunn",
+        "Ke'Bryan Hayes",
+        "Michael Conforto"
+      ],
+      "top_pitchers": []
+    },
+    {
+      "gamePk": 824362,
+      "game": "New York Mets @ Colorado Rockies",
+      "score": "2-1",
+      "inning": "6th",
+      "hot_hitters": [
+        "Austin Slater"
+      ],
+      "top_pitchers": []
+    },
+    {
+      "gamePk": 825090,
+      "game": "Pittsburgh Pirates @ Arizona Diamondbacks",
+      "score": "1-2",
+      "inning": "5th",
+      "hot_hitters": [
+        "Brandon Lowe",
+        "Corbin Carroll"
+      ],
       "top_pitchers": []
     }
   ],

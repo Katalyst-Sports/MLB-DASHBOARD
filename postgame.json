@@ -1,5 +1,34 @@
 {
-  "updated_at": "2026-05-07T12:24:26.469683-04:00",
-  "games": [],
+  "updated_at": "2026-05-07T16:49:03.093761-04:00",
+  "games": [
+    {
+      "gamePk": 823551,
+      "game": "Texas Rangers @ New York Yankees",
+      "winner": "New York Yankees",
+      "loser": "Texas Rangers",
+      "final_score": "2-9",
+      "hitters": [
+        "Brandon Nimmo",
+        "Ezequiel Duran",
+        "Cody Bellinger",
+        "Ryan McMahon",
+        "Trent Grisham"
+      ],
+      "pitchers": []
+    },
+    {
+      "gamePk": 822741,
+      "game": "Minnesota Twins @ Washington Nationals",
+      "winner": "Washington Nationals",
+      "loser": "Minnesota Twins",
+      "final_score": "5-7",
+      "hitters": [
+        "Ryan Jeffers",
+        "Brooks Lee",
+        "Keibert Ruiz"
+      ],
+      "pitchers": []
+    }
+  ],
   "errors": []
 }

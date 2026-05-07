@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-07T12:24:26.469683-04:00",
+  "updated_at": "2026-05-07T16:49:03.093761-04:00",
   "teams": [
     {
       "team_id": 109,
@@ -1935,8 +1935,16 @@
     {
       "team_id": 134,
       "team_name": "Pittsburgh Pirates",
-      "injured_count": 2,
+      "injured_count": 3,
       "players": [
+        {
+          "player_id": 606965,
+          "name": "Chris Devenski",
+          "il_type": "Injured List",
+          "date": "2026-05-07",
+          "note": "Pittsburgh Pirates placed RHP Chris Devenski on the 15-day injured list. Undisclosed illness. | Status Change",
+          "description": "Pittsburgh Pirates placed RHP Chris Devenski on the 15-day injured list. Undisclosed illness."
+        },
         {
           "player_id": 683003,
           "name": "Jared Jones",
