@@ -1,37 +1,5 @@
 {
-  "updated_at": "2026-05-07T19:39:28.466194-04:00",
-  "games": [
-    {
-      "gamePk": 823467,
-      "game": "Athletics @ Philadelphia Phillies",
-      "score": "7-0",
-      "inning": "4th",
-      "hot_hitters": [
-        "Shea Langeliers",
-        "Brent Rooker",
-        "Carlos Cortes",
-        "Jacob Wilson"
-      ],
-      "top_pitchers": []
-    },
-    {
-      "gamePk": 823870,
-      "game": "Baltimore Orioles @ Miami Marlins",
-      "score": "2-3",
-      "inning": "4th",
-      "hot_hitters": [
-        "Liam Hicks"
-      ],
-      "top_pitchers": []
-    },
-    {
-      "gamePk": 824767,
-      "game": "Tampa Bay Rays @ Boston Red Sox",
-      "score": "3-0",
-      "inning": "2nd",
-      "hot_hitters": [],
-      "top_pitchers": []
-    }
-  ],
+  "updated_at": "2026-05-08T02:17:03.574783-04:00",
+  "games": [],
   "errors": []
 }
