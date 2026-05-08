@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-08T12:01:50.726735-04:00",
+  "updated_at": "2026-05-08T16:14:56.547907-04:00",
   "games": [
     {
       "gamePk": 824522,
@@ -3802,6 +3802,26 @@
       },
       "away_hitters": [
         {
+          "name": "Brendan Donovan",
+          "stats": {
+            "avg": ".304",
+            "obp": ".437",
+            "slg": ".518",
+            "ops": ".955",
+            "homeRuns": 3,
+            "rbi": 8
+          },
+          "last10ab": {
+            "avg": "0.364",
+            "hits": 4,
+            "atBats": 11,
+            "homeRuns": 1,
+            "rbi": 1,
+            "walks": 2,
+            "games": 3
+          }
+        },
+        {
           "name": "Luke Raley",
           "stats": {
             "avg": ".250",
@@ -3839,26 +3859,6 @@
             "rbi": 2,
             "walks": 1,
             "games": 4
-          }
-        },
-        {
-          "name": "Jhonny Pereda",
-          "stats": {
-            "avg": ".400",
-            "obp": ".400",
-            "slg": ".400",
-            "ops": ".800",
-            "homeRuns": 0,
-            "rbi": 0
-          },
-          "last10ab": {
-            "avg": "0.400",
-            "hits": 2,
-            "atBats": 5,
-            "homeRuns": 0,
-            "rbi": 0,
-            "walks": 0,
-            "games": 2
           }
         },
         {

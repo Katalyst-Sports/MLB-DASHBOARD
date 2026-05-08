@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-05-08T12:01:50.726735-04:00",
-  "headline": "**MLB Daily Roundup: May 8, 2026**",
-  "article": "The New York Yankees dominated the Texas Rangers 9-2, with Ezequiel Duran leading the Rangers' offense with a home run and 2 RBIs. The Washington Nationals secured a 7-5 victory over the Minnesota Twins, with Keibert Ruiz leading the offense with 3 hits, 1 home run, and 4 RBIs. The Cleveland Guardians took down the Kansas City Royals 8-5, with Bo Naylor contributing 2 hits, 1 home run, and 3 RBIs.\n\nSeveral players have been placed on the injured list, impacting their team's availability. Jasson Dom\u00ednguez has been placed on the 10-day injured list due to a left shoulder AC joint sprain. Luis Campusano is out with a left toe fracture, while Joe Musgrove has been transferred to the 60-day injured list. Roman Anthony is on the 10-day injured list retroactive to May 5, 2026, with a right wrist sprain. Chris Devenski has been placed on the 15-day injured list due to an undisclosed illness. Matthew Boyd is out with a left meniscus injury, and Emilio Pag\u00e1n is on the 15-day injured list with a left hamstring strain.\n\nThe Chicago Cubs have acquired right-handed pitcher Tyler Ferguson in a trade with the Athletics. The Tampa Bay Rays traded RHP Yoendrys G\u00f3mez to the Minnesota Twins for cash, while the Philadelphia Phillies traded RHP Trevor Richards to the Chicago White Sox for cash. The Atlanta Braves traded C Jonah Heim to the Athletics for cash, and the Washington Nationals traded 3B Zack Short to the Detroit Tigers for cash.",
+  "updated_at": "2026-05-08T16:14:56.547907-04:00",
+  "headline": "**MLB Daily Recap: May 8, 2026**",
+  "article": "The New York Yankees dominated the Texas Rangers, winning 9-2 behind a strong team effort. Ezequiel Duran led the Rangers' offense with a home run and 2 RBIs. In other action, the Washington Nationals secured a 7-5 victory over the Minnesota Twins, with Keibert Ruiz leading the offense with 3 hits, 1 home run, and 4 RBIs. The Cleveland Guardians also secured a win, taking down the Kansas City Royals 8-5 behind Bo Naylor's impressive performance. The Chicago Cubs cruised past the Cincinnati Reds 8-3 behind a strong performance from their pitching staff.\n\nSeveral key players are dealing with injuries, including Baltimore Orioles left-handed pitcher Cade Povich, who has been placed on the 15-day injured list due to left elbow inflammation. The Los Angeles Angels have also placed catcher Travis d'Arnaud on the 10-day injured list retroactive to May 7, 2026, due to right foot plantar fasciitis. The Kansas City Royals have placed left-handed pitcher Cole Ragans on the 15-day injured list retroactive to May 7, 2026, due to left elbow impingement.\n\nThe Chicago Cubs have made a roster move, acquiring right-handed pitcher Tyler Ferguson in a trade.",
   "top_news": [
     {
       "title": "**Yankees Rout Rangers 9-2**",
@@ -15,26 +15,44 @@
     },
     {
       "title": "**Guardians Take Down Royals 8-5**",
-      "summary": "The Cleveland Guardians secured an 8-5 victory over the Kansas City Royals, with Bo Naylor leading the offense with 2 hits, 1 home run, and 3 RBIs. Cade Smith earned the save, while Slade Cecconi was credited with the win.",
+      "summary": "The Cleveland Guardians secured an 8-5 victory over the Kansas City Royals, with Bo Naylor leading the charge at the plate. Naylor's impressive performance included 2 hits, 1 home run, and 3 RBIs.",
       "published": "2026-05-07"
     },
     {
       "title": "**Cubs Cruise Past Reds 8-3**",
-      "summary": "The Chicago Cubs dominated the Cincinnati Reds, securing an 8-3 victory behind a strong performance from their pitching staff. Michael Conforto led the Reds' offense with a 3-hit, 1-home run, 2-RBI effort.",
+      "summary": "The Chicago Cubs dominated the Cincinnati Reds, securing an 8-3 victory behind a strong performance from their pitching staff. Michael Conforto led the Reds' offense with a 3-hit, 1-home run game.",
       "published": "2026-05-07"
     },
     {
-      "title": "**Yankees Place Jasson Dom\u00ednguez on 10-Day Injured List**",
-      "summary": "New York Yankees left fielder Jasson Dom\u00ednguez has been placed on the 10-day injured list due to a left shoulder AC joint sprain.",
+      "title": "**Orioles Place Cade Povich on 15-Day Injured List**",
+      "summary": "Baltimore Orioles left-handed pitcher Cade Povich has been placed on the 15-day injured list due to left elbow inflammation. The move is effective immediately.",
       "published": "2026-05-08"
     },
     {
       "title": "**Ferguson Joins Cubs Roster**",
-      "summary": "The Chicago Cubs have acquired right-handed pitcher Tyler Ferguson in a trade. The Athletics traded Ferguson to the Cubs.",
+      "summary": "The Chicago Cubs have acquired right-handed pitcher Tyler Ferguson in a trade.",
       "published": "2026-05-07"
     }
   ],
   "injury_updates": [
+    {
+      "date": "2026-05-08",
+      "team": "Baltimore Orioles",
+      "player": "Cade Povich",
+      "update": "Baltimore Orioles placed LHP Cade Povich on the 15-day injured list. Left elbow inflammation. | Status Change"
+    },
+    {
+      "date": "2026-05-08",
+      "team": "Los Angeles Angels",
+      "player": "Travis d'Arnaud",
+      "update": "Los Angeles Angels placed C Travis d'Arnaud on the 10-day injured list retroactive to May 7, 2026. Right foot plantar fasciitis. | Status Change"
+    },
+    {
+      "date": "2026-05-08",
+      "team": "Kansas City Royals",
+      "player": "Cole Ragans",
+      "update": "Kansas City Royals placed LHP Cole Ragans on the 15-day injured list retroactive to May 7, 2026. Left elbow impingement. | Status Change"
+    },
     {
       "date": "2026-05-08",
       "team": "New York Yankees",
@@ -88,24 +106,6 @@
       "team": "Detroit Tigers",
       "player": "Gleyber Torres",
       "update": "Detroit Tigers placed 2B Gleyber Torres on the 10-day injured list retroactive to May 4, 2026. Left oblique strain. | Status Change"
-    },
-    {
-      "date": "2026-05-06",
-      "team": "Houston Astros",
-      "player": "Carlos Correa",
-      "update": "Houston Astros placed SS Carlos Correa on the 10-day injured list retroactive to May 5, 2026. Left ankle tendon injury. | Status Change"
-    },
-    {
-      "date": "2026-05-05",
-      "team": "Chicago White Sox",
-      "player": "Drew Thorpe",
-      "update": "Chicago White Sox transferred RHP Drew Thorpe from the 15-day injured list to the 60-day injured list. Recovery from Tommy John surgery. | Status Change"
-    },
-    {
-      "date": "2026-05-05",
-      "team": "San Diego Padres",
-      "player": "Jake Cronenworth",
-      "update": "San Diego Padres placed 2B Jake Cronenworth on the 7-day injured list. Concussion symptoms. | Status Change"
     }
   ],
   "trade_updates": [
