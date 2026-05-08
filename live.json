@@ -1,5 +1,99 @@
 {
-  "updated_at": "2026-05-08T16:14:56.547907-04:00",
-  "games": [],
+  "updated_at": "2026-05-08T19:39:03.154886-04:00",
+  "games": [
+    {
+      "gamePk": 824522,
+      "game": "Houston Astros @ Cincinnati Reds",
+      "score": "4-0",
+      "inning": "6th",
+      "hot_hitters": [
+        "Yordan Alvarez",
+        "Zach Dezenzo"
+      ],
+      "top_pitchers": []
+    },
+    {
+      "gamePk": 823466,
+      "game": "Colorado Rockies @ Philadelphia Phillies",
+      "score": "3-0",
+      "inning": "4th",
+      "hot_hitters": [
+        "Hunter Goodman",
+        "Willi Castro"
+      ],
+      "top_pitchers": [
+        "Jes\u00fas Luzardo"
+      ]
+    },
+    {
+      "gamePk": 824846,
+      "game": "Athletics @ Baltimore Orioles",
+      "score": "0-0",
+      "inning": "2nd",
+      "hot_hitters": [],
+      "top_pitchers": []
+    },
+    {
+      "gamePk": 822822,
+      "game": "Los Angeles Angels @ Toronto Blue Jays",
+      "score": "0-0",
+      "inning": "2nd",
+      "hot_hitters": [],
+      "top_pitchers": []
+    },
+    {
+      "gamePk": 824768,
+      "game": "Tampa Bay Rays @ Boston Red Sox",
+      "score": "0-0",
+      "inning": "2nd",
+      "hot_hitters": [],
+      "top_pitchers": []
+    },
+    {
+      "gamePk": 823871,
+      "game": "Washington Nationals @ Miami Marlins",
+      "score": "3-2",
+      "inning": "2nd",
+      "hot_hitters": [
+        "Jacob Young",
+        "Xavier Edwards"
+      ],
+      "top_pitchers": []
+    },
+    {
+      "gamePk": 824443,
+      "game": "Minnesota Twins @ Cleveland Guardians",
+      "score": "0-4",
+      "inning": "2nd",
+      "hot_hitters": [
+        "Travis Bazzana"
+      ],
+      "top_pitchers": []
+    },
+    {
+      "gamePk": 824116,
+      "game": "Detroit Tigers @ Kansas City Royals",
+      "score": "0-0",
+      "inning": "1st",
+      "hot_hitters": [],
+      "top_pitchers": []
+    },
+    {
+      "gamePk": 824607,
+      "game": "Seattle Mariners @ Chicago White Sox",
+      "score": "0-0",
+      "inning": "1st",
+      "hot_hitters": [],
+      "top_pitchers": []
+    },
+    {
+      "gamePk": 823794,
+      "game": "New York Yankees @ Milwaukee Brewers",
+      "score": "0-0",
+      "inning": "1st",
+      "hot_hitters": [],
+      "top_pitchers": []
+    }
+  ],
   "errors": []
 }

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-08T16:14:56.547907-04:00",
+  "updated_at": "2026-05-08T19:39:03.154886-04:00",
   "teams": [
     {
       "team_id": 109,
@@ -1975,7 +1975,7 @@
     {
       "team_id": 134,
       "team_name": "Pittsburgh Pirates",
-      "injured_count": 3,
+      "injured_count": 4,
       "players": [
         {
           "player_id": 606965,
@@ -1984,6 +1984,14 @@
           "date": "2026-05-07",
           "note": "Pittsburgh Pirates placed RHP Chris Devenski on the 15-day injured list. Undisclosed illness. | Status Change",
           "description": "Pittsburgh Pirates placed RHP Chris Devenski on the 15-day injured list. Undisclosed illness."
+        },
+        {
+          "player_id": 663968,
+          "name": "Jake Mangum",
+          "il_type": "Injured List",
+          "date": "2026-05-08",
+          "note": "Pittsburgh Pirates placed LF Jake Mangum on the 10-day injured list retroactive to May 6, 2026. Left hamstring strain. | Status Change",
+          "description": "Pittsburgh Pirates placed LF Jake Mangum on the 10-day injured list retroactive to May 6, 2026. Left hamstring strain."
         },
         {
           "player_id": 683003,

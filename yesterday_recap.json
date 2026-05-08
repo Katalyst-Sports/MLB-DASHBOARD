@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-05-08T16:14:56.547907-04:00",
+  "updated_at": "2026-05-08T19:39:03.154886-04:00",
   "date": "2026-05-07",
   "dashboard_recap": {
     "headline": "MLB Daily Recap - May 07, 2026",
-    "article": "**Yankees Dominate Rangers Behind Nimmo's 2-Run Outburst**\n\nIn a one-sided affair, the New York Yankees cruised past the Texas Rangers 9-2. Brandon Nimmo led the charge with a strong performance, while Ezequiel Duran's 2-RBI day was a bright spot for the Rangers. On the mound, Brent Headrick earned the win for the Yankees, while MacKenzie Gore took the loss for Texas. Elsewhere, the Washington Nationals edged the Minnesota Twins 7-5 behind Keibert Ruiz's 4-RBI game, and the Cleveland Guardians overcame the Kansas City Royals 8-5 thanks to Bo Naylor's 3-RBI performance.\n\nIn the American League East, the Athletics dismantled the Philadelphia Phillies 12-1, with J.T. Ginn tossing a complete game and Brent Rooker hitting a 3-RBI homer. Meanwhile, the Pittsburgh Pirates secured a 4-2 victory over the Arizona Diamondbacks, with Mitch Keller earning the win and Joey Bart hitting a solo homer.\n\nIn other results, the Tampa Bay Rays defeated the Boston Red Sox 8-4, led by Junior Caminero's 2-RBI day and Hunter Bigge's win. The St. Louis Cardinals edged the San Diego Padres 2-1, thanks to Matthew Liberatore's 6-strikeout performance and Alec Burleson's solo homer. Finally, the Colorado Rockies topped the New York Mets 6-2, with Jake McCarthy hitting a grand slam and Antonio Senzatela earning the win.",
+    "article": "\"Yankees Power Past Rangers 9-2, While Rockies Ride McCarthy's Grand Slam to 6-2 Win Over Mets\"\n\nThe New York Yankees flexed their muscles, crushing the Texas Rangers 9-2 behind a strong team effort. Brandon Nimmo and Cody Bellinger led the charge, while Ezequiel Duran's two RBI performance wasn't enough to prevent the blowout. Brent Headrick earned the win, outdueling MacKenzie Gore.\n\nIn other action, Jake McCarthy's grand slam propelled the Colorado Rockies to a 6-2 win over the New York Mets. McCarthy's fifth RBI of the game sealed the deal, while Christian Scott pitched 4.2 strong innings. The Athletics, meanwhile, dominated the Philadelphia Phillies 12-1 behind J.T. Ginn's eight strikeouts and Brent Rooker's three RBI.",
     "all_games": [
       {
         "game": "Texas Rangers @ New York Yankees",
         "final_score": "2-9",
         "top_pitching_line": "Tim Hill: 1.2 IP, 1 K, 0 ER, 0 BB, 2 H",
         "top_batting_line": "Ezequiel Duran: 1 H, 1 HR, 2 RBI, 3 AB",
-        "summary": "The New York Yankees dominated the Texas Rangers 9-2, led by Ezequiel Duran's 1 HR and 2 RBI, and a strong outing from Tim Hill.",
+        "summary": "The New York Yankees defeated the Texas Rangers 9-2 behind a strong team effort, with Ezequiel Duran hitting a home run and driving in two runs.",
         "impact_player": "Ezequiel Duran"
       },
       {
@@ -18,7 +18,7 @@
         "final_score": "5-7",
         "top_pitching_line": "Taylor Rogers: 1.2 IP, 2 K, 0 ER, 0 BB, 2 H",
         "top_batting_line": "Keibert Ruiz: 3 H, 1 HR, 4 RBI, 4 AB",
-        "summary": "The Washington Nationals edged the Minnesota Twins 7-5 behind Keibert Ruiz's 3 hits, 1 home run, and 4 RBIs, including a crucial 4th RBI.",
+        "summary": "The Washington Nationals edged the Minnesota Twins 7-5, led by Keibert Ruiz's 3 hits, 1 home run, and 4 RBIs, and a strong relief outing from Taylor Rogers.",
         "impact_player": "Keibert Ruiz"
       },
       {
@@ -26,7 +26,7 @@
         "final_score": "8-5",
         "top_pitching_line": "Cade Smith: 1.0 IP, 2 K, 0 ER, 0 BB, 0 H",
         "top_batting_line": "Bo Naylor: 2 H, 1 HR, 3 RBI, 5 AB",
-        "summary": "Cleveland Guardians win 8-5 behind Bo Naylor's 2 hits, 1 home run, and 3 RBIs, while Cade Smith pitches a scoreless 1st inning.",
+        "summary": "Cleveland Guardians win 8-5 behind Bo Naylor's 2 hits, 1 home run, and 3 RBIs, and Cade Smith's scoreless relief inning.",
         "impact_player": "Bo Naylor"
       },
       {
@@ -34,7 +34,7 @@
         "final_score": "3-8",
         "top_pitching_line": "Shota Imanaga: 6.0 IP, 10 K, 1 ER, 3 BB, 6 H",
         "top_batting_line": "Michael Conforto: 3 H, 1 HR, 2 RBI, 3 AB",
-        "summary": "The Chicago Cubs dominated the Cincinnati Reds 8-3 behind Shota Imanaga's 6 strong innings and Michael Conforto's 3 hits, including a 2 RBI home run.",
+        "summary": "The Chicago Cubs dominated the Cincinnati Reds 8-3 behind Shota Imanaga's 6 shutout innings and Michael Conforto's 3 hits, including a home run.",
         "impact_player": "Michael Conforto"
       },
       {
@@ -42,7 +42,7 @@
         "final_score": "2-6",
         "top_pitching_line": "Christian Scott: 4.2 IP, 6 K, 1 ER, 2 BB, 3 H",
         "top_batting_line": "Jake McCarthy: 2 H, 1 HR, 5 RBI, 4 AB",
-        "summary": "The Colorado Rockies defeated the New York Mets 6-2 behind Jake McCarthy's 2-for-4 performance, including a grand slam, and Christian Scott's 4.2 innings with 6 strikeouts.",
+        "summary": "The Colorado Rockies outlasted the New York Mets 6-2 behind Jake McCarthy's 2-for-4 performance with a grand slam and Christian Scott's 4.2 innings of 1-run relief.",
         "impact_player": "Jake McCarthy"
       },
       {
@@ -50,7 +50,7 @@
         "final_score": "4-2",
         "top_pitching_line": "Ryan Thompson: 1.0 IP, 2 K, 0 ER, 0 BB, 0 H",
         "top_batting_line": "Brandon Lowe: 3 H, 1 HR, 1 RBI, 5 AB",
-        "summary": "The Pittsburgh Pirates edged the Arizona Diamondbacks 4-2 behind Brandon Lowe's 3 hits, including a home run, and Ryan Thompson's scoreless relief inning.",
+        "summary": "The Pittsburgh Pirates edged the Arizona Diamondbacks 4-2 behind Brandon Lowe's 3 hits, including a home run, and a strong relief outing from Ryan Thompson.",
         "impact_player": "Brandon Lowe"
       },
       {
@@ -58,7 +58,7 @@
         "final_score": "12-1",
         "top_pitching_line": "J.T. Ginn: 8.0 IP, 8 K, 1 ER, 1 BB, 4 H",
         "top_batting_line": "Brent Rooker: 2 H, 1 HR, 3 RBI, 4 AB",
-        "summary": "The Athletics dominated the Phillies 12-1 behind J.T. Ginn's 8 shutout innings and Brent Rooker's 2 hits, including a 3-RBI home run.",
+        "summary": "The Athletics dominated the Phillies 12-1 behind J.T. Ginn's 8-inning performance and Brent Rooker's 2-hit, 3-RBI effort.",
         "impact_player": "Brent Rooker"
       },
       {
@@ -66,7 +66,7 @@
         "final_score": "3-4",
         "top_pitching_line": "Max Meyer: 5.0 IP, 5 K, 2 ER, 2 BB, 6 H",
         "top_batting_line": "Liam Hicks: 1 H, 1 HR, 2 RBI, 4 AB",
-        "summary": "The Miami Marlins edged the Baltimore Orioles 4-3 behind Max Meyer's 5 strong innings and Liam Hicks' 2 RBI, including a home run.",
+        "summary": "The Miami Marlins edged the Baltimore Orioles 4-3 behind Max Meyer's 5 strong innings and Liam Hicks' 2-RBI, 1-HR performance.",
         "impact_player": "Liam Hicks"
       },
       {
@@ -82,32 +82,32 @@
         "final_score": "2-1",
         "top_pitching_line": "Matthew Liberatore: 6.0 IP, 6 K, 1 ER, 3 BB, 3 H",
         "top_batting_line": "Alec Burleson: 1 H, 1 HR, 1 RBI, 3 AB",
-        "summary": "The St. Louis Cardinals edged the San Diego Padres 2-1, with Alec Burleson's solo home run and Matthew Liberatore's 6 strong innings leading the way.",
+        "summary": "The St. Louis Cardinals edged the San Diego Padres 2-1 behind Matthew Liberatore's 6 shutout innings and Alec Burleson's 1 HR and 1 RBI.",
         "impact_player": "Alec Burleson"
       }
     ],
     "season_leaders": {
       "avg_ops": [
         "Ildemaro Vargas (Arizona Diamondbacks) - AVG .360",
+        "Otto Lopez (Miami Marlins) - AVG .345",
         "Ben Rice (New York Yankees) - AVG .343",
-        "Otto Lopez (Miami Marlins) - AVG .340",
-        "Shea Langeliers (Athletics) - AVG .338",
         "Andy Pages (Los Angeles Dodgers) - AVG .336",
+        "Shea Langeliers (Athletics) - AVG .336",
         "Ben Rice (New York Yankees) - OPS 1.214",
-        "Mickey Moniak (Colorado Rockies) - OPS 1.067",
-        "Yordan Alvarez (Houston Astros) - OPS 1.061",
+        "Yordan Alvarez (Houston Astros) - OPS 1.087",
         "Matt Olson (Atlanta Braves) - OPS 1.059",
-        "Aaron Judge (New York Yankees) - OPS 1.043"
+        "Aaron Judge (New York Yankees) - OPS 1.043",
+        "Shea Langeliers (Athletics) - OPS 1.024"
       ],
       "power": [
         "Aaron Judge (New York Yankees) - HR 15",
         "Munetaka Murakami (Chicago White Sox) - HR 14",
+        "Yordan Alvarez (Houston Astros) - HR 13",
         "Matt Olson (Atlanta Braves) - HR 13",
-        "Yordan Alvarez (Houston Astros) - HR 12",
         "Ben Rice (New York Yankees) - HR 12",
         "Kyle Schwarber (Philadelphia Phillies) - HR 12",
+        "CJ Abrams (Washington Nationals) - RBI 34",
         "Liam Hicks (Miami Marlins) - RBI 34",
-        "CJ Abrams (Washington Nationals) - RBI 33",
         "Matt Olson (Atlanta Braves) - RBI 33",
         "Andy Pages (Los Angeles Dodgers) - RBI 33",
         "Drake Baldwin (Atlanta Braves) - RBI 30",
@@ -115,11 +115,11 @@
         "Sal Stewart (Cincinnati Reds) - RBI 30"
       ],
       "pitching": [
+        "Dylan Cease (Toronto Blue Jays) - K 60",
         "Cristopher S\u00e1nchez (Philadelphia Phillies) - K 60",
         "Gavin Williams (Cleveland Guardians) - K 60",
         "Jacob Misiorowski (Milwaukee Brewers) - K 59",
-        "Dylan Cease (Toronto Blue Jays) - K 56",
-        "Jos\u00e9 Soriano (Los Angeles Angels) - K 54",
+        "Jes\u00fas Luzardo (Philadelphia Phillies) - K 57",
         "Aaron Ashby (Milwaukee Brewers) - W 6",
         "Chris Sale (Atlanta Braves) - W 6",
         "Davis Martin (Chicago White Sox) - W 5",

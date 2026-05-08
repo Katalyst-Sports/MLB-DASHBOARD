@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-05-08T16:14:56.547907-04:00",
-  "headline": "**MLB Daily Recap: May 8, 2026**",
-  "article": "The New York Yankees dominated the Texas Rangers, winning 9-2 behind a strong team effort. Ezequiel Duran led the Rangers' offense with a home run and 2 RBIs. In other action, the Washington Nationals secured a 7-5 victory over the Minnesota Twins, with Keibert Ruiz leading the offense with 3 hits, 1 home run, and 4 RBIs. The Cleveland Guardians also secured a win, taking down the Kansas City Royals 8-5 behind Bo Naylor's impressive performance. The Chicago Cubs cruised past the Cincinnati Reds 8-3 behind a strong performance from their pitching staff.\n\nSeveral key players are dealing with injuries, including Baltimore Orioles left-handed pitcher Cade Povich, who has been placed on the 15-day injured list due to left elbow inflammation. The Los Angeles Angels have also placed catcher Travis d'Arnaud on the 10-day injured list retroactive to May 7, 2026, due to right foot plantar fasciitis. The Kansas City Royals have placed left-handed pitcher Cole Ragans on the 15-day injured list retroactive to May 7, 2026, due to left elbow impingement.\n\nThe Chicago Cubs have made a roster move, acquiring right-handed pitcher Tyler Ferguson in a trade.",
+  "updated_at": "2026-05-08T19:39:03.154886-04:00",
+  "headline": "**MLB Daily Roundup: May 8, 2026**",
+  "article": "The New York Yankees continued their winning streak with a 9-2 victory over the Texas Rangers, while the Washington Nationals took down the Minnesota Twins 7-5. The Cleveland Guardians also secured a win, defeating the Kansas City Royals 8-5. The Chicago Cubs dominated the Cincinnati Reds 8-3, and the Baltimore Orioles made a trade to acquire right-handed pitcher Enyel Garcia.\n\nInjuries and availability have impacted several teams, with the Pittsburgh Pirates placing left fielder Jake Mangum on the 10-day injured list due to a left hamstring strain. The Baltimore Orioles also placed left-handed pitcher Cade Povich on the 15-day injured list with left elbow inflammation. Other teams have made similar moves, including the Los Angeles Angels, Kansas City Royals, New York Yankees, San Diego Padres, and Boston Red Sox.\n\nThe Baltimore Orioles made a trade with the Philadelphia Phillies, acquiring right-handed pitcher Enyel Garcia and right-handed pitcher Maicol Lauriano in exchange for cash. The Chicago Cubs also made a trade, acquiring right-handed pitcher Tyler Ferguson from the Athletics.",
   "top_news": [
     {
-      "title": "**Yankees Rout Rangers 9-2**",
-      "summary": "The New York Yankees dominated the Texas Rangers, winning 9-2 behind a strong team effort. Ezequiel Duran led the Rangers' offense with a home run and 2 RBIs.",
+      "title": "**Yankees Cruise Past Rangers 9-2**",
+      "summary": "The New York Yankees dominated the Texas Rangers, securing a 9-2 victory. Ezequiel Duran led the Rangers' offense with a home run and 2 RBIs.",
       "published": "2026-05-07"
     },
     {
@@ -15,26 +15,32 @@
     },
     {
       "title": "**Guardians Take Down Royals 8-5**",
-      "summary": "The Cleveland Guardians secured an 8-5 victory over the Kansas City Royals, with Bo Naylor leading the charge at the plate. Naylor's impressive performance included 2 hits, 1 home run, and 3 RBIs.",
+      "summary": "The Cleveland Guardians secured an 8-5 victory over the Kansas City Royals, with Bo Naylor leading the charge at the plate. Naylor hit 2 home runs, drove in 3 runs, and went 5 for 5 at the plate.",
       "published": "2026-05-07"
     },
     {
       "title": "**Cubs Cruise Past Reds 8-3**",
-      "summary": "The Chicago Cubs dominated the Cincinnati Reds, securing an 8-3 victory behind a strong performance from their pitching staff. Michael Conforto led the Reds' offense with a 3-hit, 1-home run game.",
+      "summary": "The Chicago Cubs dominated the Cincinnati Reds, securing an 8-3 victory behind a strong performance from their pitching staff. Michael Conforto led the Reds' offense with a 3-hit game, including a home run and 2 RBIs.",
       "published": "2026-05-07"
     },
     {
-      "title": "**Orioles Place Cade Povich on 15-Day Injured List**",
-      "summary": "Baltimore Orioles left-handed pitcher Cade Povich has been placed on the 15-day injured list due to left elbow inflammation. The move is effective immediately.",
+      "title": "**Pirates Place Jake Mangum on 10-Day IL**",
+      "summary": "Pittsburgh Pirates left fielder Jake Mangum has been placed on the 10-day injured list due to a left hamstring strain. The move is retroactive to May 6, 2026.",
       "published": "2026-05-08"
     },
     {
-      "title": "**Ferguson Joins Cubs Roster**",
-      "summary": "The Chicago Cubs have acquired right-handed pitcher Tyler Ferguson in a trade.",
-      "published": "2026-05-07"
+      "title": "**Orioles Acquire Enyel Garcia in Trade**",
+      "summary": "The Baltimore Orioles have acquired right-handed pitcher Enyel Garcia in a trade with the Philadelphia Phillies. The deal also includes right-handed pitcher Maicol Lauriano, with the Orioles receiving cash in return.",
+      "published": "2026-05-08"
     }
   ],
   "injury_updates": [
+    {
+      "date": "2026-05-08",
+      "team": "Pittsburgh Pirates",
+      "player": "Jake Mangum",
+      "update": "Pittsburgh Pirates placed LF Jake Mangum on the 10-day injured list retroactive to May 6, 2026. Left hamstring strain. | Status Change"
+    },
     {
       "date": "2026-05-08",
       "team": "Baltimore Orioles",
@@ -100,15 +106,27 @@
       "team": "Cincinnati Reds",
       "player": "Brandon Williamson",
       "update": "Cincinnati Reds transferred LHP Brandon Williamson from the 15-day injured list to the 60-day injured list. Left shoulder fatigue. | Status Change"
-    },
-    {
-      "date": "2026-05-06",
-      "team": "Detroit Tigers",
-      "player": "Gleyber Torres",
-      "update": "Detroit Tigers placed 2B Gleyber Torres on the 10-day injured list retroactive to May 4, 2026. Left oblique strain. | Status Change"
     }
   ],
   "trade_updates": [
+    {
+      "date": "2026-05-08",
+      "team": "Baltimore Orioles",
+      "player": "Enyel Garcia",
+      "update": "Philadelphia Phillies traded RHP Enyel Garcia and RHP Maicol Lauriano to Baltimore Orioles for cash. | Trade"
+    },
+    {
+      "date": "2026-05-08",
+      "team": "Baltimore Orioles",
+      "player": "Maicol Lauriano",
+      "update": "Philadelphia Phillies traded RHP Enyel Garcia and RHP Maicol Lauriano to Baltimore Orioles for cash. | Trade"
+    },
+    {
+      "date": "2026-05-08",
+      "team": "Philadelphia Phillies",
+      "player": "Unknown Player",
+      "update": "Philadelphia Phillies traded RHP Enyel Garcia and RHP Maicol Lauriano to Baltimore Orioles for cash. | Trade"
+    },
     {
       "date": "2026-05-07",
       "team": "Chicago Cubs",
@@ -150,24 +168,6 @@
       "team": "Athletics",
       "player": "Jonah Heim",
       "update": "Atlanta Braves traded C Jonah Heim to Athletics for cash. | Trade"
-    },
-    {
-      "date": "2026-05-01",
-      "team": "Detroit Tigers",
-      "player": "Zack Short",
-      "update": "Washington Nationals traded 3B Zack Short to Detroit Tigers for cash. | Trade"
-    },
-    {
-      "date": "2026-05-01",
-      "team": "Washington Nationals",
-      "player": "Unknown Player",
-      "update": "Washington Nationals traded 3B Zack Short to Detroit Tigers for cash. | Trade"
-    },
-    {
-      "date": "2026-04-28",
-      "team": "Los Angeles Dodgers",
-      "player": "Tyler Fitzgerald",
-      "update": "Toronto Blue Jays traded 2B Tyler Fitzgerald to Los Angeles Dodgers for cash. | Trade"
     }
   ]
 }
