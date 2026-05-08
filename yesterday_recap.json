@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-05-08T02:17:03.574783-04:00",
+  "updated_at": "2026-05-08T06:57:02.188477-04:00",
   "date": "2026-05-07",
   "dashboard_recap": {
     "headline": "MLB Daily Recap - May 07, 2026",
-    "article": "**Yankees Pound Rangers 9-2, While Rockies Take Down Mets 6-2**\n\nThe New York Yankees dominated the Texas Rangers 9-2, led by a strong team effort on the mound. Brent Headrick earned the win, while MacKenzie Gore took the loss. On the offensive side, Ezequiel Duran hit a home run and drove in two runs, but it wasn't enough for the Rangers. In other games, the Colorado Rockies edged the New York Mets 6-2 behind a grand slam from Jake McCarthy. McCarthy's grand slam was the highlight of the game, driving in four runs.",
+    "article": "\"Power Surge: McCarthy Slams Rockies Past Mets, Guardians Outlast Royals 8-5\"\n\nJake McCarthy's grand slam catapulted the Colorado Rockies to a 6-2 win over the New York Mets, while Michael Conforto's three-hit performance propelled the Chicago Cubs to an 8-3 victory over the Cincinnati Reds. On the mound, Shota Imanaga shut down the Reds with 10 strikeouts in six innings. Meanwhile, Alec Burleson's solo homer lifted the St. Louis Cardinals to a 2-1 win over the San Diego Padres, with Matthew Liberatore pitching six strong innings.",
     "all_games": [
       {
         "game": "Texas Rangers @ New York Yankees",
         "final_score": "2-9",
         "top_pitching_line": "Tim Hill: 1.2 IP, 1 K, 0 ER, 0 BB, 2 H",
         "top_batting_line": "Ezequiel Duran: 1 H, 1 HR, 2 RBI, 3 AB",
-        "summary": "The New York Yankees dominated the Texas Rangers 9-2, led by Ezequiel Duran's 1 HR and 2 RBI, and a strong outing from Tim Hill.",
+        "summary": "The New York Yankees dominated the Texas Rangers 9-2 behind a strong team effort and Ezequiel Duran's 1 HR, 2 RBI performance.",
         "impact_player": "Ezequiel Duran"
       },
       {
@@ -18,7 +18,7 @@
         "final_score": "5-7",
         "top_pitching_line": "Taylor Rogers: 1.2 IP, 2 K, 0 ER, 0 BB, 2 H",
         "top_batting_line": "Keibert Ruiz: 3 H, 1 HR, 4 RBI, 4 AB",
-        "summary": "The Washington Nationals edged the Minnesota Twins 7-5, led by Keibert Ruiz's 3 hits, including a home run, and 4 RBIs.",
+        "summary": "The Washington Nationals defeated the Minnesota Twins 7-5 behind Keibert Ruiz's 3 hits, including a home run, and 4 RBIs.",
         "impact_player": "Keibert Ruiz"
       },
       {
@@ -26,7 +26,7 @@
         "final_score": "8-5",
         "top_pitching_line": "Cade Smith: 1.0 IP, 2 K, 0 ER, 0 BB, 0 H",
         "top_batting_line": "Bo Naylor: 2 H, 1 HR, 3 RBI, 5 AB",
-        "summary": "The Cleveland Guardians outlasted the Kansas City Royals 8-5, led by Bo Naylor's 2 hits, 1 home run, and 3 RBIs.",
+        "summary": "Cleveland Guardians win 8-5 behind Bo Naylor's 2 hits, 1 home run, and 3 RBIs, while Cade Smith pitches a scoreless 1st inning.",
         "impact_player": "Bo Naylor"
       },
       {
@@ -42,7 +42,7 @@
         "final_score": "2-6",
         "top_pitching_line": "Christian Scott: 4.2 IP, 6 K, 1 ER, 2 BB, 3 H",
         "top_batting_line": "Jake McCarthy: 2 H, 1 HR, 5 RBI, 4 AB",
-        "summary": "The Colorado Rockies dominated the New York Mets 6-2 behind Jake McCarthy's 2-hit, 1-home run, 5-RBI performance.",
+        "summary": "The Colorado Rockies defeated the New York Mets 6-2 behind Christian Scott's 4.2 innings of work, striking out 6, while Jake McCarthy's grand slam highlighted the Mets' offense.",
         "impact_player": "Jake McCarthy"
       },
       {
@@ -58,7 +58,7 @@
         "final_score": "12-1",
         "top_pitching_line": "J.T. Ginn: 8.0 IP, 8 K, 1 ER, 1 BB, 4 H",
         "top_batting_line": "Brent Rooker: 2 H, 1 HR, 3 RBI, 4 AB",
-        "summary": "The Athletics dominated the Phillies 12-1 behind J.T. Ginn's 8 shutout innings and Brent Rooker's 2-hit, 3-RBI performance.",
+        "summary": "The Athletics dominated the Phillies 12-1, led by Brent Rooker's 2 hits, 1 home run, and 3 RBIs, and J.T. Ginn's 8 shutout innings.",
         "impact_player": "Brent Rooker"
       },
       {
@@ -66,7 +66,7 @@
         "final_score": "3-4",
         "top_pitching_line": "Max Meyer: 5.0 IP, 5 K, 2 ER, 2 BB, 6 H",
         "top_batting_line": "Liam Hicks: 1 H, 1 HR, 2 RBI, 4 AB",
-        "summary": "The Miami Marlins edged the Baltimore Orioles 4-3 behind Max Meyer's 5 strong innings and Liam Hicks' 2-RBI, 1-homer performance.",
+        "summary": "The Miami Marlins edged the Baltimore Orioles 4-3 behind Max Meyer's 5 strong innings and Liam Hicks' 2 RBI, including a home run.",
         "impact_player": "Liam Hicks"
       },
       {
@@ -74,7 +74,7 @@
         "final_score": "8-4",
         "top_pitching_line": "Cole Sulser: 1.0 IP, 1 K, 0 ER, 0 BB, 0 H",
         "top_batting_line": "Junior Caminero: 2 H, 1 HR, 2 RBI, 4 AB",
-        "summary": "The Tampa Bay Rays defeated the Boston Red Sox 8-4, led by Junior Caminero's 2-for-4 performance with a 10th home run.",
+        "summary": "Tampa Bay Rays beat Boston Red Sox 8-4. Junior Caminero: 2 H, 1 HR, 2 RBI, 4 AB Cole Sulser: 1.0 IP, 1 K, 0 ER, 0 BB, 0 H Junior Caminero homers (10) on a line drive to center field. Richie Palacios scores.",
         "impact_player": "Junior Caminero"
       },
       {
@@ -82,7 +82,7 @@
         "final_score": "2-1",
         "top_pitching_line": "Matthew Liberatore: 6.0 IP, 6 K, 1 ER, 3 BB, 3 H",
         "top_batting_line": "Alec Burleson: 1 H, 1 HR, 1 RBI, 3 AB",
-        "summary": "The St. Louis Cardinals edged the San Diego Padres 2-1 behind Matthew Liberatore's 6 shutout innings and Alec Burleson's solo home run.",
+        "summary": "The St. Louis Cardinals edged the San Diego Padres 2-1 behind Matthew Liberatore's 6 strong innings and Alec Burleson's solo home run.",
         "impact_player": "Alec Burleson"
       }
     ],
