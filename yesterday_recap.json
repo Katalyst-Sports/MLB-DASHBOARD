@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-05-09T06:37:39.978485-04:00",
+  "updated_at": "2026-05-09T10:34:51.823357-04:00",
   "date": "2026-05-08",
   "dashboard_recap": {
     "headline": "MLB Daily Recap - May 08, 2026",
-    "article": "**ASTROS CRUSH REDS 10-0, WHILE ROCKIES UPSET PHILLIES IN THRILLER**\n\nThe Houston Astros dominated the Cincinnati Reds 10-0 behind a strong outing from Mike Burrows, who tossed 7 scoreless innings with 6 strikeouts. Zach Cole led the Astros' offense with a 3-RBI performance, including a solo homer. Meanwhile, the Colorado Rockies edged out the Philadelphia Phillies 9-7 in a back-and-forth contest. Hunter Goodman led the Rockies with 4 hits, including a 2-run homer, while Chase Dollander pitched 5.2 innings with 5 strikeouts.\n\nIn other games, the Athletics held off the Orioles 4-3 behind a strong start from Kyle Bradish, who struck out 10 over 7 innings. Adley Rutschman homered for the Orioles, but it wasn't enough to overcome the Athletics' late-game rally. The Toronto Blue Jays shut out the Los Angeles Angels 2-0, with Dylan Cease pitching 7 scoreless innings with 10 strikeouts.",
+    "article": "**ASTROS DOMINATE REDS IN 10-0 SHUTOUT**\n\nThe Houston Astros rolled to a 10-0 victory over the Cincinnati Reds, led by Mike Burrows' dominant pitching and a trio of Astros hitters who each recorded multi-hit games. Burrows tossed 7 shutout innings, striking out 6 and walking just 1, while Zach Cole hit a home run and drove in 3 runs to pace the Astros' offense. The Reds were unable to get anything going, with Nick Lodolo taking the loss after allowing 3 runs in 5 innings.\n\n**ROCKIES EDGE PHILLIES IN THRILLING 9-7 WIN**\n\nThe Colorado Rockies outlasted the Philadelphia Phillies 9-7, thanks in part to a big day from Hunter Goodman, who hit a home run and drove in 2 runs. Goodman finished with 4 hits, the most on the team. Tyler Freeman also had a strong game, driving in 2 runs. The Phillies' Kyle Schwarber hit a home run, but it wasn't enough to lift his team to victory. Jes\u00fas Luzardo pitched well for the Rockies, but Chase Dollander took the loss after allowing 2 earned runs in 5.2 innings.\n\n**ATHLETICS EDGE ORIOLES IN 4-3 WIN**\n\nThe Athletics narrowly defeated the Baltimore Orioles 4-3, thanks in part to a strong outing from Kyle Bradish. Bradish tossed 7 innings, striking out 10 and allowing just 3 earned runs. Adley Rutschman hit a home run for the Orioles, but it wasn't enough to lift his team to victory. Jacob Lopez earned the win in relief, pitching 1.2 scoreless innings to secure the victory.\n\n**BLUE JAYS SHUT DOWN ANGELS IN 2-0 WIN**\n\nThe Toronto Blue Jays blanked the Los Angeles Angels 2-0, behind a strong outing from Dylan Cease. Cease tossed 7 scoreless innings, striking out 10 and allowing just 5 hits. Kazuma Okamoto drove in the Blue Jays' only run with an RBI single.",
     "all_games": [
       {
         "game": "Houston Astros @ Cincinnati Reds",
         "final_score": "10-0",
         "top_pitching_line": "Mike Burrows: 7.0 IP, 6 K, 0 ER, 1 BB, 3 H",
         "top_batting_line": "Zach Cole: 1 H, 1 HR, 3 RBI, 1 AB",
-        "summary": "The Houston Astros dominated the Cincinnati Reds 10-0 behind Mike Burrows' 7 shutout innings and Zach Cole's 1-for-1 performance with a home run and 3 RBIs.",
+        "summary": "The Houston Astros dominated the Cincinnati Reds 10-0, led by Mike Burrows' 7 shutout innings and Zach Cole's 3-RBI home run.",
         "impact_player": "Zach Cole"
       },
       {
@@ -18,7 +18,7 @@
         "final_score": "9-7",
         "top_pitching_line": "Chase Dollander: 5.2 IP, 5 K, 2 ER, 5 BB, 3 H",
         "top_batting_line": "Hunter Goodman: 4 H, 1 HR, 2 RBI, 5 AB",
-        "summary": "The Colorado Rockies outlasted the Philadelphia Phillies 9-7 behind Hunter Goodman's 4 hits, including a home run, and 2 RBI.",
+        "summary": "The Colorado Rockies outlasted the Philadelphia Phillies 9-7, behind Hunter Goodman's 4 hits, including a home run, and Chase Dollander's 5.2 innings of work.",
         "impact_player": "Hunter Goodman"
       },
       {
@@ -26,7 +26,7 @@
         "final_score": "4-3",
         "top_pitching_line": "Kyle Bradish: 7.0 IP, 10 K, 3 ER, 1 BB, 5 H",
         "top_batting_line": "Adley Rutschman: 2 H, 1 HR, 1 RBI, 3 AB",
-        "summary": "The Athletics edged the Orioles 4-3 behind a strong outing from their pitching staff, with Kyle Bradish striking out 10 in 7 innings.",
+        "summary": "The Athletics edged the Orioles 4-3 behind a strong outing from their pitching, as Kyle Bradish struck out 10 in 7 innings.",
         "impact_player": "Adley Rutschman"
       },
       {
@@ -34,7 +34,7 @@
         "final_score": "0-2",
         "top_pitching_line": "Dylan Cease: 7.0 IP, 10 K, 0 ER, 0 BB, 5 H",
         "top_batting_line": "Kazuma Okamoto: 1 H, 0 HR, 1 RBI, 3 AB",
-        "summary": "The Toronto Blue Jays shut out the Los Angeles Angels 2-0 behind Dylan Cease's 7 shutout innings with 10 strikeouts.",
+        "summary": "The Toronto Blue Jays shut out the Los Angeles Angels 2-0 behind Dylan Cease's 7 scoreless innings with 10 strikeouts.",
         "impact_player": "Kazuma Okamoto"
       },
       {
@@ -42,7 +42,7 @@
         "final_score": "0-2",
         "top_pitching_line": "Connelly Early: 7.0 IP, 8 K, 0 ER, 1 BB, 4 H",
         "top_batting_line": "Ceddanne Rafaela: 2 H, 1 HR, 1 RBI, 4 AB",
-        "summary": "The Boston Red Sox shut out the Tampa Bay Rays 2-0 behind Connelly Early's 7-inning performance with 8 strikeouts and no earned runs.",
+        "summary": "The Boston Red Sox edged the Tampa Bay Rays 2-0 behind Connelly Early's 7 shutout innings, with Ceddanne Rafaela's 2-hit, 1-homer performance.",
         "impact_player": "Ceddanne Rafaela"
       },
       {
@@ -50,7 +50,7 @@
         "final_score": "3-2",
         "top_pitching_line": "Foster Griffin: 7.0 IP, 9 K, 1 ER, 1 BB, 4 H",
         "top_batting_line": "Jacob Young: 1 H, 1 HR, 2 RBI, 3 AB",
-        "summary": "The Washington Nationals edged the Miami Marlins 3-2 behind Foster Griffin's 7-inning, 9-K performance and Jacob Young's 1 HR, 2 RBI effort.",
+        "summary": "The Washington Nationals edged the Miami Marlins 3-2 behind Foster Griffin's 7 shutout innings and Jacob Young's 1 HR, 2 RBI performance.",
         "impact_player": "Jacob Young"
       },
       {
@@ -58,7 +58,7 @@
         "final_score": "4-6",
         "top_pitching_line": "Parker Messick: 5.2 IP, 7 K, 1 ER, 1 BB, 7 H",
         "top_batting_line": "Byron Buxton: 3 H, 1 HR, 2 RBI, 5 AB",
-        "summary": "The Cleveland Guardians edged the Minnesota Twins 6-4 behind Parker Messick's 5.2 innings of work, striking out 7 and allowing 1 ER.",
+        "summary": "The Cleveland Guardians edged the Minnesota Twins 6-4, behind Parker Messick's 5.2 innings of work with 7 strikeouts and 1 earned run.",
         "impact_player": "Byron Buxton"
       },
       {
@@ -66,7 +66,7 @@
         "final_score": "3-4",
         "top_pitching_line": "Keider Montero: 6.0 IP, 4 K, 1 ER, 1 BB, 3 H",
         "top_batting_line": "Kyle Isbel: 2 H, 0 HR, 2 RBI, 4 AB",
-        "summary": "The Kansas City Royals edged the Detroit Tigers 4-3 behind Keider Montero's 6 shutout innings and Kyle Isbel's 2 hits, including a key RBI single.",
+        "summary": "The Kansas City Royals edged the Detroit Tigers 4-3 behind Keider Montero's 6 strong innings and Kyle Isbel's 2-hit, 2-RBI performance.",
         "impact_player": "Kyle Isbel"
       },
       {
@@ -74,7 +74,7 @@
         "final_score": "12-8",
         "top_pitching_line": "Seranthony Dom\u00ednguez: 1.0 IP, 2 K, 0 ER, 0 BB, 0 H",
         "top_batting_line": "Luke Raley: 2 H, 2 HR, 7 RBI, 5 AB",
-        "summary": "The Seattle Mariners outlasted the Chicago White Sox 12-8 behind Luke Raley's 2 HR, 7 RBI performance.",
+        "summary": "Seattle Mariners win 12-8 behind Luke Raley's 2 HR, 7 RBI performance, outlasting the Chicago White Sox.",
         "impact_player": "Luke Raley"
       },
       {
@@ -90,7 +90,7 @@
         "final_score": "7-1",
         "top_pitching_line": "Ben Brown: 4.0 IP, 3 K, 0 ER, 1 BB, 0 H",
         "top_batting_line": "Seiya Suzuki: 1 H, 1 HR, 2 RBI, 3 AB",
-        "summary": "The Chicago Cubs dominated the Texas Rangers 7-1 behind Ben Brown's 4 scoreless innings and Seiya Suzuki's 2-RBI, 1-homer performance.",
+        "summary": "The Chicago Cubs dominated the Texas Rangers 7-1, led by Seiya Suzuki's 1 HR and 2 RBI, and Ben Brown's 4 shutout innings.",
         "impact_player": "Seiya Suzuki"
       },
       {
@@ -98,7 +98,7 @@
         "final_score": "3-1",
         "top_pitching_line": "Ryne Nelson: 6.2 IP, 7 K, 1 ER, 1 BB, 2 H",
         "top_batting_line": "Mark Vientos: 2 H, 1 HR, 2 RBI, 4 AB",
-        "summary": "The New York Mets edged the Arizona Diamondbacks 3-1 behind Mark Vientos' 2 hits, including a home run, and 2 RBIs.",
+        "summary": "The New York Mets edged the Arizona Diamondbacks 3-1 behind Mark Vientos' 2 hits, including a home run, and 2 RBIs, while Ryne Nelson pitched 6.2 strong innings.",
         "impact_player": "Mark Vientos"
       },
       {
@@ -106,7 +106,7 @@
         "final_score": "6-0",
         "top_pitching_line": "Michael McGreevy: 6.0 IP, 9 K, 0 ER, 2 BB, 1 H",
         "top_batting_line": "JJ Wetherholt: 1 H, 0 HR, 2 RBI, 5 AB",
-        "summary": "The St. Louis Cardinals shut out the San Diego Padres 6-0 behind Michael McGreevy's 6 scoreless innings with 9 strikeouts.",
+        "summary": "The St. Louis Cardinals shut out the San Diego Padres 6-0 behind Michael McGreevy's 6 shutout innings with 9 strikeouts.",
         "impact_player": "JJ Wetherholt"
       },
       {
@@ -114,7 +114,7 @@
         "final_score": "1-3",
         "top_pitching_line": "Emmet Sheehan: 4.2 IP, 7 K, 1 ER, 1 BB, 6 H",
         "top_batting_line": "Freddie Freeman: 1 H, 1 HR, 1 RBI, 4 AB",
-        "summary": "The Los Angeles Dodgers edged the Atlanta Braves 3-1, with Emmet Sheehan striking out 7 in 4.2 innings and Freddie Freeman hitting his 4th home run.",
+        "summary": "The Los Angeles Dodgers edged the Atlanta Braves 3-1 behind Emmet Sheehan's 4.2 strong innings, with Freddie Freeman's solo homer providing the Braves' only run.",
         "impact_player": "Freddie Freeman"
       },
       {
@@ -122,7 +122,7 @@
         "final_score": "2-5",
         "top_pitching_line": "Robbie Ray: 6.0 IP, 7 K, 1 ER, 4 BB, 4 H",
         "top_batting_line": "Marcell Ozuna: 2 H, 1 HR, 1 RBI, 3 AB",
-        "summary": "The San Francisco Giants outlasted the Pittsburgh Pirates 5-2 behind a strong outing from Robbie Ray and Marcell Ozuna's 2 hits, including a home run.",
+        "summary": "The San Francisco Giants defeated the Pittsburgh Pirates 5-2 behind Robbie Ray's 6 strong innings, striking out 7 and allowing 1 earned run.",
         "impact_player": "Marcell Ozuna"
       }
     ],
