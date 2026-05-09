@@ -1,5 +1,42 @@
 {
-  "updated_at": "2026-05-09T13:36:50.264794-04:00",
-  "games": [],
+  "updated_at": "2026-05-09T16:06:18.239835-04:00",
+  "games": [
+    {
+      "gamePk": 822820,
+      "game": "Los Angeles Angels @ Toronto Blue Jays",
+      "score": "0-0",
+      "inning": "4th",
+      "hot_hitters": [
+        "Yo\u00e1n Moncada"
+      ],
+      "top_pitchers": [
+        "Trey Yesavage"
+      ]
+    },
+    {
+      "gamePk": 824847,
+      "game": "Athletics @ Baltimore Orioles",
+      "score": "0-0",
+      "inning": "1st",
+      "hot_hitters": [],
+      "top_pitchers": []
+    },
+    {
+      "gamePk": 824523,
+      "game": "Houston Astros @ Cincinnati Reds",
+      "score": "0-0",
+      "inning": "1st",
+      "hot_hitters": [],
+      "top_pitchers": []
+    },
+    {
+      "gamePk": 823869,
+      "game": "Washington Nationals @ Miami Marlins",
+      "score": "0-0",
+      "inning": "1st",
+      "hot_hitters": [],
+      "top_pitchers": []
+    }
+  ],
   "errors": []
 }

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-09T13:36:50.264794-04:00",
+  "updated_at": "2026-05-09T16:06:18.239835-04:00",
   "teams": [
     {
       "team_id": 109,
@@ -1119,9 +1119,9 @@
           "player_id": 686613,
           "name": "Hunter Brown",
           "il_type": "Injured List",
-          "date": "2026-04-05",
-          "note": "Houston Astros placed RHP Hunter Brown on the 15-day injured list retroactive to April 2, 2026. Right shoulder strain. | Status Change",
-          "description": "Houston Astros placed RHP Hunter Brown on the 15-day injured list retroactive to April 2, 2026. Right shoulder strain."
+          "date": "2026-05-09",
+          "note": "Houston Astros transferred RHP Hunter Brown from the 15-day injured list to the 60-day injured list. Right shoulder strain. | Status Change",
+          "description": "Houston Astros transferred RHP Hunter Brown from the 15-day injured list to the 60-day injured list. Right shoulder strain."
         },
         {
           "player_id": 676694,
@@ -1484,9 +1484,9 @@
           "player_id": 669242,
           "name": "Tommy Edman",
           "il_type": "Injured List",
-          "date": "2026-03-23",
-          "note": "Los Angeles Dodgers placed 2B Tommy Edman on the 10-day injured list retroactive to March 22, 2026. Recovery from right ankle surgery. | Status Change",
-          "description": "Los Angeles Dodgers placed 2B Tommy Edman on the 10-day injured list retroactive to March 22, 2026. Recovery from right ankle surgery."
+          "date": "2026-05-09",
+          "note": "Los Angeles Dodgers transferred 2B Tommy Edman from the 10-day injured list to the 60-day injured list. Recovery from right ankle surgery. | Status Change",
+          "description": "Los Angeles Dodgers transferred 2B Tommy Edman from the 10-day injured list to the 60-day injured list. Recovery from right ankle surgery."
         },
         {
           "player_id": 607192,
@@ -1572,7 +1572,7 @@
     {
       "team_id": 158,
       "team_name": "Milwaukee Brewers",
-      "injured_count": 11,
+      "injured_count": 12,
       "players": [
         {
           "player_id": 668731,
@@ -1597,6 +1597,14 @@
           "date": "2026-04-29",
           "note": "Milwaukee Brewers placed LHP Angel Zerpa on the 15-day injured list retroactive to April 26, 2026. Left forearm tightness. | Status Change",
           "description": "Milwaukee Brewers placed LHP Angel Zerpa on the 15-day injured list retroactive to April 26, 2026. Left forearm tightness."
+        },
+        {
+          "player_id": 663604,
+          "name": "Brandon Lockridge",
+          "il_type": "Injured List",
+          "date": "2026-05-09",
+          "note": "Milwaukee Brewers placed LF Brandon Lockridge on the 10-day injured list. Right knee laceration and contusion. | Status Change",
+          "description": "Milwaukee Brewers placed LF Brandon Lockridge on the 10-day injured list. Right knee laceration and contusion."
         },
         {
           "player_id": 605540,

@@ -1,5 +1,15 @@
 {
-  "updated_at": "2026-05-09T13:36:50.264794-04:00",
-  "games": [],
+  "updated_at": "2026-05-09T16:06:18.239835-04:00",
+  "games": [
+    {
+      "gamePk": 824766,
+      "game": "Tampa Bay Rays @ Boston Red Sox",
+      "winner": "Boston Red Sox",
+      "loser": "Tampa Bay Rays",
+      "final_score": "0-0",
+      "hitters": [],
+      "pitchers": []
+    }
+  ],
   "errors": []
 }
