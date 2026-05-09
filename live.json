@@ -1,37 +1,49 @@
 {
-  "updated_at": "2026-05-09T16:06:18.239835-04:00",
+  "updated_at": "2026-05-09T18:28:03.081149-04:00",
   "games": [
-    {
-      "gamePk": 822820,
-      "game": "Los Angeles Angels @ Toronto Blue Jays",
-      "score": "0-0",
-      "inning": "4th",
-      "hot_hitters": [
-        "Yo\u00e1n Moncada"
-      ],
-      "top_pitchers": [
-        "Trey Yesavage"
-      ]
-    },
     {
       "gamePk": 824847,
       "game": "Athletics @ Baltimore Orioles",
-      "score": "0-0",
-      "inning": "1st",
-      "hot_hitters": [],
+      "score": "5-0",
+      "inning": "8th",
+      "hot_hitters": [
+        "Nick Kurtz",
+        "Shea Langeliers",
+        "Brent Rooker",
+        "Gunnar Henderson",
+        "Samuel Basallo"
+      ],
       "top_pitchers": []
     },
     {
       "gamePk": 824523,
       "game": "Houston Astros @ Cincinnati Reds",
-      "score": "0-0",
-      "inning": "1st",
-      "hot_hitters": [],
+      "score": "1-3",
+      "inning": "9th",
+      "hot_hitters": [
+        "Braden Shewmake",
+        "Elly De La Cruz"
+      ],
       "top_pitchers": []
     },
     {
       "gamePk": 823869,
       "game": "Washington Nationals @ Miami Marlins",
+      "score": "4-4",
+      "inning": "8th",
+      "hot_hitters": [
+        "James Wood",
+        "Luis Garc\u00eda Jr.",
+        "CJ Abrams",
+        "Xavier Edwards",
+        "Otto Lopez",
+        "Kyle Stowers"
+      ],
+      "top_pitchers": []
+    },
+    {
+      "gamePk": 823468,
+      "game": "Colorado Rockies @ Philadelphia Phillies",
       "score": "0-0",
       "inning": "1st",
       "hot_hitters": [],

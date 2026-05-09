@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-05-09T16:06:18.239835-04:00",
-  "headline": "**MLB Daily Recap: May 9, 2026**",
-  "article": "The Houston Astros dominated the Cincinnati Reds, securing a 10-0 victory behind Mike Burrows' 7.0 innings of shutout baseball. In other action, the Colorado Rockies rallied past the Philadelphia Phillies 9-7, led by Hunter Goodman's 4-hit performance, and the Oakland Athletics edged the Baltimore Orioles 4-3.\n\nInjuries continue to plague several teams, with the Milwaukee Brewers placing left fielder Brandon Lockridge on the 10-day injured list due to a right knee laceration and contusion. The Los Angeles Dodgers transferred 2B Tommy Edman to the 60-day injured list, while the Houston Astros placed LHP Bennett Sousa on the 15-day injured list retroactive to May 6, 2026, due to left elbow inflammation.\n\nSeveral teams made roster moves, including the San Francisco Giants trading catcher Patrick Bailey to the Cleveland Guardians for LHP Matt Wilkinson and other considerations. The Baltimore Orioles acquired RHP Enyel Garcia and RHP Maicol Lauriano from the Philadelphia Phillies in exchange for cash.",
+  "updated_at": "2026-05-09T18:28:03.081149-04:00",
+  "headline": "**MLB Daily Roundup: May 9, 2026**",
+  "article": "The Houston Astros dominated the Cincinnati Reds, securing a 10-0 victory behind a strong performance from their pitching staff. Mike Burrows led the way with 7.0 innings pitched, 6 strikeouts, and 0 earned runs.\n\nInjuries and availability are impacting several teams. The San Francisco Giants placed Logan Webb on the 15-day injured list due to right knee bursitis. The Milwaukee Brewers placed Brandon Lockridge on the 10-day injured list with a right knee laceration and contusion. The Los Angeles Dodgers transferred Tommy Edman to the 60-day injured list for recovery from right ankle surgery.\n\nSeveral trades and roster movements have taken place. The San Francisco Giants traded Patrick Bailey to the Cleveland Guardians for LHP Matt Wilkinson and other considerations. The Philadelphia Phillies traded Enyel Garcia and Maicol Lauriano to the Baltimore Orioles for cash. The Athletics traded RHP Tyler Ferguson to the Chicago Cubs.",
   "top_news": [
     {
       "title": "**Astros Shut Out Reds 10-0**",
-      "summary": "The Houston Astros dominated the Cincinnati Reds, securing a 10-0 victory. Mike Burrows led the Astros' pitching effort, throwing 7.0 innings with 6 strikeouts and 0 earned runs.",
+      "summary": "The Houston Astros dominated the Cincinnati Reds, securing a 10-0 victory behind a strong performance from their pitching staff. Mike Burrows led the way with 7.0 innings pitched, 6 strikeouts, and 0 earned runs.",
       "published": "2026-05-08"
     },
     {
@@ -20,26 +20,37 @@
     },
     {
       "title": "**Angels Fall Short in Toronto**",
-      "summary": "The Los Angeles Angels suffered a 0-2 loss to the Toronto Blue Jays, with Kazuma Okamoto leading the team in batting with 1 hit and 1 RBI in 3 at-bats. Dylan Cease earned the win for the Blue Jays, pitching 7.0 innings with 10 strikeouts and 0 earned runs.",
+      "summary": "The Los Angeles Angels suffered a 0-2 loss to the Toronto Blue Jays, with Kazuma Okamoto leading the team with 1 hit, 1 RBI, and 3 at-bats. Dylan Cease earned the win for the Blue Jays, pitching 7.0 innings with 10 strikeouts and 0 earned runs.",
       "published": "2026-05-08"
     },
     {
+      "title": "**Blue Jays Rout Angels 14-1 in Dominant Performance**",
+      "summary": "The Toronto Blue Jays handed the Los Angeles Angels a lopsided 14-1 defeat, with multiple impact hitters contributing to the win. Impact players for the Blue Jays included Yo\u00e1n Moncada, Josh Lowe, George Springer, Vladimir Guerrero Jr., Jes\u00fas S\u00e1nchez, Daulton Varsho, Ernie Clement, and Brandon Valenzuela, while Trey Yesavage stood out on the mound.",
+      "published": "2026-05-09"
+    },
+    {
       "title": "**Rays Shut Out by Red Sox in Thrilling Match**",
-      "summary": "The Boston Red Sox secured a 0-0 victory over the Tampa Bay Rays, marking a hard-fought win for the home team.",
+      "summary": "The Boston Red Sox secured a 0-0 victory over the Tampa Bay Rays, marking a hard-fought win for the home team. The game ended with the Red Sox emerging as the winners, while the Rays fell short.",
       "published": "2026-05-09"
     },
     {
-      "title": "**Brewers Place Lockridge on 10-Day IL**",
-      "summary": "The Milwaukee Brewers have placed left fielder Brandon Lockridge on the 10-day injured list due to a right knee laceration and contusion.",
+      "title": "**Giants' Logan Webb Lands on Injured List**",
+      "summary": "San Francisco Giants right-hander Logan Webb has been placed on the 15-day injured list due to right knee bursitis, effective retroactive to May 6, 2026.",
       "published": "2026-05-09"
     },
     {
-      "title": "**Giants Acquire LHP Matt Wilkinson in Trade**",
-      "summary": "The San Francisco Giants have made a move to bolster their pitching staff, acquiring left-handed pitcher Matt Wilkinson from the Cleveland Guardians in exchange for catcher Patrick Bailey. Wilkinson joins the Giants' organization after being traded.",
+      "title": "**Giants Make Key Trade Addition**",
+      "summary": "The San Francisco Giants have bolstered their roster with the acquisition of left-handed pitcher Matt Wilkinson from the Cleveland Guardians in exchange for catcher Patrick Bailey. Wilkinson joins the Giants' organization as part of a trade deal.",
       "published": "2026-05-09"
     }
   ],
   "injury_updates": [
+    {
+      "date": "2026-05-09",
+      "team": "San Francisco Giants",
+      "player": "Logan Webb",
+      "update": "San Francisco Giants placed RHP Logan Webb on the 15-day injured list retroactive to May 6, 2026. Right knee bursitis. | Status Change"
+    },
     {
       "date": "2026-05-09",
       "team": "Milwaukee Brewers",
@@ -105,21 +116,9 @@
       "team": "New York Yankees",
       "player": "Jasson Dom\u00ednguez",
       "update": "New York Yankees placed LF Jasson Dom\u00ednguez on the 10-day injured list. Left shoulder AC joint sprain. | Status Change"
-    },
-    {
-      "date": "2026-05-07",
-      "team": "San Diego Padres",
-      "player": "Luis Campusano",
-      "update": "San Diego Padres placed C Luis Campusano on the 10-day injured list. Left toe fracture. | Status Change"
     }
   ],
   "trade_updates": [
-    {
-      "date": "2026-05-09",
-      "team": "San Francisco Giants",
-      "player": "Matt Wilkinson",
-      "update": "San Francisco Giants traded C Patrick Bailey to Cleveland Guardians for LHP Matt Wilkinson and Other Considerations. | Trade"
-    },
     {
       "date": "2026-05-09",
       "team": "San Francisco Giants",
@@ -130,6 +129,12 @@
       "date": "2026-05-09",
       "team": "Cleveland Guardians",
       "player": "Patrick Bailey",
+      "update": "San Francisco Giants traded C Patrick Bailey to Cleveland Guardians for LHP Matt Wilkinson and Other Considerations. | Trade"
+    },
+    {
+      "date": "2026-05-09",
+      "team": "San Francisco Giants",
+      "player": "Matt Wilkinson",
       "update": "San Francisco Giants traded C Patrick Bailey to Cleveland Guardians for LHP Matt Wilkinson and Other Considerations. | Trade"
     },
     {
