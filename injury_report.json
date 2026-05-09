@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-08T19:39:03.154886-04:00",
+  "updated_at": "2026-05-09T03:21:26.425701-04:00",
   "teams": [
     {
       "team_id": 109,
@@ -1382,7 +1382,7 @@
     {
       "team_id": 119,
       "team_name": "Los Angeles Dodgers",
-      "injured_count": 13,
+      "injured_count": 14,
       "players": [
         {
           "player_id": 676508,
@@ -1487,6 +1487,14 @@
           "date": "2026-03-23",
           "note": "Los Angeles Dodgers placed 2B Tommy Edman on the 10-day injured list retroactive to March 22, 2026. Recovery from right ankle surgery. | Status Change",
           "description": "Los Angeles Dodgers placed 2B Tommy Edman on the 10-day injured list retroactive to March 22, 2026. Recovery from right ankle surgery."
+        },
+        {
+          "player_id": 607192,
+          "name": "Tyler Glasnow",
+          "il_type": "Injured List",
+          "date": "2026-05-08",
+          "note": "Los Angeles Dodgers placed RHP Tyler Glasnow on the 15-day injured list. Low back spasms. | Status Change",
+          "description": "Los Angeles Dodgers placed RHP Tyler Glasnow on the 15-day injured list. Low back spasms."
         }
       ]
     },
