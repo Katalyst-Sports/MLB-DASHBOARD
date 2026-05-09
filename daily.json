@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-09T10:34:51.823357-04:00",
+  "updated_at": "2026-05-09T13:36:50.264794-04:00",
   "games": [
     {
       "gamePk": 822820,
@@ -282,26 +282,6 @@
       ],
       "home_hitters": [
         {
-          "name": "Yohendrick Pi\u00f1ango",
-          "stats": {
-            "avg": ".423",
-            "obp": ".444",
-            "slg": ".462",
-            "ops": ".906",
-            "homeRuns": 0,
-            "rbi": 4
-          },
-          "last10ab": {
-            "avg": "0.500",
-            "hits": 5,
-            "atBats": 10,
-            "homeRuns": 0,
-            "rbi": 3,
-            "walks": 1,
-            "games": 5
-          }
-        },
-        {
           "name": "Kazuma Okamoto",
           "stats": {
             "avg": ".248",
@@ -459,6 +439,26 @@
             "rbi": 2,
             "walks": 0,
             "games": 5
+          }
+        },
+        {
+          "name": "George Springer",
+          "stats": {
+            "avg": ".195",
+            "obp": ".287",
+            "slg": ".325",
+            "ops": ".612",
+            "homeRuns": 2,
+            "rbi": 7
+          },
+          "last10ab": {
+            "avg": "0.100",
+            "hits": 1,
+            "atBats": 10,
+            "homeRuns": 0,
+            "rbi": 1,
+            "walks": 0,
+            "games": 2
           }
         }
       ]

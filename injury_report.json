@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-09T10:34:51.823357-04:00",
+  "updated_at": "2026-05-09T13:36:50.264794-04:00",
   "teams": [
     {
       "team_id": 109,
@@ -1063,9 +1063,9 @@
           "player_id": 656986,
           "name": "Bennett Sousa",
           "il_type": "Injured List",
-          "date": "2026-03-25",
-          "note": "Houston Astros placed LHP Bennett Sousa on the 15-day injured list. Left oblique strain. | Status Change",
-          "description": "Houston Astros placed LHP Bennett Sousa on the 15-day injured list. Left oblique strain."
+          "date": "2026-05-09",
+          "note": "Houston Astros placed LHP Bennett Sousa on the 15-day injured list retroactive to May 6, 2026. Left elbow inflammation. | Status Change",
+          "description": "Houston Astros placed LHP Bennett Sousa on the 15-day injured list retroactive to May 6, 2026. Left elbow inflammation."
         },
         {
           "player_id": 687888,
@@ -1667,7 +1667,7 @@
     {
       "team_id": 142,
       "team_name": "Minnesota Twins",
-      "injured_count": 8,
+      "injured_count": 9,
       "players": [
         {
           "player_id": 689520,
@@ -1724,6 +1724,14 @@
           "date": "2026-04-11",
           "note": "Minnesota Twins placed 3B Royce Lewis on the 10-day injured list retroactive to April 10, 2025. Left knee sprain. | Status Change",
           "description": "Minnesota Twins placed 3B Royce Lewis on the 10-day injured list retroactive to April 10, 2025. Left knee sprain."
+        },
+        {
+          "player_id": 671737,
+          "name": "Taj Bradley",
+          "il_type": "Injured List",
+          "date": "2026-05-09",
+          "note": "Minnesota Twins placed RHP Taj Bradley on the 15-day injured list retroactive to May 6, 2026. Right pectoralis muscle inflammation. | Status Change",
+          "description": "Minnesota Twins placed RHP Taj Bradley on the 15-day injured list retroactive to May 6, 2026. Right pectoralis muscle inflammation."
         },
         {
           "player_id": 701519,
