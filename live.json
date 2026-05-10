@@ -1,32 +1,35 @@
 {
-  "updated_at": "2026-05-10T17:06:55.373881-04:00",
+  "updated_at": "2026-05-10T18:04:08.960194-04:00",
   "games": [
     {
       "gamePk": 823221,
       "game": "Pittsburgh Pirates @ San Francisco Giants",
-      "score": "2-2",
-      "inning": "4th",
+      "score": "4-4",
+      "inning": "7th",
       "hot_hitters": [
+        "Oneil Cruz",
         "Konnor Griffin",
+        "Jung Hoo Lee",
         "Heliot Ramos"
       ],
-      "top_pitchers": [
-        "Tyler Mahle"
-      ]
+      "top_pitchers": []
     },
     {
       "gamePk": 825085,
       "game": "New York Mets @ Arizona Diamondbacks",
-      "score": "0-2",
-      "inning": "4th",
-      "hot_hitters": [],
+      "score": "1-5",
+      "inning": "8th",
+      "hot_hitters": [
+        "Luis Torrens",
+        "Ryan Waldschmidt"
+      ],
       "top_pitchers": []
     },
     {
       "gamePk": 823305,
       "game": "St. Louis Cardinals @ San Diego Padres",
       "score": "2-0",
-      "inning": "4th",
+      "inning": "8th",
       "hot_hitters": [
         "Jordan Walker"
       ],
@@ -35,10 +38,15 @@
     {
       "gamePk": 823954,
       "game": "Atlanta Braves @ Los Angeles Dodgers",
-      "score": "4-0",
-      "inning": "5th",
-      "hot_hitters": [],
-      "top_pitchers": []
+      "score": "5-2",
+      "inning": "8th",
+      "hot_hitters": [
+        "Drake Baldwin",
+        "Max Muncy"
+      ],
+      "top_pitchers": [
+        "Justin Wrobleski"
+      ]
     }
   ],
   "errors": []
