@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-10T16:08:45.080728-04:00",
+  "updated_at": "2026-05-10T17:06:55.373881-04:00",
   "teams": [
     {
       "team_id": 109,
@@ -930,7 +930,7 @@
     {
       "team_id": 116,
       "team_name": "Detroit Tigers",
-      "injured_count": 15,
+      "injured_count": 16,
       "players": [
         {
           "player_id": 690544,
@@ -992,9 +992,17 @@
           "player_id": 434378,
           "name": "Justin Verlander",
           "il_type": "Injured List",
-          "date": "2026-04-04",
-          "note": "Detroit Tigers placed RHP Justin Verlander on the 15-day injured list retroactive to April 1, 2026. Left hip inflammation. | Status Change",
-          "description": "Detroit Tigers placed RHP Justin Verlander on the 15-day injured list retroactive to April 1, 2026. Left hip inflammation."
+          "date": "2026-05-10",
+          "note": "Detroit Tigers transferred RHP Justin Verlander from the 15-day injured list to the 60-day injured list. Left hip inflammation. | Status Change",
+          "description": "Detroit Tigers transferred RHP Justin Verlander from the 15-day injured list to the 60-day injured list. Left hip inflammation."
+        },
+        {
+          "player_id": 681481,
+          "name": "Kerry Carpenter",
+          "il_type": "Injured List",
+          "date": "2026-05-10",
+          "note": "Detroit Tigers placed RF Kerry Carpenter on the 10-day injured list. Left AC Joint Sprain. | Status Change",
+          "description": "Detroit Tigers placed RF Kerry Carpenter on the 10-day injured list. Left AC Joint Sprain."
         },
         {
           "player_id": 678009,

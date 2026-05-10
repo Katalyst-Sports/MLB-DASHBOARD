@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-10T16:08:45.080728-04:00",
+  "updated_at": "2026-05-10T17:06:55.373881-04:00",
   "games": [
     {
       "gamePk": 823868,
@@ -11,6 +11,31 @@
         "Luis Garc\u00eda Jr.",
         "Daylen Lile",
         "Heriberto Hern\u00e1ndez"
+      ],
+      "pitchers": []
+    },
+    {
+      "gamePk": 824845,
+      "game": "Athletics @ Baltimore Orioles",
+      "winner": "Baltimore Orioles",
+      "loser": "Athletics",
+      "final_score": "1-2",
+      "hitters": [
+        "Gunnar Henderson",
+        "Dylan Beavers"
+      ],
+      "pitchers": []
+    },
+    {
+      "gamePk": 824765,
+      "game": "Tampa Bay Rays @ Boston Red Sox",
+      "winner": "Tampa Bay Rays",
+      "loser": "Boston Red Sox",
+      "final_score": "4-1",
+      "hitters": [
+        "Junior Caminero",
+        "Andruw Monasterio",
+        "Mickey Gasper"
       ],
       "pitchers": []
     },
@@ -44,6 +69,79 @@
       ],
       "pitchers": [
         "Jos\u00e9 Soriano"
+      ]
+    },
+    {
+      "gamePk": 824520,
+      "game": "Houston Astros @ Cincinnati Reds",
+      "winner": "Cincinnati Reds",
+      "loser": "Houston Astros",
+      "final_score": "0-5",
+      "hitters": [
+        "Spencer Steer",
+        "Elly De La Cruz"
+      ],
+      "pitchers": []
+    },
+    {
+      "gamePk": 824440,
+      "game": "Minnesota Twins @ Cleveland Guardians",
+      "winner": "Minnesota Twins",
+      "loser": "Cleveland Guardians",
+      "final_score": "5-4",
+      "hitters": [
+        "Josh Bell",
+        "Austin Martin",
+        "Kody Clemens",
+        "Brooks Lee",
+        "Chase DeLauter",
+        "Brayan Rocchio"
+      ],
+      "pitchers": [
+        "Gavin Williams"
+      ]
+    },
+    {
+      "gamePk": 824605,
+      "game": "Seattle Mariners @ Chicago White Sox",
+      "winner": "Chicago White Sox",
+      "loser": "Seattle Mariners",
+      "final_score": "1-2",
+      "hitters": [
+        "Josh Naylor",
+        "Connor Joe",
+        "Randal Grichuk"
+      ],
+      "pitchers": [
+        "Logan Gilbert",
+        "Davis Martin"
+      ]
+    },
+    {
+      "gamePk": 823793,
+      "game": "New York Yankees @ Milwaukee Brewers",
+      "winner": "Milwaukee Brewers",
+      "loser": "New York Yankees",
+      "final_score": "3-4",
+      "hitters": [
+        "Aaron Judge",
+        "Brice Turang"
+      ],
+      "pitchers": []
+    },
+    {
+      "gamePk": 822902,
+      "game": "Chicago Cubs @ Texas Rangers",
+      "winner": "Texas Rangers",
+      "loser": "Chicago Cubs",
+      "final_score": "0-3",
+      "hitters": [
+        "Nico Hoerner",
+        "Josh Jung",
+        "Evan Carter"
+      ],
+      "pitchers": [
+        "Jacob deGrom"
       ]
     }
   ],
