@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-10T18:04:08.960194-04:00",
+  "updated_at": "2026-05-10T19:05:15.815068-04:00",
   "games": [
     {
       "gamePk": 823868,
@@ -142,6 +142,48 @@
       ],
       "pitchers": [
         "Jacob deGrom"
+      ]
+    },
+    {
+      "gamePk": 825085,
+      "game": "New York Mets @ Arizona Diamondbacks",
+      "winner": "Arizona Diamondbacks",
+      "loser": "New York Mets",
+      "final_score": "1-5",
+      "hitters": [
+        "Luis Torrens",
+        "Ryan Waldschmidt"
+      ],
+      "pitchers": []
+    },
+    {
+      "gamePk": 823305,
+      "game": "St. Louis Cardinals @ San Diego Padres",
+      "winner": "San Diego Padres",
+      "loser": "St. Louis Cardinals",
+      "final_score": "2-3",
+      "hitters": [
+        "Jordan Walker",
+        "Xander Bogaerts",
+        "Nick Castellanos"
+      ],
+      "pitchers": []
+    },
+    {
+      "gamePk": 823954,
+      "game": "Atlanta Braves @ Los Angeles Dodgers",
+      "winner": "Atlanta Braves",
+      "loser": "Los Angeles Dodgers",
+      "final_score": "7-2",
+      "hitters": [
+        "Drake Baldwin",
+        "Matt Olson",
+        "Jorge Mateo",
+        "Max Muncy"
+      ],
+      "pitchers": [
+        "Bryce Elder",
+        "Justin Wrobleski"
       ]
     }
   ],
