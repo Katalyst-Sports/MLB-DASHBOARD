@@ -1,35 +1,5 @@
 {
-  "updated_at": "2026-05-09T18:28:03.081149-04:00",
-  "games": [
-    {
-      "gamePk": 822820,
-      "game": "Los Angeles Angels @ Toronto Blue Jays",
-      "winner": "Toronto Blue Jays",
-      "loser": "Los Angeles Angels",
-      "final_score": "1-14",
-      "hitters": [
-        "Yo\u00e1n Moncada",
-        "Josh Lowe",
-        "George Springer",
-        "Vladimir Guerrero Jr.",
-        "Jes\u00fas S\u00e1nchez",
-        "Daulton Varsho",
-        "Ernie Clement",
-        "Brandon Valenzuela"
-      ],
-      "pitchers": [
-        "Trey Yesavage"
-      ]
-    },
-    {
-      "gamePk": 824766,
-      "game": "Tampa Bay Rays @ Boston Red Sox",
-      "winner": "Boston Red Sox",
-      "loser": "Tampa Bay Rays",
-      "final_score": "0-0",
-      "hitters": [],
-      "pitchers": []
-    }
-  ],
+  "updated_at": "2026-05-10T03:34:49.082422-04:00",
+  "games": [],
   "errors": []
 }
