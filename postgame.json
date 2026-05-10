@@ -1,5 +1,51 @@
 {
-  "updated_at": "2026-05-10T13:38:41.475355-04:00",
-  "games": [],
+  "updated_at": "2026-05-10T16:08:45.080728-04:00",
+  "games": [
+    {
+      "gamePk": 823868,
+      "game": "Washington Nationals @ Miami Marlins",
+      "winner": "Miami Marlins",
+      "loser": "Washington Nationals",
+      "final_score": "2-5",
+      "hitters": [
+        "Luis Garc\u00eda Jr.",
+        "Daylen Lile",
+        "Heriberto Hern\u00e1ndez"
+      ],
+      "pitchers": []
+    },
+    {
+      "gamePk": 823463,
+      "game": "Colorado Rockies @ Philadelphia Phillies",
+      "winner": "Philadelphia Phillies",
+      "loser": "Colorado Rockies",
+      "final_score": "0-6",
+      "hitters": [
+        "Ezequiel Tovar",
+        "Kyle Schwarber",
+        "Bryce Harper",
+        "Brandon Marsh"
+      ],
+      "pitchers": [
+        "Cristopher S\u00e1nchez"
+      ]
+    },
+    {
+      "gamePk": 822819,
+      "game": "Los Angeles Angels @ Toronto Blue Jays",
+      "winner": "Los Angeles Angels",
+      "loser": "Toronto Blue Jays",
+      "final_score": "6-1",
+      "hitters": [
+        "Vaughn Grissom",
+        "Jo Adell",
+        "Oswald Peraza",
+        "Daulton Varsho"
+      ],
+      "pitchers": [
+        "Jos\u00e9 Soriano"
+      ]
+    }
+  ],
   "errors": []
 }
