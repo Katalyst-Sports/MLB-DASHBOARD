@@ -1,5 +1,64 @@
 {
-  "updated_at": "2026-05-10T10:39:35.256470-04:00",
-  "games": [],
+  "updated_at": "2026-05-10T13:38:41.475355-04:00",
+  "games": [
+    {
+      "gamePk": 823868,
+      "game": "Washington Nationals @ Miami Marlins",
+      "score": "1-2",
+      "inning": "5th",
+      "hot_hitters": [],
+      "top_pitchers": []
+    },
+    {
+      "gamePk": 824845,
+      "game": "Athletics @ Baltimore Orioles",
+      "score": "0-0",
+      "inning": "1st",
+      "hot_hitters": [],
+      "top_pitchers": []
+    },
+    {
+      "gamePk": 824765,
+      "game": "Tampa Bay Rays @ Boston Red Sox",
+      "score": "1-0",
+      "inning": "1st",
+      "hot_hitters": [
+        "Junior Caminero"
+      ],
+      "top_pitchers": []
+    },
+    {
+      "gamePk": 823463,
+      "game": "Colorado Rockies @ Philadelphia Phillies",
+      "score": "0-0",
+      "inning": "1st",
+      "hot_hitters": [],
+      "top_pitchers": []
+    },
+    {
+      "gamePk": 822819,
+      "game": "Los Angeles Angels @ Toronto Blue Jays",
+      "score": "0-0",
+      "inning": "1st",
+      "hot_hitters": [],
+      "top_pitchers": []
+    },
+    {
+      "gamePk": 824520,
+      "game": "Houston Astros @ Cincinnati Reds",
+      "score": "0-0",
+      "inning": "1st",
+      "hot_hitters": [],
+      "top_pitchers": []
+    },
+    {
+      "gamePk": 824440,
+      "game": "Minnesota Twins @ Cleveland Guardians",
+      "score": "0-0",
+      "inning": "1st",
+      "hot_hitters": [],
+      "top_pitchers": []
+    }
+  ],
   "errors": []
 }
