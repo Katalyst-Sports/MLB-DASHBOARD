@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-10T19:05:15.815068-04:00",
+  "updated_at": "2026-05-10T20:06:54.956950-04:00",
   "games": [
     {
       "gamePk": 823868,
@@ -142,6 +142,26 @@
       ],
       "pitchers": [
         "Jacob deGrom"
+      ]
+    },
+    {
+      "gamePk": 823221,
+      "game": "Pittsburgh Pirates @ San Francisco Giants",
+      "winner": "San Francisco Giants",
+      "loser": "Pittsburgh Pirates",
+      "final_score": "6-7",
+      "hitters": [
+        "Oneil Cruz",
+        "Spencer Horwitz",
+        "Konnor Griffin",
+        "Jung Hoo Lee",
+        "Rafael Devers",
+        "Heliot Ramos",
+        "Willy Adames",
+        "Matt Chapman"
+      ],
+      "pitchers": [
+        "Tyler Mahle"
       ]
     },
     {
