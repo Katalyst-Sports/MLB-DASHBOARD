@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-11T16:21:10.276759-04:00",
+  "updated_at": "2026-05-11T17:48:18.842875-04:00",
   "games": [
     {
       "gamePk": 824441,
@@ -1475,53 +1475,53 @@
         }
       },
       "home_pitcher": {
-        "id": 543135,
-        "name": "Nathan Eovaldi",
+        "id": 596001,
+        "name": "Jakob Junis",
         "hand": "R",
-        "era": "4.15",
-        "whip": "1.17",
+        "era": "1.65",
+        "whip": "0.80",
         "last3": {
           "starts": [
             {
-              "date": "2026-03-26",
+              "date": "2026-03-28",
               "opponent": "Philadelphia Phillies",
-              "ip": "4.2",
-              "er": 5,
-              "k": 7,
+              "ip": "2.0",
+              "er": 0,
+              "k": 2,
               "bb": 0,
-              "pitches": 80,
-              "strikes": 55
+              "pitches": 23,
+              "strikes": 16
             },
             {
-              "date": "2026-04-01",
+              "date": "2026-03-30",
               "opponent": "Baltimore Orioles",
-              "ip": "4.0",
-              "er": 6,
-              "k": 5,
-              "bb": 3,
-              "pitches": 88,
-              "strikes": 55
+              "ip": "1.0",
+              "er": 0,
+              "k": 0,
+              "bb": 0,
+              "pitches": 8,
+              "strikes": 8
             },
             {
-              "date": "2026-04-07",
-              "opponent": "Seattle Mariners",
-              "ip": "6.0",
-              "er": 2,
-              "k": 7,
-              "bb": 2,
-              "pitches": 93,
-              "strikes": 60
+              "date": "2026-03-31",
+              "opponent": "Baltimore Orioles",
+              "ip": "1.0",
+              "er": 0,
+              "k": 1,
+              "bb": 0,
+              "pitches": 15,
+              "strikes": 12
             }
           ],
-          "avg_ip": "5.0",
-          "avg_k": "6.3",
-          "avg_bb": "1.7",
-          "avg_pitches": "87.0",
-          "avg_strikes": "56.7",
-          "era": "7.98",
-          "whip": "1.84",
-          "strike_pct": "65.1",
-          "quality_starts": 1
+          "avg_ip": "1.1",
+          "avg_k": "1.0",
+          "avg_bb": "0.0",
+          "avg_pitches": "15.3",
+          "avg_strikes": "12.0",
+          "era": "0.00",
+          "whip": "0.25",
+          "strike_pct": "78.3",
+          "quality_starts": 0
         }
       },
       "away_hitters": [
