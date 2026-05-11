@@ -1,17 +1,37 @@
 {
-  "updated_at": "2026-05-11T18:42:52.190094-04:00",
+  "updated_at": "2026-05-11T19:42:28.652368-04:00",
   "games": [
     {
       "gamePk": 824441,
       "game": "Los Angeles Angels @ Cleveland Guardians",
-      "score": "0-0",
-      "inning": "2nd",
-      "hot_hitters": [],
+      "score": "0-7",
+      "inning": "5th",
+      "hot_hitters": [
+        "Nolan Schanuel"
+      ],
       "top_pitchers": []
     },
     {
       "gamePk": 824844,
       "game": "New York Yankees @ Baltimore Orioles",
+      "score": "2-0",
+      "inning": "4th",
+      "hot_hitters": [
+        "Ben Rice"
+      ],
+      "top_pitchers": []
+    },
+    {
+      "gamePk": 822818,
+      "game": "Tampa Bay Rays @ Toronto Blue Jays",
+      "score": "5-0",
+      "inning": "2nd",
+      "hot_hitters": [],
+      "top_pitchers": []
+    },
+    {
+      "gamePk": 822901,
+      "game": "Arizona Diamondbacks @ Texas Rangers",
       "score": "0-0",
       "inning": "1st",
       "hot_hitters": [],
