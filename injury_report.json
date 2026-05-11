@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-11T10:08:15.598129-04:00",
+  "updated_at": "2026-05-11T12:46:08.576496-04:00",
   "teams": [
     {
       "team_id": 109,
@@ -162,7 +162,7 @@
     {
       "team_id": 144,
       "team_name": "Atlanta Braves",
-      "injured_count": 13,
+      "injured_count": 14,
       "players": [
         {
           "player_id": 700363,
@@ -195,6 +195,14 @@
           "date": "2026-04-23",
           "note": "Atlanta Braves placed LHP Dylan Dodd on the 15-day injured list retroactive to April 22, 2026. Left thoracic spine inflammation. | Status Change",
           "description": "Atlanta Braves placed LHP Dylan Dodd on the 15-day injured list retroactive to April 22, 2026. Left thoracic spine inflammation."
+        },
+        {
+          "player_id": 642201,
+          "name": "Eli White",
+          "il_type": "Injured List",
+          "date": "2026-05-11",
+          "note": "Atlanta Braves placed CF Eli White on the 7-day injured list. Concussion. | Status Change",
+          "description": "Atlanta Braves placed CF Eli White on the 7-day injured list. Concussion."
         },
         {
           "player_id": 673490,

@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-05-11T10:08:15.598129-04:00",
+  "updated_at": "2026-05-11T12:46:08.576496-04:00",
   "headline": "**MLB Daily Roundup: May 10, 2026**",
-  "article": "The Washington Nationals suffered a 5-2 loss to the Miami Marlins, led by Heriberto Hern\u00e1ndez's 2 hits and 2 RBIs. Andrew Nardi pitched 0.2 innings in relief, striking out 2 batters without allowing an earned run.\n\nSeveral key players are dealing with injuries, including Justin Verlander, who has been transferred to the 60-day injured list due to left hip inflammation. Kerry Carpenter has been placed on the 10-day injured list with a left AC Joint Sprain. Edwin D\u00edaz has been transferred to the 60-day injured list with right elbow loose bodies.\n\nThe San Francisco Giants made a key trade addition, acquiring LHP Matt Wilkinson from the Cleveland Guardians in exchange for C Patrick Bailey. The Baltimore Orioles also made a trade, acquiring RHP Enyel Garcia and RHP Maicol Lauriano from the Philadelphia Phillies for cash.",
+  "article": "The Washington Nationals fell to the Miami Marlins in a 5-2 loss, with Heriberto Hern\u00e1ndez leading the Nationals' offense with 2 hits and 2 RBIs. The Baltimore Orioles secured a 2-1 victory over the Athletics, with Gunnar Henderson leading the offense with 2 hits and 1 RBI. Chris Bassitt earned the win for the Orioles, pitching 6 strong innings with 6 strikeouts and 1 earned run.\n\nSeveral players have been impacted by injuries and availability. Atlanta Braves center fielder Eli White has been placed on the 7-day injured list due to a concussion. Detroit Tigers right-hander Justin Verlander has been transferred to the 60-day injured list with left hip inflammation. Other injured players include Detroit Tigers right fielder Kerry Carpenter, Los Angeles Dodgers right-hander Edwin D\u00edaz, Los Angeles Dodgers right-hander Brock Stewart, San Francisco Giants right-hander Logan Webb, Milwaukee Brewers left fielder Brandon Lockridge, and Los Angeles Dodgers second baseman Tommy Edman.\n\nThe San Francisco Giants made a move on May 9, 2026, acquiring left-handed pitcher Matt Wilkinson from the Cleveland Guardians in exchange for catcher Patrick Bailey. The Philadelphia Phillies traded right-hander Enyel Garcia and right-hander Maicol Lauriano to the Baltimore Orioles for cash. The Athletics traded right-hander Tyler Ferguson to the Chicago Cubs. The Tampa Bay Rays traded right-hander Yoendrys G\u00f3mez to the Minnesota Twins for cash.",
   "top_news": [
     {
       "title": "**Nationals Fall to Marlins in 5-2 Loss**",
-      "summary": "The Washington Nationals dropped a 5-2 decision to the Miami Marlins, with Heriberto Hern\u00e1ndez leading the Nationals' offense with 2 hits and 2 RBIs. Andrew Nardi pitched a strong 0.2 innings in relief, striking out 2 batters without allowing an earned run.",
+      "summary": "The Washington Nationals were defeated by the Miami Marlins with a final score of 5-2. Heriberto Hern\u00e1ndez led the Nationals' offense with 2 hits and 2 RBIs.",
       "published": "2026-05-10"
     },
     {
-      "title": "**Orioles Take Down Athletics 2-1**",
-      "summary": "The Baltimore Orioles secured a narrow 2-1 victory over the Athletics, with Gunnar Henderson leading the team's offense with 2 hits and 1 RBI. Chris Bassitt earned the win for the Orioles, pitching 6 strong innings with 6 strikeouts and 1 earned run.",
+      "title": "**Orioles Take Down Athletics in Thrilling Match**",
+      "summary": "The Baltimore Orioles secured a 2-1 victory over the Athletics, with Gunnar Henderson leading the offense with 2 hits and 1 RBI. Chris Bassitt earned the win for the Orioles, pitching 6 strong innings with 6 strikeouts and 1 earned run.",
       "published": "2026-05-10"
     },
     {
@@ -19,22 +19,28 @@
       "published": "2026-05-10"
     },
     {
-      "title": "**Rockies Fall to Phillies in Blowout**",
-      "summary": "The Colorado Rockies suffered a 6-0 loss to the Philadelphia Phillies, with Cristopher S\u00e1nchez earning the win after pitching 7.0 innings with 7 strikeouts and 0 earned runs. Kyle Schwarber led the Phillies' offense with 3 hits, including 2 home runs.",
+      "title": "**Rockies Fall to Phillies in Shutout**",
+      "summary": "The Colorado Rockies suffered a 6-0 loss to the Philadelphia Phillies, marking their final score. Cristopher S\u00e1nchez led the Phillies to victory, pitching 7.0 innings with 7 strikeouts and 0 earned runs.",
       "published": "2026-05-10"
     },
     {
-      "title": "**Verlander Shifts to 60-Day IL**",
-      "summary": "Justin Verlander has been transferred from the 15-day injured list to the 60-day injured list due to left hip inflammation. The Detroit Tigers pitcher will be sidelined for an extended period.",
-      "published": "2026-05-10"
+      "title": "**Braves CF Eli White Lands on 7-Day Injured List**",
+      "summary": "Atlanta Braves center fielder Eli White has been placed on the 7-day injured list due to a concussion.",
+      "published": "2026-05-11"
     },
     {
-      "title": "**Giants Make Key Trade Addition**",
-      "summary": "The San Francisco Giants acquired LHP Matt Wilkinson from the Cleveland Guardians in exchange for C Patrick Bailey on May 9, 2026. Wilkinson joins the Giants in a trade that brings new pitching depth to the team.",
+      "title": "**Giants Acquire LHP Matt Wilkinson in Trade**",
+      "summary": "The San Francisco Giants made a move on May 9, 2026, acquiring left-handed pitcher Matt Wilkinson from the Cleveland Guardians in exchange for catcher Patrick Bailey.",
       "published": "2026-05-09"
     }
   ],
   "injury_updates": [
+    {
+      "date": "2026-05-11",
+      "team": "Atlanta Braves",
+      "player": "Eli White",
+      "update": "Atlanta Braves placed CF Eli White on the 7-day injured list. Concussion. | Status Change"
+    },
     {
       "date": "2026-05-10",
       "team": "Detroit Tigers",
@@ -100,15 +106,15 @@
       "team": "Los Angeles Dodgers",
       "player": "Tyler Glasnow",
       "update": "Los Angeles Dodgers placed RHP Tyler Glasnow on the 15-day injured list. Low back spasms. | Status Change"
-    },
-    {
-      "date": "2026-05-08",
-      "team": "Pittsburgh Pirates",
-      "player": "Jake Mangum",
-      "update": "Pittsburgh Pirates placed LF Jake Mangum on the 10-day injured list retroactive to May 6, 2026. Left hamstring strain. | Status Change"
     }
   ],
   "trade_updates": [
+    {
+      "date": "2026-05-09",
+      "team": "San Francisco Giants",
+      "player": "Matt Wilkinson",
+      "update": "San Francisco Giants traded C Patrick Bailey to Cleveland Guardians for LHP Matt Wilkinson and Other Considerations. | Trade"
+    },
     {
       "date": "2026-05-09",
       "team": "San Francisco Giants",
@@ -122,10 +128,10 @@
       "update": "San Francisco Giants traded C Patrick Bailey to Cleveland Guardians for LHP Matt Wilkinson and Other Considerations. | Trade"
     },
     {
-      "date": "2026-05-09",
-      "team": "San Francisco Giants",
-      "player": "Matt Wilkinson",
-      "update": "San Francisco Giants traded C Patrick Bailey to Cleveland Guardians for LHP Matt Wilkinson and Other Considerations. | Trade"
+      "date": "2026-05-08",
+      "team": "Philadelphia Phillies",
+      "player": "Unknown Player",
+      "update": "Philadelphia Phillies traded RHP Enyel Garcia and RHP Maicol Lauriano to Baltimore Orioles for cash. | Trade"
     },
     {
       "date": "2026-05-08",
@@ -137,12 +143,6 @@
       "date": "2026-05-08",
       "team": "Baltimore Orioles",
       "player": "Maicol Lauriano",
-      "update": "Philadelphia Phillies traded RHP Enyel Garcia and RHP Maicol Lauriano to Baltimore Orioles for cash. | Trade"
-    },
-    {
-      "date": "2026-05-08",
-      "team": "Philadelphia Phillies",
-      "player": "Unknown Player",
       "update": "Philadelphia Phillies traded RHP Enyel Garcia and RHP Maicol Lauriano to Baltimore Orioles for cash. | Trade"
     },
     {
