@@ -1,5 +1,22 @@
 {
-  "updated_at": "2026-05-11T17:48:18.842875-04:00",
-  "games": [],
+  "updated_at": "2026-05-11T18:42:52.190094-04:00",
+  "games": [
+    {
+      "gamePk": 824441,
+      "game": "Los Angeles Angels @ Cleveland Guardians",
+      "score": "0-0",
+      "inning": "2nd",
+      "hot_hitters": [],
+      "top_pitchers": []
+    },
+    {
+      "gamePk": 824844,
+      "game": "New York Yankees @ Baltimore Orioles",
+      "score": "0-0",
+      "inning": "1st",
+      "hot_hitters": [],
+      "top_pitchers": []
+    }
+  ],
   "errors": []
 }
