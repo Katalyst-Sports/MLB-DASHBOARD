@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-11T14:29:06.267497-04:00",
+  "updated_at": "2026-05-11T16:21:10.276759-04:00",
   "games": [
     {
       "gamePk": 824441,
@@ -8,7 +8,56 @@
       "venue": "Progressive Field",
       "start": "2026-05-11T22:10:00Z",
       "status": "Preview",
-      "away_pitcher": {},
+      "away_pitcher": {
+        "id": 608718,
+        "name": "Brent Suter",
+        "hand": "L",
+        "era": "4.03",
+        "whip": "1.34",
+        "last3": {
+          "starts": [
+            {
+              "date": "2026-03-28",
+              "opponent": "Houston Astros",
+              "ip": "2.0",
+              "er": 0,
+              "k": 2,
+              "bb": 1,
+              "pitches": 24,
+              "strikes": 15
+            },
+            {
+              "date": "2026-04-01",
+              "opponent": "Chicago Cubs",
+              "ip": "2.0",
+              "er": 0,
+              "k": 4,
+              "bb": 0,
+              "pitches": 44,
+              "strikes": 30
+            },
+            {
+              "date": "2026-04-03",
+              "opponent": "Seattle Mariners",
+              "ip": "1.0",
+              "er": 2,
+              "k": 0,
+              "bb": 1,
+              "pitches": 26,
+              "strikes": 20
+            }
+          ],
+          "avg_ip": "1.2",
+          "avg_k": "2.0",
+          "avg_bb": "0.7",
+          "avg_pitches": "31.3",
+          "avg_strikes": "21.7",
+          "era": "3.60",
+          "whip": "1.60",
+          "strike_pct": "69.1",
+          "quality_starts": 0
+        }
+      },
       "home_pitcher": {
         "id": 676282,
         "name": "Joey Cantillo",
@@ -1132,7 +1181,7 @@
             "slg": ".351",
             "ops": ".682",
             "homeRuns": 0,
-            "rbi": 11
+            "rbi": 12
           },
           "last10ab": {
             "avg": "0.455",
@@ -1186,6 +1235,26 @@
         }
       ],
       "home_hitters": [
+        {
+          "name": "Yohendrick Pi\u00f1ango",
+          "stats": {
+            "avg": ".423",
+            "obp": ".444",
+            "slg": ".462",
+            "ops": ".906",
+            "homeRuns": 0,
+            "rbi": 4
+          },
+          "last10ab": {
+            "avg": "0.500",
+            "hits": 5,
+            "atBats": 10,
+            "homeRuns": 0,
+            "rbi": 3,
+            "walks": 1,
+            "games": 5
+          }
+        },
         {
           "name": "Kazuma Okamoto",
           "stats": {
@@ -1344,26 +1413,6 @@
             "rbi": 4,
             "walks": 1,
             "games": 3
-          }
-        },
-        {
-          "name": "George Springer",
-          "stats": {
-            "avg": ".207",
-            "obp": ".293",
-            "slg": ".341",
-            "ops": ".634",
-            "homeRuns": 2,
-            "rbi": 7
-          },
-          "last10ab": {
-            "avg": "0.100",
-            "hits": 1,
-            "atBats": 10,
-            "homeRuns": 0,
-            "rbi": 1,
-            "walks": 0,
-            "games": 2
           }
         }
       ]
