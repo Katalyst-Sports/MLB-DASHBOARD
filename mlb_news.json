@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-05-12T13:35:15.128950-04:00",
+  "updated_at": "2026-05-12T15:21:40.860760-04:00",
   "headline": "**MLB Daily Roundup: May 12, 2026**",
-  "article": "The Los Angeles Angels suffered a 7-2 loss to the Cleveland Guardians, with Travis Bazzana leading the Angels' offense with 2 RBI. Joey Cantillo pitched a strong 6.0 innings for the Guardians, earning the win. In other news, the New York Yankees dropped a 2-3 decision to the Baltimore Orioles, with Coby Mayo leading the Orioles' offense with a home run and three RBIs. The Tampa Bay Rays secured an 8-5 victory over the Toronto Blue Jays, with Andr\u00e9s Gim\u00e9nez hitting two home runs and driving in five runs.\n\nSeveral players have been placed on the injured list, including Toronto Blue Jays right fielder Addison Barger due to right elbow inflammation, effective retroactive to May 10, 2026. The Detroit Tigers have also made several roster moves, transferring Justin Verlander to the 60-day injured list and placing Kerry Carpenter on the 10-day injured list.\n\nThe Arizona Diamondbacks have made a trade, acquiring outfielder Jose Requena from the Los Angeles Dodgers in exchange for center fielder Alek Thomas. The San Francisco Giants have traded catcher Patrick Bailey to the Cleveland Guardians for left-hander Matt Wilkinson and other considerations.",
+  "article": "The Cleveland Guardians secured a 7-2 victory over the Los Angeles Angels, with Joey Cantillo earning the win after pitching 6.0 innings with 4 strikeouts and 0 earned runs. Travis Bazzana led the Angels' offense with 1 hit, 2 RBI, and 2 at-bats.\n\nSeveral key players are dealing with injuries, impacting their teams' lineups. Atlanta Braves catcher Sean Murphy has been placed on the 10-day injured list due to a fractured left middle finger, with the move retroactive to May 11, 2026. Toronto Blue Jays right fielder Addison Barger has been placed on the 10-day injured list retroactive to May 10, 2026, with right elbow inflammation. \n\nThe Arizona Diamondbacks made a key trade, acquiring outfielder Jose Requena from the Los Angeles Dodgers in exchange for center fielder Alek Thomas.",
   "top_news": [
     {
-      "title": "**Angels Fall Short in Cleveland**",
-      "summary": "The Los Angeles Angels suffered a 7-2 loss to the Cleveland Guardians in their latest matchup. Travis Bazzana led the Angels' offense with 2 RBI, while Joey Cantillo pitched a strong 6.0 innings for the Guardians, earning the win.",
+      "title": "**Angels Fall to Guardians in 7-2 Loss**",
+      "summary": "The Cleveland Guardians secured a 7-2 victory over the Los Angeles Angels, with Joey Cantillo earning the win after pitching 6.0 innings with 4 strikeouts and 0 earned runs. Travis Bazzana led the Angels' offense with 1 hit, 2 RBI, and 2 at-bats.",
       "published": "2026-05-11"
     },
     {
       "title": "**Yankees Fall Short in Baltimore**",
-      "summary": "The New York Yankees dropped a 2-3 decision to the Baltimore Orioles, with Coby Mayo leading the Orioles' offense with a home run and three RBIs. Ryan Weathers pitched 6.1 innings for the Orioles, striking out nine and allowing two earned runs.",
+      "summary": "The New York Yankees dropped a 2-3 decision to the Baltimore Orioles in their latest matchup. Coby Mayo led the Orioles' offense with a home run and three RBIs, while Ryan Weathers pitched 6.1 strong innings for the winning team.",
       "published": "2026-05-11"
     },
     {
@@ -19,14 +19,14 @@
       "published": "2026-05-11"
     },
     {
-      "title": "**Diamondbacks Shut Out Rangers 1-0**",
-      "summary": "The Arizona Diamondbacks secured a narrow victory over the Texas Rangers, with Michael Soroka earning the win after 6.1 innings of scoreless relief. Geraldo Perdomo led the Diamondbacks' offense with a 2-hit performance, including a crucial double that plated the game's only run.",
+      "title": "**Diamondbacks Shut Out Rangers in Low-Scoring Affair**",
+      "summary": "The Arizona Diamondbacks secured a 1-0 victory over the Texas Rangers, with Michael Soroka earning the win after pitching 6.1 innings with 5 strikeouts and 0 earned runs. Geraldo Perdomo led the Diamondbacks' offense with 2 hits, 1 RBI, and a key double that scored the game's only run.",
       "published": "2026-05-11"
     },
     {
-      "title": "**Blue Jays' Barger Lands on Injured List**",
-      "summary": "Toronto Blue Jays right fielder Addison Barger has been placed on the 10-day injured list due to right elbow inflammation, effective retroactive to May 10, 2026.",
-      "published": "2026-05-11"
+      "title": "**Braves Catcher Sidelined with Injury**",
+      "summary": "Atlanta Braves catcher Sean Murphy has been placed on the 10-day injured list due to a fractured left middle finger, with the move retroactive to May 11, 2026.",
+      "published": "2026-05-12"
     },
     {
       "title": "**Diamondbacks Acquire Jose Requena in Trade**",
@@ -35,6 +35,12 @@
     }
   ],
   "injury_updates": [
+    {
+      "date": "2026-05-12",
+      "team": "Atlanta Braves",
+      "player": "Sean Murphy",
+      "update": "Atlanta Braves placed C Sean Murphy on the 10-day injured list retroactive to May 11, 2026. Fractured left middle finger. | Status Change"
+    },
     {
       "date": "2026-05-11",
       "team": "Toronto Blue Jays",
@@ -100,12 +106,6 @@
       "team": "Houston Astros",
       "player": "Bennett Sousa",
       "update": "Houston Astros placed LHP Bennett Sousa on the 15-day injured list retroactive to May 6, 2026. Left elbow inflammation. | Status Change"
-    },
-    {
-      "date": "2026-05-09",
-      "team": "Minnesota Twins",
-      "player": "Taj Bradley",
-      "update": "Minnesota Twins placed RHP Taj Bradley on the 15-day injured list retroactive to May 6, 2026. Right pectoralis muscle inflammation. | Status Change"
     }
   ],
   "trade_updates": [

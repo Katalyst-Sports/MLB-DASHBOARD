@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-12T13:35:15.128950-04:00",
+  "updated_at": "2026-05-12T15:21:40.860760-04:00",
   "games": [
     {
       "gamePk": 824442,
@@ -5003,22 +5003,22 @@
           }
         },
         {
-          "name": "Tyler Black",
+          "name": "Christian Yelich",
           "stats": {
-            "avg": ".333",
-            "obp": ".357",
-            "slg": ".481",
-            "ops": ".838",
-            "homeRuns": 0,
-            "rbi": 7
+            "avg": ".314",
+            "obp": ".375",
+            "slg": ".451",
+            "ops": ".826",
+            "homeRuns": 1,
+            "rbi": 10
           },
           "last10ab": {
-            "avg": "0.385",
-            "hits": 5,
-            "atBats": 13,
-            "homeRuns": 0,
-            "rbi": 3,
-            "walks": 0,
+            "avg": "0.600",
+            "hits": 6,
+            "atBats": 10,
+            "homeRuns": 1,
+            "rbi": 5,
+            "walks": 1,
             "games": 3
           }
         },
