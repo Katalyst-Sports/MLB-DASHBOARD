@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-12T16:58:04.475462-04:00",
+  "updated_at": "2026-05-12T18:19:35.319990-04:00",
   "teams": [
     {
       "team_id": 109,
@@ -289,7 +289,7 @@
     {
       "team_id": 110,
       "team_name": "Baltimore Orioles",
-      "injured_count": 16,
+      "injured_count": 17,
       "players": [
         {
           "player_id": 668939,
@@ -338,6 +338,14 @@
           "date": "2026-04-06",
           "note": "Baltimore Orioles placed LHP Dietrich Enns on the 15-day injured list retroactive to April 4, 2026. Left foot infection. | Status Change",
           "description": "Baltimore Orioles placed LHP Dietrich Enns on the 15-day injured list retroactive to April 4, 2026. Left foot infection."
+        },
+        {
+          "player_id": 664991,
+          "name": "Grant Wolfram",
+          "il_type": "Injured List",
+          "date": "2026-04-16",
+          "note": "Baltimore Orioles placed LHP Grant Wolfram on the 15-day injured list. Low back strain. | Status Change",
+          "description": "Baltimore Orioles placed LHP Grant Wolfram on the 15-day injured list. Low back strain."
         },
         {
           "player_id": 677008,
