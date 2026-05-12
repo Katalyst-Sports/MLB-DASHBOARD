@@ -1,41 +1,5 @@
 {
-  "updated_at": "2026-05-11T21:26:18.417736-04:00",
-  "games": [
-    {
-      "gamePk": 822818,
-      "game": "Tampa Bay Rays @ Toronto Blue Jays",
-      "score": "8-5",
-      "inning": "7th",
-      "hot_hitters": [
-        "Chandler Simpson",
-        "Jonathan Aranda",
-        "Richie Palacios",
-        "Andr\u00e9s Gim\u00e9nez"
-      ],
-      "top_pitchers": []
-    },
-    {
-      "gamePk": 822901,
-      "game": "Arizona Diamondbacks @ Texas Rangers",
-      "score": "1-0",
-      "inning": "6th",
-      "hot_hitters": [],
-      "top_pitchers": []
-    },
-    {
-      "gamePk": 824199,
-      "game": "Seattle Mariners @ Houston Astros",
-      "score": "3-0",
-      "inning": "4th",
-      "hot_hitters": [
-        "Julio Rodr\u00edguez",
-        "Randy Arozarena",
-        "Isaac Paredes"
-      ],
-      "top_pitchers": [
-        "George Kirby"
-      ]
-    }
-  ],
+  "updated_at": "2026-05-12T01:07:39.628674-04:00",
+  "games": [],
   "errors": []
 }
