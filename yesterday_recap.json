@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-05-12T15:21:40.860760-04:00",
+  "updated_at": "2026-05-12T16:58:04.475462-04:00",
   "date": "2026-05-11",
   "dashboard_recap": {
     "headline": "MLB Daily Recap - May 11, 2026",
-    "article": "\"Guardians Deliver Thrashing to Angels, Yankees Fall to Orioles\"\n\nThe Cleveland Guardians dominated the Los Angeles Angels 7-2, behind a strong team effort on the mound. Joey Cantillo led the way with 6.0 innings of one-run ball, striking out 4 and walking just 1. Meanwhile, Travis Bazzana drove in 2 runs on a single, while Vaughn Grissom's sharp line drive single scored the go-ahead run.\n\nIn other action, the Baltimore Orioles edged the New York Yankees 3-2, thanks in part to Coby Mayo's 3-RBI homer. Ryan Weathers pitched 6.1 strong innings for the Orioles, fanning 9 and surrendering 2 earned runs. The Tampa Bay Rays also picked up a win, taking down the Toronto Blue Jays 8-5 behind Andr\u00e9s Gim\u00e9nez's 5-RBI performance, including 2 home runs.",
+    "article": "\"Giants Surge Past Dodgers, Rays Outlast Blue Jays in Thrilling Matchups\"\n\nThe San Francisco Giants dominated the Los Angeles Dodgers 9-3, behind a strong team effort that saw five different batters record multi-hit games. Rafael Devers led the Giants' charge with two hits, including a home run and two RBIs. Meanwhile, in a separate matchup, the Tampa Bay Rays edged the Toronto Blue Jays 8-5, thanks in large part to Andr\u00e9s Gim\u00e9nez's two home runs and five RBIs. Gim\u00e9nez's power surge paced the Rays' offense, which also saw contributions from Chandler Simpson, Jonathan Aranda, and Richie Palacios.\n\nIn other games, Joey Cantillo tossed six shutout innings for the Cleveland Guardians in a 7-2 win over the Los Angeles Angels, while Ryan Weathers struck out nine over 6.1 innings for the Baltimore Orioles in a 3-2 victory over the New York Yankees. Additionally, the Seattle Mariners took down the Houston Astros 3-1 behind George Kirby's five scoreless innings and seven strikeouts.",
     "all_games": [
       {
         "game": "Los Angeles Angels @ Cleveland Guardians",
         "final_score": "2-7",
         "top_pitching_line": "Joey Cantillo: 6.0 IP, 4 K, 0 ER, 1 BB, 5 H",
         "top_batting_line": "Travis Bazzana: 1 H, 0 HR, 2 RBI, 2 AB",
-        "summary": "The Cleveland Guardians dominated the Los Angeles Angels 7-2 behind Joey Cantillo's 6 shutout innings and Travis Bazzana's 2 RBI performance.",
+        "summary": "The Cleveland Guardians dominated the Los Angeles Angels 7-2, led by Joey Cantillo's 6 shutout innings and Travis Bazzana's 2 RBI.",
         "impact_player": "Travis Bazzana"
       },
       {
@@ -18,7 +18,7 @@
         "final_score": "2-3",
         "top_pitching_line": "Ryan Weathers: 6.1 IP, 9 K, 2 ER, 3 BB, 1 H",
         "top_batting_line": "Coby Mayo: 1 H, 1 HR, 3 RBI, 2 AB",
-        "summary": "The Baltimore Orioles edged the New York Yankees 3-2 behind Coby Mayo's 1-for-2 performance with a 3-RBI homer and Ryan Weathers' 6.1 innings with 9 strikeouts.",
+        "summary": "The Baltimore Orioles edged the New York Yankees 3-2 behind Coby Mayo's 1-for-2 performance with a 3-RBI home run and Ryan Weathers' 6.1 innings with 9 strikeouts.",
         "impact_player": "Coby Mayo"
       },
       {
@@ -34,7 +34,7 @@
         "final_score": "1-0",
         "top_pitching_line": "Michael Soroka: 6.1 IP, 5 K, 0 ER, 1 BB, 3 H",
         "top_batting_line": "Geraldo Perdomo: 2 H, 0 HR, 1 RBI, 4 AB",
-        "summary": "The Arizona Diamondbacks edged the Texas Rangers 1-0 behind Michael Soroka's 6.1 scoreless innings and Geraldo Perdomo's go-ahead double.",
+        "summary": "The Arizona Diamondbacks edged the Texas Rangers 1-0 behind Michael Soroka's 6.1 scoreless innings and Geraldo Perdomo's key double that drove in the game's only run.",
         "impact_player": "Geraldo Perdomo"
       },
       {
@@ -42,7 +42,7 @@
         "final_score": "3-1",
         "top_pitching_line": "George Kirby: 5.0 IP, 7 K, 1 ER, 2 BB, 7 H",
         "top_batting_line": "Julio Rodr\u00edguez: 2 H, 1 HR, 1 RBI, 4 AB",
-        "summary": "The Seattle Mariners edged the Houston Astros 3-1, led by Julio Rodr\u00edguez's 2 hits, including a home run, and George Kirby's 5 strong innings with 7 strikeouts.",
+        "summary": "The Seattle Mariners edged the Houston Astros 3-1 behind George Kirby's 5 strong innings, including 7 strikeouts, and Julio Rodr\u00edguez's 2-hit, 1-home-run performance.",
         "impact_player": "Julio Rodr\u00edguez"
       },
       {
@@ -50,7 +50,7 @@
         "final_score": "9-3",
         "top_pitching_line": "JT Brubaker: 1.0 IP, 1 K, 0 ER, 0 BB, 0 H",
         "top_batting_line": "Rafael Devers: 2 H, 1 HR, 2 RBI, 3 AB",
-        "summary": "The San Francisco Giants defeated the Los Angeles Dodgers 9-3 behind a strong performance from their offense, led by Rafael Devers' 2 hits and 2 RBI.",
+        "summary": "The San Francisco Giants defeated the Los Angeles Dodgers 9-3 behind a strong outing and a 2-hit, 1-home run performance from Rafael Devers.",
         "impact_player": "Rafael Devers"
       }
     ],

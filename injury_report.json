@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-12T15:21:40.860760-04:00",
+  "updated_at": "2026-05-12T16:58:04.475462-04:00",
   "teams": [
     {
       "team_id": 109,
@@ -123,7 +123,7 @@
     {
       "team_id": 133,
       "team_name": "Athletics",
-      "injured_count": 4,
+      "injured_count": 5,
       "players": [
         {
           "player_id": 667670,
@@ -148,6 +148,14 @@
           "date": "2026-04-07",
           "note": "Athletics transferred RHP Gunnar Hoglund from the 15-day injured list to the 60-day injured list. Sprained right knee. | Status Change",
           "description": "Athletics transferred RHP Gunnar Hoglund from the 15-day injured list to the 60-day injured list. Sprained right knee."
+        },
+        {
+          "player_id": 805779,
+          "name": "Jacob Wilson",
+          "il_type": "Injured List",
+          "date": "2026-04-16",
+          "note": "Athletics placed SS Jacob Wilson on the 10-day injured list. Left shoulder subluxation. | Status Change",
+          "description": "Athletics placed SS Jacob Wilson on the 10-day injured list. Left shoulder subluxation."
         },
         {
           "player_id": 691777,
@@ -1881,7 +1889,7 @@
     {
       "team_id": 147,
       "team_name": "New York Yankees",
-      "injured_count": 7,
+      "injured_count": 8,
       "players": [
         {
           "player_id": 683409,
@@ -1938,6 +1946,14 @@
           "date": "2026-05-08",
           "note": "New York Yankees placed LF Jasson Dom\u00ednguez on the 10-day injured list. Left shoulder AC joint sprain. | Status Change",
           "description": "New York Yankees placed LF Jasson Dom\u00ednguez on the 10-day injured list. Left shoulder AC joint sprain."
+        },
+        {
+          "player_id": 676609,
+          "name": "Jos\u00e9 Caballero",
+          "il_type": "Injured List",
+          "date": "2026-05-12",
+          "note": "New York Yankees placed SS Jos\u00e9 Caballero on the 10-day injured list. Right middle finger fracture. | Status Change",
+          "description": "New York Yankees placed SS Jos\u00e9 Caballero on the 10-day injured list. Right middle finger fracture."
         }
       ]
     },

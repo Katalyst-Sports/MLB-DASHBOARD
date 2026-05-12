@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-12T15:21:40.860760-04:00",
+  "updated_at": "2026-05-12T16:58:04.475462-04:00",
   "games": [
     {
       "gamePk": 824442,
@@ -702,26 +702,6 @@
           }
         },
         {
-          "name": "Jos\u00e9 Caballero",
-          "stats": {
-            "avg": ".259",
-            "obp": ".320",
-            "slg": ".400",
-            "ops": ".720",
-            "homeRuns": 4,
-            "rbi": 13
-          },
-          "last10ab": {
-            "avg": "0.250",
-            "hits": 3,
-            "atBats": 12,
-            "homeRuns": 0,
-            "rbi": 1,
-            "walks": 0,
-            "games": 3
-          }
-        },
-        {
           "name": "Trent Grisham",
           "stats": {
             "avg": ".174",
@@ -759,6 +739,26 @@
             "rbi": 2,
             "walks": 2,
             "games": 4
+          }
+        },
+        {
+          "name": "Jazz Chisholm Jr.",
+          "stats": {
+            "avg": ".201",
+            "obp": ".281",
+            "slg": ".322",
+            "ops": ".603",
+            "homeRuns": 4,
+            "rbi": 14
+          },
+          "last10ab": {
+            "avg": "0.182",
+            "hits": 2,
+            "atBats": 11,
+            "homeRuns": 0,
+            "rbi": 0,
+            "walks": 0,
+            "games": 3
           }
         }
       ],
@@ -1946,7 +1946,56 @@
           "quality_starts": 2
         }
       },
-      "home_pitcher": {},
+      "home_pitcher": {
+        "id": 663558,
+        "name": "Jovani Mor\u00e1n",
+        "hand": "L",
+        "era": "2.91",
+        "whip": "1.25",
+        "last3": {
+          "starts": [
+            {
+              "date": "2026-03-29",
+              "opponent": "Cincinnati Reds",
+              "ip": "2.0",
+              "er": 0,
+              "k": 2,
+              "bb": 1,
+              "pitches": 25,
+              "strikes": 16
+            },
+            {
+              "date": "2026-03-31",
+              "opponent": "Houston Astros",
+              "ip": "2.0",
+              "er": 1,
+              "k": 2,
+              "bb": 0,
+              "pitches": 26,
+              "strikes": 14
+            },
+            {
+              "date": "2026-04-06",
+              "opponent": "Milwaukee Brewers",
+              "ip": "3.0",
+              "er": 1,
+              "k": 4,
+              "bb": 1,
+              "pitches": 45,
+              "strikes": 29
+            }
+          ],
+          "avg_ip": "2.1",
+          "avg_k": "2.7",
+          "avg_bb": "0.7",
+          "avg_pitches": "32.0",
+          "avg_strikes": "19.7",
+          "era": "2.57",
+          "whip": "0.71",
+          "strike_pct": "61.5",
+          "quality_starts": 0
+        }
+      },
       "away_hitters": [
         {
           "name": "Kyle Schwarber",
@@ -6479,26 +6528,6 @@
           }
         },
         {
-          "name": "Jacob Wilson",
-          "stats": {
-            "avg": ".292",
-            "obp": ".311",
-            "slg": ".398",
-            "ops": ".709",
-            "homeRuns": 3,
-            "rbi": 19
-          },
-          "last10ab": {
-            "avg": "0.154",
-            "hits": 2,
-            "atBats": 13,
-            "homeRuns": 0,
-            "rbi": 0,
-            "walks": 0,
-            "games": 3
-          }
-        },
-        {
           "name": "Tyler Soderstrom",
           "stats": {
             "avg": ".207",
@@ -6536,6 +6565,26 @@
             "rbi": 1,
             "walks": 3,
             "games": 4
+          }
+        },
+        {
+          "name": "Brent Rooker",
+          "stats": {
+            "avg": ".189",
+            "obp": ".272",
+            "slg": ".367",
+            "ops": ".639",
+            "homeRuns": 5,
+            "rbi": 18
+          },
+          "last10ab": {
+            "avg": "0.077",
+            "hits": 1,
+            "atBats": 13,
+            "homeRuns": 0,
+            "rbi": 1,
+            "walks": 0,
+            "games": 3
           }
         }
       ]
