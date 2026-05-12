@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-12T01:07:39.628674-04:00",
+  "updated_at": "2026-05-12T04:04:25.331467-04:00",
   "games": [
     {
       "gamePk": 824441,
@@ -103,6 +103,31 @@
       "losing_pitcher": "Peter Lambert",
       "save_pitcher": "Andr\u00e9s Mu\u00f1oz",
       "game_summary": "Isaac Paredes singles on a ground ball to left fielder Randy Arozarena, deflected by shortstop J.P. Crawford. Jose Altuve scores. Yordan Alvarez to 2nd."
+    },
+    {
+      "gamePk": 823953,
+      "game": "San Francisco Giants @ Los Angeles Dodgers",
+      "winner": "San Francisco Giants",
+      "loser": "Los Angeles Dodgers",
+      "final_score": "9-3",
+      "hitters": [
+        "Luis Arraez",
+        "Casey Schmitt",
+        "Rafael Devers",
+        "Heliot Ramos",
+        "Willy Adames",
+        "Freddie Freeman",
+        "Will Smith",
+        "Max Muncy",
+        "Teoscar Hern\u00e1ndez"
+      ],
+      "pitchers": [],
+      "top_batting_line": "Rafael Devers: 2 H, 1 HR, 2 RBI, 3 AB",
+      "top_pitching_line": "JT Brubaker: 1.0 IP, 1 K, 0 ER, 0 BB, 0 H",
+      "winning_pitcher": "Matt Gage",
+      "losing_pitcher": "Alex Vesia",
+      "save_pitcher": "",
+      "game_summary": "Jesus Rodriguez grounds out, second baseman Miguel Rojas to first baseman Freddie Freeman. Heliot Ramos scores. Willy Adames to 3rd. Matt Chapman to 2nd."
     }
   ],
   "errors": []
