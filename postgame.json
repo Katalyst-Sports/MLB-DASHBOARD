@@ -1,5 +1,34 @@
 {
-  "updated_at": "2026-05-11T19:42:28.652368-04:00",
-  "games": [],
+  "updated_at": "2026-05-11T21:26:18.417736-04:00",
+  "games": [
+    {
+      "gamePk": 824441,
+      "game": "Los Angeles Angels @ Cleveland Guardians",
+      "winner": "Cleveland Guardians",
+      "loser": "Los Angeles Angels",
+      "final_score": "2-7",
+      "hitters": [
+        "Jo Adell",
+        "Nolan Schanuel",
+        "Kyle Manzardo",
+        "David Fry"
+      ],
+      "pitchers": []
+    },
+    {
+      "gamePk": 824844,
+      "game": "New York Yankees @ Baltimore Orioles",
+      "winner": "Baltimore Orioles",
+      "loser": "New York Yankees",
+      "final_score": "2-3",
+      "hitters": [
+        "Ben Rice",
+        "Coby Mayo"
+      ],
+      "pitchers": [
+        "Ryan Weathers"
+      ]
+    }
+  ],
   "errors": []
 }

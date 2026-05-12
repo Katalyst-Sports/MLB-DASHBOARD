@@ -1,41 +1,40 @@
 {
-  "updated_at": "2026-05-11T19:42:28.652368-04:00",
+  "updated_at": "2026-05-11T21:26:18.417736-04:00",
   "games": [
-    {
-      "gamePk": 824441,
-      "game": "Los Angeles Angels @ Cleveland Guardians",
-      "score": "0-7",
-      "inning": "5th",
-      "hot_hitters": [
-        "Nolan Schanuel"
-      ],
-      "top_pitchers": []
-    },
-    {
-      "gamePk": 824844,
-      "game": "New York Yankees @ Baltimore Orioles",
-      "score": "2-0",
-      "inning": "4th",
-      "hot_hitters": [
-        "Ben Rice"
-      ],
-      "top_pitchers": []
-    },
     {
       "gamePk": 822818,
       "game": "Tampa Bay Rays @ Toronto Blue Jays",
-      "score": "5-0",
-      "inning": "2nd",
-      "hot_hitters": [],
+      "score": "8-5",
+      "inning": "7th",
+      "hot_hitters": [
+        "Chandler Simpson",
+        "Jonathan Aranda",
+        "Richie Palacios",
+        "Andr\u00e9s Gim\u00e9nez"
+      ],
       "top_pitchers": []
     },
     {
       "gamePk": 822901,
       "game": "Arizona Diamondbacks @ Texas Rangers",
-      "score": "0-0",
-      "inning": "1st",
+      "score": "1-0",
+      "inning": "6th",
       "hot_hitters": [],
       "top_pitchers": []
+    },
+    {
+      "gamePk": 824199,
+      "game": "Seattle Mariners @ Houston Astros",
+      "score": "3-0",
+      "inning": "4th",
+      "hot_hitters": [
+        "Julio Rodr\u00edguez",
+        "Randy Arozarena",
+        "Isaac Paredes"
+      ],
+      "top_pitchers": [
+        "George Kirby"
+      ]
     }
   ],
   "errors": []
