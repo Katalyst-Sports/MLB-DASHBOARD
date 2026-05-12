@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-05-12T08:29:28.805369-04:00",
+  "updated_at": "2026-05-12T11:26:21.400907-04:00",
   "date": "2026-05-11",
   "dashboard_recap": {
     "headline": "MLB Daily Recap - May 11, 2026",
-    "article": "**Giants Blast Past Dodgers in 9-3 Thriller, Yankees Fall to Orioles**\n\nThe San Francisco Giants dominated the Los Angeles Dodgers in a 9-3 victory, led by Luis Arraez, Casey Schmitt, and Rafael Devers, who each contributed with multi-hit performances. Devers' 2-for-3 day included a home run and 2 RBIs. Meanwhile, the New York Yankees dropped a 3-2 decision to the Baltimore Orioles, as Coby Mayo hit a go-ahead home run in the 8th inning. Mayo finished 1-for-2 with 3 RBIs. In other action, the Tampa Bay Rays edged the Toronto Blue Jays 8-5 behind Andr\u00e9s Gim\u00e9nez's 5 RBIs, including 2 home runs.",
+    "article": "**Guardians Dominate Angels, Yankees Fall to Orioles in Thrilling Finale**\n\nIn a day filled with impressive performances, the Cleveland Guardians took down the Los Angeles Angels 7-2 behind a strong staff effort. Joey Cantillo led the charge on the mound with 6 shutout innings, striking out 4 and allowing just 5 hits. Meanwhile, Travis Bazzana's 2-RBI effort was the top batting line for the Angels. \n\nIn a nail-biting finish, the Baltimore Orioles edged out the New York Yankees 3-2, thanks to a 6.1-inning gem from Ryan Weathers, who fanned 9 batters and allowed just 2 earned runs. Coby Mayo's 1-run homer was the top batting line for the Orioles, while Ben Rice also contributed with a strong day at the plate. \n\nThe Tampa Bay Rays came out on top against the Toronto Blue Jays 8-5, with Andr\u00e9s Gim\u00e9nez crushing 2 home runs and driving in 5 runs. Drew Rasmussen earned the win, tossing 5.1 innings of 1-run ball.",
     "all_games": [
       {
         "game": "Los Angeles Angels @ Cleveland Guardians",
         "final_score": "2-7",
         "top_pitching_line": "Joey Cantillo: 6.0 IP, 4 K, 0 ER, 1 BB, 5 H",
         "top_batting_line": "Travis Bazzana: 1 H, 0 HR, 2 RBI, 2 AB",
-        "summary": "The Cleveland Guardians dominated the Los Angeles Angels 7-2, led by Joey Cantillo's 6 shutout innings and Travis Bazzana's 2 RBI performance.",
+        "summary": "The Cleveland Guardians dominated the Los Angeles Angels 7-2 behind Joey Cantillo's 6 shutout innings and Travis Bazzana's 2 RBI performance.",
         "impact_player": "Travis Bazzana"
       },
       {
@@ -18,7 +18,7 @@
         "final_score": "2-3",
         "top_pitching_line": "Ryan Weathers: 6.1 IP, 9 K, 2 ER, 3 BB, 1 H",
         "top_batting_line": "Coby Mayo: 1 H, 1 HR, 3 RBI, 2 AB",
-        "summary": "The Baltimore Orioles edged the New York Yankees 3-2 behind Ryan Weathers' 6.1 innings with 9 strikeouts and Coby Mayo's 1-home-run, 3-RBI performance.",
+        "summary": "The Baltimore Orioles edged the New York Yankees 3-2 behind Coby Mayo's 1-for-2 performance with a go-ahead 3-RBI homer and Ryan Weathers' 6.1 innings of 2-earned-run relief.",
         "impact_player": "Coby Mayo"
       },
       {
@@ -26,7 +26,7 @@
         "final_score": "8-5",
         "top_pitching_line": "Bryan Baker: 1.0 IP, 2 K, 0 ER, 0 BB, 0 H",
         "top_batting_line": "Andr\u00e9s Gim\u00e9nez: 2 H, 2 HR, 5 RBI, 4 AB",
-        "summary": "The Tampa Bay Rays defeated the Toronto Blue Jays 8-5 behind Andr\u00e9s Gim\u00e9nez's 2 home runs and 5 RBIs, including a 2-run homer to right field.",
+        "summary": "Tampa Bay Rays win 8-5 behind Andr\u00e9s Gim\u00e9nez's 2 home runs and 5 RBIs, while Bryan Baker pitches a scoreless 1st inning with 2 strikeouts.",
         "impact_player": "Andr\u00e9s Gim\u00e9nez"
       },
       {
@@ -42,7 +42,7 @@
         "final_score": "3-1",
         "top_pitching_line": "George Kirby: 5.0 IP, 7 K, 1 ER, 2 BB, 7 H",
         "top_batting_line": "Julio Rodr\u00edguez: 2 H, 1 HR, 1 RBI, 4 AB",
-        "summary": "The Seattle Mariners edged the Houston Astros 3-1 behind George Kirby's 5 shutout innings and Julio Rodr\u00edguez's 2-hit, 1-home run performance.",
+        "summary": "The Seattle Mariners edged the Houston Astros 3-1, led by Julio Rodr\u00edguez's 2 hits, including a home run, and George Kirby's 5 strong innings with 7 strikeouts.",
         "impact_player": "Julio Rodr\u00edguez"
       },
       {
@@ -50,7 +50,7 @@
         "final_score": "9-3",
         "top_pitching_line": "JT Brubaker: 1.0 IP, 1 K, 0 ER, 0 BB, 0 H",
         "top_batting_line": "Rafael Devers: 2 H, 1 HR, 2 RBI, 3 AB",
-        "summary": "The San Francisco Giants outlasted the Los Angeles Dodgers 9-3 behind a strong outing and a 2-hit, 1-home run performance from Rafael Devers.",
+        "summary": "The San Francisco Giants defeated the Los Angeles Dodgers 9-3 behind a strong team effort and Rafael Devers' 2 hits, including a home run, and 2 RBIs.",
         "impact_player": "Rafael Devers"
       }
     ],
