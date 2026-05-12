@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-05-12T18:19:35.319990-04:00",
+  "updated_at": "2026-05-12T19:33:47.102234-04:00",
   "date": "2026-05-11",
   "dashboard_recap": {
     "headline": "MLB Daily Recap - May 11, 2026",
-    "article": "**Guardians' Dominant Performance Drowns Out Angels**\n\nThe Cleveland Guardians crushed the Los Angeles Angels 7-2 behind a team effort from their pitching staff. Meanwhile, the New York Yankees fell short against the Baltimore Orioles, 3-2, as Ryan Weathers struck out nine batters in 6.1 innings. The Tampa Bay Rays edged the Toronto Blue Jays 8-5, with Andr\u00e9s Gim\u00e9nez hitting two home runs and driving in five runs. In other action, the Arizona Diamondbacks shut out the Texas Rangers 1-0, with Michael Soroka pitching 6.1 scoreless innings, and the Seattle Mariners beat the Houston Astros 3-1 behind George Kirby's 7 strikeouts in 5 innings. The San Francisco Giants routed the Los Angeles Dodgers 9-3, with Rafael Devers hitting a home run and driving in two runs.",
+    "article": "**Giants Blast Dodgers, Gim\u00e9nez Delivers for Rays**\n\nThe San Francisco Giants exploded for nine runs in a 9-3 rout of the Los Angeles Dodgers, with Rafael Devers leading the charge with a home run and two RBIs. Meanwhile, the Tampa Bay Rays edged the Toronto Blue Jays 8-5 behind Andr\u00e9s Gim\u00e9nez's monster performance, which included two home runs and five RBIs. Gim\u00e9nez's power helped the Rays overcome a strong effort from the Blue Jays' Kevin Gausman. In other action, the Arizona Diamondbacks edged the Texas Rangers 1-0 behind Michael Soroka's six-plus innings of shutout baseball.",
     "all_games": [
       {
         "game": "Los Angeles Angels @ Cleveland Guardians",
@@ -18,7 +18,7 @@
         "final_score": "2-3",
         "top_pitching_line": "Ryan Weathers: 6.1 IP, 9 K, 2 ER, 3 BB, 1 H",
         "top_batting_line": "Coby Mayo: 1 H, 1 HR, 3 RBI, 2 AB",
-        "summary": "Baltimore Orioles edge New York Yankees 3-2 behind Coby Mayo's 1-for-2 performance with a 3-RBI homer and Ryan Weathers' 6.1 innings with 9 strikeouts.",
+        "summary": "Baltimore Orioles edge New York Yankees 3-2 behind Coby Mayo's 1-for-2 performance with a 3-RBI home run and Ryan Weathers' 6.1 innings with 9 strikeouts.",
         "impact_player": "Coby Mayo"
       },
       {
@@ -26,7 +26,7 @@
         "final_score": "8-5",
         "top_pitching_line": "Bryan Baker: 1.0 IP, 2 K, 0 ER, 0 BB, 0 H",
         "top_batting_line": "Andr\u00e9s Gim\u00e9nez: 2 H, 2 HR, 5 RBI, 4 AB",
-        "summary": "The Tampa Bay Rays outlasted the Toronto Blue Jays 8-5, led by Andr\u00e9s Gim\u00e9nez's 2 HR and 5 RBI performance.",
+        "summary": "The Tampa Bay Rays defeated the Toronto Blue Jays 8-5, led by Andr\u00e9s Gim\u00e9nez's 2 home runs and 5 RBIs, including a 2-run homer to right field.",
         "impact_player": "Andr\u00e9s Gim\u00e9nez"
       },
       {
@@ -34,7 +34,7 @@
         "final_score": "1-0",
         "top_pitching_line": "Michael Soroka: 6.1 IP, 5 K, 0 ER, 1 BB, 3 H",
         "top_batting_line": "Geraldo Perdomo: 2 H, 0 HR, 1 RBI, 4 AB",
-        "summary": "The Arizona Diamondbacks edged the Texas Rangers 1-0 behind Michael Soroka's 6.1 scoreless innings and Geraldo Perdomo's decisive double.",
+        "summary": "The Arizona Diamondbacks edged the Texas Rangers 1-0 behind Michael Soroka's 6.1 shutout innings and Geraldo Perdomo's decisive double.",
         "impact_player": "Geraldo Perdomo"
       },
       {
@@ -42,7 +42,7 @@
         "final_score": "3-1",
         "top_pitching_line": "George Kirby: 5.0 IP, 7 K, 1 ER, 2 BB, 7 H",
         "top_batting_line": "Julio Rodr\u00edguez: 2 H, 1 HR, 1 RBI, 4 AB",
-        "summary": "The Seattle Mariners edged the Houston Astros 3-1 behind George Kirby's 5 strong innings, striking out 7 and allowing 1 earned run.",
+        "summary": "The Seattle Mariners edged the Houston Astros 3-1 behind George Kirby's 5 shutout innings and Julio Rodr\u00edguez's 2-hit, 1-home run performance.",
         "impact_player": "Julio Rodr\u00edguez"
       },
       {
@@ -50,26 +50,26 @@
         "final_score": "9-3",
         "top_pitching_line": "JT Brubaker: 1.0 IP, 1 K, 0 ER, 0 BB, 0 H",
         "top_batting_line": "Rafael Devers: 2 H, 1 HR, 2 RBI, 3 AB",
-        "summary": "The San Francisco Giants dominated the Los Angeles Dodgers 9-3, led by Rafael Devers' 2 hits, including a home run, and 2 RBIs.",
+        "summary": "The San Francisco Giants defeated the Los Angeles Dodgers 9-3 behind a strong outing and Rafael Devers' 2 hits, including a home run, and 2 RBIs.",
         "impact_player": "Rafael Devers"
       }
     ],
     "season_leaders": {
       "avg_ops": [
-        "Brandon Marsh (Philadelphia Phillies) - AVG .353",
+        "Brandon Marsh (Philadelphia Phillies) - AVG .356",
         "Otto Lopez (Miami Marlins) - AVG .344",
         "Shea Langeliers (Athletics) - AVG .336",
         "Ildemaro Vargas (Arizona Diamondbacks) - AVG .331",
-        "Troy Johnston (Colorado Rockies) - AVG .325",
-        "Ben Rice (New York Yankees) - OPS 1.113",
+        "Andy Pages (Los Angeles Dodgers) - AVG .325",
+        "Ben Rice (New York Yankees) - OPS 1.123",
         "Yordan Alvarez (Houston Astros) - OPS 1.044",
-        "Aaron Judge (New York Yankees) - OPS 1.035",
-        "Matt Olson (Atlanta Braves) - OPS 1.031",
+        "Aaron Judge (New York Yankees) - OPS 1.032",
+        "Matt Olson (Atlanta Braves) - OPS 1.025",
         "Shea Langeliers (Athletics) - OPS 1.011"
       ],
       "power": [
+        "Kyle Schwarber (Philadelphia Phillies) - HR 17",
         "Aaron Judge (New York Yankees) - HR 16",
-        "Kyle Schwarber (Philadelphia Phillies) - HR 16",
         "Munetaka Murakami (Chicago White Sox) - HR 15",
         "Matt Olson (Atlanta Braves) - HR 14",
         "Yordan Alvarez (Houston Astros) - HR 13",
@@ -106,7 +106,7 @@
         "Jos\u00e9 Soriano (Los Angeles Angels) - ERA 1.66",
         "Nick Martinez (Tampa Bay Rays) - ERA 1.70",
         "Bryce Elder (Atlanta Braves) - ERA 1.81",
-        "Paul Skenes (Pittsburgh Pirates) - WHIP 0.71",
+        "Paul Skenes (Pittsburgh Pirates) - WHIP 0.66",
         "Cam Schlittler (New York Yankees) - WHIP 0.81",
         "Michael McGreevy (St. Louis Cardinals) - WHIP 0.86",
         "Chris Sale (Atlanta Braves) - WHIP 0.88",
