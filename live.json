@@ -1,108 +1,121 @@
 {
-  "updated_at": "2026-05-12T19:33:47.102234-04:00",
+  "updated_at": "2026-05-12T21:26:34.664837-04:00",
   "games": [
-    {
-      "gamePk": 824442,
-      "game": "Los Angeles Angels @ Cleveland Guardians",
-      "score": "0-1",
-      "inning": "5th",
-      "hot_hitters": [
-        "Mike Trout",
-        "Nolan Schanuel",
-        "Angel Mart\u00ednez"
-      ],
-      "top_pitchers": []
-    },
-    {
-      "gamePk": 824843,
-      "game": "New York Yankees @ Baltimore Orioles",
-      "score": "6-0",
-      "inning": "4th",
-      "hot_hitters": [
-        "Paul Goldschmidt",
-        "Trent Grisham"
-      ],
-      "top_pitchers": []
-    },
     {
       "gamePk": 824521,
       "game": "Washington Nationals @ Cincinnati Reds",
-      "score": "2-0",
-      "inning": "3rd",
+      "score": "9-2",
+      "inning": "9th",
       "hot_hitters": [
         "James Wood",
-        "Luis Garc\u00eda Jr."
-      ],
-      "top_pitchers": []
-    },
-    {
-      "gamePk": 823385,
-      "game": "Colorado Rockies @ Pittsburgh Pirates",
-      "score": "0-1",
-      "inning": "4th",
-      "hot_hitters": [],
-      "top_pitchers": [
-        "Paul Skenes"
-      ]
-    },
-    {
-      "gamePk": 824764,
-      "game": "Philadelphia Phillies @ Boston Red Sox",
-      "score": "2-0",
-      "inning": "4th",
-      "hot_hitters": [
-        "Kyle Schwarber"
+        "Luis Garc\u00eda Jr.",
+        "Brady House",
+        "CJ Abrams",
+        "Daylen Lile",
+        "Elly De La Cruz",
+        "Sal Stewart"
       ],
       "top_pitchers": []
     },
     {
       "gamePk": 822817,
       "game": "Tampa Bay Rays @ Toronto Blue Jays",
-      "score": "1-0",
-      "inning": "2nd",
-      "hot_hitters": [],
+      "score": "5-2",
+      "inning": "7th",
+      "hot_hitters": [
+        "Jonathan Aranda",
+        "Junior Caminero",
+        "Ryan Vilade",
+        "Jonny DeLuca",
+        "George Springer",
+        "Ernie Clement"
+      ],
       "top_pitchers": []
     },
     {
       "gamePk": 823632,
       "game": "Detroit Tigers @ New York Mets",
-      "score": "2-0",
-      "inning": "2nd",
+      "score": "2-6",
+      "inning": "7th",
       "hot_hitters": [
-        "Dillon Dingler"
+        "Kevin McGonigle",
+        "Colt Keith",
+        "Dillon Dingler",
+        "Carson Benge"
       ],
       "top_pitchers": []
     },
     {
       "gamePk": 824927,
       "game": "Chicago Cubs @ Atlanta Braves",
-      "score": "0-0",
-      "inning": "2nd",
-      "hot_hitters": [],
+      "score": "2-5",
+      "inning": "8th",
+      "hot_hitters": [
+        "Alex Bregman",
+        "Austin Riley",
+        "Dominic Smith",
+        "Mike Yastrzemski"
+      ],
       "top_pitchers": []
     },
     {
       "gamePk": 824604,
       "game": "Kansas City Royals @ Chicago White Sox",
-      "score": "0-0",
-      "inning": "1st",
-      "hot_hitters": [],
+      "score": "5-5",
+      "inning": "6th",
+      "hot_hitters": [
+        "Bobby Witt Jr.",
+        "Salvador Perez",
+        "Sam Antonacci",
+        "Chase Meidroth",
+        "Drew Romo"
+      ],
       "top_pitchers": []
     },
     {
       "gamePk": 823712,
       "game": "Miami Marlins @ Minnesota Twins",
-      "score": "0-0",
-      "inning": "1st",
-      "hot_hitters": [],
+      "score": "0-3",
+      "inning": "7th",
+      "hot_hitters": [
+        "Ryan Jeffers"
+      ],
       "top_pitchers": []
     },
     {
       "gamePk": 823790,
       "game": "San Diego Padres @ Milwaukee Brewers",
-      "score": "0-0",
-      "inning": "1st",
-      "hot_hitters": [],
+      "score": "3-6",
+      "inning": "6th",
+      "hot_hitters": [
+        "Miguel Andujar",
+        "Brice Turang",
+        "Joey Ortiz"
+      ],
+      "top_pitchers": []
+    },
+    {
+      "gamePk": 822903,
+      "game": "Arizona Diamondbacks @ Texas Rangers",
+      "score": "1-4",
+      "inning": "5th",
+      "hot_hitters": [
+        "Ildemaro Vargas",
+        "Joc Pederson",
+        "Brandon Nimmo",
+        "Ezequiel Duran"
+      ],
+      "top_pitchers": []
+    },
+    {
+      "gamePk": 824197,
+      "game": "Seattle Mariners @ Houston Astros",
+      "score": "6-2",
+      "inning": "4th",
+      "hot_hitters": [
+        "Randy Arozarena",
+        "Dominic Canzone"
+      ],
       "top_pitchers": []
     }
   ],

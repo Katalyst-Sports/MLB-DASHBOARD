@@ -1,5 +1,66 @@
 {
-  "updated_at": "2026-05-12T19:33:47.102234-04:00",
-  "games": [],
+  "updated_at": "2026-05-12T21:26:34.664837-04:00",
+  "games": [
+    {
+      "gamePk": 824442,
+      "game": "Los Angeles Angels @ Cleveland Guardians",
+      "winner": "Cleveland Guardians",
+      "loser": "Los Angeles Angels",
+      "final_score": "2-3",
+      "hitters": [
+        "Mike Trout",
+        "Nolan Schanuel",
+        "Vaughn Grissom",
+        "Angel Mart\u00ednez"
+      ],
+      "pitchers": [
+        "Slade Cecconi"
+      ]
+    },
+    {
+      "gamePk": 824843,
+      "game": "New York Yankees @ Baltimore Orioles",
+      "winner": "New York Yankees",
+      "loser": "Baltimore Orioles",
+      "final_score": "6-2",
+      "hitters": [
+        "Paul Goldschmidt",
+        "Aaron Judge",
+        "Trent Grisham",
+        "Taylor Ward",
+        "Samuel Basallo"
+      ],
+      "pitchers": [
+        "Will Warren"
+      ]
+    },
+    {
+      "gamePk": 823385,
+      "game": "Colorado Rockies @ Pittsburgh Pirates",
+      "winner": "Pittsburgh Pirates",
+      "loser": "Colorado Rockies",
+      "final_score": "1-3",
+      "hitters": [
+        "Oneil Cruz",
+        "Nick Gonzales",
+        "Spencer Horwitz"
+      ],
+      "pitchers": [
+        "Paul Skenes"
+      ]
+    },
+    {
+      "gamePk": 824764,
+      "game": "Philadelphia Phillies @ Boston Red Sox",
+      "winner": "Philadelphia Phillies",
+      "loser": "Boston Red Sox",
+      "final_score": "2-1",
+      "hitters": [
+        "Kyle Schwarber",
+        "Bryson Stott"
+      ],
+      "pitchers": []
+    }
+  ],
   "errors": []
 }
