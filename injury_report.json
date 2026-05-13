@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-13T16:11:35.047002-04:00",
+  "updated_at": "2026-05-13T17:47:07.680021-04:00",
   "teams": [
     {
       "team_id": 109,
@@ -123,7 +123,7 @@
     {
       "team_id": 133,
       "team_name": "Athletics",
-      "injured_count": 5,
+      "injured_count": 6,
       "players": [
         {
           "player_id": 667670,
@@ -132,6 +132,14 @@
           "date": "2026-04-10",
           "note": "Athletics placed RF Brent Rooker on the 10-day injured list. Oblique strain. | Status Change",
           "description": "Athletics placed RF Brent Rooker on the 10-day injured list. Oblique strain."
+        },
+        {
+          "player_id": 621139,
+          "name": "Brooks Kriske",
+          "il_type": "Injured List",
+          "date": "2026-05-13",
+          "note": "Athletics placed RHP Brooks Kriske on the 15-day injured list. Right shoulder impingement. | Status Change",
+          "description": "Athletics placed RHP Brooks Kriske on the 15-day injured list. Right shoulder impingement."
         },
         {
           "player_id": 672016,
@@ -1557,7 +1565,7 @@
     {
       "team_id": 146,
       "team_name": "Miami Marlins",
-      "injured_count": 8,
+      "injured_count": 9,
       "players": [
         {
           "player_id": 800049,
@@ -1614,6 +1622,14 @@
           "date": "2026-04-28",
           "note": "Miami Marlins placed RHP Pete Fairbanks on the 15-day injured list. Nerve irritation. | Status Change",
           "description": "Miami Marlins placed RHP Pete Fairbanks on the 15-day injured list. Nerve irritation."
+        },
+        {
+          "player_id": 702281,
+          "name": "Robby Snelling",
+          "il_type": "Injured List",
+          "date": "2026-05-13",
+          "note": "Miami Marlins placed LHP Robby Snelling on the 15-day injured list. Left elbow UCL sprain. | Status Change",
+          "description": "Miami Marlins placed LHP Robby Snelling on the 15-day injured list. Left elbow UCL sprain."
         },
         {
           "player_id": 678692,
