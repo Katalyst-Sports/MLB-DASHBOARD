@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-13T12:03:39.304473-04:00",
+  "updated_at": "2026-05-13T14:10:37.047243-04:00",
   "teams": [
     {
       "team_id": 109,
@@ -289,7 +289,7 @@
     {
       "team_id": 110,
       "team_name": "Baltimore Orioles",
-      "injured_count": 17,
+      "injured_count": 18,
       "players": [
         {
           "player_id": 668939,
@@ -338,6 +338,14 @@
           "date": "2026-04-06",
           "note": "Baltimore Orioles placed LHP Dietrich Enns on the 15-day injured list retroactive to April 4, 2026. Left foot infection. | Status Change",
           "description": "Baltimore Orioles placed LHP Dietrich Enns on the 15-day injured list retroactive to April 4, 2026. Left foot infection."
+        },
+        {
+          "player_id": 687637,
+          "name": "Dylan Beavers",
+          "il_type": "Injured List",
+          "date": "2026-05-13",
+          "note": "Baltimore Orioles placed RF Dylan Beavers on the 10-day injured list retroactive to May 11, 2026. Right oblique strain. | Status Change",
+          "description": "Baltimore Orioles placed RF Dylan Beavers on the 10-day injured list retroactive to May 11, 2026. Right oblique strain."
         },
         {
           "player_id": 664991,
@@ -1319,7 +1327,7 @@
     {
       "team_id": 108,
       "team_name": "Los Angeles Angels",
-      "injured_count": 11,
+      "injured_count": 12,
       "players": [
         {
           "player_id": 666201,
@@ -1344,6 +1352,14 @@
           "date": "2026-03-23",
           "note": "Los Angeles Angels placed RHP Ben Joyce on the 15-day injured list retroactive to March 22, 2026. Right shoulder inflammation. | Status Change",
           "description": "Los Angeles Angels placed RHP Ben Joyce on the 15-day injured list retroactive to March 22, 2026. Right shoulder inflammation."
+        },
+        {
+          "player_id": 519141,
+          "name": "Drew Pomeranz",
+          "il_type": "Injured List",
+          "date": "2026-05-13",
+          "note": "Los Angeles Angels placed LHP Drew Pomeranz on the 15-day injured list. Left elbow inflammation. | Status Change",
+          "description": "Los Angeles Angels placed LHP Drew Pomeranz on the 15-day injured list. Left elbow inflammation."
         },
         {
           "player_id": 680570,

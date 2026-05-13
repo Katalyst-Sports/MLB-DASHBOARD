@@ -1,5 +1,26 @@
 {
-  "updated_at": "2026-05-13T12:03:39.304473-04:00",
-  "games": [],
+  "updated_at": "2026-05-13T14:10:37.047243-04:00",
+  "games": [
+    {
+      "gamePk": 824841,
+      "game": "New York Yankees @ Baltimore Orioles",
+      "score": "0-3",
+      "inning": "4th",
+      "hot_hitters": [
+        "Pete Alonso"
+      ],
+      "top_pitchers": []
+    },
+    {
+      "gamePk": 824438,
+      "game": "Los Angeles Angels @ Cleveland Guardians",
+      "score": "0-3",
+      "inning": "4th",
+      "hot_hitters": [
+        "Angel Mart\u00ednez"
+      ],
+      "top_pitchers": []
+    }
+  ],
   "errors": []
 }
