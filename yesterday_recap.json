@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-05-13T04:18:00.298245-04:00",
+  "updated_at": "2026-05-13T07:01:02.475040-04:00",
   "date": "2026-05-12",
   "dashboard_recap": {
     "headline": "MLB Daily Recap - May 12, 2026",
-    "article": "**Monday's MLB Recap: Power Hitters Shine, Dominant Pitchers Prevail**\n\nIn a day filled with impressive performances, the Cleveland Guardians edged the Los Angeles Angels 3-2 behind Slade Cecconi's 7 strikeouts in 4 innings. Vaughn Grissom's 2nd home run of the season was a key factor for the Guardians. On the other side, Angel Mart\u00ednez led the Angels with a 2-hit, 1-home run performance.\n\nMeanwhile, the New York Yankees cruised to a 6-2 win over the Baltimore Orioles, thanks in part to a 3-RBI performance from Trent Grisham. Will Warren tossed 5.2 innings, allowing 2 runs and striking out 6 for the Yankees.\n\nIn other notable games, Daylen Lile hit 2 home runs and drove in 4 runs to lead the Washington Nationals to a 10-4 victory over the Cincinnati Reds. Paul Skenes dominated on the mound, striking out 10 in 8 innings for the Pittsburgh Pirates in a 3-1 win over the Colorado Rockies.",
+    "article": "**MLB Recap: Yankees and Mariners Shine in Dominant Performances**\n\nIn a thrilling day of baseball, the New York Yankees and Seattle Mariners stole the show with impressive wins. Will Warren led the Yankees to a 6-2 victory over the Baltimore Orioles, striking out six and allowing just two earned runs over 5.2 innings. Trent Grisham provided the offense with a three-RBI homer in the win. Meanwhile, Bryan Woo was nearly unhittable for the Mariners, fanning nine and surrendering just two earned runs over six innings in a 10-2 thrashing of the Houston Astros.\n\nIn other games, the Cleveland Guardians edged the Los Angeles Angels 3-2 behind a strong outing from Slade Cecconi, who struck out seven over four scoreless innings. Daylen Lile homered twice and drove in four runs for the Washington Nationals in their 10-4 win over the Cincinnati Reds. Paul Skenes tossed a complete-game shutout for the Pittsburgh Pirates in their 3-1 victory over the Colorado Rockies.",
     "all_games": [
       {
         "game": "Los Angeles Angels @ Cleveland Guardians",
         "final_score": "2-3",
         "top_pitching_line": "Slade Cecconi: 4.0 IP, 7 K, 0 ER, 1 BB, 5 H",
         "top_batting_line": "Angel Mart\u00ednez: 2 H, 1 HR, 1 RBI, 3 AB",
-        "summary": "Cleveland Guardians edge Los Angeles Angels 3-2 behind Slade Cecconi's 4 shuttee innings and Vaughn Grissom's go-ahead two-homer performance.",
+        "summary": "The Cleveland Guardians edged the Los Angeles Angels 3-2 behind Vaughn Grissom's two-homer performance and Slade Cecconi's 4 shuttee innings.",
         "impact_player": "Angel Mart\u00ednez"
       },
       {
@@ -18,7 +18,7 @@
         "final_score": "6-2",
         "top_pitching_line": "Will Warren: 5.2 IP, 6 K, 2 ER, 1 BB, 4 H",
         "top_batting_line": "Trent Grisham: 1 H, 1 HR, 3 RBI, 3 AB",
-        "summary": "The New York Yankees defeated the Baltimore Orioles 6-2 behind Will Warren's 5.2 innings with 6 strikeouts and Trent Grisham's 1 HR and 3 RBI.",
+        "summary": "The New York Yankees edged the Baltimore Orioles 6-2 behind Will Warren's 5.2 innings with 6 strikeouts and Trent Grisham's 1 HR and 3 RBI.",
         "impact_player": "Trent Grisham"
       },
       {
@@ -34,7 +34,7 @@
         "final_score": "1-3",
         "top_pitching_line": "Paul Skenes: 8.0 IP, 10 K, 0 ER, 0 BB, 2 H",
         "top_batting_line": "Nick Gonzales: 2 H, 0 HR, 1 RBI, 4 AB",
-        "summary": "The Pittsburgh Pirates edged the Colorado Rockies 3-1 behind Paul Skenes' 8 shutout innings with 10 strikeouts and Nick Gonzales' 2 hits with 1 RBI.",
+        "summary": "The Pittsburgh Pirates edged the Colorado Rockies 3-1 behind Paul Skenes' dominant 8-inning performance and Nick Gonzales' 2-hit effort.",
         "impact_player": "Nick Gonzales"
       },
       {
@@ -50,7 +50,7 @@
         "final_score": "7-6",
         "top_pitching_line": "Shane McClanahan: 5.0 IP, 7 K, 0 ER, 1 BB, 1 H",
         "top_batting_line": "Ryan Vilade: 2 H, 1 HR, 1 RBI, 4 AB",
-        "summary": "Tampa Bay Rays win 7-6 behind Shane McClanahan's 5 scoreless innings and Ryan Vilade's 2 hits, including a home run.",
+        "summary": "Tampa Bay Rays win 7-6 behind Shane McClanahan's 5 shutout innings and Ryan Vilade's 2 hits, including a home run.",
         "impact_player": "Ryan Vilade"
       },
       {
@@ -66,7 +66,7 @@
         "final_score": "2-5",
         "top_pitching_line": "Didier Fuentes: 3.0 IP, 3 K, 0 ER, 1 BB, 0 H",
         "top_batting_line": "Mike Yastrzemski: 2 H, 1 HR, 3 RBI, 2 AB",
-        "summary": "The Atlanta Braves defeated the Chicago Cubs 5-2, led by Matt Olson's key single that scored Drake Baldwin and advanced Ozzie Albies to third.",
+        "summary": "The Atlanta Braves outlasted the Chicago Cubs 5-2 behind a strong outing from Didier Fuentes and a key single from Matt Olson that plated a crucial run.",
         "impact_player": "Mike Yastrzemski"
       },
       {
@@ -74,7 +74,7 @@
         "final_score": "5-6",
         "top_pitching_line": "Grant Taylor: 1.2 IP, 3 K, 0 ER, 0 BB, 3 H",
         "top_batting_line": "Chase Meidroth: 1 H, 1 HR, 3 RBI, 4 AB",
-        "summary": "The Chicago White Sox edged the Kansas City Royals 6-5, behind Chase Meidroth's 3 RBI and Derek Hill's 3rd home run of the season.",
+        "summary": "The Chicago White Sox edged the Kansas City Royals 6-5, with Chase Meidroth's 1 HR, 3 RBI, and Derek Hill's 3rd home run leading the charge.",
         "impact_player": "Chase Meidroth"
       },
       {
@@ -90,7 +90,7 @@
         "final_score": "4-6",
         "top_pitching_line": "Yuki Matsui: 2.0 IP, 3 K, 0 ER, 0 BB, 1 H",
         "top_batting_line": "Miguel Andujar: 2 H, 1 HR, 2 RBI, 4 AB",
-        "summary": "The Milwaukee Brewers outlasted the San Diego Padres 6-4, behind a strong outing from Yuki Matsui and Miguel Andujar's 2 hits, including a 2 RBI home run.",
+        "summary": "The Milwaukee Brewers outlasted the San Diego Padres 6-4, behind a strong outing from Yuki Matsui and a 2-hit, 1-home run performance from Miguel Andujar.",
         "impact_player": "Miguel Andujar"
       },
       {
@@ -98,7 +98,7 @@
         "final_score": "4-7",
         "top_pitching_line": "Brandon Pfaadt: 3.0 IP, 5 K, 0 ER, 0 BB, 2 H",
         "top_batting_line": "Ildemaro Vargas: 2 H, 1 HR, 2 RBI, 4 AB",
-        "summary": "The Texas Rangers outlasted the Arizona Diamondbacks 7-4 behind a strong outing from Brandon Pfaadt and Ildemaro Vargas' 2-hit, 1-home run performance.",
+        "summary": "The Texas Rangers outlasted the Arizona Diamondbacks 7-4, behind a strong outing from Brandon Pfaadt and Ildemaro Vargas' 2 hits, 1 home run, and 2 RBIs.",
         "impact_player": "Ildemaro Vargas"
       },
       {
@@ -106,7 +106,7 @@
         "final_score": "10-2",
         "top_pitching_line": "Bryan Woo: 6.0 IP, 9 K, 2 ER, 2 BB, 4 H",
         "top_batting_line": "Randy Arozarena: 4 H, 1 HR, 3 RBI, 4 AB",
-        "summary": "The Seattle Mariners dominated the Houston Astros 10-2, led by Randy Arozarena's 4 hits, including a home run, and Bryan Woo's 6 strong innings with 9 strikeouts.",
+        "summary": "The Seattle Mariners dominated the Houston Astros 10-2, led by Randy Arozarena's 4 hits, 1 home run, and 3 RBIs, and Bryan Woo's 6 strong innings with 9 strikeouts.",
         "impact_player": "Randy Arozarena"
       },
       {
@@ -114,7 +114,7 @@
         "final_score": "6-4",
         "top_pitching_line": "JoJo Romero: 1.0 IP, 2 K, 0 ER, 0 BB, 0 H",
         "top_batting_line": "Shea Langeliers: 2 H, 1 HR, 3 RBI, 4 AB",
-        "summary": "The St. Louis Cardinals edged the Athletics 6-4, with Shea Langeliers' 12th home run providing a key offensive spark.",
+        "summary": "The St. Louis Cardinals edged the Athletics 6-4, led by Shea Langeliers' 2-hit, 3-RBI performance, including his 12th home run.",
         "impact_player": "Shea Langeliers"
       },
       {
@@ -122,7 +122,7 @@
         "final_score": "6-2",
         "top_pitching_line": "Sam Hentges: 1.0 IP, 2 K, 0 ER, 2 BB, 1 H",
         "top_batting_line": "Eric Haase: 2 H, 2 HR, 2 RBI, 4 AB",
-        "summary": "The San Francisco Giants edged the Los Angeles Dodgers 6-2 behind Eric Haase's 2 HR and 2 RBI, and a strong relief appearance from Sam Hentges.",
+        "summary": "The San Francisco Giants edged the Los Angeles Dodgers 6-2 behind Eric Haase's 2 HR and 2 RBI performance.",
         "impact_player": "Eric Haase"
       }
     ],
