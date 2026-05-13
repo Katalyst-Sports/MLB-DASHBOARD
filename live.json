@@ -1,5 +1,46 @@
 {
-  "updated_at": "2026-05-13T17:47:07.680021-04:00",
-  "games": [],
+  "updated_at": "2026-05-13T18:53:13.488487-04:00",
+  "games": [
+    {
+      "gamePk": 824519,
+      "game": "Washington Nationals @ Cincinnati Reds",
+      "score": "0-1",
+      "inning": "1st",
+      "hot_hitters": [],
+      "top_pitchers": []
+    },
+    {
+      "gamePk": 824763,
+      "game": "Philadelphia Phillies @ Boston Red Sox",
+      "score": "0-0",
+      "inning": "1st",
+      "hot_hitters": [],
+      "top_pitchers": []
+    },
+    {
+      "gamePk": 822815,
+      "game": "Tampa Bay Rays @ Toronto Blue Jays",
+      "score": "0-0",
+      "inning": "1st",
+      "hot_hitters": [],
+      "top_pitchers": []
+    },
+    {
+      "gamePk": 823631,
+      "game": "Detroit Tigers @ New York Mets",
+      "score": "0-0",
+      "inning": "1st",
+      "hot_hitters": [],
+      "top_pitchers": []
+    },
+    {
+      "gamePk": 824928,
+      "game": "Chicago Cubs @ Atlanta Braves",
+      "score": "0-0",
+      "inning": "1st",
+      "hot_hitters": [],
+      "top_pitchers": []
+    }
+  ],
   "errors": []
 }

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-13T17:47:07.680021-04:00",
+  "updated_at": "2026-05-13T18:53:13.488487-04:00",
   "games": [
     {
       "gamePk": 824841,
@@ -951,13 +951,13 @@
       "home_team": "Cincinnati Reds",
       "venue": "Great American Ball Park",
       "start": "2026-05-13T22:40:00Z",
-      "status": "Preview",
+      "status": "Live",
       "away_pitcher": {
         "id": 663623,
         "name": "Jake Irvin",
         "hand": "R",
-        "era": "5.22",
-        "whip": "1.36",
+        "era": "5.18",
+        "whip": "1.38",
         "last3": {
           "starts": [
             {
@@ -1006,8 +1006,8 @@
         "id": 666157,
         "name": "Nick Lodolo",
         "hand": "L",
-        "era": "6.75",
-        "whip": "1.13",
+        "era": "5.68",
+        "whip": "0.95",
         "last3": {
           "starts": [
             {
@@ -1019,16 +1019,26 @@
               "bb": 1,
               "pitches": 78,
               "strikes": 53
+            },
+            {
+              "date": "2026-05-13",
+              "opponent": "Washington Nationals",
+              "ip": "1.0",
+              "er": 0,
+              "k": 3,
+              "bb": 0,
+              "pitches": 12,
+              "strikes": 9
             }
           ],
-          "avg_ip": "5.1",
-          "avg_k": "2.0",
-          "avg_bb": "1.0",
-          "avg_pitches": "78.0",
-          "avg_strikes": "53.0",
-          "era": "6.75",
-          "whip": "1.12",
-          "strike_pct": "67.9",
+          "avg_ip": "3.1",
+          "avg_k": "2.5",
+          "avg_bb": "0.5",
+          "avg_pitches": "45.0",
+          "avg_strikes": "31.0",
+          "era": "5.68",
+          "whip": "0.95",
+          "strike_pct": "68.9",
           "quality_starts": 0
         }
       },
@@ -1036,10 +1046,10 @@
         {
           "name": "James Wood",
           "stats": {
-            "avg": ".244",
-            "obp": ".392",
-            "slg": ".538",
-            "ops": ".930",
+            "avg": ".242",
+            "obp": ".390",
+            "slg": ".534",
+            "ops": ".924",
             "homeRuns": 12,
             "rbi": 29
           },
@@ -1116,10 +1126,10 @@
         {
           "name": "Curtis Mead",
           "stats": {
-            "avg": ".224",
-            "obp": ".333",
-            "slg": ".447",
-            "ops": ".780",
+            "avg": ".221",
+            "obp": ".330",
+            "slg": ".442",
+            "ops": ".772",
             "homeRuns": 4,
             "rbi": 15
           },
@@ -1176,10 +1186,10 @@
         {
           "name": "Brady House",
           "stats": {
-            "avg": ".232",
-            "obp": ".292",
-            "slg": ".401",
-            "ops": ".693",
+            "avg": ".231",
+            "obp": ".290",
+            "slg": ".399",
+            "ops": ".689",
             "homeRuns": 6,
             "rbi": 21
           },
@@ -1238,12 +1248,12 @@
         {
           "name": "JJ Bleday",
           "stats": {
-            "avg": ".289",
-            "obp": ".429",
-            "slg": ".644",
-            "ops": "1.073",
+            "avg": ".304",
+            "obp": ".439",
+            "slg": ".674",
+            "ops": "1.113",
             "homeRuns": 4,
-            "rbi": 11
+            "rbi": 12
           },
           "last10ab": {
             "avg": "0.308",
@@ -1258,10 +1268,10 @@
         {
           "name": "Elly De La Cruz",
           "stats": {
-            "avg": ".292",
-            "obp": ".355",
-            "slg": ".518",
-            "ops": ".873",
+            "avg": ".296",
+            "obp": ".358",
+            "slg": ".521",
+            "ops": ".879",
             "homeRuns": 10,
             "rbi": 29
           },
@@ -1298,10 +1308,10 @@
         {
           "name": "Sal Stewart",
           "stats": {
-            "avg": ".256",
-            "obp": ".335",
-            "slg": ".494",
-            "ops": ".829",
+            "avg": ".255",
+            "obp": ".333",
+            "slg": ".491",
+            "ops": ".824",
             "homeRuns": 10,
             "rbi": 30
           },
@@ -1338,10 +1348,10 @@
         {
           "name": "Will Benson",
           "stats": {
-            "avg": ".188",
-            "obp": ".342",
-            "slg": ".344",
-            "ops": ".686",
+            "avg": ".185",
+            "obp": ".338",
+            "slg": ".338",
+            "ops": ".676",
             "homeRuns": 2,
             "rbi": 4
           },
@@ -1875,7 +1885,7 @@
       "home_team": "Boston Red Sox",
       "venue": "Fenway Park",
       "start": "2026-05-13T22:45:00Z",
-      "status": "Preview",
+      "status": "Live",
       "away_pitcher": {
         "id": 691725,
         "name": "Andrew Painter",
@@ -1930,8 +1940,8 @@
         "id": 543243,
         "name": "Sonny Gray",
         "hand": "R",
-        "era": "3.54",
-        "whip": "1.29",
+        "era": "3.41",
+        "whip": "1.24",
         "last3": {
           "starts": [
             {
@@ -1980,10 +1990,10 @@
         {
           "name": "Kyle Schwarber",
           "stats": {
-            "avg": ".229",
-            "obp": ".356",
-            "slg": ".611",
-            "ops": ".967",
+            "avg": ".228",
+            "obp": ".354",
+            "slg": ".608",
+            "ops": ".962",
             "homeRuns": 17,
             "rbi": 28
           },
@@ -2000,10 +2010,10 @@
         {
           "name": "Bryce Harper",
           "stats": {
-            "avg": ".273",
-            "obp": ".368",
-            "slg": ".547",
-            "ops": ".915",
+            "avg": ".272",
+            "obp": ".366",
+            "slg": ".543",
+            "ops": ".909",
             "homeRuns": 10,
             "rbi": 24
           },
@@ -2060,10 +2070,10 @@
         {
           "name": "Adolis Garc\u00eda",
           "stats": {
-            "avg": ".233",
-            "obp": ".299",
-            "slg": ".367",
-            "ops": ".666",
+            "avg": ".232",
+            "obp": ".298",
+            "slg": ".364",
+            "ops": ".662",
             "homeRuns": 4,
             "rbi": 13
           },
@@ -2347,7 +2357,7 @@
       "home_team": "Toronto Blue Jays",
       "venue": "Rogers Centre",
       "start": "2026-05-13T23:07:00Z",
-      "status": "Preview",
+      "status": "Live",
       "away_pitcher": {
         "id": 643377,
         "name": "Griffin Jax",
@@ -2819,7 +2829,7 @@
       "home_team": "New York Mets",
       "venue": "Citi Field",
       "start": "2026-05-13T23:10:00Z",
-      "status": "Preview",
+      "status": "Live",
       "away_pitcher": {
         "id": 664285,
         "name": "Framber Valdez",
@@ -3291,7 +3301,7 @@
       "home_team": "Atlanta Braves",
       "venue": "Truist Park",
       "start": "2026-05-13T23:15:00Z",
-      "status": "Preview",
+      "status": "Live",
       "away_pitcher": {
         "id": 684007,
         "name": "Shota Imanaga",

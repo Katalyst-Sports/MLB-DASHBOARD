@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-05-13T17:47:07.680021-04:00",
+  "updated_at": "2026-05-13T18:53:13.488487-04:00",
   "date": "2026-05-12",
   "dashboard_recap": {
     "headline": "MLB Daily Recap - May 12, 2026",
-    "article": "**MLB Recap: Guardians Outlast Angels, Yankees Cruise Past Orioles, and More**\n\nIn a busy day of MLB action, the Cleveland Guardians edged the Los Angeles Angels 3-2 behind a strong outing from Slade Cecconi, who struck out seven over four innings. Angel Mart\u00ednez led the Angels with a pair of hits, including a home run. Vaughn Grissom's two-homer effort paced the Guardians.\n\nMeanwhile, the New York Yankees rolled past the Baltimore Orioles 6-2, with Will Warren earning the win after five and a third scoreless innings. Trent Grisham and Paul Goldschmidt each homered for the Yankees.\n\nIn other results, the Washington Nationals routed the Cincinnati Reds 10-4 behind a strong team effort. Daylen Lile hit two home runs and drove in four for the Nationals. Paul Skenes threw a complete-game shutout for the Pittsburgh Pirates in their 3-1 win over the Colorado Rockies.\n\nThe Philadelphia Phillies took a 2-1 lead into the eighth inning and held on to beat the Boston Red Sox. Kyle Schwarber homered for the Phillies. The Tampa Bay Rays edged the Toronto Blue Jays 7-6 behind a strong outing from Shane McClanahan.\n\nThe New York Mets dominated the Detroit Tigers 10-2, with Freddy Peralta earning the win after six innings. Mike Yastrzemski homered for the Atlanta Braves in their 5-2 win over the Chicago Cubs.\n\nThe Chicago White Sox edged the Kansas City Royals 6-5 in extra innings. Chase Meidroth homered for the White Sox. Ryan Jeffers homered for the Minnesota Twins in their 3-0 shutout of the Miami Marlins.\n\nThe Milwaukee Brewers outlasted the San Diego Padres 6-4. Miguel Andujar homered for the Padres. The Texas Rangers took a 7-4 lead into the ninth inning and held on to beat the Arizona Diamondbacks. Ildemaro Vargas homered for the Diamondbacks.\n\nThe Seattle Mariners routed the Houston Astros 10-2 behind a strong outing from Bryan Woo. Randy Arozarena homered for the Mariners. The St. Louis Cardinals edged the Athletics 6-4 behind a strong team effort. Shea Langeliers homered for the Athletics.\n\nFinally, the San Francisco Giants took a 2-0 lead into the fifth inning and held on to beat the Los Angeles Dodgers. Eric Haase homered for the Giants.",
+    "article": "**MLB Recap: Guardians Edge Angels in Thriller, Yankees Cruise Past Orioles**\n\nThe Cleveland Guardians took down the Los Angeles Angels 3-2 behind a strong outing from Slade Cecconi, who tossed 4.0 innings with 7 strikeouts and 0 earned runs. Vaughn Grissom homered for the Guardians, one of three home runs on the day. In other games, the New York Yankees dominated the Baltimore Orioles 6-2, led by Will Warren's 5.2 innings of work with 6 strikeouts. Daylen Lile's 2-home run performance paced the Washington Nationals to a 10-4 win over the Cincinnati Reds.",
     "all_games": [
       {
         "game": "Los Angeles Angels @ Cleveland Guardians",
         "final_score": "2-3",
         "top_pitching_line": "Slade Cecconi: 4.0 IP, 7 K, 0 ER, 1 BB, 5 H",
         "top_batting_line": "Angel Mart\u00ednez: 2 H, 1 HR, 1 RBI, 3 AB",
-        "summary": "Cleveland Guardians edge Los Angeles Angels 3-2 behind Slade Cecconi's 4 shuttee innings and Vaughn Grissom's go-ahead 2nd home run.",
+        "summary": "The Cleveland Guardians edged the Los Angeles Angels 3-2 behind Slade Cecconi's 4 shuttee innings and Vaughn Grissom's 2nd home run of the game.",
         "impact_player": "Angel Mart\u00ednez"
       },
       {
@@ -18,7 +18,7 @@
         "final_score": "6-2",
         "top_pitching_line": "Will Warren: 5.2 IP, 6 K, 2 ER, 1 BB, 4 H",
         "top_batting_line": "Trent Grisham: 1 H, 1 HR, 3 RBI, 3 AB",
-        "summary": "The New York Yankees defeated the Baltimore Orioles 6-2, led by Trent Grisham's 1 HR and 3 RBI, and Will Warren's 5.2 IP with 6 K.",
+        "summary": "The New York Yankees defeated the Baltimore Orioles 6-2 behind Will Warren's 5.2 innings of work with 6 strikeouts and Trent Grisham's 1 HR, 3 RBI performance.",
         "impact_player": "Trent Grisham"
       },
       {
@@ -26,7 +26,7 @@
         "final_score": "10-4",
         "top_pitching_line": "Luis Mey: 2.0 IP, 5 K, 1 ER, 1 BB, 2 H",
         "top_batting_line": "Daylen Lile: 3 H, 2 HR, 4 RBI, 5 AB",
-        "summary": "The Washington Nationals dominated the Cincinnati Reds 10-4, led by Daylen Lile's 3 hits, 2 home runs, and 4 RBIs, and Luis Mey's 2 scoreless innings with 5 strikeouts.",
+        "summary": "The Washington Nationals defeated the Cincinnati Reds 10-4, led by Daylen Lile's 3 hits, 2 home runs, and 4 RBIs, and Luis Mey's 2 scoreless innings with 5 strikeouts.",
         "impact_player": "Daylen Lile"
       },
       {
@@ -42,7 +42,7 @@
         "final_score": "2-1",
         "top_pitching_line": "Brayan Bello: 6.1 IP, 5 K, 1 ER, 1 BB, 4 H",
         "top_batting_line": "Kyle Schwarber: 1 H, 1 HR, 1 RBI, 3 AB",
-        "summary": "The Philadelphia Phillies edged the Boston Red Sox 2-1 behind Kyle Schwarber's solo home run and Brayan Bello's 6.1 innings of one-run relief.",
+        "summary": "The Philadelphia Phillies edged the Boston Red Sox 2-1, with Kyle Schwarber's solo home run and Brayan Bello's 6.1 strong innings leading the way.",
         "impact_player": "Kyle Schwarber"
       },
       {
@@ -50,7 +50,7 @@
         "final_score": "7-6",
         "top_pitching_line": "Shane McClanahan: 5.0 IP, 7 K, 0 ER, 1 BB, 1 H",
         "top_batting_line": "Ryan Vilade: 2 H, 1 HR, 1 RBI, 4 AB",
-        "summary": "Tampa Bay Rays edged Toronto Blue Jays 7-6, led by Shane McClanahan's 5 shutout innings and Ryan Vilade's 2-hit, 1-home-run performance.",
+        "summary": "Tampa Bay Rays edged the Toronto Blue Jays 7-6, led by Shane McClanahan's 5 shutout innings and Ryan Vilade's 2-hit, 1-home-run performance.",
         "impact_player": "Ryan Vilade"
       },
       {
@@ -58,7 +58,7 @@
         "final_score": "2-10",
         "top_pitching_line": "Freddy Peralta: 6.0 IP, 7 K, 2 ER, 1 BB, 7 H",
         "top_batting_line": "Dillon Dingler: 1 H, 1 HR, 1 RBI, 3 AB",
-        "summary": "The New York Mets dominated the Detroit Tigers 10-2 behind a strong outing from Freddy Peralta and a key home run from Dillon Dingler.",
+        "summary": "The New York Mets dominated the Detroit Tigers 10-2, led by Dillon Dingler's solo home run and Freddy Peralta's 6 strong innings with 7 strikeouts.",
         "impact_player": "Dillon Dingler"
       },
       {
@@ -66,7 +66,7 @@
         "final_score": "2-5",
         "top_pitching_line": "Didier Fuentes: 3.0 IP, 3 K, 0 ER, 1 BB, 0 H",
         "top_batting_line": "Mike Yastrzemski: 2 H, 1 HR, 3 RBI, 2 AB",
-        "summary": "The Atlanta Braves defeated the Chicago Cubs 5-2 behind a strong outing from Didier Fuentes and a crucial single from Matt Olson that plated a key run.",
+        "summary": "The Atlanta Braves defeated the Chicago Cubs 5-2 behind a strong outing from Didier Fuentes and key hits from Matt Olson and Mike Yastrzemski.",
         "impact_player": "Mike Yastrzemski"
       },
       {
@@ -74,7 +74,7 @@
         "final_score": "5-6",
         "top_pitching_line": "Grant Taylor: 1.2 IP, 3 K, 0 ER, 0 BB, 3 H",
         "top_batting_line": "Chase Meidroth: 1 H, 1 HR, 3 RBI, 4 AB",
-        "summary": "The Chicago White Sox edged the Kansas City Royals 6-5 behind Chase Meidroth's 3 RBI and Derek Hill's 3rd home run of the season.",
+        "summary": "The Chicago White Sox edged the Kansas City Royals 6-5 behind Chase Meidroth's 3-RBI performance and Derek Hill's 3rd home run of the season.",
         "impact_player": "Chase Meidroth"
       },
       {
@@ -82,7 +82,7 @@
         "final_score": "0-3",
         "top_pitching_line": "Bailey Ober: 9.0 IP, 7 K, 0 ER, 0 BB, 2 H",
         "top_batting_line": "Ryan Jeffers: 1 H, 1 HR, 2 RBI, 3 AB",
-        "summary": "The Minnesota Twins shut out the Miami Marlins 3-0 behind Bailey Ober's 9-inning performance and Ryan Jeffers' 2-RBI, 1-homer game.",
+        "summary": "The Minnesota Twins shut out the Miami Marlins 3-0 behind Bailey Ober's 9-inning performance, with Ryan Jeffers hitting a 2-RBI home run.",
         "impact_player": "Ryan Jeffers"
       },
       {
@@ -90,7 +90,7 @@
         "final_score": "4-6",
         "top_pitching_line": "Yuki Matsui: 2.0 IP, 3 K, 0 ER, 0 BB, 1 H",
         "top_batting_line": "Miguel Andujar: 2 H, 1 HR, 2 RBI, 4 AB",
-        "summary": "The Milwaukee Brewers outlasted the San Diego Padres 6-4, behind a strong outing from Yuki Matsui and a 2-hit, 1-home run performance from Miguel Andujar.",
+        "summary": "The Milwaukee Brewers outlasted the San Diego Padres 6-4 behind a strong bullpen effort, including Yuki Matsui's 2 scoreless innings.",
         "impact_player": "Miguel Andujar"
       },
       {
@@ -98,7 +98,7 @@
         "final_score": "4-7",
         "top_pitching_line": "Brandon Pfaadt: 3.0 IP, 5 K, 0 ER, 0 BB, 2 H",
         "top_batting_line": "Ildemaro Vargas: 2 H, 1 HR, 2 RBI, 4 AB",
-        "summary": "The Texas Rangers edged the Arizona Diamondbacks 7-4 behind a strong outing from Brandon Pfaadt and Ildemaro Vargas' 2 hits, 1 HR, and 2 RBI.",
+        "summary": "The Texas Rangers outlasted the Arizona Diamondbacks 7-4 behind strong pitching and key hits, including Ildemaro Vargas' 2-for-4 performance with a home run and two RBIs.",
         "impact_player": "Ildemaro Vargas"
       },
       {
@@ -106,7 +106,7 @@
         "final_score": "10-2",
         "top_pitching_line": "Bryan Woo: 6.0 IP, 9 K, 2 ER, 2 BB, 4 H",
         "top_batting_line": "Randy Arozarena: 4 H, 1 HR, 3 RBI, 4 AB",
-        "summary": "The Seattle Mariners dominated the Houston Astros 10-2 behind Bryan Woo's 6.0 innings with 9 strikeouts and Randy Arozarena's 4 hits, including a home run.",
+        "summary": "The Seattle Mariners dominated the Houston Astros 10-2 behind Bryan Woo's 6 strong innings and Randy Arozarena's 4-hit, 3-RBI performance.",
         "impact_player": "Randy Arozarena"
       },
       {
@@ -114,7 +114,7 @@
         "final_score": "6-4",
         "top_pitching_line": "JoJo Romero: 1.0 IP, 2 K, 0 ER, 0 BB, 0 H",
         "top_batting_line": "Shea Langeliers: 2 H, 1 HR, 3 RBI, 4 AB",
-        "summary": "The St. Louis Cardinals edged the Athletics 6-4 behind a strong outing and Shea Langeliers' 2-hit, 1-home run performance.",
+        "summary": "The St. Louis Cardinals edged the Athletics 6-4 behind Shea Langeliers' 2 hits, including his 12th home run, and a strong 1-inning relief appearance from JoJo Romero.",
         "impact_player": "Shea Langeliers"
       },
       {
@@ -122,7 +122,7 @@
         "final_score": "6-2",
         "top_pitching_line": "Sam Hentges: 1.0 IP, 2 K, 0 ER, 2 BB, 1 H",
         "top_batting_line": "Eric Haase: 2 H, 2 HR, 2 RBI, 4 AB",
-        "summary": "The San Francisco Giants edged the Los Angeles Dodgers 6-2 behind Eric Haase's 2 HR and 2 RBI, and a strong relief appearance from Sam Hentges.",
+        "summary": "The San Francisco Giants edged the Los Angeles Dodgers 6-2, led by Eric Haase's 2 HR and 2 RBI, while Sam Hentges pitched a scoreless 1st inning.",
         "impact_player": "Eric Haase"
       }
     ],
