@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-14T15:21:08.048377-04:00",
+  "updated_at": "2026-05-14T16:50:52.601170-04:00",
   "games": [
     {
       "gamePk": 823383,
@@ -32,6 +32,57 @@
       "pitchers": [
         "Foster Griffin",
         "Chase Burns"
+      ]
+    },
+    {
+      "gamePk": 823630,
+      "game": "Detroit Tigers @ New York Mets",
+      "winner": "New York Mets",
+      "loser": "Detroit Tigers",
+      "final_score": "4-9",
+      "hitters": [
+        "Riley Greene",
+        "Dillon Dingler",
+        "Gage Workman",
+        "Carson Benge",
+        "Juan Soto",
+        "Mark Vientos",
+        "Brett Baty",
+        "Marcus Semien",
+        "A.J. Ewing"
+      ],
+      "pitchers": [
+        "Nolan McLean"
+      ]
+    },
+    {
+      "gamePk": 823709,
+      "game": "Miami Marlins @ Minnesota Twins",
+      "winner": "Minnesota Twins",
+      "loser": "Miami Marlins",
+      "final_score": "1-9",
+      "hitters": [
+        "Otto Lopez",
+        "Austin Martin",
+        "Ryan Kreidler",
+        "James Outman"
+      ],
+      "pitchers": []
+    },
+    {
+      "gamePk": 823789,
+      "game": "San Diego Padres @ Milwaukee Brewers",
+      "winner": "Milwaukee Brewers",
+      "loser": "San Diego Padres",
+      "final_score": "1-7",
+      "hitters": [
+        "Nick Castellanos",
+        "Andrew Vaughn",
+        "Luis Rengifo",
+        "Garrett Mitchell"
+      ],
+      "pitchers": [
+        "Kyle Harrison"
       ]
     }
   ],

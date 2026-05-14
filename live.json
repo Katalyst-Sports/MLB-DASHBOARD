@@ -1,63 +1,32 @@
 {
-  "updated_at": "2026-05-14T15:21:08.048377-04:00",
+  "updated_at": "2026-05-14T16:50:52.601170-04:00",
   "games": [
-    {
-      "gamePk": 823630,
-      "game": "Detroit Tigers @ New York Mets",
-      "score": "4-8",
-      "inning": "8th",
-      "hot_hitters": [
-        "Riley Greene",
-        "Dillon Dingler",
-        "Gage Workman",
-        "Juan Soto",
-        "Mark Vientos",
-        "Brett Baty",
-        "A.J. Ewing"
-      ],
-      "top_pitchers": []
-    },
-    {
-      "gamePk": 823709,
-      "game": "Miami Marlins @ Minnesota Twins",
-      "score": "0-6",
-      "inning": "6th",
-      "hot_hitters": [
-        "Ryan Kreidler"
-      ],
-      "top_pitchers": []
-    },
-    {
-      "gamePk": 823789,
-      "game": "San Diego Padres @ Milwaukee Brewers",
-      "score": "0-7",
-      "inning": "4th",
-      "hot_hitters": [
-        "Andrew Vaughn",
-        "Luis Rengifo"
-      ],
-      "top_pitchers": []
-    },
     {
       "gamePk": 824196,
       "game": "Seattle Mariners @ Houston Astros",
-      "score": "5-1",
-      "inning": "5th",
+      "score": "8-3",
+      "inning": "9th",
       "hot_hitters": [
         "Brendan Donovan",
         "Luke Raley",
+        "J.P. Crawford",
         "Mitch Garver",
-        "Yordan Alvarez"
+        "Yordan Alvarez",
+        "Braden Shewmake"
       ],
       "top_pitchers": []
     },
     {
       "gamePk": 825008,
       "game": "St. Louis Cardinals @ Athletics",
-      "score": "0-1",
-      "inning": "2nd",
+      "score": "3-1",
+      "inning": "7th",
       "hot_hitters": [
-        "Nick Kurtz"
+        "Jordan Walker",
+        "Yohel Pozo",
+        "Victor Scott II",
+        "Nick Kurtz",
+        "Shea Langeliers"
       ],
       "top_pitchers": []
     }
