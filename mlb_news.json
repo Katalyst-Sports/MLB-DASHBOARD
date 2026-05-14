@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-05-14T11:37:55.962875-04:00",
+  "updated_at": "2026-05-14T13:26:30.618059-04:00",
   "headline": "**MLB Daily Roundup: May 14, 2026**",
-  "article": "The Baltimore Orioles secured a convincing 7-0 victory over the New York Yankees, with Kyle Bradish leading the way on the mound. Bradish pitched 6.0 innings, striking out 7 batters and allowing just 1 hit. Meanwhile, the Cleveland Guardians took down the Los Angeles Angels in a 2-4 showdown, with Parker Messick earning the win after 6.2 innings of work.\n\nSeveral key players are dealing with injuries, including Colorado Rockies right-handed pitcher Jimmy Herget, who has been placed on the 15-day injured list due to a right shoulder impingement. Other notable injured players include Brooks Kriske of the Athletics, Robby Snelling of the Miami Marlins, Francisco Alvarez of the New York Mets, Rhett Lowder of the Cincinnati Reds, Drew Pomeranz of the Los Angeles Angels, Dylan Beavers of the Baltimore Orioles, and Grant Wolfram of the Baltimore Orioles.\n\nThe Arizona Diamondbacks made a move to bolster their roster, acquiring outfielder Jose Requena from the Los Angeles Dodgers in exchange for center fielder Alek Thomas. The San Francisco Giants traded catcher Patrick Bailey to the Cleveland Guardians for left-handed pitcher Matt Wilkinson and other considerations. The Philadelphia Phillies traded right-handed pitchers Enyel Garcia and Maicol Lauriano to the Baltimore Orioles for cash.",
+  "article": "The New York Yankees suffered a dominant 7-0 loss to the Baltimore Orioles, while the Cleveland Guardians secured a 2-4 victory over the Los Angeles Angels. The Washington Nationals edged the Cincinnati Reds in a thrilling 8-7 matchup, and the Colorado Rockies routed the Pittsburgh Pirates 10-4. \n\nInjuries and availability have impacted several teams, with Cal Raleigh being placed on the 10-day injured list due to a right oblique strain for the Seattle Mariners. Other notable injuries include Jimmy Herget (Colorado Rockies) and Brooks Kriske (Athletics) being placed on the 15-day injured list, as well as Robby Snelling (Miami Marlins), Francisco Alvarez (New York Mets), Rhett Lowder (Cincinnati Reds), Drew Pomeranz (Los Angeles Angels), and Dylan Beavers (Baltimore Orioles) being placed on the injured list.\n\nSeveral trades and roster moves have taken place, including the Seattle Mariners trading LHP Jos\u00e9 Suarez to the Athletics for cash. The Arizona Diamondbacks acquired OF Jose Requena from the Los Angeles Dodgers in exchange for CF Alek Thomas, while the San Francisco Giants traded C Patrick Bailey to the Cleveland Guardians for LHP Matt Wilkinson and other considerations. The Baltimore Orioles acquired RHP Enyel Garcia and RHP Maicol Lauriano from the Philadelphia Phillies for cash.",
   "top_news": [
     {
       "title": "**Yankees Fall to Orioles in Dominant 7-0 Loss**",
-      "summary": "The Baltimore Orioles secured a convincing 7-0 victory over the New York Yankees, with Kyle Bradish leading the way on the mound. Bradish pitched 6.0 innings, striking out 7 batters and allowing just 1 hit.",
+      "summary": "The New York Yankees were shut down by the Baltimore Orioles, who took a 7-0 victory. Adley Rutschman led the Orioles' offense with a home run, three RBIs, and a 1-for-3 performance at the plate.",
       "published": "2026-05-13"
     },
     {
@@ -15,7 +15,7 @@
     },
     {
       "title": "**Nationals Edge Reds in Thrilling 8-7 Victory**",
-      "summary": "The Washington Nationals secured a hard-fought 8-7 win over the Cincinnati Reds, overcoming a late deficit to claim the game. Tyler Stephenson led the Reds' offense with a home run and 4 RBIs.",
+      "summary": "The Washington Nationals secured a hard-fought win over the Cincinnati Reds, outlasting their opponents in a high-scoring matchup. Tyler Stephenson led the Reds' offense with a home run and 4 RBIs.",
       "published": "2026-05-13"
     },
     {
@@ -24,17 +24,23 @@
       "published": "2026-05-13"
     },
     {
-      "title": "**Rockies RHP Jimmy Herget Lands on Injured List**",
-      "summary": "Colorado Rockies right-handed pitcher Jimmy Herget has been placed on the 15-day injured list due to a right shoulder impingement, effective retroactive to May 13, 2026.",
+      "title": "**Raleigh Lands on Injured List**",
+      "summary": "Seattle Mariners catcher Cal Raleigh has been placed on the 10-day injured list due to a right oblique strain.",
       "published": "2026-05-14"
     },
     {
-      "title": "**Diamondbacks Acquire Requena in Trade**",
-      "summary": "The Arizona Diamondbacks have made a move to bolster their roster, acquiring outfielder Jose Requena from the Los Angeles Dodgers. Requena joins the Diamondbacks in exchange for center fielder Alek Thomas.",
-      "published": "2026-05-12"
+      "title": "**Mariners Make Roster Move Ahead of Weekend Series**",
+      "summary": "The Seattle Mariners have made a trade, sending LHP Jos\u00e9 Suarez to the Athletics in exchange for cash.",
+      "published": "2026-05-14"
     }
   ],
   "injury_updates": [
+    {
+      "date": "2026-05-14",
+      "team": "Seattle Mariners",
+      "player": "Cal Raleigh",
+      "update": "Seattle Mariners placed C Cal Raleigh on the 10-day injured list. Right oblique strain. | Status Change"
+    },
     {
       "date": "2026-05-14",
       "team": "Colorado Rockies",
@@ -100,15 +106,21 @@
       "team": "Atlanta Braves",
       "player": "Sean Murphy",
       "update": "Atlanta Braves placed C Sean Murphy on the 10-day injured list retroactive to May 11, 2026. Fractured left middle finger. | Status Change"
-    },
-    {
-      "date": "2026-05-11",
-      "team": "Toronto Blue Jays",
-      "player": "Addison Barger",
-      "update": "Toronto Blue Jays placed RF Addison Barger on the 10-day injured list retroactive to May 10, 2026. Right elbow inflammation. | Status Change"
     }
   ],
   "trade_updates": [
+    {
+      "date": "2026-05-14",
+      "team": "Seattle Mariners",
+      "player": "Unknown Player",
+      "update": "Seattle Mariners traded LHP Jos\u00e9 Suarez to Athletics for cash. | Trade"
+    },
+    {
+      "date": "2026-05-14",
+      "team": "Athletics",
+      "player": "Jos\u00e9 Suarez",
+      "update": "Seattle Mariners traded LHP Jos\u00e9 Suarez to Athletics for cash. | Trade"
+    },
     {
       "date": "2026-05-12",
       "team": "Arizona Diamondbacks",
@@ -156,18 +168,6 @@
       "team": "Philadelphia Phillies",
       "player": "Unknown Player",
       "update": "Philadelphia Phillies traded RHP Enyel Garcia and RHP Maicol Lauriano to Baltimore Orioles for cash. | Trade"
-    },
-    {
-      "date": "2026-05-07",
-      "team": "Chicago Cubs",
-      "player": "Tyler Ferguson",
-      "update": "Athletics traded RHP Tyler Ferguson to Chicago Cubs. | Trade"
-    },
-    {
-      "date": "2026-05-06",
-      "team": "Minnesota Twins",
-      "player": "Yoendrys G\u00f3mez",
-      "update": "Tampa Bay Rays traded RHP Yoendrys G\u00f3mez to Minnesota Twins for cash. | Trade"
     }
   ]
 }

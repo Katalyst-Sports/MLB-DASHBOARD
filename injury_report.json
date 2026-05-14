@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-14T11:37:55.962875-04:00",
+  "updated_at": "2026-05-14T13:26:30.618059-04:00",
   "teams": [
     {
       "team_id": 109,
@@ -2356,7 +2356,7 @@
     {
       "team_id": 136,
       "team_name": "Seattle Mariners",
-      "injured_count": 11,
+      "injured_count": 12,
       "players": [
         {
           "player_id": 680977,
@@ -2373,6 +2373,14 @@
           "date": "2026-03-25",
           "note": "Seattle Mariners placed RHP Bryce Miller on the 15-day injured list retroactive to March 22, 2026. Left oblique strain. | Status Change",
           "description": "Seattle Mariners placed RHP Bryce Miller on the 15-day injured list retroactive to March 22, 2026. Left oblique strain."
+        },
+        {
+          "player_id": 663728,
+          "name": "Cal Raleigh",
+          "il_type": "Injured List",
+          "date": "2026-05-14",
+          "note": "Seattle Mariners placed C Cal Raleigh on the 10-day injured list. Right oblique strain. | Status Change",
+          "description": "Seattle Mariners placed C Cal Raleigh on the 10-day injured list. Right oblique strain."
         },
         {
           "player_id": 672841,
