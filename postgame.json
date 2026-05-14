@@ -1,5 +1,39 @@
 {
-  "updated_at": "2026-05-14T13:26:30.618059-04:00",
-  "games": [],
+  "updated_at": "2026-05-14T15:21:08.048377-04:00",
+  "games": [
+    {
+      "gamePk": 823383,
+      "game": "Colorado Rockies @ Pittsburgh Pirates",
+      "winner": "Pittsburgh Pirates",
+      "loser": "Colorado Rockies",
+      "final_score": "2-7",
+      "hitters": [
+        "Ryan O'Hearn",
+        "Konnor Griffin",
+        "Endy Rodr\u00edguez",
+        "Jared Triolo"
+      ],
+      "pitchers": []
+    },
+    {
+      "gamePk": 824517,
+      "game": "Washington Nationals @ Cincinnati Reds",
+      "winner": "Cincinnati Reds",
+      "loser": "Washington Nationals",
+      "final_score": "1-15",
+      "hitters": [
+        "Dane Myers",
+        "Elly De La Cruz",
+        "Spencer Steer",
+        "JJ Bleday",
+        "Matt McLain",
+        "Ke'Bryan Hayes"
+      ],
+      "pitchers": [
+        "Foster Griffin",
+        "Chase Burns"
+      ]
+    }
+  ],
   "errors": []
 }

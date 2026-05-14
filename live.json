@@ -1,50 +1,64 @@
 {
-  "updated_at": "2026-05-14T13:26:30.618059-04:00",
+  "updated_at": "2026-05-14T15:21:08.048377-04:00",
   "games": [
-    {
-      "gamePk": 823383,
-      "game": "Colorado Rockies @ Pittsburgh Pirates",
-      "score": "0-3",
-      "inning": "3rd",
-      "hot_hitters": [
-        "Ryan O'Hearn"
-      ],
-      "top_pitchers": []
-    },
-    {
-      "gamePk": 824517,
-      "game": "Washington Nationals @ Cincinnati Reds",
-      "score": "0-2",
-      "inning": "4th",
-      "hot_hitters": [
-        "Matt McLain"
-      ],
-      "top_pitchers": []
-    },
     {
       "gamePk": 823630,
       "game": "Detroit Tigers @ New York Mets",
-      "score": "3-0",
-      "inning": "1st",
+      "score": "4-8",
+      "inning": "8th",
       "hot_hitters": [
-        "Gage Workman"
+        "Riley Greene",
+        "Dillon Dingler",
+        "Gage Workman",
+        "Juan Soto",
+        "Mark Vientos",
+        "Brett Baty",
+        "A.J. Ewing"
       ],
       "top_pitchers": []
     },
     {
       "gamePk": 823709,
       "game": "Miami Marlins @ Minnesota Twins",
-      "score": "0-0",
-      "inning": "1st",
-      "hot_hitters": [],
+      "score": "0-6",
+      "inning": "6th",
+      "hot_hitters": [
+        "Ryan Kreidler"
+      ],
       "top_pitchers": []
     },
     {
       "gamePk": 823789,
       "game": "San Diego Padres @ Milwaukee Brewers",
-      "score": "0-0",
-      "inning": "1st",
-      "hot_hitters": [],
+      "score": "0-7",
+      "inning": "4th",
+      "hot_hitters": [
+        "Andrew Vaughn",
+        "Luis Rengifo"
+      ],
+      "top_pitchers": []
+    },
+    {
+      "gamePk": 824196,
+      "game": "Seattle Mariners @ Houston Astros",
+      "score": "5-1",
+      "inning": "5th",
+      "hot_hitters": [
+        "Brendan Donovan",
+        "Luke Raley",
+        "Mitch Garver",
+        "Yordan Alvarez"
+      ],
+      "top_pitchers": []
+    },
+    {
+      "gamePk": 825008,
+      "game": "St. Louis Cardinals @ Athletics",
+      "score": "0-1",
+      "inning": "2nd",
+      "hot_hitters": [
+        "Nick Kurtz"
+      ],
       "top_pitchers": []
     }
   ],
