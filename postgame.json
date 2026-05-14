@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-14T16:50:52.601170-04:00",
+  "updated_at": "2026-05-14T18:04:08.248387-04:00",
   "games": [
     {
       "gamePk": 823383,
@@ -84,6 +84,40 @@
       "pitchers": [
         "Kyle Harrison"
       ]
+    },
+    {
+      "gamePk": 824196,
+      "game": "Seattle Mariners @ Houston Astros",
+      "winner": "Seattle Mariners",
+      "loser": "Houston Astros",
+      "final_score": "8-3",
+      "hitters": [
+        "Brendan Donovan",
+        "Luke Raley",
+        "J.P. Crawford",
+        "Mitch Garver",
+        "Yordan Alvarez",
+        "Braden Shewmake"
+      ],
+      "pitchers": [
+        "Luis Castillo"
+      ]
+    },
+    {
+      "gamePk": 825008,
+      "game": "St. Louis Cardinals @ Athletics",
+      "winner": "St. Louis Cardinals",
+      "loser": "Athletics",
+      "final_score": "5-4",
+      "hitters": [
+        "Jordan Walker",
+        "Yohel Pozo",
+        "Victor Scott II",
+        "Nick Kurtz",
+        "Shea Langeliers",
+        "Zack Gelof"
+      ],
+      "pitchers": []
     }
   ],
   "errors": []

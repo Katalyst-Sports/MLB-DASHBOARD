@@ -1,35 +1,5 @@
 {
-  "updated_at": "2026-05-14T16:50:52.601170-04:00",
-  "games": [
-    {
-      "gamePk": 824196,
-      "game": "Seattle Mariners @ Houston Astros",
-      "score": "8-3",
-      "inning": "9th",
-      "hot_hitters": [
-        "Brendan Donovan",
-        "Luke Raley",
-        "J.P. Crawford",
-        "Mitch Garver",
-        "Yordan Alvarez",
-        "Braden Shewmake"
-      ],
-      "top_pitchers": []
-    },
-    {
-      "gamePk": 825008,
-      "game": "St. Louis Cardinals @ Athletics",
-      "score": "3-1",
-      "inning": "7th",
-      "hot_hitters": [
-        "Jordan Walker",
-        "Yohel Pozo",
-        "Victor Scott II",
-        "Nick Kurtz",
-        "Shea Langeliers"
-      ],
-      "top_pitchers": []
-    }
-  ],
+  "updated_at": "2026-05-14T18:04:08.248387-04:00",
+  "games": [],
   "errors": []
 }
