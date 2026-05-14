@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-14T09:16:54.523156-04:00",
+  "updated_at": "2026-05-14T11:37:55.962875-04:00",
   "games": [
     {
       "gamePk": 823383,
@@ -1424,7 +1424,14 @@
       "venue": "Target Field",
       "start": "2026-05-14T17:40:00Z",
       "status": "Preview",
-      "away_pitcher": {},
+      "away_pitcher": {
+        "id": 666129,
+        "name": "Braxton Garrett",
+        "hand": "L",
+        "era": "N/A",
+        "whip": "N/A",
+        "last3": {}
+      },
       "home_pitcher": {
         "id": 805673,
         "name": "Zebby Matthews",
@@ -1617,6 +1624,26 @@
       ],
       "home_hitters": [
         {
+          "name": "Ryan Kreidler",
+          "stats": {
+            "avg": ".214",
+            "obp": ".389",
+            "slg": ".714",
+            "ops": "1.103",
+            "homeRuns": 2,
+            "rbi": 4
+          },
+          "last10ab": {
+            "avg": "0.182",
+            "hits": 2,
+            "atBats": 11,
+            "homeRuns": 2,
+            "rbi": 4,
+            "walks": 1,
+            "games": 3
+          }
+        },
+        {
           "name": "Ryan Jeffers",
           "stats": {
             "avg": ".299",
@@ -1774,26 +1801,6 @@
             "rbi": 1,
             "walks": 2,
             "games": 4
-          }
-        },
-        {
-          "name": "Luke Keaschall",
-          "stats": {
-            "avg": ".222",
-            "obp": ".309",
-            "slg": ".294",
-            "ops": ".603",
-            "homeRuns": 1,
-            "rbi": 15
-          },
-          "last10ab": {
-            "avg": "0.182",
-            "hits": 2,
-            "atBats": 11,
-            "homeRuns": 0,
-            "rbi": 1,
-            "walks": 1,
-            "games": 3
           }
         }
       ]

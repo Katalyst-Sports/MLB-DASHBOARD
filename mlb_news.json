@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-05-14T09:16:54.523156-04:00",
+  "updated_at": "2026-05-14T11:37:55.962875-04:00",
   "headline": "**MLB Daily Roundup: May 14, 2026**",
-  "article": "The New York Yankees suffered a dominant 7-0 loss to the Baltimore Orioles, led by Kyle Bradish's strong performance. The Los Angeles Angels fell short in Cleveland, with Zach Neto leading the offense with a 2-hit, 1-home run, 2-RBI effort. The Washington Nationals secured a thrilling 8-7 win over the Cincinnati Reds, overcoming a late deficit.\n\nSeveral key players have been impacted by injuries, including Athletics right-handed pitcher Brooks Kriske, who has been placed on the 15-day injured list due to a right shoulder impingement. Other injured players include Miami Marlins left-handed pitcher Robby Snelling, New York Mets catcher Francisco Alvarez, Cincinnati Reds right-handed pitcher Rhett Lowder, Los Angeles Angels left-handed pitcher Drew Pomeranz, Baltimore Orioles right fielder Dylan Beavers, Baltimore Orioles left-handed pitcher Grant Wolfram, and Athletics shortstop Jacob Wilson.\n\nThe Arizona Diamondbacks have made a move to bolster their roster, acquiring outfielder Jose Requena from the Los Angeles Dodgers in exchange for center fielder Alek Thomas. The San Francisco Giants traded catcher Patrick Bailey to the Cleveland Guardians for left-handed pitcher Matt Wilkinson and other considerations. The Baltimore Orioles acquired right-handed pitcher Enyel Garcia and right-handed pitcher Maicol Lauriano from the Philadelphia Phillies for cash.",
+  "article": "The Baltimore Orioles secured a convincing 7-0 victory over the New York Yankees, with Kyle Bradish leading the way on the mound. Bradish pitched 6.0 innings, striking out 7 batters and allowing just 1 hit. Meanwhile, the Cleveland Guardians took down the Los Angeles Angels in a 2-4 showdown, with Parker Messick earning the win after 6.2 innings of work.\n\nSeveral key players are dealing with injuries, including Colorado Rockies right-handed pitcher Jimmy Herget, who has been placed on the 15-day injured list due to a right shoulder impingement. Other notable injured players include Brooks Kriske of the Athletics, Robby Snelling of the Miami Marlins, Francisco Alvarez of the New York Mets, Rhett Lowder of the Cincinnati Reds, Drew Pomeranz of the Los Angeles Angels, Dylan Beavers of the Baltimore Orioles, and Grant Wolfram of the Baltimore Orioles.\n\nThe Arizona Diamondbacks made a move to bolster their roster, acquiring outfielder Jose Requena from the Los Angeles Dodgers in exchange for center fielder Alek Thomas. The San Francisco Giants traded catcher Patrick Bailey to the Cleveland Guardians for left-handed pitcher Matt Wilkinson and other considerations. The Philadelphia Phillies traded right-handed pitchers Enyel Garcia and Maicol Lauriano to the Baltimore Orioles for cash.",
   "top_news": [
     {
       "title": "**Yankees Fall to Orioles in Dominant 7-0 Loss**",
-      "summary": "The New York Yankees were shut down by the Baltimore Orioles, who won 7-0 behind a strong performance from Kyle Bradish.",
+      "summary": "The Baltimore Orioles secured a convincing 7-0 victory over the New York Yankees, with Kyle Bradish leading the way on the mound. Bradish pitched 6.0 innings, striking out 7 batters and allowing just 1 hit.",
       "published": "2026-05-13"
     },
     {
-      "title": "**Angels Fall Short in Cleveland**",
-      "summary": "The Los Angeles Angels dropped a 2-4 decision to the Cleveland Guardians, unable to overcome a strong performance from the Guardians' pitching staff. Zach Neto led the Angels' offense with a 2-hit, 1-home run, 2-RBI effort.",
+      "title": "**Guardians Take Down Angels in 2-4 Showdown**",
+      "summary": "The Cleveland Guardians secured a 2-4 victory over the Los Angeles Angels, with Parker Messick earning the win after 6.2 innings of work. Zach Neto led the Angels' offense with 2 hits, including a home run, and 2 RBIs.",
       "published": "2026-05-13"
     },
     {
@@ -24,9 +24,9 @@
       "published": "2026-05-13"
     },
     {
-      "title": "**Athletics RHP Brooks Kriske Lands on 15-Day Injured List**",
-      "summary": "Athletics right-handed pitcher Brooks Kriske has been placed on the 15-day injured list due to a right shoulder impingement. The injury occurred on May 13, 2026.",
-      "published": "2026-05-13"
+      "title": "**Rockies RHP Jimmy Herget Lands on Injured List**",
+      "summary": "Colorado Rockies right-handed pitcher Jimmy Herget has been placed on the 15-day injured list due to a right shoulder impingement, effective retroactive to May 13, 2026.",
+      "published": "2026-05-14"
     },
     {
       "title": "**Diamondbacks Acquire Requena in Trade**",
@@ -35,6 +35,12 @@
     }
   ],
   "injury_updates": [
+    {
+      "date": "2026-05-14",
+      "team": "Colorado Rockies",
+      "player": "Jimmy Herget",
+      "update": "Colorado Rockies placed RHP Jimmy Herget on the 15-day injured list retroactive to May 13, 2026. Right shoulder impingement. | Status Change"
+    },
     {
       "date": "2026-05-13",
       "team": "Athletics",
@@ -100,12 +106,6 @@
       "team": "Toronto Blue Jays",
       "player": "Addison Barger",
       "update": "Toronto Blue Jays placed RF Addison Barger on the 10-day injured list retroactive to May 10, 2026. Right elbow inflammation. | Status Change"
-    },
-    {
-      "date": "2026-05-11",
-      "team": "Atlanta Braves",
-      "player": "Eli White",
-      "update": "Atlanta Braves placed CF Eli White on the 7-day injured list. Concussion. | Status Change"
     }
   ],
   "trade_updates": [

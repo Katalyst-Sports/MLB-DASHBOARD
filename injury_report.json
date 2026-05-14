@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-14T09:16:54.523156-04:00",
+  "updated_at": "2026-05-14T11:37:55.962875-04:00",
   "teams": [
     {
       "team_id": 109,
@@ -875,7 +875,7 @@
     {
       "team_id": 115,
       "team_name": "Colorado Rockies",
-      "injured_count": 12,
+      "injured_count": 13,
       "players": [
         {
           "player_id": 688760,
@@ -892,6 +892,14 @@
           "date": "2026-02-12",
           "note": "Colorado Rockies placed RHP Jeff Criswell on the 60-day injured list. Recovery from Tommy John surgery. | Status Change",
           "description": "Colorado Rockies placed RHP Jeff Criswell on the 60-day injured list. Recovery from Tommy John surgery."
+        },
+        {
+          "player_id": 623474,
+          "name": "Jimmy Herget",
+          "il_type": "Injured List",
+          "date": "2026-05-14",
+          "note": "Colorado Rockies placed RHP Jimmy Herget on the 15-day injured list retroactive to May 13, 2026. Right shoulder impingement. | Status Change",
+          "description": "Colorado Rockies placed RHP Jimmy Herget on the 15-day injured list retroactive to May 13, 2026. Right shoulder impingement."
         },
         {
           "player_id": 500779,
