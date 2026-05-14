@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-14T00:08:15.209301-04:00",
+  "updated_at": "2026-05-14T03:21:47.099848-04:00",
   "games": [
     {
       "gamePk": 824841,
@@ -291,6 +291,57 @@
       "losing_pitcher": "Alex Hoppe",
       "save_pitcher": "",
       "game_summary": "Zach Cole singles on a ground ball to right fielder Connor Joe. Brice Matthews scores."
+    },
+    {
+      "gamePk": 825010,
+      "game": "St. Louis Cardinals @ Athletics",
+      "winner": "Athletics",
+      "loser": "St. Louis Cardinals",
+      "final_score": "2-6",
+      "hitters": [
+        "JJ Wetherholt",
+        "Alec Burleson",
+        "Masyn Winn",
+        "Nathan Church",
+        "Nick Kurtz",
+        "Colby Thomas",
+        "Henry Bolte",
+        "Zack Gelof",
+        "Darell Hernaiz",
+        "Michael Stefanic"
+      ],
+      "pitchers": [],
+      "top_batting_line": "Nick Kurtz: 2 H, 1 HR, 4 RBI, 4 AB",
+      "top_pitching_line": "J.T. Ginn: 6.0 IP, 3 K, 0 ER, 1 BB, 9 H",
+      "winning_pitcher": "J.T. Ginn",
+      "losing_pitcher": "Matthew Liberatore",
+      "save_pitcher": "",
+      "game_summary": "Zack Gelof homers (4) on a fly ball to center field."
+    },
+    {
+      "gamePk": 823952,
+      "game": "San Francisco Giants @ Los Angeles Dodgers",
+      "winner": "Los Angeles Dodgers",
+      "loser": "San Francisco Giants",
+      "final_score": "0-4",
+      "hitters": [
+        "Luis Arraez",
+        "Rafael Devers",
+        "Mookie Betts",
+        "Kyle Tucker",
+        "Teoscar Hern\u00e1ndez",
+        "Miguel Rojas",
+        "Santiago Espinal"
+      ],
+      "pitchers": [
+        "Shohei Ohtani"
+      ],
+      "top_batting_line": "Santiago Espinal: 1 H, 1 HR, 1 RBI, 3 AB",
+      "top_pitching_line": "Shohei Ohtani: 7.0 IP, 8 K, 0 ER, 2 BB, 4 H",
+      "winning_pitcher": "Shohei Ohtani",
+      "losing_pitcher": "Robbie Ray",
+      "save_pitcher": "",
+      "game_summary": "Alex Call out on a sacrifice fly to right fielder Jung Hoo Lee in foul territory. Teoscar Hern\u00e1ndez scores."
     }
   ],
   "errors": []
