@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-05-15T00:30:31.471161-04:00",
+  "updated_at": "2026-05-15T03:43:03.664214-04:00",
   "date": "2026-05-14",
   "dashboard_recap": {
     "headline": "MLB Daily Recap - May 14, 2026",
-    "article": "\"AL and NL Teams Make Statement in Monday's MLB Action\"\n\nA dominant performance from Chase Burns led the Cincinnati Reds to a 15-1 thrashing of the Washington Nationals, behind a 6.0-inning, 7-strikeout outing from the young right-hander. Meanwhile, JJ Bleday's 3-hit, 2-home run effort paced the Reds' offense, driving in 6 crucial runs. \n\nOn the opposite coast, the Seattle Mariners took down the Houston Astros 8-3, with Luis Castillo earning the win after 5 strong innings. Luke Raley chipped in with 2 hits, including a home run, to help propel the Mariners to victory. \n\nIn the National League, the Philadelphia Phillies edged out the Boston Red Sox 3-1, thanks in part to a 5.1-inning, 8-strikeout performance from Ranger Suarez. Kyle Schwarber contributed a home run and 2 RBIs to the Phillies' cause.",
+    "article": "**MVP Performances Shine Across MLB**\n\nA dominant day in the books, with several players leaving their mark on the scoreboard. In Pittsburgh, Ryan O'Hearn led the Colorado Rockies with a 3-hit, 2-RBI performance, including a home run. On the mound, Tanner Gordon turned in a strong effort for the Pirates, striking out five over four innings.\n\nIn a lopsided contest, the Cincinnati Reds exploded for 15 runs against the Washington Nationals, with JJ Bleday delivering a 3-hit, 6-RBI performance, including two home runs. Reds pitcher Chase Burns was equally impressive, fanning seven over six scoreless innings.\n\nIn other notable performances, Ian Happ homered for the Chicago Cubs in their 2-0 victory over the Atlanta Braves, while Kyle Schwarber went deep for the Philadelphia Phillies in their 3-1 win over the Boston Red Sox.",
     "all_games": [
       {
         "game": "Colorado Rockies @ Pittsburgh Pirates",
         "final_score": "2-7",
         "top_pitching_line": "Tanner Gordon: 4.0 IP, 5 K, 1 ER, 1 BB, 3 H",
         "top_batting_line": "Ryan O'Hearn: 3 H, 1 HR, 2 RBI, 4 AB",
-        "summary": "The Pittsburgh Pirates defeated the Colorado Rockies 7-2 behind a strong outing from Tanner Gordon and Ryan O'Hearn's 3 hits, including a home run.",
+        "summary": "The Pittsburgh Pirates defeated the Colorado Rockies 7-2 behind Tanner Gordon's 4 shutout innings to start and Ryan O'Hearn's 3 hits, 1 home run, and 2 RBIs.",
         "impact_player": "Ryan O'Hearn"
       },
       {
@@ -18,7 +18,7 @@
         "final_score": "1-15",
         "top_pitching_line": "Chase Burns: 6.0 IP, 7 K, 0 ER, 2 BB, 2 H",
         "top_batting_line": "JJ Bleday: 3 H, 2 HR, 6 RBI, 5 AB",
-        "summary": "Cincinnati Reds dominate Washington Nationals 15-1, led by JJ Bleday's 3 hits, 2 home runs, and 6 RBIs, and Chase Burns' 6 shutout innings.",
+        "summary": "The Cincinnati Reds dominated the Washington Nationals 15-1 behind Chase Burns' 6 shutout innings and JJ Bleday's 3 hits, 2 home runs, and 6 RBIs.",
         "impact_player": "JJ Bleday"
       },
       {
@@ -34,7 +34,7 @@
         "final_score": "1-9",
         "top_pitching_line": "Zebby Matthews: 7.0 IP, 5 K, 0 ER, 1 BB, 4 H",
         "top_batting_line": "Austin Martin: 2 H, 0 HR, 3 RBI, 4 AB",
-        "summary": "The Minnesota Twins dominated the Miami Marlins 9-1 behind Austin Martin's 3 RBI and Zebby Matthews' 7 shutout innings.",
+        "summary": "The Minnesota Twins dominated the Miami Marlins 9-1, led by Austin Martin's 3 RBIs and Zebby Matthews' 7 shutout innings.",
         "impact_player": "Austin Martin"
       },
       {
@@ -42,7 +42,7 @@
         "final_score": "1-7",
         "top_pitching_line": "Kyle Harrison: 5.0 IP, 7 K, 0 ER, 0 BB, 5 H",
         "top_batting_line": "Luis Rengifo: 2 H, 0 HR, 3 RBI, 4 AB",
-        "summary": "The Milwaukee Brewers dominated the San Diego Padres 7-1 behind Kyle Harrison's 5 scoreless innings and Luis Rengifo's 3 RBI performance.",
+        "summary": "The Milwaukee Brewers dominated the San Diego Padres 7-1 behind Kyle Harrison's 5 shutout innings and Luis Rengifo's 3 RBI effort.",
         "impact_player": "Luis Rengifo"
       },
       {
@@ -50,7 +50,7 @@
         "final_score": "8-3",
         "top_pitching_line": "Domingo Gonzalez: 2.0 IP, 2 K, 0 ER, 1 BB, 1 H",
         "top_batting_line": "Luke Raley: 2 H, 1 HR, 3 RBI, 5 AB",
-        "summary": "The Seattle Mariners defeated the Houston Astros 8-3 behind Luke Raley's 2 hits, 1 home run, and 3 RBIs, and Domingo Gonzalez's 2 scoreless innings.",
+        "summary": "The Seattle Mariners dominated the Houston Astros 8-3 behind Luke Raley's 2 hits, 1 home run, and 3 RBIs, and Domingo Gonzalez's 2 scoreless innings.",
         "impact_player": "Luke Raley"
       },
       {
@@ -58,7 +58,7 @@
         "final_score": "5-4",
         "top_pitching_line": "Matt Svanson: 1.0 IP, 2 K, 0 ER, 0 BB, 1 H",
         "top_batting_line": "Jordan Walker: 2 H, 1 HR, 2 RBI, 5 AB",
-        "summary": "The St. Louis Cardinals edged the Athletics 5-4 behind Jordan Walker's 2 hits, including a 2 RBI home run, and a scoreless relief appearance from Matt Svanson.",
+        "summary": "The St. Louis Cardinals edged the Athletics 5-4 behind Jordan Walker's 2 hits, including a 2 RBI home run, and a scoreless relief inning from Matt Svanson.",
         "impact_player": "Jordan Walker"
       },
       {
@@ -66,7 +66,7 @@
         "final_score": "3-1",
         "top_pitching_line": "Ranger Suarez: 5.1 IP, 8 K, 0 ER, 1 BB, 4 H",
         "top_batting_line": "Kyle Schwarber: 1 H, 1 HR, 2 RBI, 5 AB",
-        "summary": "The Philadelphia Phillies edged the Boston Red Sox 3-1, led by Kyle Schwarber's 1 HR and 2 RBI, and Ranger Suarez's 5.1 scoreless innings with 8 strikeouts.",
+        "summary": "The Philadelphia Phillies edged the Boston Red Sox 3-1 behind Ranger Suarez's 5.1 scoreless innings and Kyle Schwarber's 1 HR, 2 RBI performance.",
         "impact_player": "Kyle Schwarber"
       },
       {
@@ -74,7 +74,7 @@
         "final_score": "2-0",
         "top_pitching_line": "Chris Sale: 6.0 IP, 8 K, 0 ER, 2 BB, 5 H",
         "top_batting_line": "Ian Happ: 2 H, 1 HR, 1 RBI, 3 AB",
-        "summary": "The Chicago Cubs shut out the Atlanta Braves 2-0 behind Chris Sale's 6 shutout innings and Ian Happ's 10th home run, a solo shot to right center.",
+        "summary": "The Chicago Cubs edged the Atlanta Braves 2-0 behind Chris Sale's 6 shutout innings and Ian Happ's 10th home run, a solo shot to right center.",
         "impact_player": "Ian Happ"
       },
       {
@@ -84,6 +84,14 @@
         "top_batting_line": "Randal Grichuk: 2 H, 1 HR, 4 RBI, 3 AB",
         "summary": "The Chicago White Sox defeated the Kansas City Royals 6-2 behind Randal Grichuk's 2 hits, 1 home run, and 4 RBIs.",
         "impact_player": "Randal Grichuk"
+      },
+      {
+        "game": "San Francisco Giants @ Los Angeles Dodgers",
+        "final_score": "2-5",
+        "top_pitching_line": "Emmet Sheehan: 6.0 IP, 6 K, 2 ER, 2 BB, 2 H",
+        "top_batting_line": "Jung Hoo Lee: 1 H, 1 HR, 2 RBI, 3 AB",
+        "summary": "The Los Angeles Dodgers defeated the San Francisco Giants 5-2 behind Jung Hoo Lee's 1 HR and 2 RBI, and Emmet Sheehan's 6 strong innings.",
+        "impact_player": "Jung Hoo Lee"
       }
     ],
     "season_leaders": {

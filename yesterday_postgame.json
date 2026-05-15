@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-15T00:30:31.471161-04:00",
+  "updated_at": "2026-05-15T03:43:03.664214-04:00",
   "games": [
     {
       "gamePk": 823383,
@@ -221,6 +221,29 @@
       "losing_pitcher": "Kris Bubic",
       "save_pitcher": "Sean Newcomb",
       "game_summary": "Derek Hill singles on a sharp ground ball to center fielder Kyle Isbel. Sam Antonacci scores."
+    },
+    {
+      "gamePk": 823950,
+      "game": "San Francisco Giants @ Los Angeles Dodgers",
+      "winner": "Los Angeles Dodgers",
+      "loser": "San Francisco Giants",
+      "final_score": "2-5",
+      "hitters": [
+        "Jung Hoo Lee",
+        "Will Smith",
+        "Teoscar Hern\u00e1ndez",
+        "Miguel Rojas"
+      ],
+      "pitchers": [
+        "Landen Roupp",
+        "Emmet Sheehan"
+      ],
+      "top_batting_line": "Jung Hoo Lee: 1 H, 1 HR, 2 RBI, 3 AB",
+      "top_pitching_line": "Emmet Sheehan: 6.0 IP, 6 K, 2 ER, 2 BB, 2 H",
+      "winning_pitcher": "Emmet Sheehan",
+      "losing_pitcher": "Landen Roupp",
+      "save_pitcher": "Tanner Scott",
+      "game_summary": "Miguel Rojas singles on a line drive to center fielder Drew Gilbert. Alex Call scores."
     }
   ],
   "errors": []
