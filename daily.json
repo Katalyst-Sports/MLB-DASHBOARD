@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-15T12:26:26.216448-04:00",
+  "updated_at": "2026-05-15T14:07:53.958986-04:00",
   "games": [
     {
       "gamePk": 823384,
@@ -7003,5 +7003,10 @@
       ]
     }
   ],
-  "errors": []
+  "errors": [
+    {
+      "stage": "leaders_hitting_homeRuns",
+      "error": "The read operation timed out"
+    }
+  ]
 }
