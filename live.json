@@ -1,20 +1,32 @@
 {
-  "updated_at": "2026-05-14T19:10:40.830244-04:00",
+  "updated_at": "2026-05-14T20:11:39.040808-04:00",
   "games": [
     {
       "gamePk": 824762,
       "game": "Philadelphia Phillies @ Boston Red Sox",
       "score": "0-0",
-      "inning": "1st",
+      "inning": "5th",
       "hot_hitters": [],
-      "top_pitchers": []
+      "top_pitchers": [
+        "Ranger Suarez"
+      ]
     },
     {
       "gamePk": 824926,
       "game": "Chicago Cubs @ Atlanta Braves",
       "score": "0-0",
-      "inning": "1st",
+      "inning": "4th",
       "hot_hitters": [],
+      "top_pitchers": []
+    },
+    {
+      "gamePk": 824602,
+      "game": "Kansas City Royals @ Chicago White Sox",
+      "score": "1-2",
+      "inning": "2nd",
+      "hot_hitters": [
+        "Randal Grichuk"
+      ],
       "top_pitchers": []
     }
   ],
