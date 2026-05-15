@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-15T08:11:55.477315-04:00",
+  "updated_at": "2026-05-15T10:37:51.424451-04:00",
   "games": [
     {
       "gamePk": 823384,
@@ -1003,43 +1003,53 @@
         }
       },
       "home_pitcher": {
-        "id": 680744,
-        "name": "Ty Madden",
+        "id": 669724,
+        "name": "Brenan Hanifee",
         "hand": "R",
-        "era": "2.45",
-        "whip": "0.73",
+        "era": "1.08",
+        "whip": "1.08",
         "last3": {
           "starts": [
             {
-              "date": "2026-05-04",
-              "opponent": "Boston Red Sox",
-              "ip": "5.0",
+              "date": "2026-04-26",
+              "opponent": "Cincinnati Reds",
+              "ip": "1.0",
               "er": 0,
-              "k": 7,
+              "k": 0,
               "bb": 0,
-              "pitches": 81,
-              "strikes": 50
+              "pitches": 18,
+              "strikes": 12
             },
             {
-              "date": "2026-05-09",
-              "opponent": "Kansas City Royals",
-              "ip": "6.0",
-              "er": 3,
-              "k": 5,
-              "bb": 2,
-              "pitches": 87,
-              "strikes": 53
+              "date": "2026-05-01",
+              "opponent": "Texas Rangers",
+              "ip": "1.0",
+              "er": 0,
+              "k": 1,
+              "bb": 0,
+              "pitches": 13,
+              "strikes": 8
+            },
+            {
+              "date": "2026-05-03",
+              "opponent": "Texas Rangers",
+              "ip": "1.2",
+              "er": 0,
+              "k": 1,
+              "bb": 0,
+              "pitches": 24,
+              "strikes": 18
             }
           ],
-          "avg_ip": "5.1",
-          "avg_k": "6.0",
-          "avg_bb": "1.0",
-          "avg_pitches": "84.0",
-          "avg_strikes": "51.5",
-          "era": "2.45",
-          "whip": "0.73",
-          "strike_pct": "61.3",
-          "quality_starts": 1
+          "avg_ip": "1.1",
+          "avg_k": "0.7",
+          "avg_bb": "0.0",
+          "avg_pitches": "18.3",
+          "avg_strikes": "12.7",
+          "era": "0.00",
+          "whip": "0.82",
+          "strike_pct": "69.1",
+          "quality_starts": 0
         }
       },
       "away_hitters": [
