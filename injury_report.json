@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-15T15:53:59.084821-04:00",
+  "updated_at": "2026-05-15T17:04:40.984819-04:00",
   "teams": [
     {
       "team_id": 109,
@@ -875,7 +875,7 @@
     {
       "team_id": 115,
       "team_name": "Colorado Rockies",
-      "injured_count": 13,
+      "injured_count": 14,
       "players": [
         {
           "player_id": 688760,
@@ -884,6 +884,14 @@
           "date": "2026-03-25",
           "note": "Colorado Rockies placed 1B Blaine Crim on the 10-day injured list. | Status Change",
           "description": "Colorado Rockies placed 1B Blaine Crim on the 10-day injured list."
+        },
+        {
+          "player_id": 801403,
+          "name": "Chase Dollander",
+          "il_type": "Injured List",
+          "date": "2026-05-15",
+          "note": "Colorado Rockies placed RHP Chase Dollander on the 15-day injured list. Right elbow strain. | Status Change",
+          "description": "Colorado Rockies placed RHP Chase Dollander on the 15-day injured list. Right elbow strain."
         },
         {
           "player_id": 676105,

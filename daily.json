@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-15T15:53:59.084821-04:00",
+  "updated_at": "2026-05-15T17:04:40.984819-04:00",
   "games": [
     {
       "gamePk": 823384,
@@ -1947,52 +1947,52 @@
         }
       },
       "home_pitcher": {
-        "id": 669947,
-        "name": "Jesse Scholtens",
-        "hand": "R",
-        "era": "3.29",
-        "whip": "1.17",
+        "id": 693855,
+        "name": "Ian Seymour",
+        "hand": "L",
+        "era": "5.59",
+        "whip": "1.40",
         "last3": {
           "starts": [
             {
-              "date": "2026-04-08",
-              "opponent": "Chicago Cubs",
-              "ip": "4.2",
-              "er": 0,
-              "k": 4,
-              "bb": 1,
-              "pitches": 61,
-              "strikes": 40
-            },
-            {
-              "date": "2026-04-15",
-              "opponent": "Chicago White Sox",
-              "ip": "5.0",
-              "er": 0,
-              "k": 3,
-              "bb": 2,
-              "pitches": 77,
-              "strikes": 46
-            },
-            {
-              "date": "2026-04-20",
-              "opponent": "Cincinnati Reds",
-              "ip": "5.2",
+              "date": "2026-03-26",
+              "opponent": "St. Louis Cardinals",
+              "ip": "0.0",
               "er": 5,
-              "k": 6,
+              "k": 0,
               "bb": 0,
-              "pitches": 95,
-              "strikes": 61
+              "pitches": 21,
+              "strikes": 14
+            },
+            {
+              "date": "2026-03-30",
+              "opponent": "Milwaukee Brewers",
+              "ip": "0.2",
+              "er": 0,
+              "k": 1,
+              "bb": 0,
+              "pitches": 8,
+              "strikes": 6
+            },
+            {
+              "date": "2026-04-01",
+              "opponent": "Milwaukee Brewers",
+              "ip": "2.0",
+              "er": 0,
+              "k": 2,
+              "bb": 0,
+              "pitches": 32,
+              "strikes": 22
             }
           ],
-          "avg_ip": "5.0",
-          "avg_k": "4.3",
-          "avg_bb": "1.0",
-          "avg_pitches": "77.7",
-          "avg_strikes": "49.0",
-          "era": "2.93",
-          "whip": "1.04",
-          "strike_pct": "63.1",
+          "avg_ip": "1.0",
+          "avg_k": "1.0",
+          "avg_bb": "0.0",
+          "avg_pitches": "20.3",
+          "avg_strikes": "14.0",
+          "era": "16.88",
+          "whip": "2.25",
+          "strike_pct": "68.9",
           "quality_starts": 0
         }
       },
@@ -5574,26 +5574,6 @@
           }
         },
         {
-          "name": "Tyler Freeman",
-          "stats": {
-            "avg": ".253",
-            "obp": ".330",
-            "slg": ".345",
-            "ops": ".675",
-            "homeRuns": 2,
-            "rbi": 12
-          },
-          "last10ab": {
-            "avg": "0.400",
-            "hits": 4,
-            "atBats": 10,
-            "homeRuns": 0,
-            "rbi": 3,
-            "walks": 0,
-            "games": 4
-          }
-        },
-        {
           "name": "Kyle Karros",
           "stats": {
             "avg": ".218",
@@ -5630,6 +5610,26 @@
             "homeRuns": 0,
             "rbi": 0,
             "walks": 1,
+            "games": 3
+          }
+        },
+        {
+          "name": "Brett Sullivan",
+          "stats": {
+            "avg": ".212",
+            "obp": ".268",
+            "slg": ".303",
+            "ops": ".571",
+            "homeRuns": 0,
+            "rbi": 7
+          },
+          "last10ab": {
+            "avg": "0.300",
+            "hits": 3,
+            "atBats": 10,
+            "homeRuns": 0,
+            "rbi": 1,
+            "walks": 0,
             "games": 3
           }
         }

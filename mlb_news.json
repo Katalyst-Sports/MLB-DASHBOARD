@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-05-15T15:53:59.084821-04:00",
+  "updated_at": "2026-05-15T17:04:40.984819-04:00",
   "headline": "**MLB Daily Roundup: May 15, 2026**",
-  "article": "The Colorado Rockies suffered a 7-2 loss to the Pittsburgh Pirates, led by Ryan O'Hearn's 3-hit performance, including a home run and 2 RBIs. The Washington Nationals fell to a historic 15-1 defeat at the hands of the Cincinnati Reds, with JJ Bleday driving in 6 runs. The New York Mets secured a 9-4 victory over the Detroit Tigers, while the Minnesota Twins dominated the Miami Marlins 9-1.\n\nSeveral key players have been affected by injuries, with Cal Raleigh placed on the 10-day injured list due to a right oblique strain. Other notable injured players include Jimmy Herget (right shoulder impingement), Brooks Kriske (right shoulder impingement), Robby Snelling (left elbow UCL sprain), Francisco Alvarez (right meniscus tear), Rhett Lowder (right shoulder pain), Drew Pomeranz (left elbow inflammation), and Dylan Beavers (right oblique strain).\n\nThe Baltimore Orioles made a notable trade acquisition, acquiring RHP Eduarniel N\u00fa\u00f1ez from the Athletics in exchange for cash. The Athletics also traded LHP Jos\u00e9 Suarez to the Seattle Mariners for cash. Additionally, the Arizona Diamondbacks acquired OF Jose Requena from the Los Angeles Dodgers in exchange for CF Alek Thomas, and the San Francisco Giants traded C Patrick Bailey to the Cleveland Guardians for LHP Matt Wilkinson and other considerations.",
+  "article": "The Colorado Rockies suffered a 7-2 loss to the Pittsburgh Pirates, while the Washington Nationals fell to a historic 15-1 defeat at the hands of the Cincinnati Reds. The New York Mets secured a 9-4 victory over the Detroit Tigers, and the Minnesota Twins dominated the Miami Marlins with a 9-1 win.\n\nSeveral players have been impacted by injuries, including Chase Dollander, who has been placed on the 15-day injured list due to a right elbow strain with the Colorado Rockies. Other teams have also suffered injuries, with Cal Raleigh (Seattle Mariners) and Jimmy Herget (Colorado Rockies) joining the list of players on the injured list.\n\nThe Baltimore Orioles made a move to acquire RHP Eduarniel N\u00fa\u00f1ez from the Athletics in exchange for cash. The Athletics also traded LHP Jos\u00e9 Suarez to the Seattle Mariners for cash. Additionally, the Arizona Diamondbacks acquired OF Jose Requena from the Los Angeles Dodgers in exchange for CF Alek Thomas, and the San Francisco Giants traded C Patrick Bailey to the Cleveland Guardians for LHP Matt Wilkinson and other considerations.",
   "top_news": [
     {
       "title": "**Rockies Fall to Pirates in 7-2 Loss**",
@@ -20,13 +20,13 @@
     },
     {
       "title": "**Twins Rout Marlins 9-1**",
-      "summary": "The Minnesota Twins dominated the Miami Marlins, winning 9-1 behind a strong outing from Zebby Matthews. Matthews pitched 7.0 innings, striking out 5 and allowing 0 earned runs.",
+      "summary": "The Minnesota Twins dominated the Miami Marlins in a one-sided contest, securing a 9-1 victory. Austin Martin led the Twins' offense with a 2-hit, 3-RBI performance.",
       "published": "2026-05-14"
     },
     {
-      "title": "**Raleigh Lands on Injured List**",
-      "summary": "Seattle Mariners catcher Cal Raleigh has been placed on the 10-day injured list due to a right oblique strain.",
-      "published": "2026-05-14"
+      "title": "**Rockies RHP Chase Dollander Lands on Injured List**",
+      "summary": "Colorado Rockies right-handed pitcher Chase Dollander has been placed on the 15-day injured list due to a right elbow strain.",
+      "published": "2026-05-15"
     },
     {
       "title": "**Orioles Acquire Eduarniel N\u00fa\u00f1ez in Trade**",
@@ -35,6 +35,12 @@
     }
   ],
   "injury_updates": [
+    {
+      "date": "2026-05-15",
+      "team": "Colorado Rockies",
+      "player": "Chase Dollander",
+      "update": "Colorado Rockies placed RHP Chase Dollander on the 15-day injured list. Right elbow strain. | Status Change"
+    },
     {
       "date": "2026-05-14",
       "team": "Seattle Mariners",
@@ -100,12 +106,6 @@
       "team": "New York Yankees",
       "player": "Jos\u00e9 Caballero",
       "update": "New York Yankees placed SS Jos\u00e9 Caballero on the 10-day injured list. Right middle finger fracture. | Status Change"
-    },
-    {
-      "date": "2026-05-12",
-      "team": "Atlanta Braves",
-      "player": "Sean Murphy",
-      "update": "Atlanta Braves placed C Sean Murphy on the 10-day injured list retroactive to May 11, 2026. Fractured left middle finger. | Status Change"
     }
   ],
   "trade_updates": [
