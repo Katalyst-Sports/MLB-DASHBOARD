@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-15T17:04:40.984819-04:00",
+  "updated_at": "2026-05-15T18:09:51.979404-04:00",
   "games": [
     {
       "gamePk": 823384,
@@ -5643,32 +5643,52 @@
       "start": "2026-05-16T01:38:00Z",
       "status": "Preview",
       "away_pitcher": {
-        "id": 605483,
-        "name": "Blake Snell",
-        "hand": "L",
-        "era": "12.00",
-        "whip": "2.67",
+        "id": 694361,
+        "name": "Will Klein",
+        "hand": "R",
+        "era": "2.76",
+        "whip": "1.41",
         "last3": {
           "starts": [
             {
-              "date": "2026-05-09",
-              "opponent": "Atlanta Braves",
-              "ip": "3.0",
-              "er": 4,
-              "k": 5,
+              "date": "2026-03-26",
+              "opponent": "Arizona Diamondbacks",
+              "ip": "1.0",
+              "er": 0,
+              "k": 1,
+              "bb": 0,
+              "pitches": 9,
+              "strikes": 8
+            },
+            {
+              "date": "2026-03-28",
+              "opponent": "Arizona Diamondbacks",
+              "ip": "1.0",
+              "er": 0,
+              "k": 1,
+              "bb": 0,
+              "pitches": 15,
+              "strikes": 10
+            },
+            {
+              "date": "2026-04-01",
+              "opponent": "Cleveland Guardians",
+              "ip": "1.2",
+              "er": 1,
+              "k": 1,
               "bb": 2,
-              "pitches": 77,
-              "strikes": 50
+              "pitches": 35,
+              "strikes": 20
             }
           ],
-          "avg_ip": "3.0",
-          "avg_k": "5.0",
-          "avg_bb": "2.0",
-          "avg_pitches": "77.0",
-          "avg_strikes": "50.0",
-          "era": "12.00",
-          "whip": "2.67",
-          "strike_pct": "64.9",
+          "avg_ip": "1.1",
+          "avg_k": "1.0",
+          "avg_bb": "0.7",
+          "avg_pitches": "19.7",
+          "avg_strikes": "12.7",
+          "era": "2.45",
+          "whip": "1.09",
+          "strike_pct": "64.4",
           "quality_starts": 0
         }
       },

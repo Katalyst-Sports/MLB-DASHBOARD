@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-05-15T17:04:40.984819-04:00",
+  "updated_at": "2026-05-15T18:09:51.979404-04:00",
   "date": "2026-05-14",
   "dashboard_recap": {
     "headline": "MLB Daily Recap - May 14, 2026",
-    "article": "\"Power Surge: Hitters Unleash Fury on the Competition\"\n\nRyan O'Hearn led the charge with a 3-hit, 1-homer performance for the Colorado Rockies, but it wasn't enough as the Pittsburgh Pirates took a 7-2 victory. For the Cincinnati Reds, JJ Bleday went yard twice and drove in 6 runs in a 15-1 thrashing of the Washington Nationals. Gage Workman added to the power with a 2-hit, 1-homer effort for the New York Mets in a 9-4 win over the Detroit Tigers.\n\nOn the mound, Chase Burns pitched 6 shutout innings for the Reds, striking out 7 in the blowout win. Nolan McLean also shined for the Mets, tossing 7 innings and fanning 7 in a 9-4 victory. Kyle Harrison turned in a 5-inning performance with 7 strikeouts for the Milwaukee Brewers in a 7-1 win over the San Diego Padres.",
+    "article": "ROCKIES CRUSHED BY PIRATES IN OPENING MATCHUP, REDS DOMINATE NATIONALS\n\nThe Pittsburgh Pirates got off to a strong start behind a 7-run outburst, taking down the Colorado Rockies 7-2. Ryan O'Hearn led the Rockies with 3 hits and a home run, while Carmen Mlodzinski earned the win with 5 strong innings. Meanwhile, the Cincinnati Reds put on a show at home, routing the Washington Nationals 15-1 behind a 6-hit performance from JJ Bleday, who hit two home runs and drove in 6 runs.\n\nIn other action, the New York Mets took down the Detroit Tigers 9-4 behind a strong outing from Nolan McLean, who pitched 7 innings and struck out 7. Marcus Semien hit his third home run of the season for the Mets, while Gage Workman hit a home run and drove in 3 runs for the Tigers. The Minnesota Twins also won big, defeating the Miami Marlins 9-1 behind a 7-inning performance from Zebby Matthews.",
     "all_games": [
       {
         "game": "Colorado Rockies @ Pittsburgh Pirates",
         "final_score": "2-7",
         "top_pitching_line": "Tanner Gordon: 4.0 IP, 5 K, 1 ER, 1 BB, 3 H",
         "top_batting_line": "Ryan O'Hearn: 3 H, 1 HR, 2 RBI, 4 AB",
-        "summary": "The Pittsburgh Pirates dominated the Colorado Rockies 7-2, led by Ryan O'Hearn's 3 hits, 1 home run, and 2 RBIs, and Tanner Gordon's 4 shutout innings.",
+        "summary": "The Pittsburgh Pirates dominated the Colorado Rockies 7-2, led by Ryan O'Hearn's 3 hits and home run, and Tanner Gordon's 4 strong innings with 5 strikeouts.",
         "impact_player": "Ryan O'Hearn"
       },
       {
@@ -18,7 +18,7 @@
         "final_score": "1-15",
         "top_pitching_line": "Chase Burns: 6.0 IP, 7 K, 0 ER, 2 BB, 2 H",
         "top_batting_line": "JJ Bleday: 3 H, 2 HR, 6 RBI, 5 AB",
-        "summary": "Cincinnati Reds dominate Washington Nationals 15-1 behind JJ Bleday's 3 hits, 2 home runs, and 6 RBIs, and Chase Burns' 6 shutout innings.",
+        "summary": "The Cincinnati Reds dominated the Washington Nationals 15-1, led by JJ Bleday's 3 hits, 2 home runs, and 6 RBIs, and Chase Burns' 6 shutout innings with 7 strikeouts.",
         "impact_player": "JJ Bleday"
       },
       {
@@ -26,7 +26,7 @@
         "final_score": "4-9",
         "top_pitching_line": "Nolan McLean: 7.0 IP, 7 K, 3 ER, 3 BB, 6 H",
         "top_batting_line": "Gage Workman: 2 H, 1 HR, 3 RBI, 4 AB",
-        "summary": "The New York Mets defeated the Detroit Tigers 9-4 behind Nolan McLean's 7 shutout innings and Gage Workman's 2 hits, 1 home run, and 3 RBIs.",
+        "summary": "The New York Mets defeated the Detroit Tigers 9-4 behind Nolan McLean's 7-inning performance and Gage Workman's 2-hit, 3-RBI effort.",
         "impact_player": "Gage Workman"
       },
       {
@@ -34,7 +34,7 @@
         "final_score": "1-9",
         "top_pitching_line": "Zebby Matthews: 7.0 IP, 5 K, 0 ER, 1 BB, 4 H",
         "top_batting_line": "Austin Martin: 2 H, 0 HR, 3 RBI, 4 AB",
-        "summary": "The Minnesota Twins dominated the Miami Marlins 9-1 behind Austin Martin's 3 RBI and Zebby Matthews' 7 shutout innings with 5 strikeouts.",
+        "summary": "The Minnesota Twins dominated the Miami Marlins 9-1, led by Austin Martin's 3 RBI and Zebby Matthews' 7 shutout innings.",
         "impact_player": "Austin Martin"
       },
       {
@@ -42,7 +42,7 @@
         "final_score": "1-7",
         "top_pitching_line": "Kyle Harrison: 5.0 IP, 7 K, 0 ER, 0 BB, 5 H",
         "top_batting_line": "Luis Rengifo: 2 H, 0 HR, 3 RBI, 4 AB",
-        "summary": "The Milwaukee Brewers dominated the San Diego Padres 7-1, led by Kyle Harrison's 5 shutout innings and Luis Rengifo's 3 RBIs.",
+        "summary": "The Milwaukee Brewers dominated the San Diego Padres 7-1 behind Kyle Harrison's 5 shutout innings and Luis Rengifo's 3 RBIs.",
         "impact_player": "Luis Rengifo"
       },
       {
@@ -58,7 +58,7 @@
         "final_score": "5-4",
         "top_pitching_line": "Matt Svanson: 1.0 IP, 2 K, 0 ER, 0 BB, 1 H",
         "top_batting_line": "Jordan Walker: 2 H, 1 HR, 2 RBI, 5 AB",
-        "summary": "The St. Louis Cardinals edged the Athletics 5-4, led by Jordan Walker's 2 hits, including a 2 RBI home run, and Matt Svanson's 1 perfect inning.",
+        "summary": "The St. Louis Cardinals edged the Athletics 5-4, led by Jordan Walker's 2 hits, including a 2 RBI home run, and a strong relief appearance from Matt Svanson.",
         "impact_player": "Jordan Walker"
       },
       {
@@ -74,7 +74,7 @@
         "final_score": "2-0",
         "top_pitching_line": "Chris Sale: 6.0 IP, 8 K, 0 ER, 2 BB, 5 H",
         "top_batting_line": "Ian Happ: 2 H, 1 HR, 1 RBI, 3 AB",
-        "summary": "The Chicago Cubs shut out the Atlanta Braves 2-0 behind Chris Sale's 6 scoreless innings and Ian Happ's 10th home run.",
+        "summary": "The Chicago Cubs shut out the Atlanta Braves 2-0 behind Chris Sale's 6 scoreless innings and Ian Happ's 10th home run, a solo shot to right center.",
         "impact_player": "Ian Happ"
       },
       {
@@ -82,7 +82,7 @@
         "final_score": "2-6",
         "top_pitching_line": "Luinder Avila: 2.0 IP, 2 K, 0 ER, 2 BB, 0 H",
         "top_batting_line": "Randal Grichuk: 2 H, 1 HR, 4 RBI, 3 AB",
-        "summary": "The Chicago White Sox defeated the Kansas City Royals 6-2, led by Randal Grichuk's 2 hits, 1 home run, and 4 RBIs.",
+        "summary": "The Chicago White Sox defeated the Kansas City Royals 6-2 behind Randal Grichuk's 2 hits, 1 home run, and 4 RBIs.",
         "impact_player": "Randal Grichuk"
       },
       {
@@ -90,7 +90,7 @@
         "final_score": "2-5",
         "top_pitching_line": "Emmet Sheehan: 6.0 IP, 6 K, 2 ER, 2 BB, 2 H",
         "top_batting_line": "Jung Hoo Lee: 1 H, 1 HR, 2 RBI, 3 AB",
-        "summary": "The Los Angeles Dodgers defeated the San Francisco Giants 5-2 behind Jung Hoo Lee's 1 HR, 2 RBI, and Emmet Sheehan's 6 strong innings with 6 strikeouts.",
+        "summary": "The Los Angeles Dodgers edged the San Francisco Giants 5-2 behind Emmet Sheehan's 6-inning performance and Jung Hoo Lee's 2-RBI home run.",
         "impact_player": "Jung Hoo Lee"
       }
     ],
