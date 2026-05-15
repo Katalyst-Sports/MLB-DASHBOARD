@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-15T14:07:53.958986-04:00",
+  "updated_at": "2026-05-15T15:53:59.084821-04:00",
   "games": [
     {
       "gamePk": 823384,
@@ -1116,12 +1116,12 @@
         {
           "name": "Vladimir Guerrero Jr.",
           "stats": {
-            "avg": ".288",
-            "obp": ".381",
-            "slg": ".372",
-            "ops": ".753",
+            "avg": ".295",
+            "obp": ".387",
+            "slg": ".378",
+            "ops": ".765",
             "homeRuns": 2,
-            "rbi": 18
+            "rbi": 19
           },
           "last10ab": {
             "avg": "0.400",
@@ -2368,7 +2368,36 @@
       "venue": "Target Field",
       "start": "2026-05-15T23:10:00Z",
       "status": "Preview",
-      "away_pitcher": {},
+      "away_pitcher": {
+        "id": 689441,
+        "name": "Coleman Crow",
+        "hand": "R",
+        "era": "3.38",
+        "whip": "0.94",
+        "last3": {
+          "starts": [
+            {
+              "date": "2026-04-17",
+              "opponent": "Miami Marlins",
+              "ip": "5.1",
+              "er": 2,
+              "k": 4,
+              "bb": 1,
+              "pitches": 77,
+              "strikes": 55
+            }
+          ],
+          "avg_ip": "5.1",
+          "avg_k": "4.0",
+          "avg_bb": "1.0",
+          "avg_pitches": "77.0",
+          "avg_strikes": "55.0",
+          "era": "3.38",
+          "whip": "0.94",
+          "strike_pct": "71.4",
+          "quality_starts": 0
+        }
+      },
       "home_pitcher": {
         "id": 657746,
         "name": "Joe Ryan",
@@ -4321,12 +4350,12 @@
         {
           "name": "Ezequiel Duran",
           "stats": {
-            "avg": ".294",
-            "obp": ".365",
-            "slg": ".480",
-            "ops": ".845",
+            "avg": ".284",
+            "obp": ".357",
+            "slg": ".471",
+            "ops": ".828",
             "homeRuns": 3,
-            "rbi": 16
+            "rbi": 15
           },
           "last10ab": {
             "avg": "0.273",
@@ -4955,10 +4984,10 @@
         {
           "name": "Jordan Walker",
           "stats": {
-            "avg": ".294",
-            "obp": ".370",
-            "slg": ".575",
-            "ops": ".945",
+            "avg": ".300",
+            "obp": ".376",
+            "slg": ".588",
+            "ops": ".964",
             "homeRuns": 12,
             "rbi": 32
           },
@@ -7003,10 +7032,5 @@
       ]
     }
   ],
-  "errors": [
-    {
-      "stage": "leaders_hitting_homeRuns",
-      "error": "The read operation timed out"
-    }
-  ]
+  "errors": []
 }
