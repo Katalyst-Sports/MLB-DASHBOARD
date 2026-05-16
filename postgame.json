@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-16T17:26:38.284533-04:00",
+  "updated_at": "2026-05-16T18:24:54.458378-04:00",
   "games": [
     {
       "gamePk": 824278,
@@ -27,6 +27,25 @@
         "Victor Scott II"
       ],
       "pitchers": []
+    },
+    {
+      "gamePk": 824359,
+      "game": "Arizona Diamondbacks @ Colorado Rockies",
+      "winner": "Colorado Rockies",
+      "loser": "Arizona Diamondbacks",
+      "final_score": "2-4",
+      "hitters": [
+        "Ketel Marte",
+        "Lourdes Gurriel Jr.",
+        "Jose Fernandez",
+        "Willi Castro",
+        "Brenton Doyle",
+        "Hunter Goodman",
+        "Jake McCarthy"
+      ],
+      "pitchers": [
+        "Eduardo Rodriguez"
+      ]
     }
   ],
   "errors": []

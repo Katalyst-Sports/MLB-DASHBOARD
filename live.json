@@ -1,38 +1,31 @@
 {
-  "updated_at": "2026-05-16T17:26:38.284533-04:00",
+  "updated_at": "2026-05-16T18:24:54.458378-04:00",
   "games": [
     {
-      "gamePk": 824359,
-      "game": "Arizona Diamondbacks @ Colorado Rockies",
-      "score": "2-3",
+      "gamePk": 822737,
+      "game": "Baltimore Orioles @ Washington Nationals",
+      "score": "3-8",
       "inning": "7th",
       "hot_hitters": [
-        "Ketel Marte",
-        "Jose Fernandez",
-        "Willi Castro"
+        "Taylor Ward",
+        "Samuel Basallo",
+        "Tyler O'Neill",
+        "Leody Taveras",
+        "CJ Abrams",
+        "Keibert Ruiz"
       ],
       "top_pitchers": []
     },
     {
-      "gamePk": 822737,
-      "game": "Baltimore Orioles @ Washington Nationals",
-      "score": "0-4",
-      "inning": "5th",
-      "hot_hitters": [
-        "CJ Abrams",
-        "Keibert Ruiz"
-      ],
-      "top_pitchers": [
-        "Cade Cavalli"
-      ]
-    },
-    {
       "gamePk": 823382,
       "game": "Philadelphia Phillies @ Pittsburgh Pirates",
-      "score": "5-0",
-      "inning": "5th",
+      "score": "6-0",
+      "inning": "8th",
       "hot_hitters": [
-        "Bryce Harper"
+        "Trea Turner",
+        "Bryce Harper",
+        "Alec Bohm",
+        "Nick Gonzales"
       ],
       "top_pitchers": [
         "Cristopher S\u00e1nchez"
@@ -41,11 +34,22 @@
     {
       "gamePk": 822981,
       "game": "Miami Marlins @ Tampa Bay Rays",
-      "score": "0-1",
-      "inning": "5th",
+      "score": "1-1",
+      "inning": "9th",
       "hot_hitters": [
-        "Jakob Marsee"
+        "Otto Lopez",
+        "Jakob Marsee",
+        "Heriberto Hern\u00e1ndez",
+        "Richie Palacios"
       ],
+      "top_pitchers": []
+    },
+    {
+      "gamePk": 824435,
+      "game": "Cincinnati Reds @ Cleveland Guardians",
+      "score": "0-0",
+      "inning": "2nd",
+      "hot_hitters": [],
       "top_pitchers": []
     }
   ],
