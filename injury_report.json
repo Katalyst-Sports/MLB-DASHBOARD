@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-16T13:16:45.174094-04:00",
+  "updated_at": "2026-05-16T14:10:53.938358-04:00",
   "teams": [
     {
       "team_id": 109,
@@ -1969,7 +1969,7 @@
     {
       "team_id": 147,
       "team_name": "New York Yankees",
-      "injured_count": 8,
+      "injured_count": 9,
       "players": [
         {
           "player_id": 683409,
@@ -2034,6 +2034,14 @@
           "date": "2026-05-12",
           "note": "New York Yankees placed SS Jos\u00e9 Caballero on the 10-day injured list. Right middle finger fracture. | Status Change",
           "description": "New York Yankees placed SS Jos\u00e9 Caballero on the 10-day injured list. Right middle finger fracture."
+        },
+        {
+          "player_id": 608331,
+          "name": "Max Fried",
+          "il_type": "Injured List",
+          "date": "2026-05-16",
+          "note": "New York Yankees placed LHP Max Fried on the 15-day injured list retroactive to May 14, 2026. Left elbow bone bruise. | Status Change",
+          "description": "New York Yankees placed LHP Max Fried on the 15-day injured list retroactive to May 14, 2026. Left elbow bone bruise."
         }
       ]
     },
