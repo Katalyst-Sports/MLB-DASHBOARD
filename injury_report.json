@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-16T15:34:54.568765-04:00",
+  "updated_at": "2026-05-16T16:26:04.531413-04:00",
   "teams": [
     {
       "team_id": 109,
@@ -448,7 +448,7 @@
     {
       "team_id": 111,
       "team_name": "Boston Red Sox",
-      "injured_count": 11,
+      "injured_count": 12,
       "players": [
         {
           "player_id": 678011,
@@ -529,6 +529,14 @@
           "date": "2026-02-10",
           "note": "Boston Red Sox placed RHP Tanner Houck on the 60-day injured list. | Status Change",
           "description": "Boston Red Sox placed RHP Tanner Houck on the 60-day injured list."
+        },
+        {
+          "player_id": 596115,
+          "name": "Trevor Story",
+          "il_type": "Injured List",
+          "date": "2026-05-16",
+          "note": "Boston Red Sox placed SS Trevor Story on the 10-day injured list retroactive to May 15, 2026. Sports hernia. | Status Change",
+          "description": "Boston Red Sox placed SS Trevor Story on the 10-day injured list retroactive to May 15, 2026. Sports hernia."
         },
         {
           "player_id": 671213,
