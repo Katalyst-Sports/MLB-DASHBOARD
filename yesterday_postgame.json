@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-16T00:03:38.012700-04:00",
+  "updated_at": "2026-05-16T02:31:55.154133-04:00",
   "games": [
     {
       "gamePk": 823384,
@@ -260,6 +260,73 @@
       "losing_pitcher": "Kyle Freeland",
       "save_pitcher": "",
       "game_summary": "Gabriel Moreno doubles (7) on a line drive to center fielder Jake McCarthy. Ildemaro Vargas scores."
+    },
+    {
+      "gamePk": 824037,
+      "game": "Los Angeles Dodgers @ Los Angeles Angels",
+      "winner": "Los Angeles Dodgers",
+      "loser": "Los Angeles Angels",
+      "final_score": "6-0",
+      "hitters": [
+        "Andy Pages",
+        "Max Muncy",
+        "Teoscar Hern\u00e1ndez"
+      ],
+      "pitchers": [],
+      "top_batting_line": "Andy Pages: 1 H, 1 HR, 3 RBI, 4 AB",
+      "top_pitching_line": "Alex Vesia: 1.0 IP, 3 K, 0 ER, 0 BB, 1 H",
+      "winning_pitcher": "Edgardo Henriquez",
+      "losing_pitcher": "Jack Kochanowicz",
+      "save_pitcher": "",
+      "game_summary": "Teoscar Hern\u00e1ndez homers (5) on a fly ball to right center field. Max Muncy scores."
+    },
+    {
+      "gamePk": 823140,
+      "game": "San Diego Padres @ Seattle Mariners",
+      "winner": "San Diego Padres",
+      "loser": "Seattle Mariners",
+      "final_score": "2-0",
+      "hitters": [
+        "Gavin Sheets",
+        "Xander Bogaerts",
+        "Miguel Andujar",
+        "Ram\u00f3n Laureano",
+        "Randy Arozarena",
+        "Cole Young"
+      ],
+      "pitchers": [
+        "Emerson Hancock"
+      ],
+      "top_batting_line": "Miguel Andujar: 2 H, 0 HR, 1 RBI, 4 AB",
+      "top_pitching_line": "Emerson Hancock: 6.0 IP, 6 K, 1 ER, 1 BB, 5 H",
+      "winning_pitcher": "Randy V\u00e1squez",
+      "losing_pitcher": "Emerson Hancock",
+      "save_pitcher": "Mason Miller",
+      "game_summary": "Sung-Mun Song grounds out to first baseman Josh Naylor. Miguel Andujar scores. Ram\u00f3n Laureano to 2nd."
+    },
+    {
+      "gamePk": 825009,
+      "game": "San Francisco Giants @ Athletics",
+      "winner": "Athletics",
+      "loser": "San Francisco Giants",
+      "final_score": "2-5",
+      "hitters": [
+        "Luis Arraez",
+        "Willy Adames",
+        "Harrison Bader",
+        "Nick Kurtz",
+        "Henry Bolte",
+        "Jeff McNeil"
+      ],
+      "pitchers": [
+        "Tyler Mahle"
+      ],
+      "top_batting_line": "Luis Arraez: 4 H, 1 HR, 1 RBI, 5 AB",
+      "top_pitching_line": "Joel Kuhnel: 1.0 IP, 2 K, 0 ER, 0 BB, 1 H",
+      "winning_pitcher": "Aaron Civale",
+      "losing_pitcher": "Tyler Mahle",
+      "save_pitcher": "Hogan Harris",
+      "game_summary": "Henry Bolte singles on a line drive to left fielder Heliot Ramos. Shea Langeliers scores. Brent Rooker to 2nd."
     }
   ],
   "errors": []

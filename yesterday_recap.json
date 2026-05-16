@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-05-16T00:03:38.012700-04:00",
+  "updated_at": "2026-05-16T02:31:55.154133-04:00",
   "date": "2026-05-15",
   "dashboard_recap": {
     "headline": "MLB Daily Recap - May 15, 2026",
-    "article": "\"Phillies Take Thrilling 11-9 Win Over Pirates in Slugfest\"\n\nThe Philadelphia Phillies overcame a late deficit to defeat the Pittsburgh Pirates 11-9, thanks in part to Kyle Schwarber's 3-hit, 2-home run performance that drove in 5 runs. Bryce Harper also contributed with a strong game, while the Pirates' Oneil Cruz and Bryan Reynolds showed their power with multiple hits. On the mound, Jos\u00e9 Alvarado earned the win with a scoreless inning, striking out 3.\n\nIn other action, the Washington Nationals edged the Baltimore Orioles 3-2 behind Zack Littell's 5 shutout innings, while the Detroit Tigers topped the Toronto Blue Jays 3-2 as Trey Yesavage pitched 6 strong innings. The Cincinnati Reds outlasted the Cleveland Guardians 7-6 in a back-and-forth contest, with Matt McLain hitting a home run and driving in 3 runs.",
+    "article": "**Phillies Power Past Pirates in Thrilling 11-9 Victory**\n\nKyle Schwarber delivered a monster performance for the Philadelphia Phillies, crushing two home runs and driving in five runs in their 11-9 win over the Pittsburgh Pirates. Schwarber's big day helped propel the Phillies to their latest victory, while Jos\u00e9 Alvarado earned the win with a strong 1.0 inning of relief, striking out three and allowing no runs.\n\n**Rays Cruise Past Marlins, 7-2**\n\nCedric Mullins went deep for his third homer of the season, leading the Tampa Bay Rays to a 7-2 win over the Miami Marlins. Jesse Scholtens pitched 5.0 strong innings, striking out four and allowing just one run in the Rays' victory.\n\n**Cubs Blast White Sox, 10-5**\n\nThe Chicago Cubs used a balanced attack to take down the Chicago White Sox, 10-5. Carson Kelly drove in four runs with three hits, while Trent Thornton earned the win with 2.0 scoreless innings of relief.\n\n**Astros Shut Down Rangers, 2-0**\n\nSpencer Arrighetti pitched 7.1 innings of shutout ball, leading the Houston Astros to a 2-0 win over the Texas Rangers. Isaac Paredes hit a solo homer for the Rangers, but it wasn't enough to overcome Arrighetti's dominant performance.\n\n**Padres Blank Mariners, 2-0**\n\nEmerson Hancock pitched 6.0 strong innings, striking out six and allowing just one run in the San Diego Padres' 2-0 win over the Seattle Mariners.",
     "all_games": [
       {
         "game": "Philadelphia Phillies @ Pittsburgh Pirates",
         "final_score": "11-9",
         "top_pitching_line": "Jos\u00e9 Alvarado: 1.0 IP, 3 K, 0 ER, 0 BB, 1 H",
         "top_batting_line": "Kyle Schwarber: 3 H, 2 HR, 5 RBI, 5 AB",
-        "summary": "The Philadelphia Phillies edged the Pittsburgh Pirates 11-9 behind Kyle Schwarber's 3 hits, 2 home runs, and 5 RBIs.",
+        "summary": "The Philadelphia Phillies outlasted the Pittsburgh Pirates 11-9 behind Kyle Schwarber's 3 hits, 2 home runs, and 5 RBIs.",
         "impact_player": "Kyle Schwarber"
       },
       {
@@ -18,7 +18,7 @@
         "final_score": "2-3",
         "top_pitching_line": "Zack Littell: 5.0 IP, 3 K, 0 ER, 2 BB, 2 H",
         "top_batting_line": "Daylen Lile: 3 H, 1 HR, 2 RBI, 4 AB",
-        "summary": "The Washington Nationals edged the Baltimore Orioles 3-2 behind Daylen Lile's 3 hits, including a home run, and a strong start from Zack Littell.",
+        "summary": "The Washington Nationals edged the Baltimore Orioles 3-2 behind Zack Littell's 5 scoreless innings and Daylen Lile's 3 hits, including a home run.",
         "impact_player": "Daylen Lile"
       },
       {
@@ -26,7 +26,7 @@
         "final_score": "2-3",
         "top_pitching_line": "Trey Yesavage: 6.0 IP, 6 K, 2 ER, 3 BB, 4 H",
         "top_batting_line": "Andr\u00e9s Gim\u00e9nez: 1 H, 0 HR, 2 RBI, 3 AB",
-        "summary": "The Detroit Tigers edged the Toronto Blue Jays 3-2 behind Trey Yesavage's 6 strong innings and Andr\u00e9s Gim\u00e9nez's 2 RBI effort.",
+        "summary": "The Detroit Tigers edged the Toronto Blue Jays 3-2 behind Trey Yesavage's 6 shutout innings and Andr\u00e9s Gim\u00e9nez's 2 RBI effort.",
         "impact_player": "Andr\u00e9s Gim\u00e9nez"
       },
       {
@@ -34,7 +34,7 @@
         "final_score": "7-6",
         "top_pitching_line": "Pierce Johnson: 1.0 IP, 2 K, 0 ER, 0 BB, 1 H",
         "top_batting_line": "Matt McLain: 2 H, 1 HR, 3 RBI, 3 AB",
-        "summary": "The Cincinnati Reds edged the Cleveland Guardians 7-6, led by Matt McLain's 2 hits, 1 home run, and 3 RBIs.",
+        "summary": "The Cincinnati Reds edged the Cleveland Guardians 7-6, led by Matt McLain's 2 hits, 1 home run, and 3 RBIs, while Pierce Johnson pitched a scoreless 1st inning.",
         "impact_player": "Matt McLain"
       },
       {
@@ -42,7 +42,7 @@
         "final_score": "2-7",
         "top_pitching_line": "Jesse Scholtens: 5.0 IP, 4 K, 1 ER, 0 BB, 5 H",
         "top_batting_line": "Cedric Mullins: 4 H, 1 HR, 1 RBI, 4 AB",
-        "summary": "Tampa Bay Rays win 7-2 behind Jesse Scholtens' 5 scoreless innings and Cedric Mullins' 4 hits, including a solo home run.",
+        "summary": "Tampa Bay Rays defeat Miami Marlins 7-2 behind Jesse Scholtens' 5 strong innings and Cedric Mullins' 4-hit, 1-homer performance.",
         "impact_player": "Cedric Mullins"
       },
       {
@@ -50,7 +50,7 @@
         "final_score": "3-2",
         "top_pitching_line": "Joe Ryan: 6.0 IP, 7 K, 1 ER, 1 BB, 4 H",
         "top_batting_line": "Jake Bauers: 2 H, 0 HR, 1 RBI, 4 AB",
-        "summary": "The Milwaukee Brewers edged the Minnesota Twins 3-2 behind Joe Ryan's 6-inning performance, striking out 7, and Jake Bauers' key double that plated a crucial run.",
+        "summary": "The Milwaukee Brewers edged the Minnesota Twins 3-2 behind Joe Ryan's 6 shutout innings and Jake Bauers' key double that plated a run.",
         "impact_player": "Jake Bauers"
       },
       {
@@ -66,7 +66,7 @@
         "final_score": "5-2",
         "top_pitching_line": "Cam Schlittler: 6.2 IP, 9 K, 1 ER, 2 BB, 2 H",
         "top_batting_line": "Ben Rice: 3 H, 1 HR, 1 RBI, 5 AB",
-        "summary": "The New York Yankees edged the New York Mets 5-2 behind Cam Schlittler's 6.2 innings with 9 strikeouts and Ben Rice's 3 hits, including a home run.",
+        "summary": "The New York Yankees defeated the New York Mets 5-2, led by Ben Rice's 3 hits, including a home run, and Cam Schlittler's 6.2 innings with 9 strikeouts.",
         "impact_player": "Ben Rice"
       },
       {
@@ -74,7 +74,7 @@
         "final_score": "10-5",
         "top_pitching_line": "Trent Thornton: 2.0 IP, 2 K, 0 ER, 0 BB, 0 H",
         "top_batting_line": "Carson Kelly: 3 H, 0 HR, 4 RBI, 5 AB",
-        "summary": "The Chicago Cubs defeated the Chicago White Sox 10-5, led by Carson Kelly's 4 RBI and Trent Thornton's 2 scoreless innings.",
+        "summary": "The Chicago Cubs defeated the White Sox 10-5, led by Carson Kelly's 4 RBI and Trent Thornton's 2 scoreless innings.",
         "impact_player": "Carson Kelly"
       },
       {
@@ -82,7 +82,7 @@
         "final_score": "0-2",
         "top_pitching_line": "Spencer Arrighetti: 7.1 IP, 5 K, 0 ER, 4 BB, 1 H",
         "top_batting_line": "Isaac Paredes: 1 H, 1 HR, 1 RBI, 3 AB",
-        "summary": "The Houston Astros shut out the Texas Rangers 2-0 behind Spencer Arrighetti's 7.1 scoreless innings, highlighted by Isaac Paredes' solo home run.",
+        "summary": "The Houston Astros shut out the Texas Rangers 2-0 behind Spencer Arrighetti's 7.1 scoreless innings and Isaac Paredes' solo home run.",
         "impact_player": "Isaac Paredes"
       },
       {
@@ -90,7 +90,7 @@
         "final_score": "4-5",
         "top_pitching_line": "Lucas Erceg: 1.0 IP, 2 K, 0 ER, 0 BB, 2 H",
         "top_batting_line": "Jordan Walker: 3 H, 1 HR, 2 RBI, 5 AB",
-        "summary": "The St. Louis Cardinals edged the Kansas City Royals 5-4, led by Jordan Walker's 3 hits, including a home run, and 2 RBIs.",
+        "summary": "The St. Louis Cardinals edged the Kansas City Royals 5-4, led by Jordan Walker's 3 hits, 1 home run, and 2 RBIs.",
         "impact_player": "Jordan Walker"
       },
       {
@@ -98,8 +98,32 @@
         "final_score": "9-1",
         "top_pitching_line": "Merrill Kelly: 9.0 IP, 3 K, 1 ER, 0 BB, 4 H",
         "top_batting_line": "Hunter Goodman: 1 H, 1 HR, 1 RBI, 4 AB",
-        "summary": "Merrill Kelly pitched 9 strong innings, allowing 1 ER, as the Arizona Diamondbacks defeated the Colorado Rockies 9-1 behind Hunter Goodman's 1 HR and 1 RBI.",
+        "summary": "The Arizona Diamondbacks dominated the Colorado Rockies 9-1 behind Merrill Kelly's 9-inning performance and Hunter Goodman's 1 HR, 1 RBI effort.",
         "impact_player": "Hunter Goodman"
+      },
+      {
+        "game": "Los Angeles Dodgers @ Los Angeles Angels",
+        "final_score": "6-0",
+        "top_pitching_line": "Alex Vesia: 1.0 IP, 3 K, 0 ER, 0 BB, 1 H",
+        "top_batting_line": "Andy Pages: 1 H, 1 HR, 3 RBI, 4 AB",
+        "summary": "The Los Angeles Dodgers dominated the Angels 6-0, behind Andy Pages' 3-RBI performance and Alex Vesia's 1 scoreless inning with 3 strikeouts.",
+        "impact_player": "Andy Pages"
+      },
+      {
+        "game": "San Diego Padres @ Seattle Mariners",
+        "final_score": "2-0",
+        "top_pitching_line": "Emerson Hancock: 6.0 IP, 6 K, 1 ER, 1 BB, 5 H",
+        "top_batting_line": "Miguel Andujar: 2 H, 0 HR, 1 RBI, 4 AB",
+        "summary": "The San Diego Padres shut out the Seattle Mariners 2-0 behind Emerson Hancock's 6 strong innings, with Miguel Andujar driving in a key run.",
+        "impact_player": "Miguel Andujar"
+      },
+      {
+        "game": "San Francisco Giants @ Athletics",
+        "final_score": "2-5",
+        "top_pitching_line": "Joel Kuhnel: 1.0 IP, 2 K, 0 ER, 0 BB, 1 H",
+        "top_batting_line": "Luis Arraez: 4 H, 1 HR, 1 RBI, 5 AB",
+        "summary": "The Athletics defeated the San Francisco Giants 5-2 behind Shea Langeliers' crucial run scored on Henry Bolte's single, while Luis Arraez led the Giants with 4 hits and a home run.",
+        "impact_player": "Luis Arraez"
       }
     ],
     "season_leaders": {

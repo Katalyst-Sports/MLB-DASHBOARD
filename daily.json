@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-16T00:03:38.012700-04:00",
+  "updated_at": "2026-05-16T02:31:55.154133-04:00",
   "games": [
     {
       "gamePk": 824278,
@@ -5032,26 +5032,6 @@
           }
         },
         {
-          "name": "Brendan Donovan",
-          "stats": {
-            "avg": ".277",
-            "obp": ".390",
-            "slg": ".458",
-            "ops": ".848",
-            "homeRuns": 3,
-            "rbi": 8
-          },
-          "last10ab": {
-            "avg": "0.364",
-            "hits": 4,
-            "atBats": 11,
-            "homeRuns": 1,
-            "rbi": 1,
-            "walks": 2,
-            "games": 3
-          }
-        },
-        {
           "name": "Randy Arozarena",
           "stats": {
             "avg": ".305",
@@ -5069,6 +5049,26 @@
             "rbi": 2,
             "walks": 5,
             "games": 4
+          }
+        },
+        {
+          "name": "Brendan Donovan",
+          "stats": {
+            "avg": ".274",
+            "obp": ".386",
+            "slg": ".452",
+            "ops": ".838",
+            "homeRuns": 3,
+            "rbi": 8
+          },
+          "last10ab": {
+            "avg": "0.364",
+            "hits": 4,
+            "atBats": 11,
+            "homeRuns": 1,
+            "rbi": 1,
+            "walks": 2,
+            "games": 3
           }
         },
         {
@@ -5154,10 +5154,10 @@
         {
           "name": "Cole Young",
           "stats": {
-            "avg": ".250",
-            "obp": ".328",
-            "slg": ".369",
-            "ops": ".697",
+            "avg": ".255",
+            "obp": ".331",
+            "slg": ".373",
+            "ops": ".704",
             "homeRuns": 3,
             "rbi": 24
           },
@@ -6308,10 +6308,10 @@
         {
           "name": "Shohei Ohtani",
           "stats": {
-            "avg": ".242",
-            "obp": ".372",
-            "slg": ".431",
-            "ops": ".803",
+            "avg": ".240",
+            "obp": ".370",
+            "slg": ".429",
+            "ops": ".799",
             "homeRuns": 7,
             "rbi": 17
           },
@@ -6451,9 +6451,9 @@
           "name": "Zach Neto",
           "stats": {
             "avg": ".229",
-            "obp": ".340",
+            "obp": ".343",
             "slg": ".411",
-            "ops": ".751",
+            "ops": ".754",
             "homeRuns": 7,
             "rbi": 20
           },
@@ -6490,10 +6490,10 @@
         {
           "name": "Jorge Soler",
           "stats": {
-            "avg": ".216",
-            "obp": ".312",
-            "slg": ".426",
-            "ops": ".738",
+            "avg": ".215",
+            "obp": ".310",
+            "slg": ".423",
+            "ops": ".733",
             "homeRuns": 8,
             "rbi": 28
           },
@@ -6530,10 +6530,10 @@
         {
           "name": "Jo Adell",
           "stats": {
-            "avg": ".264",
-            "obp": ".305",
-            "slg": ".397",
-            "ops": ".702",
+            "avg": ".263",
+            "obp": ".303",
+            "slg": ".394",
+            "ops": ".697",
             "homeRuns": 6,
             "rbi": 25
           },
@@ -6750,10 +6750,10 @@
         {
           "name": "Luis Arraez",
           "stats": {
-            "avg": ".313",
-            "obp": ".348",
-            "slg": ".404",
-            "ops": ".752",
+            "avg": ".317",
+            "obp": ".352",
+            "slg": ".407",
+            "ops": ".759",
             "homeRuns": 1,
             "rbi": 15
           },
@@ -6790,10 +6790,10 @@
         {
           "name": "Jung Hoo Lee",
           "stats": {
-            "avg": ".266",
-            "obp": ".311",
-            "slg": ".391",
-            "ops": ".702",
+            "avg": ".265",
+            "obp": ".310",
+            "slg": ".388",
+            "ops": ".698",
             "homeRuns": 3,
             "rbi": 16
           },
