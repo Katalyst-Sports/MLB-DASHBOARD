@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-05-16T16:26:04.531413-04:00",
+  "updated_at": "2026-05-16T17:26:38.284533-04:00",
   "date": "2026-05-15",
   "dashboard_recap": {
     "headline": "MLB Daily Recap - May 15, 2026",
-    "article": "**Phillies Outlast Pirates in Thrilling 11-9 Victory**\n\nKyle Schwarber's monstrous performance led the Philadelphia Phillies to an 11-9 comeback win over the Pittsburgh Pirates. Schwarber crushed two home runs and drove in five runs, while Bryce Harper added three hits and an RBI. The Phillies' bullpen struggled to hold a lead, but Jos\u00e9 Alvarado shut the door with a scoreless inning, earning the win. Alvarado struck out three batters in the process.\n\nIn other action, the Washington Nationals edged the Baltimore Orioles 3-2 behind Daylen Lile's three-hit performance, including a home run and two RBIs. Zack Littell pitched five scoreless innings for the Nationals. The Detroit Tigers took down the Toronto Blue Jays 3-2, thanks in part to Trey Yesavage's six-inning outing, in which he struck out six batters.\n\nThe Cincinnati Reds held off the Cleveland Guardians 7-6, with Matt McLain's two-hit, three-RBI performance leading the way. Andrew Abbott earned the win, while Pierce Johnson struck out two batters in a scoreless inning.",
+    "article": "**Phillies Stun Pirates in Thrilling 11-9 Win**\n\nKyle Schwarber continued his torrid pace with a 3-hit, 2-home run performance, driving in 5 runs to lead the Philadelphia Phillies to an 11-9 victory over the Pittsburgh Pirates. Bryce Harper added 3 hits and Justin Crawford scored 3 runs in the win. On the mound, Jos\u00e9 Alvarado earned the win with a scoreless 1-inning appearance, striking out 3 batters. The Phillies' staff effort helped to outlast the Pirates' strong offense, led by Oneil Cruz and Bryan Reynolds.\n\n**Nationals Edge Orioles in Low-Scoring Affair**\n\nThe Washington Nationals edged the Baltimore Orioles 2-3 in a tightly contested game. Daylen Lile paced the Nationals with a 3-hit, 1-home run performance, driving in 2 runs. Zack Littell earned the win with 5 strong innings, striking out 3 and allowing just 2 hits. Gunnar Henderson led the Orioles with 2 hits, including a run-scoring single.\n\n**Tigers Outlast Blue Jays in Extra Innings**\n\nThe Detroit Tigers outlasted the Toronto Blue Jays 2-3 in extra innings. Andr\u00e9s Gim\u00e9nez drove in 2 runs with a single, and Trey Yesavage pitched 6 strong innings for the Tigers, striking out 6 and allowing 4 hits.\n\n**Reds Take Down Guardians in a Thrilling Finish**\n\nThe Cincinnati Reds edged the Cleveland Guardians 7-6 in a back-and-forth game. Matt McLain homered and drove in 3 runs to lead the Reds, while Pierce Johnson earned a scoreless 1-inning appearance, striking out 2 batters.",
     "all_games": [
       {
         "game": "Philadelphia Phillies @ Pittsburgh Pirates",
@@ -18,7 +18,7 @@
         "final_score": "2-3",
         "top_pitching_line": "Zack Littell: 5.0 IP, 3 K, 0 ER, 2 BB, 2 H",
         "top_batting_line": "Daylen Lile: 3 H, 1 HR, 2 RBI, 4 AB",
-        "summary": "The Washington Nationals edged the Baltimore Orioles 3-2 behind Zack Littell's 5 shutout innings and Daylen Lile's 3-hit, 2-RBI performance.",
+        "summary": "The Washington Nationals edged the Baltimore Orioles 3-2 behind a strong outing from Zack Littell and Daylen Lile's 3 hits, including a home run.",
         "impact_player": "Daylen Lile"
       },
       {
@@ -34,7 +34,7 @@
         "final_score": "7-6",
         "top_pitching_line": "Pierce Johnson: 1.0 IP, 2 K, 0 ER, 0 BB, 1 H",
         "top_batting_line": "Matt McLain: 2 H, 1 HR, 3 RBI, 3 AB",
-        "summary": "Cincinnati Reds win 7-6 behind Matt McLain's 2 hits, 1 home run, and 3 RBIs, while Pierce Johnson pitches a scoreless 1st inning with 2 strikeouts.",
+        "summary": "Cincinnati Reds edge Cleveland Guardians 7-6, led by Matt McLain's 2 hits, 1 home run, and 3 RBIs, and Pierce Johnson's scoreless 1st inning.",
         "impact_player": "Matt McLain"
       },
       {
@@ -50,7 +50,7 @@
         "final_score": "3-2",
         "top_pitching_line": "Joe Ryan: 6.0 IP, 7 K, 1 ER, 1 BB, 4 H",
         "top_batting_line": "Jake Bauers: 2 H, 0 HR, 1 RBI, 4 AB",
-        "summary": "The Milwaukee Brewers edged the Minnesota Twins 3-2, with Jake Bauers' double driving in a key run and Joe Ryan striking out 7 in 6 innings.",
+        "summary": "The Milwaukee Brewers edged the Minnesota Twins 3-2 behind Joe Ryan's 6 shutout innings until the 7th, and Jake Bauers' key double that scored Brice Turang.",
         "impact_player": "Jake Bauers"
       },
       {
@@ -58,7 +58,7 @@
         "final_score": "2-3",
         "top_pitching_line": "Connelly Early: 5.0 IP, 6 K, 2 ER, 0 BB, 5 H",
         "top_batting_line": "Drake Baldwin: 2 H, 1 HR, 1 RBI, 4 AB",
-        "summary": "The Atlanta Braves edged the Boston Red Sox 3-2 behind Connelly Early's 5 scoreless innings and Drake Baldwin's 2 hits, including a home run.",
+        "summary": "The Atlanta Braves edged the Boston Red Sox 3-2, led by Drake Baldwin's 2 hits, 1 home run, and 1 RBI, and Connelly Early's 5 shutout innings with 6 strikeouts.",
         "impact_player": "Drake Baldwin"
       },
       {
@@ -74,7 +74,7 @@
         "final_score": "10-5",
         "top_pitching_line": "Trent Thornton: 2.0 IP, 2 K, 0 ER, 0 BB, 0 H",
         "top_batting_line": "Carson Kelly: 3 H, 0 HR, 4 RBI, 5 AB",
-        "summary": "The Chicago Cubs defeated the White Sox 10-5, led by Carson Kelly's 4 RBI and Trent Thornton's 2 scoreless innings.",
+        "summary": "The Chicago Cubs defeated the Chicago White Sox 10-5 behind Carson Kelly's 4 RBIs and Trent Thornton's 2 scoreless innings.",
         "impact_player": "Carson Kelly"
       },
       {
@@ -90,7 +90,7 @@
         "final_score": "4-5",
         "top_pitching_line": "Lucas Erceg: 1.0 IP, 2 K, 0 ER, 0 BB, 2 H",
         "top_batting_line": "Jordan Walker: 3 H, 1 HR, 2 RBI, 5 AB",
-        "summary": "The St. Louis Cardinals edged the Kansas City Royals 5-4, led by Jordan Walker's 3 hits, including a home run, and 2 RBIs.",
+        "summary": "The St. Louis Cardinals edged the Kansas City Royals 5-4 behind Jordan Walker's 3 hits, including a home run, and 2 RBIs.",
         "impact_player": "Jordan Walker"
       },
       {
@@ -98,7 +98,7 @@
         "final_score": "9-1",
         "top_pitching_line": "Merrill Kelly: 9.0 IP, 3 K, 1 ER, 0 BB, 4 H",
         "top_batting_line": "Hunter Goodman: 1 H, 1 HR, 1 RBI, 4 AB",
-        "summary": "The Arizona Diamondbacks dominated the Colorado Rockies 9-1 behind Merrill Kelly's 9-inning performance and Hunter Goodman's 1-home-run effort.",
+        "summary": "The Arizona Diamondbacks dominated the Colorado Rockies 9-1 behind Merrill Kelly's 9-inning performance and Hunter Goodman's 1 HR, 1 RBI.",
         "impact_player": "Hunter Goodman"
       },
       {
@@ -106,7 +106,7 @@
         "final_score": "6-0",
         "top_pitching_line": "Alex Vesia: 1.0 IP, 3 K, 0 ER, 0 BB, 1 H",
         "top_batting_line": "Andy Pages: 1 H, 1 HR, 3 RBI, 4 AB",
-        "summary": "The Los Angeles Dodgers dominated the Angels 6-0 behind Andy Pages' 3-RBI performance, including a solo homer, and Alex Vesia's 1 scoreless inning.",
+        "summary": "The Los Angeles Dodgers shut out the Angels 6-0 behind Andy Pages' 3-RBI performance, including a solo homer, and Alex Vesia's scoreless relief inning.",
         "impact_player": "Andy Pages"
       },
       {
@@ -122,21 +122,21 @@
         "final_score": "2-5",
         "top_pitching_line": "Joel Kuhnel: 1.0 IP, 2 K, 0 ER, 0 BB, 1 H",
         "top_batting_line": "Luis Arraez: 4 H, 1 HR, 1 RBI, 5 AB",
-        "summary": "The Athletics defeated the San Francisco Giants 5-2 behind Shea Langeliers' score on Henry Bolte's single, with Luis Arraez leading the Giants with 4 hits and a home run.",
+        "summary": "The Athletics defeated the San Francisco Giants 5-2 behind Shea Langeliers' run-scoring single and Luis Arraez's 4 hits and solo home run.",
         "impact_player": "Luis Arraez"
       }
     ],
     "season_leaders": {
       "avg_ops": [
-        "Ildemaro Vargas (Arizona Diamondbacks) - AVG .342",
-        "Otto Lopez (Miami Marlins) - AVG .341",
+        "Ildemaro Vargas (Arizona Diamondbacks) - AVG .340",
+        "Otto Lopez (Miami Marlins) - AVG .339",
         "Shea Langeliers (Athletics) - AVG .337",
-        "Brandon Marsh (Philadelphia Phillies) - AVG .333",
+        "Brandon Marsh (Philadelphia Phillies) - AVG .329",
         "Riley Greene (Detroit Tigers) - AVG .327",
         "Ben Rice (New York Yankees) - OPS 1.104",
         "Yordan Alvarez (Houston Astros) - OPS 1.068",
-        "Mickey Moniak (Colorado Rockies) - OPS 1.023",
-        "Kyle Schwarber (Philadelphia Phillies) - OPS 1.013",
+        "Kyle Schwarber (Philadelphia Phillies) - OPS 1.018",
+        "Mickey Moniak (Colorado Rockies) - OPS 1.015",
         "Aaron Judge (New York Yankees) - OPS 1.010"
       ],
       "power": [
@@ -149,14 +149,14 @@
         "Ben Rice (New York Yankees) - HR 14",
         "Liam Hicks (Miami Marlins) - RBI 38",
         "Andy Pages (Los Angeles Dodgers) - RBI 38",
+        "CJ Abrams (Washington Nationals) - RBI 37",
         "Matt Olson (Atlanta Braves) - RBI 37",
-        "CJ Abrams (Washington Nationals) - RBI 36",
-        "Kyle Schwarber (Philadelphia Phillies) - RBI 35"
+        "Kyle Schwarber (Philadelphia Phillies) - RBI 36"
       ],
       "pitching": [
         "Jacob Misiorowski (Milwaukee Brewers) - K 80",
         "Dylan Cease (Toronto Blue Jays) - K 75",
-        "Cristopher S\u00e1nchez (Philadelphia Phillies) - K 69",
+        "Cristopher S\u00e1nchez (Philadelphia Phillies) - K 74",
         "Cam Schlittler (New York Yankees) - K 68",
         "Gavin Williams (Cleveland Guardians) - K 66",
         "Aaron Ashby (Milwaukee Brewers) - W 8",
@@ -167,8 +167,8 @@
       ],
       "run_prevention": [
         "Cam Schlittler (New York Yankees) - ERA 1.35",
+        "Nick Martinez (Tampa Bay Rays) - ERA 1.54",
         "Davis Martin (Chicago White Sox) - ERA 1.62",
-        "Nick Martinez (Tampa Bay Rays) - ERA 1.65",
         "Jos\u00e9 Soriano (Los Angeles Angels) - ERA 1.66",
         "Bryce Elder (Atlanta Braves) - ERA 1.81",
         "Paul Skenes (Pittsburgh Pirates) - WHIP 0.64",

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-16T16:26:04.531413-04:00",
+  "updated_at": "2026-05-16T17:26:38.284533-04:00",
   "games": [
     {
       "gamePk": 824278,
@@ -12,6 +12,19 @@
         "Daulton Varsho",
         "Kevin McGonigle",
         "Matt Vierling"
+      ],
+      "pitchers": []
+    },
+    {
+      "gamePk": 823060,
+      "game": "Kansas City Royals @ St. Louis Cardinals",
+      "winner": "St. Louis Cardinals",
+      "loser": "Kansas City Royals",
+      "final_score": "2-4",
+      "hitters": [
+        "Jac Caglianone",
+        "Nathan Church",
+        "Victor Scott II"
       ],
       "pitchers": []
     }

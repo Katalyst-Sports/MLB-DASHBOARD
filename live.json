@@ -1,20 +1,14 @@
 {
-  "updated_at": "2026-05-16T16:26:04.531413-04:00",
+  "updated_at": "2026-05-16T17:26:38.284533-04:00",
   "games": [
-    {
-      "gamePk": 823060,
-      "game": "Kansas City Royals @ St. Louis Cardinals",
-      "score": "1-3",
-      "inning": "6th",
-      "hot_hitters": [],
-      "top_pitchers": []
-    },
     {
       "gamePk": 824359,
       "game": "Arizona Diamondbacks @ Colorado Rockies",
-      "score": "1-3",
-      "inning": "4th",
+      "score": "2-3",
+      "inning": "7th",
       "hot_hitters": [
+        "Ketel Marte",
+        "Jose Fernandez",
         "Willi Castro"
       ],
       "top_pitchers": []
@@ -22,27 +16,36 @@
     {
       "gamePk": 822737,
       "game": "Baltimore Orioles @ Washington Nationals",
-      "score": "0-0",
-      "inning": "2nd",
-      "hot_hitters": [],
-      "top_pitchers": []
+      "score": "0-4",
+      "inning": "5th",
+      "hot_hitters": [
+        "CJ Abrams",
+        "Keibert Ruiz"
+      ],
+      "top_pitchers": [
+        "Cade Cavalli"
+      ]
     },
     {
       "gamePk": 823382,
       "game": "Philadelphia Phillies @ Pittsburgh Pirates",
-      "score": "3-0",
-      "inning": "1st",
+      "score": "5-0",
+      "inning": "5th",
       "hot_hitters": [
         "Bryce Harper"
       ],
-      "top_pitchers": []
+      "top_pitchers": [
+        "Cristopher S\u00e1nchez"
+      ]
     },
     {
       "gamePk": 822981,
       "game": "Miami Marlins @ Tampa Bay Rays",
-      "score": "0-0",
-      "inning": "2nd",
-      "hot_hitters": [],
+      "score": "0-1",
+      "inning": "5th",
+      "hot_hitters": [
+        "Jakob Marsee"
+      ],
       "top_pitchers": []
     }
   ],
