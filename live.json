@@ -1,54 +1,69 @@
 {
-  "updated_at": "2026-05-16T18:24:54.458378-04:00",
+  "updated_at": "2026-05-16T19:28:20.631594-04:00",
   "games": [
-    {
-      "gamePk": 822737,
-      "game": "Baltimore Orioles @ Washington Nationals",
-      "score": "3-8",
-      "inning": "7th",
-      "hot_hitters": [
-        "Taylor Ward",
-        "Samuel Basallo",
-        "Tyler O'Neill",
-        "Leody Taveras",
-        "CJ Abrams",
-        "Keibert Ruiz"
-      ],
-      "top_pitchers": []
-    },
-    {
-      "gamePk": 823382,
-      "game": "Philadelphia Phillies @ Pittsburgh Pirates",
-      "score": "6-0",
-      "inning": "8th",
-      "hot_hitters": [
-        "Trea Turner",
-        "Bryce Harper",
-        "Alec Bohm",
-        "Nick Gonzales"
-      ],
-      "top_pitchers": [
-        "Cristopher S\u00e1nchez"
-      ]
-    },
-    {
-      "gamePk": 822981,
-      "game": "Miami Marlins @ Tampa Bay Rays",
-      "score": "1-1",
-      "inning": "9th",
-      "hot_hitters": [
-        "Otto Lopez",
-        "Jakob Marsee",
-        "Heriberto Hern\u00e1ndez",
-        "Richie Palacios"
-      ],
-      "top_pitchers": []
-    },
     {
       "gamePk": 824435,
       "game": "Cincinnati Reds @ Cleveland Guardians",
+      "score": "1-2",
+      "inning": "5th",
+      "hot_hitters": [
+        "Dane Myers",
+        "Brayan Rocchio"
+      ],
+      "top_pitchers": []
+    },
+    {
+      "gamePk": 824193,
+      "game": "Texas Rangers @ Houston Astros",
+      "score": "0-2",
+      "inning": "2nd",
+      "hot_hitters": [
+        "Jose Altuve",
+        "Yordan Alvarez"
+      ],
+      "top_pitchers": []
+    },
+    {
+      "gamePk": 824600,
+      "game": "Chicago Cubs @ Chicago White Sox",
+      "score": "0-3",
+      "inning": "2nd",
+      "hot_hitters": [
+        "Miguel Vargas"
+      ],
+      "top_pitchers": []
+    },
+    {
+      "gamePk": 823706,
+      "game": "Milwaukee Brewers @ Minnesota Twins",
       "score": "0-0",
       "inning": "2nd",
+      "hot_hitters": [],
+      "top_pitchers": []
+    },
+    {
+      "gamePk": 823139,
+      "game": "San Diego Padres @ Seattle Mariners",
+      "score": "0-0",
+      "inning": "1st",
+      "hot_hitters": [],
+      "top_pitchers": []
+    },
+    {
+      "gamePk": 824924,
+      "game": "Boston Red Sox @ Atlanta Braves",
+      "score": "0-1",
+      "inning": "2nd",
+      "hot_hitters": [
+        "Drake Baldwin"
+      ],
+      "top_pitchers": []
+    },
+    {
+      "gamePk": 823627,
+      "game": "New York Yankees @ New York Mets",
+      "score": "0-0",
+      "inning": "1st",
       "hot_hitters": [],
       "top_pitchers": []
     }

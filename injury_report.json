@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-16T18:24:54.458378-04:00",
+  "updated_at": "2026-05-16T19:28:20.631594-04:00",
   "teams": [
     {
       "team_id": 109,
@@ -2293,7 +2293,7 @@
     {
       "team_id": 137,
       "team_name": "San Francisco Giants",
-      "injured_count": 12,
+      "injured_count": 13,
       "players": [
         {
           "player_id": 691740,
@@ -2326,6 +2326,14 @@
           "date": "2026-03-21",
           "note": "San Francisco Giants placed RHP Hayden Birdsong on the 60-day injured list. Tommy John surgery. | Status Change",
           "description": "San Francisco Giants placed RHP Hayden Birdsong on the 60-day injured list. Tommy John surgery."
+        },
+        {
+          "player_id": 671218,
+          "name": "Heliot Ramos",
+          "il_type": "Injured List",
+          "date": "2026-05-16",
+          "note": "San Francisco Giants placed LF Heliot Ramos on the 10-day injured list. Right quad strain. | Status Change",
+          "description": "San Francisco Giants placed LF Heliot Ramos on the 10-day injured list. Right quad strain."
         },
         {
           "player_id": 666931,
