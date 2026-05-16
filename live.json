@@ -1,11 +1,31 @@
 {
-  "updated_at": "2026-05-16T14:10:53.938358-04:00",
+  "updated_at": "2026-05-16T15:34:54.568765-04:00",
   "games": [
     {
       "gamePk": 824278,
       "game": "Toronto Blue Jays @ Detroit Tigers",
-      "score": "0-0",
-      "inning": "4th",
+      "score": "1-1",
+      "inning": "10th",
+      "hot_hitters": [
+        "Yohendrick Pi\u00f1ango",
+        "Kevin McGonigle",
+        "Matt Vierling"
+      ],
+      "top_pitchers": []
+    },
+    {
+      "gamePk": 823060,
+      "game": "Kansas City Royals @ St. Louis Cardinals",
+      "score": "0-1",
+      "inning": "3rd",
+      "hot_hitters": [],
+      "top_pitchers": []
+    },
+    {
+      "gamePk": 824359,
+      "game": "Arizona Diamondbacks @ Colorado Rockies",
+      "score": "0-2",
+      "inning": "1st",
       "hot_hitters": [],
       "top_pitchers": []
     }

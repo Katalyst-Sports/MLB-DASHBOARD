@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-16T14:10:53.938358-04:00",
+  "updated_at": "2026-05-16T15:34:54.568765-04:00",
   "teams": [
     {
       "team_id": 109,
@@ -1850,7 +1850,7 @@
     {
       "team_id": 121,
       "team_name": "New York Mets",
-      "injured_count": 14,
+      "injured_count": 15,
       "players": [
         {
           "player_id": 621345,
@@ -1859,6 +1859,14 @@
           "date": "2026-03-25",
           "note": "New York Mets placed LHP A.J. Minter on the 15-day injured list retroactive to March 22, 2026. Left lat surgery. | Status Change",
           "description": "New York Mets placed LHP A.J. Minter on the 15-day injured list retroactive to March 22, 2026. Left lat surgery."
+        },
+        {
+          "player_id": 605280,
+          "name": "Clay Holmes",
+          "il_type": "Injured List",
+          "date": "2026-05-16",
+          "note": "New York Mets placed RHP Clay Holmes on the 15-day injured list. Right fibula fracture. | Status Change",
+          "description": "New York Mets placed RHP Clay Holmes on the 15-day injured list. Right fibula fracture."
         },
         {
           "player_id": 673380,
