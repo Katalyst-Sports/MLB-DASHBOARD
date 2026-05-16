@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-16T11:10:20.635067-04:00",
+  "updated_at": "2026-05-16T12:11:09.291535-04:00",
   "teams": [
     {
       "team_id": 109,
@@ -1288,7 +1288,7 @@
     {
       "team_id": 118,
       "team_name": "Kansas City Royals",
-      "injured_count": 8,
+      "injured_count": 9,
       "players": [
         {
           "player_id": 679525,
@@ -1337,6 +1337,14 @@
           "date": "2026-04-20",
           "note": "Kansas City Royals placed 2B Jonathan India on the 10-day injured list retroactive to April 19, 2026. Left shoulder subluxation. | Status Change",
           "description": "Kansas City Royals placed 2B Jonathan India on the 10-day injured list retroactive to April 19, 2026. Left shoulder subluxation."
+        },
+        {
+          "player_id": 621381,
+          "name": "Matt Strahm",
+          "il_type": "Injured List",
+          "date": "2026-05-16",
+          "note": "Kansas City Royals placed LHP Matt Strahm on the 15-day injured list. Right knee inflammation. | Status Change",
+          "description": "Kansas City Royals placed LHP Matt Strahm on the 15-day injured list. Right knee inflammation."
         },
         {
           "player_id": 686681,
