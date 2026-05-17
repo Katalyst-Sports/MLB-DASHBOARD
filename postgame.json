@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-17T16:34:06.874857-04:00",
+  "updated_at": "2026-05-17T17:35:05.496321-04:00",
   "games": [
     {
       "gamePk": 822982,
@@ -18,6 +18,23 @@
       "pitchers": []
     },
     {
+      "gamePk": 822738,
+      "game": "Baltimore Orioles @ Washington Nationals",
+      "winner": "Baltimore Orioles",
+      "loser": "Washington Nationals",
+      "final_score": "7-3",
+      "hitters": [
+        "Gunnar Henderson",
+        "Coby Mayo",
+        "Colton Cowser",
+        "Jeremiah Jackson",
+        "James Wood",
+        "Luis Garc\u00eda Jr.",
+        "Jacob Young"
+      ],
+      "pitchers": []
+    },
+    {
       "gamePk": 823381,
       "game": "Philadelphia Phillies @ Pittsburgh Pirates",
       "winner": "Philadelphia Phillies",
@@ -32,6 +49,19 @@
         "Zack Wheeler",
         "Paul Skenes"
       ]
+    },
+    {
+      "gamePk": 824923,
+      "game": "Boston Red Sox @ Atlanta Braves",
+      "winner": "Atlanta Braves",
+      "loser": "Boston Red Sox",
+      "final_score": "1-8",
+      "hitters": [
+        "Jarren Duran",
+        "Austin Riley",
+        "Mike Yastrzemski"
+      ],
+      "pitchers": []
     },
     {
       "gamePk": 824436,
@@ -68,6 +98,86 @@
         "Dillon Dingler"
       ],
       "pitchers": []
+    },
+    {
+      "gamePk": 823628,
+      "game": "New York Yankees @ New York Mets",
+      "winner": "New York Mets",
+      "loser": "New York Yankees",
+      "final_score": "6-7",
+      "hitters": [
+        "Ben Rice",
+        "Jazz Chisholm Jr.",
+        "Anthony Volpe",
+        "Mark Vientos",
+        "Tyrone Taylor",
+        "Marcus Semien"
+      ],
+      "pitchers": []
+    },
+    {
+      "gamePk": 824192,
+      "game": "Texas Rangers @ Houston Astros",
+      "winner": "Texas Rangers",
+      "loser": "Houston Astros",
+      "final_score": "8-0",
+      "hitters": [
+        "Jake Burger",
+        "Kyle Higashioka",
+        "Zach Dezenzo"
+      ],
+      "pitchers": [
+        "Nathan Eovaldi",
+        "Peter Lambert"
+      ]
+    },
+    {
+      "gamePk": 824599,
+      "game": "Chicago Cubs @ Chicago White Sox",
+      "winner": "Chicago White Sox",
+      "loser": "Chicago Cubs",
+      "final_score": "8-9",
+      "hitters": [
+        "Michael Busch",
+        "Alex Bregman",
+        "Michael Conforto",
+        "Andrew Benintendi",
+        "Edgar Quero",
+        "Tristan Peters"
+      ],
+      "pitchers": []
+    },
+    {
+      "gamePk": 823708,
+      "game": "Milwaukee Brewers @ Minnesota Twins",
+      "winner": "Minnesota Twins",
+      "loser": "Milwaukee Brewers",
+      "final_score": "4-5",
+      "hitters": [
+        "William Contreras",
+        "Christian Yelich",
+        "Jake Bauers",
+        "Sal Frelick",
+        "Garrett Mitchell",
+        "Ryan Jeffers",
+        "Kody Clemens",
+        "Luke Keaschall"
+      ],
+      "pitchers": []
+    },
+    {
+      "gamePk": 823058,
+      "game": "Kansas City Royals @ St. Louis Cardinals",
+      "winner": "Kansas City Royals",
+      "loser": "St. Louis Cardinals",
+      "final_score": "2-0",
+      "hitters": [
+        "Salvador Perez",
+        "Kyle Isbel"
+      ],
+      "pitchers": [
+        "Andre Pallante"
+      ]
     }
   ],
   "errors": []

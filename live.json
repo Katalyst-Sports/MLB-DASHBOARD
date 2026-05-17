@@ -1,112 +1,37 @@
 {
-  "updated_at": "2026-05-17T16:34:06.874857-04:00",
+  "updated_at": "2026-05-17T17:35:05.496321-04:00",
   "games": [
     {
-      "gamePk": 822738,
-      "game": "Baltimore Orioles @ Washington Nationals",
-      "score": "7-3",
-      "inning": "9th",
-      "hot_hitters": [
-        "Gunnar Henderson",
-        "Coby Mayo",
-        "Colton Cowser",
-        "Jeremiah Jackson",
-        "James Wood",
-        "Jacob Young"
-      ],
-      "top_pitchers": []
-    },
-    {
-      "gamePk": 824923,
-      "game": "Boston Red Sox @ Atlanta Braves",
-      "score": "0-8",
-      "inning": "9th",
-      "hot_hitters": [
-        "Jarren Duran",
-        "Austin Riley",
-        "Mike Yastrzemski"
-      ],
-      "top_pitchers": []
-    },
-    {
-      "gamePk": 823628,
-      "game": "New York Yankees @ New York Mets",
-      "score": "6-6",
-      "inning": "9th",
-      "hot_hitters": [
-        "Ben Rice",
-        "Jazz Chisholm Jr.",
-        "Anthony Volpe",
-        "Mark Vientos",
-        "Tyrone Taylor",
-        "Marcus Semien"
-      ],
-      "top_pitchers": []
-    },
-    {
-      "gamePk": 824192,
-      "game": "Texas Rangers @ Houston Astros",
-      "score": "8-0",
-      "inning": "9th",
-      "hot_hitters": [
-        "Jake Burger",
-        "Kyle Higashioka",
-        "Zach Dezenzo"
-      ],
-      "top_pitchers": []
-    },
-    {
-      "gamePk": 824599,
-      "game": "Chicago Cubs @ Chicago White Sox",
-      "score": "4-4",
-      "inning": "8th",
-      "hot_hitters": [
-        "Michael Busch",
-        "Alex Bregman",
-        "Andrew Benintendi"
-      ],
-      "top_pitchers": []
-    },
-    {
-      "gamePk": 823708,
-      "game": "Milwaukee Brewers @ Minnesota Twins",
-      "score": "3-4",
-      "inning": "8th",
-      "hot_hitters": [
-        "Christian Yelich",
-        "Sal Frelick",
-        "Garrett Mitchell",
-        "Ryan Jeffers",
-        "Kody Clemens"
-      ],
-      "top_pitchers": []
-    },
-    {
-      "gamePk": 823058,
-      "game": "Kansas City Royals @ St. Louis Cardinals",
+      "gamePk": 824358,
+      "game": "Arizona Diamondbacks @ Colorado Rockies",
       "score": "2-0",
-      "inning": "9th",
-      "hot_hitters": [
-        "Salvador Perez",
-        "Kyle Isbel"
-      ],
+      "inning": "3rd",
+      "hot_hitters": [],
       "top_pitchers": []
     },
     {
       "gamePk": 825006,
       "game": "San Francisco Giants @ Athletics",
-      "score": "0-0",
-      "inning": "2nd",
-      "hot_hitters": [],
+      "score": "2-1",
+      "inning": "6th",
+      "hot_hitters": [
+        "Luis Arraez"
+      ],
       "top_pitchers": []
     },
     {
       "gamePk": 824034,
       "game": "Los Angeles Dodgers @ Los Angeles Angels",
-      "score": "2-0",
-      "inning": "2nd",
-      "hot_hitters": [],
-      "top_pitchers": []
+      "score": "7-1",
+      "inning": "5th",
+      "hot_hitters": [
+        "Shohei Ohtani",
+        "Kyle Tucker",
+        "Hyeseong Kim"
+      ],
+      "top_pitchers": [
+        "Roki Sasaki"
+      ]
     }
   ],
   "errors": []
