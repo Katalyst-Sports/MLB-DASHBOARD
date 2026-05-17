@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-16T19:28:20.631594-04:00",
+  "updated_at": "2026-05-16T21:26:47.558634-04:00",
   "games": [
     {
       "gamePk": 824278,
@@ -104,6 +104,36 @@
       "pitchers": [
         "Sandy Alcantara"
       ]
+    },
+    {
+      "gamePk": 824435,
+      "game": "Cincinnati Reds @ Cleveland Guardians",
+      "winner": "Cleveland Guardians",
+      "loser": "Cincinnati Reds",
+      "final_score": "4-7",
+      "hitters": [
+        "Dane Myers",
+        "Blake Dunn",
+        "Jos\u00e9 Ram\u00edrez",
+        "Kyle Manzardo",
+        "Angel Mart\u00ednez",
+        "Brayan Rocchio"
+      ],
+      "pitchers": []
+    },
+    {
+      "gamePk": 824924,
+      "game": "Boston Red Sox @ Atlanta Braves",
+      "winner": "Boston Red Sox",
+      "loser": "Atlanta Braves",
+      "final_score": "3-2",
+      "hitters": [
+        "Wilyer Abreu",
+        "Willson Contreras",
+        "Drake Baldwin",
+        "Jos\u00e9 Az\u00f3car"
+      ],
+      "pitchers": []
     }
   ],
   "errors": []
