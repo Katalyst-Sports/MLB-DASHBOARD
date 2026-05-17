@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-17T11:07:15.718116-04:00",
+  "updated_at": "2026-05-17T12:10:41.046403-04:00",
   "teams": [
     {
       "team_id": 109,
@@ -1002,7 +1002,7 @@
     {
       "team_id": 116,
       "team_name": "Detroit Tigers",
-      "injured_count": 16,
+      "injured_count": 17,
       "players": [
         {
           "player_id": 690544,
@@ -1123,6 +1123,14 @@
           "date": "2026-03-10",
           "note": "Detroit Tigers placed RHP Troy Melton on the 60-day injured list. | Status Change",
           "description": "Detroit Tigers placed RHP Troy Melton on the 60-day injured list."
+        },
+        {
+          "player_id": 680744,
+          "name": "Ty Madden",
+          "il_type": "Injured List",
+          "date": "2026-05-17",
+          "note": "Detroit Tigers placed RHP Ty Madden on the 15-day injured list retroactive to May 16, 2026. Right forearm contusion. | Status Change",
+          "description": "Detroit Tigers placed RHP Ty Madden on the 15-day injured list retroactive to May 16, 2026. Right forearm contusion."
         },
         {
           "player_id": 656716,

@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-05-17T11:07:15.718116-04:00",
+  "updated_at": "2026-05-17T12:10:41.046403-04:00",
   "date": "2026-05-16",
   "dashboard_recap": {
     "headline": "MLB Daily Recap - May 16, 2026",
-    "article": "**BLUE JAYS BULLDOZE TIGERS, BREWERS EDGE TWINS IN THRILLING MATCHUPS**\n\nThe Toronto Blue Jays edged the Detroit Tigers 2-1, with Yohendrick Pi\u00f1ango delivering a crucial home run and 1 RBI. In the American League, the Milwaukee Brewers outlasted the Minnesota Twins 2-1 behind Jackson Chourio's first-career home run. The Los Angeles Dodgers dominated the Los Angeles Angels 15-2, with Shohei Ohtani driving in 5 runs.",
+    "article": "**Blue Jays Edge Tigers in Thrilling 2-1 Victory**\n\nIn a low-scoring contest, the Toronto Blue Jays edged out the Detroit Tigers 2-1. Yohendrick Pi\u00f1ango delivered a crucial home run and RBI for the Blue Jays, while Daulton Varsho's key single helped secure the win. For the Tigers, the staff pitching effort was impressive, but ultimately fell short.\n\n**Mets Cruise Past Yankees in 6-3 Win**\n\nThe New York Mets dominated the New York Yankees 6-3 behind a strong performance from David Peterson, who struck out eight in four innings. Mark Vientos drove in three runs for the Mets, while Aaron Judge and Paul Goldschmidt both contributed for the Yankees.\n\n**Dodgers Rout Angels 15-2 in Blowout**\n\nThe Los Angeles Dodgers crushed the Los Angeles Angels 15-2, behind a six-inning performance from Justin Wrobleski. Shohei Ohtani had five RBI for the Dodgers, while Mookie Betts and Jorge Soler also contributed.\n\n**Giants Edge Athletics 6-4 in Thriller**\n\nThe San Francisco Giants edged out the Athletics 6-4 behind a strong performance from Trevor McDonald, who pitched 6.2 innings and allowed just one run. Casey Schmitt hit two home runs and drove in three runs for the Giants, while Brent Rooker's home run helped keep the Athletics in the game.",
     "all_games": [
       {
         "game": "Toronto Blue Jays @ Detroit Tigers",
         "final_score": "2-1",
         "top_pitching_line": "Spencer Miles: 3.2 IP, 5 K, 0 ER, 2 BB, 2 H",
         "top_batting_line": "Yohendrick Pi\u00f1ango: 2 H, 1 HR, 1 RBI, 4 AB",
-        "summary": "The Toronto Blue Jays edged the Detroit Tigers 2-1, with Yohendrick Pi\u00f1ango's 1 HR and Vladimir Guerrero Jr.'s run scoring on Daulton Varsho's single keying the win.",
+        "summary": "The Toronto Blue Jays edged the Detroit Tigers 2-1, with Yohendrick Pi\u00f1ango's 1 HR and 1 RBI, and Spencer Miles' 3.2 scoreless innings.",
         "impact_player": "Yohendrick Pi\u00f1ango"
       },
       {
@@ -18,7 +18,7 @@
         "final_score": "2-4",
         "top_pitching_line": "Kyle Leahy: 6.0 IP, 2 K, 1 ER, 3 BB, 5 H",
         "top_batting_line": "Jac Caglianone: 2 H, 1 HR, 1 RBI, 4 AB",
-        "summary": "The St. Louis Cardinals edged the Kansas City Royals 4-2 behind Jac Caglianone's 2-hit, 1-home run performance, including his 5th homer of the season.",
+        "summary": "The St. Louis Cardinals edged the Kansas City Royals 4-2 behind Jac Caglianone's 2-hit, 1-homer performance, including his 5th home run of the season.",
         "impact_player": "Jac Caglianone"
       },
       {
@@ -26,7 +26,7 @@
         "final_score": "2-4",
         "top_pitching_line": "Eduardo Rodriguez: 5.1 IP, 6 K, 3 ER, 0 BB, 9 H",
         "top_batting_line": "Mickey Moniak: 1 H, 0 HR, 2 RBI, 3 AB",
-        "summary": "The Colorado Rockies edged the Arizona Diamondbacks 4-2 behind Eduardo Rodriguez's 5.1 innings with 6 strikeouts and 3 earned runs, while Mickey Moniak contributed 2 RBIs.",
+        "summary": "The Colorado Rockies edged the Arizona Diamondbacks 4-2 behind Eduardo Rodriguez's 5.1 innings of work, striking out 6 and allowing 3 earned runs.",
         "impact_player": "Mickey Moniak"
       },
       {
@@ -34,7 +34,7 @@
         "final_score": "3-13",
         "top_pitching_line": "Cade Cavalli: 6.1 IP, 8 K, 3 ER, 0 BB, 8 H",
         "top_batting_line": "Keibert Ruiz: 3 H, 1 HR, 5 RBI, 5 AB",
-        "summary": "The Washington Nationals dominated the Baltimore Orioles 13-3 behind Cade Cavalli's 6.1 innings of work and Keibert Ruiz's 3-hit, 5-RBI performance.",
+        "summary": "The Washington Nationals dominated the Baltimore Orioles 13-3 behind Cade Cavalli's 6.1 strong innings and Keibert Ruiz's 3-hit, 5-RBI performance.",
         "impact_player": "Keibert Ruiz"
       },
       {
@@ -42,7 +42,7 @@
         "final_score": "6-0",
         "top_pitching_line": "Cristopher S\u00e1nchez: 9.0 IP, 13 K, 0 ER, 0 BB, 6 H",
         "top_batting_line": "Bryce Harper: 1 H, 1 HR, 3 RBI, 3 AB",
-        "summary": "The Philadelphia Phillies dominated the Pittsburgh Pirates 6-0 behind Cristopher S\u00e1nchez's 9-inning shutout with 13 strikeouts and Bryce Harper's 3-RBI performance.",
+        "summary": "The Philadelphia Phillies dominated the Pittsburgh Pirates 6-0 behind Cristopher S\u00e1nchez's 9-inning shutout with 13 strikeouts and Bryce Harper's 1 HR and 3 RBI.",
         "impact_player": "Bryce Harper"
       },
       {
@@ -50,7 +50,7 @@
         "final_score": "10-5",
         "top_pitching_line": "Sandy Alcantara: 6.0 IP, 6 K, 0 ER, 0 BB, 7 H",
         "top_batting_line": "Javier Sanoja: 2 H, 0 HR, 4 RBI, 5 AB",
-        "summary": "The Miami Marlins outlasted the Tampa Bay Rays 10-5, led by Javier Sanoja's 4 RBI and Sandy Alcantara's 6 shutout innings.",
+        "summary": "The Miami Marlins defeated the Tampa Bay Rays 10-5 behind Sandy Alcantara's 6 shutout innings and Javier Sanoja's 4 RBIs.",
         "impact_player": "Javier Sanoja"
       },
       {
@@ -58,7 +58,7 @@
         "final_score": "4-7",
         "top_pitching_line": "Connor Phillips: 1.0 IP, 2 K, 0 ER, 2 BB, 1 H",
         "top_batting_line": "Angel Mart\u00ednez: 2 H, 1 HR, 2 RBI, 4 AB",
-        "summary": "Cleveland Guardians outlasted the Cincinnati Reds 7-4, led by Angel Mart\u00ednez's 2 hits, 1 home run, and 2 RBIs.",
+        "summary": "Cleveland Guardians win 7-4 behind Angel Mart\u00ednez's 2 hits, 1 home run, and 2 RBIs, and Connor Phillips' 1 scoreless inning.",
         "impact_player": "Angel Mart\u00ednez"
       },
       {
@@ -66,7 +66,7 @@
         "final_score": "1-4",
         "top_pitching_line": "Kai-Wei Teng: 5.0 IP, 7 K, 0 ER, 4 BB, 2 H",
         "top_batting_line": "Zach Cole: 1 H, 1 HR, 1 RBI, 3 AB",
-        "summary": "The Houston Astros shut down the Texas Rangers 4-1, with Kai-Wei Teng pitching 5 strong innings and Zach Cole hitting a solo home run.",
+        "summary": "The Houston Astros defeated the Texas Rangers 4-1 behind Kai-Wei Teng's 5 shuttee innings and Zach Cole's 1 HR, 1 RBI performance.",
         "impact_player": "Zach Cole"
       },
       {
@@ -82,7 +82,7 @@
         "final_score": "2-1",
         "top_pitching_line": "Connor Prielipp: 6.0 IP, 8 K, 1 ER, 2 BB, 3 H",
         "top_batting_line": "Jackson Chourio: 2 H, 1 HR, 1 RBI, 4 AB",
-        "summary": "The Milwaukee Brewers edged the Minnesota Twins 2-1, thanks to Jackson Chourio's solo homer and Connor Prielipp's 6 strong innings with 8 strikeouts.",
+        "summary": "The Milwaukee Brewers edged the Minnesota Twins 2-1 behind Jackson Chourio's solo homer and Connor Prielipp's 6 shutout innings with 8 strikeouts.",
         "impact_player": "Jackson Chourio"
       },
       {
@@ -90,7 +90,7 @@
         "final_score": "7-4",
         "top_pitching_line": "Walker Buehler: 5.0 IP, 6 K, 2 ER, 2 BB, 5 H",
         "top_batting_line": "Nick Castellanos: 1 H, 1 HR, 3 RBI, 3 AB",
-        "summary": "The San Diego Padres edged the Seattle Mariners 7-4, led by Nick Castellanos' 1 HR and 3 RBI, and Walker Buehler's 5 strong innings with 6 Ks.",
+        "summary": "The San Diego Padres defeated the Seattle Mariners 7-4 behind Nick Castellanos' 1 HR and 3 RBI, and Walker Buehler's 5 strong innings with 6 strikeouts.",
         "impact_player": "Nick Castellanos"
       },
       {
@@ -98,7 +98,7 @@
         "final_score": "3-2",
         "top_pitching_line": "Mart\u00edn P\u00e9rez: 1.0 IP, 2 K, 0 ER, 0 BB, 0 H",
         "top_batting_line": "Willson Contreras: 2 H, 1 HR, 2 RBI, 4 AB",
-        "summary": "The Boston Red Sox edged the Atlanta Braves 3-2 behind Willson Contreras' 2-hit, 1-home run performance, including his 9th homer of the season.",
+        "summary": "The Boston Red Sox edged the Atlanta Braves 3-2, with Willson Contreras's 9th home run and Mart\u00edn P\u00e9rez's scoreless relief inning proving decisive.",
         "impact_player": "Willson Contreras"
       },
       {
@@ -106,7 +106,7 @@
         "final_score": "3-6",
         "top_pitching_line": "David Peterson: 4.0 IP, 8 K, 2 ER, 3 BB, 6 H",
         "top_batting_line": "Mark Vientos: 1 H, 0 HR, 3 RBI, 4 AB",
-        "summary": "The New York Mets outlasted the Yankees 6-3 behind David Peterson's 4 shuttable innings and Mark Vientos' 3-RBI performance.",
+        "summary": "The New York Mets defeated the Yankees 6-3 behind David Peterson's 4 shuttable innings and Mark Vientos' 3 RBIs.",
         "impact_player": "Mark Vientos"
       },
       {
@@ -114,7 +114,7 @@
         "final_score": "15-2",
         "top_pitching_line": "Justin Wrobleski: 6.0 IP, 5 K, 2 ER, 1 BB, 7 H",
         "top_batting_line": "Shohei Ohtani: 2 H, 0 HR, 5 RBI, 4 AB",
-        "summary": "The Los Angeles Dodgers dominated the Los Angeles Angels 15-2 behind Justin Wrobleski's 6-inning performance and Shohei Ohtani's 5-RBI effort.",
+        "summary": "The Los Angeles Dodgers dominated the Los Angeles Angels 15-2 behind Justin Wrobleski's 6.0 innings and Shohei Ohtani's 5-RBI performance.",
         "impact_player": "Shohei Ohtani"
       },
       {
@@ -122,7 +122,7 @@
         "final_score": "6-4",
         "top_pitching_line": "Trevor McDonald: 6.2 IP, 5 K, 1 ER, 1 BB, 5 H",
         "top_batting_line": "Casey Schmitt: 4 H, 2 HR, 3 RBI, 5 AB",
-        "summary": "The San Francisco Giants edged the Athletics 6-4 behind Trevor McDonald's 6.2 innings of work and Casey Schmitt's 4-hit, 2-home run performance.",
+        "summary": "The San Francisco Giants edged the Athletics 6-4 behind Casey Schmitt's 4 hits, 2 home runs, and 3 RBIs, and Trevor McDonald's 6.2 strong innings.",
         "impact_player": "Casey Schmitt"
       }
     ],
