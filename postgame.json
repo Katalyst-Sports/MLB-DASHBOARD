@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-17T18:33:59.622072-04:00",
+  "updated_at": "2026-05-17T19:38:20.980034-04:00",
   "games": [
     {
       "gamePk": 822982,
@@ -177,6 +177,37 @@
       ],
       "pitchers": [
         "Andre Pallante"
+      ]
+    },
+    {
+      "gamePk": 825006,
+      "game": "San Francisco Giants @ Athletics",
+      "winner": "San Francisco Giants",
+      "loser": "Athletics",
+      "final_score": "10-1",
+      "hitters": [
+        "Harrison Bader",
+        "Luis Arraez",
+        "Casey Schmitt",
+        "Matt Chapman",
+        "Carlos Cortes"
+      ],
+      "pitchers": []
+    },
+    {
+      "gamePk": 824034,
+      "game": "Los Angeles Dodgers @ Los Angeles Angels",
+      "winner": "Los Angeles Dodgers",
+      "loser": "Los Angeles Angels",
+      "final_score": "10-1",
+      "hitters": [
+        "Shohei Ohtani",
+        "Kyle Tucker",
+        "Hyeseong Kim",
+        "Nolan Schanuel"
+      ],
+      "pitchers": [
+        "Roki Sasaki"
       ]
     }
   ],
