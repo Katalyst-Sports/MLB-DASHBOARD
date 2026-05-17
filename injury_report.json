@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-17T08:09:12.047449-04:00",
+  "updated_at": "2026-05-17T09:57:40.276416-04:00",
   "teams": [
     {
       "team_id": 109,
@@ -2538,7 +2538,7 @@
     {
       "team_id": 139,
       "team_name": "Tampa Bay Rays",
-      "injured_count": 11,
+      "injured_count": 12,
       "players": [
         {
           "player_id": 670955,
@@ -2563,6 +2563,14 @@
           "date": "2026-03-24",
           "note": "Tampa Bay Rays placed LF Gavin Lux on the 10-day injured list retroactive to March 23, 2026. Right shoulder impingement. | Status Change",
           "description": "Tampa Bay Rays placed LF Gavin Lux on the 10-day injured list retroactive to March 23, 2026. Right shoulder impingement."
+        },
+        {
+          "player_id": 641584,
+          "name": "Jake Fraley",
+          "il_type": "Injured List",
+          "date": "2026-05-17",
+          "note": "Tampa Bay Rays placed RF Jake Fraley on the 10-day injured list retroactive to May 16, 2026. Hernia. | Status Change",
+          "description": "Tampa Bay Rays placed RF Jake Fraley on the 10-day injured list retroactive to May 16, 2026. Hernia."
         },
         {
           "player_id": 671212,

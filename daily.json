@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-17T08:09:12.047449-04:00",
+  "updated_at": "2026-05-17T09:57:40.276416-04:00",
   "games": [
     {
       "gamePk": 822982,
@@ -432,26 +432,6 @@
           }
         },
         {
-          "name": "Jake Fraley",
-          "stats": {
-            "avg": ".232",
-            "obp": ".300",
-            "slg": ".390",
-            "ops": ".690",
-            "homeRuns": 2,
-            "rbi": 5
-          },
-          "last10ab": {
-            "avg": "0.300",
-            "hits": 3,
-            "atBats": 10,
-            "homeRuns": 0,
-            "rbi": 0,
-            "walks": 0,
-            "games": 3
-          }
-        },
-        {
           "name": "Ben Williamson",
           "stats": {
             "avg": ".268",
@@ -468,6 +448,26 @@
             "homeRuns": 0,
             "rbi": 1,
             "walks": 0,
+            "games": 4
+          }
+        },
+        {
+          "name": "Nick Fortes",
+          "stats": {
+            "avg": ".283",
+            "obp": ".315",
+            "slg": ".358",
+            "ops": ".673",
+            "homeRuns": 1,
+            "rbi": 9
+          },
+          "last10ab": {
+            "avg": "0.417",
+            "hits": 5,
+            "atBats": 12,
+            "homeRuns": 0,
+            "rbi": 3,
+            "walks": 1,
             "games": 4
           }
         }
