@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-17T09:57:40.276416-04:00",
+  "updated_at": "2026-05-17T11:07:15.718116-04:00",
   "teams": [
     {
       "team_id": 109,
@@ -811,9 +811,9 @@
           "player_id": 624431,
           "name": "Jose Trevino",
           "il_type": "Injured List",
-          "date": "2026-04-08",
-          "note": "Cincinnati Reds placed C Jose Trevino on the 10-day injured list retroactive to April 5, 2026. Thoracic spine strain. | Status Change",
-          "description": "Cincinnati Reds placed C Jose Trevino on the 10-day injured list retroactive to April 5, 2026. Thoracic spine strain."
+          "date": "2026-05-17",
+          "note": "Cincinnati Reds placed C Jose Trevino on the 10-day injured list. Left hamstring injury. | Status Change",
+          "description": "Cincinnati Reds placed C Jose Trevino on the 10-day injured list. Left hamstring injury."
         },
         {
           "player_id": 666157,
@@ -2135,7 +2135,7 @@
     {
       "team_id": 134,
       "team_name": "Pittsburgh Pirates",
-      "injured_count": 4,
+      "injured_count": 5,
       "players": [
         {
           "player_id": 606965,
@@ -2168,6 +2168,14 @@
           "date": "2026-04-05",
           "note": "Pittsburgh Pirates placed SS Jared Triolo on the 10-day injured list retroactive to April 4, 2026. Right knee patellar tendon injury. | Status Change",
           "description": "Pittsburgh Pirates placed SS Jared Triolo on the 10-day injured list retroactive to April 4, 2026. Right knee patellar tendon injury."
+        },
+        {
+          "player_id": 656811,
+          "name": "Ryan O'Hearn",
+          "il_type": "Injured List",
+          "date": "2026-05-17",
+          "note": "Pittsburgh Pirates placed RF Ryan O'Hearn on the 10-day injured list. Right quad muscle strain. | Status Change",
+          "description": "Pittsburgh Pirates placed RF Ryan O'Hearn on the 10-day injured list. Right quad muscle strain."
         }
       ]
     },
@@ -2720,7 +2728,7 @@
     {
       "team_id": 141,
       "team_name": "Toronto Blue Jays",
-      "injured_count": 13,
+      "injured_count": 14,
       "players": [
         {
           "player_id": 680718,
@@ -2809,6 +2817,14 @@
           "date": "2026-04-13",
           "note": "Toronto Blue Jays transferred RHP Shane Bieber from the 15-day injured list to the 60-day injured list. Right elbow inflammation. | Status Change",
           "description": "Toronto Blue Jays transferred RHP Shane Bieber from the 15-day injured list to the 60-day injured list. Right elbow inflammation."
+        },
+        {
+          "player_id": 667297,
+          "name": "Tommy Nance",
+          "il_type": "Injured List",
+          "date": "2026-05-17",
+          "note": "Toronto Blue Jays placed RHP Tommy Nance on the 15-day injured list. Right forearm discomfort. | Status Change",
+          "description": "Toronto Blue Jays placed RHP Tommy Nance on the 15-day injured list. Right forearm discomfort."
         },
         {
           "player_id": 702056,
