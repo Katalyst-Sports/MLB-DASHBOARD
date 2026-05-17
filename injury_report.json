@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-17T13:16:53.514476-04:00",
+  "updated_at": "2026-05-17T14:15:13.697394-04:00",
   "teams": [
     {
       "team_id": 109,
@@ -1486,7 +1486,7 @@
     {
       "team_id": 119,
       "team_name": "Los Angeles Dodgers",
-      "injured_count": 14,
+      "injured_count": 15,
       "players": [
         {
           "player_id": 676508,
@@ -1559,6 +1559,14 @@
           "date": "2026-04-01",
           "note": "Los Angeles Dodgers transferred RHP Gavin Stone from the 15-day injured list to the 60-day injured list. Right shoulder inflammation. | Status Change",
           "description": "Los Angeles Dodgers transferred RHP Gavin Stone from the 15-day injured list to the 60-day injured list. Right shoulder inflammation."
+        },
+        {
+          "player_id": 676263,
+          "name": "Jack Dreyer",
+          "il_type": "Injured List",
+          "date": "2026-05-17",
+          "note": "Los Angeles Dodgers placed LHP Jack Dreyer on the 15-day injured list. Left shoulder discomfort. | Status Change",
+          "description": "Los Angeles Dodgers placed LHP Jack Dreyer on the 15-day injured list. Left shoulder discomfort."
         },
         {
           "player_id": 664776,
@@ -2908,5 +2916,11 @@
       ]
     }
   ],
-  "errors": []
+  "errors": [
+    {
+      "stage": "generated_news_item",
+      "title": "Washington Nationals Takes 3-13 Win",
+      "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01knxdhdn3fdgrkzy0y5b5f6w4` service tier `on_demand` on tokens per minute (TPM): Limit 6000, Used 5403, Requested 628. Please try again in 310ms. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+    }
+  ]
 }
