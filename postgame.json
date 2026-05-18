@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-17T19:38:20.980034-04:00",
+  "updated_at": "2026-05-17T21:49:41.771605-04:00",
   "games": [
     {
       "gamePk": 822982,
@@ -177,6 +177,25 @@
       ],
       "pitchers": [
         "Andre Pallante"
+      ]
+    },
+    {
+      "gamePk": 824358,
+      "game": "Arizona Diamondbacks @ Colorado Rockies",
+      "winner": "Arizona Diamondbacks",
+      "loser": "Colorado Rockies",
+      "final_score": "8-6",
+      "hitters": [
+        "Corbin Carroll",
+        "Geraldo Perdomo",
+        "Lourdes Gurriel Jr.",
+        "Gabriel Moreno",
+        "Troy Johnston",
+        "Jake McCarthy",
+        "Kyle Karros"
+      ],
+      "pitchers": [
+        "Michael Soroka"
       ]
     },
     {
