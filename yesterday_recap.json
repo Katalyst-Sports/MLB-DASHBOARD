@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-05-18T02:04:26.488094-04:00",
+  "updated_at": "2026-05-18T06:39:33.562523-04:00",
   "date": "2026-05-17",
   "dashboard_recap": {
     "headline": "MLB Daily Recap - May 17, 2026",
-    "article": "**MLB Recap: May 17, 2024**\n\nThe Tampa Bay Rays cruised to a 6-3 win over the Miami Marlins, with Drew Rasmussen earning the victory. Junior Caminero led the Marlins' offense with a home run and two RBI. Xavier Edwards and Otto Lopez also contributed with hits for Miami.\n\nIn a dominating performance, the Philadelphia Phillies blanked the Pittsburgh Pirates 6-0. Zack Wheeler threw seven innings of shutout ball, striking out eight and allowing just one walk. Bryson Stott clubbed a home run and drove in three runs to pace the Phillies' offense.\n\nThe Atlanta Braves routed the Boston Red Sox 8-1, with Austin Riley hitting a home run and driving in three runs. Grant Holmes earned the win, pitching six scoreless innings and striking out four.\n\nThe Cleveland Guardians pounded out ten runs on their way to a 10-3 win over the Cincinnati Reds. Kyle Manzardo hit two home runs and drove in three runs to lead the Guardians' offense. Gavin Williams earned the win, pitching six strong innings and striking out seven.\n\nThe Toronto Blue Jays edged the Detroit Tigers 4-1, with Vladimir Guerrero Jr. hitting a home run and driving in a run. Kevin Gausman earned the win, pitching six scoreless innings and striking out five.\n\nThe New York Mets came from behind to defeat the New York Yankees 7-6. Tyrone Taylor hit a home run and drove in three runs to lead the Mets' offense.\n\nThe Texas Rangers blanked the Houston Astros 8-0, with Nathan Eovaldi throwing seven shutout innings and striking out eight. Jake Burger hit a home run and drove in four runs to pace the Rangers' offense.\n\nThe Chicago White Sox outlasted the Chicago Cubs 9-8, with Edgar Quero hitting a home run and driving in three runs. Jacob Webb earned the win, pitching 1.1 scoreless innings and striking out three.\n\nThe Minnesota Twins edged the Milwaukee Brewers 5-4, with Ryan Jeffers hitting a home run and driving in a run. Bailey Ober earned the win, pitching 1.1 scoreless innings and striking out two.\n\nThe Kansas City Royals shut out the St. Louis Cardinals 2-0, with Salvador Perez hitting a home run and driving in two runs. Andre Pallante earned the win, pitching 6.2 scoreless innings and striking out seven.\n\nThe Arizona Diamondbacks edged the Colorado Rockies 8-6, with Corbin Carroll hitting two home runs and driving in three runs. Michael Soroka earned the win, pitching 5.2 strong innings and striking out eight.\n\nThe San Francisco Giants routed the Athletics 10-1, with Harrison Bader hitting a grand slam and driving in four runs. Adrian Houser earned the win, pitching 5.0 scoreless innings and striking out four.\n\nThe Los Angeles Dodgers dominated the Los Angeles Angels 10-1, with Roki Sasaki throwing seven strong innings and striking out eight. Kyle Tucker led the Dodgers' offense with three hits and three RBI.\n\nThe San Diego Padres edged the Seattle Mariners 8-3, with Gavin Sheets hitting two home runs and driving in four runs. Lucas Giolito earned the win, pitching 6.0 strong innings and striking out six.",
+    "article": "**Rays Outslug Marlins, Giants and Dodgers Dominate Opponents**\n\nIn a thrilling day of MLB action, the Tampa Bay Rays edged out the Miami Marlins 6-3 behind a strong team effort. Xavier Edwards and Otto Lopez led the Marlins' offense with 2 hits each, while Yandy D\u00edaz and Jonny DeLuca added 1 hit apiece. Drew Rasmussen earned the win, and Bryan Baker secured the save. On the other side, Junior Caminero homered and drove in 2 runs for the Marlins.\n\nIn other games, the Baltimore Orioles cruised to a 7-3 victory over the Washington Nationals, thanks in part to Gunnar Henderson's 4-hit, 2-RBI performance. Meanwhile, the Philadelphia Phillies blanked the Pittsburgh Pirates 6-0 behind Zack Wheeler's 7-strikeout effort.\n\nIn a matchup between division rivals, the Texas Rangers dominated the Houston Astros 8-0, with Nathan Eovaldi throwing 7 scoreless innings and Jake Burger hitting a home run. The Los Angeles Dodgers also had a big day, routing the Los Angeles Angels 10-1 behind Roki Sasaki's 7-strikeout outing.",
     "all_games": [
       {
         "game": "Miami Marlins @ Tampa Bay Rays",
         "final_score": "3-6",
         "top_pitching_line": "Ian Seymour: 0.2 IP, 1 K, 0 ER, 0 BB, 0 H",
         "top_batting_line": "Junior Caminero: 1 H, 1 HR, 2 RBI, 2 AB",
-        "summary": "The Tampa Bay Rays defeated the Miami Marlins 6-3 behind Junior Caminero's 2 RBI and Ian Seymour's scoreless relief appearance.",
+        "summary": "Tampa Bay Rays outlasted the Miami Marlins 6-3 behind Junior Caminero's 1 HR and 2 RBI, and a strong relief appearance by Ian Seymour.",
         "impact_player": "Junior Caminero"
       },
       {
@@ -18,7 +18,7 @@
         "final_score": "7-3",
         "top_pitching_line": "Anthony Nunez: 1.1 IP, 3 K, 0 ER, 0 BB, 0 H",
         "top_batting_line": "Gunnar Henderson: 4 H, 1 HR, 2 RBI, 5 AB",
-        "summary": "Baltimore Orioles win 7-3 behind Gunnar Henderson's 4 hits, including a home run, and Anthony Nunez's 1.1 scoreless innings with 3 strikeouts.",
+        "summary": "The Baltimore Orioles outlasted the Washington Nationals 7-3 behind Gunnar Henderson's 4 hits, including a home run, and Anthony Nunez's 1.1 scoreless innings.",
         "impact_player": "Gunnar Henderson"
       },
       {
@@ -26,7 +26,7 @@
         "final_score": "6-0",
         "top_pitching_line": "Zack Wheeler: 7.0 IP, 8 K, 0 ER, 1 BB, 4 H",
         "top_batting_line": "Bryson Stott: 2 H, 1 HR, 3 RBI, 4 AB",
-        "summary": "The Philadelphia Phillies dominated the Pittsburgh Pirates 6-0 behind Zack Wheeler's 7 shutout innings and Bryson Stott's 3-RBI, 2-hit performance.",
+        "summary": "The Philadelphia Phillies dominated the Pittsburgh Pirates 6-0 behind Zack Wheeler's 7 shutout innings and Bryson Stott's 2-hit, 3-RBI performance.",
         "impact_player": "Bryson Stott"
       },
       {
@@ -34,7 +34,7 @@
         "final_score": "1-8",
         "top_pitching_line": "Grant Holmes: 6.0 IP, 4 K, 0 ER, 1 BB, 5 H",
         "top_batting_line": "Austin Riley: 2 H, 1 HR, 3 RBI, 4 AB",
-        "summary": "The Atlanta Braves dominated the Boston Red Sox 8-1 behind Austin Riley's 2 hits, including a 3-RBI home run, and Grant Holmes' 6 shutout innings.",
+        "summary": "The Atlanta Braves dominated the Boston Red Sox 8-1 behind Austin Riley's 2 hits, including a home run, and Grant Holmes' 6 shutout innings.",
         "impact_player": "Austin Riley"
       },
       {
@@ -42,7 +42,7 @@
         "final_score": "3-10",
         "top_pitching_line": "Gavin Williams: 6.0 IP, 7 K, 2 ER, 0 BB, 8 H",
         "top_batting_line": "Kyle Manzardo: 2 H, 2 HR, 3 RBI, 5 AB",
-        "summary": "Cleveland Guardians dominate Cincinnati Reds 10-3 behind Kyle Manzardo's 2 HR, 3 RBI performance and Gavin Williams' 6 shutout innings.",
+        "summary": "Cleveland Guardians dominated Cincinnati Reds 10-3 behind Gavin Williams' 6 shutless innings and Kyle Manzardo's 2 HR, 3 RBI performance.",
         "impact_player": "Kyle Manzardo"
       },
       {
@@ -50,7 +50,7 @@
         "final_score": "4-1",
         "top_pitching_line": "Kevin Gausman: 6.0 IP, 5 K, 0 ER, 0 BB, 4 H",
         "top_batting_line": "Vladimir Guerrero Jr.: 2 H, 1 HR, 1 RBI, 4 AB",
-        "summary": "The Toronto Blue Jays defeated the Detroit Tigers 4-1, led by Vladimir Guerrero Jr.'s 2 hits, including a home run, and Kevin Gausman's 6 strong innings with 5 strikeouts and 0 earned runs.",
+        "summary": "The Toronto Blue Jays edged the Detroit Tigers 4-1 behind Kevin Gausman's 6 shutout innings and Vladimir Guerrero Jr.'s 2-hit, 1-home-run performance.",
         "impact_player": "Vladimir Guerrero Jr."
       },
       {
@@ -58,7 +58,7 @@
         "final_score": "6-7",
         "top_pitching_line": "Jake Bird: 0.2 IP, 1 K, 0 ER, 0 BB, 1 H",
         "top_batting_line": "Tyrone Taylor: 1 H, 1 HR, 3 RBI, 3 AB",
-        "summary": "The New York Mets edged the Yankees 7-6 behind Tyrone Taylor's 1 HR and 3 RBI, and a crucial fielder's choice by Carson Benge.",
+        "summary": "The New York Mets edged the Yankees 7-6, behind Tyrone Taylor's 1 HR and 3 RBI, and a crucial fielder's choice by Carson Benge.",
         "impact_player": "Tyrone Taylor"
       },
       {
@@ -66,7 +66,7 @@
         "final_score": "8-0",
         "top_pitching_line": "Nathan Eovaldi: 7.0 IP, 8 K, 0 ER, 2 BB, 5 H",
         "top_batting_line": "Jake Burger: 2 H, 1 HR, 4 RBI, 4 AB",
-        "summary": "The Texas Rangers dominated the Houston Astros 8-0 behind Nathan Eovaldi's 7 shutout innings and Jake Burger's 2-hit, 4-RBI performance.",
+        "summary": "The Texas Rangers dominated the Houston Astros 8-0 behind Nathan Eovaldi's 7 shutout innings and Jake Burger's 4-RBI performance.",
         "impact_player": "Jake Burger"
       },
       {
@@ -74,7 +74,7 @@
         "final_score": "8-9",
         "top_pitching_line": "Jacob Webb: 1.1 IP, 3 K, 0 ER, 0 BB, 1 H",
         "top_batting_line": "Edgar Quero: 3 H, 1 HR, 3 RBI, 5 AB",
-        "summary": "The Chicago White Sox edged the Cubs 8-9 behind Edgar Quero's 3 hits, including a 3 RBI homer, and Jacob Webb's 1.1 scoreless innings.",
+        "summary": "The Chicago White Sox edged the Cubs 8-9, with Edgar Quero's 3 hits, including a 3 RBI homer, leading the White Sox offense.",
         "impact_player": "Edgar Quero"
       },
       {
@@ -82,7 +82,7 @@
         "final_score": "4-5",
         "top_pitching_line": "DL Hall: 1.1 IP, 2 K, 0 ER, 1 BB, 0 H",
         "top_batting_line": "Ryan Jeffers: 2 H, 1 HR, 1 RBI, 3 AB",
-        "summary": "The Minnesota Twins edged the Milwaukee Brewers 5-4, led by Ryan Jeffers' 2 hits, including a home run, and DL Hall's 1.1 scoreless innings.",
+        "summary": "The Minnesota Twins edged the Milwaukee Brewers 5-4 behind Ryan Jeffers' 2 hits, including a home run, and a crucial Jake Bauers single that scored Brice Turang.",
         "impact_player": "Ryan Jeffers"
       },
       {
@@ -98,7 +98,7 @@
         "final_score": "8-6",
         "top_pitching_line": "Michael Soroka: 5.2 IP, 8 K, 2 ER, 2 BB, 6 H",
         "top_batting_line": "Corbin Carroll: 2 H, 2 HR, 3 RBI, 4 AB",
-        "summary": "The Arizona Diamondbacks outlasted the Colorado Rockies 8-6 behind Corbin Carroll's 2 HR, 3 RBI performance and Michael Soroka's 5.2 innings with 8 strikeouts.",
+        "summary": "The Arizona Diamondbacks outlasted the Colorado Rockies 8-6 behind Corbin Carroll's 2 HR and 3 RBI, and Michael Soroka's 5.2 IP with 8 strikeouts.",
         "impact_player": "Corbin Carroll"
       },
       {
@@ -106,7 +106,7 @@
         "final_score": "10-1",
         "top_pitching_line": "Sam Hentges: 1.0 IP, 2 K, 0 ER, 0 BB, 0 H",
         "top_batting_line": "Harrison Bader: 1 H, 1 HR, 4 RBI, 4 AB",
-        "summary": "The San Francisco Giants dominated the Athletics 10-1 behind Harrison Bader's grand slam and 4 RBIs, leading the Giants' offense.",
+        "summary": "The San Francisco Giants dominated the Athletics 10-1 behind Harrison Bader's grand slam, which drove in four runs, including Willy Adames, Matt Chapman, and Jung Hoo Lee.",
         "impact_player": "Harrison Bader"
       },
       {
@@ -114,7 +114,7 @@
         "final_score": "10-1",
         "top_pitching_line": "Roki Sasaki: 7.0 IP, 8 K, 1 ER, 0 BB, 4 H",
         "top_batting_line": "Kyle Tucker: 3 H, 0 HR, 3 RBI, 5 AB",
-        "summary": "The Los Angeles Dodgers dominated the Los Angeles Angels 10-1 behind Roki Sasaki's 7-inning performance and Kyle Tucker's 3-hit, 3-RBI effort.",
+        "summary": "The Los Angeles Dodgers dominated the Angels 10-1 behind Roki Sasaki's 7 strong innings and Kyle Tucker's 3-hit, 3-RBI performance.",
         "impact_player": "Kyle Tucker"
       },
       {
@@ -169,11 +169,6 @@
         "Justin Wrobleski (Los Angeles Dodgers) - W 6"
       ],
       "run_prevention": [
-        "Cam Schlittler (New York Yankees) - ERA 1.35",
-        "Nick Martinez (Tampa Bay Rays) - ERA 1.51",
-        "Davis Martin (Chicago White Sox) - ERA 1.61",
-        "Cristopher S\u00e1nchez (Philadelphia Phillies) - ERA 1.82",
-        "Chase Burns (Cincinnati Reds) - ERA 1.87",
         "Paul Skenes (Pittsburgh Pirates) - WHIP 0.71",
         "Cam Schlittler (New York Yankees) - WHIP 0.78",
         "Michael McGreevy (St. Louis Cardinals) - WHIP 0.88",
