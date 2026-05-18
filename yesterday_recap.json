@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-05-18T10:19:12.955556-04:00",
+  "updated_at": "2026-05-18T13:15:05.629651-04:00",
   "date": "2026-05-17",
   "dashboard_recap": {
     "headline": "MLB Daily Recap - May 17, 2026",
-    "article": "**Marlins Fall to Rays in Tampa Bay Showdown**\n\nIn a decisive 6-3 win, the Tampa Bay Rays took down the Miami Marlins behind Drew Rasmussen's strong outing. Junior Caminero led the Marlins offense with a home run and two RBIs, but it wasn't enough to overcome the Rays' dominant pitching effort. On the other side, Xavier Edwards and Otto Lopez contributed for Miami, but ultimately came up short.\n\n**Orioles Rout Nationals in Baltimore**\n\nThe Baltimore Orioles continued their winning ways, taking down the Washington Nationals 7-3 behind Gunnar Henderson's impressive four-hit performance. Henderson's home run and two RBIs led the charge, while Anthony Nunez earned the win with a strong relief appearance. The Nationals struggled to contain the Orioles' offense, with Henderson's standout performance being the highlight of the game.\n\n**Phillies Shut Out Pirates in Philly**\n\nIn a lopsided 6-0 win, the Philadelphia Phillies dominated the Pittsburgh Pirates behind Zack Wheeler's eight-strikeout performance. Bryson Stott led the Phillies offense with a home run and three RBIs, while Wheeler's impressive outing earned him the win. The Pirates struggled to get anything going against the Phillies' strong pitching, ultimately falling short.\n\n**Braves Rout Red Sox in Atlanta**\n\nThe Atlanta Braves continued their winning ways, taking down the Boston Red Sox 8-1 behind Grant Holmes' strong outing. Austin Riley led the Braves offense with a home run and three RBIs, while Holmes earned the win with six scoreless innings. The Red Sox struggled to get anything going against the Braves' strong pitching, ultimately falling short.",
+    "article": "**HOMERUN FRENZY: 14 Long Balls Highlight Day in MLB**\n\nIn a day filled with explosive offense, five players hit two or more home runs. Corbin Carroll of the Arizona Diamondbacks led the charge with two home runs and three RBIs in a 8-6 victory over the Colorado Rockies. Kyle Manzardo of the Cleveland Guardians also had a monster game, hitting two home runs and driving in three runs in a 10-3 win over the Cincinnati Reds.\n\nMeanwhile, Nathan Eovaldi delivered a dominant performance on the mound, striking out eight batters in seven shutout innings to help the Texas Rangers defeat the Houston Astros 8-0.\n\nGunnar Henderson of the Baltimore Orioles had a breakout game at the plate, going 4-for-5 with a home run and two RBIs in a 7-3 win over the Washington Nationals.\n\nIn other notable performances, Gavin Sheets of the San Diego Padres hit two home runs and drove in four runs in an 8-3 victory over the Seattle Mariners.",
     "all_games": [
       {
         "game": "Miami Marlins @ Tampa Bay Rays",
         "final_score": "3-6",
         "top_pitching_line": "Ian Seymour: 0.2 IP, 1 K, 0 ER, 0 BB, 0 H",
         "top_batting_line": "Junior Caminero: 1 H, 1 HR, 2 RBI, 2 AB",
-        "summary": "Tampa Bay Rays defeat Miami Marlins 6-3 behind Junior Caminero's 1 HR and 2 RBI, and Ian Seymour's scoreless 0.2 IP.",
+        "summary": "Tampa Bay Rays win 6-3 behind Junior Caminero's 1 HR, 2 RBI, and Ian Seymour's scoreless 0.2 IP with 1 K.",
         "impact_player": "Junior Caminero"
       },
       {
@@ -18,7 +18,7 @@
         "final_score": "7-3",
         "top_pitching_line": "Anthony Nunez: 1.1 IP, 3 K, 0 ER, 0 BB, 0 H",
         "top_batting_line": "Gunnar Henderson: 4 H, 1 HR, 2 RBI, 5 AB",
-        "summary": "The Baltimore Orioles outlasted the Washington Nationals 7-3 behind Gunnar Henderson's 4-hit, 1-home run performance and Anthony Nunez's 1.1 scoreless innings.",
+        "summary": "The Baltimore Orioles defeated the Washington Nationals 7-3 behind Gunnar Henderson's 4-hit, 1-home run performance and Anthony Nunez's 1.1 scoreless innings.",
         "impact_player": "Gunnar Henderson"
       },
       {
@@ -34,7 +34,7 @@
         "final_score": "1-8",
         "top_pitching_line": "Grant Holmes: 6.0 IP, 4 K, 0 ER, 1 BB, 5 H",
         "top_batting_line": "Austin Riley: 2 H, 1 HR, 3 RBI, 4 AB",
-        "summary": "The Atlanta Braves dominated the Boston Red Sox 8-1 behind Austin Riley's 2 hits, including a 3-RBI home run, and Grant Holmes' 6 shutout innings.",
+        "summary": "The Atlanta Braves dominated the Boston Red Sox 8-1 behind Austin Riley's 2 hits, 1 home run, and 3 RBIs, and Grant Holmes' 6 shutout innings.",
         "impact_player": "Austin Riley"
       },
       {
@@ -42,7 +42,7 @@
         "final_score": "3-10",
         "top_pitching_line": "Gavin Williams: 6.0 IP, 7 K, 2 ER, 0 BB, 8 H",
         "top_batting_line": "Kyle Manzardo: 2 H, 2 HR, 3 RBI, 5 AB",
-        "summary": "The Cleveland Guardians dominated the Cincinnati Reds 10-3, led by Kyle Manzardo's 2 HR and 3 RBI, and Gavin Williams' 6 shuttest innings with 7 strikeouts.",
+        "summary": "The Cleveland Guardians dominated the Cincinnati Reds 10-3 behind Kyle Manzardo's 2 HR and 3 RBI, and Gavin Williams' 6 shuttest innings with 7 strikeouts.",
         "impact_player": "Kyle Manzardo"
       },
       {
@@ -50,7 +50,7 @@
         "final_score": "4-1",
         "top_pitching_line": "Kevin Gausman: 6.0 IP, 5 K, 0 ER, 0 BB, 4 H",
         "top_batting_line": "Vladimir Guerrero Jr.: 2 H, 1 HR, 1 RBI, 4 AB",
-        "summary": "The Toronto Blue Jays edged the Detroit Tigers 4-1, led by Vladimir Guerrero Jr.'s 2 hits, including a home run, and Kevin Gausman's 6 shutout innings.",
+        "summary": "The Toronto Blue Jays edged the Detroit Tigers 4-1 behind Kevin Gausman's 6 shutout innings and Vladimir Guerrero Jr.'s 2-hit, 1-home-run performance.",
         "impact_player": "Vladimir Guerrero Jr."
       },
       {
@@ -58,7 +58,7 @@
         "final_score": "6-7",
         "top_pitching_line": "Jake Bird: 0.2 IP, 1 K, 0 ER, 0 BB, 1 H",
         "top_batting_line": "Tyrone Taylor: 1 H, 1 HR, 3 RBI, 3 AB",
-        "summary": "The New York Mets edged the Yankees 7-6 behind Tyrone Taylor's 1 HR and 3 RBI, and a crucial fielder's choice by Carson Benge.",
+        "summary": "The New York Mets edged the Yankees 7-6, with Tyrone Taylor's 1 HR and 3 RBI leading the Mets' offense.",
         "impact_player": "Tyrone Taylor"
       },
       {
@@ -66,7 +66,7 @@
         "final_score": "8-0",
         "top_pitching_line": "Nathan Eovaldi: 7.0 IP, 8 K, 0 ER, 2 BB, 5 H",
         "top_batting_line": "Jake Burger: 2 H, 1 HR, 4 RBI, 4 AB",
-        "summary": "The Texas Rangers dominated the Houston Astros 8-0 behind Nathan Eovaldi's 7 shutout innings and Jake Burger's 4-RBI performance.",
+        "summary": "The Texas Rangers dominated the Houston Astros 8-0 behind Nathan Eovaldi's 7 shutout innings and Jake Burger's 2-for-4 performance with a home run and 4 RBIs.",
         "impact_player": "Jake Burger"
       },
       {
@@ -74,7 +74,7 @@
         "final_score": "8-9",
         "top_pitching_line": "Jacob Webb: 1.1 IP, 3 K, 0 ER, 0 BB, 1 H",
         "top_batting_line": "Edgar Quero: 3 H, 1 HR, 3 RBI, 5 AB",
-        "summary": "The Chicago White Sox edged the Cubs 9-8 behind Edgar Quero's 3-hit, 3-RBI performance, including a decisive home run.",
+        "summary": "The Chicago White Sox edged the Cubs 8-9, led by Edgar Quero's 3 hits, including a home run, and 3 RBIs.",
         "impact_player": "Edgar Quero"
       },
       {
@@ -82,7 +82,7 @@
         "final_score": "4-5",
         "top_pitching_line": "DL Hall: 1.1 IP, 2 K, 0 ER, 1 BB, 0 H",
         "top_batting_line": "Ryan Jeffers: 2 H, 1 HR, 1 RBI, 3 AB",
-        "summary": "The Minnesota Twins edged the Milwaukee Brewers 5-4, led by Ryan Jeffers' 2 hits, including a home run, and DL Hall's 1.1 scoreless innings.",
+        "summary": "The Minnesota Twins outlasted the Milwaukee Brewers 5-4, led by Ryan Jeffers' 2 hits, including a home run, and DL Hall's 1.1 scoreless innings.",
         "impact_player": "Ryan Jeffers"
       },
       {
@@ -90,7 +90,7 @@
         "final_score": "2-0",
         "top_pitching_line": "Andre Pallante: 6.2 IP, 7 K, 1 ER, 0 BB, 8 H",
         "top_batting_line": "Salvador Perez: 2 H, 1 HR, 2 RBI, 2 AB",
-        "summary": "The Kansas City Royals blanked the St. Louis Cardinals 2-0 behind Salvador Perez's 2 hits, including a 7th home run, and a strong outing from the opposing Andre Pallante.",
+        "summary": "The Kansas City Royals shut out the St. Louis Cardinals 2-0 behind Salvador Perez's 2-hit, 2-RBI performance, including his 7th home run.",
         "impact_player": "Salvador Perez"
       },
       {
@@ -98,7 +98,7 @@
         "final_score": "8-6",
         "top_pitching_line": "Michael Soroka: 5.2 IP, 8 K, 2 ER, 2 BB, 6 H",
         "top_batting_line": "Corbin Carroll: 2 H, 2 HR, 3 RBI, 4 AB",
-        "summary": "The Arizona Diamondbacks outlasted the Colorado Rockies 8-6, led by Corbin Carroll's 2 HR and 3 RBI, and Michael Soroka's 5.2 IP with 8 strikeouts.",
+        "summary": "The Arizona Diamondbacks outlasted the Colorado Rockies 8-6 behind Corbin Carroll's 2 HR and 3 RBI, and Michael Soroka's 5.2 IP with 8 strikeouts.",
         "impact_player": "Corbin Carroll"
       },
       {
@@ -106,7 +106,7 @@
         "final_score": "10-1",
         "top_pitching_line": "Sam Hentges: 1.0 IP, 2 K, 0 ER, 0 BB, 0 H",
         "top_batting_line": "Harrison Bader: 1 H, 1 HR, 4 RBI, 4 AB",
-        "summary": "The San Francisco Giants dominated the Athletics 10-1, led by Harrison Bader's grand slam and 4 RBIs in 4 at-bats.",
+        "summary": "The San Francisco Giants dominated the Athletics 10-1, led by Harrison Bader's grand slam and 4 RBIs, including a 4-run shot to right field.",
         "impact_player": "Harrison Bader"
       },
       {
@@ -122,7 +122,7 @@
         "final_score": "8-3",
         "top_pitching_line": "Bradgley Rodriguez: 2.0 IP, 3 K, 0 ER, 0 BB, 0 H",
         "top_batting_line": "Gavin Sheets: 3 H, 2 HR, 4 RBI, 3 AB",
-        "summary": "The San Diego Padres defeated the Seattle Mariners 8-3 behind Gavin Sheets' 3 hits, 2 home runs, and 4 RBIs, and Bradgley Rodriguez's 2 scoreless innings.",
+        "summary": "The San Diego Padres defeated the Seattle Mariners 8-3 behind Gavin Sheets' 3 hits, 2 home runs, and 4 RBIs, including a double that scored Fernando Tatis Jr.",
         "impact_player": "Gavin Sheets"
       }
     ],
